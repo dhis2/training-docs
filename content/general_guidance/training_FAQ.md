@@ -20,7 +20,7 @@ For a local training, you should use a copy ***of the same database they will be
 2. The WHO DQ App as well as indicator and data element groups that will be used to explore the metadata within the DQ app
 3. Validation Rules, Groups and Notifications
 
-These are just examples of what you might want to prepare as part of your configuration in relation to this topic. While there is generic databases available to show these concepts, they will be more recognizable for the learner when designing these to work on your own system and can be used as the basis for any training material you create or modify.
+These are just examples of what you might want to prepare as part of your configuration in relation to this topic. While there are generic databases available to show these concepts, they will be more recognizable for the learner when designing these to work on your own system and can be used as the basis for any training material you create or modify.
 
 ### Academies
 
