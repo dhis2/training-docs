@@ -7,7 +7,7 @@ This section discusses some of the considerations to make when performing capaci
 
 You can review of breakdown of these in Figure 1.
 
-![capacity_building_diagram](resources\images\capacity_building_diagram.png)
+![capacity_building_diagram](resources/images/capacity_building_diagram.png)
 
 
 In most scenarios when working with DHIS 2, the immediate impulse is to consider learning solutions; however this may not always yield the best outcome on its own. We will provide an explanation of both of these types of solutions as well as considerations that need to be made when implementing them.
