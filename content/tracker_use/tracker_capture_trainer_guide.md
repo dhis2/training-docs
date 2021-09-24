@@ -32,16 +32,14 @@ The overall objective of this session is to use the DHIS2 tracker capture app. D
 
 ## Time Requirements
 
-Live Demo: 1 hour
-
-Hands-on Exercises: 30 minutes
+Live Demo: 2 hours
 
 
 ## Background
 
 Tracker capture is a module for individual, itemized data collection.
 
-Tracker capture data entry is organised by program, which is the equivalent of patient registry or other similar data collection tool. As programs are entered on an individual basis, program based data is entered based on the report or enrollment date as defined by the programs requirements. Tracker capture by design is not anonymous in nature, and therefore person details are attached to each event.
+Tracker capture data entry is organised by program, which is the equivalent of patient registry or other similar data collection tools. As programs are entered on an individual basis, program based data is entered based on the report or enrollment date as defined by the programs requirements. Tracker capture by design is not anonymous in nature, and therefore person details are attached to each event.
 
 In this demo, the **COVID-19 (Vaccine Registry and Case-based surveillance)** demo programs that have been created will be used to demonstrate the features of tracker capture.
 
@@ -50,19 +48,19 @@ In this demo, the **COVID-19 (Vaccine Registry and Case-based surveillance)** de
 
 The COVID - 19 program is based on an in-country pilot of a tracker in Laos. 
 
-The case based surveillance programs enrolls and tracks the suspected case, captures symptoms, demographics, risk factors, and creates lab requests. 
+The case-based surveillance programs enrolls and tracks the suspected case, captures symptoms, demographics, risk factors, and creates lab requests. 
 
 
 ## Preparations
 
-It is always a good idea to run through the demo by yourself prior to presenting. Check that the ID’s are being generated..
+It is always a good idea to run through the demo by yourself prior to presenting. Check that the ID’s are being generated.
 
 
 ## Best Practices
 
-Before starting the demonstration, please keep in mind that the most important thing is that the audience is following, so make sure to ask questions to the audience to verify that they are following. If something is unclear, go back and go through it slowly. If you don’t have time for all the steps, it is better to cut some steps, than to go fast while nobody understands.
+Before starting the demonstration, please keep in mind that the most important thing is that the audience is following, so make sure to ask questions to the audience to verify that they are following. If something is unclear, go back and go through it slowly.
 
-If the participants are doing the demo with you at the same time, you can take time to go around the audience and help them if the academy is happening onsite. There should be a team of trainers doing this at all times as well. 
+If the participants are doing the demo with you at the same time, keep track of whether the they are keeping up with your pace.  
 
 It is a good idea to do a quick overview of the stages and program flow.
 
