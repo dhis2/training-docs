@@ -1,6 +1,27 @@
 
-# **Trainer’s guide to Tracker-Capture (Web-Based)**
+**Trainer’s guide to Tracker-Capture (Web-Based)**
 
+- [What is this guide?](#what-is-this-guide)
+- [Learning objectives for this session](#learning-objectives-for-this-session)
+  - [Time Requirements](#time-requirements)
+- [Background](#background)
+- [Preparations](#preparations)
+- [Best Practices](#best-practices)
+- [Quick Guide /Steps to be followed:](#quick-guide-steps-to-be-followed)
+- [Live Demo step by step](#live-demo-step-by-step)
+  - [Part 1: Explain the initial tracker capture interface and options](#part-1-explain-the-initial-tracker-capture-interface-and-options)
+  - [Part 2 : Registration](#part-2--registration)
+    - [Register a new TEI](#register-a-new-tei)
+  - [Part 3 : Describe the Tracker Dashboard](#part-3--describe-the-tracker-dashboard)
+  - [Part 4 : Data Entry Steps](#part-4--data-entry-steps)
+    - [Add a New Event](#add-a-new-event)
+    - [Review the Data Entry Widget](#review-the-data-entry-widget)
+    - [Compare the forms using the compare form button:](#compare-the-forms-using-the-compare-form-button)
+    - [Add a Relationship](#add-a-relationship)
+    - [Make a Referral](#make-a-referral)
+    - [Register an entity in another program](#register-an-entity-in-another-program)
+    - [Register a TEI with no Program](#register-a-tei-with-no-program)
+  - [Part 5 : Demonstrate Tracker Capture App Reports](#part-5--demonstrate-tracker-capture-app-reports)
 
 ## What is this guide?
 
@@ -188,7 +209,7 @@ Go to the registration page and see that the ID will be generated. These ID’s 
 [https://docs.dhis2.org/master/en/user/html/working-with-textpattern.html](https://docs.dhis2.org/master/en/user/html/working-with-textpattern.html)
 
 
-###  Register a new TEI
+#### Register a new TEI
 
 Click on “Register” to register a new TEI. You will then be faced with the Enrollment screen for the program. The enrollment screen lists all the attributes that are associated with the program. 
 
@@ -213,7 +234,7 @@ The details you entered during search will be brought over to the registration p
 
 After entering the details proceed to click on “Save and continue” in order to register the TEI. 
 
-### **Part 3 : Describe the Tracker Dashboard**
+### Part 3 : Describe the Tracker Dashboard
 
 
 ![image1.png](resources/images/image1.png "image_tooltip")
@@ -273,7 +294,7 @@ This is permission based, so not everyone will have the authority to perform thi
 
 9. **Report** - This is to provide a "journal" of the TEI per program. A report row is provided for each program the TEI is/was associated with.
 
-### ** Part 4 : Data Entry Steps **
+### Part 4 : Data Entry Steps
 
 Select the Date and fill out the data. When selecting which data elements look out for the total doses and  suggested dose for the next dose. This is a result of using program rules which have been defined to allow for these to be hidden upon the appropriate selection of another data element value. When you have entered some data, click on “Complete.”
 
@@ -298,11 +319,11 @@ After you complete , you can schedule another event. In this scenario the system
 
 When you are done click on complete. Schedule a new event and go back or click on “Complete and exit.”
 
-###  Add a New Event
+#### Add a New Event
 
 In order to add a new event, click on the “Add new” button in the data entry widget. 
 
-### Review the Data Entry Widget
+#### Review the Data Entry Widget
 
 ![image18.png](resources/images/image18.png "image_tooltip")
 
@@ -317,7 +338,7 @@ From the screenshot above, we can see a number of different items within the dat
 * **Data Entry Area :** This is where the actual data related to a specified program stage is entered. This can differ between program stages, and as you will demo, program rules can also cause this to vary within a repeatable stage.
 
 
-### Compare the forms using the compare form button:
+#### Compare the forms using the compare form button:
 
 
 After you have at least registered 2 events, use the compare form button to compare the events within the program
@@ -325,7 +346,7 @@ After you have at least registered 2 events, use the compare form button to comp
 
 ![image28.png](resources/images/image28.png "image_tooltip")
 
-### Add a Relationship
+#### Add a Relationship
 
 To add a new relationship, click the “Add” button on the relationships widget.
 
@@ -356,7 +377,7 @@ The relationship will then be added to the relationship widget. If you click on 
 ![image29.png](resources/images/image29.png "image_tooltip")
 
 
-### Make a Referral
+#### Make a Referral
 
 ![image2.png](resources/images/image2.png "image_tooltip")
 
@@ -368,14 +389,14 @@ The relationship will then be added to the relationship widget. If you click on 
 
 ![image30.png](resources/images/image30.png "image_tooltip")
 
-###  Register an entity in another program
+####  Register an entity in another program
 
 * Show that TEIs can be registered in more than one program. This allows you to take the attribute information that already exists and re-use it. Additionally, you will now have a historical link of all of the different services that a unique individual has received.
 
 ![image25.png](resources/images/image25.png "image_tooltip")
 
 
-###  Register a TEI with no Program
+#### Register a TEI with no Program
 
 * A TEI can also be registered without selecting a program. De-select the Vaccination program so that the program selection field is blank. Select the person TEI type and click on “Register". Enter the details and Select “Save and continue".
 
@@ -392,7 +413,7 @@ The relationship will then be added to the relationship widget. If you click on 
 
 After you are done, go back to the front page of the tracker capture app.
 
-### **Demonstrate Tracker Capture App Reports**
+### Part 5 : Demonstrate Tracker Capture App Reports
 
 Access tracker capture reports by selecting “Reports” from the front page of the tracker capture app.
 
