@@ -30,75 +30,87 @@ The overall objective of this session is to use the DHIS2 tracker capture app. D
 * See how skip-logic can be used in a tracker program
 
 
-## Time Requirements
+### Time Requirements
 
-Live Demo: 2 hours
+Live Demo: 1 hour
+
+Hands-on Exercises: 30 minutes
 
 
 ## Background
 
 Tracker capture is a module for individual, itemized data collection.
 
-Tracker capture data entry is organised by program, which is the equivalent of patient registry or other similar data collection tools. As programs are entered on an individual basis, program based data is entered based on the report or enrollment date as defined by the programs requirements. Tracker capture by design is not anonymous in nature, and therefore person details are attached to each event.
+Tracker capture data entry is organised by program, which is the equivalent of patient registry or other similar data collection tool. As programs are entered on an individual basis, program based data is entered based on the report or enrollment date as defined by the programs requirements. Tracker capture by design is not anonymous in nature, and therefore person details are attached to each event.
 
 In this demo, the **COVID-19 (Vaccine Registry and Case-based surveillance)** demo programs that have been created will be used to demonstrate the features of tracker capture.
 
-
-## **COVID-19 (Vaccine Registry and Case-based surveillance)**
-
-The COVID - 19 program is based on an in-country pilot of a tracker in Laos. 
-
-The case-based surveillance programs enrolls and tracks the suspected case, captures symptoms, demographics, risk factors, and creates lab requests. 
+**COVID-19 (Vaccine Registry and Case-based surveillance)** The COVID - 19 program is based on an in-country pilot of a tracker in Laos. The case based surveillance programs enrolls and tracks the suspected case, captures symptoms, demographics, risk factors, and creates lab requests. 
 
 
 ## Preparations
 
-It is always a good idea to run through the demo by yourself prior to presenting. Check that the ID’s are being generated.
+It is always a good idea to run through the demo by yourself prior to presenting. Check that the ID’s are being generated..
 
 
 ## Best Practices
 
-Before starting the demonstration, please keep in mind that the most important thing is that the audience is following, so make sure to ask questions to the audience to verify that they are following. If something is unclear, go back and go through it slowly.
-
-If the participants are doing the demo with you at the same time, keep track of whether the they are keeping up with your pace.  
-
-It is a good idea to do a quick overview of the stages and program flow.
-
-
-## Quick Guide
+    Before starting the demonstration, please keep in mind that the most important thing is that the audience is following, so make sure to ask questions to the audience to verify that they are following. If something is unclear, go back and go through it slowly. If you don’t have time for all the steps, it is better to cut some steps, than to go fast while nobody understands. 
+    
+    If the participants are doing the demo with you at the same time, you can take time to go around the audience and help them if the academy is happening onsite. There should be a team of trainers doing this at all times as well. 
+    
+    It is a good idea to do a quick overview of the stages and program flow.
 
 
+## Quick Guide /Steps to be followed:
 
-1. **Go over the Vaccine Registry Program used in this tracker program to demonstrate the participants the data capture for a program with repeatable stages.**
-2. **Open Tracker Capture and navigate to CHW Mahosot. Select the Vaccine Registry Program as the tracker program.**
-3. **Explain the tracker capture interface and options including:**
+Go over the Vaccine Registry Program used in this tracker program to demonstrate the participants the data capture for a program with repeatable stages.
+
+1. Open **Tracker Capture** and navigate to CHW Mahosot. Select the Vaccine Registry Program as the tracker program.
+
+2. Explain the **tracker capture interface** and options including:
     1. The main page listing the tracked entities
     2. Filters, sorting, adding columns, downloading the TEI list
     3. System generated UIDs
-4. **Register a TEI. You can start with a duplicate record that already exists (Sharon) in order to show the process of identifying duplicates. In this case, since she already exists there is no need to register her. You can go to her tracker dashboard instead to review her completed events.**
-5. **Now search for a person that is not registered in the system. Proceed to register them. Note that it will bring in the attributes filled during the search over to the registration page so you do not need to fill in these details again.**
-6. **Ensuring that the date chosen for the vaccine of the person being registered in the system  for the vaccine.**
-7. **Describe the features of the tracker dashboard including:**
+
+3. **Register a TEI** : You can start with a duplicate record that already exists (Sharon) in order to show the process of identifying duplicates. In this case, since she already exists there is no need to register her. You can go to her tracker dashboard instead to review her completed events.
+
+4. Now search for a person that is not registered in the system. Proceed to register them.  **Note** that it will bring in the attributes filled during the search over to the registration page so you do not need to fill in these details again.
+
+5. Ensuring that the date chosen for the vaccine of the person being registered in the system  for the vaccine.
+
+6. Describe the features of the tracker dashboard including:
     1. The buttons at the top of the page
     2. Widgets and their descriptions
     3. Persistent top bar
-8. **Add and explain a relationship**
-9. **Add a new event and review the data entry widget including:**
-    1. Legend, Audit History, Compare Forms, Buttons to add/schedule new events, the program stage and data entry areas
-10. **Complete data entry for one stage while describing that there are rules and warnings in place for the vaccination and other underlying conditions.**
-11. **Complete the event and schedule another event for the next vaccine dose.The system will generate a second dose vaccine dose date depending upon the selection of vaccine.**
-12. **Define the date of services given to be the same as the scheduled date and review the data entry form again.**
-13. **Compare the events using the compare form button**
-14. **Create a referral for a new event to another facility and explain what happens as part of this process. Go to the new facility to see the record there.**
-15. **Enroll the entity in another program to show that this can occur**
-16. **Search for a TEI with no program using the person TE type. The attributes that appear here are defined by the user.**
-17. **Register a TEI with no program, then subsequently enroll them in the immunization program.**
 
+7. Add **Relationsip** and explain.
+
+8. Add a **new event** and review the data entry widget including -
+    1. Legend, Audit History, Compare Forms, Buttons to add/schedule new events, the program stage and data entry areas
+
+9. Complete data entry for one stage while describing that there are rules and warnings in place for the vaccination and other underlying conditions.
+
+10. Complete the event and schedule another event for the next vaccine dose.The system will generate a second dose vaccine dose date depending upon the selection of vaccine.
+
+11. Define the **date of services given** to be the same as the scheduled date and review the data entry form again.
+
+12. Compare the events using the **compare form button**.
+
+13. Create a **Referral** for a new event to another facility and explain what happens as part of this process. Go to the **new facility** to see the record there.
+
+14. Enroll the entity in another program to show that this can occur.
+
+15. **Search for a TEI** with no program using the person TE type. The attributes that appear here are defined by the user.
+
+16. Register a TEI with no program, then subsequently enroll them in the immunization program.
 
 ## Live Demo step by step
 
-**COVAC - COVID-19 Vaccine Registry Overview**
+### Part 1: Explain the initial tracker capture interface and options 
 
+
+**COVAC - COVID-19 Vaccine Registry Overview**
 
 1. Open Tracker Capture from the Apps menu
 
@@ -120,11 +132,12 @@ The **''COVAC - COVID - 19 Vaccine Registry tracker program''** is linked to any
 
 Only programs relevant (allocated) to the selected org unit and user will show up in the Program drop down list. If the COVAC - COVID -19 Vaccination Registry is not already selected, make sure to select it from the program list under the “Tracker Capture” heading. 
 
+![image15.png](resources/images/image15.png "image_tooltip")
+
+**Note** : that any person that is already registered will be displayed in a tabular fashion, with each row corresponding to a single record in the “All Clients” tab.
 
 ![image19.png](resources/images/image19.png "image_tooltip")
 
-
-**Note** : that any person that is already registered will be displayed in a tabular fashion, with each row corresponding to a single record in the “All Clients” tab.
 
 Clients with a scheduled visit will be seen under the first tab “ Clients with a Schedule Visit”
 
@@ -134,19 +147,15 @@ If you go to the “**Case based Surveillance**” program you will see the list
 
 ![image12.png](resources/images/image12.png "image_tooltip")
 
+**After you have explained the interface options, proceed to register a TEI into the program.**
 
+### Part 2 : Registration
 
-
-###  Explain the initial tracker capture interface and options
-
-**Register a TEI:** During registration, it is possible to stay on the same page and keep registering more than one entity. You can also go straight to the dashboard of the registered TEI. Selecting a program and doing registration also performs enrollment into the program at the background. If a TEI is registered without a program, then enrollment is possible from the TEI dashboard. Both skip-logic and validation error/warning messages are supported during registration.
+**Register a TEI :** During registration, it is possible to stay on the same page and keep registering more than one entity. You can also go straight to the dashboard of the registered TEI. Selecting a program and doing registration also performs enrollment into the program at the background. If a TEI is registered without a program, then enrollment is possible from the TEI dashboard. Both skip-logic and validation error/warning messages are supported during registration.
 
 ![image34.png](resources/images/image34.png "image_tooltip")
 
-
 **Enrollment status filters:** If a program is selected, the app provides further filtering on the table based on enrollment status. This is displayed in the following order:
-
-
 
 * Any enrollment status
 * Only those with active enrollment
@@ -155,7 +164,7 @@ If you go to the “**Case based Surveillance**” program you will see the list
 
 ![image33.png](resources/images/image33.png "image_tooltip")
 
-**Custom Working List:**This allows you to apply a custom filter to the list of TEI’s that are displayed.
+**Custom Working List :** This allows you to apply a custom filter to the list of TEI’s that are displayed.
 
 ![image23.png](resources/images/image23.png "image_tooltip")
 
@@ -174,22 +183,19 @@ System generated ID’s can follow patterns that are defined by the user. This e
 
 ![image22.png](resources/images/image22.png "image_tooltip")
 
-Go to the registration page and see that the ID will be generated
-
-These ID’s can be a bit dynamic depending on the pattern that is defined to generate them. You can use inputs such as the date (used in this example), org unit codes, etc. The best resource to learn more is here:
+Go to the registration page and see that the ID will be generated. These ID’s can be a bit dynamic depending on the pattern that is defined to generate them. You can use inputs such as the date (used in this example), org unit codes, etc. The best resource to learn more is here:
 
 [https://docs.dhis2.org/master/en/user/html/working-with-textpattern.html](https://docs.dhis2.org/master/en/user/html/working-with-textpattern.html)
 
-**After you have explained the interface options, proceed to register a TEI into the program.**
 
+###  Register a new TEI
 
-###  Register a TEI
+Click on “Register” to register a new TEI. You will then be faced with the Enrollment screen for the program. The enrollment screen lists all the attributes that are associated with the program. 
 
-Click on “Register” to register a new TEI. You will then be faced with the Enrollment screen for the program. The enrollment screen lists all the attributes that are associated with the program. In later sessions, you will go over the terminology in more detail so just focus on describing the interface and actions for now. Enter a TEI that already exists (**_Sharon_**) in the system. You will be notified that a possible duplicate has already been found.
+In later sessions, you will go over the terminology in more detail so just focus on describing the interface and actions for now. Enter a TEI that already exists (**_Sharon_**) in the system. You will be notified that a possible duplicate has already been found.
 
 
 ![image32.png](resources/images/image32.png "image_tooltip")
-
 
 If you think this is not a duplicate case you can back out of the duplicate screen.
 
@@ -197,10 +203,9 @@ Fill in additional details and try to register. It will once again give you the 
 
 ![image8.png](resources/images/image8.png "image_tooltip")
 
-
 Click on Register new person when the record is not found.
 
-**NB:** This is a critical part of using a tracker and is meant to reduce the number of duplicate registries in the system. It should be emphasized that, when using tracker programs, we always emphasize searching for existing cases prior to registering new ones.
+**Note :** This is a critical part of using a tracker and is meant to reduce the number of duplicate registries in the system. It should be emphasized that, when using tracker programs, we always emphasize searching for existing cases prior to registering new ones.
 
 The details you entered during search will be brought over to the registration page so you do not need to enter them again. You can fill in the remaining fields in order to register the person. 
 
@@ -208,8 +213,7 @@ The details you entered during search will be brought over to the registration p
 
 After entering the details proceed to click on “Save and continue” in order to register the TEI. 
 
-
-### Describe the Tracker Dashboard
+### **Part 3 : Describe the Tracker Dashboard**
 
 
 ![image1.png](resources/images/image1.png "image_tooltip")
@@ -217,30 +221,24 @@ After entering the details proceed to click on “Save and continue” in order 
 
 The dashboard starts with 5 items at the top:
 
-
-
 1. **Back button** - this helps to go back to the search and registration page
 2. **Persistent top bar** - this is configurable by the user and can include different aspects from the program. You can show them how to edit what appears in the top bar
 3. **Previous and Next buttons** - these are buttons to access the previous/next TEI details
 4. **Program selection menu** - this is to dictate what kind of data to record and track for the selected TEI. This also affects the contents of the widgets.
 5. **Small Pin icon at the right corner** - this allows to pin (or stick) the right side of the widgets. This is useful especially during data entry. If for example there are many data elements or big forms to fill, sticking the right side helps to remain visible while scrolling the data entry part.
-6. **a small gear icon at the right corner** - Clicking on the gear icon allows you to perform several different actions. Explain these different actions along with the different widget types that are available.  
+6. **Small gear icon at the right corner** - Clicking on the gear icon allows you to perform several different actions. Explain these different actions along with the different widget types that are available.  
 
 
 ![image41.png](resources/images/image41.png "image_tooltip")
 
-
-
-1. **Show/hide widgets :**  this helps to control which widgets to display. There are nine widgets available to display. The widgets are collapsible, responsive and draggable - this helps to acquire optimal view area as per user needs. Widget (re)arrangements are saved automatically per user per program.
-
+* **Show/hide widgets:** this helps to control which widgets to display. There are nine widgets available to display. The widgets are collapsible, responsive and draggable - this helps to acquire optimal view area as per user needs. Widget (re)arrangements are saved automatically per user per program.
 
 
 ![image36.png](resources/images/image36.png "image_tooltip")
 
+* **Save dashboard layout as default:**   widgets arrangement is saved automatically every time a widget's position or state (expand/collapse) is changed. However, for the entire layout to be considered a default layout for the selected program it is required to explicitly save as "Default layout".
 
-2. **Save dashboard layout as default :**  widgets arrangement is saved automatically every time a widget's position or state (expand/collapse) is changed. However, for the entire layout to be considered a default layout for the selected program it is required to explicitly save as "Default layout".
-
-3. **Top bar settings :** allow you to modify the top bar options
+* **Top bar settings :** allow you to modify the top bar options.
 
 ![image40.png](resources/images/image40.png "image_tooltip")
 
@@ -249,19 +247,20 @@ After you modify it, you should see the persistent top bar present. This should 
 
 ![image10.png](resources/images/image10.png "image_tooltip")
 
-4. **Lock layout for all users :** This is only for system admins. They can create a default layout in which all users will see in the tracker dashboard. When this is enabled non-system admins will not be able to alter the layout or add/remove widgets from the dashboard.
-5. **Red icon at the right corner :** this allows to delete or deactivate the record.Clicking on the red icon allows you to following 2 functions:
+* **Lock layout for all users :** This is only for system admins. They can create a default layout in which all users will see in the tracker dashboard. When this is enabled non-system admins will not be able to alter the layout or add/remove widgets from the dashboard.
+
+7. **Red icon at the right corner :** this allows to delete or deactivate the record.Clicking on the red icon allows you to following 2 functions:
 
 
 ![image20.png](resources/images/image20.png "image_tooltip")
 
-**1. Delete Person (or TEI)** - This deletes the TEI and all the data associated with TEI
+* **Delete Person (or TEI)** - This deletes the TEI and all the data associated with TEI
 
-**2. Deactivate Person (Set TEI to active/inactive)** - this has nothing to do with widgets or the dashboard but it helps to set the status of dashboard owner (the TEI) to either active or inactive. If a TEI is set to inactive, only read operations are allowed - no data entry, no profile editing, no enrollment.
+* **Deactivate Person (Set TEI to active/inactive)** - this has nothing to do with widgets or the dashboard but it helps to set the status of dashboard owner (the TEI) to either active or inactive. If a TEI is set to inactive, only read operations are allowed - no data entry, no profile editing, no enrollment.
 
 This is permission based, so not everyone will have the authority to perform this function.
 
-#### Widget Descriptions
+**Widget Descriptions**
 
 1. **Data Entry** - This is for doing data entry using either default or custom forms. Depending on program definition, in particular program stages, events will be displayed in a timely fashion. Clicking on any of them displays the corresponding data entry. If a stage needs a new event, a plus icon is displayed for new event creation. To proceed with data entry, it is mandatory to have an event date. Once an event date is specified it is not possible to change the due date. The assumption is that by specifying the event date, the event has already taken place. If the event hasn't occurred yet, it is possible to change the due date - this is effectively doing nothing but rescheduling. The buttons at the bottom help to change the status of a selected event. Another key feature from this widget is the addition of multiple notes for an event. Normally data recording is through data elements, however there are cases where it is necessary to record additional information or comments. This is where the notes section comes handy. However, an interesting feature here is - it is not possible to delete a note. The idea is that notes are more like log books. Both skip-logic and validation error/warning messages are supported during data entry.
 2. **Enrollment** - This helps to enroll the TEI for the selected program. If an active enrollment already exists, the widget automatically displays it with some details about it. The widget also helps to do some operations on the selected enrollment - for example complete / cancel or a possibility to mark the enrollment for followup. The later one helps for example to deal with high-risk cases during case follow-up. A link to history is also provided if the TEI has historical enrollment.
@@ -274,39 +273,30 @@ This is permission based, so not everyone will have the authority to perform thi
 
 9. **Report** - This is to provide a "journal" of the TEI per program. A report row is provided for each program the TEI is/was associated with.
 
+### ** Part 4 : Data Entry Steps **
 
-### Add a Relationship
+Select the Date and fill out the data. When selecting which data elements look out for the total doses and  suggested dose for the next dose. This is a result of using program rules which have been defined to allow for these to be hidden upon the appropriate selection of another data element value. When you have entered some data, click on “Complete.”
 
-To add a new relationship, click the “Add” button on the relationships widget.
-
-![image21.png](resources/images/image21.png "image_tooltip")
-
-Select the relationship type. In this case, you will contact relationship with case based surveillance program 
-
-![image6.png](resources/images/image6.png "image_tooltip")
+![image26.png](resources/images/image26.png "image_tooltip")
 
 
-On the left side you will see the information relating to the TEI that you are registering. On the right side you will see other TEI’s that are registered. 
+A prompt will ask you if you are sure you want to complete the event.
 
-![image39.png](resources/images/image39.png "image_tooltip")
+![image27.png](resources/images/image27.png "image_tooltip")
 
-You can select the program and use search to filter TEI’s. You may have, for example, a contact relationship with COVID - 19 affected patients.
-
-![image24.png](resources/images/image24.png "image_tooltip")
+Also it will show you warnings based on the data value entered in the form.
 
 
-Select the TEI. It will bring up their details. Click on “Save” to save the relationship.
+After you complete , you can schedule another event. In this scenario the system will automatically schedule a new event based on the next dose date suggested through program rule on the basis of duration and type of dose. This will bring up a new window in which you can select the program stage (there is only one repeatable program stage in this particular example) as well as the “incident date” which has been defined as the “Date of services given” for this program. **_It is a good idea to schedule the “Date of services given” to be the same as the next date of vaccination which comes from the date of first dose given_**. This is all to take advantage of the program rules that are in place to allow for different vaccines to appear based on the schedule defined previously. When you have selected the right details, click on “Save.”
 
 
-![image3.png](resources/images/image3.png "image_tooltip")
+![image38.png](resources/images/image38.png "image_tooltip")
 
+**Note** when you have a scheduled event, the color changes. This event is “Overdue” because it was scheduled in the past. Here we can reschedule the due date if required. n a real situation, this may not also match the due date, but for this example let us keep it the same to demo the program rules.
 
-The relationship will then be added to the relationship widget. If you click on the TEI in the relationship widget, it will take you directly to their dashboard.
+![image14.png](resources/images/image14.png "image_tooltip")
 
-
-![image29.png](resources/images/image29.png "image_tooltip")
-
-
+When you are done click on complete. Schedule a new event and go back or click on “Complete and exit.”
 
 ###  Add a New Event
 
@@ -327,36 +317,43 @@ From the screenshot above, we can see a number of different items within the dat
 * **Data Entry Area :** This is where the actual data related to a specified program stage is entered. This can differ between program stages, and as you will demo, program rules can also cause this to vary within a repeatable stage.
 
 
-### Complete Data Entry for one stage and add another
+### Compare the forms using the compare form button:
 
-When selecting which data elements look out for the total doses and  suggested dose for the next dose. This is a result of using program rules which have been defined to allow for these to be hidden upon the appropriate selection of another data element value. When you have entered some data, click on “Complete.”
-
-![image26.png](resources/images/image26.png "image_tooltip")
-
-
-A prompt will ask you if you are sure you want to complete the event.
-
-![image27.png](resources/images/image27.png "image_tooltip")
-
-Also it will show you warnings based on the data value entered in the form.
-
-After you complete , you can schedule another event. In this scenario the system will automatically schedule a new event based on the next dose date suggested through program rule on the basis of duration and type of dose. This will bring up a new window in which you can select the program stage (there is only one repeatable program stage in this particular example) as well as the “incident date” which has been defined as the “Date of services given” for this program. **_It is a good idea to schedule the “Date of services given” to be the same as the next date of vaccination which comes from the date of first dose given_**. This is all to take advantage of the program rules that are in place to allow for different vaccines to appear based on the schedule defined previously. When you have selected the right details, click on “Save.”
-
-
-![image38.png](resources/images/image38.png "image_tooltip")
-
-**Note** when you have a scheduled event, the color changes. This event is “Overdue” because it was scheduled in the past. Here we can reschedule the due date if required. n a real situation, this may not also match the due date, but for this example let us keep it the same to demo the program rules.
-
-![image14.png](resources/images/image14.png "image_tooltip")
-
-### Compare the forms using the compare form button
 
 After you have at least registered 2 events, use the compare form button to compare the events within the program
 
 
 ![image28.png](resources/images/image28.png "image_tooltip")
 
-When you are done click on complete. Schedule a new event and go back or click on “Complete and exit.” 
+### Add a Relationship
+
+To add a new relationship, click the “Add” button on the relationships widget.
+
+![image21.png](resources/images/image21.png "image_tooltip")
+
+Select the relationship type. In this case, you will contact relationship with case based surveillance program 
+
+![image6.png](resources/images/image6.png "image_tooltip")
+
+
+On the left side you will see the information relating to the TEI that you are registering. On the right side you will see other TEI’s that are registered. 
+
+![image39.png](resources/images/image39.png "image_tooltip")
+
+You can select the program and use search to filter TEI’s. You may have, for example, a contact relationship with COVID - 19 affected patients.
+
+![image24.png](resources/images/image24.png "image_tooltip")
+
+Select the TEI. It will bring up their details. Click on “Save” to save the relationship.
+
+
+![image3.png](resources/images/image3.png "image_tooltip")
+
+
+The relationship will then be added to the relationship widget. If you click on the TEI in the relationship widget, it will take you directly to their dashboard.
+
+
+![image29.png](resources/images/image29.png "image_tooltip")
 
 
 ### Make a Referral
@@ -364,37 +361,38 @@ When you are done click on complete. Schedule a new event and go back or click o
 ![image2.png](resources/images/image2.png "image_tooltip")
 
 
-Search and select the record to view it in the new facility
+* Search and select the record to view it in the new facility.
+* Select the facility and click on Save options.
+* Explain different referral options.
 
 
 ![image30.png](resources/images/image30.png "image_tooltip")
 
 ###  Register an entity in another program
 
-Show that TEIs can be registered in more than one program. This allows you to take the attribute information that already exists and re-use it. Additionally, you will now have a historical link of all of the different services that a unique individual has received.
+* Show that TEIs can be registered in more than one program. This allows you to take the attribute information that already exists and re-use it. Additionally, you will now have a historical link of all of the different services that a unique individual has received.
 
 ![image25.png](resources/images/image25.png "image_tooltip")
 
 
-
 ###  Register a TEI with no Program
 
-A TEI can also be registered without selecting a program. De-select the Vaccination program so that the program selection field is blank. Select the person TEI type and click on “Register.” Enter the details and Select “Save and continue.”
+* A TEI can also be registered without selecting a program. De-select the Vaccination program so that the program selection field is blank. Select the person TEI type and click on “Register". Enter the details and Select “Save and continue".
 
 
 ![image7.png](resources/images/image7.png "image_tooltip")
 
-Upon entering the dashboard, you will see that there is a prompt to select a program for enrollment. 
+* Upon entering the dashboard, you will see that there is a prompt to select a program for enrollment. 
 
 ![image37.png](resources/images/image37.png "image_tooltip")
 
-Select the COVID - 19 case based Surveillance  and click on “Add new.” The attributes for the program will appear. You can fill them out to register the person into the  program. Using the program selector, TEI’s can be registered in multiple programs directly from the dashboard. 
+* Select the COVID - 19 case based Surveillance  and click on “Add new.” The attributes for the program will appear. You can fill them out to register the person into the  program. Using the program selector, TEI’s can be registered in multiple programs directly from the dashboard. 
 
 ![image5.png](resources/images/image5.png "image_tooltip")
 
 After you are done, go back to the front page of the tracker capture app.
 
-### Demonstrate Tracker Capture App Reports
+### **Demonstrate Tracker Capture App Reports**
 
 Access tracker capture reports by selecting “Reports” from the front page of the tracker capture app.
 
