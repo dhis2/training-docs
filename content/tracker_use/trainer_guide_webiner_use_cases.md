@@ -10,9 +10,11 @@ This session follows the approach of delivering shorter academy sessions that ca
 
 This session should be held over no more then 2 hours.
 
-Presentations should be no more than 20 minutes in length. You should prepare for 10 mins of questions and answers regarding each use case within the session.
+Presentations should be no more than 15 minutes in length (and can be shorter if the presenter identifies as such). You should prepare for 10 mins of questions and answers regarding each use case within the session.
 
 You do not need to fill all 2 hours. If you find you are only able to schedule 3-4 use cases as an example, you may end the webinar after the allotted time accordingly.
+
+Make sure you communicate this with the individuals giving presentations during the use-case session so they are prepared to stick to the maximum time allotted.
 
 ## Background
 
