@@ -163,7 +163,7 @@ Only programs relevant (allocated) to the selected org unit and user will show u
 
 Clients with a scheduled visit will be seen under the first tab “ Clients with a Schedule Visit”
 
-The above tabs are configured at the api level for this program.
+The above tabs are configured at the API level for this program.
 
 If you go to the “**Case based Surveillance**” program you will see the list below which is coming through the attribute display list option.
 
@@ -271,7 +271,7 @@ After you modify it, you should see the persistent top bar present. This should 
 
 * **Lock layout for all users :** This is only for system admins. They can create a default layout in which all users will see in the tracker dashboard. When this is enabled non-system admins will not be able to alter the layout or add/remove widgets from the dashboard.
 
-7. **Red icon at the right corner :** this allows to delete or deactivate the record.Clicking on the red icon allows you to following 2 functions:
+1. **Red icon at the right corner :** this allows to delete or deactivate the record.Clicking on the red icon allows you to following 2 functions:
 
 
 ![image20.png](resources/images/tracker_capture_web/image20.png "image_tooltip")
