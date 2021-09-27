@@ -25,9 +25,10 @@
 
 ## What is this guide?
 
-This guide is a support document for DHIS2 Academy trainers for the session “Demonstrating and using tracker capture (Web).” 
+This guide is a support document for DHIS2 Academy trainers for the session “Demonstrating and using tracker capture (Web).”
 
-This session follows the standard Academy training approach with 
+This session follows the standard Academy training approach with: 
+ 
 1) A live demo session where the trainer demonstrates and explains the features, and 
 
 2) A hands-­on session with exercises where participants get to practice the same features.
