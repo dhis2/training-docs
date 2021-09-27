@@ -278,6 +278,6 @@ Allow the participants to create the program, fill in the program details and sa
 
 ### Step 10b Fill in the enrollment details page
 
-Open the program you have saved by selecting it from program maintenance and select the “Enrollment details” tab from the top bar. Here you may want to refer to the [documentation](https://docs.dhis2.org/en/use/user-guides/dhis-core-version-236/configuring-the-system/programs.html#configure_tracker_program_in_Maintenance_app) again if people are interested in understanding what each fields represents on this page. 
+Open the program you have saved by selecting it from program maintenance and select the “Enrollment details” tab from the top bar. Here you may want to refer to the [documentation](https://docs.dhis2.org/en/use/user-guides/dhis-core-version-236/configuring-the-system/programs.html#configure_tracker_program_in_Maintenance_app) again if people are interested in understanding what each fields represents on this page.
 
 For this program, disable the incident date as it is not required and add in a description of the enrollment date. 
