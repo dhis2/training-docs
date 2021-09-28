@@ -1,4 +1,4 @@
-**Learner’s Guide to Tracker Capture
+**Learners Guide to Tracker Capture**
 
 
 # **What is this guide?**
