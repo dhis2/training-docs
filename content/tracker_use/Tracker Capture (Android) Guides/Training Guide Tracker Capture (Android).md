@@ -133,7 +133,7 @@ Username: android1
 
 Password: District1#
 
-![image-20211001130154619](/Users/sandre_sd/Library/Application Support/typora-user-images/image-20211001130154619.png)	
+![image-20211001130154619](../resources/images/Tracker_Android/image-20211001130154619.png)
 
 ### Review the interface
 
