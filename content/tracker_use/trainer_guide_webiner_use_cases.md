@@ -50,3 +50,5 @@ If presenters are having difficulty identifying what to include in their present
 7. Describe any custom modifications (apps, custom forms, custom reports, etc.) that were required to meet the use case requirements
 8. Discuss the challenges (and mitigation measures if any were taken) in implementing this use case
 9. Wrap the presentation up with a way forward for the current use-case
+
+This is available within the guideline for presentations that can be shared with participants as well.
