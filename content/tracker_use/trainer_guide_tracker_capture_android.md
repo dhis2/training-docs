@@ -83,7 +83,7 @@ Make sure that you have the app made for training purposes otherwise you will no
 
 This will be denoted by “training” at the end of the APK file.
 
-![image-20211001125252307](../resources/images/tracker_capture_android/image-20211001125252307.png)	
+![image-20211001125252307](../resources/images/Tracker_Android/image-20211001125252307.png)	
 
 ### **Participants**
 
@@ -133,13 +133,13 @@ Username: android1
 
 Password: District1#
 
-![image-20211001130154619](../resources/images/tracker_capture_android/image-20211001130154619.png)	
+![image-20211001130154619](../resources/images/Tracker_Android/image-20211001130154619.png)	
 
 ### Review the interface
 
 Note that its Surveillance tracker programs for the COVID-19 modules 
 
-![image-20211001130319574](../resources/images/tracker_capture_android/image-20211001130319574.png)	
+![image-20211001130319574](../resources/images/Tracker_Android/image-20211001130319574.png)	
 
 ### Select the Case-base Surveillance program
 
@@ -147,29 +147,29 @@ Select this program. It will take you to a very different interface when compare
 
  Click on the help button and allow the text to run, it gives some explanation of the interface which you can explain again.
 
-![image-20211001130425608](../resources/images/tracker_capture_android/image-20211001130425608.png)	
+![image-20211001130425608](../resources/images/Tracker_Android/image-20211001130425608.png)	
 
 ### Search for an individual that already exists
 
 Search for an individual which already exists (in this example John Doe is used as he has a complete record). 
 
-![image-20211001130454181](../resources/images/tracker_capture_android/image-20211001130454181.png)	
+![image-20211001130454181](../resources/images/Tracker_Android/image-20211001130454181.png)	
 
 Open his record. You will see all the events associated with the case within the case-base surveillance program, starting with the most recent event. 
 
  There are 4 tabs when you open the interface. You can discuss what each tab is and how it relates to what would normally be seen on tracker capture (web). 
 
-![image-20211001131642236](../resources/images/tracker_capture_android/image-20211001131642236.png)	
+![image-20211001131642236](../resources/images/Tracker_Android/image-20211001131642236.png)	
 
 You can use the “See details button to show (and edit if access allows) all of the attribute information related to the individual. Go back and review the event list.
 
-![image-20211001131729368](../resources/images/tracker_capture_android/image-20211001131729368.png)	
+![image-20211001131729368](../resources/images/Tracker_Android/image-20211001131729368.png)	
 
 The first stage event on the list is therefore when he would have visited the health facility. 
 
 Select any of the events to show this in practice.
 
-![image-20211001131843454](../resources/images/tracker_capture_android/image-20211001131843454.png)	
+![image-20211001131843454](../resources/images/Tracker_Android/image-20211001131843454.png)	
 
 Exit the record to proceed.
 
@@ -179,27 +179,27 @@ As the help text noted, in order to register someone, you first must search to s
 
  Click on the plus sign than select an org unit in which to register the case into. 
 
-![image-20211001132003078](../resources/images/tracker_capture_android/image-20211001132003078.png)	
+![image-20211001132003078](../resources/images/Tracker_Android/image-20211001132003078.png)	
 
 After selecting the org unit, select the registration date.
 
-![image-20211001132142286](../resources/images/tracker_capture_android/image-20211001132142286.png)	
+![image-20211001132142286](../resources/images/Tracker_Android/image-20211001132142286.png)	
 
 You will then be prompted to confirm the details which you can than save.
 
-![image-20211001132209804](../resources/images/tracker_capture_android/image-20211001132209804.png)	
+![image-20211001132209804](../resources/images/Tracker_Android/image-20211001132209804.png)	
 
 This will take you to their dashboard on the device which has the Information that is referred to the first stage Make sure to update the Date of consultation to few weeks or days from the current day
 
-![image-20211001132232685](../resources/images/tracker_capture_android/image-20211001132232685.png)	
+![image-20211001132232685](../resources/images/Tracker_Android/image-20211001132232685.png)	
 
 Then you must fill the first stage event and you will then be prompted to confirm the details which you can than save.
 
-![image-20211001132259009](../resources/images/tracker_capture_android/image-20211001132259009.png)	
+![image-20211001132259009](../resources/images/Tracker_Android/image-20211001132259009.png)	
 
 This will take you to their dashboard on the device which has the same interface as the completed record you previously accessed!
 
-![image-20211001132318633](../resources/images/tracker_capture_android/image-20211001132318633.png)	
+![image-20211001132318633](../resources/images/Tracker_Android/image-20211001132318633.png)	
 
 ### Add a new event
 
@@ -207,29 +207,29 @@ Click on the plus button at the bottom. It will expand and give you some options
 
 Select “Add new” to add a new event.
 
-![image-20211001132512936](../resources/images/tracker_capture_android/image-20211001132512936.png)		
+![image-20211001132512936](../resources/images/Tracker_Android/image-20211001132512936.png)		
 
 It will display the program stages which in this case there is only 1 repeatable stage. Select it to continue.
 
-![image-20211001132552559](../resources/images/tracker_capture_android/image-20211001132552559.png)	
+![image-20211001132552559](../resources/images/Tracker_Android/image-20211001132552559.png)	
 
 Alter the date of lab request to be the same as the date of date consultant and click next.
 
-![image-20211001132623615](../resources/images/tracker_capture_android/image-20211001132623615.png)	
+![image-20211001132623615](../resources/images/Tracker_Android/image-20211001132623615.png)	
 
 The form will now load in which you can enter the event details. 
 
-![image-20211001132650775](../resources/images/tracker_capture_android/image-20211001132650775.png)	
+![image-20211001132650775](../resources/images/Tracker_Android/image-20211001132650775.png)	
 
 Fill in the form, click next.
 
-![image-20211001132716824](../resources/images/tracker_capture_android/image-20211001132716824.png)	
+![image-20211001132716824](../resources/images/Tracker_Android/image-20211001132716824.png)	
 
 After completing the section (or showing its empty), click “End.” You can than finish, or finish and complete the event.
 
 Do the same process to the other stages and fill in the forms, click next.
 
-![image-20211001132747010](../resources/images/tracker_capture_android/image-20211001132747010.png)		
+![image-20211001132747010](../resources/images/Tracker_Android/image-20211001132747010.png)		
 
 Select Next - > End, Finish and complete.
 
@@ -239,87 +239,87 @@ Select Next - > End, Finish and complete.
 
 From the persons tracker dashboard. Click on the relationship icon to associate the contacts with the case.
 
-![image-20211001132846852](../resources/images/tracker_capture_android/image-20211001132846852.png)	
+![image-20211001132846852](../resources/images/Tracker_Android/image-20211001132846852.png)	
 
 Search for an contact which already exists (in this example John Leach). 
 
-![image-20211001132905945](../resources/images/tracker_capture_android/image-20211001132905945.png)	
+![image-20211001132905945](../resources/images/Tracker_Android/image-20211001132905945.png)	
 
 Select the contact found to be add in the relationship.
 
-![image-20211001132923765](../resources/images/tracker_capture_android/image-20211001132923765.png)	
+![image-20211001132923765](../resources/images/Tracker_Android/image-20211001132923765.png)	
 
 As in the previous examples, select the relationship icon to register a new relationship. Now You will not find them and you can now register a new person from the contact registration & follow- up.
 
-![image-20211001132940468](../resources/images/tracker_capture_android/image-20211001132940468.png)	
+![image-20211001132940468](../resources/images/Tracker_Android/image-20211001132940468.png)	
 
 You will then be prompted to confirm the attributes details which you can than save.
 
 This will take you to the contact registration & follow-up first stage event!
 
-![image-20211001132959397](../resources/images/tracker_capture_android/image-20211001132959397.png)	
+![image-20211001132959397](../resources/images/Tracker_Android/image-20211001132959397.png)	
 
 Do the same select the contact registered and add in the relationship.
 
-![image-20211001133020501](../resources/images/tracker_capture_android/image-20211001133020501.png)	
+![image-20211001133020501](../resources/images/Tracker_Android/image-20211001133020501.png)	
 
 Show both of the contact.
 
-![image-20211001133045936](../resources/images/tracker_capture_android/image-20211001133045936.png)	
+![image-20211001133045936](../resources/images/Tracker_Android/image-20211001133045936.png)	
 
 ### Program enrollments
 
 From the persons tracker dashboard, go back and select the program enrollments. 
 
-![image-20211001133140686](../resources/images/tracker_capture_android/image-20211001133140686.png)	
+![image-20211001133140686](../resources/images/Tracker_Android/image-20211001133140686.png)	
 
 This will take you to enrollment list dashboard. Then enroll then into the Vaccination program.
 
-![image-20211001133158265](../resources/images/tracker_capture_android/image-20211001133158265.png)	
+![image-20211001133158265](../resources/images/Tracker_Android/image-20211001133158265.png)	
 
 This will take you to the prompted attribute form to confirm and update the details which you can than save.
 
-![image-20211001133219067](../resources/images/tracker_capture_android/image-20211001133219067.png)	
+![image-20211001133219067](../resources/images/Tracker_Android/image-20211001133219067.png)	
 
 Then you must fill the Vaccination events details which you can than save.
 
-![image-20211001133238462](../resources/images/tracker_capture_android/image-20211001133238462.png)	
+![image-20211001133238462](../resources/images/Tracker_Android/image-20211001133238462.png)	
 
 Go back to the search page and you will find your Case that as an enrollment in the Vaccination program.
 
-![image-20211001133256308](../resources/images/tracker_capture_android/image-20211001133256308.png)	
+![image-20211001133256308](../resources/images/Tracker_Android/image-20211001133256308.png)	
 
 ### **Sync the event**
 
 From the persons tracker dashboard, go back to the search page. Click on the person’s sync status to see that this data has not been posted online. 
 
-![image-20211001133334603](../resources/images/tracker_capture_android/image-20211001133334603.png)	
+![image-20211001133334603](../resources/images/Tracker_Android/image-20211001133334603.png)	
 
 If you log in to the web and search, you will not find this person:
 
-![image-20211001133350400](../resources/images/tracker_capture_android/image-20211001133350400.png)	
+![image-20211001133350400](../resources/images/Tracker_Android/image-20211001133350400.png)	
 
 Go back to the home page, and select Settings. 
 
  From the settings page, select “Sync data now.” The data should sync. You can go back to the person’s record and check their sync status to verity.
 
-![image-20211001133537962](../resources/images/tracker_capture_android/image-20211001133537962.png)	
+![image-20211001133537962](../resources/images/Tracker_Android/image-20211001133537962.png)	
 
 Show the person in the web by going to the org unit you registered them to. There attributes and events should all be synced online.
 
-![image-20211001133559469](../resources/images/tracker_capture_android/image-20211001133559469.png)	
+![image-20211001133559469](../resources/images/Tracker_Android/image-20211001133559469.png)	
 
 ### Go offline!
 
 Android allows for storing tracker data offline directly on the device. Records must be synced first or they can not be accessed offline. The number of records that are synced to the device is defined in the settings page of the Android app.
 
-![image-20211001133638731](../resources/images/tracker_capture_android/image-20211001133638731.png)	
+![image-20211001133638731](../resources/images/Tracker_Android/image-20211001133638731.png)	
 
 Go to your Android homescreen and turn off your wi-fi/mobile data radios.
 
 Go back to the app, select the Vaccination program and search for/register a new person
 
-![image-20211001133720734](../resources/images/tracker_capture_android/image-20211001133720734.png)	
+![image-20211001133720734](../resources/images/Tracker_Android/image-20211001133720734.png)	
 
 You will notice that you are able to automatically generate the EPI number. This is because when you were online and created a new record, a number of ID’s were generated and stored for use. You need to be a bit careful here because if all these ID’s become used up before you connect again, you will not be able to register any more new children. This should therefore be considered carefully.
 
@@ -327,23 +327,23 @@ You will notice that you are able to automatically generate the EPI number. This
 
 Go ahead and register a new vaccination and add a new event. 
 
-![image-20211001133750679](../resources/images/tracker_capture_android/image-20211001133750679.png)	
+![image-20211001133750679](../resources/images/Tracker_Android/image-20211001133750679.png)	
 
 As you have no network connection the data will not sync. 
 
-![image-20211001133844095](../resources/images/tracker_capture_android/image-20211001133844095.png)	
+![image-20211001133844095](../resources/images/Tracker_Android/image-20211001133844095.png)	
 
 Go ahead and turn on the wi-fi, than sync the data.
 
-![image-20211001133909338](../resources/images/tracker_capture_android/image-20211001133909338.png)	
+![image-20211001133909338](../resources/images/Tracker_Android/image-20211001133909338.png)	
 
 Check the record and it should be green, showing it was sent. 
 
-![image-20211001133928956](../resources/images/tracker_capture_android/image-20211001133928956.png)	
+![image-20211001133928956](../resources/images/Tracker_Android/image-20211001133928956.png)	
 
 You can go online in the web and verify this as well
 
 
 
-![image-20211001133949294](../resources/images/tracker_capture_android/image-20211001133949294.png)	
+![image-20211001133949294](../resources/images/Tracker_Android/image-20211001133949294.png)	
 
