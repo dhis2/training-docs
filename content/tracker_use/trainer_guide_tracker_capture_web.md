@@ -16,7 +16,6 @@
     - [Part 4 : Data Entry Steps](#part-4--data-entry-steps)
       - [Add a New Event](#add-a-new-event)
       - [Review the Data Entry Widget](#review-the-data-entry-widget)
-      - [Compare the forms using the compare form button:](#compare-the-forms-using-the-compare-form-button)
       - [Add a Relationship](#add-a-relationship)
       - [Make a Referral](#make-a-referral)
       - [Register an entity in another program](#register-an-entity-in-another-program)
@@ -337,12 +336,7 @@ From the screenshot above, we can see a number of different items within the dat
 * **Program Stage Area:** In this area, the program stages are listed along with their dates and color status.
 * **Event Menu, Add new event, Schedule new event :** In this area we can perform the described actions as required.
 * **Data Entry Area :** This is where the actual data related to a specified program stage is entered. This can differ between program stages, and as you will demo, program rules can also cause this to vary within a repeatable stage.
-
-
-#### Compare the forms using the compare form button:
-
-
-After you have at least registered 2 events, use the compare form button to compare the events within the program
+* **Compare the forms** using the compare form button: After you have at least registered 2 events, use the compare form button to compare the events within the program
 
 
 ![image28.png](resources/images/tracker_capture_web/image28.png "image_tooltip")
