@@ -139,7 +139,7 @@ Password: District1#
 
 Note that its Surveillance tracker programs for the COVID-19 modules 
 
-![image-20211001130319574](resources/images/tracker_capture_android/image-20211001130319574.png)	
+![image-20211001130319574](resources/images/tracker_capture_android/image-20211001130319574.png)
 
 ### Select the Case-base Surveillance program
 
@@ -147,7 +147,7 @@ Select this program. It will take you to a very different interface when compare
 
  Click on the help button and allow the text to run, it gives some explanation of the interface which you can explain again.
 
-![image-20211001130425608](resources/images/tracker_capture_android/image-20211001130425608.png)	
+![image-20211001130425608](resources/images/tracker_capture_android/image-20211001130425608.png)
 
 ### Search for an individual that already exists
 

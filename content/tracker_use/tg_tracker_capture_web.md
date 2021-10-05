@@ -76,13 +76,11 @@ It is always a good idea to run through the demo by yourself prior to presenting
 
 
 ## Best Practices
+Before starting the demonstration, please keep in mind that the most important thing is that the audience is following, so make sure to ask questions to the audience to verify that they are following. If something is unclear, go back and go through it slowly. If you don’t have time for all the steps, it is better to cut some steps, than to go fast while nobody understands. 
 
-    Before starting the demonstration, please keep in mind that the most important thing is that the audience is following, so make sure to ask questions to the audience to verify that they are following. If something is unclear, go back and go through it slowly. If you don’t have time for all the steps, it is better to cut some steps, than to go fast while nobody understands. 
-    
-    If the participants are doing the demo with you at the same time, you can take time to go around the audience and help them if the academy is happening onsite. There should be a team of trainers doing this at all times as well. 
-    
-    It is a good idea to do a quick overview of the stages and program flow.
+If the participants are doing the demo with you at the same time, you can take time to go around the audience and help them if the academy is happening onsite. There should be a team of trainers doing this at all times as well. 
 
+It is a good idea to do a quick overview of the stages and program flow.
 
 ## Quick Guide /Steps to be followed:
 
