@@ -106,16 +106,16 @@ If choosing the start/end dates than you can select exact dates to filter events
 
 Create an aggregate event report as a quick review for the participants. You can use the following data items as an example:
 
-1. Table Style : Pivot, Output Type : Event
-2. Program : COVAC - COVID-19 Vaccination Registration
-3. Stage : Vaccination
-4. Data : Dose Number (Filter out the 1st dose; both in the data selection as well as in the layout), Sex, Vaccine Name
-5. Period : This year
-6. Org Unit : Country
+- Table Style : Pivot, Output Type : Event
+- Program : COVAC - COVID-19 Vaccination Registration
+- Stage : Vaccination
+- Data : Dose Number (Filter out the 1st dose; both in the data selection as well as in the layout), Sex, Vaccine Name
+- Period : This year
+- Org Unit : Country
 
 ![covac_pivot](resources/images/event_reports/table1_pivot_covac.png)
 
-The layout will look like this as a reminder
+The layout can look like this as a reminder
 
 ![covac_pivot_layout](resources/images/event_reports/table1_pivot_covac_layout.png)
 
@@ -169,6 +169,7 @@ Create an event report with the following inputs:
 
 - Table Style : Line List
 - Output Type : Event
+- Program : COVID-19 Case-based Surveillance, Stage : Lab Request
 - Data :
   - Local Case ID : ID-5353942
   - First Name
@@ -179,12 +180,116 @@ Create an event report with the following inputs:
 - Period : Last Year
 - Org Unit : CHW Mahosot
 
+Note : here is the location of the org unit in case you are unfamiliar with this hierarchy (01 Vientiane Capital -> 0001 CH Mahosot -> CHW Mahosot)
+
+![chw_mahosot](resources/images/event_reports/chw_mahosot.png)
+
 This should pull up the respective information two events that we saw when we reviewed this record in tracker capture.
 
 ![angela_line_repeated](resources/images/event_reports/table3_line_cbs.png)
 
 > Now you can explain how the event type report selection affects our output. When we are creating event reports and use "event" as the output type, ALL of the events from within a program stage will be output on our report. There is a limitation here in that we can only pull all of our event data from within one program stage, and as a result there are not really "linked" together as they are separate lines within our report.
 
-We can further demonstrate this concept by showing more repeated event data. Modify the output so you are not filtering by any local case ID and change the period to this year. Try sorting the data by name. You should see more repeated events displayed on this report.
+We can further demonstrate this concept by showing more repeated event data. ***Modify the output so you are not filtering by any local case ID and change the period to this year.*** Try sorting the data by name. Scroll through the report; you should see several repeated events displayed on this report.
 
 ![table4_line_cbs](resources/images/event_reports/table4_line_cbs.png)
+
+> In summary, when running an event report with repeatable data using "event" as the output type, all of the event data from a single program stage will be used in the report!
+
+### Update the report using enrollment as the output type
+
+As a reminder, here are the selections to make
+
+- Table Style : Line List
+- Output Type : Enrollment
+- Program : COVID-19 Case-based Surveillance, Stage : Lab Request
+- Data :
+  - Local Case ID
+  - First Name
+  - Surname
+  - Lab Test Reason
+  - Type of test
+  - Type of specimen
+- Period : This Year
+- Org Unit : CHW Mahosot
+
+![table5_line_cbs](resources/images/event_reports/table5_line_cbs.png)
+
+When we make this update, the number of records shown changes. This occurs because enrollment type reports only use the most recent event within a program stage for their output. When generating line list type data for repeated events they are potentially not as useful as there is a chance that you may miss some of the events when creating your list.
+
+> In summary, when running an event report with repeatable data using "enrollment" as the output type, you will only see the most recent event data.
+
+#### STOP! Have them perform *Exercise 2* in the learner's guide.
+
+### Create an aggregate/pivot table event report using a repeatable stage
+
+The same concepts that we applied to line lists are applicable to the data when it is aggregated. So, when event is selected as the output type it will count the number of events, including repeated events within a stage.
+
+Let's review a very simple example
+
+- Table Style : Pivot, Output Type : Event
+- Program : COVAC - COVID-19 Vaccination Registration
+- Stage : Vaccination
+- Data : Sex, Vaccine Name
+- Period : This year
+- Org Unit : Country
+
+This is saved as the output "COVAC - Doses by sex"
+
+Duplicate your tab and open the event report "COVAC - Registrations by sex." This report has all of the same data input selections but is using "Enrollment" as the output type instead of event.
+
+What happens when we compare these two outputs?
+
+![table6_comparison](resources/images/event_reports/table6_pivot_comparison_covac.png)
+
+The output "COVAC - Doses by sex" is useful in understanding how many actual vaccinations have been given, because the vaccination program consists of a program stage that is repeatable. This report is using "event" as the output type, meaning it will count or display data for all events in one program stage.
+
+This is not so useful however if we want to identify the number of unique individuals that are currently in the vaccination program. The output "COVAC - Registrations by sex" shows this as it is only counting the number of enrollments based on the "Enrollment" output type that has been selected.
+
+> In summary, the "event" output type always shows data for all events within a single program stage, while the "enrollment" output type will count unique registrations and will only use data from the most recent event in its output.
+
+#### STOP! Have them perform *Exercise 3* in the learner's guide.
+
+### Create a line list report enrollment report using multiple stages from the COVID-19 surveillance program
+
+Enrollment type reports have one last function that is very useful in addition to counting or displaying unique registrations. This is the ability of these reports to display data from multiple stages. Note that this can only be done for line list type reports, as having data from different stages is currently not built in to the pivot table style event report.
+
+When creating these reports, keep in mind the scenarios we went through previously and remember that ***the enrollment output type only uses data from the most recent event.***
+
+So, using our COVID-19 case-based surveillance program as an example, where lab test and lab result are repeated stages, if we show data from these stages together, it will only show the data from the most recent entry from within either of these stages.
+
+Create an event report with the following inputs:
+
+- Table Style : Line List
+- Output Type : Enrollment
+- Program : COVID-19 Case-based Surveillance
+- Attributes
+  - First Name, Surname, Sex 
+- Stage 1 - Clinical Exam
+  - Underlying condition
+  - Signs/symptoms present
+- Stage 3 - Lab Results
+  - Type of Test
+  - Lab Result
+- Stage 4 - Health Outcome
+  - Health Outcome
+- Period : This Year
+- Org Unit : Country
+
+This is saved as "COVID_CBS - Enrollment Summary" for reference.
+
+![table7_summary](resources/images/event_reports/table7_line_cbs_summary.png)
+
+What can we take away from this table?
+
+We can clearly see that the data from each stage is being shown as selected, but we must keep in mind that data from stage 3 - lab results will be the most recent event data only. Applied more generally, any program stage for any other programs within an implementation using repeated stages will have this constraint when creating an enrollment type report.
+
+Also, note the date. Each of these events has different dates, but they are not displayed here. Instead we see the date of registration as well as the incident date. These are the dates that are collecting during the registration/enrollment process; whereas reports with "event" as their output will display the dates of particular events but we are not able to show them together as a summary as we are when we run an enrollment type report.
+
+#### STOP! Have them perform *Exercise 4* in the learner's guide.
+
+### Assignment
+
+After they have completed all of the exercises, have them perform the graded assignment. The assignment closes the session.
+
+
