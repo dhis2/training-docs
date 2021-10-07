@@ -28,9 +28,9 @@ This guide is a support document for DHIS2 Academy trainers for the session “D
 
 This session follows the standard Academy training approach with: 
  
-1) A live demo session where the trainer demonstrates and explains the features, and 
+1. A live demo session where the trainer demonstrates and explains the features, and 
 
-2) A hands-­on session with exercises where participants get to practice the same features.
+2. A hands-­on session with exercises where participants get to practice the same features.
 
 This guide will help the trainer​ prepare​​ for the live demo session. The “Live Demo step by step” section has a detailed walkthrough of all the steps to demonstrate with explanations and screenshots that should be easy to follow. Use that when preparing for the live demo session.
 
@@ -71,15 +71,21 @@ In this demo, the **COVID-19 (Vaccine Registry and Case-based surveillance)** de
 
 ## Preparations
 
-It is always a good idea to run through the demo by yourself prior to presenting. Check that the ID’s are being generated..
+Ensure that there are existing records in the DB and that you are able to register TEI's and enter event data correctly.
 
+You should consider running through the entire demo prior to presenting it. After this, you should take the quick guide and supplement it with any additional notes you made while running through the demo. If you identify any changes that may be required or additional explanation that would be helpful within the session, please content the training content team in order to allow us to evaluate how to best integrate this feedback into the material.
+
+Also, the learner's guide and session summary are the main material that will be provided to the learner's with both detailed steps for ungraded exercises as well as the key messages from the session. Review these as well to ensure you are able to get these key points across during your demonstration.
 
 ## Best Practices
+
 Before starting the demonstration, please keep in mind that the most important thing is that the audience is following, so make sure to ask questions to the audience to verify that they are following. If something is unclear, go back and go through it slowly. If you don’t have time for all the steps, it is better to cut some steps, than to go fast while nobody understands. 
 
-If the participants are doing the demo with you at the same time, you can take time to go around the audience and help them if the academy is happening onsite. There should be a team of trainers doing this at all times as well. 
+Prior to starting the actual demo, It is a good idea to do a quick overview of the stages and program flow so everyone understands the use-case clearly.
 
-It is a good idea to do a quick overview of the stages and program flow.
+In an online setting, you will be breaking regularly to allow them to perform various ungraded exercises in order to keep them engaged.
+
+If the participants are doing the demo with you at the same time, you can take time to go around the audience and help them if the academy is happening onsite. There should be a team of trainers doing this at all times as well.
 
 ## Quick Guide /Steps to be followed:
 
