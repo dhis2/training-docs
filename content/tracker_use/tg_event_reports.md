@@ -21,16 +21,17 @@ and the flow of the demo.
 
 The overall objective of this session is to use the DHIS2 event reports app to review ***tracker*** data. Detailed objectives include:
 
-1. Explain the difference between event and enrollment type reports
-2. Design event reports using tracker data
-3. Describe the differences between how repeated and non-repeated stage data is displayed
-4. Design event reports showing data from multiple tracker program stages
+1. Describe the functions of the event reports app
+2. Explain the difference between event and enrollment type reports
+3. Design event reports using tracker data
+4. Describe the differences between how repeated and non-repeated stage data is displayed
+5. Design event reports showing data from multiple tracker program stages
 
 
 ## Time Requirements
 
-Live Demo: 3 demos, 
-Hands-on Exercises: 3 exercises, 
+Live Demo: 4 demos, 10 minutes each
+Hands-on Exercises: 4 exercises, 10 minutes each
 Assignment: 
 
 ## Background
@@ -51,36 +52,100 @@ Before starting the demonstration, please keep in mind that the most important t
 
 In an online setting, you will be breaking regularly to allow them to perform various ungraded exercises in order to keep them engaged.
 
-If the participants are doing the demo with you at the same time, you can take time to go around the audience and help them if the academy is happening onsite. There should be a team of trainers doing this at all times as well.
+In an in-person setting, the participants may be doing the demo with you at the same time. In this scenario, it is ideal if there are other trainer's moving around the room to support participant's as it will be difficult for the trainer leading the session to answer many individual questions during the demonstrations. 
 
 ## Quick Guide
 
 1. Review the event reports interface
-2. Create an aggregate/pivot table event report using COVID-19 vaccination containing the following details:
-   1. Table Style : Pivot, Output Type : Event
-   2. Program : COVAC - COVID-19 Vaccination Registration
-   3. Stage : Vaccination
-   4. Data : Dose Number (Filter out the 1st dose; both in the data selection as well as in the layout), Sex, Vaccine Name
-   5. Period : This year
-   6. Org Unit : Country
+2. Create an aggregate/pivot table event report using COVID-19 surveillance containing the following details:
+- Table Style : Pivot, Output Type : Event
+- Program : COVID-19 Case Based Surveillance
+- Stage : Stage 3 - Lab Results
+- Data : Lab Test Result (select Positive as the filter), Age (apply the Age COVID-19 Legend), Sex
+- Period : This year
+- Org Unit : Country
 3. Create a line list event report using COVID-19 vaccination
-   1. Modify the previous table to be a line list
-   2. Add in some attributes and modify the layout of the table (ie. First name, Surname, Local ID)
-   3. Add/remove filters for the data (ie. Dose number, vaccine name)
+- Table Style : Line, Output Type : Event
+- Program : COVAC - COVID-19 Vaccination Registry
+- Stage : Vaccination
+- Data
+  - First Name, Surname, National ID, Sex
+  - Vaccine Name
+  - Dose Number (Filter by 1st dose)
+- Period : This year
+- Org Unit : Country
 
 STOP! Have them perform Exercise 1
 
 4. Create a list event report for a repeatable stage using the COVID-19 surveillance program
+   1. Open up this record in tracker capture and review the repeated events in stage 2 - lab request
+      - Org Unit : CHW Mahosot
+      - Program : COVID-19 Case-based surveillance
+      - Local Case ID : ID-5353942, First Name : Angela, Last Name : Campbell, Sex : Female
+   2. Create an event report with the following inputs:
+      - Table Style : Line List
+      - Output Type : Event
+      - Program : COVID-19 Case-based Surveillance, Stage : Lab Request
+      - Data :
+        - Local Case ID : ID-5353942
+        - First Name
+        - Surname
+        - Lab Test Reason
+        - Type of test
+        - Type of specimen
+        - Period : Last Year
+        - Org Unit : CHW Mahosot
+   3. Explain how event reports work with repeated data
+   4. Add in more repeated data by removing the filter for local case ID and change the period to this year
+   
 5. Create the same report using enrollment as the output type
+
+   - Table Style : Line List
+   - Output Type : Enrollment
+   - Program : COVID-19 Case-based Surveillance, Stage : Lab Request
+   - Data :
+     - Local Case ID
+     - First Name
+     - Surname
+     - Lab Test Reason
+     - Type of test
+     - Type of specimen
+   - Period : This Year
+   - Org Unit : CHW Mahosot
 
 STOP! Have them perform Exercise 2
 
 6. Create an aggregate/pivot table event report using a repeatable stage
-7.  Create an aggregate/pivot table enrollment report using a repeatable stage
+   
+   1. Create a report with the following details:
+      - Table Style : Pivot, Output Type : Event
+      - Program : COVAC - COVID-19 Vaccination Registration
+      - Stage : Vaccination
+      - Data : Sex, Vaccine Name
+      - Period : This year
+      - Org Unit : Country
+   1. Duplicate your tab and open the event report "COVAC - Registrations by sex." 
+   2. Compare these two outputs
 
 STOP! Have them perform Exercise 3
 
-8.  Create a line list enrollment type event report using multiple stages from the COVID-19 surveillance program
+7.  Create a line list enrollment type event report using multiple stages from the COVID-19 surveillance program
+
+    - Table Style : Line List
+    - Output Type : Enrollment
+    - Program : COVID-19 Case-based Surveillance
+    - Attributes
+      - First Name, Surname, Sex
+    - Stage 1 - Clinical Exam
+      - Underlying condition
+      - Signs/symptoms present
+    - Stage 3 - Lab Results
+      - Type of Test
+      - Lab Result
+    - Stage 4 - Health Outcome
+      - Health Outcome
+    - Period : This Year
+    - Org Unit : Country
 
 STOP! Have them perform exercise 4
 
@@ -104,39 +169,56 @@ If choosing the start/end dates than you can select exact dates to filter events
 
 ### Create an aggregate/pivot table event report using COVID-19 vaccination
 
-Create an aggregate event report as a quick review for the participants. You can use the following data items as an example:
+Create an aggregate event report. You can use the following data items as an example:
 
 - Table Style : Pivot, Output Type : Event
-- Program : COVAC - COVID-19 Vaccination Registration
-- Stage : Vaccination
-- Data : Dose Number (Filter out the 1st dose; both in the data selection as well as in the layout), Sex, Vaccine Name
+- Program : COVID-19 Case Based Surveillance
+- Stage : Stage 3 - Lab Results
+- Data : Lab Test Result (select Positive as the filter), Age (apply the Age COVID-19 Legend), Sex
 - Period : This year
 - Org Unit : Country
 
-This is saved as "COVAC - 1st Dose by Sex and Vaccine Type" for reference.
+This is saved as "COVID_CBS - Confirmed cases by Age & Sex" for reference.
 
-![covac_pivot](resources/images/event_reports/table1_pivot_covac.png)
+![table1_pivot](resources/images/event_reports/table1_pivot_cbs.png)
 
-The layout can look like this as a reminder
+The layout can should like this
 
-![covac_pivot_layout](resources/images/event_reports/table1_pivot_covac_layout.png)
+![table1_pivot_layout](resources/images/event_reports/table1_pivot_cbs_layout.png)
 
-You can modify some of the options, for example hiding empty rows to hide the vaccine with no data, and update the table
+You should modify some of the options, for example hiding empty rows to hide the age groups with no data, and update the table to see the effect this has
 
-![covac_pivot_options](resources/images/event_reports/table1_pivot_covac_options.png)
+![table1_pivot_options](resources/images/event_reports/table1_pivot_cbs_options.png)
+
+Note that you can modify the way data that is collected through tracker (and event) programs is aggregated. You can demonstrate this by changing the legend for the Age attribute to Age (COVAC) and updating the table.
+
+![age_selection](resources/images/event_reports/table1_pivot_cbs_ageselection.png)
+
+![table1_alternate](resources/images/event_reports/table1_pivot_cbs_alternate_age.png)
+
+You will see all the totals are the same; however the disaggregation of the data is different.
+
+This should be a review of concepts from the event fundamentals; however if there are questions you can explain this concept a bit more by referring to the examples you will have on screen.
 
 ### Create a line list event report using COVID-19 vaccination
 
-Take the pivot table report you have just made and modify the table style to Line list. Add in some attributes like:
+Create a new report by going to Favorites -> New and select the following details
 
-- First Name and Surname
-- National ID
+- Table Style : Line, Output Type : Event
+- Program : COVAC - COVID-19 Vaccination Registry
+- Stage : Vaccination
+- Data
+  - First Name, Surname, National ID, Sex
+  - Vaccine Name
+  - Dose Number (Filter by 1st dose)
+- Period : This year
+- Org Unit : Country
 
 Before updating the table, open the layout and move the items around in a logical order, noting how this will affect the output of the table.
 
 ![covac_line_layout](resources/images/event_reports/table2_line_covac_layout.png)
 
-Proceed to update the table and discuss what is being shown (note: if you still have your filter on for dose 1 in the data, mention that this is still being filtered. You can also add more or less filters to your output so they can see the effect this has if needed).
+Proceed to update the table and discuss what is being shown.
 
 This is saved as "COVAC - 1st Dose by Sex and Vaccine Type (List)" for reference
 
@@ -259,9 +341,9 @@ This is not so useful however if we want to identify the number of unique indivi
 
 #### STOP! Have them perform *Exercise 3* in the learner's guide.
 
-### Create a line list report enrollment report using multiple stages from the COVID-19 surveillance program
+### Create a line list enrollment report using multiple stages from the COVID-19 surveillance program
 
-Enrollment type reports have one last function that is very useful in addition to counting or displaying unique registrations. This is the ability of these reports to display data from multiple stages. Note that this can only be done for line list type reports, as having data from different stages is currently not built in to the pivot table style event report.
+Enrollment type reports have one last function that is very useful in addition to counting or displaying unique registrations. This is the ability of these reports to display data from multiple stages. Note that this can only be done for line list type reports, as having data from different stages is currently not built in to the pivot table style event report. This can be done using program indicators instead and will be discussed in the program indicator analysis session.
 
 When creating these reports, keep in mind the scenarios we went through previously and remember that ***the enrollment output type only uses data from the most recent event.***
 
@@ -293,14 +375,12 @@ What can we take away from this table?
 
 We can clearly see that the data from each stage is being shown based on the data items that have been selected, but we must keep in mind that data from *Stage 3 - lab results* will be the most recent event data only. Applied more generally, any program stage for any other programs within an implementation using repeated stages will have this constraint when creating an enrollment type report.
 
-If you are dealing with programs that do not have any repeatable events, then you will not need to worry about what the most recent event is when reviewing your information (as each program stage will only have 1 event). 
+If you are dealing with programs that do not have any repeatable events, then you will not need to worry about what the most recent event is when reviewing your information (as each program stage will only have 1 event).
 
-Also, note the date. Each of these events that we have selected data from has different dates, but they are not displayed here. Instead we see the date of registration as well as the incident date (date of symptoms onset). These are the dates that are collecting during the registration/enrollment process; whereas reports with "event" as their output will display the dates of the particular event within a stage. We are not able to show these event type reports together as a summary however as we are able to when we run an enrollment type report.
+Also, note the date. Each of these events that we have selected data from has different dates, but they are not displayed here. Instead we see the date of registration as well as the incident date (date of symptoms onset). These are the dates that are collecting during the registration/enrollment process; whereas reports with "event" as their output will display the dates of the particular event within a stage. We are not able to show these event type reports together as a summary using data from different stages however as we are able to when we run an enrollment type report.
 
 #### Have them perform *Exercise 4* in the learner's guide.
 
 ### Assignment
 
 After they have completed all of the exercises, have them perform the graded assignment. The assignment closes the session.
-
-
