@@ -1,15 +1,35 @@
-# Trainer’s guide to Event Reports
+# Trainer’s guide to Event Visualizer
 
 ## What is this guide?
 
+This guide is a support document for DHIS2 Academy trainers for the session “Event Visualizer.” This session follows the standard Academy training approach with 
+
+1. a live demo session where the trainer demonstrate and explain the features, and 
+   
+2. a hands-­on session with exercises where participants get to practice the same features.
+
+This guide will help the trainer​ prepare​​ for the live demo session. The “Live Demo step by
+step” section has a detailed walkthrough of all the steps to demonstrate with
+explanations and screenshots that should be easy to follow. Use that when preparing for
+the live demo session.
+
+There is also a Quick Guide which lists the steps very briefly and this is meant as a lookup
+guide or “cheatsheet” WHILE doing the demo, to help the trainer remember all the steps
+and the flow of the demo.
 
 ## Learning objectives for this session
 
+1. Describe the event visualizer app
+2. Describe the event visualizer interface
+3. Understand how to create visualizations using tracker data
+4. Describe the limitations of event visualizer when working with tracker data
+
+
 ## Time Requirements
 
-Live Demo: 4 demos, 10 minutes each
-Hands-on Exercises: 4 exercises, 10 minutes each
-Assignment: 
+- Live Demo: 2 demos, 15 minutes each
+- Hands-on Exercises: 2 exercises, 10 minutes each
+- Assignment: 
 
 
 ## Background
@@ -34,10 +54,18 @@ In an in-person setting, the participants may be doing the demo with you at the 
 
 ## Quick Guide
 
-1. Review and create a bar chart showing AstraZeneca 1st and 2nd Doses by Location using the COVID-19 vaccination registry program. Discuss how this data is being pulled from all the events within the stage, meaning repeated event data will be included.
+1. Review the event visualizer interface
+
+2. Review and create a bar chart showing AstraZeneca 1st and 2nd Doses by Location using the COVID-19 vaccination registry program. 
+   - Program : COVID- COVID-19 Vaccination Registry, Stage: Vaccination
+   - Data : Dose Number : 1st dose, 2nd dose, Vaccine Name : AstraZeneca
+   - Period : This Year
+   - Org Unit : All level 2 OUs
+   
+   Discuss how this data is being pulled from all the events within the stage, meaning repeated event data will be included. This is not really a concern when using data from a non-repeatable stage.
    - Review saving and downloading the chart if needed
 
-2. Review the chart "COVID_CBS - Test Results" and discuss the difference between the output type options "Event" and "Tracked entity instance"
+3. Review the chart "COVID_CBS - Test Results" and discuss the difference between the output type options "Event" and "Tracked entity instance"
 
 ## Live Demo step by step
 
@@ -59,7 +87,7 @@ If choosing the start/end dates than you can select exact dates to filter events
 
 Open the chart "COVAC - AstraZeneca 1st and 2nd Doses by Location" within event visualizer.
 
-Event visualizer is particular adept at supporting outputs within both event and tracker programs as it relates to visualization of option sets. We can quite easily combine various filters within these option sets to see an aggregate representation of the cross section of these filters as applied to our data.
+Event visualizer is particular adept at supporting outputs within both event and tracker programs as it relates to the visualization of data elements using option sets. We can quite easily combine various filters across different data elements and option sets to see an aggregate representation of the cross section of these filters as applied to our data.
 
 This is the scenario we see with the chart that we are reviewing.
 
@@ -67,13 +95,18 @@ Review the Data Panel in particular.
 
 ![chart1_data_table](resources/images/event_visualizer/ev_chart1_data_table.png)
 
-We see here there is no output type selection here, just the program and the program stage. We are able to actually output a count of TEIs by using the options and this will be shown. We can not however combine data from multiple stages in event visualizer; this must be handled through the use of program indicators.
+We see here there is no output type selection here, just the program and the program stage. We are able to actually output a count of TEIs by using the options and this will be shown. We can not however combine data from multiple stages in event visualizer; charts using data from multiple program stages must be handled through the use of program indicators and data visualizer.
 
-As a review, you can re-create this chart. 
+As a review, you can re-create this chart. It has the following inputs:
+
+- Program : COVID- COVID-19 Vaccination Registry, Stage: Vaccination
+- Data : Dose Number : 1st dose, 2nd dose, Vaccine Name : AstraZeneca
+- Period : This Year
+- Org Unit : All level 2 OUs
 
 1. Favorites -> New
 2. Select the program (COVAC - COVID-19 Vaccination Registry) and stage (Vaccination)
-   1. Note here again there is no enrollment output type , event visualizer is using the "event" output type; meaning all events in a single stage are counted, by default
+   1. Note here again there is no enrollment output type , event visualizer is using the "event" output type by default; meaning all events in across all stages are counted in the totals being displayed
 3. Select the data (Dose Number : 1st dose, 2nd dose, Vaccine Name : AstraZeneca)
 
 ![chart1_data_table](resources/images/event_visualizer/ev_chart1_data_table.png)
@@ -116,9 +149,9 @@ and download the chart
 
 ### Review and modify the chart "COVID_CBS - Test Results"
 
-Open the chart "COVID_CBS - Test Results." Nothing in particular that is different about this chart; however we can note that it using data from Stage 3 - Lab Results in the surveillance program. This stage is repeatable, and by default we are seeing all of the results in this stage being displayed on the chart. 
+Open the chart "COVID_CBS - Test Results." Nothing so unique about this chart; however we can note that it using data from Stage 3 - Lab Results in the surveillance program. This stage is repeatable, and by default we are seeing all of the events in this program stage being displayed on the chart.
 
-Rather then counting the number of tests, what if we want the number of unique people with these test results? In event reports, we were able to use the enrollment type output to both count enrollments as well as combine data from multiple stages in one list. We do not have that option here, but we can count the number of tracked entities.
+Rather then counting the total number of tests with these results, what if we wanted the number of unique people with these test results? In event reports, we were able to use the enrollment type output to both count enrollments as well as combine data from multiple stages in one list. We do not have that option here, but we can count the number of tracked entities.
 
 Open the chart options and review the output type
 
@@ -131,8 +164,12 @@ We can see there are 3 options:
 
 ***NB***: Enrollment does not work as we can not pull data from multiple stages in event visualizer. It seems to be there incorrectly. Please ask the participant's to ignore this option.
 
-Select the option "Tracked entity instance" and update the chart. You should see a a few less positive cases identified within this org unit, as it is counting the number of TEI's uniquely, rather then the number of events containing this result. 
+Select the option "Tracked entity instance" and update the chart. You should see a a few less positive cases identified within this org unit when compared to the previous chart, as it is counting the number of TEI's uniquely, rather then counting the number of events matching the criteria of your filter(s).
 
 ![chart2_final](resources/images/event_visualizer/chart2_final_output.png)
 
 > Why the different language between event reports and event visualizer regarding the output type? The Enrollment output type in event reports allows you to display information unique to an enrollment, as well as obtain data across an entire enrollment (meaning you can review data from multiple program stages together in the line list; and obtain unique counts via the pivot table). The "Tracked entity instance" output type in event visualizer is much more limiting. It does not allow you to pull data from multiple program stages; it just let's you count the number of unique tracked entities (in this case individual people) that meet the criteria you have set via your filters within a program stage 1 or more times. This can be useful but it is important to identify this distinction.
+
+In explaining the concept above to the participant's, you can refer back to slide 4 in the presentation. 
+
+#### STOP! Have them perform *Exercise 2* in the learner's guide.

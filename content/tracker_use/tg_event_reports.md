@@ -232,6 +232,16 @@ You will only see the data which meets this criteria
 
 ![covac_line_filters_display](resources/images/event_reports/table2_line_covac_filters_displayed.png)
 
+### Other features as a refresher
+
+You can also show them how to save the report using the favorites menu
+
+![ev_save](resources/images/event_visualizer/ev_save_menu.png) 
+
+and download the report
+
+![ev_download](resources/images/event_visualizer/ev_download_menu.png)
+
 #### STOP! Have them perform *Exercise 1* in the learner's guide.
 
 ### Create a list type event report for a repeatable stage using the COVID-19 surveillance program
