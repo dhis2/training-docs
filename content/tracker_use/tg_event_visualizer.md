@@ -19,9 +19,9 @@ and the flow of the demo.
 
 ## Learning objectives for this session
 
-1. Describe the event visualizer app
+1. Describe the functions of the event visualizer app
 2. Describe the event visualizer interface
-3. Understand how to create visualizations using tracker data
+3. Create visualizations using tracker data
 4. Describe the limitations of event visualizer when working with tracker data
 
 
