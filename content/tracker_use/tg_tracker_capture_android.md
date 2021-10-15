@@ -1,4 +1,4 @@
-# **Trainer’s Guide to Tracker Capture (Android)**
+# Trainer’s Guide to Tracker Capture (Android)
 
 ## **What is this guide?**
 
@@ -347,3 +347,6 @@ You can go online in the web and verify this as well
 
 ![image-20211001133949294](resources/images/tracker_capture_android/image-20211001133949294.png)	
 
+## Assignment
+
+After you have completed all demos and they have finished the exercises, have them complete the graded assignment for this session. If you find you are running out of time, assign the graded assignment to them and ask them to complete it outside of the live scheduled session.

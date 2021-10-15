@@ -21,6 +21,7 @@
       - [Register an entity in another program](#register-an-entity-in-another-program)
       - [Register a TEI with no Program](#register-a-tei-with-no-program)
     - [Part 5 : Demonstrate Tracker Capture App Reports](#part-5--demonstrate-tracker-capture-app-reports)
+  - [Assignment](#assignment)
 
 ## What is this guide?
 
@@ -420,4 +421,6 @@ Access tracker capture reports by selecting “Reports” from the front page of
 
 There are a number of reports available which are helpful in tracking entities through their programs and making sure they have received the right services, or giving an overview of the program, etc.
 
+## Assignment
 
+After you have completed all demos and they have finished the exercises, have them complete the graded assignment for this session. If you find you are running out of time, assign the graded assignment to them and ask them to complete it outside of the live scheduled session.

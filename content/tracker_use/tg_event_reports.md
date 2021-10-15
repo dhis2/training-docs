@@ -1,4 +1,4 @@
-# Trainer’s guide to Event Reports
+# Trainer’s Guide to Event Reports
 
 ## What is this guide?
 
@@ -43,6 +43,8 @@ This session build on concepts introduced during the event fundamentals course. 
 This session will see you creating a number of reports. Ensure that you have run analytics in the demo database you are using and that all the data is being populated correctly. If you find that data is not present for the correct period or year, please contact the training content team so we can advise how to move the data correctly.
 
 You should consider running through the entire demo prior to presenting it. After this, you should take the quick guide and supplement it with any additional notes you made while running through the demo. If you identify any changes that may be required or additional explanation that would be helpful within the session, please content the training content team in order to allow us to evaluate how to best integrate this feedback into the material.
+
+Every visualization that you are asked to create has been saved and should be shared for public view. You can open each one up and review how it is has been made if you are unsure about any of the visualizations contents.
 
 Also, the learner's guide and session summary are the main material that will be provided to the learner's with both detailed steps for ungraded exercises as well as the key messages from the session. Review these as well to ensure you are able to get these key points across during your demonstration.
 
@@ -393,6 +395,6 @@ Also, note the date. Each of these events that we have selected data from has di
 
 #### Have them perform *Exercise 4* in the learner's guide.
 
-### Assignment
+## Assignment
 
-After they have completed all of the exercises, have them perform the graded assignment. The assignment closes the session.
+After you have completed all demos and they have finished the exercises, have them complete the graded assignment for this session. If you find you are running out of time, assign the graded assignment to them and ask them to complete it outside of the live scheduled session.
