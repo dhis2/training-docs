@@ -1,4 +1,4 @@
-# Trainer’s guide to Event Visualizer
+# Trainer’s guide to Program Indicator Analysis
 
 ## What is this guide?
 
@@ -143,5 +143,5 @@ You can covert this chart to a pivot table so they can see that you can also cre
 
 #### STOP! Have them perform *Exercise 1* in the learner's guide.
 
-### Create an line list enrollment event report showing the number of relationships by TEI from the COVID-19 Case-based Surveillance Program
+### Create a line list, enrollment event report showing the number of relationships by TEI from the COVID-19 Case-based Surveillance Program
 
