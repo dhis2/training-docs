@@ -389,6 +389,8 @@ If you are dealing with programs that do not have any repeatable events, then yo
 
 Also, note the date. Each of these events that we have selected data from has different dates, but they are not displayed here. Instead we see the date of registration as well as the incident date (date of symptoms onset). These are the dates that are collecting during the registration/enrollment process; whereas reports with "event" as their output will display the dates of the particular event within a stage. We are not able to show these event type reports together as a summary using data from different stages however as we are able to when we run an enrollment type report.
 
+> Note : We can not create a pivot table enrollment report using data from multiple stages.
+
 #### Have them perform *Exercise 4* in the learner's guide.
 
 ### Assignment

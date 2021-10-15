@@ -29,7 +29,7 @@ This session is a regional-focused session and will require you to gather use-ca
 Two guidelines are available for zoom.
 
 - The first guideline is detailed and discusses general planning as well as all of the various features that can used within zoom during the webinar. It is available [here](https://docs.google.com/document/d/1kSWcSyqK6cYUR_SPNqrEk5xzRnAR_FRH3-SBkjleqXo/edit?usp=sharing). This is ***mainly meant for the hosts*** of the zoom webinar so they can control various aspects of the webinar while it is running.
-- The second guideline is shorter in length and is meant for anyone presenting within zoom. This is available [here](https://docs.google.com/document/d/1EvRcSV3uYDtplDYHU57V6MDdMU7weehmnnBOjie5ty4/edit?usp=sharing). This can be s***hared with any of the presenters*** involved in the webinar.
+- The second guideline is shorter in length and is meant for anyone presenting within zoom. This is available [here](https://docs.google.com/document/d/1EvRcSV3uYDtplDYHU57V6MDdMU7weehmnnBOjie5ty4/edit?usp=sharing). This can be ***shared with any of the presenters*** involved in the webinar.
 
 ## Presentations
 

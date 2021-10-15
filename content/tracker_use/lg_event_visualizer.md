@@ -31,6 +31,7 @@ We see here there is no output type selection here, just the program and the pro
 
 As a review, you can re-create this chart. It has the following inputs:
 
+- Chart Type : Column
 - Program : COVID- COVID-19 Vaccination Registry, Stage: Vaccination
 - Data : Dose Number : 1st dose, 2nd dose, Vaccine Name : AstraZeneca
 - Period : This Year

@@ -11,8 +11,8 @@ This guide is a support document for DHIS2 Academy trainers for the session “D
 ## **Learning objectives for this session**
 
 1. Navigate to  capture app
-2. Register tracker program
-3. Add relationship
+2. Register a tracked entity into a tracker program
+3. Add a relationship
 4. Program enrollments
 
 ## **Time needed for this session**
