@@ -66,11 +66,6 @@ Before updating the table, open the layout and move the items around in a logica
 ![covac_line_layout](resources/images/event_reports/table2_line_covac_layout.png)
 
 Proceed to update the table and review what is being shown.
-
-This is saved as "COVAC - 1st Dose by Sex and Vaccine Type (List)" for reference
-
-![covac_line](resources/images/event_reports/table2_line_covac.png)
-
 Modify the filters to see how the line list is updated
 
 ![covac_line_filters](resources/images/event_reports/table2_line_covac_filters.png)

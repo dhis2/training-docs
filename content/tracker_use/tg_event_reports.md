@@ -171,6 +171,10 @@ If choosing the start/end dates than you can select exact dates to filter events
 
 ### Create an aggregate/pivot table event report using COVID-19 vaccination
 
+Open the table "COVID_CBS - Confirmed cases by Age & Sex." This the table that you will create. You can explain the layout to the participants before continuing.
+
+Clear your inputs by going to Favorites -> New.
+
 Create an aggregate event report. You can use the following data items as an example:
 
 - Table Style : Pivot, Output Type : Event
@@ -180,7 +184,7 @@ Create an aggregate event report. You can use the following data items as an exa
 - Period : This year
 - Org Unit : Country
 
-This is saved as "COVID_CBS - Confirmed cases by Age & Sex" for reference.
+The table should look like this after updating:
 
 ![table1_pivot](resources/images/event_reports/table1_pivot_cbs.png)
 
@@ -204,6 +208,10 @@ This should be a review of concepts from the event fundamentals; however if ther
 
 ### Create a line list event report using COVID-19 vaccination
 
+Open the table "COVAC - 1st Dose by Sex and Vaccine Type (List)." This the table that you will create. You can explain the layout to the participants before continuing.
+
+Clear your inputs by going to Favorites -> New.
+
 Create a new report by going to Favorites -> New and select the following details
 
 - Table Style : Line, Output Type : Event
@@ -222,7 +230,7 @@ Before updating the table, open the layout and move the items around in a logica
 
 Proceed to update the table and discuss what is being shown.
 
-This is saved as "COVAC - 1st Dose by Sex and Vaccine Type (List)" for reference
+The table should look like this after updating
 
 ![covac_line](resources/images/event_reports/table2_line_covac.png)
 
@@ -264,6 +272,10 @@ Keep tracker capture open on this record and open event reports in a new tab in 
 
 We will now proceed to explain the how event and enrollment type reports handle this repeatable stage data.
 
+Open the table "COVID_CBS - Lab Request Summary (Event)." This the table that you will create. You can explain the layout to the participants before continuing.
+
+Clear your inputs by going to Favorites -> New.
+
 Create an event report with the following inputs:
 
 - Table Style : Line List
@@ -283,7 +295,9 @@ Note : here is the location of the org unit in case you are unfamiliar with this
 
 ![chw_mahosot](resources/images/event_reports/chw_mahosot.png)
 
-This should pull up the respective information for the two events that we saw when we reviewed this record in tracker capture. It is saved as "COVID_CBS - Lab Request Summary (Event)" for reference in DHIS2.
+This should pull up the respective information for the two events that we saw when we reviewed this record in tracker capture. 
+
+The table should look like this
 
 ![table3_line_repeated](resources/images/event_reports/table3_line_cbs.png)
 
@@ -322,11 +336,11 @@ When we make this update, the number of records shown changes. This occurs becau
 
 #### STOP! Have them perform *Exercise 2* in the learner's guide.
 
-### Create an aggregate/pivot table event report using a repeatable stage
+### Compare aggregate/pivot table event and enrollment reports using a repeatable stage
 
 The same concepts that we applied to line lists are applicable to the data when it is aggregated. So, when event is selected as the output type it will count the number of events, including repeated events within a stage.
 
-Let's review a very simple example
+Let's review a very simple example with the following inputs
 
 - Table Style : Pivot, Output Type : Event
 - Program : COVAC - COVID-19 Vaccination Registration
@@ -335,7 +349,7 @@ Let's review a very simple example
 - Period : This year
 - Org Unit : Country
 
-This is saved as the output "COVAC - Doses by sex"
+This is saved as the output "COVAC - Doses by sex." You can open this table instead of re-creating it.
 
 Duplicate your tab and open the event report "COVAC - Registrations by sex." 
 
@@ -361,6 +375,10 @@ When creating these reports, keep in mind the scenarios we went through previous
 
 So, using our COVID-19 case-based surveillance program as an example, where lab test and lab result are repeated stages, if we show data from these stages together, it will only show the data from the most recent entry from within either of these stages.
 
+Open the table "COVID_CBS - Enrollment Summary." This the table that you will create. You can explain the layout to the participants before continuing.
+
+Clear your inputs by going to Favorites -> New.
+
 Create an event report with the following inputs:
 
 - Table Style : Line List
@@ -379,7 +397,7 @@ Create an event report with the following inputs:
 - Period : This Year
 - Org Unit : Country
 
-This is saved as "COVID_CBS - Enrollment Summary" for reference.
+The table should like this
 
 ![table7_summary](resources/images/event_reports/table7_line_cbs_summary.png)
 
@@ -394,6 +412,10 @@ Also, note the date. Each of these events that we have selected data from has di
 > Note : We can not create a pivot table enrollment report using data from multiple stages.
 
 #### Have them perform *Exercise 4* in the learner's guide.
+
+## Recap
+
+Review the recap slide with them at the end of the session before they perform the assignment
 
 ## Assignment
 

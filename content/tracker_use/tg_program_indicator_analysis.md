@@ -127,6 +127,10 @@ STOP! Have them perform *Exercise 3* in the learner's guide.
 
 ### Create a pivot table in data visualizer using an enrollment program indicator from the COVID-19 Vaccination Registry program
 
+Open the table "COVAC - Underlying Conditions, last 6 months." This the table that you will create. You can explain the layout to the participants before continuing.
+
+Clear your inputs by going to Favorites -> New.
+
 In the first example, you will create a simple pivot table using a single program indicator in data visualizer. It will have the following inputs:
 
  - Visualization Type : Pivot Table
@@ -141,7 +145,7 @@ The layout can look like this
 
 ![table1_layout](resources/images/program_indicators/table1_layout.png)
 
-The table is saved as "COVAC - Underlying Conditions, last 6 months" as reference.
+The table should look like this
 
 ![underlying_conditions](resources/images/program_indicators/PI_underlying_conditions.png)
 
@@ -163,6 +167,10 @@ Note that you are able to create this same output in event reports using an enro
 
 One gap that we can address however is creating a pivot table, chart or map using data from different program stages. We can do this in data visualizer for any of the available visualizations using either event or enrollment type program indicators and is not something we could achieve in either event reports or event visualizer.
 
+Open the chart "COVID_CBS - Symptoms and health outcome, this year." This the chart that you will create. You can explain the layout to the participants before continuing.
+
+Clear your inputs by going to Favorites -> New.
+
 In this example, we will create a line chart with the following inputs:
 
  - Visualization Type : Line Chart
@@ -180,7 +188,7 @@ In order to create this chart, ensure your layout looks like this:
 
 ![chart2_layout](resources/images/program_indicators/COVID_CBS_chart2_layout.png)
 
-The chart is saved as "COVID_CBS - Symptoms and health outcome, this year" as reference. 
+The chart should look like this
 
 ![chart2](resources/images/program_indicators/COVID_CBS_chart2.png)
 
@@ -209,6 +217,10 @@ When you open this as a map, you will have to select one of the data items used 
 In the maps session, we had discussed how we can use the event and TEI layer to map raw tracker data (also known as event data items). While we can also use the thematic layer when dealing with tracker data, this is often less useful as the number of numeric data elements in a tracker program may be limited. 
 
 Through the use of program indicators however we are able to extend maps functionality with tracker data significantly as we can use the thematic layer to its full potential. This includes creating split view and timeline maps and using the available style options (such as creating choropleth and bubble maps) that are not available when using the event and TEI layer as examples.
+
+Open the map "COVID_CBS - Suspected cases, last 12 months." This the chart that you will create. You can explain the layout to the participants before continuing.
+
+Clear your inputs by going to Favorites -> New.
 
 Create a map using the thematic layer with the following inputs:
 
@@ -242,7 +254,7 @@ Create a map using the thematic layer with the following inputs:
 
 ![map5_style](resources/images/program_indicators/map5_style.png)
 
-The map has been saved as "COVID_CBS - Suspected cases, last 12 months" for reference.
+The map should look like this
 
 ![map5](resources/images/program_indicators/map5.png)
 
@@ -257,7 +269,7 @@ Program indicators can be used in event reports and event visualizer as well as 
 1. Through creating a summary output for a single TEI
 2. Through creating a summary output for all TEIs within a period/org unit 
 
-We will demonstrate these principles using two program indicators that use "Average" as the aggregation type. 
+We will demonstrate these principles using two program indicators that use "Average" as the aggregation type.
 
 1. COVID-19 Contacts
    1. Summarizes the total number of contacts a single TEI has through the relationships that have been created in tracker capture
@@ -265,6 +277,10 @@ We will demonstrate these principles using two program indicators that use "Aver
 2. COVID-19 days between onset and consultation
    1. Summarizes the total number of days between onset of symptoms and their initial consultation date for single TEI
    2. Summarizes the average number of days between onset of symptoms and initial consultation date for all TEIs based on their enrollment date and the specified period and organisation unit
+
+Open the table "COVID_CBS - Contacts by Person." This the table that you will create. You can explain the layout to the participants before continuing.
+
+Clear your inputs by going to Favorites -> New.
 
 Create a line list table with the following inputs:
 
@@ -282,7 +298,7 @@ Note : here is the location of the org unit in case you are unfamiliar with this
 
 ![chw_mahosot](resources/images/event_reports/chw_mahosot.png)
 
-This table has been saved as "COVID_CBS - Contacts by Person" for reference.
+The table should look like this
 
 ![table3_contacts](resources/images/program_indicators/table3_contacts.png)
 
@@ -312,6 +328,10 @@ We will use data visualizer to demonstrate this.
 
 > Note: Program indicators are available to select within event visualizer but they often do not result in any output. It is best to use data visualizer to create charts when using program indicators.
 
+Open the chart "COVID_CBS - Average days between symptoms onset and consultation, this year." This the chart that you will create. You can explain the layout to the participants before continuing.
+
+Clear your inputs by going to Favorites -> New.
+
 In data visualizer, create a chart with the following inputs:
 
  - Visualization Type : Bar Chart
@@ -330,7 +350,7 @@ And here is the layout that should be used for the chart
 
 ![chart4_layout](resources/images/program_indicators/chart4_layout.png)
 
-The chart is saved as "COVID_CBS - Average days between symptoms onset and consultation, this year" as reference.
+The chart should look like this
 
 ![chart4](resources/images/program_indicators/chart4.png)
 
@@ -341,6 +361,10 @@ When we review this chart, we no longer see values that are representative of on
 From these two program indicator examples, we can see that program indicators can have multiple functions at both the individual and aggregate level. These various functions can be quite useful depending on what information you are looking to review within your system. There are many other advanced possibilities that are available when using these types of indicators. The best source of this information will be the documentation.
 
 #### STOP! Have them perform *Exercise 3* in the learner's guide.
+
+## Recap
+
+Review the recap slide with them at the end of the session before they perform the assignment
 
 ## Assignment
 

@@ -177,6 +177,10 @@ In explaining the concept above to the participant's, you can refer back to slid
 
 #### STOP! Have them perform *Exercise 2* in the learner's guide.
 
+## Recap
+
+Review the recap slide with them at the end of the session before they perform the assignment
+
 ## Assignment
 
 After you have completed all demos and they have finished the exercises, have them complete the graded assignment for this session. If you find you are running out of time, assign the graded assignment to them and ask them to complete it outside of the live scheduled session.
