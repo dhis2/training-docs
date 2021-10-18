@@ -1,8 +1,8 @@
-# Tracker Use Academy SOP - Running the Academy and Locating all of the Resources
+# Tracker Use Academy SOP
 
 ## Session Content
 
-Sessions are generally made up of 6 pieces of content
+Sessions are generally made up of 6 pieces of content that should be presented in the same order as indicated here:
 
 1. Presentation
 2. Trainer's Guide
@@ -21,7 +21,7 @@ The trainer's guide contains step-by-step instructions for performing the demons
 
 ### Learner's Guide
 
-The learner's guide is the learner's companion to the trainer's guide. It contains the step-by-step instructions for the learner to follow along with what the trainer is demonstrating. Session's are broken up to allow the learner to attempt to replicate what the trainer has presented within the trainer's guide. 
+The learner's guide is the learner's companion to the trainer's guide. It contains the step-by-step instructions for the learner to follow along with what the trainer is demonstrating. Session's are broken up to allow the learner to attempt to replicate what the trainer has presented within the trainer's guide.
 
 ### Recap
 
@@ -35,6 +35,17 @@ Several of the sessions have graded assignments. Due to time constraint's, it is
 
 This resource is for learner's and provides a brief review of the key concepts presented during a session. It is a companion to the learner's guide; with the learner's guide provided details and step-by-step instructions, while the session summary provides a very brief review of concepts presented during the session. The session summary is meant to provide learner's with a tool that can more easily be referred to when the academy is complete.
 
-## Mapping of Session Content by Topic
+## Database
 
-Tr
+A database with all necessary metadata, data, user roles and user groups has been created for use in this academy. This database corresponds to all of the content that is presented within the various sessions. The database and corresponding details can be accessed from:
+
+## Academy Certification
+
+To complete the academy, participant's must have an overall grade of 70% between the graded assignments and exam.
+
+We recommend that the exam be completed during the live session, but there will be circumstances when a learner is unable to attend due to extenuating circumstances. In that scenario, we recommend that the exam is opened during a scheduled period in which an instructor can be present.
+
+The deadline for graded assignments will be the **Friday** after the academy has been completed. This should give the participant's ample opportunity to complete all of the graded assignments.
+
+For this course, the certificate will be generated automatically once the participant has completed all of the graded assignments and the exam; however an instructor will have to release them to the participant. Release the certificate to all of your participant's at the same time. Note that if they did not achieve the overall grade of 70%, they will not receive the certificate of completion.
+
