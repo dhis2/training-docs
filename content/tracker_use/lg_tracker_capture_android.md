@@ -1,112 +1,16 @@
-# Trainer’s Guide to Tracker Capture (Android)
+# Learner's Guide to Android Capture
 
 ## What is this guide?
 
-This guide is a support document for DHIS2 Academy trainers for the session “Demonstrating and using tracker capture (Android).” This session follows the standard Academy training approach with 1) a live demo session where the trainer demonstrate and explain the features, and 2) a hands-­on session with exercises where participants get to practice the same features.
-
- This guide will help the trainer prepare for the live demo session. The “Live Demo step by step” section has a detailed walkthrough of all the steps to demonstrate with explanations and screenshots that should be easy to follow. Use that when preparing for the live demo session.
-
- There is also a Quick Guide which lists the steps very briefly and this is meant as a lookup guide or “cheatsheet” WHILE doing the demo, to help the trainer remember all the steps and the flow of the demo.Part 1 - Introduction to the Android data entry App
+This guide contains all exercises and detailed steps to perform them related to the use of event reports for the Tracker Use Level 1 academy. Please perform each of the exercises when prompted to by your instructors
 
 ## Learning objectives for this session
 
 1. Explain the Android App
 2. Demonstrate how to install the android app
 3. Demonstrate how tracker data can be captured on Android devices
-   1. Event programs
-   2. Tracker programs
-4. Describe potential synchronization and reporting errors
 
-
-## Time needed for this session
-
-Live demo: 
-
-Hands-on exercises: 
-
-## Background
-
-Tracker capture is a module for individual, itemized data collection.
-
-Tracker capture data entry is organized by program, which is the equivalent of patient registry or other similar data collection tool. As programs are entered on an individual basis, program based data is entered based on the report or enrollment date as defined by the programs requirements. Tracker capture requires that person details are attached to each event, and therefore registering and searching for entities is a key component of tracker capture.
-
-In this demo, the **COVID-19 Case-based Surveillance** program will be used to demonstrate the features of the android capture app.
-
-## Preparations
-
-Go through the Live demo step by step guide a few times before doing the actual demo for participants.
-Make sure your user account is same or similar to the participants’ training accounts so that you don’t show more features, dimension options or forms than what they can see when doing the exercises.
-Make sure the resolution on projector is OK for zooming
-
-Create an account with the same level of access as the users you are demonstrating to (ie. if they can only search and enter within one facility, have your user have the same authority). If it is the procedure to enter this data from a paper form, it will be useful to have a copy of the form they would normally use as reference filled in. This can just be a form that you have filled in yourself for example. If they are entering data in real-time, then this is not required but you should prepare the details of an example case that you can follow in your examples.
-
-For the exercises and small activities during the demo, fill out a couple extra forms that the participants can use to register their own cases. Your training DB should have some existing cases filled in to help support the working list filter, relationships and searching functionality. If demonstrating the working lists functionality, you will need to have a subset of the events you have created and assigned to a user where you can show this functionality.
-
-### APK File
-
-Make sure that you have the app made for training purposes otherwise you will not be able to cast your screen:
-
-https://github.com/dhis2/dhis2-android-capture-app/releases
-
-This will be denoted by “training” at the end of the APK file.
-
-![image-20211001125252307](resources/images/tracker_capture_android/image-20211001125252307.png)
-
-### Projecting your Android Device
-
-The instructor will have to decide on which method they would like to use to mirror the android app on their computer screen. They will also have to set up a user account (if it doesn’t exist already) that is assigned to the same org unit as the program they are demonstrating.
-
-Please review this CoP post for details on options you may use to mirror your android device:
-
-https://community.dhis2.org/t/how-to-clone-your-android-screen-useful-for-presentations-debugging-etc/38077
-
-### User Account
-
-Ensure that there is a user account assigned to a lower level set of org units at the facility level within Trainingland that you can use prior to performing this session. If the participants are following along, ensure that there are user accounts for them to use as well assigned to lower level organization units. The demo user account is:
-
-Username: android1
-
-Password: District1#
-
-### Participants
-
-Send the instructions to the participants on how to install the Android app prior to the session. The instructions can be found [here](https://docs.google.com/document/d/1SUUUdmPSDycFtdB9yUMq8ZWiWf8gNOu5xvtNj4_V63U/edit?usp=sharing).
-
-Some participant's may not have been able to install the app by themselves. In that scenario, you may need to walk them through how to do this via google play.
-
-## Best Practices
-
-Before starting the demonstration, please keep in mind that the most important thing is that the audience is following, so make sure to ask questions to the audience to verify that they are following. If something is unclear, go back and go through it slowly. If you don’t have time for all the steps, it is better to cut some steps, than to go fast while nobody understands.
-
-### Quick Guide
-
-1) Log in to the system on the Android device
-2) Select the COVID-19 Case-based Surveillance program and go over the interface that appears. Run the help text.
-3) Search for a person that already exists (John Doe)
-4) Open their record, see all the events that are present. Review the 4 tabs on the person dashboard
-5) Select “See details” to view the detailed attributes
-6) Go back and select any event associated with the record to show the data that is there
-7) Register a new case (if someone is following along; they should register a UNIQUE PERSON that is different from yours)
-8)  Add a new event to the person’s record
-9)  Fill in the details of the form and save the event
-10) Add a new event on the lab request stage, same day from the date first seen. Complete the form and save the event
-11) Add new event in the lab request to show the repeatable stages
-12) Complete the enrollment
-13) Add the relationship, show the contact Registration & follow up
-14) Search for a contact that already exists
-15) Enroll person into other program
-16) Sync the event online. Go to the web interface to verify the data was sent
-17) From the web interface, update the person’s record
-18) Go back to the Android device and show the data has not been synced
-19) Sync the data, than go back to the person’s record to show the new event has been synced
-20) Turn off all wi-fi/data radios on the device. Explain how offline data capture works
-21) Add a new person while offline
-22) Add a new event
-23) Show that the data is being stored solely on the device
-24) Turn on the wi-fi and sync the data
-25) Check it was synced on the device, as well as through the web app
-
-## Step-by-Step guide
+## Exercise 1
 
 ### Log in to the Android App
 
@@ -165,7 +69,7 @@ Select the first stage followed by the event within it. Navigate through the var
 
 Exit the record to proceed.
 
-#### STOP! Have them perform *Exercise 1* in the learner's guide.
+## Exercise 2
 
 ### Register a new case
 
@@ -175,20 +79,7 @@ In order to register someone on the android app, you first must search to see if
 
 Start the search process again that you have just shown.
 
-Search for a record that does not exist. Some examples:
-
-- Jane Dawson
-- Margaret Thatcher
-- Theo Fleury
-- Joe Sakic
-- Damon Hoyt
-- Angelina Jolie
-- Evander Holyfield
-- Tim Curry
-- Alicia Jackson
-etc.
-
-Enter some details and try to search for the individual. You should get a message that your record could not be found. 
+Enter your details (your first name and surname) and try to search for yourself. You should get a message that your record could not be found.
 
 ![image-20211001132003078](resources/images/tracker_capture_android/image-20211001132003078.png)	
 
@@ -233,7 +124,7 @@ Once you save the details, you will be taken back to the dashboard on the device
 
 ![image-20211001132318633](resources/images/tracker_capture_android/image-20211001132318633.png)
 
-#### STOP! Have them perform *Exercise 2* in the learner's guide.
+## Exercise 3
 
 ### Add a new event
 
@@ -263,9 +154,7 @@ The lab request and lab result stages are repeatable, and you are able to add mu
 
 ![repeatable_example](resources/images/tracker_capture_android/repeatable_stage_example.png)
 
-Repeat the same process with the other stages to fill in the data if you think the participant's need more examples; but you can likely stop here if you have filled in data for stage 1 and stage 2 as the process will be the same for the other stages.
-
-#### STOP! Have them perform *Exercise 3* in the learner's guide.
+## Exercise 4
 
 ### Add a relationship
 
@@ -300,7 +189,7 @@ After you have completed the enrollment, the status on the dashboard will change
 
 ![complete_dashboard](resources/images/tracker_capture_android/completed_dashboard.png)
 
-#### STOP! Have them perform *Exercise 4* in the learner's guide.
+## Exercise 5
 
 ### Enroll the person in another program
 
@@ -324,7 +213,7 @@ Go back to the search page and you will find your person that you initially enro
 
 ![image-20211001133256308](resources/images/tracker_capture_android/image-20211001133256308.png)
 
-#### STOP! Have them perform *Exercise 5* in the learner's guide.
+## Exercise 6
 
 ### Sync the event
 
@@ -348,7 +237,7 @@ Show the person in the web by going to the org unit you registered them to. Ther
 
 ![image-20211001133559469](resources/images/tracker_capture_android/image-20211001133559469.png)
 
-#### STOP! Have them perform *Exercise 6* in the learner's guide.
+## Exercise 7
 
 ### Go offline!
 
@@ -381,9 +270,3 @@ Check the record and it should be green, showing it was sent.
 You can go online in the web and verify this as well
 
 ![image-20211001133949294](resources/images/tracker_capture_android/image-20211001133949294.png)
-
-#### STOP! Have them perform *Exercise 7* in the learner's guide.
-
-## Assignment
-
-After you have completed all demos and they have finished the exercises, have them complete the graded assignment for this session. If you find you are running out of time, assign the graded assignment to them and ask them to complete it outside of the live scheduled session.
