@@ -21,6 +21,7 @@
     ![period_tab](resources/images/maps/period_tab_review.png)
 
    3. Org Units tab : Select your org units
+
     ![OU_tab](resources/images/maps/OU_tab_review.png)
 
     
