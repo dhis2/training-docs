@@ -114,6 +114,8 @@ Clear your inputs by going to File -> New.
 
 Create the map using the event layer with the following inputs:
 
+- Layer Type : Boundary
+  - Level 3
 - Layer Type : Event 
 - Data:
   - Program : COVID-19 Case-base Surveillance
@@ -157,6 +159,22 @@ As the events are grouped together, and you have chosen to style them by sex, we
 ![map1_zoomed](resources/images/maps/map1_zoomed.png)
 
 As we can see, using this layer is the same whether we are using event or tracker data. As with our other analyses, we do have to keep in mind that the event layer will be displaying all the events within a program on this map; so in the case of repeated event data you can have multiple events on the map representing each of these events.
+
+#### Review how to save a map
+
+Go to the file menu and select the "Save" option
+
+![map1_save](resources/images/maps/map1_save.png)
+
+Give the map a name and a description and select "Save"
+
+![map1_save_dialog](resources/images/maps/map1_save_dialog.png)
+
+#### Review how to download a map
+
+Select the download option from within the app. This will open up a new dialog. Position your legend where you want it and select "Download" to download the map. This will download a PNG file of the map to your downloads folder. 
+
+![map1_download](resources/images/maps/map1_download.png)
 
 #### STOP! Have them perform *Exercise 1* in the learner's guide.
 
