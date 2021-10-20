@@ -66,7 +66,7 @@ In an in-person setting, the participants may be doing the demo with you at the 
 - Data : Lab Test Result (select Positive as the filter), Age (apply the Age COVID-19 Legend), Sex
 - Period : This year
 - Org Unit : Country
-3. Create a line list event report using COVID-19 vaccination
+2. Create a line list event report using COVID-19 vaccination
 - Table Style : Line, Output Type : Event
 - Program : COVAC - COVID-19 Vaccination Registry
 - Stage : Vaccination
@@ -79,7 +79,7 @@ In an in-person setting, the participants may be doing the demo with you at the 
 
 STOP! Have them perform Exercise 1
 
-4. Create a list event report for a repeatable stage using the COVID-19 surveillance program
+3. Create a list event report for a repeatable stage using the COVID-19 surveillance program
    1. Open up this record in tracker capture and review the repeated events in stage 2 - lab request
       - Org Unit : CHW Mahosot
       - Program : COVID-19 Case-based surveillance
@@ -100,7 +100,7 @@ STOP! Have them perform Exercise 1
    3. Explain how event reports work with repeated data
    4. Add in more repeated data by removing the filter for local case ID and change the period to this year
    
-5. Create the same report using enrollment as the output type
+4. Create the same report using enrollment as the output type
 
    - Table Style : Line List
    - Output Type : Enrollment
@@ -117,7 +117,7 @@ STOP! Have them perform Exercise 1
 
 STOP! Have them perform Exercise 2
 
-6. Create an aggregate/pivot table event report using a repeatable stage
+5. Create an aggregate/pivot table event report using a repeatable stage
    
    1. Create a report with the following details:
       - Table Style : Pivot, Output Type : Event
@@ -131,7 +131,7 @@ STOP! Have them perform Exercise 2
 
 STOP! Have them perform Exercise 3
 
-7.  Create a line list enrollment type event report using multiple stages from the COVID-19 surveillance program
+6.  Create a line list enrollment type event report using multiple stages from the COVID-19 surveillance program
 
     - Table Style : Line List
     - Output Type : Enrollment

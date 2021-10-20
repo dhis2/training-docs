@@ -1,4 +1,4 @@
-**Tracker Capture Summary**
+# Tracker Capture Web - Session Summary 
 
 Tracker capture is the primary web application used in DHIS2 for registration and enrollment of tracked entities and capture event data related to them. In addition, the tracked entity dashboard of tracker capture contains  multiple widgets that supports in adding relationships, providing feedback and to display program indicators.
 
@@ -6,13 +6,12 @@ It is advisable to open the DHIS2 application in Google Chrome.
 
 Steps to be followed to Open “Tracker capture app”.
 
-
 1. Open the URL in Google chrome.
 2. Enter username and password
 3. Click on the search app button at the upper right corner of the screen
 4. Search or Click on Tracker capture icon
 
-**Registration and Enrollment :**
+## Registration and Enrollment
 
 1. Click on the Organization unit (in this case the program is assigned at the facility level - **CHW Mahosot**).Once you click the OU it the color will change to orange.
 2. Select the program ,in this case  **COVID-19 (Vaccine Registry and Case-based surveillance)**
@@ -27,7 +26,7 @@ Steps to be followed to Open “Tracker capture app”.
 * Widgets and their descriptions
 * Persistent top bar
 
-**Data Entry**
+## Data Entry
 
 
 
@@ -42,7 +41,7 @@ Steps to be followed to Open “Tracker capture app”.
 * Buttons to add/schedule new events, the program stage and 
 * Data entry areas
 
-**Referral to another facility:**
+## Referral to another facility
 
 
 
@@ -52,14 +51,14 @@ Steps to be followed to Open “Tracker capture app”.
 * Select the facility and click on Save options.
 * Go to the new facility to see the record there.
 
-**Adding a Relationship**
+## Adding a Relationship
 
 7. Add a “Relationship”
 * Click on Add Relationship.
 * Select the Relationship type and 
 * Select TEI and Save button.
 
-**Enrollment in another program**
+## Enrollment in another program
 
 8. Enroll the entity in another program.
 9. Search for a TEI with no program using the person TE type. 

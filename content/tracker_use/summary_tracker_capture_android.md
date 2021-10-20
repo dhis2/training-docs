@@ -15,7 +15,8 @@ In addition, the android data capture app has a feature unique to it when workin
 
 ## Reviewing a list of tracked entities
 
-To review the list of tracked entities, select the program you want to work with from the home page. From here you will see a list of tracked entities. You can activate any filters you want to filter this list by selecting the filter button, followed by the filter(s) you want to add to this list. 
+1. Select the program you want to work with from the home page.
+2. From here you will see a list of tracked entities. You can activate any filters you want to filter this list by selecting the filter button, followed by the filter(s) you want to add to this list. 
 
 ## Searching for tracked entities
 
