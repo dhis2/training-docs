@@ -12,11 +12,15 @@ This guide is a support document for DHIS2 Academy trainers for the session “D
 
 1. Explain the Android App
 2. Demonstrate how to install the android app
-3. Demonstrate how tracker data can be captured on Android devices
-   1. Event programs
-   2. Tracker programs
-4. Describe potential synchronization and reporting errors
-
+3. Demonstrate how tracker data can be captured on Android devices including:
+   1. Searching for tracked entities
+   2. Registering tracked entities
+   3. Navigating a person's tracked entity dashboard
+   4. Entering event data within a program stage
+   5. Completing an enrollment
+   6. Entering relationships
+   7. Enrolling a tracked entity in multiple programs
+   8. Working with tracker data offline
 
 ## Time needed for this session
 
@@ -81,30 +85,31 @@ Before starting the demonstration, please keep in mind that the most important t
 ### Quick Guide
 
 1) Log in to the system on the Android device
-2) Select the COVID-19 Case-based Surveillance program and go over the interface that appears. Run the help text.
-3) Search for a person that already exists (John Doe)
-4) Open their record, see all the events that are present. Review the 4 tabs on the person dashboard
-5) Select “See details” to view the detailed attributes
-6) Go back and select any event associated with the record to show the data that is there
-7) Register a new case (if someone is following along; they should register a UNIQUE PERSON that is different from yours)
-8)  Add a new event to the person’s record
-9)  Fill in the details of the form and save the event
-10) Add a new event on the lab request stage, same day from the date first seen. Complete the form and save the event
-11) Add new event in the lab request to show the repeatable stages
-12) Complete the enrollment
-13) Add the relationship, show the contact Registration & follow up
-14) Search for a contact that already exists
-15) Enroll person into other program
-16) Sync the event online. Go to the web interface to verify the data was sent
-17) From the web interface, update the person’s record
-18) Go back to the Android device and show the data has not been synced
-19) Sync the data, than go back to the person’s record to show the new event has been synced
-20) Turn off all wi-fi/data radios on the device. Explain how offline data capture works
-21) Add a new person while offline
-22) Add a new event
-23) Show that the data is being stored solely on the device
-24) Turn on the wi-fi and sync the data
-25) Check it was synced on the device, as well as through the web app
+2) Select the COVID-19 Case-based Surveillance program and go over the interface that appears.
+3) Review the filters options available on this page
+4) Search for a person that already exists (John Doe)
+5) Open their record, see all the events that are present. Review the 4 tabs on the person dashboard
+6) Select “See details” to view the detailed attributes
+7) Go back and select any event associated with the record to show the data that is there
+8) Register a new case (if someone is following along; they should register a UNIQUE PERSON that is different from yours)
+9)  Add a new event to the person’s record
+10) Fill in the details of the form and save the event
+11) Add a new event on the lab request stage, same day from the date first seen. Complete the form and save the event
+12) Add new event in the lab request to show the repeatable stages
+13) Complete the enrollment
+14) Add the relationship, show the contact Registration & follow up
+15) Search for a contact that already exists
+16) Enroll person into other program
+17) Sync the event online. Go to the web interface to verify the data was sent
+18) From the web interface, update the person’s record
+19) Go back to the Android device and show the data has not been synced
+20) Sync the data, than go back to the person’s record to show the new event has been synced
+21) Turn off all wi-fi/data radios on the device. Explain how offline data capture works
+22) Add a new person while offline
+23) Add a new event
+24) Show that the data is being stored solely on the device
+25) Turn on the wi-fi and sync the data
+26) Check it was synced on the device, as well as through the web app
 
 ## Step-by-Step guide
 
@@ -129,6 +134,14 @@ You should see the following programs when logging in
 Select this program. It should show you a list of individuals registered in the program based on the org units your user is assigned, similar to the front page list in tracker capture.
 
 ![image-20211001130425608](resources/images/tracker_capture_android/cbs_frontpage.png)
+
+### Filter the list
+
+You can filter the list by selecting the filter button and applying relevant filters
+
+![filter](resources/images/tracker_capture_android/android_filters.png)
+
+For example, you can try filtering out completed events.
 
 ### Search for an individual that already exists
 

@@ -8,7 +8,15 @@ This guide contains all exercises and detailed steps to perform them related to 
 
 1. Explain the Android App
 2. Demonstrate how to install the android app
-3. Demonstrate how tracker data can be captured on Android devices
+3. Demonstrate how tracker data can be captured on Android devices including:
+   1. Searching for tracked entities
+   2. Registering tracked entities
+   3. Navigating a person's tracked entity dashboard
+   4. Entering event data within a program stages
+   5. Completing an enrollment
+   6. Entering relationships
+   7. Enrolling a tracked entity in multiple programs
+   8. Working with tracker data offline
 
 ## Exercise 1
 
@@ -33,6 +41,14 @@ You should see the following programs when logging in
 Select this program. It should show you a list of individuals registered in the program based on the org units your user is assigned, similar to the front page list in tracker capture.
 
 ![image-20211001130425608](resources/images/tracker_capture_android/cbs_frontpage.png)
+
+### Filter the list
+
+You can filter the list by selecting the filter button and applying relevant filters
+
+![filter](resources/images/tracker_capture_android/android_filters.png)
+
+For example, you can try filtering out completed events.
 
 ### Search for an individual that already exists
 
