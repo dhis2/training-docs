@@ -14,7 +14,7 @@ Along with two output types:
 
 We can only show data from multiple stages using the combination of a line list table and an enrollment output type.
 
-## Steps for creating a pivot table event report
+## Creating a pivot table event report
 
 1. Set your style  - Table Style : Pivot, Output Type : Event
 2. Select your program, stage and data
@@ -26,7 +26,7 @@ We can only show data from multiple stages using the combination of a line list 
 
 This type of report will summarize **all events** within a ***single*** program stage, including any repeated events within the stage you have selected.
 
-## Steps for creating a line list table event report
+## Creating a line list table event report
 
 1. Set your style  - Table Style : Line List, Output Type : Event
 2. Select your program, stage and data
@@ -38,7 +38,7 @@ This type of report will summarize **all events** within a ***single*** program 
 
 This type of report will create a line-by-line listing of **all events** that meet your filter criteria within a ***single*** program stage, including any repeated events within the stage you have selected.
 
-## Steps for creating a pivot table enrollment report
+## Creating a pivot table enrollment report
 
 1. Set your style  - Table Style : Pivot, Output Type : Enrollment
 2. Select your program, stage and data
@@ -50,7 +50,7 @@ This type of report will create a line-by-line listing of **all events** that me
 
 This type of report will summarize the **most recent event** within a ***single*** program stage. It therefore  allows you to make unique counts as it will not count repeated stage data multiple times.
 
-## Steps for creating a line list enrollment report
+## Creating a line list enrollment report
 
 1. Set your style  - Table Style : Line List, Output Type : Enrollment
 2. Select your program, stage and data
@@ -68,7 +68,7 @@ This type of report can create a line-by-line listing of the **most recent event
 2. Select "Save as"
 3. Provide your report with a name and save it
 
-## Download an event report
+## Downloading an event report
 
 1. Select the downloads menu
 2. Select the format you want to download the report it

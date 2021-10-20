@@ -134,7 +134,7 @@ The chart is not sorted and does not have a title as is the case with the saved 
 
 ![chart1_options](resources/images/event_visualizer/chart1_options.png)
 
-Then proceed to update your chart to view the final output. 
+Then proceed to update your chart to view the final output.
 
 ![chart1_final](resources/images/event_visualizer/chart1_final_output.png)
 
@@ -142,7 +142,7 @@ Then proceed to update your chart to view the final output.
 
 You can also show them how to save the chart using the favorites menu
 
-![ev_save](resources/images/event_visualizer/ev_save_menu.png) 
+![ev_save](resources/images/event_visualizer/ev_save_menu.png)
 
 and download the chart
 

@@ -1,4 +1,4 @@
-# Tracker Capture Web - Session Summary 
+# Tracker Capture Web - Session Summary
 
 Tracker capture is the primary web application used in DHIS2 for registration and enrollment of tracked entities and capture event data related to them. In addition, the tracked entity dashboard of tracker capture contains  multiple widgets that supports in adding relationships, providing feedback and to display program indicators.
 
@@ -28,8 +28,6 @@ Steps to be followed to Open “Tracker capture app”.
 
 ## Data Entry
 
-
-
 3. Start entering the data by selecting the Incident Date or the event date by clicking on the “+” icon at the Data Entry widget.
 * When selecting data elements look out for the total doses and suggested dose for the next dose. This is a result of using program rules which have been defined to allow for these to be hidden upon the appropriate selection of another data element value. 
 * Enter all the relevant fields and click on “Complete button” after entering all relevant values.
@@ -42,8 +40,6 @@ Steps to be followed to Open “Tracker capture app”.
 * Data entry areas
 
 ## Referral to another facility
-
-
 
 6. Create a Referral.
 * Select the Referral tab at the data entry widget.
