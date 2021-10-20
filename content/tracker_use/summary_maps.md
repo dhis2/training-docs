@@ -47,17 +47,26 @@
 1. In the maps app go to Add layer -> Tracked Entities
 2. You will have 5 tabs that you should fill out in sequence
    1. Data tab : Select the tracked entity type, Program and Program status
+
 ![map2_data](resources/images/maps/map2_data.png)
+
    1. Relationships tab : Check "Display Tracked Entity relationships" and select the relationship type
+
 ![map2_relationships](resources/images/maps/map2_relationships.png)
+
    1. Period tab : Select the period type along with the start and end date
+
 ![map2_period](resources/images/maps/map2_period.png)
+
    2. Org Units tab : select the org unit and the selection mode
+
 ![map2_OUs](resources/images/maps/map2_OUs.png)
+
    3. Style tab 
       1. Select the color and size of the tracked entity
       2. Select the color and size of the related entity
       3. Select the color of the line used to connect the tracked entity and related entity
+
 ![map2_style](resources/images/maps/map2_style.png)
 
 
