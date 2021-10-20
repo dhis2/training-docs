@@ -72,7 +72,23 @@ In an in-person setting, the participants may be doing the demo with you at the 
    2. Note that dealing with event or tracker data when using the event layer is exactly the same
 3. Create a map using the TEI layer with relationships
    1. Create the map with the following inputs
+      - Layer 1 Type : Boundary Layer - Vientiane Capital
+      - Layer 2 Type : Tracked Entity
+      - Data:
+        - Tracked Entity Type : Person
+        - Program : COVID-19 Case-base Surveillance
+        - Program status : all
+      - Relationships : 
+        - Display tracked entity relationships = yes
+        - Relationship type : Has Been in Contact with
+      - Period :
+        - Program/Enrollment date
+        - Start/ End Date : Oct 16, 2020 - Oct 16, 2021
+      - Org Units : CHW Mitthaphap
+      - Style : leave as default
    2. Discuss the limitations of this layer in its current state (no relationships across other programs, can't just collect the co-ordinate during registration and combine this with data within one of the events)
+4. Review the recap slide
+5. Have them perform the assignment
 
 ## Live Demo step by step
 
@@ -172,7 +188,7 @@ Give the map a name and a description and select "Save"
 
 #### Review how to download a map
 
-Select the download option from within the app. This will open up a new dialog. Position your legend where you want it and select "Download" to download the map. This will download a PNG file of the map to your downloads folder. 
+Select the download option from within the app. This will open up a new dialog. Position your legend where you want it and select "Download" to download the map. This will download a PNG file of the map to your downloads folder.
 
 ![map1_download](resources/images/maps/map1_download.png)
 

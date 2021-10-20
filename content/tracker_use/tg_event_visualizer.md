@@ -68,6 +68,8 @@ In an in-person setting, the participants may be doing the demo with you at the 
    - Review saving and downloading the chart if needed
 
 3. Review the chart "COVID_CBS - Test Results" and discuss the difference between the output type options "Event" and "Tracked entity instance"
+4. Review the recap slide
+5. Have them perform the assignment
 
 ## Live Demo step by step
 

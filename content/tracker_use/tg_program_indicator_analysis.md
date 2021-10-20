@@ -58,6 +58,7 @@ In an in-person setting, the participants may be doing the demo with you at the 
    - Program Indicator : Underlying conditions
  - Period : Last 6 months
  - Org Unit : All Level 2 OUs
+
 2. Create a chart using program indicators from different program stages from COVID-19 Case-based Surveillance Program
    1. Create the chart using
       - Visualization Type : Line Chart
@@ -121,7 +122,8 @@ STOP! Have them perform *Exercise 2* in the learner's guide.
 
 STOP! Have them perform *Exercise 3* in the learner's guide.
 
-5. Have them perform the assignment
+5. Review the recap slide
+6. Have them perform the assignment
 
 ## Live Demo step by step
 
