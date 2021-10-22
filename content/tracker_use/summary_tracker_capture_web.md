@@ -1,6 +1,6 @@
 # Tracker Capture Web - Session Summary
 
-Tracker capture is the primary web application used in DHIS2 for registration and enrollment of tracked entities and capture event data related to them. In addition, the tracked entity dashboard of tracker capture contains  multiple widgets that supports in adding relationships, providing feedback and to display program indicators.
+Tracker capture is the primary web application used in DHIS2 for registration and enrollment of tracked entities and capture event data related to them. In addition, the tracked entity dashboard of tracker capture contains multiple widgets that supports adding relationships, providing feedback and displaying program indicators.
 
 It is advisable to open the DHIS2 application in Google Chrome.
 

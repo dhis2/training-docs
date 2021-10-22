@@ -149,6 +149,9 @@ STOP! Have them perform Exercise 3
     - Period : This Year
     - Org Unit : Country
 
+7. Review the recap slide
+9. Have them perform the assignment
+
 STOP! Have them perform exercise 4
 
 Once they have completed all of the ungraded exercises, they should then complete the graded assignment
