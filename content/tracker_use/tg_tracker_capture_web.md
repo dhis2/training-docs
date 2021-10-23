@@ -254,19 +254,19 @@ There are two different ways one can register a tracked entity under an organiza
 
 1. Open the Capture App from Search bar.
    
-   ![](resources/images/tracker_capture_web/Capture1.png "image_tooltip")
+   ![Capture1.png](resources/images/tracker_capture_web/Capture1.png "image_tooltip")
 
 2. Select an Organization unit.
-    ![](resources/images/tracker_capture_web/capture2.png "image_tooltip")
+    ![capture2.png](resources/images/tracker_capture_web/capture2.png "image_tooltip")
    
 3. Click the **New** button.
    From the dropdown menu you can select a tracked entity type.
 
-    ![](resources/images/tracker_capture_web/Capture3.png "image_tooltip")
+    ![Capture3.png](resources/images/tracker_capture_web/Capture3.png "image_tooltip")
    The moment you select a tracked entity type, a form will be shown on the screen
 
 4. You can see the profile page of the peron and can enter the relevant demographics details.
-![](resources/images/tracker_capture_web/Capture4.png "image_tooltip")
+![Capture4.png](resources/images/tracker_capture_web/Capture4.png "image_tooltip")
 
 5. Click on Save new and you will now be prompted to the tracked entity dashboard.
 6. The dashboard will show information about the newly created tracked entity instance.
@@ -280,10 +280,10 @@ There are two different ways one can register a tracked entity under an organiza
    3. Select a tarcker program in this case **COVID-19 Case based Sureveillance**.
    4. Click on **New** drop down button and select the first option.
    
-    ![](resources/images/tracker_capture_web/Capture5.png "image_tooltip")
+    ![Capture5.png](resources/images/tracker_capture_web/Capture5.png "image_tooltip")
 
     The form will have two sections. The first section has the title "Enrollment". There you will add all the information relevant to this program's enrollment. The second section has the title "Profile" there you will add data relevant to the tracked entity instance. The profile section mainly contains all the tracked entity attributes linked to the program or tracked entity type.
-      ![](resources/images/tracker_capture_web/Capture6.png "image_tooltip")
+      ![Capture6.png](resources/images/tracker_capture_web/Capture6.png "image_tooltip")
    5. Click on Save new and you will now be prompted to the tracked entity dashboard.
    6. The dashboard will show information about the newly created tracked entity instance.
 
