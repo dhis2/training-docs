@@ -1,80 +1,33 @@
-**Learners Guide to Tracker Capture**
+# Learners Guide to Tracker Capture
 
 
-# **What is this guide?**
+## **What is this guide?**
 
 This guide contains ungraded exercises and detailed steps to perform them related to the tracker capture use session for the Tracker Use Level 1 academy. 
 
-**Table of Content:**
+## Learning objectives for this session
 
-- [**What is this guide?**](#what-is-this-guide)
-- [**Learning objectives for this session**](#learning-objectives-for-this-session)
-- [**Time needed for this session: 1 hour and 30 min**](#time-needed-for-this-session-1-hour-and-30-min)
-- [**Background**](#background)
-- [**Live Demo step by step**](#live-demo-step-by-step)
-  - [Part 1: Tracker capture interface](#part-1-tracker-capture-interface)
-  - [Part 2 : Registration](#part-2--registration)
-    - [Register a new TEI](#register-a-new-tei)
-  - [Part 3 : Tracker Dashboard](#part-3--tracker-dashboard)
-    - [**Top 6 items at the tracker dashboard**](#top-6-items-at-the-tracker-dashboard)
-    - [**Widget Descriptions**](#widget-descriptions)
-  - [Part 4 : Data Entry Steps](#part-4--data-entry-steps)
-    - [**Data Entry**](#data-entry)
-    - [**Add a Relationship**](#add-a-relationship)
-    - [**Make a Referral**](#make-a-referral)
-    - [**Register an entity in another program**](#register-an-entity-in-another-program)
-    - [**Register a TEI with no Program**](#register-a-tei-with-no-program)
-  - [Part 5 : Demonstrate Tracker Capture App Reports](#part-5--demonstrate-tracker-capture-app-reports)
+The overall objective of this session is to use the DHIS2 tracker capture app. Detailed objectives include:
 
-# **Learning objectives for this session**
+* Understand how to select the correct program
+* Understand the layout and options of tracker capture
+* Understand how to register a TEI 
+* Understand how to fill in program stage details
+* See how to search for a TEI 
+* See how skip-logic can be used in a tracker program
+
+## Exercise 1
 
 
-
-1. About the tracker capture use.
-2. Create TEI and enroll it in the specific program
-3. Open an existing TEI dashboard
-* Lists
-* Search
-* Possible duplicate
-4. About TEI (tracked entity instance dashboard)
-5. Enroll an existing TEI in multiple program
-6. Enter Event data for TEI
-  
-* Widgets for data entry
-* Creating an event
-* Schedule an event
-* Refer an event
-7. Add Relationship
-8. Program Reports 
-
-
-# **Time needed for this session: 1 hour and 30 min**
-
-
-# **Background**
-
-Tracker capture is a module for individual, itemized data collection.Tracker capture data entry is organised by program, which is the equivalent of patient registry or other similar data collection tool. As programs are entered on an individual basis, program based data is entered based on the report or enrollment date as defined by the programs requirements. Tracker capture by design is not anonymous in nature, and therefore persons details are attached to each event.
-
-In this demo, the COVID-19 (Vaccine Registry and Case-based surveillance) demo programs that have been created will be used to demonstrate the features of tracker based vaccine programs. 
-
-**“COVID-19 (Vaccine Registry and Case-based surveillance)”** The COVID - 19 program is based on an in-country pilot of a tracker in Laos. The case based surveillance programs enrolls and tracks the suspected case, captures symptoms, demographics, risk factors, and creates lab requests. 
-
-
-# **Live Demo step by step**
-
-
-## Part 1: Tracker capture interface
+### Review the tracker capture interface
 
 Steps to open a tracker capture app:
-
-
 
 1. Open Tracker Capture from the Apps menu
 
     ![image31.png](resources/images/tracker_capture_web/image31.png "image_tooltip")
   
-
-2. Find and select the site (organisation unit) in the org unit hierarchy.The ''COVAC - COVID - 19 Vaccine Registry tracker program'' is linked to any Organization Unit at the health facility level and above. CHW Mahosot has some example cases already entered. Click on the ‘+’ symbol to expand the hierarchy in the desired branch. For example, to find “CHW Mahosot”, expand Lao PDR, then 01 Vientiane Capital, then 0001 CH Mahosot and finally CHW Mahosot.Click on the site name to select it. When selected the org unit’s name will change color to orange.
+2. Find and select the site (organisation unit) in the org unit hierarchy.The ''COVAC - COVID - 19 Vaccine Registry tracker program'' is linked to any Organization Unit at the health facility level and above. CHW Mahosot has some example cases already entered. Click on the ‘+’ symbol to expand the hierarchy in the desired branch. For example, to find “CHW Mahosot”, expand Lao PDR, then 01 Vientiane Capital, then 0001 CH Mahosot and finally CHW Mahosot. Click on the site name to select it. When selected the org unit’s name will change color to orange.
 
     ![image15.png](resources/images/tracker_capture_web/image15.png "image_tooltip")
 
@@ -97,7 +50,7 @@ Steps to open a tracker capture app:
    ![image12.png](resources/images/tracker_capture_web/image12.png "image_tooltip")
 
 
-## Part 2 : Registration
+### Registration of a TEI
 
 During registration, it is possible to stay on the same page and keep registering more than one entity. You can also go straight to the dashboard of the registered TEI. Selecting a program and doing registration also performs enrollment into the program at the background. If a TEI is registered without a program, then enrollment is possible from the TEI dashboard. Both skip-logic and validation error/warning messages are supported during registration.
 
@@ -163,9 +116,11 @@ After entering the details proceed to click on “**Save and continue**” in or
 
 ![image13.png](resources/images/tracker_capture_web/image13.png "image_tooltip")
 
-## Part 3 : Tracker Dashboard
+## Exercise 2
 
-### **Top 6 items at the tracker dashboard**
+### Review the Tracker Dashboard
+
+#### **Top 6 items at the tracker dashboard**
 
 The dashboard starts with below items at the top:
 
@@ -200,7 +155,9 @@ The dashboard starts with below items at the top:
 
 This is permission based, so not everyone will have the authority to perform this function.
 
-### **Widget Descriptions**
+#### Widget Descriptions
+
+> Note: These are here for your reference, you do not need to review all of this text during the session
 
 * Data Entry - This is for doing data entry using either default or custom forms. Depending on program definition, in particular program stages, events will be displayed in a timely fashion. Clicking on any of them displays the corresponding data entry. If a stage needs a new event, a plus icon is displayed for new event creation. To proceed with data entry, it is mandatory to have an event date. Once an event date is specified it is not possible to change the due date. The assumption is that by specifying the event date, the event has already taken place. If the event hasn't occurred yet, it is possible to change the due date - this is effectively doing nothing but rescheduling. The buttons at the bottom help to change the status of a selected event. Another key feature from this widget is the addition of multiple notes for an event. Normally data recording is through data elements, however there are cases where it is necessary to record additional information or comments. This is where the notes section comes handy. However, an interesting feature here is,it is not possible to delete a note. The idea is that notes are more like log books. Both skip-logic and validation error/warning messages are supported during data entry.
 * Enrollment - This helps to enroll the TEI for the selected program. If an active enrollment already exists, the widget automatically displays it with some details about it. The widget also helps to do some operations on the selected enrollment - for example complete / cancel or a possibility to mark the enrollment for followup. The later one helps for example to deal with high-risk cases during case follow-up. A link to history is also provided if the TEI has historical enrollment.
@@ -212,10 +169,11 @@ This is permission based, so not everyone will have the authority to perform thi
 * Relationship - This helps to relate the selected TEI (the one whose dashboard is shown) to another TEI. Adding a relative is possible by either searching from existing or registering a new one. If a program is selected while registering a new one, the new one will be automatically enrolled to the selected program. Another interesting feature in the relationship widget is attribute inheritance. For example having a contact relationship with the COVID -19 affected patient for this you want to add a relationship with a person with a current patient that has been registered in a case based surveillance program. If among others first name, last name and address attributes are required for both Programs.
 * Report - This is to provide a "journal" of the TEI per program. A report row is provided for each program the TEI is/was associated with.
 
+## Exercise 3
 
-## Part 4 : Data Entry Steps
+### Enter data
 
-### **Data Entry**
+#### Data Entry
 
 1. Select the Date and fill out the data. When selecting which data elements look out for the total doses and suggested dose for the next dose. This is a result of using program rules which have been defined to allow for these to be hidden upon the appropriate selection of another data element value. When you have entered some data, click on “Complete.”
 
@@ -254,7 +212,7 @@ From the screenshot above, we can see a number of different items within the dat
 * Data Entry Area : This is where the actual data related to a specified program stage is entered. This can differ between program stages, and as you will demo, program rules can also cause this to vary within a repeatable stage.
 * Compare the Forms Using the Compare form Button : After you have at least registered 2 events, ulse the compare form button to compare the events within the program
 
-### **Add a Relationship**
+#### Add a Relationship
 
 * To add a new relationship, click the “Add” button on the relationships widget.
 
@@ -284,7 +242,7 @@ From the screenshot above, we can see a number of different items within the dat
   ![image29.png](resources/images/tracker_capture_web/image29.png "image_tooltip")
 
 
-### **Make a Referral**
+#### Make a Referral
 
 To make a referral to a new facility in a scenario where a patient is being referred due to lack of vaccinations in the current facility or might be moving permanently to a different location we can then use the “Referral”option within DHIS2.
 
@@ -301,15 +259,16 @@ To make a referral to a new facility in a scenario where a patient is being refe
   ![image30.png](resources/images/tracker_capture_web/image30.png "image_tooltip")
   
 
+## Exercise 4
 
-### **Register an entity in another program**
+### Register an entity in another program
 
 TEIs can be registered in more than one program. This allows you to take the attribute information that already exists and re-use it. Additionally, you will now have a historical link of all of the different services that a unique individual has received.
 
 ![image25.png](resources/images/tracker_capture_web/image25.png "image_tooltip")
 
 
-### **Register a TEI with no Program**
+### Register a TEI with no Program
 
 A TEI can also be registered without selecting a program. De-select the Vaccination program so that the program selection field is blank. Select the person TEI type and click on “Register". 
 
@@ -325,15 +284,6 @@ A TEI can also be registered without selecting a program. De-select the Vaccinat
 * Select the COVID - 19 case based Surveillance and click on “Add new.” The attributes for the program will appear. You can fill them out to register the person into the program. Using the program selector, TEI’s can be registered in multiple programs directly from the dashboard.
   
   ![image5.png](resources/images/tracker_capture_web/image5.png "image_tooltip")
-
-    
+ 
 * After you are done, go back to the front page of the tracker capture app.
-
-## Part 5 : Demonstrate Tracker Capture App Reports
-
-Access tracker capture reports by selecting “Reports” from the front page of the tracker capture app.
-
-![image17.png](resources/images/tracker_capture_web/image17.png "image_tooltip")
-
-There are a number of reports available which are helpful in tracking entities through their programs and making sure they have received the right services, or giving an overview of the program statistics or if there are any overdue events.
 

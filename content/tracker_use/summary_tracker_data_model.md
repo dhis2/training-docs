@@ -4,8 +4,9 @@ This document is a summary of the DHIS2 tracker use academy session "Tracker Dat
 
 ## Data Model Terminology
 
-- **Tracked Entity** : This refers to the type of entity that is being tracked (ie. a Person, Case, Lab Sample, a Village, etc.)
-- **Tracker Entity Attributes** : Used to register profile information for the entity which can be common for many health programmes (ie. National ID, Name, Sex, Date of birth, Address, Phone Number etc.)
+- **Tracker Entity Attributes** : Used to register profile information for what we are tracking (ie. National ID, Name, Sex, Date of birth, Address, Phone Number etc.)
+- **Tracked Entity** : This refers to the type of concept that is being tracked (ie. a Person, Case, Lab Sample, a Village, etc.)
+- **Tracked Entity Instance (TEI)** : Refers to a single tracked entity that has been registered in the system
 - **Incident Date** : The date which triggers the first event
 - **Enrollment Date** : The date the entity is enrolled in the program
 - **Enrollment** : The process of taking a tracked entity and registering them into a program

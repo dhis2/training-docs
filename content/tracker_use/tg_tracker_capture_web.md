@@ -19,8 +19,6 @@ There is also a Quick Guide which lists the steps very briefly and this is meant
 
 The overall objective of this session is to use the DHIS2 tracker capture app. Detailed objectives include:
 
-
-
 * Understand how to select the correct program
 * Understand the layout and options of tracker capture
 * Understand how to register a TEI 
@@ -111,7 +109,6 @@ Go over the Vaccine Registry Program used in this tracker program to demonstrate
 ## Live Demo step by step
 
 ### Part 1: Explain the initial tracker capture interface and options 
-
 
 **COVAC - COVID-19 Vaccine Registry Overview**
 
@@ -216,6 +213,8 @@ The details you entered during search will be brought over to the registration p
 
 After entering the details proceed to click on “Save and continue” in order to register the TEI. 
 
+#### STOP! Have the participants perform *Exercise 1* in the learner's guide
+
 ### Part 3 : Describe the Tracker Dashboard
 
 
@@ -275,6 +274,8 @@ This is permission based, so not everyone will have the authority to perform thi
 8. **Relationship** - This helps to relate the selected TEI (the one whose dashboard is shown) to another TEI. Adding a relative is possible by either searching from existing or registering a new one. If a program is selected while registering a new one, the new one will be automatically enrolled to the selected program. Another interesting feature in the relationship widget is attribute inheritance. For example having a contact relationship with the COVID -19 affected patient for this you want to add a relationship with a person with a current patient that has been registered in a case based surveillance program. If among others first name, last name and address attributes are required for both Programs.
 
 9. **Report** - This is to provide a "journal" of the TEI per program. A report row is provided for each program the TEI is/was associated with.
+
+#### STOP! Have the participants perform *Exercise 2* in the learner's guide
 
 ### Part 4 : Data Entry Steps
 
@@ -366,6 +367,8 @@ The relationship will then be added to the relationship widget. If you click on 
 
 ![image30.png](resources/images/tracker_capture_web/image30.png "image_tooltip")
 
+#### STOP! Have the participants perform *Exercise 3* in the learner's guide
+
 ####  Register an entity in another program
 
 * Show that TEIs can be registered in more than one program. This allows you to take the attribute information that already exists and re-use it. Additionally, you will now have a historical link of all of the different services that a unique individual has received.
@@ -398,6 +401,13 @@ Access tracker capture reports by selecting “Reports” from the front page of
 
 There are a number of reports available which are helpful in tracking entities through their programs and making sure they have received the right services, or giving an overview of the program, etc.
 
+#### STOP! Have the participants perform *Exercise 4* in the learner's guide
+
+## Recap
+
+Review the recap slide with them at the end of the session before they perform the assignment
+
 ## Assignment
 
 After you have completed all demos and they have finished the exercises, have them complete the graded assignment for this session. If you find you are running out of time, assign the graded assignment to them and ask them to complete it outside of the live scheduled session.
+
