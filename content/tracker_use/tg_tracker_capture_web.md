@@ -1,5 +1,31 @@
 # Trainer’s guide to Tracker-Capture (Web-Based)
 
+- [Trainer’s guide to Tracker-Capture (Web-Based)](#trainers-guide-to-tracker-capture-web-based)
+  - [What is this guide?](#what-is-this-guide)
+  - [Learning objectives for this session](#learning-objectives-for-this-session)
+    - [Time Requirements](#time-requirements)
+  - [Background](#background)
+  - [Preparations](#preparations)
+  - [Best Practices](#best-practices)
+  - [Quick Guide /Steps to be followed:](#quick-guide-steps-to-be-followed)
+  - [Live Demo step by step](#live-demo-step-by-step)
+    - [Part 1: Explain the initial tracker capture interface and options](#part-1-explain-the-initial-tracker-capture-interface-and-options)
+    - [Part 2 : Registration](#part-2--registration)
+      - [Register a new TEI](#register-a-new-tei)
+      - [Register and Search Using Capture App](#register-and-search-using-capture-app)
+      - [Without a program enrollment](#without-a-program-enrollment)
+      - [With a program enrollment](#with-a-program-enrollment)
+    - [Part 3 : Describe the Tracker Dashboard](#part-3--describe-the-tracker-dashboard)
+    - [Part 4 : Data Entry Steps](#part-4--data-entry-steps)
+      - [Add a New Event](#add-a-new-event)
+      - [Review the Data Entry Widget](#review-the-data-entry-widget)
+      - [Add a Relationship](#add-a-relationship)
+      - [Make a Referral](#make-a-referral)
+      - [Register an entity in another program](#register-an-entity-in-another-program)
+      - [Register a TEI with no Program](#register-a-tei-with-no-program)
+    - [Part 5 : Demonstrate Tracker Capture App Reports](#part-5--demonstrate-tracker-capture-app-reports)
+  - [Assignment](#assignment)
+
 ## What is this guide?
 
 This guide is a support document for DHIS2 Academy trainers for the session “Demonstrating and using tracker capture (Web).”
@@ -18,6 +44,8 @@ There is also a Quick Guide which lists the steps very briefly and this is meant
 ## Learning objectives for this session
 
 The overall objective of this session is to use the DHIS2 tracker capture app. Detailed objectives include:
+
+
 
 * Understand how to select the correct program
 * Understand the layout and options of tracker capture
@@ -109,6 +137,7 @@ Go over the Vaccine Registry Program used in this tracker program to demonstrate
 ## Live Demo step by step
 
 ### Part 1: Explain the initial tracker capture interface and options 
+
 
 **COVAC - COVID-19 Vaccine Registry Overview**
 
@@ -213,7 +242,55 @@ The details you entered during search will be brought over to the registration p
 
 After entering the details proceed to click on “Save and continue” in order to register the TEI. 
 
-#### STOP! Have the participants perform *Exercise 1* in the learner's guide
+#### Register and Search Using Capture App
+
+The capture app now has more support for tracker programs than before. Users will now be able to list and interact with tracked entity instances much in the same way as events, and will have access to searching and registering/enrolling tracked entity instances in the Capture app itself. The navigation between the apps will happen seamlessly. This will allow data entry user to access tracker and event data in the same place, and have a more integrated workflow.
+
+We will dicsuss how to do registration and enrollment using capture app.
+
+There are two different ways one can register a tracked entity under an organization unit.The first way, is to register a tracked entity instance without enrolling it to a tracker program. The second option, is to register a tracked entity instance with program and enroll it.
+
+#### Without a program enrollment
+
+1. Open the Capture App from Search bar.
+   
+   ![image42.png](resources/images/tracker_capture_web/image42.png "image_tooltip")
+
+2. Select an Organization unit.
+   ![image43.png](resources/images/tracker_capture_web/image43.png "image_tooltip")
+   
+3. Click the **New** button.
+   From the dropdown menu you can select a tracked entity type.
+
+   ![image44.png](resources/images/tracker_capture_web/image44.png "image_tooltip")
+
+   The moment you select a tracked entity type, a form will be shown on the screen
+
+4. You can see the profile page of the peron and can enter the relevant demographics details.
+   
+   ![image45.png](resources/images/tracker_capture_web/image45.png "image_tooltip")
+
+5. Click on Save new and you will now be prompted to the tracked entity dashboard.
+6. The dashboard will show information about the newly created tracked entity instance.
+   
+   #### With a program enrollment 
+
+   You need to follow the similar steps as explained above but for this you will select a relevant program also.
+
+   1. Open the Capture app.
+   2. Select an organization unit.
+   3. Select a tarcker program in this case **COVID-19 Case based Sureveillance**.
+   4. Click on **New** drop down button and select the first option.
+   
+   ![image46.png](resources/images/tracker_capture_web/image46.png "image_tooltip")
+
+    The form will have two sections. The first section has the title "Enrollment". There you will add all the information relevant to this program's enrollment. The second section has the title "Profile" there you will add data relevant to the tracked entity instance. The profile section mainly contains all the tracked entity attributes linked to the program or tracked entity type.
+     ![image47.png](resources/images/tracker_capture_web/image47.png "image_tooltip")
+   3. Click on Save new and you will now be prompted to the tracked entity dashboard.
+   4. The dashboard will show information about the newly created tracked entity instance.
+
+   
+   
 
 ### Part 3 : Describe the Tracker Dashboard
 
@@ -274,8 +351,6 @@ This is permission based, so not everyone will have the authority to perform thi
 8. **Relationship** - This helps to relate the selected TEI (the one whose dashboard is shown) to another TEI. Adding a relative is possible by either searching from existing or registering a new one. If a program is selected while registering a new one, the new one will be automatically enrolled to the selected program. Another interesting feature in the relationship widget is attribute inheritance. For example having a contact relationship with the COVID -19 affected patient for this you want to add a relationship with a person with a current patient that has been registered in a case based surveillance program. If among others first name, last name and address attributes are required for both Programs.
 
 9. **Report** - This is to provide a "journal" of the TEI per program. A report row is provided for each program the TEI is/was associated with.
-
-#### STOP! Have the participants perform *Exercise 2* in the learner's guide
 
 ### Part 4 : Data Entry Steps
 
@@ -367,8 +442,6 @@ The relationship will then be added to the relationship widget. If you click on 
 
 ![image30.png](resources/images/tracker_capture_web/image30.png "image_tooltip")
 
-#### STOP! Have the participants perform *Exercise 3* in the learner's guide
-
 ####  Register an entity in another program
 
 * Show that TEIs can be registered in more than one program. This allows you to take the attribute information that already exists and re-use it. Additionally, you will now have a historical link of all of the different services that a unique individual has received.
@@ -401,13 +474,6 @@ Access tracker capture reports by selecting “Reports” from the front page of
 
 There are a number of reports available which are helpful in tracking entities through their programs and making sure they have received the right services, or giving an overview of the program, etc.
 
-#### STOP! Have the participants perform *Exercise 4* in the learner's guide
-
-## Recap
-
-Review the recap slide with them at the end of the session before they perform the assignment
-
 ## Assignment
 
 After you have completed all demos and they have finished the exercises, have them complete the graded assignment for this session. If you find you are running out of time, assign the graded assignment to them and ask them to complete it outside of the live scheduled session.
-
