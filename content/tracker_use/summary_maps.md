@@ -39,6 +39,7 @@
       1. Select the color and size of the tracked entity
       2. Select the color and size of the related entity
       3. Select the color of the line used to connect the tracked entity and related entity
+3. It is also typically a good idea to add a boundary layer to a map using an event layer by going to Add layer -> Boundaries and selecting the level or group you want to add the boundary for
 
 ## Save a map
 

@@ -221,7 +221,7 @@ Go to the registration page and see that the ID will be generated. These ID’s 
 
 Click on “Register” to register a new TEI. You will then be faced with the Enrollment screen for the program. The enrollment screen lists all the attributes that are associated with the program. 
 
-In later sessions, you will go over the terminology in more detail so just focus on describing the interface and actions for now. Enter a TEI that already exists (**_Sharon_**) in the system. You will be notified that a possible duplicate has already been found.
+In later sessions, you will go over the terminology in more detail so just focus on describing the interface and actions for now. Enter a TEI that already exists (***Sharon***) in the system. You will be notified that a possible duplicate has already been found.
 
 
 ![image32.png](resources/images/tracker_capture_web/image32.png "image_tooltip")

@@ -70,7 +70,7 @@ Once you enter the ID, search for the record. It will populate the details of th
 
 ![pass_output](resources/images/custom_apps/pass_output.png)
 
-The QR code shown here contains the following information: first name, surname, sex, the name of the vaccine and the dates of the doses. It is important to note that other information can be added to the QR or removed. It will depend on the country or organization that wants to implement it.
+The QR code shown here contains the following information: first name, surname, sex, the name of the vaccine and the dates of the doses. It is important to note that other information can be added or removed to the QR as required (within reason). It will depend on the country or organization that wants to implement it.
 
 You are able to print or download the pass using the print button.
 

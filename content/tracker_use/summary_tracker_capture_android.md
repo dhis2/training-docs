@@ -41,7 +41,7 @@ In order to perform a search:
 The tracker dashboard consists of 4 tabs located at the bottom of the screen:
 
 1. Details : it is the page you are on by default when opening the record and shows the TEI info as well as the details of the stages and events
-2. The indicators widget
+2. The analytics widget
 3. The relationships widget
 4. The notes widget
 

@@ -75,7 +75,7 @@ The chart is saved as "COVID_CBS - Symptoms and health outcome, this year" as re
 
 This chart uses enrollment indicators, including combining data from Stage 1 (Clinical exam and diagnosis), where it gets the data on whether or not a person has symptoms, and Stage 4 (Health Outcome), where it gets the information on whether or not the person died or recovered. It is not possible to create this type of output using event visualizer.
 
-You can covert this chart to a pivot table so they can see that you can also create a pivot table using data from multiple stages, an option not possible in event reports.
+You can covert this chart to a pivot table to review that creating pivot tables using data from multiple stages is now possible; this is not possible in event reports.
 
 ![table2](resources/images/program_indicators/COVID_CBS_table2.png)
 

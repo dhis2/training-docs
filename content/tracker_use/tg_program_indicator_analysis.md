@@ -220,7 +220,7 @@ In the maps session, we had discussed how we can use the event and TEI layer to 
 
 Through the use of program indicators however we are able to extend maps functionality with tracker data significantly as we can use the thematic layer to its full potential. This includes creating split view and timeline maps and using the available style options (such as creating choropleth and bubble maps) that are not available when using the event and TEI layer as examples.
 
-Open the map "COVID_CBS - Suspected cases, last 12 months." This the chart that you will create. You can explain the layout to the participants before continuing.
+Open the map "COVID_CBS - Suspected cases, last 12 months." This the map that you will create. You can explain the layout to the participants before continuing.
 
 Clear your inputs by going to Favorites -> New.
 
@@ -304,7 +304,7 @@ The table should look like this
 
 ![table3_contacts](resources/images/program_indicators/table3_contacts.png)
 
-Emphasize that you are able to select program indicators from the data tab; however some program indicators may not work as intended or not give you any meaningful output depending on how they have been configured. For example, for a single TEI, any count based indicators within a single event may not be so helpful as the maximum value they can return is 1 for a single TEI.
+Emphasize that you are able to select program indicators from the data tab; however some program indicators may not work as intended or not give you any meaningful output depending on how they have been configured. For example, for a single TEI, any count based indicators within a single, non-repeatable program stage may not be so helpful as the maximum value they can return is 1 for a single TEI.
 
 Sort the table by the "COVID-19 contacts" column. This is showing the number of contacts each person has had as defined through adding relationships via tracker capture. 
 

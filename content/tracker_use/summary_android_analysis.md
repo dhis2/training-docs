@@ -18,10 +18,10 @@ There are different elements on an Android device we can review as it relates to
 
 ## Reviewing how repeated stage, numeric data progresses over time
 
-- It is possible to display the evolution in data elements as charts, values or tables. This analysis will be available for numeric value types within a repeatable program stage.
-- To display the changes of these data element values over time, select a program containing this type of data, open a TEIs record and navigate to the analytics tab. 
-- This type of outputs can be displayed as various output types by selecting the options button above the output
-- You can add filters to these outputs by using the options button as well
+- It is possible to display the evolution of data elements as charts, values or tables. This analysis will be available for numeric value types within a repeatable program stage and allows you to view how the values of a data element are changing over time.
+- To display the changes of these data element values over time, select a program containing this type of data, open a TEIs record and navigate to the analytics tab.
+- This type of output can be displayed as different output types by selecting the options button above the output. After doing so select the output type you want to display.
+- You can add filters to these outputs by using the options button as well.
 
 ## Reviewing the output for program indicators
 
