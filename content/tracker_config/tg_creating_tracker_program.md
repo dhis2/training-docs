@@ -70,7 +70,7 @@ We will follow these general guidelines as we go through our demo.
 
 In this case, you have several resources available that you can use to review the program. This includes:
 
-1. [The system design guide](https://docs.dhis2.org/en/topics/metadata/covid-19-vaccine-delivery/covac-immunization-registry-tracker/design.html)
+1. [The system design guide](#cvc-eir-tracker-design)
 2. [The paper version of the form](insertlink)
 3. The actual program in DHIS2
 
@@ -145,7 +145,7 @@ In order to create/edit options sets, navigate to the option set section within 
 
 ![access_option_sets](resources/images/tg_creating_program/access_option_set.png)
 
-From here, you will note that all of the option sets required for this program have already been made. If you think the participants require a reminder of how to create an option set you can go ahead and create one. The [documentation](https://docs.dhis2.org/en/use/user-guides/dhis-core-version-master/configuring-the-system/metadata.html#manage_option_set) outlines the creation of option sets in detail. You can follow this process if you need a reference.
+From here, you will note that all of the option sets required for this program have already been made. If you think the participants require a reminder of how to create an option set you can go ahead and create one. The [documentation](#manage_option_set) outlines the creation of option sets in detail. You can follow this process if you need a reference.
 
 As an example, you can re-create the sex option set. The name of the option set should use initials so it is unique.
 
@@ -182,7 +182,7 @@ In order to create/view/edit attributes navigate to ***Tracked entity attribute*
 
 ![access_tei_attribute](resources/images/tg_creating_program/access_tei_attribute.png)
 
-As is the case with option sets, you will also see all of the required tracked entity attributes already created. We will create two following the instructions available within the [documentation](https://docs.dhis2.org/en/use/user-guides/dhis-core-version-master/configuring-the-system/programs.html#create_tracked_entity_attribute)
+As is the case with option sets, you will also see all of the required tracked entity attributes already created. We will create two following the instructions available within the [documentation](#create_tracked_entity_attribute)
 
 > Note on encryption: When adding new attributes, encryption can either be configured or not configured depending on the server configuration. In our example, it is not configured. If configured, this allows you to decide if you want certain attributes to be searchable or not. This can be useful in instances where confidentiality is of paramount concern and there are proper registration/ID numbers that allow you to track individuals without looking up other details such as name, etc. For demonstration purposes, please note the differences between the attribute creation screen in a DHIS2 instance where encryption is not available vs. a DHIS2 instance where encryption is configured.
 
@@ -214,7 +214,7 @@ In order to create/view/edit data elements we navigate to ***Data Elements*** wi
 
 ![access_des](resources/images/tg_creating_program/access_des.png)
 
-Here all the data elements for the program have been made. We can make some data elements as a reminder however following the instructions within the [documentation](https://docs.dhis2.org/en/use/user-guides/dhis-core-version-master/configuring-the-system/metadata.html#create_data_element).
+Here all the data elements for the program have been made. We can make some data elements as a reminder however following the instructions within the [documentation](#create_data_element).
 
 Create the data elements COVAC - Vaccine Name and COVAC - Suggested date of next dose using your initials as a prefix. Explain each of the mandatory fields (code, description and form name are also good optional fields to explain). The domain type should always be assigned to Tracker, as you are working with Tracker data elements exclusively.
 
@@ -224,7 +224,7 @@ After you create your data elements, it is always a good idea to group them toge
 
 ![de_group](resources/images/tg_creating_program/de_group.png)
 
-Group your data elements together, referring to the [documentation](https://docs.dhis2.org/en/use/user-guides/dhis-core-version-master/configuring-the-system/metadata.html#create_data_element_group) if needed.
+Group your data elements together, referring to the [documentation](#create_data_element_group) if needed.
 
 **STOP!**
 
@@ -259,11 +259,11 @@ At the top, you will see that, similar to when you create an event program, a st
 
 We will follow this approach as we create our program in DHIS2.
 
-You can consult the [documentation](https://docs.dhis2.org/en/use/user-guides/dhis-core-version-236/configuring-the-system/programs.html#configure_tracker_program_in_Maintenance_app) at any time if need be.
+You can consult the [documentation](#configure_tracker_program_in_Maintenance_app) at any time if need be.
 
 ### Step 10a - Fill in the program details page
 
-Describe the fields in the program details box area as much as possible, and note the mandatory fields that are identified using a star. It may also be useful to refer them to the [documentation](https://docs.dhis2.org/en/use/user-guides/dhis-core-version-236/configuring-the-system/programs.html#configure_tracker_program_in_Maintenance_app) for a more detailed explanation of what each field does (note : it is a good idea to have this open in a different tab so you can refer to it in the event there are questions about one of the fields). Fill in the mandatory fields, as well as any other fields you think is appropriate within the program details page (note : code and description are good additional, non-mandatory fields to fill and describe; skip the explanation of "Access level" if possible as this will be discussed in its own session).
+Describe the fields in the program details box area as much as possible, and note the mandatory fields that are identified using a star. It may also be useful to refer them to the [documentation](#configure_tracker_program_in_Maintenance_app) for a more detailed explanation of what each field does (note : it is a good idea to have this open in a different tab so you can refer to it in the event there are questions about one of the fields). Fill in the mandatory fields, as well as any other fields you think is appropriate within the program details page (note : code and description are good additional, non-mandatory fields to fill and describe; skip the explanation of "Access level" if possible as this will be discussed in its own session).
 
 An example description:
 COVID-19 immunization register. Records all individuals receiving their COVID-19 vaccination and tracks all information related to each dose they receive.
@@ -278,6 +278,6 @@ Allow the participants to create the program, fill in the program details and sa
 
 ### Step 10b Fill in the enrollment details page
 
-Open the program you have saved by selecting it from program maintenance and select the “Enrollment details” tab from the top bar. Here you may want to refer to the [documentation](https://docs.dhis2.org/en/use/user-guides/dhis-core-version-236/configuring-the-system/programs.html#configure_tracker_program_in_Maintenance_app) again if people are interested in understanding what each fields represents on this page.
+Open the program you have saved by selecting it from program maintenance and select the “Enrollment details” tab from the top bar. Here you may want to refer to the [documentation](#configure_tracker_program_in_Maintenance_app) again if people are interested in understanding what each fields represents on this page.
 
 For this program, disable the incident date as it is not required and add in a description of the enrollment date. 
