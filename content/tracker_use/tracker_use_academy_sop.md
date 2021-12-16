@@ -39,6 +39,10 @@ This resource is for learner's and provides a brief review of the key concepts p
 
 A database with all necessary metadata, data, user roles and user groups has been created for use in this academy. This database corresponds to all of the content that is presented within the various sessions. The database and corresponding details can be accessed from:
 
+## Learning Management System (LMS)
+
+A template using Moodle has been made containing all of the course content and graded assignments within it. This can be deployed as needed and modified if required based on any specific changes made to the version of the academy being run.
+
 ## Academy Certification
 
 To complete the academy, participant's must have an overall grade of 70% between the graded assignments and exam.

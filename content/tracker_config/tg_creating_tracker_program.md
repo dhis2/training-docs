@@ -24,7 +24,7 @@ The overall objective of this session is to demonstrate the design of a multiple
 - Creating Program stages
 - Assigning a Program to Organization Units
 
-## Time Requirements 
+## Time Requirements
 
 Demo : 3 hours (alternating between demo and learner participation)
 Exercise : 3 hours
@@ -63,6 +63,7 @@ We will follow these general guidelines as we go through our demo.
        - Create Program stages, identifying the number of days each stage should be filled in from the start of the program
        - Include the Data elements in the respective program stages
        - Assigning the Program to Organization unit(s)
+       - Applying sharing settings to the program
 
 ## Live demo step-by-step instructions
 
