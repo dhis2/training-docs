@@ -50,10 +50,6 @@ This first step prior to conducting your training is to understand the needs of 
 
 Note that an outcome from needs analysis is also to determine whether training is an appropriate way to address the gaps you have identified on its own. If not, a mix of learning and performance solutions, or a performance solution on its, may be more applicable. In our example case, as we are introducing a new process, we have made the assumption that at least some type of learning solution will be required.
 
-### Decide what you are going to teach (Conceptualize)
-
-
-
 ### Establishing Learning Objectives (Define Outcomes)
 
 Learning objectives help us to frame our training and define what we would like to achieve as our training outcomes. This is the start of the design process and can be difficult to keep to the scope we require if we have identified gaps we want to address that do not relate to our immediate needs. This is especially true as there may be any number of constraints (time, staff availability, funding, learner capacity, etc.) limiting the amount of training you can offer at any one time. With this in mind, the learning objectives can help us narrow our focus, and also help us identify areas to address with potential training in the future.
@@ -84,6 +80,10 @@ These learning objectives are best kept for internal use and development of mate
 This is more concise and will be easier to discuss with the learner's initially before diving in to the specifics of the concept.
 
 A common framework used to develop learning objective's is called [Bloom's taxonomy](https://cft.vanderbilt.edu/guides-sub-pages/blooms-taxonomy/) and is based upon the action we are expecting of the learner to perform when the learning objective has been satisfied. This can be used to develop more detailed learning objectives in order to outline what you will cover as part of your training.
+
+### Decide how you are going to teach (Conceptualize)
+
+### Determine what technologies you will use to deliver your training (Assess Technology Fit)
 
 ### Designing Learning Solutions
 
@@ -203,3 +203,7 @@ To support learning solutions, a number of tools can be used. This is not an exh
 \* = indicates an open source solution
 
 Any mix of these tools can be used based on your delivery method and material that you are designing. As a general rule, once you select a set of tools to facilitate your delivery method, it is a good idea to try and stick with them as it will become easier over time to work with them. As there is a combination of tools used for facilitation (such as a learning management or communication software) as well as content generation, different tools may be needed depending on where you are in your process. 
+
+### Perform the Training
+
+### Evaluate the Training
