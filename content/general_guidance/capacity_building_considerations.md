@@ -9,7 +9,6 @@ You can review of breakdown of these in Figure 1.
 
 ![capacity_building_diagram](resources/images/capacity_building_diagram.png)
 
-
 In most scenarios when working with DHIS 2, the immediate impulse is to consider learning solutions; however this may not always yield the best outcome on its own. We will provide an explanation of both of these types of solutions as well as considerations that need to be made when implementing them.
 
 ## Scenario
@@ -22,16 +21,11 @@ Let us start by reviewing how we would build our learning solution.
 
 ## Developing New Learning Solutions
 
-When it is determined that a learning solution is needed; there are 6 steps we can follow.
+When it is determined that a learning solution is needed; there are 7 steps we can follow as outlined in Figure 2
 
-* Understanding the **needs** of your audience
-* Establishing **learning objectives**
-* **Designing** your learning solution
-* **Developing** sessions and materials (or adapting existing materials)
-* **Implementing** the actual solution (commonly in the form of a training)
-* **Evaluating** your outcomes
+![instructional_design_method](resources/images/instructional_design_method.png)
 
-### Understanding the needs of your audience (Needs Analysis)
+### Understanding the needs of your audiience (Assess Needs)
 
 This first step prior to conducting your training is to understand the needs of your learner's. This does not need to be a comprehensive or time-consuming process if you have an already identified gap/gaps as a result of introducing a new process (for example, a new data collection form, a new set of indicators, a new dashboard) that you are rolling out in response to meeting specific requirements within your context. It is important however to also consider how to manage expectations in this step, as the scope can quickly become to large if you are not able to consider the immediate needs you are trying to address by creating a new learning solution. You can take this into consideration by following an outline like this when performing your needs analysis:
 
@@ -56,7 +50,11 @@ This first step prior to conducting your training is to understand the needs of 
 
 Note that an outcome from needs analysis is also to determine whether training is an appropriate way to address the gaps you have identified on its own. If not, a mix of learning and performance solutions, or a performance solution on its, may be more applicable. In our example case, as we are introducing a new process, we have made the assumption that at least some type of learning solution will be required.
 
-### Establishing Learning Objectives
+### Decide what you are going to teach (Conceptualize)
+
+
+
+### Establishing Learning Objectives (Define Outcomes)
 
 Learning objectives help us to frame our training and define what we would like to achieve as our training outcomes. This is the start of the design process and can be difficult to keep to the scope we require if we have identified gaps we want to address that do not relate to our immediate needs. This is especially true as there may be any number of constraints (time, staff availability, funding, learner capacity, etc.) limiting the amount of training you can offer at any one time. With this in mind, the learning objectives can help us narrow our focus, and also help us identify areas to address with potential training in the future.
 
@@ -93,7 +91,7 @@ After we have established our learning objectives, we need to start the process 
 
 You may want to start this process by deciding how you will actually deliver your learning solution. This will affect some of the design principles behind the generation of the materials themselves. For example, if performing an online training, sessions may need to be shorter and more detailed guidance may need to be provided to the learner when compared to the in-person environment.
 
-You can review a breakdown of methods you might want to asses in Figure 2.
+You can review a breakdown of methods you might want to asses in Figure 3.
 
 ![delivery_methods_diagram](resources/images/learning_delivery_methods_diagram.png)
 
