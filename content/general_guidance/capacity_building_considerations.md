@@ -25,7 +25,7 @@ When it is determined that a learning solution is needed; there are 7 steps we c
 
 ![instructional_design_method](resources/images/instructional_design_method.png)
 
-### Understanding the needs of your audiience (Assess Needs)
+### Understanding the needs of your audience (Assess Needs)
 
 This first step prior to conducting your training is to understand the needs of your learner's. This does not need to be a comprehensive or time-consuming process if you have an already identified gap/gaps as a result of introducing a new process (for example, a new data collection form, a new set of indicators, a new dashboard) that you are rolling out in response to meeting specific requirements within your context. It is important however to also consider how to manage expectations in this step, as the scope can quickly become to large if you are not able to consider the immediate needs you are trying to address by creating a new learning solution. You can take this into consideration by following an outline like this when performing your needs analysis:
 
