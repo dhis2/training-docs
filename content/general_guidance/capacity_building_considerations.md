@@ -290,5 +290,12 @@ As you perform the training, you need to think about how you can evaluate progre
 ![evaluation_methods_diagram](resources/images/evaluation_methods_diagram.png)
 ***Figure 4: Evaluation method model***
 
-While level 1 and level 2 evaluations are common, level 3 and 4 are much less common in practice. These are important to assess however as these levels allow you to understand the effect that your training is having on actual practices in your system. 
+While level 1 and level 2 evaluations are common, level 3 and 4 are much less common in practice. These are important to assess however as these levels allow you to understand the effect that your training is having on actual practices in your system.
+
+Let us apply this evaluation framework to our example in which we are working on showing staff how to enter immunization tracker data into DHIS2. 
+
+- Level 1 : Creating a survey that allows the learners to judge how useful the training format, learning objectives, instruction, etc. have been
+- Level 2 : Create an assessment to determine if learner's are able to perform the learning outcomes previously defined. In this scenario, it was suggested that direct observation of them performing the steps in data entry would work well.
+- Level 3 : Create a survey that can be conducted while they are on-the-job. This should include the key behaviours they should be performing as a result of the training. As an example, they could self-evaluate if they are performing the correct steps to register a new child in the immunization program, that they are classifying dose numbers in the correct order and/or that they are regularly downloading new unique IDs for their android device. 
+- Level 4 : This type of evaluation requires baseline data before training (or a series of training events) has taken place. In practice you are more likely to make a correlation between many training events and improvement in a systems ability to function. To get a better idea of this type of systems assessment, you can refer to the tracker readiness assessment and/or the DHIS2 maturity framework.
 
