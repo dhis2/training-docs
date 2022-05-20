@@ -5,7 +5,7 @@ This section discusses some of the considerations to make when performing capaci
 1. Learning Solutions : These types of solutions focus on providing materials, references, guidance or training
 2. Performance Solutions : These types of solutions focus on organizational policies, procedures, work practices, etc.)
 
-You can review of breakdown of these in Figure 1.
+You can review of breakdown of these in **Figure 1**.
 
 ![capacity_building_diagram](resources/images/capacity_building_diagram.png)
 
@@ -23,7 +23,7 @@ Let us start by reviewing how we would build our learning solution.
 
 ## Developing New Learning Solutions
 
-When it is determined that a learning solution is needed; there are 7 steps we can follow as outlined in Figure 2
+When it is determined that a learning solution is needed; there are 7 steps we can follow as outlined in **Figure 2**
 
 ![instructional_design_method](resources/images/instructional_design_method.png)
 
@@ -92,7 +92,7 @@ After we have established our learning objectives, we need to start the process 
 
 You may want to start this process by deciding how you will actually deliver your learning solution. This will affect some of the design principles behind the generation of the materials themselves. For example, if performing an online training, sessions may need to be shorter and more detailed guidance may need to be provided to the learner when compared to the in-person environment.
 
-You can review a breakdown of methods you might want to asses for your design in Figure 3.
+You can review a breakdown of methods you might want to asses for your design in **Figure 3**.
 
 ![delivery_methods_diagram](resources/images/learning_delivery_methods_diagram.png)
 
@@ -284,3 +284,11 @@ A checklist prior to training a DHIS2 concept:
 If you have gone through all of these steps, you would simply follow the methods you have identified for delivering each of your sessions to meet your learning objectives correctly. The more your perform training, the more you will be comortable in front of an audience or recording your own video or audio. Get up there and trust in your preparation!
 
 ### Evaluate the Training
+
+As you perform the training, you need to think about how you can evaluate progress. A common model used to evaluate training conists of 4 levels and can be seen in **Figure 4.**
+
+![evaluation_methods_diagram](resources/images/evaluation_methods_diagram.png)
+***Figure 4: Evaluation method model***
+
+While level 1 and level 2 evaluations are common, level 3 and 4 are much less common in practice. These are important to assess however as these levels allow you to understand the effect that your training is having on actual practices in your system. 
+
