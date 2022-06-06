@@ -37,7 +37,7 @@ This first step prior to conducting your training is to understand the needs of 
     * In our scenario, we want to get to a point where our teams are proficient in entering data into our immunization program using both web-based and Android devices.
 2. Prioritizing the gaps that have been identified
    * Here we would want to ensure that we are addressing our gaps in the right order. This may involve modifying the order items are presented within a single training event, or potentially considering additional training events in the future. An example of this could be training on tracker data analysis. While this is relevant when working with the immunization program, it would not address our immediate needs to get the data into the system. Also, if the learning gap is currently quite large, addressing several priorities at once may be overwhelming for the teams you are trying to build capacity within.
-3. Identify the cause of the identified gaps
+3. Identify the cause of the identified gaps.
 Try to identify some simple questions that you can work through to identify why a current knowledge gap exists. This may be self-explanatory, particularly when introducing a new process; however this may become more difficult as training goals become more complex and/or learner's current skill levels are already high. Some example questions that can help iun our scenario: 
       * Have they ever used DHIS2 before?
       * Have they ever entered tracker data before?
@@ -48,7 +48,7 @@ Try to identify some simple questions that you can work through to identify why 
       * In order to do this, there are different types of needs analysis that can be performed. Please feel free to review some of them [here](https://hr-guide.com/Training/Determining_Training_Needs.htm). When working with DHIS 2, a common way to determine how to address identified gaps will be through conducting a ***task analysis***. During this process, you would define all of the steps, knowledge and skills required to complete a task (or set of tasks). In the case where you have identified the causes of your current skill gaps, you would want to address how to complete specific tasks to bridge the gap between current and desired results. A framework for conducting the task analysis can include the following questions
         * What are the specific tasks that must be performed (break it down into component parts; if a user has never logged in to DHIS 2 you will need to cover a gamut of tasks from logging in to completing and scheduling events, completing enrollments, etc.)
         * What is the sequence in which tasks must be performed (ie. log in -> select tracker capture -> select your org unit -> select your program, etc.)
-        * What are the conditions which they will be performed (will they enter this data online, offline? will they have access to resources or people that they can regularly refer to? will they do it from paper or via direct entry?). You want to try take this into account within your training as much as possible.
+        * What are the conditions which these tasks will be performed (will they enter this data online, offline? will they have access to resources or people that they can regularly refer to? will they do it from paper or via direct entry?). You want to try take this into account within your training as much as possible.
         * How often will they perform the task (in our example, you can try to identify how often they will be entering data)
         * Which tasks should we place the most emphasis on (in our case, more complex operations will need to have more emphasis, for example interacting with a person's tracker dashboard will be more complex then logging in to DHIS 2)
         * Is there any existing training or material that might support you in addressing these tasks
@@ -102,8 +102,8 @@ You can review a breakdown of methods you might want to asses for your design in
 2. In-person training : This is the traditional method of training face-to-face
    1. Mentorship : In this method of training, a relationship between the mentor and the trainee is often established over a long period of time. The mentor provides both structure training and also acts as a resource for the trainee when they have questions about a specific concept they are unfamiliar with. In many cases, a member of the HISP network will serve as a mentor to different individuals within a DHIS2 core team; while members of the DHIS2 core team an serve as mentors to others within their implementation. In the mentorship model, sharing of resources for independent study is also common.
    2. Coaching : Coaching will occur routinely, likely in an ad-hoc, on-demand fashion. This is often focused on reviewing a particular skill or set of skills to reach a desired learning outcome over a longer period of time. Direct observation of a task by the coach can be performed in order to identify specific areas that can be modified. 
-   3. Formal training
-   4. On-the-job traiing: 
+   3. Formal training : Specific dates, time and place are reserved for training on a specific set of topics. A formal agenda identifying the format, topics and learning objectives is 
+   4. On-the-job traing: 
 3. Online training : this type of training can be broken down into several types:
    1. Online or media content : this can be in the form of reviewing existing case studies, documents or videos as an example
    2. Online sessions : this is similar to in-person delivery, however all of the sessions will be conducted via an online environment rather than in-person
