@@ -198,7 +198,7 @@ Select the download option from within the app. This will open up a new dialog. 
 
 We will now create a map using data from the COVID-19 Case-Based Surveillance Program where we will display relationships on the map.
 
-Open the map "COVID_CBS - Cases and Contacts." This the map that you will create. It is showing a person along with their relationships. In the context of this program, it means it is displaying index cases along with their contacts. The red circle in the map is the index case (or where the relationship was initiated from) and the black circles are the contacts.
+Open the map "COVID_CBS - Cases and Contacts." This is the map that you will create. It is showing a person along with their relationships. In the context of this program, it means it is displaying index cases along with their contacts. The red circle in the map is the index case (or where the relationship was initiated from) and the black circles are the contacts.
 
 Clear your inputs by going to File -> New.
 
@@ -215,7 +215,7 @@ Create the map using the tracked entity layer with the following inputs:
   - Relationship type : Has Been in Contact with
 - Period :
   - Program/Enrollment date
-  - Start/ End Date : Oct 16, 2020 - Oct 16, 2021
+  - Start/ End Date : January 1, 2021 - September 30, 2022
 - Org Units : CHW Mitthaphap
 - Style : leave as default
 
