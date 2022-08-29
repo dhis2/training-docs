@@ -139,7 +139,7 @@ You can play back the timeline map. You will see over time the monthly values ar
 
 ## Exercise 3
 
-### In event reports, create a line list, enrollment report showing the number of relationships by TEI from the COVID-19 Case-based Surveillance Program
+### In the line list app, create an enrollment report showing the number of relationships by TEI from the COVID-19 Case-based Surveillance Program
 
 Program indicators can be used in event reports and event visualizer as well as within data visualizer and maps, depending on how they are defined. This is because one program indicator can work on two levels:
 
@@ -157,19 +157,19 @@ We will demonstrate these principles using two program indicators that use "Aver
 
 Create a line list table with the following inputs:
 
-- Table Style : Line, Output Type : Enrollment
-- Program : COVID-19 Case-based Surveillance
-- Stage : Stage 1 - Clinical examination and diagnosis
-- Data
-  - First Name, Surname
-  - Sign/Symptoms Present
-  - PI COVID-19 Contacts
-- Period : This year
+- Input Type : Enrollment
+- Program Dimesions 
+  - Program : COVID-19 Case-based Surveillance
+  - Data
+    - Attributes : First Name, Surname
+    - Data Element: Sign/Symptoms Present
+    - Program Indicator: COVID-19 Contacts
 - Org Unit : CHW Mahosot
+- Time Dimension : Case Registrtion Date (this is the enrollment date)
 
 Note : here is the location of the org unit in case you are unfamiliar with this hierarchy (01 Vientiane Capital -> 0001 CH Mahosot -> CHW Mahosot)
 
-![chw_mahosot](resources/images/event_reports/chw_mahosot.png)
+![chw_mahosot](resources/images/program_indicators/ou_chw_mahosot_linelist.png)
 
 This table has been saved as "COVID_CBS - Contacts by Person" for reference.
 
@@ -181,7 +181,7 @@ Sort the table by the "COVID-19 contacts" column. This is showing the number of 
 
 #### Add the program indicator "COVID-19 days between symptoms onset and consultation" to your report and update your line list
 
-From the data tab, add the PI "COVID-19 days between symptoms onset and consultation"
+From the program dimensions tab, add the PI "COVID-19 days between symptoms onset and consultation"
 
 ![days_between](resources/images/program_indicators/table3_add_days_btwn.png)
 

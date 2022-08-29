@@ -129,7 +129,7 @@ STOP! Have them perform *Exercise 3* in the learner's guide.
 
 ### Create a pivot table in data visualizer using an enrollment program indicator from the COVID-19 Vaccination Registry program
 
-Open the table "COVAC - Underlying Conditions, last 6 months." This the table that you will create. You can explain the layout to the participants before continuing.
+Open the table "COVAC - Underlying Conditions, last 6 months." This is the table that you will create. You can explain the layout to the participants before continuing.
 
 Clear your inputs by going to Favorites -> New.
 
@@ -147,7 +147,7 @@ The layout can look like this
 
 ![table1_layout](resources/images/program_indicators/table1_layout.png)
 
-The table should look like this
+The table should look like this (the months shown may differ as its relative to the current date)
 
 ![underlying_conditions](resources/images/program_indicators/PI_underlying_conditions.png)
 
@@ -169,7 +169,7 @@ Note that you are able to create this same output in event reports using an enro
 
 One gap that we can address however is creating a pivot table, chart or map using data from different program stages. We can do this in data visualizer for any of the available visualizations using either event or enrollment type program indicators and is not something we could achieve in either event reports or event visualizer.
 
-Open the chart "COVID_CBS - Symptoms and health outcome, this year." This the chart that you will create. You can explain the layout to the participants before continuing.
+Open the chart "COVID_CBS - Symptoms and health outcome, this year." This is the chart that you will create. You can explain the layout to the participants before continuing.
 
 Clear your inputs by going to Favorites -> New.
 
@@ -194,9 +194,9 @@ The chart should look like this
 
 ![chart2](resources/images/program_indicators/COVID_CBS_chart2.png)
 
-This chart uses enrollment indicators, including combining data from Stage 1 (Clinical exam and diagnosis), where it gets the data on whether or not a person has symptoms, and Stage 4 (Health Outcome), where it gets the information on whether or not the person died or recovered. It is not possible to create this type of output using event visualizer.
+This chart uses enrollment indicators, including combining data from Stage 1 (Clinical exam and diagnosis), where it gets the data on whether or not a person has symptoms, and Stage 4 (Health Outcome), where it gets the information on whether or not the person died or recovered. It is not possible to create this type of output using event visualizer (you can not pull data from multiple stages using event visualizer). 
 
-You can covert this chart to a pivot table so they can see that you can also create a pivot table using data from multiple stages, an option not possible in event reports.
+You can covert this chart to a pivot table so they can see that you can also create a pivot table using data from multiple stages, an option not possible in event visualizer/reports.
 
 ![table2](resources/images/program_indicators/COVID_CBS_table2.png)
 
@@ -220,7 +220,7 @@ In the maps session, we had discussed how we can use the event and TEI layer to 
 
 Through the use of program indicators however we are able to extend maps functionality with tracker data significantly as we can use the thematic layer to its full potential. This includes creating split view and timeline maps and using the available style options (such as creating choropleth and bubble maps) that are not available when using the event and TEI layer as examples.
 
-Open the map "COVID_CBS - Suspected cases, last 12 months." This the map that you will create. You can explain the layout to the participants before continuing.
+Open the map "COVID_CBS - Suspected cases, last 6 months." This is the map that you will create. You can explain the layout to the participants before continuing.
 
 Clear your inputs by going to Favorites -> New.
 
@@ -234,7 +234,7 @@ Create a map using the thematic layer with the following inputs:
   - Leave the aggregation type as default
 - Period:
   - Period Type : Relative
-  - Period : Last 12 months
+  - Period : Last 6 months
   - Display Periods : Timeline
 - Org Units : All Level 2 OUs
 - Filter : None
@@ -256,7 +256,7 @@ Create a map using the thematic layer with the following inputs:
 
 ![map5_style](resources/images/program_indicators/map5_style.png)
 
-The map should look like this
+The map should look like this (note that the months displayed may be different as the period is relative to the current date)
 
 ![map5](resources/images/program_indicators/map5.png)
 
@@ -264,7 +264,7 @@ You can play back the timeline map. You will see over time the monthly values ar
 
 #### STOP! Have them perform *Exercise 2* in the learner's guide.
 
-### In event reports, create a line list, enrollment report showing the number of relationships by TEI from the COVID-19 Case-based Surveillance Program
+### In the line listing app, create a line list, enrollment report showing the number of relationships by TEI from the COVID-19 Case-based Surveillance Program
 
 Program indicators can be used in event reports and event visualizer as well as within data visualizer and maps, depending on how they are defined. This is because one program indicator can work on two levels:
 
@@ -280,39 +280,39 @@ We will demonstrate these principles using two program indicators that use "Aver
    1. Summarizes the total number of days between onset of symptoms and their initial consultation date for single TEI
    2. Summarizes the average number of days between onset of symptoms and initial consultation date for all TEIs based on their enrollment date and the specified period and organisation unit
 
-Open the table "COVID_CBS - Contacts by Person." This the table that you will create. You can explain the layout to the participants before continuing.
+Open the table "COVID_CBS - Contacts by Person." This is the table that you will create. You can explain the layout to the participants before continuing.
 
 Clear your inputs by going to Favorites -> New.
 
 Create a line list table with the following inputs:
 
-- Table Style : Line, Output Type : Enrollment
-- Program : COVID-19 Case-based Surveillance
-- Stage : Stage 1 - Clinical examination and diagnosis
-- Data
-  - First Name, Surname
-  - Sign/Symptoms Present
-  - PI COVID-19 Contacts
-- Period : This year
+- Input Type : Enrollment
+- Program Dimesions 
+  - Program : COVID-19 Case-based Surveillance
+  - Data
+    - Attributes : First Name, Surname
+    - Data Element: Sign/Symptoms Present
+    - Program Indicator: COVID-19 Contacts
 - Org Unit : CHW Mahosot
+- Time Dimension : Case Registrtion Date (this is the enrollment date)
 
 Note : here is the location of the org unit in case you are unfamiliar with this hierarchy (01 Vientiane Capital -> 0001 CH Mahosot -> CHW Mahosot)
 
-![chw_mahosot](resources/images/event_reports/chw_mahosot.png)
+![chw_mahosot](resources/images/program_indicators/ou_chw_mahosot_linelist.png)
 
 The table should look like this
 
 ![table3_contacts](resources/images/program_indicators/table3_contacts.png)
 
-Emphasize that you are able to select program indicators from the data tab; however some program indicators may not work as intended or not give you any meaningful output depending on how they have been configured. For example, for a single TEI, any count based indicators within a single, non-repeatable program stage may not be so helpful as the maximum value they can return is 1 for a single TEI.
+Emphasize that you are able to select program indicators from the program dimensions tab; however some program indicators may not work as intended or not give you any meaningful output depending on how they have been configured. For example, for a single TEI, any count based indicators within a single, non-repeatable program stage may not be so helpful as the maximum value they can return is 1 for a single TEI.
 
-Sort the table by the "COVID-19 contacts" column. This is showing the number of contacts each person has had as defined through adding relationships via tracker capture. 
+Sort the table by the "COVID-19 contacts" column. This is showing the number of contacts each person has had as defined through adding relationships via tracker capture.
 
 (note : a likely follow up question may be if we can list the individuals they have relationships with; this is not possible and requires a custom app or report)
 
 #### Add the program indicator "COVID-19 days between symptoms onset and consultation" to your report and update your line list
 
-From the data tab, add the PI "COVID-19 days between symptoms onset and consultation"
+From the program dimesions tab, add the PI "COVID-19 days between symptoms onset and consultation" 
 
 ![days_between](resources/images/program_indicators/table3_add_days_btwn.png)
 
