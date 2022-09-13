@@ -243,7 +243,7 @@ You will then be provided with a prompt if you wish to complete the event or not
 
 ![complete_event](resources/images/tracker_capture_android/complete_event.png)
 
-If we are done entering data for this event, you can choose the option "Complete." If there is some data missing you can choose the option "Not now." Note to the participants that if you do complete an event and you need to edit it in the future, you are able to open it back up. 
+If we are done entering data for this event, you can choose the option "Complete." If there is some data missing you can choose the option "Not now." Note to the participants that if you do complete an event and you need to edit it in the future, you are able to open it back up.
 
 Once you save the details, you will be taken back to the dashboard on the device, which has the same interface as the completed record you previously accessed.
 
