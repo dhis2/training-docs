@@ -115,7 +115,7 @@ Before starting the demonstration, please keep in mind that the most important t
 
 ### Log in to the Android App
 
-Server URL : the academy instance URL
+Server URL : the academy instance URL (make sure to share this with the participants)
 
 Username: android1
 
@@ -127,13 +127,13 @@ Password: District1#
 
 You should see the following programs when logging in
 
-![image-20211001130319574](resources/images/tracker_capture_android/image-20211001130319574.png)
+![home_page](resources/images/tracker_capture_android/home_page.png)
 
 ### Select the Case-base Surveillance program
 
 Select this program. It should show you a list of individuals registered in the program based on the org units your user is assigned, similar to the front page list in tracker capture.
 
-![image-20211001130425608](resources/images/tracker_capture_android/cbs_frontpage.png)
+![TEI_List](resources/images/tracker_capture_android/CBS_TEI_List.png)
 
 ### Filter the list
 
@@ -145,7 +145,7 @@ For example, you can try filtering out completed events.
 
 ### Search for an individual that already exists
 
-Search for an individual which already exists.
+Search for an individual which already exists by selecting the search box.
 
 - Local Case ID : ID-1793576
 - First Name : Brianna
@@ -153,7 +153,11 @@ Search for an individual which already exists.
 
 ![image-20211001130454181](resources/images/tracker_capture_android/cbs_search.png)	
 
-Open this record. You will see all the events associated with the case within the case-base surveillance program, starting with the most recent event. 
+Open this record by selecting it. 
+
+![cbs_search_result](resources/images/tracker_capture_android/cbs_search_result.png)
+
+You will see all the events associated with the case within the case-base surveillance program, starting with the most recent event. 
 
  There are 4 tabs at the bottom when you open the record. You can discuss what each tab is and how it relates to what would normally be seen on tracker capture (web). 
 
@@ -168,7 +172,7 @@ These tabs from left to right represent:
 
 Navigate back to the details tabs
 
-You can use the “See details" button within this tab to show (and edit if access allows) all of the attribute information related to the individual. Go back and review the event list.
+You can use the “See details" button within this tab to show (and edit if access allows) all of the attribute information related to the individual. Go back and review the event list after reviewing the person's details.
 
 ![image-20211001131729368](resources/images/tracker_capture_android/cbs_brianna_details.png)	
 
@@ -206,7 +210,7 @@ Enter some details and try to search for the individual. You should get a messag
 ![image-20211001132003078](resources/images/tracker_capture_android/image-20211001132003078.png)	
 
 
-Click on the plus sign than select an org unit in which to register the case into. Select Accept once you have select the org unit.
+Click on create new button and select an org unit in which to register the case into. Select Accept once you have select the org unit.
 
 ![enrollment_OU](resources/images/tracker_capture_android/select_enrollment_OU.png)
 
@@ -235,12 +239,11 @@ Once you have filled all the details in, save the data by selecting the disk ico
 
 ![stage1_complete](resources/images/tracker_capture_android/stage1_complete.png)
 
-You will be given two options:
+You will then be provided with a prompt if you wish to complete the event or not
 
-1. Finish and complete
-2. Finish
+![complete_event](resources/images/tracker_capture_android/complete_event.png)
 
-If we are done entering data for this event, you can choose the option "Finish and complete." If there is some data missing you can choose the option "Finish." Note to the participants that if you do complete an event and you need to edit it in the future, you are able to open it back up. 
+If we are done entering data for this event, you can choose the option "Complete." If there is some data missing you can choose the option "Not now." Note to the participants that if you do complete an event and you need to edit it in the future, you are able to open it back up. 
 
 Once you save the details, you will be taken back to the dashboard on the device, which has the same interface as the completed record you previously accessed.
 
@@ -268,7 +271,7 @@ The form will now load in which you can enter the event details.
 
 ![image-20211001132650775](resources/images/tracker_capture_android/image-20211001132650775.png)	
 
-Fill in the form. You can save the details by selecting the disk icon. You will see the same two options as before (Finish, Finish and complete). Select one to continue.
+Fill in the form. You can save the details by selecting the disk icon. You will see the same two options as before regarding whether or not to complete the event. Select one to continue.
 
 ![image-20211001132716824](resources/images/tracker_capture_android/image-20211001132716824.png)
 
@@ -282,7 +285,7 @@ Repeat the same process with the other stages to fill in the data if you think t
 
 ### Add a relationship
 
-From the persons tracker dashboard. Click on the relationship icon to associate the contacts with the case.
+From the persons tracker dashboard. Click on the relationship icon to associate the contacts with the case. Select the "Has been in contact with" relationship type
 
 ![image-20211001132846852](resources/images/tracker_capture_android/image-20211001132846852.png)	
 
@@ -333,7 +336,7 @@ This will then take you to the attribute details. You will see it carries over t
 
 Once you have filled/updated these details, save the person by using the disk icon. This should take you to their dashboard in vaccination registry program.
 
-Go back to the search page and you will find your person that you initially enrolled into the Case-based surveillance program now also has an enrollment in the Vaccination program (you will see the small vaccine icon on the list).
+Go back to the search page for the COVID-19 Case-based surveillance program and you will find your person that you initially enrolled into the Case-based surveillance program now also has an enrollment in the Vaccination program (you will see the small vaccine icon on the list).
 
 ![image-20211001133256308](resources/images/tracker_capture_android/image-20211001133256308.png)
 
@@ -355,7 +358,9 @@ Go back to the home page and sync your data using one of the sync status icons.
 
 ![sync_home_page](resources/images/tracker_capture_android/sync_home_page.png)
 
-By doing this from the home page, you are able to sync many updated records at once.
+By doing this from the home page, you are able to sync many updated records at once. When the sync is complete you will receive a verification
+
+![sync_complete](resources/images/tracker_capture_android/sync_complete.png)
 
 Show the person in the web by going to the org unit you registered them to. There attributes and events should all be synced online.
 
@@ -365,17 +370,19 @@ Show the person in the web by going to the org unit you registered them to. Ther
 
 ### Go offline!
 
-Android allows for storing tracker data offline directly on the device. Records must be synced first or they can not be accessed offline. The number of records that are synced to the device is defined in the settings page of the Android app or globally by your system administrator (if the global option is selected, you will not be able to modify them on the device directly).
+Android allows for storing tracker data offline directly on the device. Records must be synced first or they can not be accessed offline. The number of records that are synced to the device is defined in the settings page of the Android app or globally by your system administrator using the Android settings app in DHIS2 (if the global option is selected, you will not be able to modify them on the device directly).
+
+This is an example of what it looks like if it is done on the device
 
 ![sync_settings](resources/images/tracker_capture_android/sync_settings.png)
 
 Go to your Android home screen and turn off your wi-fi/mobile data radios.
 
-Go back to the app, select the Vaccination program and search for/register a new person
+Go back to the DHIS2 app, select the Vaccination program and search for/register a new person
 
 ![image-20211001133720734](resources/images/tracker_capture_android/image-20211001133720734.png)
 
-You will notice that you are able to automatically generate the EPI number. This is because when you were online and created a new record, a number of ID’s were generated and stored for use. You need to be a bit careful here because if all of these ID’s become used up before you connect again, you will not be able to register any more new children. Your system administrator can help configure how many ID's you can use offline. It is recommended to keep this up to 500 ID's. Working offline should therefore be considered carefully.
+You will notice that you are able to automatically generate the EPI number. This is because when you were online, a number of ID’s were generated and stored for use. You need to be a bit careful here because if all of these ID’s become used up before you connect again, you will not be able to register any more new children. Your system administrator can help configure how many ID's you can use offline. It is recommended to keep this up to 500 ID's. Working offline should therefore be considered carefully.
 
 Go ahead and register a new vaccination and add a new event.
 

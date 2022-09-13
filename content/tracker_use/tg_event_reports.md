@@ -8,10 +8,7 @@ This guide is a support document for DHIS2 Academy trainers for the session “E
    
 2. a hands-­on session with exercises where participants get to practice the same features.
 
-This guide will help the trainer​ prepare​​ for the live demo session. The “Live Demo step by
-step” section has a detailed walkthrough of all the steps to demonstrate with
-explanations and screenshots that should be easy to follow. Use that when preparing for
-the live demo session.
+This guide will help the trainer​ prepare​​ for the live demo session. The “Live Demo step by step” section has a  detailed walkthrough of all the steps to demonstrate with explanations and screenshots that should be easy to follow. Use that when preparing for the live demo session.
 
 There is also a Quick Guide which lists the steps very briefly and this is meant as a lookup
 guide or “cheatsheet” WHILE doing the demo, to help the trainer remember all the steps

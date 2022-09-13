@@ -22,7 +22,7 @@ This guide contains all exercises and detailed steps to perform them related to 
 
 ### Log in to the Android App
 
-Server URL : the academy instance URL
+Server URL : the academy instance URL specified by your instructors
 
 Username: android1
 
@@ -30,17 +30,19 @@ Password: District1#
 
 ![image-20211001130154619](resources/images/tracker_capture_android/image-20211001130154619.png)
 
+The first time you login may take a little while as it downloads the configuration
+
 ### Review the interface
 
 You should see the following programs when logging in
 
-![image-20211001130319574](resources/images/tracker_capture_android/image-20211001130319574.png)
+![home_page](resources/images/tracker_capture_android/home_page.png)
 
 ### Select the Case-base Surveillance program
 
 Select this program. It should show you a list of individuals registered in the program based on the org units your user is assigned, similar to the front page list in tracker capture.
 
-![image-20211001130425608](resources/images/tracker_capture_android/cbs_frontpage.png)
+![TEI_List](resources/images/tracker_capture_android/CBS_TEI_List.png)
 
 ### Filter the list
 
@@ -129,12 +131,11 @@ Once you have filled all the details in, save the data by selecting the disk ico
 
 ![stage1_complete](resources/images/tracker_capture_android/stage1_complete.png)
 
-You will be given two options:
+You will then be provided with a prompt if you wish to complete the event or not
 
-1. Finish and complete
-2. Finish
+![complete_event](resources/images/tracker_capture_android/complete_event.png)
 
-If we are done entering data for this event, you can choose the option "Finish and complete." If there is some data missing you can choose the option "Finish." Note to the participants that if you do complete an event and you need to edit it in the future, you are able to open it back up. 
+If we are done entering data for this event, you can choose the option "Complete." If there is some data missing you can choose the option "Not now." Note to the participants that if you do complete an event and you need to edit it in the future, you are able to open it back up. 
 
 Once you save the details, you will be taken back to the dashboard on the device, which has the same interface as the completed record you previously accessed.
 
@@ -174,7 +175,7 @@ The lab request and lab result stages are repeatable, and you are able to add mu
 
 ### Add a relationship
 
-From the persons tracker dashboard. Click on the relationship icon to associate the contacts with the case.
+From the persons tracker dashboard. Click on the relationship icon to associate the contacts with the case. Create a new relationship be selecting the plus button followed by the "Has been in contact with" relationship type.
 
 ![image-20211001132846852](resources/images/tracker_capture_android/image-20211001132846852.png)	
 
@@ -257,7 +258,7 @@ Show the person in the web by going to the org unit you registered them to. Ther
 
 ### Go offline!
 
-Android allows for storing tracker data offline directly on the device. Records must be synced first or they can not be accessed offline. The number of records that are synced to the device is defined in the settings page of the Android app or globally by your system administrator (if the global option is selected, you will not be able to modify them on the device directly).
+Android allows for storing tracker data offline directly on the device. Records must be synced first or they can not be accessed offline. The number of records that are synced to the device is defined in the settings page of the Android app or globally by your system administrator (if the global option is selected, you will not be able to modify them on the device directly). This is an example if you are able to modify the settings. On your device when you check, you will not be able to modify these settings.
 
 ![sync_settings](resources/images/tracker_capture_android/sync_settings.png)
 
