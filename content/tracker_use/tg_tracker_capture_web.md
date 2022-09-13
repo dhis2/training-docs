@@ -19,13 +19,11 @@ There is also a Quick Guide which lists the steps very briefly and this is meant
 
 The overall objective of this session is to use the DHIS2 tracker capture app. Detailed objectives include:
 
-
-
 * Understand how to select the correct program
 * Understand the layout and options of tracker capture
-* Understand how to register a TEI 
+* Understand how to register a TEI
 * Understand how to fill in program stage details
-* See how to search for a TEI 
+* See how to search for a TEI
 * See how skip-logic can be used in a tracker program
 
 
@@ -154,7 +152,7 @@ If you go to the “**Case based Surveillance**” program you will see the list
 
 ### Part 2 : Registration
 
-**Register a TEI :** During registration, it is possible to stay on the same page and keep registering more than one entity. You can also go straight to the dashboard of the registered TEI. Selecting a program and doing registration also performs enrollment into the program at the background. If a TEI is registered without a program, then enrollment is possible from the TEI dashboard. Both skip-logic and validation error/warning messages are supported during registration.
+**Register a TEI into the COVID-19 case-based surveillance program:** During registration, it is possible to stay on the same page and keep registering more than one entity. You can also go straight to the dashboard of the registered TEI. Selecting a program and doing registration also performs enrollment into the program at the background. If a TEI is registered without a program, then enrollment is possible from the TEI dashboard. Both skip-logic and validation error/warning messages are supported during registration.
 
 ![image34.png](resources/images/tracker_capture_web/image34.png "image_tooltip")
 
@@ -263,7 +261,7 @@ There are two different ways one can register a tracked entity under an organiza
    3. Click on Save new and you will now be prompted to the tracked entity dashboard.
    4. The dashboard will show information about the newly created tracked entity instance.
 
-   
+**STOP - Perform Exercise 1**   
    
 
 ### Part 3 : Describe the Tracker Dashboard
@@ -325,6 +323,8 @@ This is permission based, so not everyone will have the authority to perform thi
 8. **Relationship** - This helps to relate the selected TEI (the one whose dashboard is shown) to another TEI. Adding a relative is possible by either searching from existing or registering a new one. If a program is selected while registering a new one, the new one will be automatically enrolled to the selected program. Another interesting feature in the relationship widget is attribute inheritance. For example having a contact relationship with the COVID -19 affected patient for this you want to add a relationship with a person with a current patient that has been registered in a case based surveillance program. If among others first name, last name and address attributes are required for both Programs.
 
 9. **Report** - This is to provide a "journal" of the TEI per program. A report row is provided for each program the TEI is/was associated with.
+
+**STOP - Perform Exercise 2**
 
 ### Part 4 : Data Entry Steps
 
@@ -416,6 +416,8 @@ The relationship will then be added to the relationship widget. If you click on 
 
 ![image30.png](resources/images/tracker_capture_web/image30.png "image_tooltip")
 
+**STOP - Perform Exercise 3**
+
 ####  Register an entity in another program
 
 * Show that TEIs can be registered in more than one program. This allows you to take the attribute information that already exists and re-use it. Additionally, you will now have a historical link of all of the different services that a unique individual has received.
@@ -439,6 +441,8 @@ The relationship will then be added to the relationship widget. If you click on 
 ![image5.png](resources/images/tracker_capture_web/image5.png "image_tooltip")
 
 After you are done, go back to the front page of the tracker capture app.
+
+**STOP - Perform Exercise 4**
 
 ### Part 5 : Demonstrate Tracker Capture App Reports
 
