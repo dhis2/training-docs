@@ -14,7 +14,7 @@ This guide contains all exercises and detailed steps to perform them related to 
 
 ## Review the relationships tracing app
 
-This app was made for creating relationship network maps between cases and contacts for COVID-19 surveillance. In order to access this app, login to the relationships database using:
+This app was made for creating relationship network maps between cases and contacts for COVID-19 surveillance. In order to access this app, login to the ***relationships*** database using:
 
 Username : custom_apps
 
