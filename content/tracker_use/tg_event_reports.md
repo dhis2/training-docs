@@ -157,6 +157,8 @@ Once they have completed all of the ungraded exercises, they should then complet
 
 ### Review the events reports interface
 
+Access the event reports app and review the interface
+
 ![interface](resources/images/event_reports/interface.png)
 
 #### Periods in Event Reports
@@ -192,9 +194,6 @@ The layout can should like this
 
 ![table1_pivot_layout](resources/images/event_reports/table1_pivot_cbs_layout.png)
 
-You should modify some of the options, for example hiding empty rows to hide the age groups with no data, and update the table to see the effect this has
-
-![table1_pivot_options](resources/images/event_reports/table1_pivot_cbs_options.png)
 
 Note that you can modify the way data that is collected through tracker (and event) programs is aggregated. You can demonstrate this by changing the legend for the Age attribute to Age (COVAC) and updating the table.
 
@@ -248,7 +247,7 @@ You can also show them how to save the report using the favorites menu
 
 ![ev_save](resources/images/event_visualizer/ev_save_menu.png) 
 
-and download the report
+and download the report (note to trainer : downloads are not currently working do not show this for now)
 
 ![ev_download](resources/images/event_visualizer/ev_download_menu.png)
 
@@ -262,7 +261,7 @@ Before you create this report, open up a record from tracker capture that has re
 - Program : COVID-19 Case-based surveillance
 - Local Case ID : ID-5353942, First Name : Angela, Last Name : Campbell, Sex : Female
 
-Open up this record and navigate to the "Lab Request" stage within this program. Here you will see that there is more then one event assigned to the program. Over the next several demonstrations, we will discuss the difference of event vs. enrollment report types and how repeated stage data is affected by this selection.
+Open up this record and navigate to the "Lab Request" stage within this program. Here you will see that there is more then one event within this program stage. Over the next several demonstrations, we will discuss the difference of event vs. enrollment report types and how repeated stage data is affected by this selection.
 
 ![angela_lab](resources/images/event_reports/angela_record_lab_request.png)
 
@@ -288,7 +287,7 @@ Create an event report with the following inputs:
   - Lab Test Reason
   - Type of test
   - Type of specimen
-- Period : Last Year
+- Period : This Year
 - Org Unit : CHW Mahosot
 
 Note : here is the location of the org unit in case you are unfamiliar with this hierarchy (01 Vientiane Capital -> 0001 CH Mahosot -> CHW Mahosot)
@@ -303,7 +302,7 @@ The table should look like this
 
 > Now you can explain how the event type report selection affects our output. When we are creating event reports and use "event" as the output type, ALL of the events from within a program stage will be output on our report. There is a limitation here in that we can only pull all of our event data from within one program stage, and as a result there are not really "linked" together as they are separate lines within our report.
 
-We can further demonstrate this concept by showing more repeated event data. ***Modify the output so you are not filtering by any local case ID and change the period to this year.*** Try sorting the data by surname. Scroll through the report; you should see several repeated events displayed on this report.
+We can further demonstrate this concept by showing more repeated event data. ***Modify the output so you are not filtering by any local case ID and update the report.*** Try sorting the data by surname. Scroll through the report; you should see several repeated events displayed on this report.
 
 ![table4_line_cbs](resources/images/event_reports/table4_line_cbs.png)
 
@@ -330,7 +329,7 @@ This is saved as "COVID_CBS - Lab Request Summary (Enrollment)" in DHIS 2 for re
 
 ![table5_line_cbs](resources/images/event_reports/table5_line_cbs.png)
 
-When we make this update, the number of records shown changes. This occurs because enrollment type reports only use the most recent event within a program stage for their output. When generating line list type data for repeated events they are potentially not as useful as there is a chance that you may miss some of the events when creating your list.
+When we make this update, the number of records shown changes. ***This occurs because enrollment type reports only use the most recent event within a program stage for their output***. When generating line list type data for repeated events they are potentially not as useful as there is a chance that you may miss some of the events when creating your list.
 
 > In summary, when running an event report with repeatable data using "enrollment" as the output type, you will only see the most recent event data.
 

@@ -35,10 +35,6 @@ The layout can should like this
 
 ![table1_pivot_layout](resources/images/event_reports/table1_pivot_cbs_layout.png)
 
-You should modify some of the options, for example hiding empty rows to hide the age groups with no data, and update the table to see the effect this has
-
-![table1_pivot_options](resources/images/event_reports/table1_pivot_cbs_options.png)
-
 Note that you can modify the way data that is collected through tracker (and event) programs is aggregated. You can review this by changing the legend for the Age attribute to Age (COVAC) and updating the table.
 
 ![age_selection](resources/images/event_reports/table1_pivot_cbs_ageselection.png)
@@ -111,7 +107,7 @@ Create an event report with the following inputs:
   - Lab Test Reason
   - Type of test
   - Type of specimen
-- Period : Last Year
+- Period : This Year
 - Org Unit : CHW Mahosot
 
 Note : here is the location of the org unit in case you are unfamiliar with this hierarchy (01 Vientiane Capital -> 0001 CH Mahosot -> CHW Mahosot)
@@ -124,7 +120,7 @@ This should pull up the respective information for the two events that we saw wh
 
 > When we are creating event reports and use "event" as the output type, ALL of the events from within a program stage will be output on our report. There is a limitation here in that we can only pull all of our event data from within one program stage, and as a result there are not really "linked" together as they are separate lines within our report.
 
-We can further demonstrate this concept by adding more repeated event data. ***Modify the output so you are not filtering by any local case ID and change the period to this year.*** Try sorting the data by Surname. Scroll through the report; you should see several repeated events displayed on this report.
+We can further demonstrate this concept by adding more repeated event data. ***Modify the output so you are not filtering by any local case ID and update the report.*** Try sorting the data by Surname. Scroll through the report; you should see several repeated events displayed on this report.
 
 ![table4_line_cbs](resources/images/event_reports/table4_line_cbs.png)
 
