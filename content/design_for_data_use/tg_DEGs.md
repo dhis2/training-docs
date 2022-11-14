@@ -1,4 +1,4 @@
-# Trainer’s Guide to Organisation Unit Groups and Group Sets
+# Trainer’s Guide to Data Element Groups and Group Sets
 
 ## What is this guide?
 
@@ -128,32 +128,36 @@ STOP! Have them perform *Exercise 3* in the learner's guide.
 
 ## Live Demo step by step
 
-### Create a chart using org unit groups within an org unit group set
+### Create a chart using data element within a data element group
 
 #### STOP - Perform Exercise 1
 
-### Show how to manage OU Groups and OU Group Sets in Maintenance
+### Create a chart using data element groups within a data element group set
 
 #### STOP - Perform Exercise 2
 
-### Review the process of creating OU Groups and Group Sets via the API
-
-### Retrieve the list of org units via the API
+### Show how to manage DE Groups and DE Group Sets in Maintenance
 
 #### STOP - Perform Exercise 3
 
-### Create org unit groups via maintenance
+### Review the process of creating DE Groups and Group Sets via the API
+
+### Retrieve the list of data elements via the API
 
 #### STOP - Perform Exercise 4
 
-### Import the org unit groups into DHIS2 via the Import/Export app
+### Create DE groups via maintenance
 
 #### STOP - Perform Exercise 5
 
-### Create the OU group sets via maintenance
+### Import the DE groups into DHIS2 via the Import/Export app
 
-#### STOP Perform Exercise 6
+#### STOP - Perform Exercise 6
+
+### Create the DE group sets via maintenance
+
+#### STOP Perform Exercise 7
 
 ### Explain connection of data dimensions to analytics and use created groups in visualizer
 
-#### STOP - Perform Excercise 7
+#### STOP - Perform Excercise 8
