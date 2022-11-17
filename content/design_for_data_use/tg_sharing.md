@@ -1,8 +1,8 @@
-# Trainer’s Guide to Data Set Design
+# Trainer’s Guide to Sharing
 
 ## What is this guide?
 
-This guide is a support document for DHIS2 Academy trainers for the session "Data Set Design Principles" This session follows the standard Academy training approach with 
+This guide is a support document for DHIS2 Academy trainers for the session "Sharing and User Groups" This session follows the standard Academy training approach with 
 
 1. a live demo session where the trainer demonstrate and explain the features, and 
    
@@ -14,12 +14,13 @@ There is also a Quick Guide which lists the steps very briefly and this is meant
 
 ## Learning objectives for this session
 
-1. Identify when to use categories vs. a flat structure
-2. Identify when to apply attributes to a dataset
-3. Identify the different data set types
-4. Describe the impact of outputs on data set design
-5. Discuss translation principles
-6. Create section based data sets
+1. Review the sharing concept
+2. Explain the link between sharing, user roles and user groups
+3. Describe the difference between metadata and data sharing
+4. Identify the aggregate metadata that can be shared
+5. Describe the concepts of category option and dataset sharing
+6. Apply category option and dataset sharing to your own metadata
+
 
 
 ## Time Requirements
@@ -69,22 +70,25 @@ STOP - Perform Exercise 3
 
 ## Live Demo step by step
 
-### Review the user roles management page
+### Log in as the HIV user
 
-### Review the authorities assigned to the aggregate data capture user role
+### Log in as the immunization user
 
-#### Log in to the user with this role
+### Log in as the all programs user
 
 #### STOP - Perform Exercise 1
 
-### Create a new user and assign it to the aggregate data capture user role
+### Log in as the analysis only user
+
+### Log in as the malaria admin user
 
 #### STOP - Perform Exercise 2
 
-### Create a new user role - Aggregate data analysis
-
-#### Assign this user role to the user you previously created
-
-#### Login with the user you edited
+### Introduce data level sharing
 
 #### STOP - Perform Exercise 3
+
+### Review the sharing configuration of category options and datasets
+
+#### STOP - Perform Exercise 4
+

@@ -1,8 +1,8 @@
-# Trainer’s Guide to Data Set Design
+# Trainer’s Guide to User Roles
 
 ## What is this guide?
 
-This guide is a support document for DHIS2 Academy trainers for the session "Data Set Design Principles" This session follows the standard Academy training approach with 
+This guide is a support document for DHIS2 Academy trainers for the session "User Roles" This session follows the standard Academy training approach with 
 
 1. a live demo session where the trainer demonstrate and explain the features, and 
    
@@ -14,12 +14,9 @@ There is also a Quick Guide which lists the steps very briefly and this is meant
 
 ## Learning objectives for this session
 
-1. Identify when to use categories vs. a flat structure
-2. Identify when to apply attributes to a dataset
-3. Identify the different data set types
-4. Describe the impact of outputs on data set design
-5. Discuss translation principles
-6. Create section based data sets
+1. Describe the individual concepts that make up a user
+2. Configure these concepts in DHIS2
+3. Create a user in DHIS2
 
 
 ## Time Requirements
