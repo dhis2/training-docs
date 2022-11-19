@@ -172,7 +172,7 @@ Instead of creating the org unit group via maintenance, we are going to have to 
 
 ### Retrieve the list of org units via the API
 
-Let us review with the group how to access the API very slowly. They should have watched two videos before attending the course, but there is always a change they didn't!
+Let us review with the group how to access the API very slowly. They should have watched two videos before attending the course, but there is always a chance they didn't!
 
 Navigate to /api/resources and find the resource "Organisation Units" by searching for it
 
@@ -223,7 +223,7 @@ This will give us a csv file on our own computer with the id and name of the org
 
 ### Create org unit groups via maintenance
 
-Before we create the CSV file, lets create our org unit group. We are going to do this because, while we can import the org unit group seperately, it is a bit easier to have created the org unit group already before importing org units to it. Sometimes, a combination of using the maintenace app plus advanced operations can be helpful, as is the case here. 
+Before we create the CSV file for import, lets create our org unit group. We are going to do this because, while we can import the org unit group seperately, it is a bit easier to have created the org unit group already before importing org units to it. Sometimes, a combination of using the maintenace app plus advanced operations can be helpful, as is the case here. 
 
 Navigate to maintenance -> organisation unit and create a new organisation unit group. 
 
@@ -293,7 +293,7 @@ Navigate to your org unit group set in maintenance and open it up. You should se
 
 ### Create the OU group sets via maintenance
 
-To finalize this process, you would normally have to create at least one more org unit group; however the steps you follow are the same as what we have shown now. Instead, we will use the org unit group you just made plus existing groups in order to create an ***org unit group set***. Within the group set, exclusivity is a key principle. This means an org unit should not belong to more then one org unit group within an org unit group set. Also, each of the org units in the entire system should be within one of the org unit groups belonging to the group set as well. This is so when we perform analysis with this org unit groups and group sets, we are not exlcuding org units from our totals.
+To finalize this process, you would normally have to create at least one more org unit group; however the steps you follow are the same as what we have shown now. Instead, we will use the org unit group you just made plus existing groups in order to create an ***org unit group set***. Within the group set, exclusivity is a key principle. This means an org unit should not belong to more then one org unit group within an org unit group set. Also, each of the org units in the entire system should be within one of the org unit groups belonging to the group set as well. This is so when we perform analysis with these org unit groups and group sets, we are not excluding org units from our totals.
 
 Navigate to org unit group set and create a new one within maintenance (maintenance -> organisation unit -> add new org unit group set).
 
@@ -305,7 +305,7 @@ Explain the fields as you create this org unit group. Save it when you are finis
 
 #### STOP - Perform Excercise 6
 
-### Explain the connection of data dimensions to analytics and use created groups in visualizer
+### Explain the connection of data dimensions to analytics and use the created groups in visualizer
 
 Note that in order to use this org unit group set in analysis, analytics will need to be run and "data dimension" should be ticked within the org unit group set. If this is not done, it can not be used as a dimension in analysis. Some caution should also be exercised not to have an overwhelming amount of dimensions for the user, as that will make it very hard for them to find what they need.
 
@@ -332,4 +332,4 @@ You can now use your groups for selecting org units and your group sets as dimen
 
 ![final_chart](images/ougs/final_chart.png)
 
-#### STOP - Perform Excercise 7
+#### STOP - Perform Exercise 7
