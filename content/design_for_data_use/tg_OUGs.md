@@ -325,7 +325,7 @@ Make sure everyone created their org unit group before running analytics. Run an
 **Organistion unit group set**
 - the one you just made
 
-You can now use your groups for selecting org units and your group sets as dimensions!
+You can now use your groups for selecting org units and your group sets as dimensions to disaggregate your data!
 
 ![final_chart](images/ougs/final_chart.png)
 
