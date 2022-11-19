@@ -19,7 +19,7 @@ There is also a Quick Guide which lists the steps very briefly and this is meant
 3. Use organisation unit groups in analysis apps
 4. Use organisation unit group sets in analysis apps
 5. Retrieve organisation units via the API
-6. Configure organisation unit groups in maintenance
+6. Describe the limitations of creating organisation unit groups in maintenance
 7. Add organisation units to organisation unit groups via import/export
 8. Configure organisation unit group sets in maintenance
 
@@ -84,6 +84,9 @@ We can now see the chart is disaggregated by the org unit groups within the grou
 To create a new chart select File - > New
 
 Here are the inputs for the chart:
+
+**Chart Type**
+- Column
 
 **Data**
 - Data Type : Indicator 
@@ -153,9 +156,9 @@ Navigate to maintenance -> organisation unit and create a new organisation unit 
 
 Try to create a group for all health centres using your initials as a prefix.
 
-[create_oug_maintenance](images/ougs/create_oug_maintenance.png)
+![create_oug_maintenance](images/ougs/create_oug_maintenance.png)
 
-When you go to filter organisation units by name type in "HC." This will filter out health centres. You do not need to count manually, but the problem is ***it will only filter out 100 health centres.*** This may not give us the result that we want, as we are not able to include all of the health centres we would want to in our org unit group. 
+When you go to filter organisation units by name type in "HC." This will filter out health centres. You do not need to count manually, but the problem is ***it will only filter out 100 org units.*** This may not give us the result that we want, as we are not able to include all of the health centres we would want to in our org unit group. 
 
 At this stage, maintenance is to limited to support us in the operation that we would like to perform unfortunately.
 
@@ -262,7 +265,7 @@ Copy this ID and place it into the first column of your spreadsheet and fill in 
 
 Make sure you save the file as a csv using the UTF-8 format.
 
-#### STOP - Perform Exercise 5
+#### STOP - Perform Exercise 4
 
 ### Import the org unit groups into DHIS2 via the Import/Export app
 
@@ -286,11 +289,11 @@ Navigate to your org unit group set in maintenance and open it up. You should se
 
 ![oug-final-check](images/ougs/oug-final-check.png)
 
-#### STOP - Perform Exercise 6
+#### STOP - Perform Exercise 5
 
 ### Create the OU group sets via maintenance
 
-To finalize this process, you would normally have to create at least one more group; however the steps you follow are the same as what we have shown now. Instead, we will use the group you just made plus existing groups in order to create an org unit group set. Within the group set, exclusivity is a key principle. Ideally, each of the org units should be within one of the org unit groups belonging to the group set as well.
+To finalize this process, you would normally have to create at least one more org unit group; however the steps you follow are the same as what we have shown now. Instead, we will use the org unit group you just made plus existing groups in order to create an ***org unit group set***. Within the group set, exclusivity is a key principle. This means an org unit should not belong to more then one org unit group within an org unit group set. Also, each of the org units in the entire system should be within one of the org unit groups belonging to the group set as well. This is so when we perform analysis with this org unit groups and group sets, we are not exlcuding org units from our totals.
 
 Navigate to org unit group set and create a new one within maintenance (maintenance -> organisation unit -> add new org unit group set).
 
@@ -300,9 +303,9 @@ Add in the following groups, using the health centre group you created rather th
 
 Explain the fields as you create this org unit group. Save it when you are finished. 
 
-#### STOP - Perform Excercise 7
+#### STOP - Perform Excercise 6
 
-### Explain connection of data dimensions to analytics and use created groups in visualizer
+### Explain the connection of data dimensions to analytics and use created groups in visualizer
 
 Note that in order to use this org unit group set in analysis, analytics will need to be run and "data dimension" should be ticked within the org unit group set. If this is not done, it can not be used as a dimension in analysis. Some caution should also be exercised not to have an overwhelming amount of dimensions for the user, as that will make it very hard for them to find what they need.
 
@@ -329,4 +332,4 @@ You can now use your groups for selecting org units and your group sets as dimen
 
 ![final_chart](images/ougs/final_chart.png)
 
-#### STOP - Perform Excercise 8
+#### STOP - Perform Excercise 7
