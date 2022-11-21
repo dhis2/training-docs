@@ -14,14 +14,15 @@ There is also a Quick Guide which lists the steps very briefly and this is meant
 
 ## Learning objectives for this session
 
-1. Describe what organisation unit groups are
-2. Describe what organisation unit group sets are
-3. Use organisation unit groups in analysis apps
-4. Use organisation unit group sets in analysis apps
-5. Retrieve organisation units via the API
+1. Review the concept of organisation units
+2. Describe what organisation unit groups are
+3. Describe what organisation unit group sets are
+4. Use organisation unit groups in analysis apps
+5. Use organisation unit group sets in analysis apps
 6. Describe the limitations of creating organisation unit groups in maintenance
-7. Add organisation units to organisation unit groups via import/export
-8. Configure organisation unit group sets in maintenance
+7. Retrieve organisation units via the API
+8. Add organisation units to organisation unit groups via import/export
+9. Configure organisation unit group sets in maintenance
 
 ## Time Requirements
 
@@ -31,11 +32,11 @@ There is also a Quick Guide which lists the steps very briefly and this is meant
 
 ## Background
 
-Program Indicators offer a flexible way of interacting with tracker data and allow for a number of advanced functionality as it relates to aggregating or summarizing individual tracker data. This session will focus on how program indicators can be used in data visualizer, maps and event reports to both display information related to a single tracked entity as well as summarize data for many tracked entities based on the org unit and period you are working with. 
+
 
 ## Preparations
 
-This session will see you creating a number of visualizations. Ensure that you have run analytics in the demo database you are using and that all the data is being populated correctly. If you find that data is not present for the correct period or year, please contact the training content team so we can advise how to move the data correctly.
+This session will see you creating a visualizations. Ensure that you have run analytics in the demo database you are using and that all the data is being populated correctly. If you find that data is not present for the correct period or year, please contact the training content team so we can advise how to move the data correctly.
 
 You should consider running through the entire demo prior to presenting it. After this, you should take the quick guide and supplement it with any additional notes you made while running through the demo. If you identify any changes that may be required or additional explanation that would be helpful within the session, please content the training content team in order to allow us to evaluate how to best integrate this feedback into the material.
 
@@ -43,13 +44,16 @@ Every visualization that you are asked to create has been saved and should be sh
 
 Also, the learner's guide and session summary are the main material that will be provided to the learner's with both detailed steps for ungraded exercises as well as the key messages from the session. Review these as well to ensure you are able to discuss these key points during your demonstration.
 
+You are also asked to cover more advanced concepts, such as browsing the API and importing metadata. If you are not familiar with this concepts, it is recommended you review the documentation and seek help in order to understand these principles in more detail before presenting this session.
+
 ## Best Practices
 
 Before starting the demonstration, please keep in mind that the most important thing is that the audience is following, so make sure to ask questions to the audience to verify that they are following. If something is unclear, go back and go through it slowly. If you don’t have time for all the steps, it is better to cut some steps, than to go fast while nobody understands.
 
-In an online setting, you will be breaking regularly to allow them to perform various ungraded exercises in order to keep them engaged.
+There are two potenital ways to conduct the session:
 
-In an in-person setting, the participants may be doing the demo with you at the same time. In this scenario, it is ideal if there are other trainer's moving around the room to support participant's as it will be difficult for the trainer leading the session to answer many individual questions during the demonstrations. 
+1. Break where it says stop and allow the participants to work through identified exercises
+2. Allow the participants to follow along with you at the same time. In this scenario, it is ideal if there are other trainer's moving around the room to support participant's as it will be difficult for the trainer leading the session to answer many individual questions during the demonstrations. 
 
 ## Quick Guide
 
@@ -59,7 +63,7 @@ In an in-person setting, the participants may be doing the demo with you at the 
 
 ## Live Demo step by step
 
-### Create a chart using org unit groups within an org unit group set
+### Review how organisation unit groups and group sets can be used to visualize data
 
 #### Review and create the chart "EPI - BCG Doses Given < 1 Results, Last 12 months"
 
