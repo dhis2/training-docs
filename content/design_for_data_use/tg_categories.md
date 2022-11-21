@@ -247,5 +247,7 @@ Now that you have verified it has been created correctly, you can use the catego
 
 #### STOP - Perform Exercise 5
 
-### Discuss the challenges when you have repeated cat options, categories, cat combos, cat option combos
+### Review the presentation on additional considerations for categories
+
+[Link](https://docs.google.com/presentation/d/1j4zONbJx73HwgiFFu8eGgjVUJOG8mJZf80V6IpS_lLE/edit?usp=sharing)
 
