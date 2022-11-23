@@ -46,27 +46,30 @@ In an in-person setting, the participants may be doing the demo with you at the 
 
 ## Quick Guide
 
-1. Review the user role aggregate data entry, explain each of the sections within the user-interface when creating or editing a user role
-2. Review the specific authorities for the aggregate data capture role
-3. Discuss the aggregate authorities in more detail
-4. Log in to a user with the aggregate data capture role in the aggregate customization instance
-Username : 
-Password : District1#
+1. Review the sharing presentation
+
+2. Log in as the HIV user and review what they have access to
+   1. HIV/District1#
+3. Log in as the EMIS user and review what they have access to
+   1. EMIS/District1#
+4. Log in as the all health programs user and review what they have access to
+   1. health_admin/District1#
 
 STOP - Perform Exercise 1
 
-5. Create a new user and assign it to the aggregate data capture user role. Test the user
+7. Review data level sharing in maintenace by discussing user groups
+8. Create a new user group
+9. Review the data sharing for category options
 
 STOP - Perform Exercise 2
 
-6. Create a new user role - aggregate data analysis
-7. Assign this user role to the user you have previously made and test the user
+10. Discuss the default settings when you create a new category options and justify public category options
+11. Review the sharing settings for the EMIS and HIV monthly data sets
 
 STOP - Perform Exercise 3
 
 
-8. Review the recap slide
-9. Have them perform the assignment
+
 
 ## Live Demo step by step
 
@@ -140,7 +143,7 @@ The same is true for the other data types. Here is the example for data elements
 
 ![data-emis-DEgroup](images/sharing/data-emis-DEgroup.png)
 
-### Log in as the all programs user
+### Log in as the all health programs user
 
 The combination of user roles, user groups and sharing allows us to provide a great deal of granularity when we define our users. We can have them only access segmented pieces of the system, along with limited access to the apps within DHIS2; or we can create users with maintenance privileges and access to many data types. Anything in between can also be created.
 
@@ -225,7 +228,7 @@ Go to Category option management and open the sharing dialog for any of the cate
 
 ![cat-option-sharing](images/sharing/cat-option-sharing.png)
 
-> Regaring aggregate data and category options, this relationship is VERY important! When we create a new category option, data sharing by default is set to no access. If we then use this category option in a category and category combination without altering the sharing settings, a user trying to access a data set containing this category option will in fact not be able to do so. In essence, it will completely restrict the user from entering entire datasets as well as any data associated with this category combination if the data sharing is set to no access. Users will need "can capture and view" access to enter data. User group sharing is possible, but can quickly become challenging if not maintained over time. 
+> Regarding aggregate data and category options, this relationship is VERY important! When we create a new category option, data sharing by default is set to no access. If we then use this category option in a category and category combination without altering the sharing settings, a user trying to access a data set containing this category option will in fact not be able to do so. In essence, it will completely restrict the user from entering entire datasets as well as any data associated with this category combination if the data sharing is set to no access. Users will need "can capture and view" access to enter data. User group sharing is possible, but can quickly become challenging if not maintained over time. 
 >
 >In this case, keeping category options public with the sharing settigns displayed on screen is recommended so that users and administrators are able to re-use them freely. By making them public, any program can use them to make category combinations; and any admin will be able to log in and check for duplicates before creating new ones!
 
@@ -255,7 +258,7 @@ You should then have three different browser instances running.
 
 ![sharing-prep](images/sharing/sharing-prep.png)
 
-***Demno start***
+***Demo start***
 
 With the prep taken care of, you can then alternate between the explanation and showing what the user can do (similar to demo 1 but now with the maintenance explanation) while showing the sharing settings. This will allow the user to see how certain sharing settings are reflected within DHIS2
 
