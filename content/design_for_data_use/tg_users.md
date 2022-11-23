@@ -201,7 +201,7 @@ Under the search orgunit assignment, you will see the option “Maximum organisa
 
 ![ou-outpu](images/users/ou-output.png)
 
-Next, we see available user groups. Just add this user to the malaria data capture user role for now. We will review user groups in more detail later on.
+Next, we see available user groups. Just add this user to the malaria data capture and GEN access user groups for now. We will review user groups in more detail later on.
 
 Lastly, we have Analytics dimension restrictions. We will not cover this in this academy.
 
