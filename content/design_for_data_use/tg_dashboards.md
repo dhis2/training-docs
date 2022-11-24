@@ -160,7 +160,7 @@ From 2.36, dashboards can be accessed via a mobile device without any additional
 
 #### Making dashboards available offline
 
-Dashboard can be made available to work offline. They will be stored in cache. As long as the person does not log out of DHIS2 while online/offline, they will be able to access the offline dashboard. You will not be able to demonstrate this fully, as if you turn your internet connection off you will disconnect from the demo.
+Dashboard can be made available to work offline. They will be stored in cache. As long as the person does not log out of DHIS2 while online/offline, they will be able to access the offline dashboard. 
 
 To save a dashboard offline select More -> Make available offline
 
@@ -176,14 +176,40 @@ If you no longer want the dashboard stored offline, you can turn this off via th
 
 ![remove-from-offline](images/dashboards/remove-from-offline.png)
 
-
 #### STOP - Perform Exercise 1
+
 
 ### Creating Dashboards
 
+Review slide 6-8 in the presentation:
+https://docs.google.com/presentation/d/1Fbg5utWr4SkUovy9aliPKdzDvvHAzRtCbxN6MyFo2eM/edit?usp=sharing
+
+This will discuss adding new items to the dashboard. These are meant as reference only. They can be shared with the group, but go through the process of actually creating a new dashboard using a demo.
+
 #### Create a new dashboard
 
+To add a new dashboard, click on the “+” sign at the top of the dashboard page.
+
+Outline the steps required in order to add the item to the dashboard. You can use some of existing examples from the termly tool (EMIS) or health use cases.
+
+![db-layout](images/dashboards/db-layout.png)
+
 #### Discuss the filter settings
+
+Note that there are now some additional options for managing the dashboard filter settings. As an example, you may want to remove the category filters or only include the category filters relevant for the dashboard items you have added. Do this by accessing “Filter settings” when creating or editing a dashboard.
+
+![filter-settings](images/dashboards/filter-settings.png)
+
+From here, you can select which filters you want to include in the dashboard. This can help in reducing confusion as you can ensure that only filters that will work with the dashboard are included and can limit the options for the end-user based on the information you want them to see.
+
+![filter-dimensions](images/dashboards/filter-dimensions.png)
+
+These changes get applied to the “Add filter” button after you have saved the changes for the dashboard you are working on.
+
+![emis-with-filter](images/dashboards/emis-with-filter.png)
+
+When you are done, select “Save changes” to save the dashboard
+![save-changes](images/dashboards/save-changes.png)
 
 #### STOP - Perform Exercise 2
 
@@ -191,6 +217,61 @@ If you no longer want the dashboard stored offline, you can turn this off via th
 
 #### Review user org units
 
+We can now review user organisation units and sharing.
+
+Let us do this by reviewing one of the already available WHO dashboards (“Malaria Burden Reduction”)
+
+You can open up one of these outputs to discuss this function. This example uses the output MAL - Reported malaria cases.
+
+![mal-open-in-viz](images/users/open-in-viz.png)
+
+Review the organisation unit selection. In the example of the chart, the selection being made is the “User organisation unit.” If I am currently logged in as user which has access to the entire hierarchy, organisation unit is the the top level org unit. “User sub x2 units” would be Provinces for this particular user, as that would be 2 levels below their immediately assigned organisation unit. The user sub units can therefore be considered a “relative” org unit selection; being that it is relative to the org unit the user has been assigned to. 
+
+![user-org-unit](images/dashboards/user-org-unit.png)
+
+If you go back to the dashboard you can see this in the various outputs that are present; note that user organisation units have been selected for all of these outputs. You may want to discuss a couple of examples to reinforce this point.
+
 #### Discuss sharing
+
+Review slide 9 in the presentation:
+https://docs.google.com/presentation/d/1Fbg5utWr4SkUovy9aliPKdzDvvHAzRtCbxN6MyFo2eM/edit?usp=sharing
+
+We have tried to create this dashboard so it can be re-used multiple times. In using user org units, the data a user sees should be dependent on the org units they are assigned. This allows you to make one dashboard that can be shared to many users at once, with all of these different users seeing different outputs. 
+
+In order to share a dashboard you need to open the sharing dialog via the “Share” button at the top of the dashboard. This will open the dialog for the dashboard.
+
+![sharing-panel](images/dashboards/sharing-panel.png)
+
+You can share items with either users or user groups. It is often more advantageous to share via a user group so you can share the item with many users at once. To add a user or user group, start typing their name in the search box, you will then see the name of the user or group appear. Select it to add it to the sharing dialog.
+
+![share-dashboard](images/dashboards/share-dashboard.png)
+
+Before you add users/groups to the sharing settings for the dashboard, you can assign them different permissions (note: this can also be edited after they are given access)
+
+- Can edit and view: Can both alter/edit the dashboard (rename, add/remove items, delete dashboard) as well as view the dashboard
+- Can view: Can view the dashboard but can not make any changes.
+
+![apply-access](images/dashboards/apply-access.png)
+
+Another import aspect of this is to ensure the items on the dashboard itself have been shared with the user groups you are sharing the dashboard with. If the visualizations (maps, charts, tables) are not shared, then the user may not be able to view the items on the dashboard correctly. Luckily, we can not apply sharing to all items on the dashboard from the dashboard itself by using the "Apply sharing to dashboard visualizations" tab.
+
+[apply-sharing-to-viz](images/dashboards/apply-sharing-to-viz.png)
+
+By combining the concept of sharing with user org units, we can have one dashboard that can be re-used many times. As an example, we do not need to make outputs for every district; we can instead use the user org units  feature combined with sharing to make one set of outputs that different different users can access to see their own data. We can review this concept in more detail. Clear your cache or open a new incognito window to log in as a different user.
+
+#### Login as the malaria user
+
+Username : malaria
+
+Password : District1#
+
+Review the same malaria dashboard that you were looking at before (Malaria Burden Reduction)
+
+You will see it is displaying the country name of Lao in all of the visualizations now insted of the top level org unit. 
+
+![mal-user](images/dashboards/mal-user.png)
+
+This is due to the use of relative org units. You will also notice they only see the malaria dashboards; this is a result of sharing these dashboards and having this user being apart of the malaria access user group. You will see they can view the dashboards, but they can not edit them.
+
 
 #### STOP - Perform Exercise 3
