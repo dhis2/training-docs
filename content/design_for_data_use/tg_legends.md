@@ -17,7 +17,7 @@ There is also a Quick Guide which lists the steps very briefly and this is meant
 1. Describe what legends are
 2. Use legends in analysis apps
 3. Configure legends in maintenance
-4. Assoociate legends with indicators and data elements
+4. Associate legends with indicators and data elements
 
 ## Time Requirements
 
@@ -120,7 +120,7 @@ Visualizations that CAN NOT use legends include:
 - stacked area
 - pie
 - radar
-- year-overyear (line and column)
+- year-over-year (line and column)
 - scatter
 
 Your best option to modify the colouring of these items is to use the color set tab in the options panel of data visualizer
@@ -247,7 +247,7 @@ Select save to save your legend.
 
 #### Show how to have pre-defined legends associated with data elements and indicators
 
-Now that we have created a legend, we are able to associate it with data elements and indicators as well as using it analysis. Navigate to maintenance -> indicator and find the indicator "EMIS - Gross Enrolment in primary." If you open it up you will see a legends box where you can add your legend to the indicator. If you do this, the indicator will maintain an association with that legend and automatically be used in analysis when legends are enabled unless other options are selected for it.
+Now that we have created a legend, we are able to associate it with data elements and indicators as well as using it analysis. Navigate to maintenance -> indicator and find the indicator "EMIS - Gross Enrolment in primary." If you open it up you will see a legends box where you can add your legend to the indicator. If you do this, the indicator will maintain an association with that legend and automatically be used in analysis when legends are enabled unless other options are selected for it. This process is identical for both data elements and indicators.
 
 ![indicator-legend](images/legends/indicator-legend.png)
 

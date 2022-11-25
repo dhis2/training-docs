@@ -1,16 +1,8 @@
-# Trainer’s Guide to Organisation Unit Groups and Group Sets
+# Learner's to Organisation Unit Groups and Group Sets
 
 ## What is this guide?
 
-This guide is a support document for DHIS2 Academy trainers for the session "Organisation Unit Groups and Group Sets." This session follows the standard Academy training approach with 
-
-1. a live demo session where the trainer demonstrate and explain the features, and 
-   
-2. a hands-­on session with exercises where participants get to practice the same features.
-
-This guide will help the trainer​ prepare​​ for the live demo session. The “Live Demo step by step” section has a detailed walkthrough of all the steps to demonstrate with explanations and screenshots that should be easy to follow. Use that when preparing for the live demo session.
-
-There is also a Quick Guide which lists the steps very briefly and this is meant as a lookup guide or “cheatsheet” WHILE doing the demo, to help the trainer remember all the steps and the flow of the demo.
+This guide contains all exercises and detailed steps to perform them related to the review of data elements for the Design for Data Use Level 1 academy. Please perform each of the exercises when prompted to by your instructors
 
 ## Learning objectives for this session
 
@@ -24,34 +16,9 @@ There is also a Quick Guide which lists the steps very briefly and this is meant
 8. Add organisation units to organisation unit groups via import/export
 9. Configure organisation unit group sets in maintenance
 
-## Time Requirements
+## Exercise 1 - Review how organisation unit groups and group sets can be used to visualize data
 
-- Live Demo: 
-- Hands-on Exercises: 
-- Assignment: 
-
-## Background
-
-
-
-## Preparations
-
-
-## Best Practices
-
-Before starting the demonstration, please keep in mind that the most important thing is that the audience is following, so make sure to ask questions to the audience to verify that they are following. If something is unclear, go back and go through it slowly. If you don’t have time for all the steps, it is better to cut some steps, than to go fast while nobody understands.
-
-There are two potenital ways to conduct the session:
-
-1. Break where it says stop and allow the participants to work through identified exercises
-2. Allow the participants to follow along with you at the same time. In this scenario, it is ideal if there are other trainer's moving around the room to support participant's as it will be difficult for the trainer leading the session to answer many individual questions during the demonstrations. 
-
-## Quick Guide
-
-
-## Live Demo step by step
-
-### Review how organisation unit groups and group sets can be used to visualize data
+***Perform this exercise in the demonstration system.***
 
 #### Review and create the chart "EPI - BCG Doses Given < 1 Results, Last 12 months"
 
@@ -136,9 +103,9 @@ And update the visualization
 
 From these examples, we can see there is a lot of flexibility introduced by using org unit groups and group sets in data analysis; and having them configured correctly will prove very useful.
 
-#### STOP - Perform Exercise 1
+## Exercise 2 - Manage OU Groups and OU Group Sets in Maintenance
 
-### Show how to manage OU Groups and OU Group Sets in Maintenance
+***Perform this exercise in the cutomization system***
 
 In order to create org unit groups and group sets in DHIS2, we can use the maintenance app. This should be a review for most participants.
 
@@ -211,9 +178,9 @@ This will give us a csv file on our own computer with the id and name of the org
 
 ![ou-csv-download](images/ougs/ou-csv-download.png)
 
-#### STOP - Perform Exercise 2
+## Exercise 3 - Create org unit groups via maintenance
 
-### Create org unit groups via maintenance
+***Perform this exercise in the customization system***
 
 Before we create the CSV file for import, lets create our org unit group. We are going to do this because, while we can import the org unit group seperately, it is a bit easier to have created the org unit group already before importing org units to it. Sometimes, a combination of using the maintenace app plus advanced operations can be helpful, as is the case here. 
 
@@ -257,9 +224,9 @@ Copy this ID and place it into the first column of your spreadsheet and fill in 
 
 Make sure you save the file as a csv using the UTF-8 format.
 
-#### STOP - Perform Exercise 3
+## Exercise 4 - Import the org unit groups into DHIS2 via the Import/Export app
 
-### Import the org unit groups into DHIS2 via the Import/Export app
+***Perform this exercise in the customization system***
 
 We can now import this file into DHIS2. Navigate to the import-export app then select metadata import from the side menu
 
@@ -281,9 +248,9 @@ Navigate to your org unit group set in maintenance and open it up. You should se
 
 ![oug-final-check](images/ougs/oug-final-check.png)
 
-#### STOP - Perform Exercise 4
+## Exercise 5 - Create the OU group sets via maintenance
 
-### Create the OU group sets via maintenance
+***Perform this exercise in the customization system***
 
 To finalize this process, you would normally have to create at least one more org unit group; however the steps you follow are the same as what we have shown now. Instead, we will use the org unit group you just made plus existing groups in order to create an ***org unit group set***. Within the group set, exclusivity is a key principle. This means an org unit should not belong to more then one org unit group within an org unit group set. Also, each of the org units in the entire system should be within one of the org unit groups belonging to the group set as well. This is so when we perform analysis with these org unit groups and group sets, we are not excluding org units from our totals.
 
@@ -295,13 +262,7 @@ Add in the following groups, using the health centre group you created rather th
 
 Explain the fields as you create this org unit group. Save it when you are finished. 
 
-#### STOP - Perform Excercise 5
-
-### Explain the connection of data dimensions to analytics and use the created groups in visualizer
-
-Note that in order to use this org unit group set in analysis, analytics will need to be run and "data dimension" should be ticked within the org unit group set. If this is not done, it can not be used as a dimension in analysis. Some caution should also be exercised not to have an overwhelming amount of dimensions for the user, as that will make it very hard for them to find what they need.
-
-Make sure everyone created their org unit group before running analytics. Run analytics, then you can have them use the org unit groups and group sets to make a chart like our first example.
+## Exercise 6 - Use the created groups in visualizer
 
 **Chart type**
 - Stacked column
@@ -323,5 +284,3 @@ Make sure everyone created their org unit group before running analytics. Run an
 You can now use your groups for selecting org units and your group sets as dimensions to disaggregate your data!
 
 ![final_chart](images/ougs/final_chart.png)
-
-#### STOP - Perform Exercise 6
