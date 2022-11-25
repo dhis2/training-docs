@@ -1,16 +1,8 @@
-# Trainer’s Guide to the Category Model
+# Learner's Guide to the Category Model
 
 ## What is this guide?
 
-This guide is a support document for DHIS2 Academy trainers for the session "The correct way to work with the category model." This session follows the standard Academy training approach with 
 
-1. a live demo session where the trainer demonstrate and explain the features, and 
-   
-2. a hands-­on session with exercises where participants get to practice the same features.
-
-This guide will help the trainer​ prepare​​ for the live demo session. The “Live Demo step by step” section has a detailed walkthrough of all the steps to demonstrate with explanations and screenshots that should be easy to follow. Use that when preparing for the live demo session.
-
-There is also a Quick Guide which lists the steps very briefly and this is meant as a lookup guide or “cheatsheet” WHILE doing the demo, to help the trainer remember all the steps and the flow of the demo.
 
 ## Learning objectives for this session
 
@@ -21,84 +13,7 @@ There is also a Quick Guide which lists the steps very briefly and this is meant
 5. Describe the relationship between categories, data dimensions and anlaytics
 6. Apply category combinations to data elements
 
-## Time Requirements
-
-- Live Demo: 
-- Hands-on Exercises: 
-- Assignment: 
-
-## Background
-
-
-
-## Preparations
-
-
-
-## Best Practices
-
-
-
-## Quick Guide
-
-1. Review the presentation the Category Model
-
-[Link](https://docs.google.com/presentation/d/1243f0aSQATHFFUzZNBNIiH4Hltaor181/edit?usp=share_link&ouid=104677221247573000314&rtpof=true&sd=true)
-
-2. Show how categories can be used to visualize data
-   1. Open the chart HIV - HIV cascade by sex - last 12 months from the HIV national dashboard and discuss
-   2. Add the Age (HIV) disaggregation to the chart
-3. Create a new chart
-   1. Data: 
-      1. Data Type : Data Elements 
-      2. Data Element group: HIV
-      3. Data Element names: HIV - HIV tests positive, HIV - PLHIV new on ART, HIV - PLHIV retained on ART last 12 months
-   2. Period: last 12 months
-   3. Org unit: Lao
-
-STOP - Exercise 1
-
-1. Review the presentation "The correct way to create categories"
-
-[Link](https://docs.google.com/presentation/d/1243f0aSQATHFFUzZNBNIiH4Hltaor181/edit?usp=share_link&ouid=104677221247573000314&rtpof=true&sd=true) 
-
-1. Show how to manage category options in maintenance
-   1. Create cat options using your initials for
-      1. Sex (male, female) 
-      2. Age (0-14, 15+)
-
-STOP - Perform Exercise 2
-
-1. Show how to manage categories in maintenance
-   1. Create 2 cateogries
-      1. Sex (male, female) 
-      2. Age (0-14, 15+)
-
-STOP - Perform Exercise 3
-
-1. Show how to manage category combinations in maintenance 
-   1. Age (0-14, 15+) + Sex
-
-STOP - Perform Exercise 4
-
-1. Check the category option combinations via the API
-
-```
-api/categoryCombos/CZdqpXRkg8Y.csv?fields=categoryOptionCombos[id,name]
-```
-STOP - Perform Exercise 5
-
-1. Review the presentation on additional considerations for categories
-
-[Link](https://docs.google.com/presentation/d/1j4zONbJx73HwgiFFu8eGgjVUJOG8mJZf80V6IpS_lLE/edit?usp=sharing)
-
-## Live Demo step by step
-
-### Review the presentation the Category Model
-
-[Link](https://docs.google.com/presentation/d/1243f0aSQATHFFUzZNBNIiH4Hltaor181/edit?usp=share_link&ouid=104677221247573000314&rtpof=true&sd=true) 
-
-### Show how categories can be used to visualize data
+### Exercise 1 - Review how categories can be used to visualize data
 
 Open the chart "HIV - HIV cascade by sex - last 12 months" from the HIV national dashboard.
 
@@ -160,13 +75,7 @@ Modify the layout and update the chart
 
 You will see the disaggregations (categories) have now been applied.
 
-#### STOP - Perform Exercise 1
-
-### Review the presentation "The correct way to create categories"
-
-[Link](https://docs.google.com/presentation/d/1xRmqvfrJry6f1fcKCwp6Qd9Ojiw9FQ7LS0oBPGhOyNU/edit?usp=sharing)
-
-### Show how to manage category options in maintenance
+## Exercise 2 - Review how to manage category options in maintenance
 
 In our example, let us create the category options that we had used to disaggregate our HIV data. In this example, we had:
 
@@ -195,9 +104,7 @@ You can discuss the fields as you fill them in. Save the category option when yo
 
 Repeat this process to create the category options for female, 0-15 and 15+. 
 
-#### STOP - Perform Exercise 2
-
-### Show how to manage categories in maintenance
+## Exercise 3 - Review how to manage categories in maintenance
 
 We want to create two categories:
 
@@ -228,9 +135,7 @@ Also, explain that the data dimension tick box allows the category to show up on
 
 Repeat this process to create the category for Age (0-14/15+). Ensure you use the category options that you made with your initials to create this new category.
 
-#### STOP - Perform Exercise 3
-
-### Show how to manage category combinations in maintenance
+## Exercise 4 - Show how to manage category combinations in maintenance
 
 We want to create one category combination
 
@@ -256,9 +161,7 @@ Use your initals as a prefix and create the category combination for for Age (0-
 
 You can discuss the fields as you fill them in. In particular, make sure to review the data dimension type. Leave it as disaggregation but we will come back to attributes in a later session.
 
-#### STOP - Perform Exercise 4
-
-### Check the category option combinations via the API
+## Exercise 5 - Check the category option combinations via the API
 
 We have succesfully created our category combination. It is now time to check if the category option combinations have been created. Based on what we made, we should have a total of 4 category option combinations
 
@@ -286,15 +189,9 @@ Use the following API call in order to check your category option combinations:
 api/categoryCombos/CZdqpXRkg8Y.csv?fields=categoryOptionCombos[id,name]
 ```
 
-where "CZdqpXRkg8Y" is the UID of the category option combo; this will allow you to get a CSV file of the category combo with all of the category option combinations.
+where "CZdqpXRkg8Y" is the UID of the category option combo; this will allow you to get a CSV file of the category combo with all of the category option combinations. So make sure you replace the example ID here with the ID you find in mainteance.
 
 ![catcombo-check](images/categories/catcombo-check.png)
 
 Now that you have verified it has been created correctly, you can use the category combination to disaggregate the data elements, indicators, validation rules, etc. you need to as required!
-
-#### STOP - Perform Exercise 5
-
-### Review the presentation on additional considerations for categories
-
-[Link](https://docs.google.com/presentation/d/1j4zONbJx73HwgiFFu8eGgjVUJOG8mJZf80V6IpS_lLE/edit?usp=sharing)
 
