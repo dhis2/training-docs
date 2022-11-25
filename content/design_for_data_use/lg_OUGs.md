@@ -2,7 +2,7 @@
 
 ## What is this guide?
 
-This guide contains all exercises and detailed steps to perform them related to the review of data elements for the Design for Data Use Level 1 academy. Please perform each of the exercises when prompted to by your instructors
+This guide contains all exercises and detailed steps to perform them related to the review of ***organisation unit groups and group sets*** for the Design for Data Use Level 1 academy. Please perform each of the exercises when prompted to by your instructors
 
 ## Learning objectives for this session
 

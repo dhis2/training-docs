@@ -48,8 +48,39 @@ There are two potenital ways to conduct the session:
 
 ## Quick Guide
 
+1. Review the presentation on organisation unit groups
+2. Review how organisation unit groups and group sets can be used to visualize data
+   1. Review and create the chart "EPI - BCG Doses Given < 1 Results, Last 12 months"
+
+STOP - Perform Exercise 1
+
+1. Show how to manage OU Groups and OU Group Sets in Maintenance
+2. Review the process of creating OU Groups and Group Sets via the API
+3. Retrieve the list of org units via the API
+
+STOP - Perform Exercise 2
+
+1. Create org unit groups via maintenance
+2. Review the format of the orgunit group import file
+3. Populate the orgunit group import file
+
+STOP - Perform Exercise 3
+
+1. Import the org unit groups into DHIS2 via the Import/Export app
+
+STOP - Perform Exercise 4
+
+1. Create the OU group set via maintenance
+
+STOP - Perform Exerise 5
+
+1. Explain the connection of data dimensions to analytics and use the created groups in visualizer
+
+STOP - Perform Exercise 6
 
 ## Live Demo step by step
+
+### Review the presentation on organisation unit groups
 
 ### Review how organisation unit groups and group sets can be used to visualize data
 
@@ -283,7 +314,7 @@ Navigate to your org unit group set in maintenance and open it up. You should se
 
 #### STOP - Perform Exercise 4
 
-### Create the OU group sets via maintenance
+### Create the OU group set via maintenance
 
 To finalize this process, you would normally have to create at least one more org unit group; however the steps you follow are the same as what we have shown now. Instead, we will use the org unit group you just made plus existing groups in order to create an ***org unit group set***. Within the group set, exclusivity is a key principle. This means an org unit should not belong to more then one org unit group within an org unit group set. Also, each of the org units in the entire system should be within one of the org unit groups belonging to the group set as well. This is so when we perform analysis with these org unit groups and group sets, we are not excluding org units from our totals.
 

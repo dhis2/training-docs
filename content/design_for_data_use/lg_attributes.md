@@ -1,16 +1,8 @@
-# Trainer’s Guide to the Attribute Model
+# Learner's Guide to the Attribute Model
 
 ## What is this guide?
 
-This guide is a support document for DHIS2 Academy trainers for the session "Additional Dimensions : Attributes." This session follows the standard Academy training approach with 
-
-1. a live demo session where the trainer demonstrate and explain the features, and 
-   
-2. a hands-­on session with exercises where participants get to practice the same features.
-
-This guide will help the trainer​ prepare​​ for the live demo session. The “Live Demo step by step” section has a detailed walkthrough of all the steps to demonstrate with explanations and screenshots that should be easy to follow. Use that when preparing for the live demo session.
-
-There is also a Quick Guide which lists the steps very briefly and this is meant as a lookup guide or “cheatsheet” WHILE doing the demo, to help the trainer remember all the steps and the flow of the demo.
+This guide contains all exercises and detailed steps to perform them related to the review of ***attributes*** for the Design for Data Use Level 1 academy. Please perform each of the exercises when prompted to by your instructors
 
 ## Learning objectives for this session
 
@@ -19,73 +11,7 @@ There is also a Quick Guide which lists the steps very briefly and this is meant
 3. Configure attribute options, attribute categories, attribute category combos in maintenance
 4. Verify the creation of attribute category option combos via the API
 
-## Time Requirements
-
-- Live Demo: 
-- Hands-on Exercises: 
-- Assignment: 
-
-## Background
-
-
-## Preparations
-
-
-
-## Best Practices
-
-Before starting the demonstration, please keep in mind that the most important thing is that the audience is following, so make sure to ask questions to the audience to verify that they are following. If something is unclear, go back and go through it slowly. If you don’t have time for all the steps, it is better to cut some steps, than to go fast while nobody understands.
-
-In an online setting, you will be breaking regularly to allow them to perform various ungraded exercises in order to keep them engaged.
-
-In an in-person setting, the participants may be doing the demo with you at the same time. In this scenario, it is ideal if there are other trainer's moving around the room to support participant's as it will be difficult for the trainer leading the session to answer many individual questions during the demonstrations. 
-
-## Quick Guide
-
-1. Review the presentation Additional Dimensions - Attributes
-2. Review a dataset in data entry that uses the attribute model (immunization or termly tool)
-3. Show how attribute categories can be used to visualize data
-   1. Open the chart "Enrolment by term this and last 3 years" from the EMIS - Primary school dashboard
-   2. Create a new chart
-      1. Chart type: column
-      2. Data:
-         1. Data Type : Indicators 
-         2. Indicator group: Primary Termly Tool
-         3. Indicator Name: PTT_Total Enrolment
-      3. Period: 2020, 2021, 2022
-      4. Org unit: The Gambia
-
-STOP - Perform Exercise 1
-
-1. Show how to manage category options in maintenance
-2. Create the options for results and targets
-
-STOP - Perform Exercise 2
-
-1. Show how to manage categories in maintenance
-2. Create the attribute category results/targets
-
-STOP - Perform Exercise 3
-
-1. Show how to manage attribute category combinations in maintenance
-2. Create the attribute category combination results/targets
-
-STOP - Perform Exercise 4
-
-1. Check the category option combinations via the API
-   1. api/categoryCombos/yourCatComboIDhere.csv?fields=categoryOptionCombos[id,name]
-
-STOP - Perform Exercise 5
-
-1. Review where you apply these attribute category combos when creating a dataset
-
-## Live Demo step by step
-
-### Review the presentation Additional Dimensions - Attributes
-
-[Link](https://docs.google.com/presentation/d/13CD4rhpDIC5XayY8mhELpcfNfEayYV4p/edit?usp=sharing&ouid=104677221247573000314&rtpof=true&sd=true)
-
-### Review a dataset in data entry that uses the attribute model
+## Exercsise 1 - Review a dataset in data entry that uses the attribute model
 
 There are two datasets one can view : Immunization and the Primary termly tool. Immunization is located at the facility level in the Lao hierarchy, while the termly tool is located at the school level in the Gambia hierarchy. 
 
@@ -95,7 +21,7 @@ There are two datasets one can view : Immunization and the Primary termly tool. 
 
 Select either one (or both) to review in data entry focusing on the use of attribute categories to disaggregate the data set.
 
-### Show how attribute categories can be used to visualize data
+## Review how attribute categories can be used to visualize data
 
 Open the chart "Enrolment by term this and last 3 years" from the EMIS - Primary school dashboard
 
@@ -123,7 +49,7 @@ If you open the chart "EPI - BCG Doses Given, last 12 months" you will be able t
 
 ![bcg-targets-results](images/attributes/bcg-targets-results.png)
 
-#### Create a new chart
+## Create a new chart
 
 To create a new chart select File - > New
 
@@ -163,9 +89,7 @@ Modify the layout and update the chart
 
 You will see the disaggregations (categories) have now been applied.
 
-#### STOP - Perform Exercise 1
-
-### Show how to manage category options in maintenance
+## Exercise 2 - Review how to manage category options in maintenance
 
 In our example, let us create the category options that we had used to disaggregate our Immuniuzation data set. This consists only of Targets and Results. 
 
@@ -191,9 +115,7 @@ Repeat this process to create the category options for Targets.
 
 So far, nothing is actually different then when we create disaggregate category options.
 
-#### STOP - Perform Exercise 2
-
-### Show how to manage categories in maintenance
+## Exercise 3 - Review how to manage categories in maintenance
 
 We want to create one category
 
@@ -223,9 +145,7 @@ Also, explain that the data dimension tick box allows the category to show up on
 
 Ensure you use the category options that you made with your initials to create this new attribute category.
 
-#### STOP - Perform Exercise 3
-
-### Show how to manage attribute category combinations in maintenance
+## Exercise 4 - Review how to manage attribute category combinations in maintenance
 
 We want to create one attribute category combination
 
@@ -249,9 +169,7 @@ Use your initals as a prefix and create the category combination for for Targets
 
 You can discuss the fields as you fill them in. In particular, make sure to review the data dimension type. We will use attribute once again. Interestingly, when you select attribute as the data dimension type, you will only be able to select from attribute categories to create your attribute category combination.
 
-#### STOP - Perform Exercise 4
-
-### Check the category option combinations via the API
+## Exercise 5 - Check the category option combinations via the API
 
 We have succesfully created our category combination. It is now time to check if the category option combinations have been created. Based on what we made, we should have a total of 4 category option combinations
 
@@ -285,9 +203,7 @@ Now that you have verified it has been created correctly, you can use the attrib
 
 > Note : the process to check if this has been generated correctly is the EXACT SAME as what was done for disaggregate category option combinations. This is because the underlying data model is also identical. The only difference is the classification (attribute) and that is now used to disaggregate a data set instead of a data element. 
 
-#### STOP - Perform Exercise 5
-
-### Review where you apply these attribute category combos when creating a dataset
+### Exercise 6 - Review where you apply these attribute category combos when creating a dataset
 
 Navigate to Maintenance -> Data Set and list the data sets. Search for either the EMIS primary termly tool or the immunization data set. 
 

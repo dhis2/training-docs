@@ -1,16 +1,8 @@
-# Trainer’s Guide to Indicators
+# Learner's Guide to Indicators
 
 ## What is this guide?
 
-This guide is a support document for DHIS2 Academy trainers for the session "Indicators" This session follows the standard Academy training approach with 
-
-1. a live demo session where the trainer demonstrate and explain the features, and 
-   
-2. a hands-­on session with exercises where participants get to practice the same features.
-
-This guide will help the trainer​ prepare​​ for the live demo session. The “Live Demo step by step” section has a detailed walkthrough of all the steps to demonstrate with explanations and screenshots that should be easy to follow. Use that when preparing for the live demo session.
-
-There is also a Quick Guide which lists the steps very briefly and this is meant as a lookup guide or “cheatsheet” WHILE doing the demo, to help the trainer remember all the steps and the flow of the demo.
+This guide contains all exercises and detailed steps to perform them related to the review of ***indicators*** for the Design for Data Use Level 1 academy. Please perform each of the exercises when prompted to by your instructors
 
 ## Learning objectives for this session
 
@@ -19,81 +11,22 @@ There is also a Quick Guide which lists the steps very briefly and this is meant
 3. Create indicators in the maintenance app
 4. Create indicator groups and group sets in the maintenance app
 5. Describe the relationship between indicators and analytics
-   
-## Time Requirements
 
-- Live Demo: 
-- Hands-on Exercises: 
-- Assignment: 
+## Exercise 1 - Review the different types of indicators via the analysis apps
 
-## Background
-
-
-
-## Preparations
-
-
-
-## Best Practices
-
-
-
-## Quick Guide
-
-1. Review the indicators presentation
-2. Review the different types of indicators via the analysis apps
-   1. Review the chart "EMIS - Net Enrollment in Primary, this year" in data visualizer
-   2. Review the chart "EPI - Routine coverage (%), this year
-   3. Review the chart BCG coverage (%), this year
-   4. Create a new chart using indicator groups
-      1. Chart Type: Year over year (line)
-      2. Data Type : Indicators 
-      3. Indicator group: Immunization - coverages
-         1. Review the indicator group selection
-      4. Indicator Name: OPV3 Coverage
-      5. Organisation unit: Lao
-      6. Series: This year, last 5 years
-      7. Category: Months per year
-
-STOP - Perform Exercise 1
-
-1. Show how to create indicators in maintenance
-   1. Create an indicator type
-   2. Create a new indicator
-
-STOP - Perform Exercise 2
-
-1. Create an indicator using an attribute
-   1. Search for the category option combination ID
-   2. Place the ID in your numerator
-
-STOP - Perform Exercise 3
-
-1. Review the process of creating indicator groups
-2. Explain connection of indicators to analytics and use the created indicators and indicator groups in visualizer
-
-STOP - Perform Exercise 4
-
-
-## Live Demo step by step
-
-### Review the indicators presentation
-
-### Review the different types of indicators via the analysis apps
-
-#### Review the chart "EMIS - Net Enrollment in Primary, this year" in data visualizer.
+### Review the chart "EMIS - Net Enrollment in Primary, this year" in data visualizer.
 
 This indicator consists of the number of total net enrollments of children aged 6-12 divided by the number of total estimated children 6-12. It is further seperated by the attribute category school term. 
 
 ![indicator1-chart](images/indicators/indicator1-chart.png)
 
-#### Review the chart "EPI - Routine coverage (%), this year"
+### Review the chart "EPI - Routine coverage (%), this year"
 
 This chart shows us coverage rates, but applies the principles of annualisation. Numerators for the indicators on display are taken from data entered in DHIS2 on a monthly basis, however the denominators are yearly population estimates. In this scenario, the numerator is being multipled by a factor of 12 such that the annualised output can be displayed month-to-month. 
 
 ![indicator2-chart](images/indicators/indicator2-chart.png)
 
-#### Review the chart BCG coverage (%), this year
+### Review the chart BCG coverage (%), this year
 
 This is annualised as we have discussed, but the numerator for this indicator is actually using the attribute category for results directly in its formula.
 
@@ -103,7 +36,7 @@ Remember, the immunization data is divided into targets and results (you can rev
 
 ![imm-dataset](images/indicators/imm-dataset.png)
 
-#### Create a new chart using indicator groups
+### Create a new chart using indicator groups
 
 We have already used indicator groups before to make an output using indicators. It is very useful to have this on hand so we can filter our indicators when we are searching for items. After we make our indicators, it is good practice that we place them in groups so we can find them more easily.
 
@@ -132,9 +65,7 @@ It is a lot easier selecting our items from such lists then navigating all data 
 
 ![chart3](images/indicators/chart3.png)
 
-#### STOP - Perform Exercise 1
-
-### Show how to create indicators in maintenance
+## Exercise 2 - Create indicators in maintenance
 
 Navigate to Maintenance -> Indicators
 
@@ -150,7 +81,7 @@ In this example, let us create an indicator for Net enrolment in primary. The fo
 
 ![sectionb-termly](images/indicators/sectionb-termly.png)
 
-#### Create an indicator type
+### Review indicator type creation
 
 In order to create this indicator, we will need to make sure the factor of 100 is already there. If we navigate to factor, we will see that it is already there so we do not need to create (it is labelled as percentage with a factor of 100).
 
@@ -158,7 +89,7 @@ If we needed to create an indicator type, the process is very simple. Select the
 
 ![indicator-type-creation]
 
-#### Create a new indicator
+### Create a new indicator
 
 Now that we checked (or created) our indicator type, it is time to create our indicator. Navigate to indicator in the maintenance app. This indicator (Net enrolment in primary) is already available but we are going to create it for the sake of demonstration. 
 
@@ -186,11 +117,9 @@ Then the denominator
 
 Search for District population, you want children aged 6-12 years. 
 
-With this information selected, save the indicator. Note to the participants that you won't be able to use the indicator until the analytics process is run.
+With this information selected, save the indicator. Note that you won't be able to use the indicator until the analytics process is run.
 
-#### STOP - Perform Exercise 2
-
-### Create an indicator using an attribute
+## Exercise 3 - Create an indicator using an attribute
 
 Next, let us create the indicator for BCG Coverage <1 (%). This indicator has a couple unique propoerties
 
@@ -231,7 +160,7 @@ The immunization data set is seperated into results and targets. If we take the 
 
 We can add this into our formula but it is a bit of a hidden feature. We need to find the id of the attribute category option combination, then we can add it into our indicator. 
 
-#### Search for the category option combination ID
+### Search for the category option combination ID
 
 ***In a new tab (do not close the indicator tab)*** navigate to Maintenance -> Category option combination, and search for results, select the action button and show details
 
@@ -259,9 +188,7 @@ Search for live births and add this to your denominator.
 
 With this information selected, save the indicator. Note to the participants that you won't be able to use the indicator until the analytics process is run.
 
-#### STOP - Perform Exercise 3
-
-### Review the process of creating indicator groups
+## Exercise 4 - Review the process of creating indicator groups
 
 Navigate to Maintenance -> Indicator -> Indicator group
 
@@ -272,10 +199,6 @@ Navigate to Maintenance -> Indicator -> Indicator group
 
 Now that the indicator group has been created, users can now easily retrieve a list of assigned indicators to the above group just by selecting the group rather than going through the entire list of indicators to look for the specific indicators.
 
-### Explain connection of indicators to analytics and use the created indicators and indicator groups in visualizer
-
-In the background, off screen, run analytics. 
+### Wait for the instructor to run analytics
 
 Then you can go to data visualizer or maps and test the indicators you have created.
-
-#### STOP - Perform Exercise 4
