@@ -99,6 +99,12 @@ Before updating the map modify these inputs
 **Org units**
 - The Gambia
 
+**Org units**
+- The Gambia Districts
+
+**Filter**
+- School Term = Term 1
+
 We can see in this case, while data element groups helps, and is even necessary in the maps map, there is some room for improvement that would help us refine our search parameters.
 
 #### STOP - Perform Exercise 1

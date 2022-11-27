@@ -56,9 +56,14 @@ Before updating the map modify these inputs
 - This year
 
 **Org units**
-- The Gambia
+- The Gambia Districts
+
+**Filter**
+- School Term = Term 1
 
 We can see in this case, while data element groups helps, and is even necessary in the maps map, there is some room for improvement that would help us refine our search parameters.
+
+## Exercise 2
 
 ## Manage DE Groups and DE Group Sets in Maintenance
 
