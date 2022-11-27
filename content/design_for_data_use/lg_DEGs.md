@@ -14,7 +14,7 @@ This guide contains all exercises and detailed steps to perform them related to 
 
 ## Exercise 1
 
-***Perform this exercise in the demonstration system.***
+***Perform this exercise in the DEMONSTRATION system.***
 
 Create a thematic map in the maps app.
 
@@ -62,7 +62,7 @@ We can see in this case, while data element groups helps, and is even necessary 
 
 ## Manage DE Groups and DE Group Sets in Maintenance
 
-***Perform this exercise in the customization system***
+***Perform this exercise in the CUSTOMIZATION system***
 
 Let us create a data element group for learner enrolment. 
 

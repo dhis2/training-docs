@@ -15,6 +15,8 @@
 
 ### Exercise 1 - Review how categories can be used to visualize data
 
+***Perform this exercise in the DEMONSTRATION system***
+
 Open the chart "HIV - HIV cascade by sex - last 12 months" from the HIV national dashboard.
 
 ![HIV-cascade](images/categories/chart1-dashboard.png)
@@ -77,6 +79,8 @@ You will see the disaggregations (categories) have now been applied.
 
 ## Exercise 2 - Review how to manage category options in maintenance
 
+***Perform this exercise in the CUSTOMIZATION system***
+
 In our example, let us create the category options that we had used to disaggregate our HIV data. In this example, we had:
 
 - Sex (male, female)
@@ -105,6 +109,8 @@ You can discuss the fields as you fill them in. Save the category option when yo
 Repeat this process to create the category options for female, 0-15 and 15+. 
 
 ## Exercise 3 - Review how to manage categories in maintenance
+
+***Perform this exercise in the CUSTOMIZATION system***
 
 We want to create two categories:
 
@@ -135,7 +141,9 @@ Also, explain that the data dimension tick box allows the category to show up on
 
 Repeat this process to create the category for Age (0-14/15+). Ensure you use the category options that you made with your initials to create this new category.
 
-## Exercise 4 - Show how to manage category combinations in maintenance
+## Exercise 4 - Review how to manage category combinations in maintenance
+
+***Perform this exercise in the CUSTOMIZATION system***
 
 We want to create one category combination
 
@@ -162,6 +170,8 @@ Use your initals as a prefix and create the category combination for for Age (0-
 You can discuss the fields as you fill them in. In particular, make sure to review the data dimension type. Leave it as disaggregation but we will come back to attributes in a later session.
 
 ## Exercise 5 - Check the category option combinations via the API
+
+***Perform this exercise in the CUSTOMIZATION system***
 
 We have succesfully created our category combination. It is now time to check if the category option combinations have been created. Based on what we made, we should have a total of 4 category option combinations
 

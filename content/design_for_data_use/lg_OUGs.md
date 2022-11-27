@@ -18,7 +18,7 @@ This guide contains all exercises and detailed steps to perform them related to 
 
 ## Exercise 1 - Review how organisation unit groups and group sets can be used to visualize data
 
-***Perform this exercise in the demonstration system.***
+***Perform this exercise in the DEMONSTRATION system.***
 
 #### Review and create the chart "EPI - BCG Doses Given < 1 Results, Last 12 months"
 
@@ -105,7 +105,7 @@ From these examples, we can see there is a lot of flexibility introduced by usin
 
 ## Exercise 2 - Manage OU Groups and OU Group Sets in Maintenance
 
-***Perform this exercise in the cutomization system***
+***Perform this exercise in the CUSTOMIZATION system***
 
 In order to create org unit groups and group sets in DHIS2, we can use the maintenance app. This should be a review for most participants.
 
@@ -180,7 +180,7 @@ This will give us a csv file on our own computer with the id and name of the org
 
 ## Exercise 3 - Create org unit groups via maintenance
 
-***Perform this exercise in the customization system***
+***Perform this exercise in the CUSTOMIZATION system***
 
 Before we create the CSV file for import, lets create our org unit group. We are going to do this because, while we can import the org unit group seperately, it is a bit easier to have created the org unit group already before importing org units to it. Sometimes, a combination of using the maintenace app plus advanced operations can be helpful, as is the case here. 
 
@@ -226,7 +226,7 @@ Make sure you save the file as a csv using the UTF-8 format.
 
 ## Exercise 4 - Import the org unit groups into DHIS2 via the Import/Export app
 
-***Perform this exercise in the customization system***
+***Perform this exercise in the CUSTOMIZATION system***
 
 We can now import this file into DHIS2. Navigate to the import-export app then select metadata import from the side menu
 
@@ -250,7 +250,7 @@ Navigate to your org unit group set in maintenance and open it up. You should se
 
 ## Exercise 5 - Create the OU group sets via maintenance
 
-***Perform this exercise in the customization system***
+***Perform this exercise in the CUSTOMIZATION system***
 
 To finalize this process, you would normally have to create at least one more org unit group; however the steps you follow are the same as what we have shown now. Instead, we will use the org unit group you just made plus existing groups in order to create an ***org unit group set***. Within the group set, exclusivity is a key principle. This means an org unit should not belong to more then one org unit group within an org unit group set. Also, each of the org units in the entire system should be within one of the org unit groups belonging to the group set as well. This is so when we perform analysis with these org unit groups and group sets, we are not excluding org units from our totals.
 

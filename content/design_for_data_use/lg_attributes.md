@@ -11,7 +11,11 @@ This guide contains all exercises and detailed steps to perform them related to 
 3. Configure attribute options, attribute categories, attribute category combos in maintenance
 4. Verify the creation of attribute category option combos via the API
 
-## Exercsise 1 - Review a dataset in data entry that uses the attribute model
+## Exercise 1 - Use attributes to create visualizations
+
+***Perform this exercise in the DEMONSTRATION system***
+
+### Review a dataset in data entry that uses the attribute model
 
 There are two datasets one can view : Immunization and the Primary termly tool. Immunization is located at the facility level in the Lao hierarchy, while the termly tool is located at the school level in the Gambia hierarchy. 
 
@@ -21,7 +25,7 @@ There are two datasets one can view : Immunization and the Primary termly tool. 
 
 Select either one (or both) to review in data entry focusing on the use of attribute categories to disaggregate the data set.
 
-## Review how attribute categories can be used to visualize data
+### Review how attribute categories can be used to visualize data
 
 Open the chart "Enrolment by term this and last 3 years" from the EMIS - Primary school dashboard
 
@@ -91,6 +95,8 @@ You will see the disaggregations (categories) have now been applied.
 
 ## Exercise 2 - Review how to manage category options in maintenance
 
+***Perform this exercise in the CUSTOMIZATION system***
+
 In our example, let us create the category options that we had used to disaggregate our Immuniuzation data set. This consists only of Targets and Results. 
 
 Navigate to maintenance -> Category -> Category Option
@@ -116,6 +122,8 @@ Repeat this process to create the category options for Targets.
 So far, nothing is actually different then when we create disaggregate category options.
 
 ## Exercise 3 - Review how to manage categories in maintenance
+
+***Perform this exercise in the CUSTOMIZATION system***
 
 We want to create one category
 
@@ -147,6 +155,8 @@ Ensure you use the category options that you made with your initials to create t
 
 ## Exercise 4 - Review how to manage attribute category combinations in maintenance
 
+***Perform this exercise in the CUSTOMIZATION system***
+
 We want to create one attribute category combination
 
 - Targets/Results
@@ -170,6 +180,8 @@ Use your initals as a prefix and create the category combination for for Targets
 You can discuss the fields as you fill them in. In particular, make sure to review the data dimension type. We will use attribute once again. Interestingly, when you select attribute as the data dimension type, you will only be able to select from attribute categories to create your attribute category combination.
 
 ## Exercise 5 - Check the category option combinations via the API
+
+***Perform this exercise in the CUSTOMIZATION system***
 
 We have succesfully created our category combination. It is now time to check if the category option combinations have been created. Based on what we made, we should have a total of 4 category option combinations
 
@@ -204,6 +216,8 @@ Now that you have verified it has been created correctly, you can use the attrib
 > Note : the process to check if this has been generated correctly is the EXACT SAME as what was done for disaggregate category option combinations. This is because the underlying data model is also identical. The only difference is the classification (attribute) and that is now used to disaggregate a data set instead of a data element. 
 
 ### Exercise 6 - Review where you apply these attribute category combos when creating a dataset
+
+***Perform this exercise in the CUSTOMIZATION system***
 
 Navigate to Maintenance -> Data Set and list the data sets. Search for either the EMIS primary termly tool or the immunization data set. 
 

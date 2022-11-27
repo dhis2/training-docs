@@ -2,15 +2,7 @@
 
 ## What is this guide?
 
-This guide is a support document for DHIS2 Academy trainers for the session "Legends" This session follows the standard Academy training approach with 
-
-1. a live demo session where the trainer demonstrate and explain the features, and 
-   
-2. a hands-­on session with exercises where participants get to practice the same features.
-
-This guide will help the trainer​ prepare​​ for the live demo session. The “Live Demo step by step” section has a detailed walkthrough of all the steps to demonstrate with explanations and screenshots that should be easy to follow. Use that when preparing for the live demo session.
-
-There is also a Quick Guide which lists the steps very briefly and this is meant as a lookup guide or “cheatsheet” WHILE doing the demo, to help the trainer remember all the steps and the flow of the demo.
+This guide contains all exercises and detailed steps to perform them related to the review of ***legends*** for the Design for Data Use Level 1 academy. Please perform each of the exercises when prompted to by your instructors. 
 
 ## Learning objectives for this session
 
@@ -25,67 +17,9 @@ There is also a Quick Guide which lists the steps very briefly and this is meant
 - Hands-on Exercises: 
 - Assignment: 
 
-## Background
+## Exercise 1 - Review how to use legends in data visualizer
 
-
-## Preparations
-
-
-
-## Best Practices
-
-
-## Quick Guide
-
-1. Review the legends presentation
-2. Show how to use legends in data visualizer
-   1. Open the chart HIV - Test positivity and PLHIV virologically suppressed
-      1. Review the legend options
-      2. Apply a single legend to the entire visualization
-   2. Convert the chart to a pivot table
-      1. Review the legend options for the table
-      2. Discuss the difference between using legends for background vs. text colour
-      3. Discuss when certain legend options may not be suitable (ie. very light colours for the text colour)
-   3. Review which visualizations can not use legends
-
-STOP - Perform Exercise 1
-
-1. Show how to use legends in maps
-   1. From the EMIS - Primary school dashboard, open the map "Gross Enrolment in LBS, this year"
-   2. Discuss the legend
-   3. Edit the thematic layer and go to the style panel
-   4. Discuss the legend options available in this panel
-   5. Apply an automatic colour schme to the map
-   6. Discuss the limitations of the automatcially generated legend compared to a purpose-built legend
-   7. Reset the map and compare this with the map using the automatically generated legend
-
-STOP - Perform Exercise 2
-
-1. Show how to create legends
-2. Create the legend for gross enrollment. As you are creating the legend, make sure to discuss that legend values must be overlapping along with how DHIS2 treats the start and end values when classifying data
-   1. 0-40 (color : red #FA0000)
-   2. 40-80 (color : yellow or #FAC027)
-   3. 80-120 (color : green or #058304)
-   4. 120-1000 (color : gray or #D1CBC1)
-3. Review how to add a legend to a data element or indicator in maintenance
-4. Use the legend to produce a chart or map
-- Visualization : Bar Chart/pivot table/thematic map
-- Data Type : Indicator
-- Indicator group : EMIS - Enrolment
-- Indicator : EMIS - Enrolment in primary
-- Period : This Year
-- Org unit : The Gambia Districts
-- Legend : Predefined legend - yourinitials_Gross Enrolment
-
-STOP - Perform Exercise 3
-
-## Live Demo step by step
-
-### Review the presentation on legends
-
-![Link]
-
-### Show how to use legends in data visualizer
+***Perform this exercise in the DEMONSTRATION system***
 
 Navigate to data visualizer and open the chart "HIV - Test positivity and PLHIV virologically suppressed"
 
@@ -171,9 +105,9 @@ Your best option to modify the colouring of these items is to use the color set 
 
 ![color-set](images/legends/color-set.png)
 
-#### STOP - Perform Exercise 1
+## Exercise 2 - Review to to use legends in maps
 
-### Show to to use legends in maps
+***Perform this exercise in the DEMONSTRATION system***
 
 From the EMIS - Primary school dashboard, open the map "Gross Enrolment in LBS, this year"
 
@@ -195,6 +129,7 @@ In this case, we can define the number of legend classifications (classes) that 
 
 ![color-select](images/legends/color-select.png)
 
+
 Select a color scheme and update the map to see the effect this has on the map display.
 
 ![map1-updated](images/legends/map1-updated.png)
@@ -205,9 +140,9 @@ You could update the legend again to review the original map and compare this wi
 
 ![map1-updated2](images/legends/map1-updated2.png)
 
-#### STOP - Perform Exercise 2
+## Exercise 3 - Review how to create legends
 
-### Show how to create legends
+***Perform this exercise in the CUSTOMIZATION system***
 
 In order to create a legend navigate to maintenance - > other -> legend
 
@@ -288,9 +223,9 @@ Once you have finished it should like like this
 
 Select save to save your legend.
 
-#### Show how to have pre-defined legends associated with data elements and indicators
+#### Review how to have pre-defined legends associated with data elements and indicators
 
-Now that we have created a legend, we are able to associate it with data elements and indicators as well as using it analysis. Navigate to maintenance -> indicator and find the indicator "EMIS - Gross Enrolment in primary." If you open it up you will see a legends box where you can add your legend to the indicator. If you do this, the indicator will maintain an association with that legend and automatically be used in analysis when legends are enabled unless other options are selected for it. This process is identical for both data elements and indicators.
+Now that we have created a legend, we are able to associate it with data elements and indicators as well as using it analysis. Navigate to maintenance -> indicator and find the indicator "EMIS - Gross Enrolment in primary." If you open it up you will see a legends box where you can add your legend to the indicator. In this case, a legend is already associated with the indicator so no need to add another one. If you do this, the indicator will maintain an association with that legend and that legend will automatically be used in analysis when legends are enabled unless other options are selected for it. This process is identical for both data elements and indicators.
 
 ![indicator-legend](images/legends/indicator-legend.png)
 
@@ -305,6 +240,4 @@ You should now be able to apply this legend in maps or visualizer. Select the ap
 - Period : This Year
 - Org unit : The Gambia Districts
 - Legend : Predefined legend - yourinitials_Gross Enrolment
-
-#### STOP - Perform Exercise 3
 

@@ -1,16 +1,8 @@
-# Trainer’s Guide to Dashboards
+# Learner's Guide to Dashboards
 
 ## What is this guide?
 
-This guide is a support document for DHIS2 Academy trainers for the session "Dashboards" This session follows the standard Academy training approach with 
-
-1. a live demo session where the trainer demonstrate and explain the features, and 
-   
-2. a hands-­on session with exercises where participants get to practice the same features.
-
-This guide will help the trainer​ prepare​​ for the live demo session. The “Live Demo step by step” section has a detailed walkthrough of all the steps to demonstrate with explanations and screenshots that should be easy to follow. Use that when preparing for the live demo session.
-
-There is also a Quick Guide which lists the steps very briefly and this is meant as a lookup guide or “cheatsheet” WHILE doing the demo, to help the trainer remember all the steps and the flow of the demo.
+This guide contains all exercises and detailed steps to perform them related to the review of ***dashboards*** for the Design for Data Use Level 1 academy. Please perform each of the exercises when prompted to by your instructors
 
 ## Learning objectives for this session
 
@@ -20,59 +12,11 @@ There is also a Quick Guide which lists the steps very briefly and this is meant
 4. Describe the concept of user org units as it applies to saved items in more detail
 5. Describe how to share dashboards, with an emphasis on how user org units can supplement sharing
 
-   
-## Time Requirements
+## Exercise 1 - Using Dashboards
 
-- Live Demo: 
-- Hands-on Exercises: 
-- Assignment: 
+### Review the dashboard interface
 
-## Background
-
-
-
-## Preparations
-
-
-
-## Best Practices
-
-
-
-## Quick Guide
-
-1. Using Dashboards
-   1. Explain the dashboard interface using the HIV national dashboard
-      1. Review the dashboard selection
-      2. Apply an org unit filter
-      3. Apply a period filter
-      4. Review describptions and interpretations using the dashboard item HIV - HIV Cascade
-      5. Review how dashboards can be interacted with
-      6. Show the print feature
-      7. Review how dashboards can be accessed via a mobile device
-      8. Show how you can use dashboards offline
-
-STOP - Perform Exercise 1
-
-1. Create a new dashboard
-2. Review all of the features that are available when creating a new dashboard (layout, description, adding items, etc.)
-3. Add some of the EMIS items to the dashboard
-4. Discuss the filter settings
-
-STOP - Perform Exercise 2
-
-1. Discuss how dashboards can be re-used across many users via relative org units and sharing using the Malaria Burden Reduction dashboard
-2. Login as the malaria user (malaria/District1#) in order to review the effect of the relative org units and sharing this has on the user's dashboards
-
-STOP - Perform Exercise 3
-
-## Live Demo step by step
-
-### Using Dashboards
-
-#### Explain the dashboard interface
-
-We can use the “HIV national” dashboard to explain the dashboard interface.
+We can use the “HIV national” dashboard to review the dashboard interface.
 
 ![hiv-national](images/dashboards/hiv-national.png)
 
@@ -88,7 +32,7 @@ You can use the search bar to find particular dashboards. You can also expand th
 
 ![dashboard-search-bar](images/dashboards/dashboard-search-bar.png)
 
-#### Use the filter
+### Use the filter
 
 Within the dashboard interface, we can decide which level of data we are seeing by using the filter. In the HIV National Dashboard, at the moment, all of the outputs are displaying data for for Lao. Select “Add filter” and “Organisation Unit” to apply an org unit filter. Select a province within the org unit filter and update the dashboard.
 
@@ -108,7 +52,7 @@ This will update all of the items on the dashboard to include data from the opti
 
 You can remove these filters by clicking on the “Remove” text next to the filter on the top of the dashboard.
 
-#### Discuss how descriptions and interpretations are added to the dashboard
+### Review how descriptions and interpretations are added to the dashboard
 
 Select the chart HIV - HIV Cascade from the HIV National dashboard. When we save an item, we are asked for a description. This description appears in the panel within each app and can also appear within the dashboard item. It is recommended that all outputs have a description attached to them. 
 
@@ -122,7 +66,7 @@ You can also add interpretations directly on the dashboard. When making these in
 
 ![tagging](images/dashboards/tagging.png)
 
-#### Review the interactivity of dashboard items
+### Review the interactivity of dashboard items
 
 Dashboard items are meant to be interactive. This is true of charts, maps, and tables. De-select the male disaggregation on the chart HIV - HIV cascade by sex - last 12 months chart. This will cause those items to disappear. You can add it back in before proceeding. Hovering over items in the chart will also show a small description of the chart item.
 
@@ -146,7 +90,7 @@ Dashboard items also allow for you to change between different output types. Vie
 
 ![modified-to-table](images/dashboards/modified-to-table.png)
 
-#### Printing Dashboards
+### Printing Dashboards
 
 From version 2.35 onwards DHIS2 supports printing of dashboards. 
 To perform this click on the ‘More’ button at the top of the dashboard next to the ‘Add filter’ button. 
@@ -173,13 +117,13 @@ In the next window, select the printer you want as the ‘Destination’ and cli
 
 ![print-settings](images/dashboards/print-settings.png)
 
-#### Accessing Dashboards from a Mobile Device
+### Accessing Dashboards from a Mobile Device
 
 From 2.36, dashboards can be accessed via a mobile device without any additional customization requirements. You can just log in via your mobile device using a mobile browser and the dashboard will adjust its layout to fit the items accordingly. Both portrait and landscape orientations are supported. 
 
 ![mobile-dashboards](images/dashboards/mobile-dashboards.jpg)
 
-#### Making dashboards available offline
+### Making dashboards available offline
 
 Dashboard can be made available to work offline. They will be stored in cache. As long as the person does not log out of DHIS2 while online/offline, they will be able to access the offline dashboard. 
 
@@ -197,24 +141,19 @@ If you no longer want the dashboard stored offline, you can turn this off via th
 
 ![remove-from-offline](images/dashboards/remove-from-offline.png)
 
-#### STOP - Perform Exercise 1
+## Exercise 2 - Creating Dashboards
 
-### Creating Dashboards
+Review slide 6-8 in the dashboards presentation as it will discuss the steps assoicated with creating a dashboard.
 
-Review slide 6-8 in the presentation:
-https://docs.google.com/presentation/d/1Fbg5utWr4SkUovy9aliPKdzDvvHAzRtCbxN6MyFo2eM/edit?usp=sharing
-
-This will discuss adding new items to the dashboard.
-
-#### Create a new dashboard
+### Create a new dashboard
 
 To add a new dashboard, click on the “+” sign at the top of the dashboard page.
 
-Outline the steps required in order to add the item to the dashboard. You can use some of existing examples from the termly tool (EMIS) or health use cases.
+Add some dashboard items from the termly tool by searching for items with the prefix EMIS
 
 ![db-layout](images/dashboards/db-layout.png)
 
-#### Discuss the filter settings
+### Review the filter settings
 
 Note that there are now some additional options for managing the dashboard filter settings. As an example, you may want to remove the category filters or only include the category filters relevant for the dashboard items you have added. Do this by accessing “Filter settings” when creating or editing a dashboard.
 
@@ -231,11 +170,9 @@ These changes get applied to the “Add filter” button after you have saved th
 When you are done, select “Save changes” to save the dashboard
 ![save-changes](images/dashboards/save-changes.png)
 
-#### STOP - Perform Exercise 2
+## Exercise 3 - Re-Using Dashboards Across Many Users
 
-### Re-Using Dashboards Across Many Users
-
-#### Review user org units
+### Review user org units
 
 We can now review user organisation units and sharing.
 
@@ -251,7 +188,7 @@ Review the organisation unit selection. In the example of the chart, the selecti
 
 If you go back to the dashboard you can see this in the various outputs that are present; note that user organisation units have been selected for all of these outputs. You may want to discuss a couple of examples to reinforce this point.
 
-#### Discuss sharing
+### Discuss sharing
 
 Review slide 9 in the presentation:
 https://docs.google.com/presentation/d/1Fbg5utWr4SkUovy9aliPKdzDvvHAzRtCbxN6MyFo2eM/edit?usp=sharing
@@ -279,7 +216,7 @@ Another import aspect of this is to ensure the items on the dashboard itself hav
 
 By combining the concept of sharing with user org units, we can have one dashboard that can be re-used many times. As an example, we do not need to make outputs for every district; we can instead use the user org units  feature combined with sharing to make one set of outputs that different different users can access to see their own data. We can review this concept in more detail. Clear your cache or open a new incognito window to log in as a different user.
 
-#### Login as the malaria user
+### Login as the malaria user
 
 Username : malaria
 
@@ -292,6 +229,3 @@ You will see it is displaying the country name of Lao in all of the visualizatio
 ![mal-user](images/dashboards/mal-user.png)
 
 This is due to the use of relative org units. You will also notice they only see the malaria dashboards; this is a result of sharing these dashboards and having this user being apart of the malaria access user group. You will see they can view the dashboards, but they can not edit them.
-
-
-#### STOP - Perform Exercise 3

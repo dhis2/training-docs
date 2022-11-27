@@ -14,6 +14,8 @@ This guide contains all exercises and detailed steps to perform them related to 
 
 ## Exercise 1 - Review the different types of indicators via the analysis apps
 
+***Perform this exercise in the DEMONSTRATION system***
+
 ### Review the chart "EMIS - Net Enrollment in Primary, this year" in data visualizer.
 
 This indicator consists of the number of total net enrollments of children aged 6-12 divided by the number of total estimated children 6-12. It is further seperated by the attribute category school term. 
@@ -66,6 +68,8 @@ It is a lot easier selecting our items from such lists then navigating all data 
 ![chart3](images/indicators/chart3.png)
 
 ## Exercise 2 - Create indicators in maintenance
+
+***Perform this exercise in the CUSTOMIZATION system***
 
 Navigate to Maintenance -> Indicators
 
@@ -120,6 +124,8 @@ Search for District population, you want children aged 6-12 years.
 With this information selected, save the indicator. Note that you won't be able to use the indicator until the analytics process is run.
 
 ## Exercise 3 - Create an indicator using an attribute
+
+***Perform this exercise in the CUSTOMIZATION system***
 
 Next, let us create the indicator for BCG Coverage <1 (%). This indicator has a couple unique propoerties
 
@@ -189,6 +195,8 @@ Search for live births and add this to your denominator.
 With this information selected, save the indicator. Note to the participants that you won't be able to use the indicator until the analytics process is run.
 
 ## Exercise 4 - Review the process of creating indicator groups
+
+***Perform this exercise in the CUSTOMIZATION system***
 
 Navigate to Maintenance -> Indicator -> Indicator group
 
