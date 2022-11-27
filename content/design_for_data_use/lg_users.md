@@ -1,16 +1,8 @@
-# Trainer’s Guide to User Roles
+# Learner's Guide to User Roles
 
 ## What is this guide?
 
-This guide is a support document for DHIS2 Academy trainers for the session "User Roles" This session follows the standard Academy training approach with 
-
-1. a live demo session where the trainer demonstrate and explain the features, and 
-   
-2. a hands-­on session with exercises where participants get to practice the same features.
-
-This guide will help the trainer​ prepare​​ for the live demo session. The “Live Demo step by step” section has a detailed walkthrough of all the steps to demonstrate with explanations and screenshots that should be easy to follow. Use that when preparing for the live demo session.
-
-There is also a Quick Guide which lists the steps very briefly and this is meant as a lookup guide or “cheatsheet” WHILE doing the demo, to help the trainer remember all the steps and the flow of the demo.
+This guide contains all exercises and detailed steps to perform them related to the review of ***user roles*** for the Design for Data Use Level 1 academy. Please perform each of the exercises when prompted to by your instructors.
 
 ## Learning objectives for this session
 
@@ -18,49 +10,7 @@ There is also a Quick Guide which lists the steps very briefly and this is meant
 2. Configure these concepts in DHIS2
 3. Create a user in DHIS2
 
-
-## Time Requirements
-
-- Live Demo: 
-- Hands-on Exercises: 
-- Assignment: 
-
-## Background
-
-
-## Preparations
-
-
-
-## Best Practices
-
-Before starting the demonstration, please keep in mind that the most important thing is that the audience is following, so make sure to ask questions to the audience to verify that they are following. If something is unclear, go back and go through it slowly. If you don’t have time for all the steps, it is better to cut some steps, than to go fast while nobody understands.
-
-In an online setting, you will be breaking regularly to allow them to perform various ungraded exercises in order to keep them engaged.
-
-In an in-person setting, the participants may be doing the demo with you at the same time. In this scenario, it is ideal if there are other trainer's moving around the room to support participant's as it will be difficult for the trainer leading the session to answer many individual questions during the demonstrations. 
-
-## Quick Guide
-
-1. Review the user role aggregate data entry, explain each of the sections within the user-interface when creating or editing a user role
-2. Review the specific authorities for the aggregate data capture role
-3. Discuss the aggregate authorities in more detail
-4. Log in to a user with the aggregate data capture role in the aggregate customization instance
-Username : 
-Password : District1#
-
-STOP - Perform Exercise 1
-
-5. Create a new user and assign it to the aggregate data capture user role. Test the user
-
-STOP - Perform Exercise 2
-
-6. Create a new user role - aggregate data analysis
-7. Assign this user role to the user you have previously made and test the user
-
-STOP - Perform Exercise 3
-
-## Live Demo step by step
+## Exercise 1 - Review user roles and authorities
 
 ### Review the user roles management page
 
@@ -94,7 +44,7 @@ Select the data entry role in order to review it. You will see the user role man
 
 > **Note**: at the moment there is no comprehensive list of what each of the user authorities available here allows the user to do. While some are straightforward, many are not. As a result it can be slightly confusing to determine which authorities to assign a user role. We will try to provide some examples of template user roles that can be used for common aggregate operations. When you are unsure about how to define a user role, the community of practice will be a better resource until the documentation is updated.
 
-#### Review the authorities assigned to the data entry user role
+### Review the authorities assigned to the data entry user role
 
 We can review the authorities assigned to this user role by ticking "Selected authorities only"
 
@@ -123,7 +73,7 @@ There are only assigned 4 apps as part of this role. This means, if they only ha
 
 A combination of these authorities from metadata, along with authorities from the apps category, is usually what will be needed for the majority of user roles that are assigned to end-users in the system not responsible for any type of system maintenance. 
 
-#### Log in to the user with this role
+### Log in to the user with this role
 
 In the DDU demo instance, log into the user that has this role assigned to them. Note that there are other components that make up this user role as we have discussed, including user groups, sharing and organisation units; but we will focus on the implications of the user role for now.
 
@@ -139,7 +89,7 @@ Next, go to data entry. We can see they are only assigned one province in the hi
 
 The user is fairly limited, with the ability to access data entry and add data for the malaria program as well as view the malaria dashboards. The user role gives access to these apps; but not necessarily the malaria program datasets. We will cover this more in the sharing session.
 
-#### STOP - Perform Exercise 1
+## Exercise 2 - Create a new user
 
 ### Create a new user and assign it to the aggregate data capture user role
 
@@ -197,13 +147,13 @@ Under the search orgunit assignment, you will see the option “Maximum organisa
 
 ![ou-outpu](images/users/ou-output.png)
 
-Next, we see available user groups. Just add this user to the malaria data capture and GEN access user groups for now. We will review user groups in more detail later on.
+Next, we see available user groups. Add this user to the malaria data capture and GEN access user groups for now. We will review user groups in more detail later on.
 
 Lastly, we have Analytics dimension restrictions. We will not cover this in this academy.
 
 Save this user when you are done. Using the details you made, you can also log in as the user and test the functionality to ensure they have the correct access.
 
-#### STOP - Perform Exercise 2
+## Exercise 3 - Create a new user role
 
 ### Create a new user role - Aggregate data analysis
 
@@ -245,7 +195,7 @@ We do not need any authorities from tracker, import-export or system. This will 
 
 We can now save this user role.
 
-#### Assign this user role to the user you previously created
+### Assign this user role to the user you previously created
 
 Open the user you previously created and assigned the "data entry” user role to. Do not change any parameters, just assign them the tracker data analysis user role you just made.
 
@@ -253,7 +203,7 @@ Open the user you previously created and assigned the "data entry” user role t
 
 Save this change to the user.
 
-#### Login with the user you edited
+### Login with the user you edited
 
 You may want to clear your cache or try with incognito mode before logging in with this user.
 
@@ -263,10 +213,8 @@ After logging in, access the apps menu.
 
 We can already see an immediate difference here in the apps they can access.
 
-You can open a visualization from the dashboard to show they have this acces
+You can open a visualization from the dashboard to show they have this access
 
 ![open-in-viz](images/users/open-in-viz.png)
 
 The user we are logged in with has two roles, and these roles give them distinct permissions. By creating roles this way, rather than creating a role for a user type, more flexibility is granted. For example, we could have a number of users that just have access to data analysis, but can not enter any data for. Same for data entry; or we can combine existing roles like we have done here.
-
-#### STOP - Perform Exercise 3

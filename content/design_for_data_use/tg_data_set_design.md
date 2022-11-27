@@ -147,17 +147,30 @@ Having school as one option in the TT place category simplifies the model and th
 
 We treat these two tables as one, and will explain why. These two tables are a bit confusing and not the best design. The most important data coming out of these tables are the pregnancy complications and the maternal deaths. These data elements contain further detail on the cause of the complication or death (the first column in both tables), as well as a place of death (in PHU or community), and an outcome of the complication (when its not a death) that can be either "Managed at PHU" or " Referred". 
 
-We decided to create two data elements for these two tables; "Pregnancy complications", and "Maternal Deaths", and two category combinations, one for each of the data elements. For the Pregnancy Complications data element there are two additional dimensions, the cause of the complication (the combined list of the first column in the two tables) and the outcome (managed at PHU or Referred), so these are the categories and options that make up that category combination. 
+We decided to create two data elements for these two tables; "Pregnancy complications", and "Maternal Deaths", and two category combinations, one for each of the data elements. 
 
-For the "Maternal deaths" data element the same category with the different causes are used and then another category for the place of death (in PHU or In community). This way the two data elements can share one category and it will be easy to derive the total number of pregnancy complications and maternal deaths. While the list of complications on the paper form is divided into two (early and late/labour) you can see that e.g. the malaria in 2nd and 3rd trimester are listed under early, but in fact are for a later phase of the pregnancy. There is no clear divide between early and late complications in the form, and therefore we gave up trying to make this distinction when considering the analysis outputs in the system.
+For the Pregnancy Complications data element there are two additional dimensions, the cause of the complication (the combined list of the first column in the two tables) and the outcome (managed at PHU or Referred), so these are the categories and options that make up that category combination. 
+
+For the "Maternal deaths" data element the same category with the different causes are used and then another category for the place of death (in PHU or In community). 
+
+This way the two data elements can share one category and it will be easy to derive the total number of pregnancy complications and maternal deaths. While the list of complications on the paper form is divided into two (early and late/labour) you can see that e.g. the malaria in 2nd and 3rd trimester are listed under early, but in fact are for a later phase of the pregnancy. There is no clear divide between early and late complications in the form, and therefore we gave up trying to make this distinction when considering the analysis outputs in the system.
 
 ***CONCLUSION***
 
 - Data Elements : Pregnancy complications, Maternal Deaths
+- Category Options : Malaria 1st trimester, Malaria 2nd trimester, Anaemia, Hypertension, Abortion, Early other, Pre-eclampsia, Ante-partum hemmorrhage, Obstructed labor, Post-partum sepsis, Retained placenta, Late other; Managed at PHU, Referred; PHU, Community (reused from before)
+- Categories : Complication cause; Outcome; Place of death
 
 ***Family Planning Services table***
 
 This table has 2 dimensions, the family planning method (contraceptive) and whether the client is new or continuing. We ended up with one data element only "Family planning clients" and then added two categories "FP method" with all the contraceptives as options, and another category "FP client type" with new or continuing as options. This way it will be easy to get the total number of family planning clients which is the major value to look at in data analysis, and from there you can easily get the details on method or how many new clients there are.
+
+***CONCLUSION***
+
+- Data Elements : Family planning clients
+- Category Options : Oral contraceptive, Male condoms, Female condoms, IUD, Injectables, Implants, Spermicide; New, Continuing
+- Category : Family planning method; Family planning client type
+- Category Combination : Family planning
 
 ### Demonstrate how to create a dataset in DHIS2
 
