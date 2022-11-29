@@ -45,28 +45,6 @@ In an in-person setting, the participants may be doing the demo with you at the 
 
 ## Quick Guide
 
-1. Review the user role aggregate data entry, explain each of the sections within the user-interface when creating or editing a user role
-2. Review the specific authorities for the aggregate data capture role
-3. Discuss the aggregate authorities in more detail
-4. Log in to a user with the aggregate data capture role in the aggregate customization instance
-Username : 
-Password : District1#
-
-STOP - Perform Exercise 1
-
-5. Create a new user and assign it to the aggregate data capture user role. Test the user
-
-STOP - Perform Exercise 2
-
-6. Create a new user role - aggregate data analysis
-7. Assign this user role to the user you have previously made and test the user
-
-STOP - Perform Exercise 3
-
-
-8. Review the recap slide
-9. Have them perform the assignment
-
 ## Live Demo step by step
 
 ### Review the presentation on Data Set Design Principles
