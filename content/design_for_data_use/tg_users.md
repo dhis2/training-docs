@@ -46,7 +46,7 @@ In an in-person setting, the participants may be doing the demo with you at the 
 2. Review the specific authorities for the aggregate data capture role
 3. Discuss the aggregate authorities in more detail
 4. Log in to a user with the aggregate data capture role in the aggregate customization instance
-Username : 
+Username : malaria_data_entry
 Password : District1#
 
 STOP - Perform Exercise 1
