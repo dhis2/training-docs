@@ -156,7 +156,7 @@ In order to create this indicator, we will need to make sure the factor of 100 i
 
 If we needed to create an indicator type, the process is very simple. Select the plus button to create the new indicator type then give it a name and factor. 
 
-![indicator-type-creation]
+![indicator-type-creation](images/indicators/indicator-type-creation.png)
 
 #### Create a new indicator
 
