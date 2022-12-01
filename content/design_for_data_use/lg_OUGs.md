@@ -8,7 +8,7 @@ This guide contains all exercises and detailed steps to perform them related to 
 
 1. Review the concept of organisation units
 2. Describe what organisation unit groups are
-3. Describe what organisation unit group sets are
+3. Describe what organisation unit group sets are   
 4. Use organisation unit groups in analysis apps
 5. Use organisation unit group sets in analysis apps
 6. Describe the limitations of creating organisation unit groups in maintenance

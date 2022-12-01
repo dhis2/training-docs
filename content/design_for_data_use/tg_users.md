@@ -42,7 +42,7 @@ In an in-person setting, the participants may be doing the demo with you at the 
 
 ## Quick Guide
 
-1. Review the user role aggregate data entry, explain each of the sections within the user-interface when creating or editing a user role
+1. Review the user role aggregate data entry in the user roles app, explain each of the sections within the user-interface when creating or editing a user role
 2. Review the specific authorities for the aggregate data capture role
 3. Discuss the aggregate authorities in more detail
 4. Log in to a user with the aggregate data capture role in the aggregate customization instance
@@ -51,7 +51,7 @@ Password : District1#
 
 STOP - Perform Exercise 1
 
-5. Create a new user and assign it to the aggregate data capture user role. Test the user
+5. Create a new user and assign it to the aggregate data capture user role. Ensure they are also assigned to user groups malaria data capture and GEN access. Test the user
 
 STOP - Perform Exercise 2
 
@@ -221,7 +221,7 @@ Allows a user to access aggregate data outputs via data visualizer, maps, report
 
 Let us now think through the permissions we want this role to grant.
 
-1. They should be able to access the various analysis apps (dashboard, data quality, visualizer, mapsm, reports)
+1. They should be able to access the various analysis apps (dashboard, data quality, visualizer, maps, reports)
 2. They should be able to add public reports from the analysis apps (ie. charts, maps, tables, that can be viewed by other users)
 
 In order to provide a user with these authorities, we actually only need to use 2 sections
@@ -247,7 +247,7 @@ We can now save this user role.
 
 #### Assign this user role to the user you previously created
 
-Open the user you previously created and assigned the "data entry” user role to. Do not change any parameters, just assign them the tracker data analysis user role you just made.
+Open the user you previously created and assigned the "data entry” user role to. Do not change any parameters, just assign them the data analysis user role you just made.
 
 ![user-edited](images/users/user-edited.png)
 

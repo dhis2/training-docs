@@ -275,7 +275,7 @@ Before you add users/groups to the sharing settings for the dashboard, you can a
 
 Another import aspect of this is to ensure the items on the dashboard itself have been shared with the user groups you are sharing the dashboard with. If the visualizations (maps, charts, tables) are not shared, then the user may not be able to view the items on the dashboard correctly. Luckily, we can not apply sharing to all items on the dashboard from the dashboard itself by using the "Apply sharing to dashboard visualizations" tab.
 
-[apply-sharing-to-viz](images/dashboards/apply-sharing-to-viz.png)
+![apply-sharing-to-viz](images/dashboards/apply-sharing-to-viz.png)
 
 By combining the concept of sharing with user org units, we can have one dashboard that can be re-used many times. As an example, we do not need to make outputs for every district; we can instead use the user org units  feature combined with sharing to make one set of outputs that different different users can access to see their own data. We can review this concept in more detail. Clear your cache or open a new incognito window to log in as a different user.
 
