@@ -59,14 +59,14 @@ After you run the rules, review and interpret them. This will help you to identi
 
 The first and second values are being taken from the sex section HIV tests performed and HIV tests positive categorized by gender/sex (Female and Male).
 
-![](Images/images/image4.png)
+![](Images/images/vrrules/image4.png)
 
 
 Reviewing our data, this means that one of these values must be incorrect. We may need to verify with the facility, but let us assume this has already been done and we understand the HIV tests positive were counted incorrectly. 
 
 We can update this to “40” and “98” respectively. Run the validation again. 
 
-![](Images/images/image14.png)
+![](Images/images/vrrules/image14.png)
 
 
 It should now pass as the number of HIV tests positive is now less than the HIV tests performed in this period (April 2021).
@@ -76,23 +76,23 @@ It should now pass as the number of HIV tests positive is now less than the HIV 
 
 In order to run validation rule analysis, go to the data quality app and select “Run validation”
 
-![](Images/images/image17.png)
+![](Images/images/vrrules/image17.png)
 
 Select a single month (for example, March 2021) and District and run the “HIV validation rules.” This will allow for all of the HIV validation rules to be run against all the facilities within the district for the time period you have selected. This is much more useful when trying to review many org units at once rather than selecting each org unit in data entry and running the validation rules. 
 
-![](Images/images/image15.png)
+![](Images/images/vrrules/image15.png)
 
 
 Once you have selected the inputs select “Validate”
 
-![](Images/images/image25.png)
+![](Images/images/vrrules/image25.png)
 
 
 ### Review the validation details
 
 You should see all violations during this period. Select the details button of one of the violations so you can see in more detail what the issue is. This example is Cardinal  in March 2021.
 
-![](Images/images/image21.png)
+![](Images/images/vrrules/image21.png)
 
 The validation details show all of the data elements that are part of the validation rule along with their values. In this example, the total number of HIV tests positive should be &lt;= the total HIV tests performed.
 
@@ -105,7 +105,7 @@ We can see how this view will be useful in reviewing the violations for multiple
 
 Select the following in data entry:
 
-![](Images/images/image24.png)
+![](Images/images/vrrules/image24.png)
 
 First, review the data entry page briefly. We will start by running logical rules, which are checking the correctness of the data. These rules will essentially tell us if the data should be fixed based on the output it provides. 
 
@@ -113,18 +113,18 @@ There are several places you can check if your data entry page passes the config
 
 At the top right corner:
 
-![](Images/images/image18.png)
+![](Images/images/vrrules/image18.png)
 
 
 At the bottom of the page:
 
-![](Images/images/image11.png)
+![](Images/images/vrrules/image11.png)
 
 **Note** that validation will run everytime you click on complete. The complete button, is that it contributes to two of the factors of data quality previously discussed: the completeness and timeliness of the data. When selecting the complete button, the dataset registers as being complete (data is saved automatically as it is entered, complete does not save the data). The date in which the complete button is selected is used to compare against the defined timeliness of the dataset. So if my timeliness is defined as having the data submitted within 15 days of the next month, and I click complete on March 8 for February data, the dataset will be complete for February as well as timely!
 
 After reviewing these concepts, run the validation rule(s)
 
-![](Images/images/image3.png)
+![](Images/images/vrrules/image3.png)
 
 
 ### Review the rules in data entry
@@ -133,11 +133,11 @@ After you run the rules, review them. This will help you to identify any issues 
 
 The first value is being taken from the total number of DPT doses that are administered. 
 
-![](Images/images/image13.png)
+![](Images/images/vrrules/image13.png)
 
 The second value is being taken from our stock section
 
-![](Images/images/image5.png)
+![](Images/images/vrrules/image5.png)
 
 
 Reviewing our data, this means that one of these values must be incorrect. We may need to verify with the facility, but let us assume this has already been done and we understand the received balance was counted incorrectly. 
@@ -146,16 +146,16 @@ Reviewing our data, this means that one of these values must be incorrect. We ma
 
 In order to run validation rule analysis, go to the data quality app and select “Run validation”
 
-![](Images/images/image20.png)
+![](Images/images/vrrules/image20.png)
 
 
 Select a single month (ex. January 2021) and District and run the “Immunisation validation rules.” This will allow for all of the immunisation validation rules to be run against all the facilities within the district for the time period you have selected. This is much more useful when trying to review many org units at once rather than selecting each org unit in data entry and running the validation rules. 
 
-![](Images/images/image8.png)
+![](Images/images/vrrules/image8.png)
 
 Once you have selected the inputs select “Validate”
 
-![](Images/images/image27.png)
+![](Images/images/vrrules/image27.png)
 
 
 
@@ -163,7 +163,7 @@ Once you have selected the inputs select “Validate”
 
 You should see a number of violations during this period. Select the details button of one of the violations so you can see in more detail what the issue is. This example is Cheesecake dispensary in January 2019.
 
-![](Images/images/image2.png)
+![](Images/images/vrrules/image2.png)
 
 
 The validation details show all of the data elements that are part of the validation rule along with their values. In this example, the total number of DPT doses given should be &lt;= the total used and wasted.
@@ -181,11 +181,11 @@ We can see how this view will be useful in reviewing the violations for multiple
 
 Select the following in data entry
 
-![](Images/images/image7.png)
+![](Images/images/vrrules/image7.png)
 
 Run the validation rule and review the results
 
-![](Images/images/image22.png)
+![](Images/images/vrrules/image22.png)
 
 **Note** that it runs both the logical rules, which we have already reviewed, as well as the rules that check consistency using outliers that have been generated via the predictor function in this case. These rules can run using outliers that have been imported into the system as well if required.
 
@@ -200,12 +200,12 @@ In Validation Rule Analysis, select:
 * Validation Rule Group : Immunisation thresholds
 * Ensure the send notifications option is selected
 
-![](Images/images/image16.png)
+![](Images/images/vrrules/image16.png)
 
 
 Run the rules and also _send the notifications** **_for any identified violations. Select validate to proceed.
 
-![](Images/images/image12.png)
+![](Images/images/vrrules/image12.png)
 
 As we sent the notification out, we will also receive this via the messages app and potentially e-mail as well if this has been configured. 
 
@@ -214,7 +214,7 @@ As we sent the notification out, we will also receive this via the messages app 
 
 Navigate to the messages app and review the validation violations that have been sent. You will have a small notification that there are new validation rule messages in your messages inbox (the number within the circle in this image). 
 
-![](Images/images/image1.png)
+![](Images/images/vrrules/image1.png)
 
 
 This message will be sent to multiple users. Who receives this message is dependent on the configuration. How to configure these will be covered later on. You should receive this message both in DHIS2 messaging as well as your email.
@@ -224,5 +224,5 @@ This message will be sent to multiple users. Who receives this message is depend
 
 ### Check your email to review the notification
 
-![](Images/images/image6.png)
+![](Images/images/vrrules/image6.png)
 
