@@ -56,7 +56,6 @@ The second exercise involves sending notifications. Make sure all the participan
   - [Part 1 - Create a Validation Rule](#part-1---create-a-validation-rule)
     - [Review the data entry page and decide on a logical validation rule to create](#review-the-data-entry-page-and-decide-on-a-logical-validation-rule-to-create)
     - [Create the validation rule HIV tests positive \<= HIV tests performed](#create-the-validation-rule-hiv-tests-positive--hiv-tests-performed)
-      - [](#)
       - [Open and explain the Left Side Expression](#open-and-explain-the-left-side-expression)
       - [Select the Operator](#select-the-operator)
       - [Open the Right Side Expression](#open-the-right-side-expression)
@@ -135,19 +134,15 @@ HIV tests positive should be less than or the same as HIV tests performed, if no
 
 Describe the importance and period type as it relates to the validation rule before proceeding.
 
-
-#### 
-
-
 #### Open and explain the Left Side Expression
 
 Open the left side expression and explain what you are intending to do. The rule you are creating is total HIV tests positive between male and female hence for the left side, select the (HIV tests positive Male + HIV tests positive Female)
 
 
-!![](Images/images/vrconfig/VRconfig/image11.png)
+![](Images/images/vrconfig/VRconfig/image11.png)
 
 
-**Note:**It is recommended to use the disaggregated data elements instead of the total data element as shown in the figure above e.g. HIV tests positive Male + HIV tests positive Female. This is because during validation rule analysis, when looking at the details, if the total data element was selected the details will be empty and you will not be able to drill down to identify where the problem originates from.
+     **Note:**It is recommended to use the disaggregated data elements instead of the total data element as shown in the figure above e.g. HIV tests positive Male + HIV tests positive Female. This is because during validation rule analysis, when looking at the details, if the total data element was selected the details will be empty and you will not be able to drill down to identify where the problem originates from.
 
 Select “Save” once the left side has been selected.
 
@@ -304,7 +299,10 @@ Place the validation rule you have created into the group and select “Save”
 Navigate to the Data Quality app
 
 ![](Images/images/vrconfig/VRconfig/image10.png)
+
+
 Select “Run validation”
+
 
 ![](Images/images/vrconfig/VRconfig/image2.png)
 
@@ -343,6 +341,7 @@ Navigate to the maintenance application in DHIS2.
 
 #### Select the data element tab and create a data element
 
+
 ![](Images/images/vrconfig/VRconfig/image18.png)
 
 Under the Maintenance app select Other tab
@@ -376,7 +375,7 @@ Explain the fields that will be used to describe the rule. Use your initials to 
 
 Open the left side expression and explain what you are wanting to do. You are trying to create the rule comparing the amount of DPT-HepB-Hib 2 dose with a calculated threshold. Select the data element “EPI - DPT-HepB-Hib 2 doses given” for the left side.
 
-!![](Images/images/vrconfig/VRconfig/image15.png)
+![](Images/images/vrconfig/VRconfig/image15.png)
 
 Select “Save” once the left side has been selected.
 
