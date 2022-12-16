@@ -120,9 +120,7 @@ Create a new rule by selecting the “+” icon underneath validation rule
 
 
 
-
 Explain the fields that will be used to describe the rule. Use your initials to create the rule when showing it to participants.
-
 
 
 ![](Images/images/vrconfig/VRconfig/image1.png)
