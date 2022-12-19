@@ -87,7 +87,7 @@ Thes rules can be run directly in data entry - recommended if measuring internal
 
 We can use the following HIV dataset at the **Facility** level
 
-![](Images/images/vrconfig/VRconfig/image14.png)
+![](Images/vrconfig/image14.png)
 
 
 Let’s create a rule in which HIV tests positive are less than or equal to HIV tests performed
@@ -97,19 +97,19 @@ Let’s create a rule in which HIV tests positive are less than or equal to HIV 
 
 Navigate to the maintenance application in DHIS2 and select the “Validation” tab 
 
-![](Images/images/vrconfig/VRconfig/image5.png)
-![](Images/images/vrconfig/VRconfig/image12.png)
+![](Images/vrconfig/image5.png)
+![](Images/vrconfig/image12.png)
 
 
 
 Create a new rule by selecting the “+” icon underneath validation rule
 
-![](Images/images/vrconfig/VRconfig/image4.png)
+![](Images/vrconfig/image4.png)
 
 
 Review the fields that will be used to describe the rule. Use your initials to create the rule. **[Note: this is only for practice purposes, you would not use initials in a real life scenario]**
 
-![](Images/images/vrconfig/VRconfig/image1.png)
+![](Images/vrconfig/image1.png)
 
 
 Here is the description and instruction
@@ -123,7 +123,7 @@ Describe the importance and period type as it relates to the validation rule bef
 
 Open the left side expression and explain what you are intending to do. The rule you are creating is total HIV tests positive between male and female hence for the left side, select the (HIV tests positive Male + HIV tests positive Female)
 
-![](Images/images/vrconfig/VRconfig/image11.png)
+![](Images/vrconfig/image11.png)
 
 
 **Note:**
@@ -137,7 +137,7 @@ Select “Save” once the left side has been selected.
 
 It is “Less than or equal to” in this case, hence select the Less than or equal to operator.
 
-![](Images/images/vrconfig/VRconfig/image7.png)
+![](Images/vrconfig/image7.png)
 
 #### Open the Right Side Expression
 
@@ -147,7 +147,7 @@ HIV tests performed Male + HIV tests performed Female,
 
 Create this expression, explaining what you are doing during each step of the way
 
-![](Images/images/vrconfig/VRconfig/image29.png)
+![](Images/vrconfig/image29.png)
 
 
 Click on “Save” when the expression is complete.
@@ -156,11 +156,11 @@ Click on “Save” when the expression is complete.
 
 Go to Maintenance> Validation> Validation Group
 
-![](Images/images/vrconfig/VRconfig/image16.png)
+![](Images/vrconfig/image16.png)
 
 Click the add button and fill in the details of the validation group
 
-![](Images/images/vrconfig/VRconfig/image17.png)
+![](Images/vrconfig/image17.png)
 
 
 Place the validation rule you have created into the group and select “Save”
@@ -169,11 +169,11 @@ Place the validation rule you have created into the group and select “Save”
 
 Navigate to the Data Quality app
 
-![](Images/images/vrconfig/VRconfig/image10.png)
+![](Images/vrconfig/image10.png)
 
 Select “Run validation”
 
-![](Images/images/vrconfig/VRconfig/image2.png)
+![](Images/vrconfig/image2.png)
 
 Select the following inputs:
 
@@ -181,11 +181,11 @@ Select the following inputs:
 * **Rule Group : The group you have just made**
 * **Parent Organisation unit : Animal Region**
 
-![](Images/images/vrconfig/VRconfig/image19.png)
+![](Images/vrconfig/image19.png)
 
 You should see the below violations
 
-![](Images/images/vrconfig/VRconfig/image31.png)
+![](Images/vrconfig/image31.png)
 
 Did it work for you?
 
@@ -199,7 +199,7 @@ Did it work for you?
 
 We can use the following dataset at the **Facility **level
 
-![](Images/images/vrconfig/VRconfig/image25.png)
+![](Images/vrconfig/image25.png)
 
 
 Let’s create a rule in which DPT-HepB-Hib doses given are less than or equal to Total DPT-HepB-Hib doses used and wasted.
@@ -212,17 +212,17 @@ Total used= **(Starting balance + Received)** - **(VVM + Frozen + Expired + Brok
 
 Navigate to the maintenance application in DHIS2 and select the “Validation” tab 
 
-![](Images/images/vrconfig/VRconfig/image5.png)
-![](Images/images/vrconfig/VRconfig/image12.png)
+![](Images/vrconfig/image5.png)
+![](Images/vrconfig/image12.png)
 
 Create a new rule by selecting the “+” icon underneath validation rule
 
-![](Images/images/vrconfig/VRconfig/image4.png)
+![](Images/vrconfig/image4.png)
 
 
 Review the fields that will be used to describe the rule. Use your initials to create the rule **[Note: this is only for practice purposes, you would not use initials in a real life scenario]**
 
-![](Images/images/vrconfig/VRconfig/image8.png)
+![](Images/vrconfig/image8.png)
 
 Here is the description and instruction
 
@@ -237,11 +237,11 @@ Describe the importance and period type as it relates to the validation rule bef
 
 Open the left side expression. The rule you are creating is total DPT-HepB-Hib doses given which comprises dose 1 to 3; for the left side, select the (DPT-HepB-HIB 1 doses given + DPT-HepB-HIB 2 doses given + DPT-HepB-HIB 3 doses given)
 
-![](Images/images/vrconfig/VRconfig/image30.png)
+![](Images/vrconfig/image30.png)
 
 Add a description to the left side to clearly state what does the computed items mean
 
-![](Images/images/vrconfig/VRconfig/image32.png)
+![](Images/vrconfig/image32.png)
 
 Select “Save” once the left side has been selected.
 
@@ -249,7 +249,7 @@ Select “Save” once the left side has been selected.
 
 It is “Less than or equal to” in this case, hence select the Less than or equal to operator.
 
-![](Images/images/vrconfig/VRconfig/image24.png)
+![](Images/vrconfig/image24.png)
 
 #### Open the Right Side Expression
 
@@ -259,7 +259,7 @@ DPT-HepB-HIB doses used = (DPT-HepB-HIB doses starting balance + DPT-HepB-HIB do
 
 Create this expression, with reference to the definition of **Total Used stated above**
 
-![](Images/images/vrconfig/VRconfig/image26.png)
+![](Images/vrconfig/image26.png)
 
 Click on “Save” when the expression is complete.
 
@@ -269,11 +269,11 @@ Click on “Save” when the expression is complete.
 
 Go to Maintenance> Validation> Validation Group
 
-![](Images/images/vrconfig/VRconfig/image16.png)
+![](Images/vrconfig/image16.png)
 
 Click the add button and fill in the details of the validation group
 
-![](Images/images/vrconfig/VRconfig/image33.png)
+![](Images/vrconfig/image33.png)
 
 Place the validation rule you have created into the group and select “Save”
 
@@ -281,11 +281,11 @@ Place the validation rule you have created into the group and select “Save”
 
 Navigate to the Data Quality app
 
-![](Images/images/vrconfig/VRconfig/image10.png)
+![](Images/vrconfig/image10.png)
 
 Select “Run validation”
 
-![](Images/images/vrconfig/VRconfig/image2.png)
+![](Images/vrconfig/image2.png)
 
 Select the following inputs:
 
@@ -295,7 +295,7 @@ Select the following inputs:
 
 You should see the below violations
 
-![](Images/images/vrconfig/VRconfig/image20.png)
+![](Images/vrconfig/image20.png)
 
 Did it work for you?
 
@@ -318,13 +318,13 @@ In this example, a rule will be created in which we compare an entered value to 
 
 Use your initials to create the rule.
 
-![](Images/images/vrconfig/VRconfig/image13.png)
+![](Images/vrconfig/image13.png)
 
 #### Open the Left Side Expression
 
 Open the left side expression and add the required data element. You are trying to create the rule comparing the amount of DPT-HepB-Hib 2 dose with a calculated threshold. Select the data element “EPI - DPT-HepB-Hib 2 doses given Female and EPI - DPT-HepB-Hib 2 doses given Male” for the left side.
 
-![](Images/images/vrconfig/VRconfig/image26.png)
+![](Images/vrconfig/image26.png)
 
 Select “Save” once the left side has been selected.
 
@@ -332,14 +332,14 @@ Select “Save” once the left side has been selected.
 
 It is “less than or equal to” in this case. Explain why this is.
 
-![](Images/images/vrconfig/VRconfig/image24.png)
+![](Images/vrconfig/image24.png)
 
 
 #### Open the Right Side Expression
 
 Select the data element “EPI - DPT-HepB-Hib 2 doses given threshold” for the right side.
 
-![](Images/images/vrconfig/VRconfig/image6.png)
+![](Images/vrconfig/image6.png)
 
 Click on “Save” when the expression is complete.
 
@@ -349,18 +349,18 @@ Click on “Save” when the expression is complete.
 
 Place the validation rule you have created into the group and select “Save.” Use your initials to create the group.
 
-![](Images/images/vrconfig/VRconfig/image9.png)
+![](Images/vrconfig/image9.png)
 
 ### Test the validation rule in validation analysis within the Data Quality app
 
 Navigate to the data quality app
 
-![](Images/images/vrconfig/VRconfig/image10.png)
+![](Images/vrconfig/image10.png)
 
 
 Select “Run validation”
 
-![](Images/images/vrconfig/VRconfig/image2.png)
+![](Images/vrconfig/image2.png)
 
 Select the following inputs:
 
@@ -368,10 +368,10 @@ Select the following inputs:
 * **Rule Group : The group you have just made**
 * **Parent Organisation unit : Dog District**
 * 
-![](Images/images/vrconfig/VRconfig/image19.png)
+![](Images/vrconfig/image19.png)
 
 
 You should see the violations. Does it work for you?
-![](Images/images/vrconfig/VRconfig/image3.png)
+![](Images/vrconfig/image3.png)
 
 ### End Activity 3
