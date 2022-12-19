@@ -13,8 +13,6 @@ There is also a Quick Guide which lists the steps very briefly and this is meant
 
 # Learning objectives for this session
 
-
-
 1. Within data visualizer, demonstrate how to create charts by:
     1. Selecting data dimensions
     2. Modifying the chart layout
@@ -23,19 +21,19 @@ There is also a Quick Guide which lists the steps very briefly and this is meant
     5. Using the chart options to modify the look of a chart
     6. Download a chart
 2. Create the following chart types:
-    7. Column
-    8. Line
-    9. Stacked Column
-    10. Bar
-    11. Pie
-    12. Radar
-    13. Gauge
-    14. Single Value
-    15. Cumulative Value
-    16. Year over year
-    17. 2-category 
-    18. Combination
-    19. Scatterplot
+    1. Column
+    2. Line
+    3. Stacked Column
+    4.  Bar
+    5.  Pie
+    6.  Radar
+    7.  Gauge
+    8.  Single Value
+    9.  Cumulative Value
+    10. Year over year
+    11. 2-category 
+    12. Combination
+    13. Scatterplot
 
 
 # Time needed for this session
@@ -60,19 +58,89 @@ The session has been divided into 12 parts. Each part has a set of objectives as
 
 # Table of Contents/Quick Guide
 
-
-[TOC]
-
-
-
-# 
+- [Trainer’s Guide to Data Visualizer](#trainers-guide-to-data-visualizer)
+- [What is this guide?](#what-is-this-guide)
+- [Learning objectives for this session](#learning-objectives-for-this-session)
+- [Time needed for this session](#time-needed-for-this-session)
+- [Preparations](#preparations)
+- [Table of Contents/Quick Guide](#table-of-contentsquick-guide)
+- [Live Demo Step-by-Step](#live-demo-step-by-step)
+  - [Part 1 - Altering data dimension and Working with the Layout](#part-1---altering-data-dimension-and-working-with-the-layout)
+    - [Open a chart - HIV - HIV Cascade](#open-a-chart---hiv---hiv-cascade)
+    - [Alter the data dimensions](#alter-the-data-dimensions)
+    - [Modify the layout](#modify-the-layout)
+    - [Explain the layout in more detail](#explain-the-layout-in-more-detail)
+    - [STOP - Exercise 1](#stop---exercise-1)
+  - [Part 2 - Saving, Reviewing the interface, Line Charts](#part-2---saving-reviewing-the-interface-line-charts)
+    - [Save the chart](#save-the-chart)
+    - [Explain the data visualizer interface](#explain-the-data-visualizer-interface)
+    - [Create a new line chart](#create-a-new-line-chart)
+    - [End Part 2 - Activity 2](#end-part-2---activity-2)
+  - [Part 3 - Stacked Column Chart, Disaggregations, Chart Options](#part-3---stacked-column-chart-disaggregations-chart-options)
+    - [Review a stacked column chart](#review-a-stacked-column-chart)
+    - [Create the chart](#create-the-chart)
+    - [Add in Urban/Rural Disaggregation](#add-in-urbanrural-disaggregation)
+    - [Move org units to category](#move-org-units-to-category)
+    - [Open and explain the chart options](#open-and-explain-the-chart-options)
+    - [Review the chart options in more detail](#review-the-chart-options-in-more-detail)
+      - [Data, Axes \& legend, Style](#data-axes--legend-style)
+    - [End Part 3 - Perform Activity](#end-part-3---perform-activity)
+  - [Part 4 - Stacked Bar Charts \& Target Lines](#part-4---stacked-bar-charts--target-lines)
+    - [Create a stacked bar chart](#create-a-stacked-bar-chart)
+    - [Download the chart](#download-the-chart)
+    - [Create a chart which uses sort order, target lines and a predefined legend](#create-a-chart-which-uses-sort-order-target-lines-and-a-predefined-legend)
+    - [Modify the sort order and add in the target line](#modify-the-sort-order-and-add-in-the-target-line)
+    - [Apply a pre-defined legend](#apply-a-pre-defined-legend)
+    - [End Part 4 - Perform Activity](#end-part-4---perform-activity)
+  - [Part 5 - Pie \& Radar Charts](#part-5---pie--radar-charts)
+    - [Create a Pie Chart](#create-a-pie-chart)
+    - [Create a Radar Chart](#create-a-radar-chart)
+    - [End Part 5 - Perform Activity](#end-part-5---perform-activity)
+  - [Part 6 - Gauge \& Single Value Charts](#part-6---gauge--single-value-charts)
+    - [Create a Gauge Chart](#create-a-gauge-chart)
+    - [Create a Single Value Chart](#create-a-single-value-chart)
+    - [End Part 6 - Perform Activity](#end-part-6---perform-activity)
+  - [Part 7 - Cumulative Value Chart](#part-7---cumulative-value-chart)
+    - [Use a line chart to create a cumulative chart](#use-a-line-chart-to-create-a-cumulative-chart)
+    - [Review the chart](#review-the-chart)
+    - [Change to a cumulative chart](#change-to-a-cumulative-chart)
+    - [Review the chart](#review-the-chart-1)
+    - [End Part 7 - Perform Activity](#end-part-7---perform-activity)
+  - [Part 8 - Year over Year chart](#part-8---year-over-year-chart)
+    - [Create a year-over-year chart](#create-a-year-over-year-chart)
+    - [Open the following chart - BCG Coverage YoY - 3 Year Comparison](#open-the-following-chart---bcg-coverage-yoy---3-year-comparison)
+    - [Switch to the favorite: BCG Coverage by month - BCG Coverage by month - 2018 - 2020](#switch-to-the-favorite-bcg-coverage-by-month---bcg-coverage-by-month---2018---2020)
+    - [Switch back to the year-over-year chart: BCG Coverage YoY - 3 Year Comparison](#switch-back-to-the-year-over-year-chart-bcg-coverage-yoy---3-year-comparison)
+    - [Select the YoY Chart Type](#select-the-yoy-chart-type)
+    - [Explain the interface - Period selection and filter](#explain-the-interface---period-selection-and-filter)
+    - [Explain the interface - Category](#explain-the-interface---category)
+    - [Explain the interface - Series](#explain-the-interface---series)
+    - [Explain the interface - Data](#explain-the-interface---data)
+    - [Update and review the chart](#update-and-review-the-chart)
+    - [End Part 8 - Perform Activity](#end-part-8---perform-activity)
+  - [Part 9 - 2-category charts](#part-9---2-category-charts)
+    - [Review the chart “RMNCAH - Institutional Delivery by Locality - Last 12 Months”](#review-the-chart-rmncah---institutional-delivery-by-locality---last-12-months)
+    - [Clear the chart and make a new one](#clear-the-chart-and-make-a-new-one)
+    - [Swap the order of the period and locality in the category and change to an area chart](#swap-the-order-of-the-period-and-locality-in-the-category-and-change-to-an-area-chart)
+    - [End Part 9 - Perform Activity](#end-part-9---perform-activity)
+  - [Part 10 - Combination Charts](#part-10---combination-charts)
+    - [Review the chart “EPI - BCG Doses Given, Coverage - Last 12 Months”](#review-the-chart-epi---bcg-doses-given-coverage---last-12-months)
+    - [Clear the chart and make a new one](#clear-the-chart-and-make-a-new-one-1)
+    - [Modify the series in the chart options](#modify-the-series-in-the-chart-options)
+    - [Label the axes](#label-the-axes)
+    - [Add a 2nd category to the chart](#add-a-2nd-category-to-the-chart)
+    - [End Part 10  - Perform Activity](#end-part-10----perform-activity)
+  - [Part 11 - Scatterplots](#part-11---scatterplots)
+    - [Review the chart “RMNCAH - ANC1 - ANC4 Outlier Analysis - Last Year”](#review-the-chart-rmncah---anc1---anc4-outlier-analysis---last-year)
+    - [Create a scatterplot](#create-a-scatterplot)
+    - [Add outlier details](#add-outlier-details)
+    - [End Part 11  - Perform Activity](#end-part-11----perform-activity)
+  - [Part 12 - Review](#part-12---review)
 
 
 # Live Demo Step-by-Step
 
-
 ## Part 1 - Altering data dimension and Working with the Layout
-
 
 ### Open a chart - HIV - HIV Cascade
 
@@ -80,125 +148,57 @@ To get familiar with the dimensions, we will have the participants open up a cha
 
 Open the following chart
 
-
-
-<p id="gdcalert1" ><span style="color: red; font-weight: bold">>>>>>  gd2md-html alert: inline image link here (to images/image1.png). Store image on your image server and adjust path/filename/extension if necessary. </span><br>(<a href="#">Back to top</a>)(<a href="#gdcalert2">Next alert</a>)<br><span style="color: red; font-weight: bold">>>>>> </span></p>
-
-
-![alt_text](images/image1.png "image_tooltip")
-
-
-
+![](Images/datavisualizer/image46.png)
 
 **Chart name: HIV - HIV Cascade**
 
-
-
-<p id="gdcalert2" ><span style="color: red; font-weight: bold">>>>>>  gd2md-html alert: inline image link here (to images/image2.png). Store image on your image server and adjust path/filename/extension if necessary. </span><br>(<a href="#">Back to top</a>)(<a href="#gdcalert3">Next alert</a>)<br><span style="color: red; font-weight: bold">>>>>> </span></p>
-
-
-![alt_text](images/image2.png "image_tooltip")
-
+![](Images/datavisualizer/image45.png)
 
 You should now see the following in visualizer
 
-<p id="gdcalert3" ><span style="color: red; font-weight: bold">>>>>>  gd2md-html alert: inline image link here (to images/image3.png). Store image on your image server and adjust path/filename/extension if necessary. </span><br>(<a href="#">Back to top</a>)(<a href="#gdcalert4">Next alert</a>)<br><span style="color: red; font-weight: bold">>>>>> </span></p>
+![](Images/datavisualizer/image10.png)
 
+Go over the various elements that are present on the chart. Currently, you have the data items along the x-axis. The values are represented via the y-axis. You have a title for the y-axis as well as the chart itself. You can also see the periods which have been selected for this graph.
 
-![alt_text](images/image3.png "image_tooltip")
-
-
-Go over the various elements that are present on the chart. Currently, you have the data items along the x-axis. The values are represented via the y-axis. You have a title for the y-axis as well as the chart itself. You can also see the periods which have been selected for this graph. 
-
-
-
-<p id="gdcalert4" ><span style="color: red; font-weight: bold">>>>>>  gd2md-html alert: inline image link here (to images/image4.png). Store image on your image server and adjust path/filename/extension if necessary. </span><br>(<a href="#">Back to top</a>)(<a href="#gdcalert5">Next alert</a>)<br><span style="color: red; font-weight: bold">>>>>> </span></p>
-
-
-![alt_text](images/image4.png "image_tooltip")
-
+![](Images/datavisualizer/image11.png)
 
 You can also use the layout to verify what has been selected. Do this by hovering over an item in the layout. We will be working with the layout more momentarily.
-
 
 ### Alter the data dimensions
 
 Now that we have a chart open, there are various dimensions we could change in order to effect the chart that is produced by DHIS2. Let us first alter the period. You can do this by either selecting period from the layout or the left-side menu
 
-
-
-<p id="gdcalert5" ><span style="color: red; font-weight: bold">>>>>>  gd2md-html alert: inline image link here (to images/image5.png). Store image on your image server and adjust path/filename/extension if necessary. </span><br>(<a href="#">Back to top</a>)(<a href="#gdcalert6">Next alert</a>)<br><span style="color: red; font-weight: bold">>>>>> </span></p>
-
-
-![alt_text](images/image5.png "image_tooltip")
-
+![](Images/datavisualizer/image38.png)
 
 The currently selected period is the last 12 months. We could verify this by scrolling over the period in the layout. The period is currently in the filter. What these means is that we do not actually see the periods on either the x or y-axis. It does however determine what data is seen on the graph. 
 
-
-
-<p id="gdcalert6" ><span style="color: red; font-weight: bold">>>>>>  gd2md-html alert: inline image link here (to images/image6.png). Store image on your image server and adjust path/filename/extension if necessary. </span><br>(<a href="#">Back to top</a>)(<a href="#gdcalert7">Next alert</a>)<br><span style="color: red; font-weight: bold">>>>>> </span></p>
-
-
-![alt_text](images/image6.png "image_tooltip")
-
+![](Images/datavisualizer/image65.png)
 
 Select the last 6 months and update the chart 
 
-
-
-<p id="gdcalert7" ><span style="color: red; font-weight: bold">>>>>>  gd2md-html alert: inline image link here (to images/image7.png). Store image on your image server and adjust path/filename/extension if necessary. </span><br>(<a href="#">Back to top</a>)(<a href="#gdcalert8">Next alert</a>)<br><span style="color: red; font-weight: bold">>>>>> </span></p>
-
-
-![alt_text](images/image7.png "image_tooltip")
-
+![](Images/datavisualizer/image34.png)
 
 You should see a noticeable change in the data values. 
-
-
-### 
-
 
 ### Modify the layout
 
 What if we do not want the total of these months, but instead want to see the individual values for each month separately? In order to do this, we can modify the layout. Move the period to the series and update the chart. Now we can see the groups for each individual month. These are grouped together by the data item in this case. In this case, it might make a little more sense to have our period as our category. 
 
-
-
-<p id="gdcalert8" ><span style="color: red; font-weight: bold">>>>>>  gd2md-html alert: inline image link here (to images/image8.png). Store image on your image server and adjust path/filename/extension if necessary. </span><br>(<a href="#">Back to top</a>)(<a href="#gdcalert9">Next alert</a>)<br><span style="color: red; font-weight: bold">>>>>> </span></p>
-
-
-![alt_text](images/image8.png "image_tooltip")
-
-
-
+![](Images/datavisualizer/image79.png)
 
 Now, move the period to the category and the data to the series and update the chart.
 
-
-
-<p id="gdcalert9" ><span style="color: red; font-weight: bold">>>>>>  gd2md-html alert: inline image link here (to images/image9.png). Store image on your image server and adjust path/filename/extension if necessary. </span><br>(<a href="#">Back to top</a>)(<a href="#gdcalert10">Next alert</a>)<br><span style="color: red; font-weight: bold">>>>>> </span></p>
-
-
-![alt_text](images/image9.png "image_tooltip")
-
+![](Images/datavisualizer/image8.png)
 
 Now we can more clearly see the effect of the cascade within a given month. 
-
 
 ### Explain the layout in more detail
 
 Now we should explain the category, series and filter in a bit more detail using this chart as an example. 
 
-Column, Stacked Column, Line and Area charts all have similar properties when discussing the category, series, and filter. These are not given commonly understood names such as x and y-axis as different graph types are affected differently by these options; some chart types simply do not have traditional axes. 
+Column, Stacked Column, Line and Area charts all have similar properties when discussing the category, series, and filter. These are not given commonly understood names such as x and y-axis as different graph types are affected differently by these options; some chart types simply do not have traditional axes.
 
-
-
-<p id="gdcalert10" ><span style="color: red; font-weight: bold">>>>>>  gd2md-html alert: inline image link here (to images/image10.png). Store image on your image server and adjust path/filename/extension if necessary. </span><br>(<a href="#">Back to top</a>)(<a href="#gdcalert11">Next alert</a>)<br><span style="color: red; font-weight: bold">>>>>> </span></p>
-
-
-![alt_text](images/image10.png "image_tooltip")
-
+![](Images/datavisualizer/image15.png)
 
 Let us review how the category, series and filter have affected the output of the chart. We have moved the dimensions around a little to see that these do indeed result in completely different charts depending on its placement in the layout. You can also use slide 2 in this presentation to support your explanation
 
@@ -209,38 +209,21 @@ Let us review how the category, series and filter have affected the output of th
 1. First, let's review the **category**. In this type of chart, the category will always be the x-axis essentially. We can see the period is the x-axis in this example. When we first opened the chart, data was in the category and the data items were listed along the x-axis. The y-axis in all versions of this chart is the actual data value. This does not change regardless of which item is placed where. The category also determines how we group (or categorise!) the series together. We can see that the category (in this case the months) groups together the series (in this case the data item).
 2. The **series** determines what is displayed within each individual category. In this case we have months as the category and for each month, we can see that the data items we have selected are being displayed within that month as a result of being in the category. When we first moved the period to the category, this was the opposite, as the periods were grouped together by the data item along the x-axis. Now the data items are grouped together by the period along the x-axis as a result of the current layout. 
 3. The **filter** simply determines where data is being selected from. When we first opened this chart, it was filtering data by the last 12 months. When we altered the chart to the last 3 months, there was a decrease in the data values as it was taking data from less periods. Now we have the organisation unit as the filter. In this case Trainingland is selected, so it is displaying data from the entire country. You could alter the filter and select a region for example to emphasize the effect the filter has on the chart. It is usually not recommended to add multiple data items to the filter as it will add up these data items and display a total on the chart. 
-
-
-
-<p id="gdcalert11" ><span style="color: red; font-weight: bold">>>>>>  gd2md-html alert: inline image link here (to images/image11.png). Store image on your image server and adjust path/filename/extension if necessary. </span><br>(<a href="#">Back to top</a>)(<a href="#gdcalert12">Next alert</a>)<br><span style="color: red; font-weight: bold">>>>>> </span></p>
-
-
-![alt_text](images/image11.png "image_tooltip")
-
+![](Images/datavisualizer/image60.png)
 
 Prior to moving on, clarify that these concepts are clear. We will work with different chart types to see the effect the layout has on them later on.
 
-
 ### STOP - Exercise 1
 
-
 ## Part 2 - Saving, Reviewing the interface, Line Charts
-
 
 ### Save the chart
 
 Let’s say we are happy with this chart. As we do not want to over-write the previous chart, let us save a new version of this chart.
 
-
-
-<p id="gdcalert12" ><span style="color: red; font-weight: bold">>>>>>  gd2md-html alert: inline image link here (to images/image12.png). Store image on your image server and adjust path/filename/extension if necessary. </span><br>(<a href="#">Back to top</a>)(<a href="#gdcalert13">Next alert</a>)<br><span style="color: red; font-weight: bold">>>>>> </span></p>
-
-
-![alt_text](images/image12.png "image_tooltip")
-
+![](Images/datavisualizer/image50.png)
 
 In this case you are saving an existing chart so existing properties may appear. You can remove this and have everyone save their own version of this chart. Have them use their initials in the chart name. 
-
 
 ### Explain the data visualizer interface
 
@@ -259,93 +242,52 @@ Clear the previous chart by going to File -> New. We will now go through the pro
 
 In this example we will create a chart for TB notifications. TB data is typically reported quarterly in an aggregate system, and we want to see if there are any significant changes in the TB notification rate over a significant period of time. 
 
-**_Question for participants: _**What type of chart do they think would be the most useful for displaying significant changes in trends over time? 
+**Question for participants** What type of chart do they think would be the most useful for displaying significant changes in trends over time? 
 
 In this case, we will use a line chart to display these values. 
 
-
-
-<p id="gdcalert13" ><span style="color: red; font-weight: bold">>>>>>  gd2md-html alert: inline image link here (to images/image13.png). Store image on your image server and adjust path/filename/extension if necessary. </span><br>(<a href="#">Back to top</a>)(<a href="#gdcalert14">Next alert</a>)<br><span style="color: red; font-weight: bold">>>>>> </span></p>
-
-
-![alt_text](images/image13.png "image_tooltip")
-
+![](Images/datavisualizer/image26.png)
 
 Select a line chart to start.
 
-
-
 For the data we will select the following:
 
-
-
-<p id="gdcalert14" ><span style="color: red; font-weight: bold">>>>>>  gd2md-html alert: inline image link here (to images/image14.png). Store image on your image server and adjust path/filename/extension if necessary. </span><br>(<a href="#">Back to top</a>)(<a href="#gdcalert15">Next alert</a>)<br><span style="color: red; font-weight: bold">>>>>> </span></p>
-
-
-![alt_text](images/image14.png "image_tooltip")
-
+![](Images/datavisualizer/image28.png)
 
 Do not update the chart, but instead hide the data selection. Note that by default the data is on the series in the layout. 
 
-**_Question: _**Based on what we learned in the bar chart example, what effect will the data being in the series have on the chart? 
+**Question** Based on what we learned in the bar chart example, what effect will the data being in the series have on the chart? 
 
 The series identifies how we display our data together in our selected category. So if we have data in the series, we will see values for each of the selected indicators within the category we have selected. 
 
-
-
-<p id="gdcalert15" ><span style="color: red; font-weight: bold">>>>>>  gd2md-html alert: inline image link here (to images/image15.png). Store image on your image server and adjust path/filename/extension if necessary. </span><br>(<a href="#">Back to top</a>)(<a href="#gdcalert16">Next alert</a>)<br><span style="color: red; font-weight: bold">>>>>> </span></p>
-
-
-![alt_text](images/image15.png "image_tooltip")
-
+![](Images/datavisualizer/image48.png)
 
 Update the period selection to include quarters from 2018 - 2020 and hide the period selection.
 
-**Question: **Period is our category and data is our series. What will we see on the line chart?
+**Question** Period is our category and data is our series. What will we see on the line chart?
 
 The period will appear along our x-axis. This means we should see each quarter along the x-axis. We have selected 4 indicators as our data. So for each quarter along the x-axis, we should see 4 data values, one for each of the indicators selected, reflecting the value within that particular quarter. 
 
-**Question: **What about the filter? 
+**Question** What about the filter? 
 
 The indicator values will reflect all of Trainingland, unless we change the organisation unit selection. The filter determines where the data is being pulled from and filters by this selection on th chart directly.
 
 Update the chart.
-
-
-
-<p id="gdcalert16" ><span style="color: red; font-weight: bold">>>>>>  gd2md-html alert: inline image link here (to images/image16.png). Store image on your image server and adjust path/filename/extension if necessary. </span><br>(<a href="#">Back to top</a>)(<a href="#gdcalert17">Next alert</a>)<br><span style="color: red; font-weight: bold">>>>>> </span></p>
-
-
-![alt_text](images/image16.png "image_tooltip")
-
+![](Images/datavisualizer/image5.png)
 
 We can see the effect our various selections have had on the chart output. The periods are along the x-axis. These **_categorise_** our data, which is our series. We see a value for each series item we have selected within the categorisation. In this case, this means we see a value for each indicator we have selected within the period displayed along the x-axis. 
 
-
-
-**Question: **What happens if we alter the data and periods?
+**Question** What happens if we alter the data and periods?
 
 Proceed to alter them and update the chart
 
-
-
-<p id="gdcalert17" ><span style="color: red; font-weight: bold">>>>>>  gd2md-html alert: inline image link here (to images/image17.png). Store image on your image server and adjust path/filename/extension if necessary. </span><br>(<a href="#">Back to top</a>)(<a href="#gdcalert18">Next alert</a>)<br><span style="color: red; font-weight: bold">>>>>> </span></p>
-
-
-![alt_text](images/image17.png "image_tooltip")
-
+![](Images/datavisualizer/image9.png)
 
 Does this seem like a better representation of the data in this situation? It is quite difficult to tell what is happening over time for a particular indicator. There is a sudden drop in the values between indicator types composed of different TB populations as well. It is often important to consider how the layout will affect the chart output, however it is very quick to move between different layouts to test if the output is being displayed as you had envisioned. There is no harm in a little bit of trial and error!
 
-
 ### End Part 2 - Activity 2
 
-
-## 
-
-
 ## Part 3 - Stacked Column Chart, Disaggregations, Chart Options
-
 
 ### Review a stacked column chart
 
@@ -353,67 +295,31 @@ For participants to get a better idea of how charts can be used to display disag
 
 “HIV - HIV tests performed by locality” (the values might be different then this screenshot)
 
-
-
-<p id="gdcalert18" ><span style="color: red; font-weight: bold">>>>>>  gd2md-html alert: inline image link here (to images/image18.png). Store image on your image server and adjust path/filename/extension if necessary. </span><br>(<a href="#">Back to top</a>)(<a href="#gdcalert19">Next alert</a>)<br><span style="color: red; font-weight: bold">>>>>> </span></p>
-
-
-![alt_text](images/image18.png "image_tooltip")
-
+![](Images/datavisualizer/image14.png)
 
 Discuss this chart prior to making it. In this chart, we have the number of HIV tests performed separated by their locality type. This comparison is also using Districts as the comparison in the x-axis. Based on what we know, the category will have to be the organisation units. Clear the chart and go through the process of creating this with everyone.
-
-
-### 
-
 
 ### Create the chart
 
 In this example we will be working with a stacked column chart. Select this chart type to proceed.
 
-
-
-<p id="gdcalert19" ><span style="color: red; font-weight: bold">>>>>>  gd2md-html alert: inline image link here (to images/image19.png). Store image on your image server and adjust path/filename/extension if necessary. </span><br>(<a href="#">Back to top</a>)(<a href="#gdcalert20">Next alert</a>)<br><span style="color: red; font-weight: bold">>>>>> </span></p>
-
-
-![alt_text](images/image19.png "image_tooltip")
-
+![](Images/datavisualizer/image84.png)
 
 Select the data
 
-
-
-<p id="gdcalert20" ><span style="color: red; font-weight: bold">>>>>>  gd2md-html alert: inline image link here (to images/image20.png). Store image on your image server and adjust path/filename/extension if necessary. </span><br>(<a href="#">Back to top</a>)(<a href="#gdcalert21">Next alert</a>)<br><span style="color: red; font-weight: bold">>>>>> </span></p>
-
-
-![alt_text](images/image20.png "image_tooltip")
-
+![](Images/datavisualizer/image61.png)
 
 Leave the periods as default. 
 
-
-
 Select the org units
 
-
-
-<p id="gdcalert21" ><span style="color: red; font-weight: bold">>>>>>  gd2md-html alert: inline image link here (to images/image21.png). Store image on your image server and adjust path/filename/extension if necessary. </span><br>(<a href="#">Back to top</a>)(<a href="#gdcalert22">Next alert</a>)<br><span style="color: red; font-weight: bold">>>>>> </span></p>
-
-
-![alt_text](images/image21.png "image_tooltip")
-
+![](Images/datavisualizer/image31.png)
 
 In this example we want to use the districts to separate out our data. This will give us an idea of the spread of testing throughout various localities within a district. With trainingland highlighted, use the level selector to select district. 
 
 You can update the chart so everyone can see what it currently looks like. 
 
-
-
-<p id="gdcalert22" ><span style="color: red; font-weight: bold">>>>>>  gd2md-html alert: inline image link here (to images/image22.png). Store image on your image server and adjust path/filename/extension if necessary. </span><br>(<a href="#">Back to top</a>)(<a href="#gdcalert23">Next alert</a>)<br><span style="color: red; font-weight: bold">>>>>> </span></p>
-
-
-![alt_text](images/image22.png "image_tooltip")
-
+![](Images/datavisualizer/image82.png)
 
 At the moment the chart is not very interesting and not really conveying information that is critical. All we can see is that, from month to month, the number of HIV tests performed remains relatively consistent. It is not the chart we initially conceived, stacked and showing us the separation of this data by locality. 
 
@@ -422,13 +328,7 @@ At the moment the chart is not very interesting and not really conveying informa
 
 Select the urban/rural org unit group set as well as all the options within this group set.
 
-
-
-<p id="gdcalert23" ><span style="color: red; font-weight: bold">>>>>>  gd2md-html alert: inline image link here (to images/image23.png). Store image on your image server and adjust path/filename/extension if necessary. </span><br>(<a href="#">Back to top</a>)(<a href="#gdcalert24">Next alert</a>)<br><span style="color: red; font-weight: bold">>>>>> </span></p>
-
-
-![alt_text](images/image23.png "image_tooltip")
-
+![](Images/datavisualizer/image68.png)
 
 Org unit group sets are defined by the user. This should have been discussed prior in the maintenance overview as well as the pivot table session, however a review of this can be conducted if required. 
 
@@ -436,153 +336,74 @@ We will add these options to the filter. This will allow us to manipulate the la
 
 Start by moving the org unit group set to the series and updating the chart. As always, the series determines what is displayed within each individual category. In this case, the series is used to divide each portion of the cart into the localities by the category that is selected.
 
+![](Images/datavisualizer/image32.png)
 
-
-<p id="gdcalert24" ><span style="color: red; font-weight: bold">>>>>>  gd2md-html alert: inline image link here (to images/image24.png). Store image on your image server and adjust path/filename/extension if necessary. </span><br>(<a href="#">Back to top</a>)(<a href="#gdcalert25">Next alert</a>)<br><span style="color: red; font-weight: bold">>>>>> </span></p>
-
-
-![alt_text](images/image24.png "image_tooltip")
-
-
-**Question: **If we want the organisation units to be our x-axis in order to display the number of HIV tests performed within each locality by district, where do we move the organisation units to?
-
+**Question** If we want the organisation units to be our x-axis in order to display the number of HIV tests performed within each locality by district, where do we move the organisation units to?
 
 ### Move org units to category
 
 Move the organisation units to the category and the period to the filter and update the chart
 
-
-
-<p id="gdcalert25" ><span style="color: red; font-weight: bold">>>>>>  gd2md-html alert: inline image link here (to images/image25.png). Store image on your image server and adjust path/filename/extension if necessary. </span><br>(<a href="#">Back to top</a>)(<a href="#gdcalert26">Next alert</a>)<br><span style="color: red; font-weight: bold">>>>>> </span></p>
-
-
-![alt_text](images/image25.png "image_tooltip")
-
+![](Images/datavisualizer/image43.png)
 
 We are getting closer now! Large disparities in the data make it difficult to compare the districts however. As we are using raw values, some of the districts have much more tests being performed within them, which skews the graph and makes it difficult to interpret. 
 
 We can remedy this by using the chart options!
 
-
 ### Open and explain the chart options
 
 Open the chart options and select use 100% stacked values. We will come back and explain the many other options available here. 
 
-
-
-<p id="gdcalert26" ><span style="color: red; font-weight: bold">>>>>>  gd2md-html alert: inline image link here (to images/image26.png). Store image on your image server and adjust path/filename/extension if necessary. </span><br>(<a href="#">Back to top</a>)(<a href="#gdcalert27">Next alert</a>)<br><span style="color: red; font-weight: bold">>>>>> </span></p>
-
-
-![alt_text](images/image26.png "image_tooltip")
-
+![](Images/datavisualizer/image57.png)
 
 Update the chart
 
-
-
-<p id="gdcalert27" ><span style="color: red; font-weight: bold">>>>>>  gd2md-html alert: inline image link here (to images/image27.png). Store image on your image server and adjust path/filename/extension if necessary. </span><br>(<a href="#">Back to top</a>)(<a href="#gdcalert28">Next alert</a>)<br><span style="color: red; font-weight: bold">>>>>> </span></p>
-
-
-![alt_text](images/image27.png "image_tooltip")
-
+![](Images/datavisualizer/image78.png)
 
 Now we have our final output that we were shown at the beginning. Here we can clearly see how many tests are being done in each locality as a proportion of the total. Notice the y-axis changes from having values to displaying % in order to reflect this change. 
-
 
 ### Review the chart options in more detail
 
 Let us review the remainder of our chart options to see how we can enhance this chart. The chart options are separated into 3 tabs:
 
-
-
-
 #### Data, Axes & legend, Style
 
 The data tab is the tab we just used in order to modify the stacked column chart so it used %’s instead of raw values. There are other additional options and you should explain them to the best of your ability. Not many of these apply to this particular chart, however we will make another chart which uses more of the data options. Please review the documentation if clarification on these options are needed.
 
-
-
-<p id="gdcalert28" ><span style="color: red; font-weight: bold">>>>>>  gd2md-html alert: inline image link here (to images/image28.png). Store image on your image server and adjust path/filename/extension if necessary. </span><br>(<a href="#">Back to top</a>)(<a href="#gdcalert29">Next alert</a>)<br><span style="color: red; font-weight: bold">>>>>> </span></p>
-
-
-![alt_text](images/image28.png "image_tooltip")
-
-
-
+![](Images/datavisualizer/image57.png)
 
 The next tab is axes. Here we can modify how the x and y axis are displayed and labeled. We can also add chart and axes titles. Many of these options are useful to this chart. We can add in a title for the vertical (y-axis in this case) horizontal (x-axis) axes.
 
-
-
-<p id="gdcalert29" ><span style="color: red; font-weight: bold">>>>>>  gd2md-html alert: inline image link here (to images/image29.png). Store image on your image server and adjust path/filename/extension if necessary. </span><br>(<a href="#">Back to top</a>)(<a href="#gdcalert30">Next alert</a>)<br><span style="color: red; font-weight: bold">>>>>> </span></p>
-
-
-![alt_text](images/image29.png "image_tooltip")
-
-
-
+![](Images/datavisualizer/image47.png)
 
 We can skip the series tab for now as it doesn’t apply to the chart type currently open. Next is the style tab. Here we can modify the titles for the chart as well as the colors being used to represent our data values. 
-
-
-
-<p id="gdcalert30" ><span style="color: red; font-weight: bold">>>>>>  gd2md-html alert: inline image link here (to images/image30.png). Store image on your image server and adjust path/filename/extension if necessary. </span><br>(<a href="#">Back to top</a>)(<a href="#gdcalert31">Next alert</a>)<br><span style="color: red; font-weight: bold">>>>>> </span></p>
-
-
-![alt_text](images/image30.png "image_tooltip")
-
+![](Images/datavisualizer/image17.png)
 
 After updating, the chart should look a bit cleaner with more identifiers available for the titles of the axes and chart itself.
 
-
-
-<p id="gdcalert31" ><span style="color: red; font-weight: bold">>>>>>  gd2md-html alert: inline image link here (to images/image31.png). Store image on your image server and adjust path/filename/extension if necessary. </span><br>(<a href="#">Back to top</a>)(<a href="#gdcalert32">Next alert</a>)<br><span style="color: red; font-weight: bold">>>>>> </span></p>
-
-
-![alt_text](images/image31.png "image_tooltip")
-
+![](Images/datavisualizer/image23.png)
 
 Save the chart and continue.
 
-
 ### End Part 3 - Perform Activity
 
-
 ## Part 4 - Stacked Bar Charts & Target Lines
-
 
 ### Create a stacked bar chart
 
 Change the previous chart to a stacked bar chart.
 
-
-
-<p id="gdcalert32" ><span style="color: red; font-weight: bold">>>>>>  gd2md-html alert: inline image link here (to images/image32.png). Store image on your image server and adjust path/filename/extension if necessary. </span><br>(<a href="#">Back to top</a>)(<a href="#gdcalert33">Next alert</a>)<br><span style="color: red; font-weight: bold">>>>>> </span></p>
-
-
-![alt_text](images/image32.png "image_tooltip")
-
+![](Images/datavisualizer/image83.png)
 
 Review the category and series with the participants. Note that these have not changed, but due to the nature of the chart the axis on which they lie has in fact been switched. Now the category is running along the y-axis, with the data values along the x-axis. The series is still being seperated by each category, which in this case is the districts. As different charts have different layouts, labeling these items as x and y-axis respectively is not possible. This point will be driven further home when other chart types are introduced in the next session. 
-
 
 ### Download the chart
 
 You can now review the download options. 
 
-
-
-<p id="gdcalert33" ><span style="color: red; font-weight: bold">>>>>>  gd2md-html alert: inline image link here (to images/image33.png). Store image on your image server and adjust path/filename/extension if necessary. </span><br>(<a href="#">Back to top</a>)(<a href="#gdcalert34">Next alert</a>)<br><span style="color: red; font-weight: bold">>>>>> </span></p>
-
-
-![alt_text](images/image33.png "image_tooltip")
-
+![](Images/datavisualizer/image88.png)
 
 You can download the chart as an image or PDF file. It is likely not necessary to review the other download formats. Downloading an image or PDF allows you to take the chart and use it offline as necessary. 
-
-
-### 
-
 
 ### Create a chart which uses sort order, target lines and a predefined legend
 
@@ -590,71 +411,32 @@ Open the following line chart:
 
 EPI - DPT Coverage - last year
 
-
-
-<p id="gdcalert34" ><span style="color: red; font-weight: bold">>>>>>  gd2md-html alert: inline image link here (to images/image34.png). Store image on your image server and adjust path/filename/extension if necessary. </span><br>(<a href="#">Back to top</a>)(<a href="#gdcalert35">Next alert</a>)<br><span style="color: red; font-weight: bold">>>>>> </span></p>
-
-
-![alt_text](images/image34.png "image_tooltip")
-
+![](Images/datavisualizer/image22.png)
 
 This chart is currently sorted from low to high. Note that, as there are two indicators selected, it uses the first indicator in order to determine the order/arrangement of the values in the chart. You can see this as the values for DPT 3 coverage in Bird District is lower than Sweet District, as it is using DPT 1 coverage to sort the chart values. 
-
-
-### 
-
 
 ### Modify the sort order and add in the target line
 
 Add in a sort order to the chart. Modify the chart options to display the target line.
 
+![](Images/datavisualizer/image58.png)
 
-
-<p id="gdcalert35" ><span style="color: red; font-weight: bold">>>>>>  gd2md-html alert: inline image link here (to images/image35.png). Store image on your image server and adjust path/filename/extension if necessary. </span><br>(<a href="#">Back to top</a>)(<a href="#gdcalert36">Next alert</a>)<br><span style="color: red; font-weight: bold">>>>>> </span></p>
-
-
-![alt_text](images/image35.png "image_tooltip")
-	
-
-
-
-<p id="gdcalert36" ><span style="color: red; font-weight: bold">>>>>>  gd2md-html alert: inline image link here (to images/image36.png). Store image on your image server and adjust path/filename/extension if necessary. </span><br>(<a href="#">Back to top</a>)(<a href="#gdcalert37">Next alert</a>)<br><span style="color: red; font-weight: bold">>>>>> </span></p>
-
-
-![alt_text](images/image36.png "image_tooltip")
-
-
+![](Images/datavisualizer/image39.png)
 After you update the chart, you can discuss how the options have affected the chart view.
-
 
 ### Apply a pre-defined legend
 
 Open the options tab and navigate to legend. From here you can apply a legend to your chart. Select the “EPI coverage” legend and update your chart.
 
-
-
-<p id="gdcalert37" ><span style="color: red; font-weight: bold">>>>>>  gd2md-html alert: inline image link here (to images/image37.png). Store image on your image server and adjust path/filename/extension if necessary. </span><br>(<a href="#">Back to top</a>)(<a href="#gdcalert38">Next alert</a>)<br><span style="color: red; font-weight: bold">>>>>> </span></p>
-
-
-![alt_text](images/image37.png "image_tooltip")
-
+![](Images/datavisualizer/image89.png)
 
 The updated chart will look like this. This can be quite useful when you want to apply a specific color scheme to your chart. A legend can be applied to bar, column, gauge and single value charts. We will revisit applying legends for these other chart types.
 
-
-
-<p id="gdcalert38" ><span style="color: red; font-weight: bold">>>>>>  gd2md-html alert: inline image link here (to images/image38.png). Store image on your image server and adjust path/filename/extension if necessary. </span><br>(<a href="#">Back to top</a>)(<a href="#gdcalert39">Next alert</a>)<br><span style="color: red; font-weight: bold">>>>>> </span></p>
-
-
-![alt_text](images/image38.png "image_tooltip")
-
-
+![](Images/datavisualizer/image21.png)
 
 ### End Part 4 - Perform Activity
 
-
 ## Part 5 - Pie & Radar Charts
-
 
 ### Create a Pie Chart
 
@@ -668,13 +450,7 @@ MAL - Malaria RDT by age
 
 For additional explanation and to explain this concept to the participants.
 
-
-
-<p id="gdcalert39" ><span style="color: red; font-weight: bold">>>>>>  gd2md-html alert: inline image link here (to images/image39.png). Store image on your image server and adjust path/filename/extension if necessary. </span><br>(<a href="#">Back to top</a>)(<a href="#gdcalert40">Next alert</a>)<br><span style="color: red; font-weight: bold">>>>>> </span></p>
-
-
-![alt_text](images/image39.png "image_tooltip")
-
+![](Images/datavisualizer/image64.png)
 
 Data: MAL - Malaria cases positive (RDT) [Malaria Data element group]
 
@@ -688,14 +464,7 @@ See  that the “series” determines the slices of the pie in this case. As the
 
 You can also swap the period with the age to see the effect it has on the chart. Since the series determines how the slices of the pie divide this chart, in this case we can see the periods now divide the pie chart rather than the age groups.
 
-
-
-<p id="gdcalert40" ><span style="color: red; font-weight: bold">>>>>>  gd2md-html alert: inline image link here (to images/image40.png). Store image on your image server and adjust path/filename/extension if necessary. </span><br>(<a href="#">Back to top</a>)(<a href="#gdcalert41">Next alert</a>)<br><span style="color: red; font-weight: bold">>>>>> </span></p>
-
-
-![alt_text](images/image40.png "image_tooltip")
-
-
+![](Images/datavisualizer/image27.png)
 
 ### Create a Radar Chart
 
@@ -713,37 +482,17 @@ Periods: Last 12 months
 
 Org Unit: Trainingland
 
-
-
-<p id="gdcalert41" ><span style="color: red; font-weight: bold">>>>>>  gd2md-html alert: inline image link here (to images/image41.png). Store image on your image server and adjust path/filename/extension if necessary. </span><br>(<a href="#">Back to top</a>)(<a href="#gdcalert42">Next alert</a>)<br><span style="color: red; font-weight: bold">>>>>> </span></p>
-
-
-![alt_text](images/image41.png "image_tooltip")
-
-
-
+![](Images/datavisualizer/image3.png)
 
 Add in the malaria age groups and move this to the series
 
-
-
-<p id="gdcalert42" ><span style="color: red; font-weight: bold">>>>>>  gd2md-html alert: inline image link here (to images/image42.png). Store image on your image server and adjust path/filename/extension if necessary. </span><br>(<a href="#">Back to top</a>)(<a href="#gdcalert43">Next alert</a>)<br><span style="color: red; font-weight: bold">>>>>> </span></p>
-
-
-![alt_text](images/image42.png "image_tooltip")
-
+![](Images/datavisualizer/image54.png)
 
 You will now see that the values within the chart are displayed by the age group. While this example works in practice, it is a bit busy and difficult to interpret. You can switch to a column or stacked column chart type from this chart to show that some chart types are not always the most appropriate and that consideration in how a chart will be interpreted should be made.
 
-
 ### End Part 5 - Perform Activity
 
-
-## 
-
-
 ## Part 6 - Gauge & Single Value Charts
-
 
 ### Create a Gauge Chart
 
@@ -757,60 +506,24 @@ Category : Last year
 
 Organisation Unit: Trainingland
 
-
-
-<p id="gdcalert43" ><span style="color: red; font-weight: bold">>>>>>  gd2md-html alert: inline image link here (to images/image43.png). Store image on your image server and adjust path/filename/extension if necessary. </span><br>(<a href="#">Back to top</a>)(<a href="#gdcalert44">Next alert</a>)<br><span style="color: red; font-weight: bold">>>>>> </span></p>
-
-
-![alt_text](images/image43.png "image_tooltip")
-
+![](Images/datavisualizer/image87.png)
 
 You can apply legends to these charts. This will change the colour that you see within the gauge. We could, for example, apply the EPI coverage legend to this chart
 
-
-
-<p id="gdcalert44" ><span style="color: red; font-weight: bold">>>>>>  gd2md-html alert: inline image link here (to images/image44.png). Store image on your image server and adjust path/filename/extension if necessary. </span><br>(<a href="#">Back to top</a>)(<a href="#gdcalert45">Next alert</a>)<br><span style="color: red; font-weight: bold">>>>>> </span></p>
-
-
-![alt_text](images/image44.png "image_tooltip")
-
-
-
+![](Images/datavisualizer/image89.png)
 
 This will then apply the relevant legend to this chart when we update it
 
-
-
-<p id="gdcalert45" ><span style="color: red; font-weight: bold">>>>>>  gd2md-html alert: inline image link here (to images/image45.png). Store image on your image server and adjust path/filename/extension if necessary. </span><br>(<a href="#">Back to top</a>)(<a href="#gdcalert46">Next alert</a>)<br><span style="color: red; font-weight: bold">>>>>> </span></p>
-
-
-![alt_text](images/image45.png "image_tooltip")
-
-
+![](Images/datavisualizer/image86.png)
 
 ### Create a Single Value Chart
 
 Single value chart types are a great way to highlight key indicators, particularly on a dashboard. Here is a good example of this in practice
 
-
-
-<p id="gdcalert46" ><span style="color: red; font-weight: bold">>>>>>  gd2md-html alert: inline image link here (to images/image46.png). Store image on your image server and adjust path/filename/extension if necessary. </span><br>(<a href="#">Back to top</a>)(<a href="#gdcalert47">Next alert</a>)<br><span style="color: red; font-weight: bold">>>>>> </span></p>
-
-
-![alt_text](images/image46.png "image_tooltip")
-
+![](Images/datavisualizer/image66.png)
 
 Create a single value chart by selecting this chart type
-
-
-
-<p id="gdcalert47" ><span style="color: red; font-weight: bold">>>>>>  gd2md-html alert: inline image link here (to images/image47.png). Store image on your image server and adjust path/filename/extension if necessary. </span><br>(<a href="#">Back to top</a>)(<a href="#gdcalert48">Next alert</a>)<br><span style="color: red; font-weight: bold">>>>>> </span></p>
-
-
-![alt_text](images/image47.png "image_tooltip")
-
-
-
+![](Images/datavisualizer/image63.png)
 
 We then select our inputs. For example:
 
@@ -822,23 +535,11 @@ Organisation Unit: Animal Region
 
 It is a very simple chart to make, as only one data value can be displayed at a time. As mentioned, it is most useful when placed on a dashboard next to other related outputs. Note that we can also apply a legend to single value charts, using the same process as a gauge chart.
 
-
-
-<p id="gdcalert48" ><span style="color: red; font-weight: bold">>>>>>  gd2md-html alert: inline image link here (to images/image48.png). Store image on your image server and adjust path/filename/extension if necessary. </span><br>(<a href="#">Back to top</a>)(<a href="#gdcalert49">Next alert</a>)<br><span style="color: red; font-weight: bold">>>>>> </span></p>
-
-
-![alt_text](images/image48.png "image_tooltip")
-
-
+![](Images/datavisualizer/image20.png)
 
 ### End Part 6 - Perform Activity
 
-
-## 
-
-
 ## Part 7 - Cumulative Value Chart
-
 
 ### Use a line chart to create a cumulative chart
 
@@ -858,46 +559,23 @@ Sex: Add Male and Female
 
 Update
 
-
-
-<p id="gdcalert49" ><span style="color: red; font-weight: bold">>>>>>  gd2md-html alert: inline image link here (to images/image49.png). Store image on your image server and adjust path/filename/extension if necessary. </span><br>(<a href="#">Back to top</a>)(<a href="#gdcalert50">Next alert</a>)<br><span style="color: red; font-weight: bold">>>>>> </span></p>
-
-
-![alt_text](images/image49.png "image_tooltip")
-
-
+![](Images/datavisualizer/image19.png)
 
 ### Review the chart
 
 In this chart, we can see that the new number of females on ART is higher than males, but it is difficult to identify the gap over the entire 12 month period. It may be better to show this chart using **cumulative** values rather than raw data each month
 
-
 ### Change to a cumulative chart
 
 Go to options and select “Use cumulative values” and update the chart
 
-
-
-<p id="gdcalert50" ><span style="color: red; font-weight: bold">>>>>>  gd2md-html alert: inline image link here (to images/image50.png). Store image on your image server and adjust path/filename/extension if necessary. </span><br>(<a href="#">Back to top</a>)(<a href="#gdcalert51">Next alert</a>)<br><span style="color: red; font-weight: bold">>>>>> </span></p>
-
-
-![alt_text](images/image50.png "image_tooltip")
-
-
-
+![](Images/datavisualizer/image52.png)
 
 Update
 
-
-
-<p id="gdcalert51" ><span style="color: red; font-weight: bold">>>>>>  gd2md-html alert: inline image link here (to images/image51.png). Store image on your image server and adjust path/filename/extension if necessary. </span><br>(<a href="#">Back to top</a>)(<a href="#gdcalert52">Next alert</a>)<br><span style="color: red; font-weight: bold">>>>>> </span></p>
-
-
-![alt_text](images/image51.png "image_tooltip")
-
+![](Images/datavisualizer/image77.png)
 
 This is saved as “HIV - PLHIV new on ART - last 12 months (cumulative)” if you want to review the chart prior.
-
 
 ### Review the chart
 
@@ -905,153 +583,67 @@ Now we can really see the disparity, the new number of females on ART is roughly
 
 Additionally, we can see, as of the last month, the total number of new ART patients that have been registered over the last 12 month period. This was not possible when the cumulative values was not being used. Other time periods can be used to see the cumulative total over a defined period as well. You can have a small discussion about other charts that may be more impactful if they are using cumulative numbers.
 
-
 ### End Part 7 - Perform Activity
-
 
 ## Part 8 - Year over Year chart 
 
-
 ### Create a year-over-year chart
-
 
 ### Open the following chart - BCG Coverage YoY - 3 Year Comparison
 
-
-
-<p id="gdcalert52" ><span style="color: red; font-weight: bold">>>>>>  gd2md-html alert: inline image link here (to images/image52.png). Store image on your image server and adjust path/filename/extension if necessary. </span><br>(<a href="#">Back to top</a>)(<a href="#gdcalert53">Next alert</a>)<br><span style="color: red; font-weight: bold">>>>>> </span></p>
-
-
-![alt_text](images/image52.png "image_tooltip")
-
+![](Images/datavisualizer/image81.png)
 
 This is a year-over-year chart, a new chart type introduced in DHIS 2.31. A year over year chart can be used to more easily compare data over time from multiple periods. These type of charts allow you to select two period types and compare the data within them. In this example, we are displaying data for BCG coverage for all 12 months within a year for 2018, 2018 and 2020. Here we can easily identify improvements in coverage from month to month between the different years.
 
-
-### 
-
-
 ### Switch to the favorite: BCG Coverage by month - BCG Coverage by month - 2018 - 2020
 
-
-
-<p id="gdcalert53" ><span style="color: red; font-weight: bold">>>>>>  gd2md-html alert: inline image link here (to images/image53.png). Store image on your image server and adjust path/filename/extension if necessary. </span><br>(<a href="#">Back to top</a>)(<a href="#gdcalert54">Next alert</a>)<br><span style="color: red; font-weight: bold">>>>>> </span></p>
-
-
-![alt_text](images/image53.png "image_tooltip")
-
+![](Images/datavisualizer/image62.png)
 
 If we compare this with a regular line chart, we are still able to identify these differences but it is not nearly as intuitive. If we want to see the difference in coverage between January 2018, January 2019 and January 2020 we will have refer back to each point on the chart. 
-
 
 ### Switch back to the year-over-year chart: BCG Coverage YoY - 3 Year Comparison
 
 In the year over year chart, this type of comparison is made much easier. Let us get into the details of how this chart type is made. Make a duplicate tab and keep this chart open so you can keep referring to as you make the new chart.
 
-
 ### Select the YoY Chart Type
 
 In order to get started in creating a year over year chart, we first have to select a year-over-year chart type that we would like to use. In this example, we will work with the year over year line chart type. Remember to keep the final chart open in a separate tab.
-
-
-
-<p id="gdcalert54" ><span style="color: red; font-weight: bold">>>>>>  gd2md-html alert: inline image link here (to images/image54.png). Store image on your image server and adjust path/filename/extension if necessary. </span><br>(<a href="#">Back to top</a>)(<a href="#gdcalert55">Next alert</a>)<br><span style="color: red; font-weight: bold">>>>>> </span></p>
-
-
-![alt_text](images/image54.png "image_tooltip")
-
-
-
-### 
-
+![](Images/datavisualizer/image7.png)
 
 ### Explain the interface - Period selection and filter
 
 After we select this chart type, we can see that both the category and the series are automatically populated with period types. The period selection on the left menu where other dimensions are selected is also greyed out. Organisation units and data are automatically placed in the filter. For this reason, this chart type works best when only one data item is selected for comparison. Multiple org units can be used in the filter however depending on what you want displayed (it will filter the data belonging to these org units).
-
-
-### 
-
+![](Images/datavisualizer/image51.png)
 
 ### Explain the interface - Category
 
 In the example of the line chart, the category determines the periods that will be displayed along the x-axis and group the data together. So with “months per year” selected, all the months within a year from January - December will be displayed. If we were to select “Quarters per year” it would instead display the 4 quarters of a year along the x-axis.
 
-
-
-<p id="gdcalert55" ><span style="color: red; font-weight: bold">>>>>>  gd2md-html alert: inline image link here (to images/image55.png). Store image on your image server and adjust path/filename/extension if necessary. </span><br>(<a href="#">Back to top</a>)(<a href="#gdcalert56">Next alert</a>)<br><span style="color: red; font-weight: bold">>>>>> </span></p>
-
-
-![alt_text](images/image55.png "image_tooltip")
-
-
-
+![](Images/datavisualizer/image56.png)
 
 You will notice that the selections in the categories are all relative periods, you can not select for example specific months in the category in this chart type.
 
-
-
-<p id="gdcalert56" ><span style="color: red; font-weight: bold">>>>>>  gd2md-html alert: inline image link here (to images/image56.png). Store image on your image server and adjust path/filename/extension if necessary. </span><br>(<a href="#">Back to top</a>)(<a href="#gdcalert57">Next alert</a>)<br><span style="color: red; font-weight: bold">>>>>> </span></p>
-
-
-![alt_text](images/image56.png "image_tooltip")
-
-
-
-### 
-
+![](Images/datavisualizer/image25.png)
 
 ### Explain the interface - Series 
 
 The series determines for which years you will be displaying data for. If I have this year and last year selected, it will display data from 2021 and 2020 respectively. I can also specify years rather than a relative period, for example 2018, 2019 and 2020.
 
-
-## 
-
-<p id="gdcalert57" ><span style="color: red; font-weight: bold">>>>>>  gd2md-html alert: inline image link here (to images/image57.png). Store image on your image server and adjust path/filename/extension if necessary. </span><br>(<a href="#">Back to top</a>)(<a href="#gdcalert58">Next alert</a>)<br><span style="color: red; font-weight: bold">>>>>> </span></p>
-
-
-![alt_text](images/image57.png "image_tooltip")
-
-
-
-## 
+![](Images/datavisualizer/image75.png)
 
 With these two options selected I am now creating a chart which will display data from January - December (due to the category selection) along the x-axis. And with 2018, 2019 and 2020 selected as my series, data values from these 3 years will be displayed by month on the year over year chart.
 
-
-
-<p id="gdcalert58" ><span style="color: red; font-weight: bold">>>>>>  gd2md-html alert: inline image link here (to images/image58.png). Store image on your image server and adjust path/filename/extension if necessary. </span><br>(<a href="#">Back to top</a>)(<a href="#gdcalert59">Next alert</a>)<br><span style="color: red; font-weight: bold">>>>>> </span></p>
-
-
-![alt_text](images/image58.png "image_tooltip")
-
-
-
-
+![](Images/datavisualizer/image81.png)
 
 ### Explain the interface - Data
 
 When selecting data, it is best to only select one data item. These could be supplemented by choosing groups or disaggregations to further filter the data by, however as the data selection is automatically added to the filter and can not be moved, adding in more than one data item will have no effect on the chart.
 
-
-
-<p id="gdcalert59" ><span style="color: red; font-weight: bold">>>>>>  gd2md-html alert: inline image link here (to images/image59.png). Store image on your image server and adjust path/filename/extension if necessary. </span><br>(<a href="#">Back to top</a>)(<a href="#gdcalert60">Next alert</a>)<br><span style="color: red; font-weight: bold">>>>>> </span></p>
-
-
-![alt_text](images/image59.png "image_tooltip")
-
+![](Images/datavisualizer/image72.png)
 
 If I have two or more data items selected, it will use the top most item to generate the year over year chart and ignore any of the data items below it. It is therefore recommended to select one data item.
 
-
-
-<p id="gdcalert60" ><span style="color: red; font-weight: bold">>>>>>  gd2md-html alert: inline image link here (to images/image60.png). Store image on your image server and adjust path/filename/extension if necessary. </span><br>(<a href="#">Back to top</a>)(<a href="#gdcalert61">Next alert</a>)<br><span style="color: red; font-weight: bold">>>>>> </span></p>
-
-
-![alt_text](images/image60.png "image_tooltip")
-
-
+![](Images/datavisualizer/image80.png)
 
 ### Update and review the chart
 
@@ -1061,49 +653,24 @@ We can see how the chart has been generated based on our category and series per
 
 The series has determined which years we are displaying data for, while the category determines how to group the data along the x-axis.
 
-
-
-<p id="gdcalert61" ><span style="color: red; font-weight: bold">>>>>>  gd2md-html alert: inline image link here (to images/image61.png). Store image on your image server and adjust path/filename/extension if necessary. </span><br>(<a href="#">Back to top</a>)(<a href="#gdcalert62">Next alert</a>)<br><span style="color: red; font-weight: bold">>>>>> </span></p>
-
-
-![alt_text](images/image61.png "image_tooltip")
-
+![](Images/datavisualizer/image40.png)
 
 We could quickly change the category to “Quarters per year” in order to show how this category selection effects how the data is grouped together. After we make this change we can see that the quarters in a year are displayed along the x-axis and group the data from the 3 selected years together rather than using the months in a year. 
 
-
-
-<p id="gdcalert62" ><span style="color: red; font-weight: bold">>>>>>  gd2md-html alert: inline image link here (to images/image62.png). Store image on your image server and adjust path/filename/extension if necessary. </span><br>(<a href="#">Back to top</a>)(<a href="#gdcalert63">Next alert</a>)<br><span style="color: red; font-weight: bold">>>>>> </span></p>
-
-
-![alt_text](images/image62.png "image_tooltip")
-
+![](Images/datavisualizer/image37.png)
 
 This type of chart is much more intuitive in reviewing variances in data from year-to-year and we look forward to receiving feedback on how these chart types are being used in practice. 
 
 
 ### End Part 8 - Perform Activity
 
-
-## 
-
-
 ## Part 9 - 2-category charts
-
 
 ### Review the chart “RMNCAH - Institutional Delivery by Locality - Last 12 Months”
 
-
-
-<p id="gdcalert63" ><span style="color: red; font-weight: bold">>>>>>  gd2md-html alert: inline image link here (to images/image63.png). Store image on your image server and adjust path/filename/extension if necessary. </span><br>(<a href="#">Back to top</a>)(<a href="#gdcalert64">Next alert</a>)<br><span style="color: red; font-weight: bold">>>>>> </span></p>
-
-
-![alt_text](images/image63.png "image_tooltip")
-
+![](Images/datavisualizer/image24.png)
 
 This is a 2-category chart. It receives its name as you can add 2 dimensions to the category. It is not a specific chart type, as this can be applied to a number of different chart types. These chart types include:
-
-
 
 * Column
 * Stacked column
@@ -1117,20 +684,11 @@ This chart shows institutional delivery rate, and has both the period and locali
 
 You can swap the period and locality to show the effect of this by updating the chart.
 
-
-
-<p id="gdcalert64" ><span style="color: red; font-weight: bold">>>>>>  gd2md-html alert: inline image link here (to images/image64.png). Store image on your image server and adjust path/filename/extension if necessary. </span><br>(<a href="#">Back to top</a>)(<a href="#gdcalert65">Next alert</a>)<br><span style="color: red; font-weight: bold">>>>>> </span></p>
-
-
-![alt_text](images/image64.png "image_tooltip")
- 
-
+![](Images/datavisualizer/image55.png)
 
 ### Clear the chart and make a new one
 
 Clear the chart and select column as the chart type. Select the data, period and organisaiton units as usual.
-
-
 
 * Data : RMNCAH - Institutional delivery rate (%) [Indicator group : RMNCAH]
 * Period : Last 12 months
@@ -1138,66 +696,29 @@ Clear the chart and select column as the chart type. Select the data, period and
 
 Update the chart, nothing special so far.
 
-
-
-<p id="gdcalert65" ><span style="color: red; font-weight: bold">>>>>>  gd2md-html alert: inline image link here (to images/image65.png). Store image on your image server and adjust path/filename/extension if necessary. </span><br>(<a href="#">Back to top</a>)(<a href="#gdcalert66">Next alert</a>)<br><span style="color: red; font-weight: bold">>>>>> </span></p>
-
-
-![alt_text](images/image65.png "image_tooltip")
-
+![](Images/datavisualizer/image6.png)
 
 Add in the Urban/Rural org unit groups to the category.
 
-
-
-<p id="gdcalert66" ><span style="color: red; font-weight: bold">>>>>>  gd2md-html alert: inline image link here (to images/image66.png). Store image on your image server and adjust path/filename/extension if necessary. </span><br>(<a href="#">Back to top</a>)(<a href="#gdcalert67">Next alert</a>)<br><span style="color: red; font-weight: bold">>>>>> </span></p>
-
-
-![alt_text](images/image66.png "image_tooltip")
- 
+![](Images/datavisualizer/image69.png)
 
 Now you will see the chart using 2-categories. As discussed, this follows our order that is in the layout.
 
-
-
-<p id="gdcalert67" ><span style="color: red; font-weight: bold">>>>>>  gd2md-html alert: inline image link here (to images/image67.png). Store image on your image server and adjust path/filename/extension if necessary. </span><br>(<a href="#">Back to top</a>)(<a href="#gdcalert68">Next alert</a>)<br><span style="color: red; font-weight: bold">>>>>> </span></p>
-
-
-![alt_text](images/image67.png "image_tooltip")
-
-
+![](Images/datavisualizer/image1.png)
 
 ### Swap the order of the period and locality in the category and change to an area chart
 
 A line chart or bar chart would also be appropriate to display this data.
 
-
-
-<p id="gdcalert68" ><span style="color: red; font-weight: bold">>>>>>  gd2md-html alert: inline image link here (to images/image68.png). Store image on your image server and adjust path/filename/extension if necessary. </span><br>(<a href="#">Back to top</a>)(<a href="#gdcalert69">Next alert</a>)<br><span style="color: red; font-weight: bold">>>>>> </span></p>
-
-
-![alt_text](images/image68.png "image_tooltip")
-
-
+![](Images/datavisualizer/image67.png)
 
 ### End Part 9 - Perform Activity
 
-
-## 
-
-
 ## Part 10 - Combination Charts
-
 
 ### Review the chart “EPI - BCG Doses Given, Coverage - Last 12 Months”
 
-
-
-<p id="gdcalert69" ><span style="color: red; font-weight: bold">>>>>>  gd2md-html alert: inline image link here (to images/image69.png). Store image on your image server and adjust path/filename/extension if necessary. </span><br>(<a href="#">Back to top</a>)(<a href="#gdcalert70">Next alert</a>)<br><span style="color: red; font-weight: bold">>>>>> </span></p>
-
-
-![alt_text](images/image69.png "image_tooltip")
-
+![](Images/datavisualizer/image18.png)
 
 This is a combination chart. This feature allows you to combine a line and column chart together within the same visualization. In addition, we can assign data values to different axes. DHIS2 now supports up to 4 different vertical axes. 
 
@@ -1208,8 +729,6 @@ We are using the chart shown to compare the number of doses given (blue columns,
 
 Create a column chart with the following inputs:
 
-
-
 * Data 
     * EPI - BCG doses given [DE group : Immunization Vaccinations]
     * EPI - BCG Coverage (%) [Indicator group : Immunization - coverages]
@@ -1217,93 +736,43 @@ Create a column chart with the following inputs:
 * Org unit : Trainingland
 
 Update the chart. We can see the different scales of the two data values negatively affect the output of the chart and make it difficult to relate the values to one another.
-
-
-
-<p id="gdcalert70" ><span style="color: red; font-weight: bold">>>>>>  gd2md-html alert: inline image link here (to images/image70.png). Store image on your image server and adjust path/filename/extension if necessary. </span><br>(<a href="#">Back to top</a>)(<a href="#gdcalert71">Next alert</a>)<br><span style="color: red; font-weight: bold">>>>>> </span></p>
-
-
-![alt_text](images/image70.png "image_tooltip")
-
-
+![](Images/datavisualizer/image36.png)
 
 ### Modify the series in the chart options
 
 Go to Options - Series. Modify the coverage indicator to be a line chart, and move it to 2nd axis. Explain all these steps as you perform them.
 
 
-
-<p id="gdcalert71" ><span style="color: red; font-weight: bold">>>>>>  gd2md-html alert: inline image link here (to images/image71.png). Store image on your image server and adjust path/filename/extension if necessary. </span><br>(<a href="#">Back to top</a>)(<a href="#gdcalert72">Next alert</a>)<br><span style="color: red; font-weight: bold">>>>>> </span></p>
-
-
-![alt_text](images/image71.png "image_tooltip")
-
+![](Images/datavisualizer/image76.png)
 
 Update the chart. Now we have the output we are looking for.
 
-
-### 
-
-<p id="gdcalert72" ><span style="color: red; font-weight: bold">>>>>>  gd2md-html alert: inline image link here (to images/image72.png). Store image on your image server and adjust path/filename/extension if necessary. </span><br>(<a href="#">Back to top</a>)(<a href="#gdcalert73">Next alert</a>)<br><span style="color: red; font-weight: bold">>>>>> </span></p>
-
-
-![alt_text](images/image72.png "image_tooltip")
-
-
+![](Images/datavisualizer/image18.png)
 
 ### Label the axes
 
 Using the chart options, label both of the y-axes
 
-
-
-<p id="gdcalert73" ><span style="color: red; font-weight: bold">>>>>>  gd2md-html alert: inline image link here (to images/image73.png). Store image on your image server and adjust path/filename/extension if necessary. </span><br>(<a href="#">Back to top</a>)(<a href="#gdcalert74">Next alert</a>)<br><span style="color: red; font-weight: bold">>>>>> </span></p>
-
-
-![alt_text](images/image73.png "image_tooltip")
-
-
+![](Images/datavisualizer/image53.png)
 
 ### Add a 2nd category to the chart
 
 We can also combine the features of 2-category charts with those of combination charts. Add in the Urban/Rural org unit groups to the category
 
-
-
-<p id="gdcalert74" ><span style="color: red; font-weight: bold">>>>>>  gd2md-html alert: inline image link here (to images/image74.png). Store image on your image server and adjust path/filename/extension if necessary. </span><br>(<a href="#">Back to top</a>)(<a href="#gdcalert75">Next alert</a>)<br><span style="color: red; font-weight: bold">>>>>> </span></p>
-
-
-![alt_text](images/image74.png "image_tooltip")
-
+![](Images/datavisualizer/image69.png)
 
 And modify the category order in the layout.
 
 You can see that we are able to combine these 2 features together. 
-
-
-
-<p id="gdcalert75" ><span style="color: red; font-weight: bold">>>>>>  gd2md-html alert: inline image link here (to images/image75.png). Store image on your image server and adjust path/filename/extension if necessary. </span><br>(<a href="#">Back to top</a>)(<a href="#gdcalert76">Next alert</a>)<br><span style="color: red; font-weight: bold">>>>>> </span></p>
-
-
-![alt_text](images/image75.png "image_tooltip")
-
-
+![](Images/datavisualizer/image33.png)
 
 ### End Part 10  - Perform Activity
 
-
 ## Part 11 - Scatterplots
-
 
 ### Review the chart “RMNCAH - ANC1 - ANC4 Outlier Analysis - Last Year”
 
-
-
-<p id="gdcalert76" ><span style="color: red; font-weight: bold">>>>>>  gd2md-html alert: inline image link here (to images/image76.png). Store image on your image server and adjust path/filename/extension if necessary. </span><br>(<a href="#">Back to top</a>)(<a href="#gdcalert77">Next alert</a>)<br><span style="color: red; font-weight: bold">>>>>> </span></p>
-
-
-![alt_text](images/image76.png "image_tooltip")
-
+![](Images/datavisualizer/image71.png)
 
 This is a scatterplot in which an outlier analysis at the facility level is being performed. The two variables on this chart are related to one another - ANC 1 and ANC 4 - and this is why you can see many of the values so closely clustered together in green colour. 
 
@@ -1312,105 +781,45 @@ Outlier analysis using scatterplots allows you to identify if related values fit
 These scatterplots can use several methods to identify these outliers, and each of these methods have different levels of sensitivity (ie. each one will detect more or less outliers based on their calculation). The different methods currently available are :
 
 
-
 * Interquartile range
 * Z-score
 * Modified z-score
 
 Z-score has been included as it is a well understood method; however it is the least sensitive of the 3 methods and it is recommended to use either interquartile range or modified z-score to detect your outliers. 
 
-
 ### Create a scatterplot
 
 Clear the chart by selecting File -> New. Start the process by selecting the scatterplot from the visualization selector.
 
-
-
-<p id="gdcalert77" ><span style="color: red; font-weight: bold">>>>>>  gd2md-html alert: inline image link here (to images/image77.png). Store image on your image server and adjust path/filename/extension if necessary. </span><br>(<a href="#">Back to top</a>)(<a href="#gdcalert78">Next alert</a>)<br><span style="color: red; font-weight: bold">>>>>> </span></p>
-
-
-![alt_text](images/image77.png "image_tooltip")
-
+![](Images/datavisualizer/image35.png)
 
 Review the layout after selecting this chart type. Certain items are locked which differentiates it from a number of charts. You must select data items for both the vertical (Y) and horizontal (X) axes of the chart. The points will also always be org units. As discussed, you should select related data items for this type of chart. If you select unrelated data items, your output is unlikely to be useful.
 
-
-
-<p id="gdcalert78" ><span style="color: red; font-weight: bold">>>>>>  gd2md-html alert: inline image link here (to images/image78.png). Store image on your image server and adjust path/filename/extension if necessary. </span><br>(<a href="#">Back to top</a>)(<a href="#gdcalert79">Next alert</a>)<br><span style="color: red; font-weight: bold">>>>>> </span></p>
-
-
-![alt_text](images/image78.png "image_tooltip")
-
-
-
+![](Images/datavisualizer/image70.png)
 
 Select your vertical and horizontal data. We will select ANC 1 and ANC 4 as they are related (you will typically see less ANC4 than ANC1 within an identified period for example). 
-
-
-
-<p id="gdcalert79" ><span style="color: red; font-weight: bold">>>>>>  gd2md-html alert: inline image link here (to images/image79.png). Store image on your image server and adjust path/filename/extension if necessary. </span><br>(<a href="#">Back to top</a>)(<a href="#gdcalert80">Next alert</a>)<br><span style="color: red; font-weight: bold">>>>>> </span></p>
-
-
-![alt_text](images/image79.png "image_tooltip")
-
-
-
-
-<p id="gdcalert80" ><span style="color: red; font-weight: bold">>>>>>  gd2md-html alert: inline image link here (to images/image80.png). Store image on your image server and adjust path/filename/extension if necessary. </span><br>(<a href="#">Back to top</a>)(<a href="#gdcalert81">Next alert</a>)<br><span style="color: red; font-weight: bold">>>>>> </span></p>
-
-
-![alt_text](images/image80.png "image_tooltip")
-
-
-
+![](Images/datavisualizer/image90.png)
+![](Images/datavisualizer/image13.png)
 
 Select your org unit (in this case all facilities)
 
-
-
-<p id="gdcalert81" ><span style="color: red; font-weight: bold">>>>>>  gd2md-html alert: inline image link here (to images/image81.png). Store image on your image server and adjust path/filename/extension if necessary. </span><br>(<a href="#">Back to top</a>)(<a href="#gdcalert82">Next alert</a>)<br><span style="color: red; font-weight: bold">>>>>> </span></p>
-
-
-![alt_text](images/image81.png "image_tooltip")
-
+![](Images/datavisualizer/image85.png)
 
 Select your period
 
-
-
-<p id="gdcalert82" ><span style="color: red; font-weight: bold">>>>>>  gd2md-html alert: inline image link here (to images/image82.png). Store image on your image server and adjust path/filename/extension if necessary. </span><br>(<a href="#">Back to top</a>)(<a href="#gdcalert83">Next alert</a>)<br><span style="color: red; font-weight: bold">>>>>> </span></p>
-
-
-![alt_text](images/image82.png "image_tooltip")
-
-
-
+![](Images/datavisualizer/image12.png)
 
 Update your chart.
 
-
-
-<p id="gdcalert83" ><span style="color: red; font-weight: bold">>>>>>  gd2md-html alert: inline image link here (to images/image83.png). Store image on your image server and adjust path/filename/extension if necessary. </span><br>(<a href="#">Back to top</a>)(<a href="#gdcalert84">Next alert</a>)<br><span style="color: red; font-weight: bold">>>>>> </span></p>
-
-
-![alt_text](images/image83.png "image_tooltip")
-
+![](Images/datavisualizer/image49.png)
 
 You will now see the scatterplot between these two related items. We can see how they are clustered closely in the bottom left corner of the chart as this is where the majority of values lie. We have not yet added our outlier information to this chart; we can do this as a next step.
 
-
 ### Add outlier details
 
-To add in the outlier details select the chart options and the “outliers” section. 
+To add in the outlier details select the chart options and the “outliers” section.
 
-
-
-<p id="gdcalert84" ><span style="color: red; font-weight: bold">>>>>>  gd2md-html alert: inline image link here (to images/image84.png). Store image on your image server and adjust path/filename/extension if necessary. </span><br>(<a href="#">Back to top</a>)(<a href="#gdcalert85">Next alert</a>)<br><span style="color: red; font-weight: bold">>>>>> </span></p>
-
-
-![alt_text](images/image84.png "image_tooltip")
-
-
+![](Images/datavisualizer/image2.png) 
 
 
 Enable both the outlier analysis as well as the extreme lines. 
@@ -1421,53 +830,19 @@ Participants do not need to completely understand this method of outlier detecti
 
 You can also select the “Extreme lines” option. This will help you to identify the most extreme outlier values that are potential sources of error. 
 
-<p id="gdcalert85" ><span style="color: red; font-weight: bold">>>>>>  gd2md-html alert: inline image link here (to images/image85.png). Store image on your image server and adjust path/filename/extension if necessary. </span><br>(<a href="#">Back to top</a>)(<a href="#gdcalert86">Next alert</a>)<br><span style="color: red; font-weight: bold">>>>>> </span></p>
-
-
-![alt_text](images/image85.png "image_tooltip")
-
-
-
+![](Images/datavisualizer/image41.png)
 
 After selecting these options, update your chart.
 
-
-
-<p id="gdcalert86" ><span style="color: red; font-weight: bold">>>>>>  gd2md-html alert: inline image link here (to images/image86.png). Store image on your image server and adjust path/filename/extension if necessary. </span><br>(<a href="#">Back to top</a>)(<a href="#gdcalert87">Next alert</a>)<br><span style="color: red; font-weight: bold">>>>>> </span></p>
-
-
-![alt_text](images/image86.png "image_tooltip")
-
+![](Images/datavisualizer/image71.png)
 
 Let us review how we can interpret our output. First, let us zoom in on our cluster of values to review them more closely. We can do this by dragging our mouse cursor over the area we want to zoom into.
 
-
-
-<p id="gdcalert87" ><span style="color: red; font-weight: bold">>>>>>  gd2md-html alert: inline image link here (to images/image87.png). Store image on your image server and adjust path/filename/extension if necessary. </span><br>(<a href="#">Back to top</a>)(<a href="#gdcalert88">Next alert</a>)<br><span style="color: red; font-weight: bold">>>>>> </span></p>
-
-
-![alt_text](images/image87.png "image_tooltip")
-
+![](Images/datavisualizer/image74.png)
 
 We can reset the zoom if needed by selecting “reset zoom” after we have zoomed in
 
-
-
-<p id="gdcalert88" ><span style="color: red; font-weight: bold">>>>>>  gd2md-html alert: inline image link here (to images/image88.png). Store image on your image server and adjust path/filename/extension if necessary. </span><br>(<a href="#">Back to top</a>)(<a href="#gdcalert89">Next alert</a>)<br><span style="color: red; font-weight: bold">>>>>> </span></p>
-
-
-![alt_text](images/image88.png "image_tooltip")
-
-
-Review one of the outlier values highlighted in red
-
-
-
-<p id="gdcalert89" ><span style="color: red; font-weight: bold">>>>>>  gd2md-html alert: inline image link here (to images/image89.png). Store image on your image server and adjust path/filename/extension if necessary. </span><br>(<a href="#">Back to top</a>)(<a href="#gdcalert90">Next alert</a>)<br><span style="color: red; font-weight: bold">>>>>> </span></p>
-
-
-![alt_text](images/image89.png "image_tooltip")
-
+![](Images/datavisualizer/image30.png)
 
 The model for this data is very narrow (ie, most values are closely clustered together); however we see some values that are quite far outside of the outlier boundaries. Neither of these values on its own may be considered an outlier (there are other ANC 1 values that are higher, and other ANC4 values that are higher); however, this value pairing lies outside of the range of 1% of the total y values (which represents ANC1). This is because a typical ANC4 value in this range has a much lower ANC1 value in comparison when reviewing the majority of the other data values.
 
