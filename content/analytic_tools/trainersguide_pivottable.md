@@ -68,8 +68,10 @@ Make sure the resolution is OK for zooming in the Data visualizer with layout an
 - [Preparations](#preparations)
 - [Quick Access Guide](#quick-access-guide)
 - [Step-by-Step Demo](#step-by-step-demo)
-    - [**Part 1**- **Access t**he\*\* **Data Visualizer** App and Modify the \*\*Dimensions after opening a saved item](#part-1--access-the-data-visualizer-app-and-modify-the-dimensions-after-opening-a-saved-item)
+    - [**Part 1**- **Access the Data Visualizer App and Modify the Dimensions after opening a saved item**](#part-1--access-the-data-visualizer-app-and-modify-the-dimensions-after-opening-a-saved-item)
       - [Review the table](#review-the-table)
+      - [Modify the Data](#modify-the-data)
+      - [Review the Periods](#review-the-periods)
       - [Review Organisation Units](#review-organisation-units)
     - [Part 2 - Table Layout, Options, Sorting and Saving](#part-2---table-layout-options-sorting-and-saving)
       - [Table Options](#table-options)
@@ -85,8 +87,8 @@ Make sure the resolution is OK for zooming in the Data visualizer with layout an
     - [Part 6 - Demonstrate Number Type, Measure Criteria, Sharing](#part-6---demonstrate-number-type-measure-criteria-sharing)
       - [Number Type](#number-type)
       - [Filtering the Table](#filtering-the-table)
-      - [\*\*Share \*\*Favorites](#share-favorites)
-    - [\*\*Part \*\*7 - **Working with Legends, Drilling Down**](#part-7---working-with-legends-drilling-down)
+      - [**Share** Favorites](#share-favorites)
+    - [**Part-7**Working with Legends, Drilling Down\*\*](#part-7working-with-legends-drilling-down)
       - [Legends](#legends)
       - [**Drill Down**](#drill-down)
     - [Part 8 - Freeze rows/columns](#part-8---freeze-rowscolumns)
@@ -256,24 +258,18 @@ Click on options. Explain each option as you use it.
 **From the “Style” tab**
 
 * Modify the table title/font size
-* 
+
 ![](Images/pivottable/image13.png)
 
 **Update **the table and review how the changes have affected the table
 
+![](Images/pivottable/image10.png)
 
 #### Sorting
 
 Click on the column header for one of the months to show how you can sort the table.
 
-
-
-<p id="gdcalert16" ><span style="color: red; font-weight: bold">>>>>>  gd2md-html alert: inline image link here (to images/image16.png). Store image on your image server and adjust path/filename/extension if necessary. </span><br>(<a href="#">Back to top</a>)(<a href="#gdcalert17">Next alert</a>)<br><span style="color: red; font-weight: bold">>>>>> </span></p>
-
-
-![alt_text](images/image16.png "image_tooltip")
-
-
+![](Images/pivottable/image5.png)
 
 #### Saving
 
@@ -281,41 +277,22 @@ Now, let’s save the table!
 
 Please use the convention (Username - Program: What - Where - When; for example SND_HIV - HIV tests performed - Public Facilities - Last 6 months). **Note that username is only for the academy to keep the name unique, in production systems you should not need to use your username as a prefix as you can easily filter out the saved items that you have made.**
 
-
-
-<p id="gdcalert17" ><span style="color: red; font-weight: bold">>>>>>  gd2md-html alert: inline image link here (to images/image17.png). Store image on your image server and adjust path/filename/extension if necessary. </span><br>(<a href="#">Back to top</a>)(<a href="#gdcalert18">Next alert</a>)<br><span style="color: red; font-weight: bold">>>>>> </span></p>
-
-
-![alt_text](images/image17.png "image_tooltip")
-
-
+![](Images/pivottable/image16.png)
 
 ### **Part **3 - **Disaggregations / Group Sets**
 
 Demonstrate the additional dimensions present in the pivot table for this instance. This is closely tied to how DHIS2 is configured and will be different for every implementation.
 
-
-
-<p id="gdcalert18" ><span style="color: red; font-weight: bold">>>>>>  gd2md-html alert: inline image link here (to images/image18.png). Store image on your image server and adjust path/filename/extension if necessary. </span><br>(<a href="#">Back to top</a>)(<a href="#gdcalert19">Next alert</a>)<br><span style="color: red; font-weight: bold">>>>>> </span></p>
-
-
-![alt_text](images/image18.png "image_tooltip")
+![](Images/pivottable/image7.png)
 
 
 Note that there is a mix of categories (data disaggregation), organisation unit group sets and data element group sets. Unfortunately there are no clear icons that differentiate them. There are however green dots besides the name of some of these dimensions. This means the selected data item will be compatible with those data dimensions at minimum. It does have some difficulty identifying categories correctly; however does work correctly with org unit groups. We will focus on using categories and organisation unit group sets to analyze our data in this example.
-
 
 #### Add in the sex dimension
 
 Note that this requires being familiar with the disaggregation that is linked to the data element. You can show them how to do this relatively easily by having the HIV data set open in data entry.
 
-
-
-<p id="gdcalert19" ><span style="color: red; font-weight: bold">>>>>>  gd2md-html alert: inline image link here (to images/image19.png). Store image on your image server and adjust path/filename/extension if necessary. </span><br>(<a href="#">Back to top</a>)(<a href="#gdcalert20">Next alert</a>)<br><span style="color: red; font-weight: bold">>>>>> </span></p>
-
-
-![alt_text](images/image19.png "image_tooltip")
-
+![](Images/pivottable/image37.png)
 
 Let’s update the table with the following criteria.
 
@@ -328,92 +305,37 @@ organisation unit: Bird District, Level: facility
 Table options : Hide empty columns, show row totals, show column totals
 
 Add the sex disaggregation as an additional dimension.
-
-
-
-<p id="gdcalert20" ><span style="color: red; font-weight: bold">>>>>>  gd2md-html alert: inline image link here (to images/image20.png). Store image on your image server and adjust path/filename/extension if necessary. </span><br>(<a href="#">Back to top</a>)(<a href="#gdcalert21">Next alert</a>)<br><span style="color: red; font-weight: bold">>>>>> </span></p>
-
-
-![alt_text](images/image20.png "image_tooltip")
-
+![](Images/pivottable/image12.png)
 
 Click on update. Demonstrate the output. Explain the table that is displayed.
 
-
-
-<p id="gdcalert21" ><span style="color: red; font-weight: bold">>>>>>  gd2md-html alert: inline image link here (to images/image21.png). Store image on your image server and adjust path/filename/extension if necessary. </span><br>(<a href="#">Back to top</a>)(<a href="#gdcalert22">Next alert</a>)<br><span style="color: red; font-weight: bold">>>>>> </span></p>
-
-
-![alt_text](images/image21.png "image_tooltip")
-
-
-
-#### 
-
+![](Images/pivottable/image32.png)
 
 #### Add in PHC, Dispensary and Health Centre from the Type dimension
 
-
-
-<p id="gdcalert22" ><span style="color: red; font-weight: bold">>>>>>  gd2md-html alert: inline image link here (to images/image22.png). Store image on your image server and adjust path/filename/extension if necessary. </span><br>(<a href="#">Back to top</a>)(<a href="#gdcalert23">Next alert</a>)<br><span style="color: red; font-weight: bold">>>>>> </span></p>
-
-
-![alt_text](images/image22.png "image_tooltip")
-
-
-
+![](Images/pivottable/image15.png)
 
 Alter the table layout as follows.
 
-
-
-<p id="gdcalert23" ><span style="color: red; font-weight: bold">>>>>>  gd2md-html alert: inline image link here (to images/image23.png). Store image on your image server and adjust path/filename/extension if necessary. </span><br>(<a href="#">Back to top</a>)(<a href="#gdcalert24">Next alert</a>)<br><span style="color: red; font-weight: bold">>>>>> </span></p>
-
-
-![alt_text](images/image23.png "image_tooltip")
-
+![](Images/pivottable/image34.png)
 
 Ensure the “Hide empty rows” option is selected
 
 Update the table
 
-
-### 
-
-<p id="gdcalert24" ><span style="color: red; font-weight: bold">>>>>>  gd2md-html alert: inline image link here (to images/image24.png). Store image on your image server and adjust path/filename/extension if necessary. </span><br>(<a href="#">Back to top</a>)(<a href="#gdcalert25">Next alert</a>)<br><span style="color: red; font-weight: bold">>>>>> </span></p>
-
-
-![alt_text](images/image24.png "image_tooltip")
-
-
-
-### 
-
+![](Images/pivottable/image49.png)
 
 ### Part 4 - Additional Table Options
-
 
 #### **Row/Column Totals/Subtotals**
 
 Check show column subtotals in options within the “Data” tab and explain the usefulness here.
 
-
-
-<p id="gdcalert25" ><span style="color: red; font-weight: bold">>>>>>  gd2md-html alert: inline image link here (to images/image25.png). Store image on your image server and adjust path/filename/extension if necessary. </span><br>(<a href="#">Back to top</a>)(<a href="#gdcalert26">Next alert</a>)<br><span style="color: red; font-weight: bold">>>>>> </span></p>
-
-
-![alt_text](images/image25.png "image_tooltip")
-
+![](Images/pivottable/image38.png)
 
 Click **Update **and you should see the table like below.
 
-
-
-<p id="gdcalert26" ><span style="color: red; font-weight: bold">>>>>>  gd2md-html alert: inline image link here (to images/image26.png). Store image on your image server and adjust path/filename/extension if necessary. </span><br>(<a href="#">Back to top</a>)(<a href="#gdcalert27">Next alert</a>)<br><span style="color: red; font-weight: bold">>>>>> </span></p>
-
-
-![alt_text](images/image26.png "image_tooltip")
-
+![](Images/pivottable/image44.png)
 
 See for each facility type you will have subtotals available down the column. This shows you, by sex, the total number of HIV tests performed within a particular period for that facility type. 
 
@@ -424,82 +346,38 @@ Sometimes it is worthwhile to have the entire hierarchy displayed in the table r
 
 Click on options, navigate to the “Style” tab and select show hierarchy
 
-
-
-<p id="gdcalert27" ><span style="color: red; font-weight: bold">>>>>>  gd2md-html alert: inline image link here (to images/image27.png). Store image on your image server and adjust path/filename/extension if necessary. </span><br>(<a href="#">Back to top</a>)(<a href="#gdcalert28">Next alert</a>)<br><span style="color: red; font-weight: bold">>>>>> </span></p>
-
-
-![alt_text](images/image27.png "image_tooltip")
-
+![](Images/pivottable/image40.png)
 
 Click **update**. This will give you the following output.
 
-
-
-<p id="gdcalert28" ><span style="color: red; font-weight: bold">>>>>>  gd2md-html alert: inline image link here (to images/image28.png). Store image on your image server and adjust path/filename/extension if necessary. </span><br>(<a href="#">Back to top</a>)(<a href="#gdcalert29">Next alert</a>)<br><span style="color: red; font-weight: bold">>>>>> </span></p>
-
-
-![alt_text](images/image28.png "image_tooltip")
-
+![](Images/pivottable/image26.png)
 
 The entire organisation unit hierarchy is now visible up to facility level.
-
-
-### 
-
 
 ### Part 5 - Download Data
 
 Select Download and choose a format that you want to download the data in.
 
-
-
-<p id="gdcalert29" ><span style="color: red; font-weight: bold">>>>>>  gd2md-html alert: inline image link here (to images/image29.png). Store image on your image server and adjust path/filename/extension if necessary. </span><br>(<a href="#">Back to top</a>)(<a href="#gdcalert30">Next alert</a>)<br><span style="color: red; font-weight: bold">>>>>> </span></p>
-
-
-![alt_text](images/image29.png "image_tooltip")
-
+![](Images/pivottable/image33.png)
 
 Plain data source is useful as it can be used to further analyze the data using statistical software such as SPSS, STATA or R. You can also open it in Excel and use pivot tables etc. to further review the data
 
-
-
-<p id="gdcalert30" ><span style="color: red; font-weight: bold">>>>>>  gd2md-html alert: inline image link here (to images/image30.png). Store image on your image server and adjust path/filename/extension if necessary. </span><br>(<a href="#">Back to top</a>)(<a href="#gdcalert31">Next alert</a>)<br><span style="color: red; font-weight: bold">>>>>> </span></p>
-
-
-![alt_text](images/image30.png "image_tooltip")
-
-
+![](Images/pivottable/image31.png)
 
 ### Part 6 - Demonstrate Number Type, Measure Criteria, Sharing
-
 
 #### Number Type 
 
 Using your previous table, modify the options in the “Data” tab as follows.
 
-
-
 * Number type: Percentage of column
 * Remove the “row totals”
 
-
-
-<p id="gdcalert31" ><span style="color: red; font-weight: bold">>>>>>  gd2md-html alert: inline image link here (to images/image31.png). Store image on your image server and adjust path/filename/extension if necessary. </span><br>(<a href="#">Back to top</a>)(<a href="#gdcalert32">Next alert</a>)<br><span style="color: red; font-weight: bold">>>>>> </span></p>
-
-
-![alt_text](images/image31.png "image_tooltip")
-
+![](Images/pivottable/image14.png)
 
 Click on ‘Update’
 
-
-
-<p id="gdcalert32" ><span style="color: red; font-weight: bold">>>>>>  gd2md-html alert: inline image link here (to images/image32.png). Store image on your image server and adjust path/filename/extension if necessary. </span><br>(<a href="#">Back to top</a>)(<a href="#gdcalert33">Next alert</a>)<br><span style="color: red; font-weight: bold">>>>>> </span></p>
-
-
-![alt_text](images/image32.png "image_tooltip")
-
+![](Images/pivottable/image2.png)
 
 Explain what you see in output
 
@@ -507,53 +385,29 @@ This will display values as percentages of the column total (instead of summing 
 
 We can see that HIV tests performed have been arranged per year with a percentage contribution of each facility type. We can see that health centers have performed the largest % of tests when reviewing this table, which can provide us some information on where the majority of testing burden lies.
 
-
 #### Filtering the Table
 
 It is sometimes essential to filter data visualized in a pivot table based on a value range defined by a minimum and/or maximum value. This could be achieved by filtering the table using the “Limit Values” option. This will filter the data requested based on the criteria defined.
 
-
-
 * Open up the previously saved favorite item ‘yourusername_HIV - HIV tests performed - Public Facilities - Last 6 months’.
 
-
-
-<p id="gdcalert33" ><span style="color: red; font-weight: bold">>>>>>  gd2md-html alert: inline image link here (to images/image33.png). Store image on your image server and adjust path/filename/extension if necessary. </span><br>(<a href="#">Back to top</a>)(<a href="#gdcalert34">Next alert</a>)<br><span style="color: red; font-weight: bold">>>>>> </span></p>
-
-
-![alt_text](images/image33.png "image_tooltip")
-
-
-
+![](Images/pivottable/image29.png)
 
 * Click on the options button, followed by the “Limit values” tab. Let’s define criteria to visualize only values between 500 and 4000.
 
-
-
-<p id="gdcalert34" ><span style="color: red; font-weight: bold">>>>>>  gd2md-html alert: inline image link here (to images/image34.png). Store image on your image server and adjust path/filename/extension if necessary. </span><br>(<a href="#">Back to top</a>)(<a href="#gdcalert35">Next alert</a>)<br><span style="color: red; font-weight: bold">>>>>> </span></p>
-
-
-![alt_text](images/image34.png "image_tooltip")
-
-
-
+![](Images/pivottable/image41.png)
 
 * Click ‘update’ and you will see the table below which only shows values >= 500 and &lt;=4000. 
 * 
 * Change the options to “Hide empty rows” within the “Data” tab to clean up the table
 
-
-
-<p id="gdcalert35" ><span style="color: red; font-weight: bold">>>>>>  gd2md-html alert: inline image link here (to images/image35.png). Store image on your image server and adjust path/filename/extension if necessary. </span><br>(<a href="#">Back to top</a>)(<a href="#gdcalert36">Next alert</a>)<br><span style="color: red; font-weight: bold">>>>>> </span></p>
-
-
-![alt_text](images/image35.png "image_tooltip")
-
+![](Images/pivottable/image53.png)
 
 The table should show you monthly values from only between 500 and 4000
 
+![](Images/pivottable/image20.png)
 
-#### **Share **Favorites
+#### **Share** Favorites
 
 Favorites designed in Pivot Tables can be shared with users/user groups.
 
@@ -561,37 +415,17 @@ Explain in sufficient detail what is meant by sharing in the system and that thi
 
 Open up the previously saved favorite item ‘yourusername_HIV - HIV tests performed - Public Facilities - Last 6 months’ and Select File - Share
 
-
-
-<p id="gdcalert36" ><span style="color: red; font-weight: bold">>>>>>  gd2md-html alert: inline image link here (to images/image36.png). Store image on your image server and adjust path/filename/extension if necessary. </span><br>(<a href="#">Back to top</a>)(<a href="#gdcalert37">Next alert</a>)<br><span style="color: red; font-weight: bold">>>>>> </span></p>
-
-
-![alt_text](images/image36.png "image_tooltip")
-
+![](Images/pivottable/image23.png)
 
 This will bring up the sharing dialog and allow you to share your pivot table
 
-
-
-<p id="gdcalert37" ><span style="color: red; font-weight: bold">>>>>>  gd2md-html alert: inline image link here (to images/image37.png). Store image on your image server and adjust path/filename/extension if necessary. </span><br>(<a href="#">Back to top</a>)(<a href="#gdcalert38">Next alert</a>)<br><span style="color: red; font-weight: bold">>>>>> </span></p>
-
-
-![alt_text](images/image37.png "image_tooltip")
-
+![](Images/pivottable/image24.png)
 
 Share the table with the user group “HIV access.” Provide them with “Can view only” access. This means that they can see the table but can not edit or modify it.
 
+![](Images/pivottable/image6.png)
 
-
-<p id="gdcalert38" ><span style="color: red; font-weight: bold">>>>>>  gd2md-html alert: inline image link here (to images/image38.png). Store image on your image server and adjust path/filename/extension if necessary. </span><br>(<a href="#">Back to top</a>)(<a href="#gdcalert39">Next alert</a>)<br><span style="color: red; font-weight: bold">>>>>> </span></p>
-
-
-![alt_text](images/image38.png "image_tooltip")
-
-
-
-### **Part **7 - **Working with Legends, Drilling Down**
-
+### **Part-7**Working with Legends, Drilling Down**
 
 #### Legends
 
@@ -605,56 +439,24 @@ Period: last year
 
 Org Unit: Trainingland by district
 
+![](Images/pivottable/image8.png)
 
+![](Images/pivottable/image3.png)
 
-<p id="gdcalert39" ><span style="color: red; font-weight: bold">>>>>>  gd2md-html alert: inline image link here (to images/image39.png). Store image on your image server and adjust path/filename/extension if necessary. </span><br>(<a href="#">Back to top</a>)(<a href="#gdcalert40">Next alert</a>)<br><span style="color: red; font-weight: bold">>>>>> </span></p>
-
-
-![alt_text](images/image39.png "image_tooltip")
-
-
-
-
-<p id="gdcalert40" ><span style="color: red; font-weight: bold">>>>>>  gd2md-html alert: inline image link here (to images/image40.png). Store image on your image server and adjust path/filename/extension if necessary. </span><br>(<a href="#">Back to top</a>)(<a href="#gdcalert41">Next alert</a>)<br><span style="color: red; font-weight: bold">>>>>> </span></p>
-
-
-![alt_text](images/image40.png "image_tooltip")
-
-
-
-
-<p id="gdcalert41" ><span style="color: red; font-weight: bold">>>>>>  gd2md-html alert: inline image link here (to images/image41.png). Store image on your image server and adjust path/filename/extension if necessary. </span><br>(<a href="#">Back to top</a>)(<a href="#gdcalert42">Next alert</a>)<br><span style="color: red; font-weight: bold">>>>>> </span></p>
-
-
-![alt_text](images/image41.png "image_tooltip")
+![](Images/pivottable/image48.png)
 
 
 Layout should be as follows
 
-
-
-<p id="gdcalert42" ><span style="color: red; font-weight: bold">>>>>>  gd2md-html alert: inline image link here (to images/image42.png). Store image on your image server and adjust path/filename/extension if necessary. </span><br>(<a href="#">Back to top</a>)(<a href="#gdcalert43">Next alert</a>)<br><span style="color: red; font-weight: bold">>>>>> </span></p>
-
-
-![alt_text](images/image42.png "image_tooltip")
-
-
-
+![](Images/pivottable/image22.png)
 
 **Update **the table to see the following output:
 
-
-
-<p id="gdcalert43" ><span style="color: red; font-weight: bold">>>>>>  gd2md-html alert: inline image link here (to images/image43.png). Store image on your image server and adjust path/filename/extension if necessary. </span><br>(<a href="#">Back to top</a>)(<a href="#gdcalert44">Next alert</a>)<br><span style="color: red; font-weight: bold">>>>>> </span></p>
-
-
-![alt_text](images/image43.png "image_tooltip")
-
+![](Images/pivottable/image45.png)
 
 The table output doesn’t look very different from anything we have already reviewed.
 
 Results could be easily understood if we could add a visual cue to the output table. We can use legends to achieve this.
-
 
 
 * Add in the legend set EPI Coverage (70-80-90%); use the style background color
@@ -662,36 +464,20 @@ Results could be easily understood if we could add a visual cue to the output ta
 
 This is what the current EPI Coverage legend represents. 
 
-
-
 * Red is the lowest performance at 0 - 70
 * Yellow is getting better, 70 - 80
 * Light green is good performance, 80 - 90
 * Dark green is the target coverage, 90 – 100
 
-
-
-<p id="gdcalert44" ><span style="color: red; font-weight: bold">>>>>>  gd2md-html alert: inline image link here (to images/image44.png). Store image on your image server and adjust path/filename/extension if necessary. </span><br>(<a href="#">Back to top</a>)(<a href="#gdcalert45">Next alert</a>)<br><span style="color: red; font-weight: bold">>>>>> </span></p>
-
-
-![alt_text](images/image44.png "image_tooltip")
+![](Images/pivottable/image50.png)
 
 
 To apply the legend, open the table options and navigate to the “Legend” tab.
 
-
-
-<p id="gdcalert45" ><span style="color: red; font-weight: bold">>>>>>  gd2md-html alert: inline image link here (to images/image45.png). Store image on your image server and adjust path/filename/extension if necessary. </span><br>(<a href="#">Back to top</a>)(<a href="#gdcalert46">Next alert</a>)<br><span style="color: red; font-weight: bold">>>>>> </span></p>
-
-
-![alt_text](images/image45.png "image_tooltip")
-
-
+![](Images/pivottable/image17.png)
 
 
 Then
-
-
 
 1. Select Use legend for chart colors
 2. Choose from the legend style, in this case we will choose “Legend changes background color”
@@ -703,79 +489,44 @@ Then
 
 The updated table:
 
-
-
-<p id="gdcalert46" ><span style="color: red; font-weight: bold">>>>>>  gd2md-html alert: inline image link here (to images/image46.png). Store image on your image server and adjust path/filename/extension if necessary. </span><br>(<a href="#">Back to top</a>)(<a href="#gdcalert47">Next alert</a>)<br><span style="color: red; font-weight: bold">>>>>> </span></p>
-
-
-![alt_text](images/image46.png "image_tooltip")
-
+![](Images/pivottable/image52.png)
 
 You can sort the table before proceeding. After you sort it, we can see districts with low coverage are both sorted on the bottom of the list and have the dark red color associated with it. As the districts increase in coverage, their spot on the list increases and the color associated with the data value is also changing in line with the definitions of our legend. These types of tables are easier to interpret as there are multiple visual cues (the order, the color, the data value itself) that allows us to understand what the table itself is representing.
 
-
 #### **Drill Down**
 
-
-
 * Left click on a cell of Bird District to bring up the drill down/up function. Refer to the screenshot below.
-
-
-
-<p id="gdcalert47" ><span style="color: red; font-weight: bold">>>>>>  gd2md-html alert: inline image link here (to images/image47.png). Store image on your image server and adjust path/filename/extension if necessary. </span><br>(<a href="#">Back to top</a>)(<a href="#gdcalert48">Next alert</a>)<br><span style="color: red; font-weight: bold">>>>>> </span></p>
-
-
-![alt_text](images/image47.png "image_tooltip")
-
+* 
+![](Images/pivottable/image25.png)
 
 Explain that this allows you to dive into more detail directly via the pivot table. Note that you can still use the org unit/period selections on the left-hand menu to drill up and down if that is your preference. This method however allows a bit more interactivity within the table itself.
 
 You will see following table when drilled-down
 
-
-
-<p id="gdcalert48" ><span style="color: red; font-weight: bold">>>>>>  gd2md-html alert: inline image link here (to images/image48.png). Store image on your image server and adjust path/filename/extension if necessary. </span><br>(<a href="#">Back to top</a>)(<a href="#gdcalert49">Next alert</a>)<br><span style="color: red; font-weight: bold">>>>>> </span></p>
-
-
-![alt_text](images/image48.png "image_tooltip")
-
+![](Images/pivottable/image35.png)
 
 How can you interpret the above table?
 
 We can observe that many facilities are having issues with their immunization coverage indicators, contributing to the low district totals observed in the previous table. Parrot district hospital does not have any data values and is therefore not contributing to the district total. 
 
-
 ### Part 8 - Freeze rows/columns
 
-When you have large amounts of data, it may be useful to lock the first row and column similar to excel. 
+When you have large amounts of data, it may be useful to lock the first row and column similar to excel.
+
+![](Images/pivottable/image11.png)
 
 Open the saved table “HIV - HIV testing performance by facility, last 3 years”
 
-
-
-<p id="gdcalert49" ><span style="color: red; font-weight: bold">>>>>>  gd2md-html alert: inline image link here (to images/image49.png). Store image on your image server and adjust path/filename/extension if necessary. </span><br>(<a href="#">Back to top</a>)(<a href="#gdcalert50">Next alert</a>)<br><span style="color: red; font-weight: bold">>>>>> </span></p>
-
-
-![alt_text](images/image49.png "image_tooltip")
-
+![](Images/pivottable/image11.png.png)
 
 Scroll up and down on this table, you will see the columns and rows disappear.
 
-
-
 Open the table options, navigate to style and select 
-
-
 
 * fix column headers to top of table
 * fix row headers to left of table
-
-
-
-<p id="gdcalert50" ><span style="color: red; font-weight: bold">>>>>>  gd2md-html alert: inline image link here (to images/image50.png). Store image on your image server and adjust path/filename/extension if necessary. </span><br>(<a href="#">Back to top</a>)(<a href="#gdcalert51">Next alert</a>)<br><span style="color: red; font-weight: bold">>>>>> </span></p>
-
-
-![alt_text](images/image50.png "image_tooltip")
+  
+![](Images/pivottable/image30.png)
 
 
 Proceed to scroll left/right and up/down you will note these headers are now locked
@@ -792,17 +543,10 @@ The last value aggregation type is a special value type which takes the last val
 
 As an example, let us review our data entry page for HIV
 
-
-
-<p id="gdcalert51" ><span style="color: red; font-weight: bold">>>>>>  gd2md-html alert: inline image link here (to images/image51.png). Store image on your image server and adjust path/filename/extension if necessary. </span><br>(<a href="#">Back to top</a>)(<a href="#gdcalert52">Next alert</a>)<br><span style="color: red; font-weight: bold">>>>>> </span></p>
-
-
-![alt_text](images/image51.png "image_tooltip")
+![](Images/pivottable/image34.png)
 
 
 Here, PLHIV currently on ART in February 2021 is 721+1036 =1757
-
-
 
 In March 2021, this changes to 690+1034 = 1724
 
@@ -810,51 +554,28 @@ If I were interested in the number of PLHIV currently on ART for MARCH, I would 
 
 In pivot tables, let us apply this across the last 12 months. Here I would want the most recent value that has been entered for PLHIV currently on ART and not a sum of the last 12 months. We can do this in 2 ways:
 
-
-
 1. We set the data element to aggregate using the last value type in maintenance
 2. We can modify the way the data element aggregates in the pivot table options. This can be useful to move between aggregation methods for a particular data element depending on the output you require.
 
 Let us look at an example by creating a new pivot table/
 
-
-
 * Data: HIV - PLHIV currently on ART (Data Element within the **HIV **group)
 * Periods: Last 12 months
 * Organisation Units: Health Centre Group in Animal Region
 
-
-
-<p id="gdcalert52" ><span style="color: red; font-weight: bold">>>>>>  gd2md-html alert: inline image link here (to images/image52.png). Store image on your image server and adjust path/filename/extension if necessary. </span><br>(<a href="#">Back to top</a>)(<a href="#gdcalert53">Next alert</a>)<br><span style="color: red; font-weight: bold">>>>>> </span></p>
-
-
-![alt_text](images/image52.png "image_tooltip")
-
+![](Images/pivottable/image30.png)
 
 The data element PLHIV currently on ART is currently set to aggregate using the “average (sum in org unit hierarchy)” function in maintenance. This causes the average of the values from the last 12 months to be displayed in this particular table. 
 
 If we change this to aggregate via last value, it will select the last value that was entered during that 12 month period that has been filtered and place it in the output of the table. To aggregate values this way, open table options and set the aggregation type to “last value” within the “Data” tab. 
 
-
-
-<p id="gdcalert53" ><span style="color: red; font-weight: bold">>>>>>  gd2md-html alert: inline image link here (to images/image53.png). Store image on your image server and adjust path/filename/extension if necessary. </span><br>(<a href="#">Back to top</a>)(<a href="#gdcalert54">Next alert</a>)<br><span style="color: red; font-weight: bold">>>>>> </span></p>
-
-
-![alt_text](images/image53.png "image_tooltip")
-
+![](Images/pivottable/image35.png)
 
 Note that you can set your value to aggregate any way you would like here if you want to modify the output using the default method of aggregating the data element and we are using last value to demonstrate this feature.
 
 This gives us a better indication of who is on ART at the end of the point in time we have selected. In this case, using the last 12 months, we will get the number currently on ART at the end of the last 12 month period we have selected. 
 
-
-
 Select **Update** to update the table and review the returned result
 
-
-
-<p id="gdcalert54" ><span style="color: red; font-weight: bold">>>>>>  gd2md-html alert: inline image link here (to images/image54.png). Store image on your image server and adjust path/filename/extension if necessary. </span><br>(<a href="#">Back to top</a>)(<a href="#gdcalert55">Next alert</a>)<br><span style="color: red; font-weight: bold">>>>>> </span></p>
-
-
-![alt_text](images/image54.png "image_tooltip")
+![](Images/pivottable/image10.png)
 
