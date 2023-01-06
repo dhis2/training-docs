@@ -360,7 +360,6 @@ From the filter tab, select “Add Filter”
 
 ![](Images/maps/image24.png)
 
-
 Then Select “Sex” as the dimension and “female” as the item
 
 ![](Images/maps/image76.png)

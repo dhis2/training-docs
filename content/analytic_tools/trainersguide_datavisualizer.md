@@ -370,7 +370,7 @@ Let us review the remainder of our chart options to see how we can enhance this 
 
 The data tab is the tab we just used in order to modify the stacked column chart so it used %’s instead of raw values. There are other additional options and you should explain them to the best of your ability. Not many of these apply to this particular chart, however we will make another chart which uses more of the data options. Please review the documentation if clarification on these options are needed.
 
-![](Images/datavisualizer/image57.png)
+![](Images/datavisualizer/image4.png)
 
 The next tab is axes. Here we can modify how the x and y axis are displayed and labeled. We can also add chart and axes titles. Many of these options are useful to this chart. We can add in a title for the vertical (y-axis in this case) horizontal (x-axis) axes.
 
@@ -613,6 +613,7 @@ In order to get started in creating a year over year chart, we first have to sel
 ### Explain the interface - Period selection and filter
 
 After we select this chart type, we can see that both the category and the series are automatically populated with period types. The period selection on the left menu where other dimensions are selected is also greyed out. Organisation units and data are automatically placed in the filter. For this reason, this chart type works best when only one data item is selected for comparison. Multiple org units can be used in the filter however depending on what you want displayed (it will filter the data belonging to these org units).
+
 ![](Images/datavisualizer/image51.png)
 
 ### Explain the interface - Category
@@ -736,6 +737,7 @@ Create a column chart with the following inputs:
 * Org unit : Trainingland
 
 Update the chart. We can see the different scales of the two data values negatively affect the output of the chart and make it difficult to relate the values to one another.
+
 ![](Images/datavisualizer/image36.png)
 
 ### Modify the series in the chart options

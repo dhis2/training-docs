@@ -167,6 +167,8 @@ The data set report is the same as before, however now it has filtered out the a
 
 OR 
 
+![](images/reportsapp/image1.png)
+
 ### Explain reporting rate summary
 
 This is available within the accompanying slides if it has not been explained to the participants. It allows you ro check the system-defined completeness and timeliness for one period of any aggregate data set in the system. There are several drawbacks to the reporting rates as calculated by DHIS2, but may often be used as a best estimate in a number of circumstances. To explain the summary in more detail if needed, have a report open in another tab
