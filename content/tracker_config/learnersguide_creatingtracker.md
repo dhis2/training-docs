@@ -115,11 +115,11 @@ The first thing we will do is ensure that there is an entity of type “Person�
 
 In order to navigate to the tracked entity page select “Tracked entity” from the apps menu when you are within the maintenance app:
 
-![](images/creatingtrackerprog/image39.png)
+![](Images/creatingtrackerprog/image39.png)
 
 We are tracking a person within the program we are creating, therefore no other tracked entity type needs to be created. We can and should re-use tracked entity types whenever possible. Note that other entities such as supplies can be tracked by creating the entity type here. 
 
-![](images/creatingtrackerprog/image14.png)
+![](Images/creatingtrackerprog/image14.png)
 
 ### Exercise 2 - Identify and Create Option Sets
 
@@ -144,7 +144,7 @@ Refer back to the form or design guidance to see this in full view.
 
 In order to create/edit option sets, navigate to the option set page. 
 
-![](images/creatingtrackerprog/image46.png)
+![](Images/creatingtrackerprog/image46.png)
 
 
 After navigating to option sets from within maintenance, you will see the list of existing option sets. All of the option sets used in the exercise have already been configured for use.
@@ -153,31 +153,31 @@ You can re-create the TB treatment outcome option set as practice.
 
 To add a new option set, click on the plus sign in the lower right corner
 
-![](images/creatingtrackerprog/image17.png)
+![](Images/creatingtrackerprog/image17.png)
 
 Provide the option set a name (mandatory) a code (optional) and value type (mandatory). **_Use your initials as a prefix when creating the option set. _**Click on “Save” to save the option set:
 
-![](images/creatingtrackerprog/image33.png)
+![](Images/creatingtrackerprog/image33.png)
 
 After the option set has been saved, you will be taken directly to the option management screen
 
-![](images/creatingtrackerprog/image34.png)
+![](Images/creatingtrackerprog/image34.png)
 
 We can then add new options from the Option management screen by clicking on the add option button
 
-![](images/creatingtrackerprog/image45.png)
+![](Images/creatingtrackerprog/image45.png)
 
 Provide a name and code for the option and click on Save:
 
-![](images/creatingtrackerprog/image4.png)
+![](Images/creatingtrackerprog/image4.png)
 
 The option will then be added to the Option Management Screen:
 
-![](images/creatingtrackerprog/image13.png)
+![](Images/creatingtrackerprog/image13.png)
 
 Repeat this process in order to complete theTreatment Outcome option set:
 
-![](images/creatingtrackerprog/image38.png)
+![](Images/creatingtrackerprog/image38.png)
 
 If necessary, you can repeat the process of adding another option set and individual options until all of the option sets required for the program are present (note this may be mixed with other option sets from other programs). 
 
@@ -201,31 +201,31 @@ Rather than creating all of the attributes during this exercise, we will create 
 
 In order to create/view/edit attributes navigate to “Tracked entity attribute”:
 
-![](images/creatingtrackerprog/image26.png)
+![](Images/creatingtrackerprog/image26.png)
 
 We can add new attributes by clicking on the plus sign from the attribute management screen:
 
-![](images/creatingtrackerprog/image17.png)
+![](Images/creatingtrackerprog/image17.png)
 
 When adding new attributes, encryption can either be configured or not configured. In the case of Trainingland, encryption is not currently configured. This would allow you to decide if you want certain attributes to be searchable or not. This can be useful in instances where confidentiality is of paramount concern and there are proper registration numbers that allow you to track individuals without looking up other details such as name, etc. Please note the differences between the attribute creation screen in a DHIS2 instance where encryption is not available vs. a DHIS2 instance where encryption is configured.
 
 If encryption is not configured, you will receive a message notifying you that this is not the case
 
-![](images/creatingtrackerprog/image31.png)
+![](Images/creatingtrackerprog/image31.png)
 
 If encryption is configured correctly, you will have the option to select the confidential option when creating attributes.
 
-![](images/creatingtrackerprog/image25.png)
+![](Images/creatingtrackerprog/image25.png)
 
 Review and fill in the options for the attribute. Click on “Add” to save the new attribute. Note that by choosing Text for the Registration number, we can also make this attribute unique for the whole system. There is also the option to automatically generate these numbers, but for the moment we will assume that these are taken from the form directly. When creating this attribute, **_please use your initials as a prefix._**
 
-![](images/creatingtrackerprog/image15.png)
+![](Images/creatingtrackerprog/image15.png)
 
-![](images/creatingtrackerprog/image19.png)
+![](v/creatingtrackerprog/image19.png)
 
 The attribute will be added to the Tracked entity attribute management screen:
 
-![](images/creatingtrackerprog/image22.png)
+![](Images/creatingtrackerprog/image22.png)
 
 Repeat this process for the sex attribute; however make sure you assign the sex option set to the attribute that you create.
 
@@ -235,11 +235,11 @@ This should be a review for you!
 
 In order to create/view/edit data elements we navigate to data element within the maintenance app:
 
-![](images/creatingtrackerprog/image7.png)
+![](Images/creatingtrackerprog/image7.png)
 
 Within data element management, click on the “+” sign underneath data element to add in new data elements.
 
-![](images/creatingtrackerprog/image20.png)
+![](Images/creatingtrackerprog/image20.png)
 
 Now we create the required data elements. From the background section:
 
@@ -257,9 +257,9 @@ Now we create the required data elements. From the background section:
 
 Let us review the Data Element properties for the TB Patient Type data element
 
-![](images/creatingtrackerprog/image43.png)
+![](Images/creatingtrackerprog/image43.png)
 
-![](images/creatingtrackerprog/image42.png)
+![](Images/creatingtrackerprog/image42.png)
 
 When making the data elements provide them with a prefix. In this instance, TBTC has been 
 
@@ -279,12 +279,12 @@ Note that several of the data elements belong to more than one program stage, li
 
 After you have created the data elements, it is a good idea to create the data element group as well (as a standard principle, we should group or data elements; in this case this is for admin operation (like bulk sharing) as tracker DE groups are not really used for analysis). Either select Data Element Group from the left context menu and click on the “+” sign in the bottom right hand corner, or click on the “+” sign directly from the main app page under data element group.
 
-![](images/creatingtrackerprog/image48.png)
+![](Images/creatingtrackerprog/image48.png)
 
 
 Provide the Group with a name (using your initials as a prefix) and assign **_all _**the relevant program DE’s to the data element group (including ones you did not make but are already available for you to use). Click “Save” when finished.
 
-![](images/creatingtrackerprog/image39.png)
+![](Images/creatingtrackerprog/image39.png)
 
 ### Exercise 5 - Identify the number of program stages in the program
 
@@ -299,17 +299,17 @@ In this particular program, the four stages are distinct and should not be repea
 
 In order to create a new program, navigate to Program from within maintenance
 
-![](images/creatingtrackerprog/image5.png)
+![](Images/creatingtrackerprog/image5.png)
 
 To add a new program, click the + button follow by tracker program from the program management screen.
 
-![](images/creatingtrackerprog/image37.png)
+![](Images/creatingtrackerprog/image37.png)
 
 At the top, you will see that, similar to events, a stepwise approach to creating tracker programs has been implemented within program maintenance
 
-![](images/creatingtrackerprog/image36.png)
+![](Images/creatingtrackerprog/image36.png)
 
-![](images/creatingtrackerprog/image21.png)
+![](Images/creatingtrackerprog/image21.png)
 
 We will follow this approach as we create our program in DHIS2.
 
@@ -318,16 +318,16 @@ We will follow this approach as we create our program in DHIS2.
 
 Describe the fields in the program details box area as much as possible. It may also be useful to point to the docs for a more detailed explanation of what each field does. Fill in the mandatory fields, as well as any other fields you may be appropriate within the program details page.
 
-![](images/creatingtrackerprog/image32.png)
+![](Images/creatingtrackerprog/image32.png)
 
-![](images/creatingtrackerprog/image24.png)
+![](Images/creatingtrackerprog/image24.png)
 
 
 ### Step 9 - Fill in the enrollment details page
 
 Select the “Enrollment details” from the top bar. Here you may want to refer to the docs again if people are interested in understanding what each fields represents on this page. At minimum, fill in the incident and enrollment date. Clearly define again what these dates are and why they are important.
 
-![](images/creatingtrackerprog/image1.png)
+![](Images/creatingtrackerprog/image1.png)
 
 Select “Save” to save the details of the program so far.
 
@@ -364,7 +364,7 @@ You now want to add in the attributes of the program. Select your program from m
 </table>
 
 
-![](images/creatingtrackerprog/image6.png)
+![](Images/creatingtrackerprog/image6.png)
 
 Select Save to save your changes to the program.
 
@@ -432,13 +432,13 @@ In this exercise, you will create 2 stages to practice making them in DHIS2
 
 ### In order to add a new program stage, select the “Program stages” button from the top menu. Select the “+” button to add a new program stage
 
-![](images/creatingtrackerprog/image18.png)
+![](Images/creatingtrackerprog/image18.png)
 
 **Let’s review the program stage details for the first stage, “Diagnosis/Initial Phase.”**
 
-![](images/creatingtrackerprog/image47.png)
+![](Images/creatingtrackerprog/image47.png)
 
-![](images/creatingtrackerprog/image44.png)
+![](Images/creatingtrackerprog/image44.png)
 
 Review the various options that are available here as well as how they can potentially affect tracker capture. You may need to go back to this when you are opening up the program stage in tracker capture after it is created if it does not behave the way you expect. It is not necessarily important that everything is perfect the first time; we can always make changes!
 
@@ -448,7 +448,7 @@ In this particular stage, you can see that the event is not repeatable as mentio
 
 Refer back to the accompanying documentation to check which data elements belong in the first stage and assign them here. You can also explain what the options that appear for each data element mean when they are selected (compulsory, display in reports, etc.)
 
-![](images/creatingtrackerprog/image6.png)
+![](Images/creatingtrackerprog/image6.png)
 
 The data elements have been added using the same order as the paper form. They can be arranged by using the up and down green arrows if required. You can also add them to sections. For now, save the program stage, and save the program before proceeding.
 
@@ -504,40 +504,40 @@ TBTC|GeneXpert Result
 
 Select your program, navigate back to program stages, and select the program stage you have just made. Select “Create data entry form” after you have opened your program stage.
 
-Add in the 5 sections. Click on the ![](images/creatingtrackerprog/image27.png)
+Add in the 5 sections. Click on the ![](Images/creatingtrackerprog/image27.png)
 button to add a new section.  
 
 Enter the title of the section and click on “Add”
 
-![](images/creatingtrackerprog/image2.png)
+![](Images/creatingtrackerprog/image2.png)
 
 Repeat this process for all 5 sections. After this is complete, add the data elements to the section.
 
 Select a section (it will be highlighted in black) and select the data element you want to add to that section from the list on the right side.
 
-![](images/creatingtrackerprog/image35.png)
+![](Images/creatingtrackerprog/image35.png)
 
 If we follow the table outlined previously, we should end up with something that looks like this
 
-![](images/creatingtrackerprog/image30.png)
+![](Images/creatingtrackerprog/image30.png)
 
 Select “Add stage” when you have finished, followed by “Save” to make updates to your program.
 
 #### Exercise 11.2 - Create the 2nd stage
 
 Create a new stage by selecting the program you have made, going back to program stages,  and selecting the
-![](images/creatingtrackerprog/image16.png)
+![](Images/creatingtrackerprog/image16.png)
 
 **The second stage, Continuation 1, will add in some scheduling components to the program details. This is reflected in the “Scheduled days from start” and “Generate events based on enrollment date” options.**
 
-![](images/creatingtrackerprog/image28.png)
+![](Images/creatingtrackerprog/image28.png)
 
-![](images/creatingtrackerprog/image11.png)
+![](Images/creatingtrackerprog/image11.png)
 
 
 **After entering in the details, assign the data elements to the stage**
 
-![](images/creatingtrackerprog/image29.png)
+![](Images/creatingtrackerprog/image29.png)
 
 Note that in this second stage, 60 days has been entered as the “Scheduled days from start” value to denote the 2-3 month scheduling of the second program stage.
 
@@ -577,7 +577,7 @@ TBTC|Culture Result
 
 It should look like this when you create it in DHIS2
 
-![](images/creatingtrackerprog/image41.png)
+![](Images/creatingtrackerprog/image41.png)
 
 Select “Add stage” when you have finished, followed by “Save” to make updates to your program.
 
@@ -585,7 +585,7 @@ Select “Add stage” when you have finished, followed by “Save” to make up
 
 Select your program from within program maintenance then select “Access” from the top menu and proceed to select the organisation units you wish to assign the program to:
 
-![](images/creatingtrackerprog/image10.png)
+![](Images/creatingtrackerprog/image10.png)
 
 After assigning the organisation units you can click on “Save” to save these changes
 
@@ -601,25 +601,25 @@ Apply the following sharing settings:
     * Metadata : No Access
     * Data: No Access
 
-![](images/creatingtrackerprog/image3.png)
+![](Images/creatingtrackerprog/image3.png)
 
 Look for your user in the “Add users and user groups” field and apply the following sharing settings:
 
 * Metadata : Can edit and view
 * Data: Can capture and view
 
-![](images/creatingtrackerprog/image40.png)
+![](Images/creatingtrackerprog/image40.png)
 
 Select “Apply” when finished.
 
 
 Click “Select all” to select all of your program stages
 
-![](images/creatingtrackerprog/image23.png)
+![](Images/creatingtrackerprog/image23.png)
 
 Click on “Apply to selected stages.” You will see that the sharing settings you applied to your program will then be applied to all of your program stages as well.
 
-![](images/creatingtrackerprog/image9.png)
+![](Images/creatingtrackerprog/image9.png)
 
 Select “Save” to save your program updates.
 

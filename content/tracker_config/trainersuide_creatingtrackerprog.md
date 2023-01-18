@@ -619,17 +619,17 @@ The first thing we will do is ensure that there is an entity of type “Person�
 
 In order to navigate to the tracked entity page select “Tracked entity” from the apps menu when you are within the maintenance app:
 
-![](images/creatingtrackerprog/image39.png)
+![](Images/creatingtrackerprog/image39.png)
 
 Indicate that we are tracking a person within the program we are creating, therefore no other tracked entity type needs to be created. Note that other entities such as supplies can be tracked by creating the entity type here (as would have been identified in a previous session). You will come back to the tracked entity during the sharing session. 
 
-![](images/creatingtrackerprog/image14.png)
+![](Images/creatingtrackerprog/image14.png)
 
 ### Step 2 - Identify and create (if not yet created) any relationship types to other tracked entities
 
 In order to navigate to the relationships page select “Relationship Type” from the apps menu.
 
-![](images/multipletrackerprog/image21.png)
+![](Images/multipletrackerprog/image21.png)
 
 There is currently a tracker program that registers mothers and follows them through antenatal care, delivery and post-natal care. In this context, the child enrolled in the Infant Delivery and PNC program can be linked with the mother enrolled in the ANC-Delivery-PNC mother program. We can therefore use the already existing relationship type of Mother-Child in order to link these new entities within the TB program. Describe this briefly and relate it to the previous demonstration. This is only one type of relationship; more could be defined (Husband-Wife, etc.) for example as required.
 
@@ -656,25 +656,25 @@ Refer back to the form or design guidance to see this in full view.
 
 In order to create/edit option sets, navigate to the option set page. Note that if you feel people are comfortable making options from the event program demo/exercise, it is a better idea to review the option sets rather than re-create all of them. 
 
-![](images/multipletrackerprog/image58.png)
+![](Images/multipletrackerprog/image58.png)
 
 After navigating to option sets from within maintenance, you will see the list of existing option sets. All of the option sets used in the demo have already been configured for use. You can re-make one of the option-sets if you feel a review is required. 
 
 To add a new option set, click on the plus sign in the lower right corner
 
-![](images/multipletrackerprog/image20.png)
+![](Images/multipletrackerprog/image20.png)
 
 Provide the option set a name (mandatory) a code (optional) and value type (mandatory) click on “Save” to save the option set:
 
-![](images/multipletrackerprog/image38.png)
+![](Images/multipletrackerprog/image38.png)
 
 After the option set has been saved, you will be taken directly to the option management screen
 
-![](images/multipletrackerprog/image40.png)
+![](Images/multipletrackerprog/image40.png)
 
 We can then add new options from the Option management screen by clicking on the add option button
 
-![](images/multipletrackerprog/image57.png)
+![](Images/multipletrackerprog/image57.png)
 
 
 Provide a name and code for the option and click on Save:
@@ -683,11 +683,11 @@ Provide a name and code for the option and click on Save:
 
 The option will then be added to the Option Management Screen:
 
-![](images/multipletrackerprog/image15.png)
+![](Images/multipletrackerprog/image15.png)
 
 Repeat this process in order to complete the Treatment Outcome option set:
 
-![](images/multipletrackerprog/image45.png)
+![](Images/multipletrackerprog/image45.png)
 
 
 If necessary, repeat the process of adding a new option set and individual options until all of the option sets required for the program are present (note this may be mixed with other option sets from other programs). You can likely just review this quickly, as participants should be fairly familiar with this concept after working with option sets in the events portion of the academy.
@@ -713,11 +713,11 @@ Rather than creating all of the attributes again during this session, it should 
 
 In order to create/view/edit attributes navigate to “Tracked entity attribute”:
 
-![](images/multipletrackerprog/image31.png)
+![](Images/multipletrackerprog/image31.png)
 
 We can add new attributes by clicking on the plus sign from the attribute management screen:
 
-![](images/multipletrackerprog/image20.png)
+![](Images/multipletrackerprog/image20.png)
 
 When adding new attributes, encryption can either be configured or not configured. In the case of Trainingland, encryption is not currently configured. This would allow you to decide if you want certain attributes to be searchable or not. This can be useful in instances where confidentiality is of paramount concern and there are proper registration numbers that allow you to track individuals without looking up other details such as name, etc. For demonstration purposes, please note the differences between the attribute creation screen in a DHIS2 instance where encryption is not available vs. a DHIS2 instance where encryption is configured.
 
