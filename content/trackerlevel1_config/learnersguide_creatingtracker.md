@@ -39,419 +39,50 @@ The program consists of 4 stages starting with the diagnosis/initial phase, 2 co
 
 **Program Stage 1 - Diagnosis/Initial Phase**
 
-<table>
-  <tr>
-   <td><strong>Data Element</strong>
-   </td>
-   <td><strong>Data Element Type</strong>
-   </td>
-   <td><strong>Options</strong>
-   </td>
-  </tr>
-  <tr>
-   <td>TB Patient Type
-   </td>
-   <td>Text
-   </td>
-   <td>
-<ul>
+||||
+|--- |--- |--- |
+|Data Element|Data Element Type|Options|
+|TB Patient Type|Text|New,Relapse,Treat after failure,Treat after loss to follow up,Transfer in,Other previously treated,Treat history unknown|
+|Disease Site|Text|Pulmonary,Extra-Pulmonary|
+|Extra Pulmonary TB Site|Text|Pleura,Lymph Nodes,Abdomen,Genitourinary tract,Skin,Joints and Bones,Meninges|
+|Type of Treatment|Text|Hospitalized,Facility-based DOT,Community-based DOT,Self-administered|
+|Sputum Smear Result|Text|Negative (0 AFB / 100HPF),1-9/100HPF,+ 10-99 AFB/100HPF,++ 1-10 AFB/HPF,+++ >10 AFB/HPF|
+|Culture Result|Text|Negative (0 colonies),<10 colonies,+ 10-100 colonies,++ >100 colonies,+++,Innumerable/confluent growth,Contaminated|
+|GeneXpert Result|Text|No TB detected (N),TB confirmed not Rifampicin (T),TB confirmed, Rifampicin (RR),TB confirmed Rifampicin indeterminate (TI),Invalid/No result/Error (I)|
+|Weight (Kg)|Zero or positive integer|N/A|
+
+Program Stage 2 - Continuation Phase 1 (2-3 months)
+
+||||
+|--- |--- |--- |
+|Data Element|Data Element Type|Options|
+|Type of Treatment|Text|Hospitalized,  Facility-based DOT,Community-based DOT,Self-administered|
+|Sputum Smear Result|Text|Negative (0 AFB / 100HPF),1-9/100HPF,+ 10-99 AFB/100HPF,++ 1-10 AFB/HPF,+++ >10 AFB/HPF|
+|Culture Result|Text|Negative (0 colonies),<10 colonies,+ 10-100 colonies,++ >100 colonies,+++ Innumerable/confluent growth,Contaminated|
+|Weight (Kg)|Zero or positive integer|N/A|
+
+
+Program Stage 3 - Continuation Phase 2 (5 months)
+
+
+||||
+|--- |--- |--- |
+|Data Element|Data Element Type|Options|
+|Sputum Smear Result|Text|Negative (0 AFB / 100HPF),1-9/100HPF,+ 10-99 AFB/100HPF,++ 1-10 AFB/HPF,+++ >10 AFB/HPF|
+|Culture Result|Text|Negative (0 colonies),<10 colonies,+ 10-100 colonies,++ >100 colonies,+++ Innumerable/confluent growth,Contaminated|
+|Weight (Kg)|Zero or positive integer|N/A|
+
+Program Stage 4 - End of Treatment 
+
+
+||||
+|--- |--- |--- |
+|Data Element|Data Element Type|Options|
+|Sputum Smear Result|Text|Negative (0 AFB / 100HPF),1-9/100HPF,+ 10-99 AFB/100HPF,++ 1-10 AFB/HPF,+++ >10 AFB/HPF|
+|Culture Result|Text|Negative (0 colonies),<10 colonies,+ 10-100 colonies,++ >100 colonies,+++Innumerable/confluent growth,Contaminated|
+|Treatment Outcome|Text|Cured,Treatment completed,Died,Treatment failure,Loss to follow-up,Not evaluated|
+|Weight (Kg)|Zero or positive integer|N/A|
 
-<li>New
-
-<li>Relapse
-
-<li>Treat after failure
-
-<li>Treat after loss to follow up
-
-<li>Transfer in
-
-<li>Other previously treated
-
-<li>Treat history unknown
-</li>
-</ul>
-   </td>
-  </tr>
-  <tr>
-   <td>Disease Site
-   </td>
-   <td>Text
-   </td>
-   <td>
-<ul>
-
-<li>Pulmonary
-
-<li>Extra-Pulmonary
-</li>
-</ul>
-   </td>
-  </tr>
-  <tr>
-   <td>Extra Pulmonary TB Site
-   </td>
-   <td>Text
-   </td>
-   <td>
-<ul>
-
-<li>Pleura
-
-<li>Lymph Nodes
-
-<li>Abdomen
-
-<li>Genitourinary tract
-
-<li>Skin
-
-<li>Joints and Bones
-
-<li>Meninges
-</li>
-</ul>
-   </td>
-  </tr>
-  <tr>
-   <td>Type of Treatment
-   </td>
-   <td>Text
-   </td>
-   <td>
-<ul>
-
-<li>Hospitalized
-
-<li>Facility-based DOT
-
-<li>Community-based DOT
-
-<li>Self-administered
-</li>
-</ul>
-   </td>
-  </tr>
-  <tr>
-   <td>Sputum Smear Result
-   </td>
-   <td>Text
-   </td>
-   <td>
-<ul>
-
-<li>Negative (0 AFB / 100HPF)
-
-<li>1-9/100HPF
-
-<li>+ 10-99 AFB/100HPF
-
-<li>++ 1-10 AFB/HPF
-
-<li>+++ >10 AFB/HPF
-</li>
-</ul>
-   </td>
-  </tr>
-  <tr>
-   <td>Culture Result
-   </td>
-   <td>Text
-   </td>
-   <td>
-<ul>
-
-<li>Negative (0 colonies)
-
-<li>&lt;10 colonies
-
-<li>+ 10-100 colonies
-
-<li>++ >100 colonies
-
-<li>+++ Innumerable/confluent growth
-
-<li>Contaminated
-</li>
-</ul>
-   </td>
-  </tr>
-  <tr>
-   <td>GeneXpert Result
-   </td>
-   <td>Text
-   </td>
-   <td>
-<ul>
-
-<li>No TB detected (N)
-
-<li>TB confirmed, not Rifampicin (T)
-
-<li>TB confirmed, Rifampicin (RR)
-
-<li>TB confirmed, Rifampicin indeterminate (TI)
-
-<li>Invalid/No result/Error (I)
-</li>
-</ul>
-   </td>
-  </tr>
-  <tr>
-   <td>Weight (Kg)
-   </td>
-   <td>Zero or positive integer
-   </td>
-   <td>N/A
-   </td>
-  </tr>
-</table>
-
-
-**Program Stage 2 - Continuation Phase 1 (2-3 months)**
-
-
-<table>
-  <tr>
-   <td><strong>Data Element</strong>
-   </td>
-   <td><strong>Data Element Type</strong>
-   </td>
-   <td><strong>Options</strong>
-   </td>
-  </tr>
-  <tr>
-   <td>Type of Treatment
-   </td>
-   <td>Text
-   </td>
-   <td>
-<ul>
-
-<li>Hospitalized
-
-<li>Facility-based DOT
-
-<li>Community-based DOT
-
-<li>Self-administered
-</li>
-</ul>
-   </td>
-  </tr>
-  <tr>
-   <td>Sputum Smear Result
-   </td>
-   <td>Text
-   </td>
-   <td>
-<ul>
-
-<li>Negative (0 AFB / 100HPF)
-
-<li>1-9/100HPF
-
-<li>+ 10-99 AFB/100HPF
-
-<li>++ 1-10 AFB/HPF
-
-<li>+++ >10 AFB/HPF
-</li>
-</ul>
-   </td>
-  </tr>
-  <tr>
-   <td>Culture Result
-   </td>
-   <td>Text
-   </td>
-   <td>
-<ul>
-
-<li>Negative (0 colonies)
-
-<li>&lt;10 colonies
-
-<li>+ 10-100 colonies
-
-<li>++ >100 colonies
-
-<li>+++ Innumerable/confluent growth
-
-<li>Contaminated		
-</li>
-</ul>
-   </td>
-  </tr>
-  <tr>
-   <td>Weight (Kg)
-   </td>
-   <td>Zero or positive integer
-   </td>
-   <td>
-    N/A
-   </td>
-  </tr>
-</table>
-
-
-**Program Stage 3 - Continuation Phase 2 (5 months)**
-
-
-<table>
-  <tr>
-   <td><strong>Data Element</strong>
-   </td>
-   <td><strong>Data Element Type</strong>
-   </td>
-   <td><strong>Options</strong>
-   </td>
-  </tr>
-  <tr>
-   <td>Sputum Smear Result
-   </td>
-   <td>Text
-   </td>
-   <td>
-<ul>
-
-<li>Negative (0 AFB / 100HPF)
-
-<li>1-9/100HPF
-
-<li>+ 10-99 AFB/100HPF
-
-<li>++ 1-10 AFB/HPF
-
-<li>+++ >10 AFB/HPF
-</li>
-</ul>
-   </td>
-  </tr>
-  <tr>
-   <td>Culture Result
-   </td>
-   <td>Text
-   </td>
-   <td>
-<ul>
-
-<li>Negative (0 colonies)
-
-<li>&lt;10 colonies
-
-<li>+ 10-100 colonies
-
-<li>++ >100 colonies
-
-<li>+++ Innumerable/confluent growth
-
-<li>Contaminated		
-</li>
-</ul>
-   </td>
-  </tr>
-  <tr>
-   <td>Weight (Kg)
-   </td>
-   <td>Zero or positive integer
-   </td>
-   <td>
-    N/A
-   </td>
-  </tr>
-</table>
-
-
-**Program Stage 4 - End of Treatment **
-
-
-<table>
-  <tr>
-   <td><strong>Data Element</strong>
-   </td>
-   <td><strong>Data Element Type</strong>
-   </td>
-   <td><strong>Options</strong>
-   </td>
-  </tr>
-  <tr>
-   <td>Sputum Smear Result
-   </td>
-   <td>Text
-   </td>
-   <td>
-<ul>
-
-<li>Negative (0 AFB / 100HPF)
-
-<li>1-9/100HPF
-
-<li>+ 10-99 AFB/100HPF
-
-<li>++ 1-10 AFB/HPF
-
-<li>+++ >10 AFB/HPF
-</li>
-</ul>
-   </td>
-  </tr>
-  <tr>
-   <td>Culture Result
-   </td>
-   <td>Text
-   </td>
-   <td>
-<ul>
-
-<li>Negative (0 colonies)
-
-<li>&lt;10 colonies
-
-<li>+ 10-100 colonies
-
-<li>++ >100 colonies
-
-<li>+++ Innumerable/confluent growth
-
-<li>Contaminated		
-</li>
-</ul>
-   </td>
-  </tr>
-  <tr>
-   <td>Treatment Outcome
-   </td>
-   <td>Text
-   </td>
-   <td>
-<ul>
-
-<li>Cured
-
-<li>Treatment completed
-
-<li>Died
-
-<li>Treatment failure
-
-<li>Loss to follow-up
-
-<li>Not evaluated
-</li>
-</ul>
-   </td>
-  </tr>
-  <tr>
-   <td>Weight (Kg)
-   </td>
-   <td>Zero or positive integer
-   </td>
-   <td>
-    N/A
-   </td>
-  </tr>
-</table>
 
 
 
