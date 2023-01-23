@@ -35,61 +35,53 @@ The program consists of 4 stages starting with the diagnosis/initial phase, 2 co
 * Age (in years)
 * Sex (Male/Female)
 * Address
-* Phone #
+* Phone
 
 **Program Stage 1 - Diagnosis/Initial Phase**
 
-||||
-|--- |--- |--- |
-|Data Element|Data Element Type|Options|
-|TB Patient Type|Text|New,Relapse,Treat after failure,Treat after loss to follow up,Transfer in,Other previously treated,Treat history unknown|
-|Disease Site|Text|Pulmonary,Extra-Pulmonary|
-|Extra Pulmonary TB Site|Text|Pleura,Lymph Nodes,Abdomen,Genitourinary tract,Skin,Joints and Bones,Meninges|
-|Type of Treatment|Text|Hospitalized,Facility-based DOT,Community-based DOT,Self-administered|
-|Sputum Smear Result|Text|Negative (0 AFB / 100HPF),1-9/100HPF,+ 10-99 AFB/100HPF,++ 1-10 AFB/HPF,+++ >10 AFB/HPF|
-|Culture Result|Text|Negative (0 colonies),<10 colonies,+ 10-100 colonies,++ >100 colonies,+++,Innumerable/confluent growth,Contaminated|
-|GeneXpert Result|Text|No TB detected (N),TB confirmed not Rifampicin (T),TB confirmed, Rifampicin (RR),TB confirmed Rifampicin indeterminate (TI),Invalid/No result/Error (I)|
-|Weight (Kg)|Zero or positive integer|N/A|
+| **Data Element**        | **Data Element Type**    | **Options**                                                                                                                                                                       |
+|-------------------------|--------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| TB Patient Type         | Text                     | * New<br>* Relapse<br>* Treat after failure<br>* Treat after loss to follow up<br>* Transfer in<br>* Other previously treated<br>* Treat history unknown                          |
+| Disease Site            | Text                     | * Pulmonary<br>* Extra-Pulmonary                                                                                                                                                  |
+| Extra Pulmonary TB Site | Text                     | * Pleura<br>* Lymph Nodes<br>* Abdomen<br>* Genitourinary tract<br>* Skin,Joints and Bones<br>* Meninges                                                                          |
+| Type of Treatment       | Text                     | * Hospitalized<br>* Facility-based DOT<br>* Community-based DOT<br>* Self-administered                                                                                            |
+| Sputum Smear Result     | Text                     | * Negative (0 AFB / 100HPF)<br>* 1-9/100HPF<br>* + 10-99 AFB/100HPF<br>* ++ 1-10 AFB/HPF<br>* +++ >10 AFB/HPF                                                                     |
+| Culture Result          | Text                     | * Negative (0 colonies)<br>* <10 colonies,+ 10-100 colonies<br>* ++ >100 colonies<br>* +++ Innumerable/confluent growth<br>* Contaminated                                         |
+| GeneXpert Result        | Text                     | * No TB detected (N)<br>* TB confirmed not Rifampicin (T)<br>* TB confirmed<br>* Rifampicin (RR)<br>* TB confirmed Rifampicin indeterminate (TI)<br>* Invalid/No result/Error (I) |
+| Weight (Kg)             | Zero or positive integer | N/A                                                                                                                                                                               |
+
 
 Program Stage 2 - Continuation Phase 1 (2-3 months)
-
-||||
-|--- |--- |--- |
-|Data Element|Data Element Type|Options|
-|Type of Treatment|Text|Hospitalized,  Facility-based DOT,Community-based DOT,Self-administered|
-|Sputum Smear Result|Text|Negative (0 AFB / 100HPF),1-9/100HPF,+ 10-99 AFB/100HPF,++ 1-10 AFB/HPF,+++ >10 AFB/HPF|
-|Culture Result|Text|Negative (0 colonies),<10 colonies,+ 10-100 colonies,++ >100 colonies,+++ Innumerable/confluent growth,Contaminated|
-|Weight (Kg)|Zero or positive integer|N/A|
+| **Data Element**    | **Data Element Type**    | **Options**                                                                                                                                    |
+|---------------------|--------------------------|------------------------------------------------------------------------------------------------------------------------------------------------|
+| Type of Treatment   | Text                     | * Hospitalized<br>* Facility-based DOT<br>* Community-based DOT<br>* Self-administered                                                         |
+| Sputum Smear Result | Text                     | * Negative (0 AFB / 100HPF)<br>* 1-9/100HPF<br>* + 10-99 AFB/100HPF<br>* ++ 1-10 AFB/HPF<br>* +++ >10 AFB/HPF                                  |
+| Culture Result      | Text                     | * Negative (0 colonies)<br>* <10 colonies<br>* + 10-100 colonies<br>* ++ >100 colonies<br>* +++ Innumerable/confluent growth<br>* Contaminated |
+| Weight (Kg)         | Zero or positive integer | N/A                                                                                                                                            |
 
 
 Program Stage 3 - Continuation Phase 2 (5 months)
 
 
-||||
-|--- |--- |--- |
-|Data Element|Data Element Type|Options|
-|Sputum Smear Result|Text|Negative (0 AFB / 100HPF),1-9/100HPF,+ 10-99 AFB/100HPF,++ 1-10 AFB/HPF,+++ >10 AFB/HPF|
-|Culture Result|Text|Negative (0 colonies),<10 colonies,+ 10-100 colonies,++ >100 colonies,+++ Innumerable/confluent growth,Contaminated|
-|Weight (Kg)|Zero or positive integer|N/A|
+| **Data Element**    | **Data Element Type**    | **Options**                                                                                                                                    |
+|---------------------|--------------------------|------------------------------------------------------------------------------------------------------------------------------------------------|
+| Sputum Smear Result | Text                     | * Negative (0 AFB / 100HPF)<br>* 1-9/100HPF<br>* + 10-99 AFB/100HPF<br>* ++ 1-10 AFB/HPF<br>* +++ >10 AFB/HPF                                  |
+| Culture Result      | Text                     | * Negative (0 colonies)<br>* <10 colonies<br>* + 10-100 colonies<br>* ++ >100 colonies<br>* +++ Innumerable/confluent growth<br>* Contaminated |
+| Weight (Kg)         | Zero or positive integer | N/A                                                                                                                                            |
 
 Program Stage 4 - End of Treatment 
 
 
-||||
-|--- |--- |--- |
-|Data Element|Data Element Type|Options|
-|Sputum Smear Result|Text|Negative (0 AFB / 100HPF),1-9/100HPF,+ 10-99 AFB/100HPF,++ 1-10 AFB/HPF,+++ >10 AFB/HPF|
-|Culture Result|Text|Negative (0 colonies),<10 colonies,+ 10-100 colonies,++ >100 colonies,+++Innumerable/confluent growth,Contaminated|
-|Treatment Outcome|Text|Cured,Treatment completed,Died,Treatment failure,Loss to follow-up,Not evaluated|
-|Weight (Kg)|Zero or positive integer|N/A|
-
-
-
+| **Data Element**    | **Data Element Type**    | **Options**                                                                                                                                   |
+|---------------------|--------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------|
+| Sputum Smear Result | Text                     | * Negative (0 AFB / 100HPF)<br>* 1-9/100HPF<br>* + 10-99 AFB/100HPF<br>* ++ 1-10 AFB/HPF<br>* +++ >10 AFB/HPF                                 |
+| Culture Result      | Text                     | * Negative (0 colonies)<br>* <10 colonies<br>* + 10-100 colonies<br>* ++ >100 colonies<br>* +++Innumerable/confluent growth<br>* Contaminated |
+| Treatment Outcome   | Text                     | * Cured<br>* Treatment completed<br>* Died<br>* Treatment failure<br>* Loss to follow-up<br>* Not evaluated                                   |
+| Weight (Kg)         | Zero or positive integer | N/A                                                                                                                                           |
 
 ## Exercise Overview
 
 In order to create a multiple-event with registration tracker program, we can follow these general guidelines within DHIS2:
-
 
 
 1. Identify and create (if not yet created) the entity that you are tracking
@@ -457,51 +449,13 @@ The data elements have been added using the same order as the paper form. They c
 It is always a good idea to take the data elements you have added in the program and arrange them based on sections in your source form. This allows you more control in defining the layout of how data elements appear within your program stages. Referring back to the TB Treatment Card, we can create the following sections and data elements in the 1st stage of the program:
 
 
-<table>
-  <tr>
-   <td><strong>Section</strong>
-   </td>
-   <td><strong>Data Elements</strong>
-   </td>
-  </tr>
-  <tr>
-   <td>Type of Patient
-   </td>
-   <td>TBTC|TB Patient Type
-   </td>
-  </tr>
-  <tr>
-   <td>Disease Site
-   </td>
-   <td>TBTC|TB Disease Site
-<p>
-TBTC|EPTB Site
-   </td>
-  </tr>
-  <tr>
-   <td>Type of Treatment for Initial Phase
-   </td>
-   <td>TBTC|Type of Treatment
-   </td>
-  </tr>
-  <tr>
-   <td>Sputum Examination Results
-   </td>
-   <td>TBTC|Sputum Smear
-<p>
-TBTC|Culture Result
-<p>
-TBTC|GeneXpert Result
-   </td>
-  </tr>
-  <tr>
-   <td>Weight
-   </td>
-   <td>Weight in kg
-   </td>
-  </tr>
-</table>
-
+| **Section**                         | **Data Elements**                                                    |
+|-------------------------------------|----------------------------------------------------------------------|
+| Type of Patient                     | TBTC\|TB Patient Type                                                |
+| Disease Site                        | TBTC\|TB Disease Site<br>TBTC\|EPTB Site                             |
+| Type of Treatment for Initial Phase | TBTC\|Type of Treatment                                              |
+| Sputum Examination Results          | TBTC\|Sputum Smear<br>TBTC\|Culture Result<br>TBTC\|GeneXpert Result |
+| Weight                              | Weight in kg                                                         |
 Select your program, navigate back to program stages, and select the program stage you have just made. Select “Create data entry form” after you have opened your program stage.
 
 Add in the 5 sections. Click on the ![](Images/creatingtrackerprog/image27.png)
@@ -546,34 +500,11 @@ Note that in this second stage, 60 days has been entered as the “Scheduled day
 We can define our sections based on our form as follows
 
 
-<table>
-  <tr>
-   <td><strong>Section</strong>
-   </td>
-   <td><strong>Data Elements</strong>
-   </td>
-  </tr>
-  <tr>
-   <td>Type of Treatment for Continuation Phase
-   </td>
-   <td>TBTC|Type of Treatment
-   </td>
-  </tr>
-  <tr>
-   <td>Sputum Examination Results
-   </td>
-   <td>TBTC|Sputum Smear
-<p>
-TBTC|Culture Result
-   </td>
-  </tr>
-  <tr>
-   <td>Weight
-   </td>
-   <td>Weight in kg
-   </td>
-  </tr>
-</table>
+| **Section**                              | **Data Elements**                          |
+|------------------------------------------|--------------------------------------------|
+| Type of Treatment for Continuation Phase | TBTC\|Type of Treatment                    |
+| Sputum Examination Results               | TBTC\|Sputum Smear<br>TBTC\|Culture Result |
+| Weight                                   | Weight in kg                               |
 
 It should look like this when you create it in DHIS2
 
