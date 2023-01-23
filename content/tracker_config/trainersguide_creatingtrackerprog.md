@@ -157,59 +157,9 @@ Elements of this presentation are incorporated into the tracker terminology sess
 
 3. Create the program stages with the scheduling and data elements as follows:
 
-<table>
-  <tr>
-   <td>
-<strong>Stage 1 – Initial/Diagnosis</strong>
-   </td>
-   <td><strong>Stage 2 – Continuation 1 (60 days)</strong>
-   </td>
-   <td><strong>Stage 3 – Continuation 2 (150 days)</strong>
-   </td>
-   <td><strong>Stage 4 – End of Treatment</strong>
-   </td>
-  </tr>
-  <tr>
-   <td>TB Patient Type
-<p>
-Disease Site
-<p>
-EPTB Site
-<p>
-Type of Treatment
-<p>
-Sputum Smear Result
-<p>
-Culture Result
-<p>
-GeneXpert Result
-<p>
-Weight (Kg)
-   </td>
-   <td>Type of Treatment
-<p>
-Sputum Smear Result
-<p>
-Culture Result
-<p>
-Weight (Kg)
-   </td>
-   <td>Sputum Smear Result
-<p>
-Culture Result
-<p>
-Weight (Kg)
-   </td>
-   <td>Sputum Smear Result
-<p>
-Culture Result
-<p>
-Treatment Outcome
-<p>
-Weight (Kg)
-   </td>
-  </tr>
-</table>
+| Stage 1 – Initial/Diagnosis                                                                                                                   	| Stage 2 – Continuation 1 (60 days)                                        	| Stage 3 – Continuation 2 (150 days)                  	| Stage 4 – End of Treatment                                                	|
+|-----------------------------------------------------------------------------------------------------------------------------------------------	|---------------------------------------------------------------------------	|------------------------------------------------------	|---------------------------------------------------------------------------	|
+| TB Patient Type<br>Disease Site<br>EPTB Site<br>Type of Treatment<br>Sputum Smear Result<br>Culture Result<br>GeneXpert Result<br>Weight (Kg) 	| Type of Treatment<br>Sputum Smear Result<br>Culture Result<br>Weight (Kg) 	| Sputum Smear Result<br>Culture Result<br>Weight (Kg) 	| Sputum Smear Result<br>Culture Result<br>Treatment Outcome<br>Weight (Kg) 	|
 
 **STOP - Have them complete exercise 11 in the learner’s guide**
 
@@ -304,7 +254,7 @@ We can then add new options from the Option management screen by clicking on the
 
 Provide a name and code for the option and click on Save:
 
-![](images/multipletrackerprog/image5.png)
+![](Images/multipletrackerprog/image5.png)
 
 The option will then be added to the Option Management Screen:
 
@@ -348,27 +298,27 @@ When adding new attributes, encryption can either be configured or not configure
 
 If encryption is not configured, you will receive a message notifying you that this is not the case
 
-![](images/multipletrackerprog/image36.png)
+![](Images/multipletrackerprog/image36.png)
 
 If encryption is configured correctly, you will have the option to select the confidential option when creating attributes.
 
-![](images/multipletrackerprog/image30.png)
+![](Images/multipletrackerprog/image30.png)
 
 Review and fill in the options for the attribute. Click on “Add” to save the new attribute. Note that by choosing Text for the Registration number, we can also make this attribute unique for the whole system. There is also the option to automatically generate these numbers, but for the moment we will assume that these are taken from another source. Make sure to explain all of the fields that are present in this screen before adding the attribute
 
-![](images/multipletrackerprog/image17.png)
+![](Images/multipletrackerprog/image17.png)
 
-![](images/multipletrackerprog/image24.png)
+![](Images/multipletrackerprog/image24.png)
 
 
 The attribute will be added to the Tracked entity attribute management screen:
 
-![](images/multipletrackerprog/image27.png)
+![](Images/multipletrackerprog/image27.png)
 
 
 Continue the process of adding the remaining attributes until all of the attributes associated with the TB Treatment Chart program are present. Make sure to assign the “sex” option set to the sex attribute and assign the proper value types. Most of these are text, but make sure phone number is assigned the phone number value type for example. You should use prefixes when creating your attributes in this portion of the demo. The participants will have to use prefixes when doing their exercise.
 
-![](images/multipletrackerprog/image46.png)
+![](Images/multipletrackerprog/image46.png)
 
 #### STOP - Have them complete exercise 3 in the learner’s guide
 
@@ -378,11 +328,11 @@ Continue the process of adding the remaining attributes until all of the attribu
 
 In order to create/view/edit data elements we navigate to:
 
-![](images/multipletrackerprog/image9.png)
+![](Images/multipletrackerprog/image9.png)
 
 Within the app, click on the “+” sign underneath data element to add in new data elements.
 
-![](images/multipletrackerprog/image5.png)
+![](Images/multipletrackerprog/image5.png)
 
 Now we create the required data elements. From the background section:
 
@@ -400,9 +350,9 @@ We will just create one as part of the demo.
 
 Let us review the Data Element properties for the TB Patient Type data element
 
-![](images/multipletrackerprog/image55.png)
+![](Images/multipletrackerprog/image55.png)
 
-![](images/multipletrackerprog/image54.png)
+![](Images/multipletrackerprog/image54.png)
 
 When making the data elements provide them with a prefix. In this instance, TBTC has been used to denote “TB Treatment Card.” The participants can also use their initials to find them more easily within DHIS2 (and give them a unique name). Assign the data elements form names to remove the prefix in the data entry pages. Run through the definitions of the fields that are located when adding or editing a data element and in particular how they relate to tracker. 
 
@@ -414,16 +364,16 @@ As several of the data elements belong to more than one program stage, like sput
 
 You should have the following data elements for this program
 
-![](images/multipletrackerprog/image42.png)
+![](Images/multipletrackerprog/image42.png)
 
 After you have created the data elements, it is a good idea to create the data element group as well (as a standard principle, we should group or data elements; in this case this is for admin operation (like bulk sharing) as tracker DE groups are not really used for analysis). Either select Data Element Group from the left context menu and click on the “+” sign in the bottom right hand corner, or click on the “+” sign directly from the main app page under data element group.
 
-![](images/multipletrackerprog/image60.png)
-![](images/multipletrackerprog/image18.png)
+![](Images/multipletrackerprog/image60.png)
+![](Images/multipletrackerprog/image18.png)
 
 Provide the Group with a name and assign all the relevant program DE’s to the data element group. Click “Save” when finished.
 
-![](images/multipletrackerprog/image14.png)
+![](Images/multipletrackerprog/image14.png)
 
 
 #### STOP - Have them complete exercise 4 in the learner’s guide
@@ -440,16 +390,16 @@ In this particular program, the four stages are distinct and should not be repea
 
 In order to create a new program, navigate to Program from within maintenance
 
-![](images/multipletrackerprog/image6.png)
+![](Images/multipletrackerprog/image6.png)
 
 To add a new program, click the + button follow by tracker program from the program management screen.
 
-![](images/multipletrackerprog/image44.png)
+![](Images/multipletrackerprog/image44.png)
 
 At the top, you will see that, similar to events, a stepwise approach to creating tracker programs has been implemented within program maintenance
 
-![](images/multipletrackerprog/image43.png)
-![](images/multipletrackerprog/image26.png)
+![](Images/multipletrackerprog/image43.png)
+![](Images/multipletrackerprog/image26.png)
 
 We will follow this approach as we create our program in DHIS2.
 
@@ -458,15 +408,15 @@ We will follow this approach as we create our program in DHIS2.
 
 Describe the fields in the program details box area as much as possible. It may also be useful to point to the docs for a more detailed explanation of what each field does. Fill in the mandatory fields, as well as any other fields you may be appropriate within the program details page.
 
-![](images/multipletrackerprog/image37.png)
+![](Images/multipletrackerprog/image37.png)
 
-![](images/multipletrackerprog/image29.png)
+![](Images/multipletrackerprog/image29.png)
 
 ### Step 10 - Fill in the enrollment details page
 
 Select the “Enrollment details” from the top bar. Here you may want to refer to the docs again if people are interested in understanding what each fields represents on this page. At minimum, fill in the incident and enrollment date. Clearly define again what these dates are and why they are important.
 
-![](images/multipletrackerprog/image1.png)
+![](Images/multipletrackerprog/image1.png)
 
 Select “Save” to save the details of the program so far.
 
@@ -476,36 +426,12 @@ Select “Save” to save the details of the program so far.
 
 You now want to add in the attributes of the program. Select your program from maintenance to open it back up, then select attributes from the top header. You can refer back to the initial form, slide set or other conceptual documentation you may have created to identify the attributes at the beginning of the session. Note that it is important to identify these before actually going into DHIS2. You can add in the following attributes
 
+| TB Registration Number 	| Date of Birth 	| First Name 	|
+|------------------------	|---------------	|------------	|
+| Last Name              	| Age           	| Sex        	|
+| Family Address         	| Phone number  	|            	|
 
-<table>
-  <tr>
-   <td>TB Registration Number
-   </td>
-   <td>Date of Birth
-   </td>
-   <td>First Name
-   </td>
-  </tr>
-  <tr>
-   <td>Last Name
-   </td>
-   <td>Age
-   </td>
-   <td>Sex
-   </td>
-  </tr>
-  <tr>
-   <td>Family Address
-   </td>
-   <td>Phone number
-   </td>
-   <td>
-   </td>
-  </tr>
-</table>
-
-
-![](images/multipletrackerprog/image10.png)
+![](Images/multipletrackerprog/image10.png)
 
 Select Save to save the changes.
 
@@ -516,70 +442,21 @@ Select Save to save the changes.
 From the background information above, some basic information on scheduling can be obtained. There are stages at diagnosis, 2-3 months and 5 months. The end of treatment stage is dependent on a number of factors. They could end the program prematurely, and thus this stage would be moved in front of the others. In the case that they finish the program, a new TB case would typically reach the end of treatment phase at 6 months while a re-treatment case would reach this phase at 8 months. Due to the variability of the end of treatment stage, schedule only the second and third stages of the program. Therefore, the general outline of the program can be viewed as below:
 
 
-<table>
-  <tr>
-   <td><strong>Diagnosis/Initial Phase</strong>
-   </td>
-   <td><strong>Continuation 1 (60 days)</strong>
-   </td>
-   <td><strong>Continuation 2 (150 days)</strong>
-   </td>
-   <td><strong>End of Treatment</strong>
-   </td>
-  </tr>
-  <tr>
-   <td>TB Patient Type
-<p>
-Disease Site
-<p>
-EPTB Site
-<p>
-Type of Treatment
-<p>
-Sputum Smear Result
-<p>
-Culture Result
-<p>
-GeneXpert Result
-<p>
-Weight (Kg)
-   </td>
-   <td>Type of Treatment
-<p>
-Sputum Smear Result
-<p>
-Culture Result
-<p>
-Weight (Kg)
-   </td>
-   <td>Sputum Smear Result
-<p>
-Culture Result
-<p>
-Weight (Kg)
-   </td>
-   <td>Sputum Smear Result
-<p>
-Culture Result
-<p>
-Treatment Outcome
-<p>
-Weight (Kg)
-   </td>
-  </tr>
-</table>
+| Diagnosis/Initial Phase                                                                                                                       	| Continuation 1 (60 days)                                                  	| Continuation 2 (150 days)                            	| End of Treatment                                                          	|
+|-----------------------------------------------------------------------------------------------------------------------------------------------	|---------------------------------------------------------------------------	|------------------------------------------------------	|---------------------------------------------------------------------------	|
+| TB Patient Type<br>Disease Site<br>EPTB Site<br>Type of Treatment<br>Sputum Smear Result<br>Culture Result<br>GeneXpert Result<br>Weight (Kg) 	| Type of Treatment<br>Sputum Smear Result<br>Culture Result<br>Weight (Kg) 	| Sputum Smear Result<br>Culture Result<br>Weight (Kg) 	| Sputum Smear Result<br>Culture Result<br>Treatment Outcome<br>Weight (Kg) 	|
 
 #### Step 12.1 - Create the 1st stage
 
 ### In order to add a new program stage, select the “Program stages” button from the top menu. Select the “+” button to add a new program stage
 
-![](images/multipletrackerprog/image22.png)
+![](Images/multipletrackerprog/image22.png)
 
 **Let’s review the program stage details for the first stage, “Diagnosis/Initial Phase.”**
 
-![](images/multipletrackerprog/image59.png)
+![](Images/multipletrackerprog/image59.png)
 
-![](images/multipletrackerprog/image56.png)
+![](Images/multipletrackerprog/image56.png)
 
 You will need to go over the various options that are available here as well as how they can potentially affect tracker capture. You may need to go back to this when you are opening up the program stage in tracker capture after it is created.
 
@@ -589,7 +466,7 @@ In this particular stage, you can see that the event is not repeatable as mentio
 
 Refer back to the accompanying documentation to check which data elements belong in the first stage and assign them here. You can also explain what the options that appear for each data element mean when they are selected (compulsory, display in reports, etc.)
 
-![](images/multipletrackerprog/image8.png)
+![](Images/multipletrackerprog/image8.png)
 
 The data elements have been added using the same order as the paper form. They can be arranged by using the up and down green arrows if required. You can also add them to sections. For now, save the program stage, and save the program before proceeding.
 
@@ -597,84 +474,50 @@ The data elements have been added using the same order as the paper form. They c
 
 It is always a good idea to take the data elements you have added in the program and arrange them based on sections in your source form. This allows you more control in defining the layout of how data elements appear within your program stages. Referring back to the TB Treatment Card, we can create the following sections and data elements in the 1st stage of the program:
 
-<table>
-  <tr>
-   <td><strong>Section</strong>
-   </td>
-   <td><strong>Data Elements</strong>
-   </td>
-  </tr>
-  <tr>
-   <td>Type of Patient
-   </td>
-   <td>TBTC|TB Patient Type
-   </td>
-  </tr>
-  <tr>
-   <td>Disease Site
-   </td>
-   <td>TBTC|TB Disease Site
-<p>
-TBTC|EPTB Site
-   </td>
-  </tr>
-  <tr>
-   <td>Type of Treatment for Initial Phase
-   </td>
-   <td>TBTC|Type of Treatment
-   </td>
-  </tr>
-  <tr>
-   <td>Sputum Examination Results
-   </td>
-   <td>TBTC|Sputum Smear
-<p>
-TBTC|Culture Result
-<p>
-TBTC|GeneXpert Result
-   </td>
-  </tr>
-  <tr>
-   <td>Weight
-   </td>
-   <td>Weight in kg
-   </td>
-  </tr>
-</table>
+| Section                             	| Data Elements                                                        	|
+|-------------------------------------	|----------------------------------------------------------------------	|
+| Type of Patient                     	| TBTC\|TB Patient Type                                                	|
+| Disease Site                        	| TBTC\|TB Disease Site<br>TBTC\|EPTB Site                             	|
+| Type of Treatment for Initial Phase 	| TBTC\|Type of Treatment                                              	|
+| Sputum Examination Results          	| TBTC\|Sputum Smear<br>TBTC\|Culture Result<br>TBTC\|GeneXpert Result 	|
+| Weight                              	| Weight in kg                                                         	|
 
 Select your program, navigate back to program stages, and select the program stage you have just made. Select “Create data entry form” after you have opened your program stage.
 
-Add in the 5 sections. Click on the ![](images/multipletrackerprog/image7.png)
+Add in the 5 sections. Click on the 
+![](Images/multipletrackerprog/image7.png)
+
 button to add a new section.  Enter the title of the section and click on “Add”
 
-![](images/multipletrackerprog/image3.png)
+![](Images/multipletrackerprog/image3.png)
 
 Repeat this process for all 5 sections. After this is complete, add the data elements to the section.
 
 Select a section (it will be highlighted in black) and select the data element you want to add to that section from the list on the right side.
 
-![](images/multipletrackerprog/image41.png)
+![](Images/multipletrackerprog/image41.png)
 
 If we follow the table outlined previously, we should end up with something that looks like this
 
-![](images/multipletrackerprog/image34.png)
+![](Images/multipletrackerprog/image34.png)
 
 Select “Add stage” when you have finished, followed by “Save” to make updates to your program.
 
 #### Step 12.2 - Create the 2nd stage
 
 Create a new stage by selecting the program you have made, going back to program stages and selecting the 
-![](images/multipletrackerprog/image18.png)
+
+![](Images/multipletrackerprog/image18.png)
 icon
 
 **The second stage, Continuation 1, will add in some scheduling components to the program details. This is reflected in the “Scheduled days from start” and “Generate events based on enrollment date” options.**
 
-![](images/multipletrackerprog/image32.png)
-![](images/multipletrackerprog/image13.png)
+![](Images/multipletrackerprog/image32.png)
+![](Images/multipletrackerprog/image13.png)
 
 **After entering in the details, assign the data elements to the stage**
 
-![](images/multipletrackerprog/image48.png)
+![](Images/multipletrackerprog/image48.png)
 
 Note that in this second stage, 60 days has been entered as the “Scheduled days from start” value to denote the 2-3 month scheduling of the second program stage.
 
@@ -682,155 +525,90 @@ Note that in this second stage, 60 days has been entered as the “Scheduled day
 
 We can define our sections based on our form as follows
 
-<table>
-  <tr>
-   <td><strong>Section</strong>
-   </td>
-   <td><strong>Data Elements</strong>
-   </td>
-  </tr>
-  <tr>
-   <td>Type of Treatment for Continuation Phase
-   </td>
-   <td>TBTC|Type of Treatment
-   </td>
-  </tr>
-  <tr>
-   <td>Sputum Examination Results
-   </td>
-   <td>TBTC|Sputum Smear
-<p>
-TBTC|Culture Result
-   </td>
-  </tr>
-  <tr>
-   <td>Weight
-   </td>
-   <td>Weight in kg
-   </td>
-  </tr>
-</table>
+| Section                                  | Data Elements                              |
+|------------------------------------------|--------------------------------------------|
+| Type of Treatment for Continuation Phase | TBTC\|Type of Treatment                    |
+| Sputum Examination Results               | TBTC\|Sputum Smear<br>TBTC\|Culture Result |
+| Weight                                   | Weight in kg                               |
 
 It should look like this when you create it in DHIS2
 
-![](images/multipletrackerprog/image52.png)
+![](Images/multipletrackerprog/image52.png)
 
 Select “Add stage” when you have finished, followed by “Save” to make updates to your program.
 
 
 #### Step 12.3 - Create the 3rd stage
 
-Create a new stage by selecting the program you have made, going back to program stages and selecting the ![](images/multipletrackerprog/image18.png)
+Create a new stage by selecting the program you have made, going back to program stages and selecting the ![](Images/multipletrackerprog/image18.png)
 icon
 
 **For the third stage, Continuation 2, make sure to add in the proper scheduling as well as correct data elements**
 
 **Program Details**
 
-![](images/multipletrackerprog/image50.png)
+![](Images/multipletrackerprog/image50.png)
 
-![](images/multipletrackerprog/image53.png)
+![](Images/multipletrackerprog/image53.png)
 
 
 **Assign the Data Elements**
 
-![](images/multipletrackerprog/image19.png)
+![](Images/multipletrackerprog/image19.png)
 
 **Create the data entry form**
 
 We can define our sections based on our form as follows
 
-<table>
-  <tr>
-   <td><strong>Section</strong>
-   </td>
-   <td><strong>Data Elements</strong>
-   </td>
-  </tr>
-  <tr>
-   <td>Sputum Examination Results
-   </td>
-   <td>TBTC|Sputum Smear
-<p>
-TBTC|Culture Result
-   </td>
-  </tr>
-  <tr>
-   <td>Weight
-   </td>
-   <td>Weight in kg
-   </td>
-  </tr>
-</table>
+| Section                    	| Data Elements                              	|
+|----------------------------	|--------------------------------------------	|
+| Sputum Examination Results 	| TBTC\|Sputum Smear<br>TBTC\|Culture Result 	|
+| Weight                     	| Weight in kg                               	|
 
 Create the section and add in the data elements to it
 
-![](images/multipletrackerprog/image47.png)
+![](Images/multipletrackerprog/image47.png)
 
 Select “Add stage” when you have finished, followed by “Save” to make updates to your program.
 
 #### Step 12.4 - Create the 4th stage
 
 Create a new stage by selecting the program you have made, going back to program stages and selecting the 
-![](images/multipletrackerprog/image18.png)
+![](Images/multipletrackerprog/image18.png)
 icon
 
 **The properties for the final stage, End of Treatment, do not include any scheduling due to its inherent volatility (someone could die or no longer attend abruptly for example); we can also ask the user to complete the program when this stage is completed.**
 
 **Program Details**
 
-![](images/multipletrackerprog/image23.png)
-![](images/multipletrackerprog/image2.png)
+![](Images/multipletrackerprog/image23.png)
+![](Images/multipletrackerprog/image2.png)
 
 **Assign the data elements**
 
-![](images/multipletrackerprog/image48.png)
+![](Images/multipletrackerprog/image48.png)
 
 
 **Create the data entry form.**
 
 We can define our sections based on our form as follows
 
-
-<table>
-  <tr>
-   <td><strong>Section</strong>
-   </td>
-   <td><strong>Data Elements</strong>
-   </td>
-  </tr>
-  <tr>
-   <td>Sputum Examination Results
-   </td>
-   <td>TBTC|Sputum Smear
-<p>
-TBTC|Culture Result
-   </td>
-  </tr>
-  <tr>
-   <td>Weight
-   </td>
-   <td>Weight in kg
-   </td>
-  </tr>
-  <tr>
-   <td>Treatment Outcome
-   </td>
-   <td>TBTC|Treatment Outcome
-   </td>
-  </tr>
-</table>
+| Section                    	| Data Elements                              	|
+|----------------------------	|--------------------------------------------	|
+| Sputum Examination Results 	| TBTC\|Sputum Smear<br>TBTC\|Culture Result 	|
+| Weight                     	| Weight in kg                               	|
+| Treatment Outcome          	| TBTC\|Treatment Outcome                    	|
 
 
 It should look like this in DHIS2
 
-![](images/multipletrackerprog/image35.png)
+![](Images/multipletrackerprog/image35.png)
 
 Select “Add stage” when you have finished
 
 **When finished, there should be 4 stages as part of the TB Treatment Card Program:**
 
-![](images/multipletrackerprog/image39.png)
+![](Images/multipletrackerprog/image39.png)
 
 Click on “Save” to make updates to your program.
 
@@ -840,7 +618,7 @@ Click on “Save” to make updates to your program.
 
 Select your program from within program maintenance then select “Access” from the top menu and proceed to select the organisation units you wish to assign the program to:
 
-![](images/multipletrackerprog/image12.png)
+![](Images/multipletrackerprog/image12.png)
 
 
 After assigning the organisation units you can click on “Save” to save these changes
@@ -858,25 +636,25 @@ Apply the following sharing settings:
     * Metadata : No Access
     * Data: No Access
 
-![](images/multipletrackerprog/image4.png)
+![](Images/multipletrackerprog/image4.png)
 
 Look for your user in the “Add users and user groups” field and apply the following sharing settings:
 
 * Metadata : Can edit and view
 * Data: Can capture and view
 
-![](images/multipletrackerprog/image51.png)
+![](Images/multipletrackerprog/image51.png)
 
 Select “Apply” when finished.
 
 Click “Select all” to select all of your program stages
 
-![](images/multipletrackerprog/image28.png)
+![](Images/multipletrackerprog/image28.png)
 
 
 Click on “Apply to selected stages.” You will see that the sharing settings you applied to your program will then be applied to all of your program stages as well.
 
-![](images/multipletrackerprog/image11.png)
+![](Images/multipletrackerprog/image11.png)
 
 
 Select “Save” to save your program updates.
