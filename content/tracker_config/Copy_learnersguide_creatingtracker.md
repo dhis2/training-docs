@@ -10,7 +10,6 @@ This guide contains all ungraded exercises and detailed steps to perform them re
 
 The overall objective of this session is to demonstrate the design of a multiple stage tracker program in DHIS2. Detailed objectives include:
 
-
 * Creating Option Sets through the user-interface
 * Creating “Tracker” type data elements
 * Creating Tracked Entity Attributes through the user interface
@@ -147,7 +146,7 @@ To add a new option set, click on the plus sign in the lower right corner
 
 ![](Images/creatingtrackerprog/image17.png)
 
-Provide the option set a name (mandatory) a code (optional) and value type (mandatory). **_Use your initials as a prefix when creating the option set. _**Click on “Save” to save the option set:
+Provide the option set a name (mandatory) a code (optional) and value type (mandatory). **Use your initials as a prefix when creating the option set.** Click on “Save” to save the option set:
 
 ![](Images/creatingtrackerprog/image33.png)
 
@@ -176,9 +175,8 @@ If necessary, you can repeat the process of adding another option set and indivi
 
 ### Exercise 3 - Identify and create (if not yet created) the attributes that will register the entity in the program
 
+
 From the review of the program (and by reviewing the tracker design sheet for the TB program), the following attributes need to be made:
-
-
 
 * Registration Number
 * First Name
@@ -254,7 +252,6 @@ Let us review the Data Element properties for the TB Patient Type data element
 ![](Images/creatingtrackerprog/image42.png)
 
 When making the data elements provide them with a prefix. In this instance, TBTC has been 
-
 used to denote “TB Treatment Card.” 
 
 **_Remember to also use your initials as a prefix when creating this data element._**
@@ -274,7 +271,7 @@ After you have created the data elements, it is a good idea to create the data e
 ![](Images/creatingtrackerprog/image48.png)
 
 
-Provide the Group with a name (using your initials as a prefix) and assign **_all _**the relevant program DE’s to the data element group (including ones you did not make but are already available for you to use). Click “Save” when finished.
+Provide the Group with a name (using your initials as a prefix) and assign **all** the relevant program DE’s to the data element group (including ones you did not make but are already available for you to use). Click “Save” when finished.
 
 ![](Images/creatingtrackerprog/image39.png)
 
@@ -331,6 +328,8 @@ You now want to add in the attributes of the program. Select your program from m
 |---------------------	|---------------	|------------	|
 | Last Name           	| Age           	| Sex        	|
 | Family Address      	| Phone number  	|            	|
+
+
 
 ![](Images/creatingtrackerprog/image6.png)
 

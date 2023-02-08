@@ -147,7 +147,6 @@ Elements of this presentation are incorporated into the tracker terminology sess
 
 #### STOP - Have them complete exercise 4 in the learner’s guide
 
-
 1. Create the program with registration. Discuss the number of program stages and repeatability of stages during this initial design phase.
 
 #### STOP - Have them complete exercise 5, 6, 7, 8, 9 in the learner’s guide
@@ -271,7 +270,6 @@ If necessary, repeat the process of adding a new option set and individual optio
 
 #### STOP - Have them complete exercises 1 and 2 in the learner’s guide
 
-
 ### Step 4 - Identify and create (if not yet created) the attributes that will register the entity in the program
 
 From the previous review of the program, the following attributes need to be made:
@@ -316,7 +314,6 @@ The attribute will be added to the Tracked entity attribute management screen:
 
 ![](Images/multipletrackerprog/image27.png)
 
-
 Continue the process of adding the remaining attributes until all of the attributes associated with the TB Treatment Chart program are present. Make sure to assign the “sex” option set to the sex attribute and assign the proper value types. Most of these are text, but make sure phone number is assigned the phone number value type for example. You should use prefixes when creating your attributes in this portion of the demo. The participants will have to use prefixes when doing their exercise.
 
 ![](Images/multipletrackerprog/image46.png)
@@ -347,7 +344,7 @@ Now we create the required data elements. From the background section:
 * Treatment Outcome
 * Weight (kg)
 
-We will just create one as part of the demo.
+**We will just create one as part of the demo.**
 
 Let us review the Data Element properties for the TB Patient Type data element
 

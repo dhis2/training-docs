@@ -74,7 +74,7 @@ Specify when to send it
 
     
 
-        **NOTE:**
+**NOTE:**
 
 
 

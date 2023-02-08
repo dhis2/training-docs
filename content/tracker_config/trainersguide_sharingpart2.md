@@ -120,75 +120,19 @@ It may also be helpful to have three browser windows open, logged into the 3 use
 
 Here is an overview of the sharing settings that are applied to these 3 groups (remember to show this through the UI and not just list it so others can investigate/follow along). 
 
+| Object             | User Group          | Data Level Sharing Setting Explanation                                                                                                                                                                                                                                                                                                                                                                |
+|--------------------|---------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| Tracked EntityType | Clinic Registration | Can capture and view: allows the user group to view all tracked entity data related to a person and enroll a person into DHIS2. In this case, it allows front desk staff to add new people to the system.                                                                                                                                                                                             |
+|                    | ANC Staff           | Can view only: Can view tracked entities of type person; they can not alter this data                                                                                                                                                                                                                                                                                                                 |
+|                    | ANC Manager         |                                                                                                                                                                                                                                                                                                                                                                                                       |
+| Program            | Clinic Registration | Can capture and view: allows this user group to enroll users INTO the ANC program; without access to capture data for a particular program, users with “can capture and view” for the tracked entity type can only register new entities with no program                                                                                                                                              |
+|                    | ANC Staff           | Can capture and view: allows this user group to delete enrollments, update existing tracked entity information, and delete enrollments. They can not register new entities though, due to the sharing settings they have for the tracked entity type                                                                                                                                                  |
+|                    | ANC Manager         | Can view only: allows the users within these groups to view the data associated with the program                                                                                                                                                                                                                                                                                                      |
+| Program Stages     | Clinic Registration | Can view only: these users can view the data in BOTH data entry (tracker capture) and data analysis apps. They must have access to these apps via their user authority/role. As the clinic registration user does not have access to the analysis apps, they will only see this data via tracker capture.                                                                                             |
+|                    | ANC Manager         |                                                                                                                                                                                                                                                                                                                                                                                                       |
+|                    | ANC Staff           | Can capture and view: these users can view and edit the data in all of the program stages in data entry (tracker capture) and view the data in data analysis apps. They must have access to these apps via their user authority/role. In some cases, you may need different levels of access for each program stage and this can be controlled via sharing the stages differently within the program. |
 
-<table>
-  <tr>
-   <td>Object
-   </td>
-   <td>User Group
-   </td>
-   <td>Data Level Sharing Setting Explanation
-   </td>
-  </tr>
-  <tr>
-   <td rowspan="3" >Tracked EntityType
-   </td>
-   <td>Clinic Registration
-   </td>
-   <td><strong>Can capture and view:</strong> allows the user group to view all tracked entity data related to a person and enroll a person into DHIS2. In this case, it allows front desk staff to add new people to the system.
-   </td>
-  </tr>
-  <tr>
-   <td>ANC Staff
-   </td>
-   <td rowspan="2" ><strong>Can view only:</strong> Can view tracked entities of type person; they can not alter this data
-   </td>
-  </tr>
-  <tr>
-   <td>ANC Manager
-   </td>
-  </tr>
-  <tr>
-   <td rowspan="4" >Program
-   </td>
-   <td>Clinic Registration
-   </td>
-   <td><strong>Can capture and view:</strong> allows this user group to enroll users <strong>INTO</strong> the ANC program; without access to capture data for a particular program, users with “can capture and view” for the tracked entity type can only register new entities with no program
-   </td>
-  </tr>
-  <tr>
-   <td>ANC Staff
-   </td>
-   <td><strong>Can capture and view: </strong>allows this user group to delete enrollments, update existing tracked entity information, and delete enrollments. They can not register new entities though, due to the sharing settings they have for the tracked entity type
-   </td>
-  </tr>
-  <tr>
-   <td rowspan="2" >ANC Manager
-   </td>
-   <td rowspan="2" ><strong>Can view only:</strong> allows the users within these groups to view the data associated with the program
-   </td>
-  </tr>
-  <tr>
-  </tr>
-  <tr>
-   <td rowspan="3" >Program Stages
-   </td>
-   <td>Clinic Registration
-   </td>
-   <td rowspan="2" ><strong>Can view only:</strong> these users can view the data in <strong>BOTH</strong> data entry (tracker capture) and data analysis apps. They must have access to these apps via their user authority/role. As the clinic registration user does not have access to the analysis apps, they will only see this data via tracker capture.
-   </td>
-  </tr>
-  <tr>
-   <td>ANC Manager
-   </td>
-  </tr>
-  <tr>
-   <td>ANC Staff
-   </td>
-   <td><strong>Can capture and view:</strong> these users can view and edit the data in all of the program stages in data entry (tracker capture) <strong>and </strong>view the data in data analysis apps. They must have access to these apps via their user authority/role. In some cases, you may need different levels of access for each program stage and this can be controlled via sharing the stages differently within the program.
-   </td>
-  </tr>
-</table>
+
 
 
 For all three objects, the meta-data permissions are set to view only for these 3 user groups. This is so these users within these groups can see this meta-data but do not have permission to edit it. The “can edit and view” meta-data sharing setting is often reserved for administrators of the systems, and we can see that is the case here as well. 
