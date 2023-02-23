@@ -42,26 +42,30 @@ Decide how you would like to run the session. The guide has you alternating betw
 STOP - Have the participant’s perform Exercise 1 in the learner’s guide
 
 2. Create a program rule using the ANC program
-    3. If gravidity is one or less, hide parity
-    4. Test the rule
+   
+    1. If gravidity is one or less, hide parity
+    2. Test the rule
 
 STOP - Have the participant’s perform Exercise 2 in the learner’s guide
 
 3. Create a program rule using the TB program
-    5. If the weight is &lt;=5 or >= 140 display a warning message
-    6. Test the rule
+   
+    1. If the weight is &lt;=5 or >= 140 display a warning message
+    2. Test the rule
 
 STOP - Have the participant’s perform Exercise 3 in the learner’s guide
 
 4. Create a program rule using the TB Treatment Card Program
-    7. Show the disease site in the feedback
-    8. Test the rule
+   
+    1. Show the disease site in the feedback
+    2. Test the rule
 
 STOP - Have the participant’s perform Exercise 4 in the learner’s guide
 
 5. Create a program rule using the TB Treatment Card Program
-    9. Calculate the patient’s age based on the Date of Birth
-    10. Test the rule
+   
+    1. Calculate the patient’s age based on the Date of Birth
+    2.  Test the rule
 
 STOP - Have the participant’s perform Exercise 4 in the learner’s guide
 
@@ -94,7 +98,7 @@ In order to create a program rule, we can follow these general guidelines:
 
 ## Step 1 - Access the Program and attribute app
 
-**Log into the blank instance and go to Maintenance App **
+**Log into the blank instance and go to Maintenance App**
 
 ![](Images/pr/image18.png)
 
@@ -129,7 +133,6 @@ The majority of the time you will be using “data element in current event” o
 
 ![](Images/pr/image8.png)
 
-
 Do not worry about the priority for now. This will be covered in other trainings/academies.
 
 **Enter the Program rule expression**
@@ -140,7 +143,7 @@ You can refer to Slide 8 and 9 on expressions and operators:
 
 **Create an expression #{TBDiseaseSite_current} == ''  || #{TBDiseaseSite_current} == 'Pulmonary'**
 
-Recall the operators from the documentation that are now present along the bottom row and go through a quick refresher on what these mean.  You will be using an expression that includes the** equals to** and **OR **logical operators.
+Recall the operators from the documentation that are now present along the bottom row and go through a quick refresher on what these mean.  You will be using an expression that includes the **equals to** and **OR** logical operators.
 
 ![](Images/pr/image38.png)
 
@@ -286,6 +289,7 @@ When the weight is within the range you have defined, or the weight data element
 
 ![](Images/pr/image30.png)
 ![](Images/pr/image6.png)
+
 ### STOP - Have the participant’s perform Exercise 3 in the learner’s guide
 
 ## Rule 4 - Create a program rule using the TB Treatment Card. 
