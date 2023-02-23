@@ -95,46 +95,41 @@ The first component of the demo will be a review for anyone who has taken the on
 
 Go to Apps -> Data Visualizer
 
-![](Images/pivottable/image47.png)
+![](Images/pivottable/image38.png)
 
 Open the table “HIV - HIV testing performance by sub-orgunits”
 
-![](Images/pivottable/image20.png)
+![](Images/pivottable/image18.png)
 
 ### Review the table
 
 Data is arranged in a simple tabular output which is arranged in columns and rows. We see that rows represent the region (Where) dimension, columns shows HIV tests performed, number positive and the positivity rate which is something to do with data (What) dimension and at the top we see the months as period dimension to which the data in table is displayed.
 
-![](Images/pivottable/image54.png)
+![](Images/pivottable/image40.png)
 
 Now focus on the left side of the screen where we configure the output. This is where we select what to be displayed for each dimension. 
 
 Review of DHIS2 dimensions; data, periods and organization units.
 
-<table>
-  <tr>
-   <td><em>Understanding DHIS2 data dimensions</em>
-   </td>
-  </tr>
-  <tr>
-   <td>When selecting what data to add to a TABLE, at minimum you need to make selections in terms of “what”, “where” and “when” the data is describing. 
-<p>
-<strong>“What”</strong> describes indicators (calculated by formulas), data elements (raw data as collected in the data entry forms) or reporting rates. Both are organized as groups, so know your groups to quickly find what you are looking for.
-<p>
-<strong>“Where”</strong> is found under Organisation Units, that is the location hierarchy from global to country and finally to sites, with all the intermediary levels in between. Know your orgunit levels to quickly navigate to the correct locations.
-<p>
-<strong>“When”</strong> is found under “Periods”. There you can specify what periodicity or time you want to visualize data for. Periods are organized by Period Types (“frequency groups”), so to find “January 2020” you must look under Period type “Monthly”. “January-March 2020” is found under “Quarterly”, “2020” is found under “Yearly”.
-<p>
-In addition to these “core dimensions” there are quite a few additional dimension providing more granularity to the “what” dimension, e.g. the age, sex and test results dimensions. 
-   </td>
-  </tr>
-</table>
+
+|                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                  Understanding DHIS2 data dimensions                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                  	|
+|:---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------:	|
+| When selecting what data to add to a TABLE, at minimum you need to make selections in terms of “what”, “where” and “when” the data is describing. <br>
+
+“What” described indicators (calculated by formulas), data elements (raw data as collected in the data entry forms) or reporting rates. Both are organised as groups, so know your groups to quickly find what you are looking for.<br>
+
+“Where” is found under Organisation Units, that is the location hierarchy from global to country and finally to sites, with all the intermediary levels in between. Know your orgunit levels to quickly navigate to the correct locations.<br>
+
+“When” is found under “Periods”. There you can specify what periodicity or time you want to visualise data for. Periods are organised by Period Types (“frequency groups”), so to find “January 2022” you must look under Period type “Monthly”. “January-March 2022” is found under “Quarterly”, “2022” is found under “Yearly”.<br>
+
+
+In addition to these “core dimensions” there are quite a few additional dimension providing more granularity to the “what” dimension, e.g. the age, sex and test results dimensions.  	|
 
 ### Modify the Data
 
 Demonstrate that it is possible to select data from data elements, indicators or data sets
 
-![](Images/pivottable/image17.png)
+![](Images/pivottable/image54.png)
 
 In current selection both data elements and indicators are selected.
 
@@ -155,7 +150,7 @@ You can select various fixed period types depending on the time period you wish 
 
 Start with the fixed period selection.
 
-![](Images/pivottable/image49.png)
+![](Images/pivottable/image25.png)
 
 
 Next, review what relative periods are. These periods are relative to today’s date. They will constantly update as time goes forward and therefore are often a good choice for favorites. For example, if you are in 2021 and choose “Last Year” as the relative period, 2020 will be selected. In 2022, this will automatically shift to 2021. Over time, you will not have to edit each of the items you have saved as the selection of its data will constantly change.
@@ -186,7 +181,7 @@ Review the different selection modes for orgunits:
 
 This is the default way of selecting orgunits, simply select the units in the hierarchy that you want to use in the output. By default the “root” or top level unit is selected in the hierarchy. For most users this will be the Trainingland unit or a country unit in the real production environment. If you just want the country totals simply leave the top most unit (in this case Trainingland) selected. The org unit hierarchy supports multiple selections, just select the org units that you want to include in your output.
 
-![](Images/pivottable/image27.png)
+![](Images/pivottable/image62.png)
 
 This is the most flexible way of selecting org units as any combination of selected units is allowed, mixing units from different levels etc. You can **update** he table to see how this affects the output.
 
@@ -196,7 +191,7 @@ The ‘Select levels’ mode may be faster and more convenient when selecting al
 
 Select District as the level (in the drop-down box) and make sure Trainingland is selected in the hierarchy. This will give us all units at the District level in Trainingland. If we just wanted the districts in the Food Region we could change the selected unit in the hierarchy from Trainingland to Food Region. If we wanted all districts in Trainingland, we could make the selection as below:
 
-![](Images/pivottable/image51.png)
+![](Images/pivottable/image78.png)
 
 You can go ahead and **update** the table in order to see the effect this has on the table.
 
@@ -204,7 +199,7 @@ You can go ahead and **update** the table in order to see the effect this has on
 
 ‘Select groups’ is the third way of selecting orgunits. Orgunits can be grouped in as many orgunit groups as you like, and these groups can then be used as a filter to select all units of a particular type or another common set of characteristics. For example, this could be a hospital group for all hospital units or a public group for all public health facilities. There are several org unit groups available in Trainingland, which have grouped similar facilities together for analysis as shown below.
 
-![](Images/pivottable/image42.png)
+![](Images/pivottable/image34.png)
 
 Select the “Public” organization unit group with Trainingland selected and **update **the table. DHIS2 will select all of the Public facilities within Trainingland.
 
@@ -214,21 +209,21 @@ Select the “Public” organization unit group with Trainingland selected and *
 
 The layout will also persist on top of the table within the data visualizer app
 
-![](Images/pivottable/image46.png)
+![](Images/pivottable/image6.png)
 
 The organization units are appearing in rows and what was selected for the ‘Data’ dimension appears for columns. The report filter defines the filtering criteria or scope and in this case it’s the period. You can hover over each of the icons in the layout in order to see what has been selected as options for each item
 
-![](Images/pivottable/image48.png)
+![](Images/pivottable/image41.png)
 
 Alter the layout so it appears as below.
 
-![](Images/pivottable/image22.png)
+![](Images/pivottable/image20.png)
 
 Click on **update**.
 
 The updated table will look like this.
 
-![](Images/pivottable/image3.png)
+![](Images/pivottable/image51.png)
 
 The Data and Periods are both appearing as columns.
 
@@ -236,7 +231,7 @@ The Data and Periods are both appearing as columns.
 
 Select only “HIV - HIV tests performed” for the Data dimension.
 
-![](Images/pivottable/image28.png)
+![](Images/pivottable/image64.png)
 
 Click on options. 
 
@@ -246,22 +241,22 @@ Click on options.
 * Hide empty rows
 * Hide empty columns
 
-![](Images/pivottable/image41.png)
+![](Images/pivottable/image71.png)
 
 **From the “Style” tab**
 * Modify the table title/font size
 
-![](Images/pivottable/image13.png)
+![](Images/pivottable/image57.png)
 
 **Update** the table and review how the changes have affected the table
 
-![](Images/pivottable/image11.png)
+![](Images/pivottable/image13.png)
 
 #### Sorting
 
 Click on the column header for one of the months to show how you can sort the table.
 
-![](Images/pivottable/image4.png)
+![](Images/pivottable/image39.png)
 
 #### Saving
 
@@ -269,7 +264,7 @@ Now, let’s save the table!
 
 Please use the convention (Username - Program: What - Where - When; for example SND_HIV - HIV tests performed - Public Facilities - Last 6 months). **Note that username is only for the academy to keep the name unique, in production systems you should not need to use your username as a prefix as you can easily filter out the saved items that you have made.**
 
-![](Images/pivottable/image16.png)
+![](Images/pivottable/image75.png)
 
 ## End Exercise 2
 
@@ -285,7 +280,7 @@ Note that there is a mix of categories (data disaggregation), organization unit 
 
 Note that this requires being familiar with the disaggregation that is linked to the data element. You can show them how to do this relatively easily by having the HIV data set open in data entry.
 
-![](Images/pivottable/image40.png)
+![](Images/pivottable/image3.png)
 
 Let’s update the table with the following criteria.
 
@@ -295,25 +290,25 @@ Let’s update the table with the following criteria.
 * Table options : Hide empty columns, Hide empty columns, show row totals, show column totals
 * Add the sex disaggregation as an additional dimension.
 
-![](Images/pivottable/image12.png)
+![](Images/pivottable/image56.png)
 
 Click on update to see the following table
 
-![](Images/pivottable/image19.png)
+![](Images/pivottable/image14.png)
 
 #### Add in PHC, Dispensary and Health Centre from the Type dimension
 
-![](Images/pivottable/image15.png)
+![](Images/pivottable/image12.png)
 
 Alter the table layout as follows.
 
-![](Images/pivottable/image38.png)
+![](Images/pivottable/image68.png)
 
 Ensure the “Hide empty rows” option is selected.
 
 Update the table
 
-![](Images/pivottable/image50.png)
+![](Images/pivottable/image19.png)
 
 
 ## End Exercise 3
@@ -324,11 +319,11 @@ Update the table
 
 Open the options and check show column subtotals in options within the “Data” tab
 
-![](Images/pivottable/image25.png)
+![](Images/pivottable/image71.png)
 
 Click **Update **and you should see the table like below.
 
-![](Images/pivottable/image50.png)
+![](Images/pivottable/image79.png)
 
 
 See for each facility type you will have subtotals available down the column. This shows you, by sex, the total number of HIV tests performed within a particular period for that facility type. 
@@ -339,11 +334,11 @@ Sometimes it is worthwhile to have the entire hierarchy displayed in the table r
 
 Click on options, navigate to the “Style” tab and select show hierarchy
 
-![](Images/pivottable/image43.png)
+![](Images/pivottable/image35.png)
 
 Click **update**. This will give you the following output.
 
-![](Images/pivottable/image18.png)
+![](Images/pivottable/image63.png)
 
 The entire organisation unit hierarchy is now visible up to facility level.
 
@@ -353,11 +348,11 @@ The entire organisation unit hierarchy is now visible up to facility level.
 
 Select Download and choose a format that you want to download the data in.
 
-![](Images/pivottable/image36.png)
+![](Images/pivottable/image29.png)
 
 Plain data source is useful as it can be used to further analyze the data using statistical software such as SPSS, STATA or R. You can also open it in Excel and use pivot tables etc. to further review the data
 
-![](Images/pivottable/image31.png)
+![](Images/pivottable/image49.png)
 
 ## End Exercise 5
 
@@ -370,11 +365,11 @@ Using your previous table, modify the options in the “Data” tab as follows.
 * Number type: Percentage of column
 * Remove the “row totals”
 
-![](Images/pivottable/image14.png)
+![](Images/pivottable/image11.png)
 
 Click on ‘Update’
 
-![](Images/pivottable/image18.png)
+![](Images/pivottable/image72.png)
 
 This will display values as percentages of the column total (instead of summing the aggregated value). Also, as you are showing the percentages of the column, the row totals would not make sense in this scenario.
 
@@ -387,21 +382,21 @@ It is sometimes useful to filter data visualized in a pivot table based on a val
 
 * Open up the previously saved favorite item ‘yourusername_HIV - HIV tests performed - Public Facilities - Last 6 months (you may see different periods of data depending on the current period)’.
 
-![](Images/pivottable/image29.png)
+![](Images/pivottable/image31.png)
 
 * Click on the options button, followed by the “Limit values” tab. Let’s define criteria to visualize only values between 500 and 4000.
 
-![](Images/pivottable/image44.png)
+![](Images/pivottable/image36.png)
 
 
 * Click ‘update’ and you will see the table below which only shows values >= 500 and &lt;=4000. 
 * Change the options to “Hide empty rows” within the “Data” tab to clean up the table
 
-![](Images/pivottable/image57.png)
+![](Images/pivottable/image47.png)
 
 The table should show you monthly values from only between 500 and 4000
 
-![](Images/pivottable/image21.png)
+![](Images/pivottable/image44.png)
 
 #### **Share** Saved Item
 
@@ -409,15 +404,15 @@ Saved items designed in Pivot Tables can be shared with users/user groups.
 
 Open up the previously saved favorite item ‘yourusername_HIV - HIV tests performed - Public Facilities - Last 6 months’ and Select File - Share
 
-![](Images/pivottable/image24.png)
+![](Images/pivottable/image21.png)
 
 This will bring up the sharing dialog and allow you to share your pivot table
 
-![](Images/pivottable/image26.png)
+![](Images/pivottable/image58.png)
 
 Share the table with the user group “HIV access.” Provide them with “Can view only” access. This means that they can see the table but can not edit or modify it.
 
-![](Images/pivottable/image5.png)
+![](Images/pivottable/image50.png)
 
 ## End Exercise 6
 
@@ -433,17 +428,17 @@ Create a new pivot table with following criteria.
 * Period: last year
 * Org Unit: Trainingland by district
 
-![](Images/pivottable/image8.png)
+![](Images/pivottable/image54.png)
 ![](Images/pivottable/image2.png)
-![](Images/pivottable/image9.png)
+![](Images/pivottable/image78.png)
 
 Layout should be as follows
 
-![](Images/pivottable/image23.png)
+![](Images/pivottable/image61.png)
 
 **Update** the table to see the following output:
 
-![](Images/pivottable/image33.png)
+![](Images/pivottable/image70.png)
 
 The table output doesn’t look very different from anything we have already reviewed.
 
@@ -458,11 +453,11 @@ This is what the current EPI Coverage legend represents.
 * Light green is good performance, 80 - 90
 * Dark green is the target coverage, 90 – 100
 
-![](Images/pivottable/image53.png)
+![](Images/pivottable/image42.png)
 
 To apply the legend, open the table options and navigate to the “Legend” tab.
 
-![](Images/pivottable/image45.png)
+![](Images/pivottable/image73.png)
 
 Then
 
@@ -476,7 +471,7 @@ Then
 
 The updated table:
 
-![](Images/pivottable/image55.png)
+![](Images/pivottable/image48.png)
 
 You will notice the legend key on the right side of the table.
 
@@ -486,13 +481,13 @@ You can sort the table before proceeding. After you sort it, we can see district
 
 * Left click on a cell of Bird District to bring up the drill down/up function. Refer to the screenshot below.
 
-![](Images/pivottable/image6.png)
+![](Images/pivottable/image53.png)
   
 Explain that this allows you to dive into more detail directly via the pivot table. Note that you can still use the org unit/period selections on the left-hand menu to drill up and down if that is your preference. This method however allows a bit more interactivity within the table itself.
 
 You will see following table when drilled-down
 
-![](Images/pivottable/image39.png)
+![](Images/pivottable/image69.png)
 
 How can you interpret the above table?
 
@@ -506,7 +501,7 @@ When you have large amounts of data, it may be useful to lock the first row and 
 
 Open the saved table “HIV - HIV testing performance by facility, last 3 years”
 
-![](Images/pivottable/image52.png)
+![](Images/pivottable/image80.png)
 
 Scroll up and down on this table, you will see the columns and rows disappear.
 
@@ -515,7 +510,7 @@ Open the table options, navigate to style and select
 * fix column headers to top of table
 * fix row headers to left of table
   
-![](Images/pivottable/image37.png)
+![](Images/pivottable/image30.png)
 
 Proceed to scroll left/right and up/down you will note these headers are now locked
 
