@@ -1,6 +1,4 @@
-
 # Trainer’s Guide to Data Visualizer
-
 
 # What is this guide?
 
@@ -35,13 +33,11 @@ There is also a Quick Guide which lists the steps very briefly and this is meant
     12. Combination
     13. Scatterplot
 
-
 # Time needed for this session
 
 Live demo: 12 demos, each
 
 Hands-on exercises: 12 exercises, mins each
-
 
 # Preparations
 
@@ -54,7 +50,6 @@ Make sure the resolution on projector is OK for zooming in Data Visualizations w
 The session has been divided into 12 parts. Each part has a set of objectives associated with it. Start each part of this session by showing the objectives of the session located here:
 
 [https://drive.google.com/open?id=1JlMz2sEy6hH88ej_HlMUL9rAlt5V9Zd9-wGTayDxJ_s](https://drive.google.com/open?id=1JlMz2sEy6hH88ej_HlMUL9rAlt5V9Zd9-wGTayDxJ_s) 
-
 
 # Table of Contents/Quick Guide
 
@@ -156,11 +151,11 @@ Open the following chart
 
 You should now see the following in visualizer
 
-![](Images/datavisualizer/image10.png)
+![](Images/datavisualizer/image11.png)
 
 Go over the various elements that are present on the chart. Currently, you have the data items along the x-axis. The values are represented via the y-axis. You have a title for the y-axis as well as the chart itself. You can also see the periods which have been selected for this graph.
 
-![](Images/datavisualizer/image11.png)
+![](Images/datavisualizer/image10.png)
 
 You can also use the layout to verify what has been selected. Do this by hovering over an item in the layout. We will be working with the layout more momentarily.
 
@@ -203,7 +198,6 @@ Column, Stacked Column, Line and Area charts all have similar properties when di
 Let us review how the category, series and filter have affected the output of the chart. We have moved the dimensions around a little to see that these do indeed result in completely different charts depending on its placement in the layout. You can also use slide 2 in this presentation to support your explanation
 
 [https://docs.google.com/presentation/d/1u6QbYEKZnYPUK_5jAlnM-pxQczjcXhUeWx9MJAroqdA/edit?usp=sharing](https://docs.google.com/presentation/d/1u6QbYEKZnYPUK_5jAlnM-pxQczjcXhUeWx9MJAroqdA/edit?usp=sharing) 
-
 
 
 1. First, let's review the **category**. In this type of chart, the category will always be the x-axis essentially. We can see the period is the x-axis in this example. When we first opened the chart, data was in the category and the data items were listed along the x-axis. The y-axis in all versions of this chart is the actual data value. This does not change regardless of which item is placed where. The category also determines how we group (or categorise!) the series together. We can see that the category (in this case the months) groups together the series (in this case the data item).
@@ -262,7 +256,7 @@ The series identifies how we display our data together in our selected category.
 
 ![](Images/datavisualizer/image48.png)
 
-Update the period selection to include quarters from 2018 - 2020 and hide the period selection.
+Update the period selection to include quarters from 2020 - 2022 and hide the period selection.
 
 **Question** Period is our category and data is our series. What will we see on the line chart?
 
@@ -422,6 +416,7 @@ Add in a sort order to the chart. Modify the chart options to display the target
 ![](Images/datavisualizer/image58.png)
 
 ![](Images/datavisualizer/image39.png)
+  
 After you update the chart, you can discuss how the options have affected the chart view.
 
 ### Apply a pre-defined legend

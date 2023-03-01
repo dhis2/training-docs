@@ -515,3 +515,47 @@ Open the table options, navigate to style and select
 Proceed to scroll left/right and up/down you will note these headers are now locked
 
 ## End Exercise 8
+
+### Part 9 - Last Value Aggregation Type
+
+#### Last Value Aggregation Type
+
+The last value aggregation type is a special value type which takes the last value that has been entered at a specific level and displays it within the analysis apps. This is useful if, for example, you are entering a number which represents the current number of people on treatment from period to period. For example, in November 2020 you could have 100 people on treatment, in December 2020 you could have 87. If you want to know the amount of people currently on treatment within the year, you are looking for the value of 87. By default, DHIS2 would have aggregated these values (87+100+values for other months in 2020); however this is not what we want, we only want the most recent value that has been entered. 
+
+As an example, let us review our data entry page for HIV
+
+![](Images/pivottable/image27.png)
+
+Here, PLHIV currently on ART in February 2021 is 721+1036 =1757
+
+In March 2021, this changes to 690+1034 = 1724
+
+If I were interested in the number of PLHIV currently on ART for MARCH, I would want the value only from March, I would not want the sum of January + February + March.
+
+In pivot tables, let us apply this across the last 12 months. Here I would want the most recent value that has been entered for PLHIV currently on ART and not a sum of the last 12 months. We can do this in 2 ways:
+
+1. We set the data element to aggregate using the last value type in maintenance
+2. We can modify the way the data element aggregates in the pivot table options. This can be useful to move between aggregation methods for a particular data element depending on the output you require.
+
+Let us look at an example by creating a new pivot table/
+
+* Data: HIV - PLHIV currently on ART (Data Element within the **HIV **group)
+* Periods: Last 12 months
+* Organisation Units: Health Centre Group in Animal Region
+
+![](Images/pivottable/image30.png)
+
+The data element PLHIV currently on ART is currently set to aggregate using the “average (sum in org unit hierarchy)” function in maintenance. This causes the average of the values from the last 12 months to be displayed in this particular table. 
+
+If we change this to aggregate via last value, it will select the last value that was entered during that 12 month period that has been filtered and place it in the output of the table. To aggregate values this way, open table options and set the aggregation type to “last value” within the “Data” tab. 
+
+![](Images/pivottable/image10.png)
+
+Note that you can set your value to aggregate any way you would like here if you want to modify the output using the default method of aggregating the data element and we are using last value to demonstrate this feature.
+
+This gives us a better indication of who is on ART at the end of the point in time we have selected. In this case, using the last 12 months, we will get the number currently on ART at the end of the last 12 month period we have selected. 
+
+Select **Update** to update the table and review the returned result
+
+![](Images/pivottable/image74.png)
+

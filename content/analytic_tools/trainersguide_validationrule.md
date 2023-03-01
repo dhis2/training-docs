@@ -81,10 +81,6 @@ The second exercise involves sending notifications. Make sure all the participan
    
 
 
-
-# 
-
-
 # Live Demo Step-by-Step
 
 
@@ -100,7 +96,7 @@ In the first example, we will run the validation rules for the [HIV Monthly] dat
 
 Select the following in data entry:
 
-![](Images/vrrules/image10.png)
+![](Images/vrrules/image30.png)
 
 First, review the data entry page briefly. We will start by running logical rules, which are checking the correctness of the data. These rules will essentially tell us if the data should be fixed based on the output it provides. 
 
@@ -109,20 +105,19 @@ There are several places you can check if your data entry page passes the config
 At the top right corner:
 
 
-![](Images/vrrules/image18.png)
+![](Images/vrrules/image9.png)
 
 
 At the bottom of the page:
 
-![](Images/vrrules/image23.png)
-
+![](Images/vrrules/image10.png)
 
 **Note** The validation will run everytime you click on complete. You can explain the complete button, in that it contributes to two of the factors of data quality previously discussed: the completeness and timeliness of the data. When selecting the complete button, the dataset registers as being complete (data is saved automatically as it is entered, complete does not save the data). The date in which the complete button is selected is used to compare against the defined timeliness of the dataset. So if my timeliness is defined as having the data submitted within 15 days of the next month, and I click complete on March 8 for February data, the dataset will be complete for February as well as timely!
 
 After reviewing these concepts, run the validation rule(s)
 
 
-![](Images/vrrules/image3.png)
+![](Images/vrrules/image12.png)
 
 
 ### Review the rules in data entry
@@ -132,15 +127,15 @@ After you run the rules, review them with the participants. This will help you t
 The first and second values are being taken from the sex section HIV tests performed and HIV tests positive categorized by gender/sex (Female and Male).
 
 
-![](Images/vrrules/image4.png)
+![](Images/vrrules/image35.png)
 
 
 Reviewing our data, this means that one of these values must be incorrect. We may need to verify with the facility, but let us assume this has already been done and we understand the HIV tests positive were counted incorrectly. 
 
-We can update this to “40” and “98” respectively Run the validation again. 
+We can update this to each cell respectively as shown in the image respectively and Run the validation again.  
 
 
-![](Images/vrrules/image14.png)
+![](Images/vrrules/image39.png)
 
 
 It should now pass as the number of HIV tests positive is now less than the HIV tests performed in this period (April 2021).
@@ -150,10 +145,10 @@ It should now pass as the number of HIV tests positive is now less than the HIV 
 
 In order to run validation rule analysis, go to the data quality app and select “Run validation”
 
-![](Images/vrrules/image20.png)
+![](Images/vrrules/image38.png)
 
 
-Select a single month (the example uses March 2021) and District and run the “HIV validation rules.” This will allow for all of the HIV validation rules to be run against all the facilities within the district for the time period you have selected. This is much more useful when trying to review many org units at once rather than selecting each org unit in data entry and running the validation rules. 
+Select a single month (the example uses July 2021) and District and run the “HIV validation rules.” This will allow for all of the HIV validation rules to be run against all the facilities within the district for the time period you have selected. This is much more useful when trying to review many org units at once rather than selecting each org unit in data entry and running the validation rules. 
 
 ![](Images/vrrules/image16.png)
 
