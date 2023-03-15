@@ -145,7 +145,7 @@ Dashboard items are meant to be interactive. This is true of charts, maps, and t
 
 Tables allow you to sort them within the dashboard. You can do this by selecting a column heading within a table.
 
-![](Images/dashboards/image8.pngpng)
+![](Images/dashboards/image8.png)
 
 While maps allow you to show the legend, hover over thematic layers to see a more detailed description of the item you are reviewing
 

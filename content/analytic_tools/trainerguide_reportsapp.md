@@ -108,7 +108,7 @@ Select a inputs for the Org unit, Data Set and Period. In this example, the data
 
 * Org Unit : Bird District
 * Data Set : Immunization
-* Report period : Monthly, Year: 2021, Month: March
+* Report period : Monthly, Year: 2022, Month: October
 
 After selecting your inputs, select “Get report”
 
@@ -147,7 +147,7 @@ Select inputs for the Org unit, Data Set and Period. In this example, the data s
 
 * Org Unit : Animal Region
 * Data Set : Immunisation
-* Report period : Monthly, Year: 2021, Month: March
+* Report period : Monthly, Year: 2022, Month: October
 
 In addition, the “Public” Org unit group has been selected from the “Ownership” group set. Select “Get report” in order to retrieve the report.
 
@@ -183,7 +183,7 @@ Select inputs for the Org unit, Data Set and Period. In this example, the report
 
 * Org Unit : Dog District
 * Data Set : Immunization
-* Report period : Yearly, Year: 2021
+* Report period : Yearly, Year: 2022
 
 Note that, just like for data set reports you are also able to select “show more options” and select additional org unit group filters if you need to. In this example, none have been selected but the same principles as data set reports would apply. 
 
@@ -201,6 +201,7 @@ Review the report with the group and explain the outputs.
 
 You are able to download the data set report as either an excel or PDF file
 
+![](images/reportsapp/image24.png)
 
 ### STOP  - Perform Exercise 3 (creating a reporting rate summary)
 
