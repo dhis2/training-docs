@@ -203,7 +203,7 @@ You can go ahead and **update **the table in order to see the effect this has on
 
 ![](Images/pivottable/image34.png)
 
-Select the “Public” organisation unit group with Trainingland selected and **update** the table. DHIS2 will select all of the Public facilities within Trainingland.
+Select the “Public” organisation unit group with Trainingland selected and **update**the table. DHIS2 will select all of the Public facilities within Trainingland.
 
 
 ### Part 2 - Table Layout, Options, Sorting and Saving

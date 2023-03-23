@@ -43,7 +43,7 @@ Hands-on exercises: 5 exercises, 5-15 mins each
     - [Review the reporting rate summary](#review-the-reporting-rate-summary)
     - [Review download options](#review-download-options-1)
   - [Exercise 4 - Reporting Rates in Other Tools](#exercise-4---reporting-rates-in-other-tools)
-    - [Open the chart “EPI - Completeness - 2021 months” in Data Visualizer](#open-the-chart-epi---completeness---2021-months-in-data-visualizer)
+    - [Open the chart “EPI - Completeness - 2022 months” in Data Visualizer](#open-the-chart-epi---completeness---2022-months-in-data-visualizer)
     - [Edit the data selection](#edit-the-data-selection)
   - [Exercise 5 - Org Unit Distribution](#exercise-5---org-unit-distribution)
     - [Select the “Org Unit Distribution report” module from within the reports app](#select-the-org-unit-distribution-report-module-from-within-the-reports-app)
@@ -85,7 +85,7 @@ Select inputs for the Org unit, Data Set and Period. In this example, the data s
 
 * Org Unit : Bird District
 * Data Set : Immunisation
-* Report period : Monthly, Year: 2021, Month: March
+* Report period : Monthly, Year: 2022, Month: October
 
 After selecting your inputs, select “Get report”
 
@@ -119,7 +119,7 @@ Select inputs for the Org unit, Data Set and Period. In this example, the data s
 
 * Org Unit : Animal Region
 * Data Set : Immunisation
-* Report period : Monthly, Year: 2021, Month: March
+* Report period : Monthly, Year: 2022, Month: October
 
 In addition, the “Public” Org unit group has been selected from the “Ownership” group set. Select “Get report” in order to retrieve the report.
 
@@ -157,7 +157,7 @@ Select inputs for the Org unit, Data Set and Period. In this example, the report
 
 * Org Unit : Dog District
 * Data Set : Immunisation
-* Report period : Yearly, Year: 2021
+* Report period : Yearly, Year: 2022
 
 Note that, just like for data set reports you are also able to select “show more options” and select additional org unit group filters if you need to. In this example, none have been selected but the same principles as data set reports would apply. 
 
@@ -182,7 +182,7 @@ The reporting rate summary is a very user-friendly tool; however one critical di
 We can also review reporting rates in charts, tables or maps and even combine them with other data by using combination charts. 
 
 
-### Open the chart “EPI - Completeness - 2021 months” in Data Visualizer
+### Open the chart “EPI - Completeness - 2022 months” in Data Visualizer
 
 ![](images/reportsapp/image21.png)
 
@@ -205,8 +205,6 @@ Select Update to review the chart. Another advantage when using these apps is th
 ## Exercise 5 - Org Unit Distribution
 
 ### Select the “Org Unit Distribution report” module from within the reports app
-
-
 
 ![](images/reportsapp/image13.png)
 

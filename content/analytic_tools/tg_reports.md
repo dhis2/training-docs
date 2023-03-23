@@ -36,7 +36,7 @@ https://docs.google.com/presentation/d/1LFkyCi3AJ5G6PwKUbtYOUFaAMnl7K59KOI70sgof
 # Table of Contents/Quick Guide
 
 
-[TOC- [Trainer’s Guide to Reports](#trainers-guide-to-reports)
+
 - [Trainer’s Guide to Reports](#trainers-guide-to-reports)
 - [What is this guide?](#what-is-this-guide)
 - [Learning objectives for this session](#learning-objectives-for-this-session)
@@ -64,7 +64,7 @@ https://docs.google.com/presentation/d/1LFkyCi3AJ5G6PwKUbtYOUFaAMnl7K59KOI70sgof
     - [Review download options](#review-download-options-1)
     - [STOP  - Perform Exercise 3 (creating a reporting rate summary)](#stop----perform-exercise-3-creating-a-reporting-rate-summary)
   - [Part 4 - Reporting Rates in Other Tools](#part-4---reporting-rates-in-other-tools)
-    - [Open the chart “EPI - Completeness - 2021 months” in Data Visualizer](#open-the-chart-epi---completeness---2021-months-in-data-visualizer)
+    - [Open the chart “EPI - Completeness - 2022 months” in Data Visualizer](#open-the-chart-epi---completeness---2022-months-in-data-visualizer)
     - [Edit the data selection](#edit-the-data-selection)
     - [STOP  - Perform Exercise 4 (view the reporting rate in data visualizer)](#stop----perform-exercise-4-view-the-reporting-rate-in-data-visualizer)
   - [Part 5 - Org Unit Distribution](#part-5---org-unit-distribution)
@@ -171,7 +171,7 @@ OR
 
 ### Explain reporting rate summary
 
-This is available within the accompanying slides if it has not been explained to the participants. It allows you ro check the system-defined completeness and timeliness for one period of any aggregate data set in the system. There are several drawbacks to the reporting rates as calculated by DHIS2, but may often be used as a best estimate in a number of circumstances. To explain the summary in more detail if needed, have a report open in another tab
+This is available within the accompanying slides if it has not been explained to the participants. It allows you to check the system-defined completeness and timeliness for one period of any aggregate data set in the system. There are several drawbacks to the reporting rates as calculated by DHIS2, but may often be used as a best estimate in a number of circumstances. To explain the summary in more detail if needed, have a report open in another tab
 
 This is an example from the Immunization data set.
 
@@ -212,7 +212,7 @@ The reporting rate summary is a very user-friendly tool; however one critical di
 
 We can also review reporting rates in charts, tables or maps and even combine them with other data by using combination charts. When r
 
-### Open the chart “EPI - Completeness - 2021 months” in Data Visualizer
+### Open the chart “EPI - Completeness - 2022 months” in Data Visualizer
 
 ![](images/reportsapp/image21.png)
 
@@ -240,7 +240,10 @@ Select Update to review the chart. Another advantage when using these apps is th
 
 
 ![](images/reportsapp/image13.png)
+
 OR
+
+
 ![](images/reportsapp/image23.png)
 
 ### Explain the org unit distribution report
@@ -291,6 +294,7 @@ OR
 ![](images/reportsapp/image22.png)
 
 From here we can manage various resources. Add a new resource
+
 ![](images/reportsapp/image2.png)
 ![](images/reportsapp/image8.png)
 

@@ -1,6 +1,5 @@
 # **Trainer’s Guide to Maps**
 
-
 # What is this guide?
 
 This guide is a support document for the session “Maps.” This session follows the standard academy training approach with 1) a live demo session where the trainer demonstrates and explains the features in DHIS2, and 2) a hands-on session with exercises where participants get to practice the same features.
@@ -31,9 +30,9 @@ Hands-on exercises: 1.5 hours
 
 # **Background on this topic/module**
 
-The GIS app allows you to do thematic mapping of areas and points, view facilities based on classifications, and visualize catchment areas for each facility. You can define custom legend sets and link them to indicators.
+The Maps app allows you to do thematic mapping of areas and points, view facilities based on classifications, and visualize catchment areas for each facility. You can define custom legend sets and link them to indicators.
 
-GIS is a great tool to understand the geographical distribution of data. The GIS tool integrates seamlessly with the Data Visualiser and GIS tools. You can at any time choose to visualise your map as a chart or table, and switch back to map view again.
+Maps is a great tool to understand the geographical distribution of data. The Maps tool integrates seamlessly with the Data Visualiser and Maps tools. You can at any time choose to visualise your map as a chart or table, and switch back to map view again.
 
 
 # **Best practices, tips & tricks**
@@ -54,7 +53,9 @@ The session has been divided into 3 parts. Each part has a set of objectives ass
 [https://docs.google.com/presentation/d/1XZv-gnrDUrRex0xfBWLAD8S7e_i01yw2TA-6eeX4z6k/edit?usp=sharing](https://docs.google.com/presentation/d/1XZv-gnrDUrRex0xfBWLAD8S7e_i01yw2TA-6eeX4z6k/edit?usp=sharing) 
 
 
-# Introduction to GIS
+# Introduction to Maps app
+
+The Maps App was introduced in release 2.29 and serves as a replacement of the GIS App offering a more intutive and user friendly interface. 
 
 It can be useful to start with a brief introduction to GIS to provide some context to what GIS (Geographic Information Systems) is. GIS is a very big topic, but try and keep things focused to what DHIS2 can do, and what the DHIS2 maps client is intended for, namely the production of relatively simple thematic maps for analysis. 
 
@@ -75,7 +76,7 @@ The DHIS2 maps app supports multiple “layers”. You can think of a GIS layer 
 - [**Background on this topic/module**](#background-on-this-topicmodule)
 - [**Best practices, tips \& tricks**](#best-practices-tips--tricks)
 - [**Preparations**](#preparations)
-- [Introduction to GIS](#introduction-to-gis)
+- [Introduction to Maps app](#introduction-to-maps-app)
 - [**Table of Contents/Quick Guide**](#table-of-contentsquick-guide)
 - [Live Demo Step-by-Step](#live-demo-step-by-step)
   - [Part 1 - Maps interface and data dimensions](#part-1---maps-interface-and-data-dimensions)
@@ -194,7 +195,9 @@ First, we see our data selection. We can see in this case one indicator has alre
 
 Next we have the period. We can see that this is a bit different when compared to other apps. We have to first select the period type we are working with, which will then alter which periods we can select from. Within a map layer, we can only select one period type and one period as we are only working with displaying one data item at a time. You can alter the period type and period than update the layer to demonstrate this to the participants. 
 
-![](Images/maps/image17.png)![](Images/maps/image48.png)
+![](Images/maps/image17.png)
+
+![](Images/maps/image48.png)
 
 
 ![](Images/maps/image20.png)
@@ -286,7 +289,7 @@ It is a good idea to explain the different options available in the Thematic Lay
 * Equal intervals will try and distribute the range of values equally. If I have data that ranges from 0-20000 and I select 5 classes, the data range for the legend will be separated by values of 4000.
 * You can use this presentation to walk through counts and intervals in a bit more detail: 
     * [https://docs.google.com/presentation/d/1KsUQVyN05cY3WlCTpFnzDbAjhLYXSOssGoUbT4LGgXw/edit?usp=sharing](https://docs.google.com/presentation/d/1KsUQVyN05cY3WlCTpFnzDbAjhLYXSOssGoUbT4LGgXw/edit?usp=sharing) 
-    * 
+  
 
 ![](Images/maps/image68.png)
 
