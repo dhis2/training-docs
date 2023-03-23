@@ -9,7 +9,7 @@ This guide will help the trainer prepare for the live demo session.The “Live D
 Refer to the table of contents as this lists the steps very briefly and can be used as a lookup guide or “cheatsheet” while doing the demo, to help the trainer remember all the steps and the flow of the demo.
 
 
-# **Learning objectives for this session**
+# Learning objectives for this session
 
 1. Navigate the dashboard
 2. Demonstrate how to create and manage a dashboard
@@ -17,7 +17,7 @@ Refer to the table of contents as this lists the steps very briefly and can be u
 4. Describe the concept of user org units as it applies to saved items in more detail
 5. Describe how to share dashboards, with an emphasis on how user org units can supplement sharing
 
-# **Time needed for this session**
+# Time needed for this session
 
 Live demo: 3 demos,~ 15 minutes each
 
@@ -25,7 +25,7 @@ Hands-on exercises: 3 exercises, ~ 15 minutes each
 
 Assignment : ~ 20 mins
 
-# **Preparations**
+# Preparations
 
 Ensure there is an email configuration working
 
@@ -41,9 +41,9 @@ You can try to send yourself a test email to ensure it is.
 
 - [Trainer’s Guide to Dashboards](#trainers-guide-to-dashboards)
 - [What is this guide?](#what-is-this-guide)
-- [**Learning objectives for this session**](#learning-objectives-for-this-session)
-- [**Time needed for this session**](#time-needed-for-this-session)
-- [**Preparations**](#preparations)
+- [Learning objectives for this session](#learning-objectives-for-this-session)
+- [Time needed for this session](#time-needed-for-this-session)
+- [Preparations](#preparations)
 - [Table of Contents/Quick Guide](#table-of-contentsquick-guide)
 - [Live Demo Step-by-Step](#live-demo-step-by-step)
   - [Part 1 - Using Dashboards](#part-1---using-dashboards)

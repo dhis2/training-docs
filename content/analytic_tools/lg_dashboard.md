@@ -4,7 +4,7 @@
 
 This guide contains all exercises and detailed steps to perform them related to the use of dashboards for the Analytics Tools Level 1 academy. Please perform each of the exercises when prompted to by your instructors.
 
-# **Learning objectives for this session**
+# Learning objectives for this session
 
 1. Describe how to navigate the dashboard
 2. Demonstrate how to create and manage a dashboard
@@ -13,7 +13,7 @@ This guide contains all exercises and detailed steps to perform them related to 
 5. Describe how to share dashboards, with an emphasis on how user org units can supplement sharing
 
 
-# **Time needed for this session**
+# Time needed for this session
 
 Live demo: 3 demos,~ 15 minutes each
 
@@ -25,8 +25,8 @@ Assignment : ~ 20 mins
 
 - [Learner’s Guide to Dashboards](#learners-guide-to-dashboards)
 - [What is this guide?](#what-is-this-guide)
-- [**Learning objectives for this session**](#learning-objectives-for-this-session)
-- [**Time needed for this session**](#time-needed-for-this-session)
+- [Learning objectives for this session](#learning-objectives-for-this-session)
+- [Time needed for this session](#time-needed-for-this-session)
 - [Table of Contents/Quick Guide](#table-of-contentsquick-guide)
 - [Exercises](#exercises)
   - [Exercise 1 - Using Dashboards](#exercise-1---using-dashboards)

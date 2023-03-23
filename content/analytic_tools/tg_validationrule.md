@@ -61,7 +61,6 @@ The second exercise involves sending notifications. Make sure all the participan
 - [Background on this topic/module](#background-on-this-topicmodule)
 - [Preparations](#preparations)
 - [Table of Contents/Quick Guide](#table-of-contentsquick-guide)
-- [](#)
 - [Live Demo Step-by-Step](#live-demo-step-by-step)
   - [Part 1 - Run a validation rule in data entry](#part-1---run-a-validation-rule-in-data-entry)
     - [Review the rules in data entry](#review-the-rules-in-data-entry)

@@ -1,4 +1,4 @@
-# **Trainer’s Guide to Maps**
+# Trainer’s Guide to Maps
 
 # What is this guide?
 
@@ -8,7 +8,7 @@ This guide will help the trainer prepare for the live demo session.The “Live D
 
 There is also a Quick Guide which lists the steps very briefly and this is meant as a lookup guide or “cheat sheet” WHILE doing the demo, to help the trainer remember all the steps and the flow of the demo.
 
-# **Learning objectives for this session**
+# Learning objectives for this session
 
 1. Describe how maps can be used in DHIS2
 2. Demonstrate how to:
@@ -20,7 +20,7 @@ There is also a Quick Guide which lists the steps very briefly and this is meant
     6. Review the map data table
     7. Create split view, timeline and bubble maps
 
-# **Time needed for this session**
+# Time needed for this session
 
 Live demo:~ 1.5 hours
 
@@ -28,19 +28,19 @@ Hands-on exercises: 1.5 hours
 
 1-graded assignment : ~ 1 hour
 
-# **Background on this topic/module**
+# Background on this topic/module
 
 The Maps app allows you to do thematic mapping of areas and points, view facilities based on classifications, and visualize catchment areas for each facility. You can define custom legend sets and link them to indicators.
 
 Maps is a great tool to understand the geographical distribution of data. The Maps tool integrates seamlessly with the Data Visualiser and Maps tools. You can at any time choose to visualise your map as a chart or table, and switch back to map view again.
 
 
-# **Best practices, tips & tricks**
+# Best practices, tips & tricks
 
 1. Try not to put many overlapping layers on a map that will be difficult to interpret
 2. Use different color schemes when displaying multiple layers on a map
 
-# **Preparations**
+# Preparations
 
 Go through the Live demo step by step a few times before doing the actual demo for participants.
 
@@ -67,17 +67,19 @@ The DHIS2 maps app supports multiple “layers”. You can think of a GIS layer 
 
 ![](Images/maps/image71.png)
 
-# **Table of Contents/Quick Guide**
+# Table of Contents/Quick Guide
 
-- [**Trainer’s Guide to Maps**](#trainers-guide-to-maps)
+
+
+- [Trainer’s Guide to Maps](#trainers-guide-to-maps)
 - [What is this guide?](#what-is-this-guide)
-- [**Learning objectives for this session**](#learning-objectives-for-this-session)
-- [**Time needed for this session**](#time-needed-for-this-session)
-- [**Background on this topic/module**](#background-on-this-topicmodule)
-- [**Best practices, tips \& tricks**](#best-practices-tips--tricks)
-- [**Preparations**](#preparations)
+- [Learning objectives for this session](#learning-objectives-for-this-session)
+- [Time needed for this session](#time-needed-for-this-session)
+- [Background on this topic/module](#background-on-this-topicmodule)
+- [Best practices, tips \& tricks](#best-practices-tips--tricks)
+- [Preparations](#preparations)
 - [Introduction to Maps app](#introduction-to-maps-app)
-- [**Table of Contents/Quick Guide**](#table-of-contentsquick-guide)
+- [Table of Contents/Quick Guide](#table-of-contentsquick-guide)
 - [Live Demo Step-by-Step](#live-demo-step-by-step)
   - [Part 1 - Maps interface and data dimensions](#part-1---maps-interface-and-data-dimensions)
     - [Introduce the Maps Interface](#introduce-the-maps-interface)

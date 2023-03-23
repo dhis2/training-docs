@@ -1,10 +1,10 @@
-# **Learner’s Guide to Maps**
+# Learner’s Guide to Maps
 
 # What is this guide?
 
 This guide contains all exercises and detailed steps to perform them related to the use of maps for the Analytics Tools Level 1 academy. Please perform each of the exercises when prompted by your instructors.
 
-# **Learning objectives for this session**
+# Learning objectives for this session
 
 1. Describe how maps can be used in DHIS2
 2. Demonstrate how to:
@@ -16,7 +16,7 @@ This guide contains all exercises and detailed steps to perform them related to 
     6. Review the map data table
     7. Create split view, timeline and bubble maps
 
-# **Time needed for this session**
+# Time needed for this session
 
 Live demo:~ 1.5 hours
 
@@ -25,13 +25,13 @@ Hands-on exercises: 1.5 hours
 1-graded assignment : ~ 1 hour
 
 
-# **Background on this topic/module**
+# Background on this topic/module
 
 The maps app allows you to do thematic mapping of areas and points, view facilities based on classifications, and visualize catchment areas for each facility. You can define custom legend sets and link them to indicators.
 
 Maps are a great tool to understand the geographical distribution of data. The maps tool integrates seamlessly with the Data Visualiser. You can at any time choose to visualise your map as a chart or table, and switch back to map view again.
 
-# **Best practices, tips & tricks**
+# Best practices, tips & tricks
 
 1. Try not to put many overlapping layers on a map that will be difficult to interpret
 2. Use different color schemes when displaying multiple layers on a map
@@ -46,15 +46,15 @@ The DHIS2 maps app supports multiple “layers”. You can think of a GIS layer 
 
 ![](Images/maps/image71.png)
 
-# Table of Contents/**Quick Guide**
-- [**Learner’s Guide to Maps**](#learners-guide-to-maps)
+# Table of Contents/Quick Guide
+- [Learner’s Guide to Maps](#learners-guide-to-maps)
 - [What is this guide?](#what-is-this-guide)
-- [**Learning objectives for this session**](#learning-objectives-for-this-session)
-- [**Time needed for this session**](#time-needed-for-this-session)
-- [**Background on this topic/module**](#background-on-this-topicmodule)
-- [**Best practices, tips \& tricks**](#best-practices-tips--tricks)
+- [Learning objectives for this session](#learning-objectives-for-this-session)
+- [Time needed for this session](#time-needed-for-this-session)
+- [Background on this topic/module](#background-on-this-topicmodule)
+- [Best practices, tips \& tricks](#best-practices-tips--tricks)
 - [Introduction to GIS Concepts](#introduction-to-gis-concepts)
-- [Table of Contents/**Quick Guide**](#table-of-contentsquick-guide)
+- [Table of Contents/Quick Guide](#table-of-contentsquick-guide)
 - [Exercises](#exercises)
   - [Exercise 1 - Maps interface and data dimensions](#exercise-1---maps-interface-and-data-dimensions)
     - [Open a map - TB - Notified TB cases (new and relapse, all forms) - last quarter](#open-a-map---tb---notified-tb-cases-new-and-relapse-all-forms---last-quarter)

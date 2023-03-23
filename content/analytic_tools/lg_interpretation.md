@@ -1,4 +1,4 @@
-# **Learners Guide to Interpretation**
+# Learners Guide to Interpretations
 
 # What is this guide?
 

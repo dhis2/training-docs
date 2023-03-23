@@ -1,4 +1,4 @@
-# Learner’s **Guide to Pivot Tables**
+# Learner’s Guide to Pivot Tables
 
 
 # _PERFORM THESE EXERCISES IN THE ANALYSIS SYSTEM_
@@ -46,7 +46,7 @@ The first component of the demo will be a review for anyone who has taken the on
 
 
 # Table of Contents
-- [Learner’s **Guide to Pivot Tables**](#learners-guide-to-pivot-tables)
+- [Learner’s Guide to Pivot Tables](#learners-guide-to-pivot-tables)
 - [_PERFORM THESE EXERCISES IN THE ANALYSIS SYSTEM_](#perform-these-exercises-in-the-analysis-system)
 - [What is this guide?](#what-is-this-guide)
 - [Learning objectives for this session](#learning-objectives-for-this-session)
@@ -87,6 +87,8 @@ The first component of the demo will be a review for anyone who has taken the on
   - [End Exercise 7](#end-exercise-7)
   - [Exercise 8 - Freeze rows/columns](#exercise-8---freeze-rowscolumns)
   - [End Exercise 8](#end-exercise-8)
+    - [Part 9 - Last Value Aggregation Type](#part-9---last-value-aggregation-type)
+      - [Last Value Aggregation Type](#last-value-aggregation-type)
 
 
 # Exercises
