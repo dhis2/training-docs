@@ -30,9 +30,6 @@ Validation rules are an excellent tool that can be used to measure a number of c
 
 Thes rules can be run directly in data entry - recommended if measuring internal consistency - as well as through a batch operation called validation analysis. In this session, you will review how to configure these rules in DHIS2.
 
-
-# 
-
 # Table of Contents/Quick Guide
 
 - [Learner’s Guide to Validation Rules (Config)](#learners-guide-to-validation-rules-config)
@@ -41,13 +38,12 @@ Thes rules can be run directly in data entry - recommended if measuring internal
 - [Learning objectives for this session](#learning-objectives-for-this-session)
 - [Time needed for this session](#time-needed-for-this-session)
 - [Background on this topic/module](#background-on-this-topicmodule)
-- [](#)
 - [Table of Contents/Quick Guide](#table-of-contentsquick-guide)
 - [Live Demo Step-by-Step](#live-demo-step-by-step)
   - [Activity 1 - Create a Validation Rule for HIV](#activity-1---create-a-validation-rule-for-hiv)
     - [Review the data entry page and decide on a logical validation rule to create](#review-the-data-entry-page-and-decide-on-a-logical-validation-rule-to-create)
     - [Create the validation rule HIV tests positive \<= HIV tests performed](#create-the-validation-rule-hiv-tests-positive--hiv-tests-performed)
-      - [**Open and explain the Left Side Expression**](#open-and-explain-the-left-side-expression)
+      - [Open and explain the Left Side Expression](#open-and-explain-the-left-side-expression)
       - [Select the Operator](#select-the-operator)
       - [Open the Right Side Expression](#open-the-right-side-expression)
     - [Create a Validation Rule Group](#create-a-validation-rule-group)
@@ -119,7 +115,7 @@ HIV tests positive should be less than or the same as HIV tests performed, if no
 Describe the importance and period type as it relates to the validation rule before proceeding.
 
 
-#### **Open and explain the Left Side Expression**
+#### Open and explain the Left Side Expression
 
 Open the left side expression and explain what you are intending to do. The rule you are creating is total HIV tests positive between male and female hence for the left side, select the (HIV tests positive Male + HIV tests positive Female)
 

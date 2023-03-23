@@ -207,7 +207,7 @@ Did it work for you?
 
 ## Part 2 - Create Validation Rule #2
 
-  **Example 2: Complicated  If time allows demo this as well**
+  **Example 2: You can skip Part 2 if needed. This might be information that indivudals do not need and may end up taking to much time. If you do end up skipping Part 2, note that you should not direct learner's to Exercise 2 within the learner's guide.**
 
 
 ### Review the data entry page and decide on a logical validation rule to create
@@ -421,9 +421,6 @@ Select the following inputs:
 
 ![](Images/vrconfig/image21.png)
 
-
-
 You should see the violations. Does it work for you?
-
 
 ### STOP Part 3 - Perform Exercise 3
