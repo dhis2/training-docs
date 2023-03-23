@@ -345,7 +345,7 @@ After you complete , you can schedule another event. In this scenario the system
 
 ![image38.png](resources/images/tracker_capture_web/image38.png "image_tooltip")
 
-**Note** when you have a scheduled event, the color changes. This event is “Overdue” because it was scheduled in the past. Here we can reschedule the due date if required. n a real situation, this may not also match the due date, but for this example let us keep it the same to demo the program rules.
+**Note** when you have a scheduled event, the color changes. This event is “Overdue” because it was scheduled in the past. Here we can reschedule the due date if required. In a real situation, this may not also match the due date, but for this example let us keep it the same to demo the program rules.
 
 ![image14.png](resources/images/tracker_capture_web/image14.png "image_tooltip")
 
