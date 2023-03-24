@@ -86,7 +86,7 @@ https://docs.google.com/presentation/d/1LFkyCi3AJ5G6PwKUbtYOUFaAMnl7K59KOI70sgof
 
 Apps -> Reports
 
-![](images/reportsapp/image16.png)
+![](Images/reportsapp/image16.png)
 
 ### Review the reports app
 
@@ -94,13 +94,13 @@ The modules that are available here are described in this presentation: [https:/
 
 ### Open the data set report module
 
-![](images/reportsapp/image20.png)
+![](Images/reportsapp/image20.png)
 
 They should be familiar with the output of a data set report as well as what it represents from the presentation. If not, have another tab open with a data set report already available so you can discuss what it will look like in the final output.
 
 This is an example from the Immunization data set.
 
-![](images/reportsapp/image11.png)
+![](Images/reportsapp/image11.png)
 
 ### Run the data set report
 
@@ -112,20 +112,20 @@ Select a inputs for the Org unit, Data Set and Period. In this example, the data
 
 After selecting your inputs, select “Get report”
 
-![](images/reportsapp/image6.png)
+![](Images/reportsapp/image6.png)
 
 ### Review the data set report
 
 Review the report with the group. Note that this is an output of the data set exactly as it appears in data entry. Depending on your outputs, it may have aggregated values from various org units and time periods and placed them into the data set for review.
 
-![](images/reportsapp/image11.png)
+![](Images/reportsapp/image11.png)
 
 
 ### Review download options
 
 You are able to download the data set report as either an excel or PDF file
 
-![](images/reportsapp/image24.png)
+![](Images/reportsapp/image24.png)
 
 
 ### STOP  - Perform Exercise 1 (creating a data set report)
@@ -135,11 +135,11 @@ You are able to download the data set report as either an excel or PDF file
 
 Create another data set report. This time select the “Show more options” button to show available org unit group sets.
 
-![](images/reportsapp/image7.png)
+![](Images/reportsapp/image7.png)
 
 After selecting “Show more options” you will see the available org unit group sets 
 
-![](images/reportsapp/image19.png)
+![](Images/reportsapp/image19.png)
 
 ### Select an orgunit group in addition to the other inputs for the report
 
@@ -155,7 +155,7 @@ In addition, the “Public” Org unit group has been selected from the “Owner
 
 The data set report is the same as before, however now it has filtered out the aggregation. Only data from public facilities has been included in the data set report.
 
-![](images/reportsapp/image10.png)
+![](Images/reportsapp/image10.png)
 
 ### STOP  - Perform Exercise 2 (creating a data set report using an org unit group)
 
@@ -163,11 +163,11 @@ The data set report is the same as before, however now it has filtered out the a
 
 ### Select the Reporting Rate Summary module from within the reports app
 
-![](images/reportsapp/image12.png)
+![](Images/reportsapp/image12.png)
 
 OR 
 
-![](images/reportsapp/image1.png)
+![](Images/reportsapp/image1.png)
 
 ### Explain reporting rate summary
 
@@ -175,7 +175,7 @@ This is available within the accompanying slides if it has not been explained to
 
 This is an example from the Immunization data set.
 
-![](images/reportsapp/image9.png)
+![](Images/reportsapp/image9.png)
 
 ### Run the reporting rate summary
 
@@ -189,19 +189,19 @@ Note that, just like for data set reports you are also able to select “show mo
 
 After selecting your inputs, select “Get report”
 
-![](images/reportsapp/image26.png)
+![](Images/reportsapp/image26.png)
 
 ### Review the reporting rate summary
 
 Review the report with the group and explain the outputs. 
 
-![](images/reportsapp/image14.png)
+![](Images/reportsapp/image14.png)
 
 ### Review download options
 
 You are able to download the data set report as either an excel or PDF file
 
-![](images/reportsapp/image24.png)
+![](Images/reportsapp/image24.png)
 
 ### STOP  - Perform Exercise 3 (creating a reporting rate summary)
 
@@ -214,7 +214,7 @@ We can also review reporting rates in charts, tables or maps and even combine th
 
 ### Open the chart “EPI - Completeness - 2022 months” in Data Visualizer
 
-![](images/reportsapp/image21.png)
+![](Images/reportsapp/image21.png)
 
 Here we can see that we review completeness over many periods. 
 
@@ -222,15 +222,15 @@ Here we can see that we review completeness over many periods.
 
 If we open the data tab and select “Data sets” you will be able to see the various metrics associated with data set reporting rates. 
 
-![](images/reportsapp/image5.png)
+![](Images/reportsapp/image5.png)
 
 Add in the reporting rate “HIV Monthly Reporting rate” as an example. 
 
-![](images/reportsapp/image17.png)
+![](Images/reportsapp/image17.png)
 
 Select Update to review the chart. Another advantage when using these apps is that you can view reporting rates not only across multiple periods, but also across multiple data sets at the same time.
 
-![](images/reportsapp/image18.png)
+![](Images/reportsapp/image18.png)
 
 ### STOP  - Perform Exercise 4 (view the reporting rate in data visualizer)
 
@@ -239,12 +239,12 @@ Select Update to review the chart. Another advantage when using these apps is th
 ### Select the “Org Unit Distribution report” module from within the reports app
 
 
-![](images/reportsapp/image13.png)
+![](Images/reportsapp/image13.png)
 
 OR
 
 
-![](images/reportsapp/image23.png)
+![](Images/reportsapp/image23.png)
 
 ### Explain the org unit distribution report
 
@@ -252,7 +252,7 @@ This is available within the accompanying slides if it has not been explained to
 
 This is an example from the Ownership group set.
 
-![](images/reportsapp/image25.png)
+![](Images/reportsapp/image25.png)
 
 ### Run the org unit distribution report
 
@@ -263,13 +263,13 @@ Select inputs for the Org unit and Org unit Group Set. In this example, the org 
 
 After selecting your inputs, select “Get report”
 
-![](images/reportsapp/image15.png)
+![](Images/reportsapp/image15.png)
 
 ### Review the org unit distribution report
 
 Review the report and explain the outputs.
 
-![](images/reportsapp/image27.png)
+![](Images/reportsapp/image27.png)
 
 ### Review download options
 
@@ -280,23 +280,23 @@ You are able to download the data set report as either an excel or PDF file
 
 You can also output org unit distribution via chart options; we can see that it is not nearly as detailed however as a breakdown by the child orgunits is not available in this view.
 
-![](images/reportsapp/image3.png)
+![](Images/reportsapp/image3.png)
 
 ### STOP  - Perform Exercise 5 (creating an org unit distribution report)
 
 ## Part 6 - Resources
 
 From the reports app, access the “Resource” module
-![](images/reportsapp/image4.png)
+![](Images/reportsapp/image4.png)
 
 OR
 
-![](images/reportsapp/image22.png)
+![](Images/reportsapp/image22.png)
 
 From here we can manage various resources. Add a new resource
 
-![](images/reportsapp/image2.png)
-![](images/reportsapp/image8.png)
+![](Images/reportsapp/image2.png)
+![](Images/reportsapp/image8.png)
 
 These resources can be accessed within this resources app, or you can place them directly on the dashboard for easy access.
 

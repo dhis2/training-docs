@@ -226,8 +226,8 @@ Total used= **(Starting balance + Received)**- **(VVM + Frozen + Expired + Broke
 
 Navigate to the maintenance application in DHIS2 and select the “Validation” tab 
 
-![](Images/vrconfig/image5.png)
-![](Images/vrconfig/image12.png)
+![](images/vrconfig/image5.png)
+![](images/vrconfig/image12.png)
 
 
 Create a new rule by selecting the “+” icon underneath validation rule
