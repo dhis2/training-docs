@@ -38,7 +38,7 @@ Hands-on exercises: 5 exercises, 5-15 mins each
     - [Review the data set report](#review-the-data-set-report-1)
   - [Exercise 3 - Reporting Rate Summary](#exercise-3---reporting-rate-summary)
     - [Select the Reporting Rate Summary module from within the reports app](#select-the-reporting-rate-summary-module-from-within-the-reports-app)
-    - [Explain reporting rate summary](#explain-reporting-rate-summary)
+    - [Reviewing the reporting rate summary concept](#reviewing-the-reporting-rate-summary-concept)
     - [Run the reporting rate summary](#run-the-reporting-rate-summary)
     - [Review the reporting rate summary](#review-the-reporting-rate-summary)
     - [Review download options](#review-download-options-1)
@@ -143,7 +143,7 @@ OR
 ![](Images/reportsapp/image1.png)
 
 
-### Explain reporting rate summary
+### Reviewing the reporting rate summary concept
 
 This is available within the accompanying slides if you require additional review. Reporting rate summary allows you ro check the system-defined completeness and timeliness for one period of any aggregate data set in the system. There are several drawbacks to the reporting rates as calculated by DHIS2, but may often be used as a best estimate in a number of circumstances. 
 
