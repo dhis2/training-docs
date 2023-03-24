@@ -71,14 +71,21 @@ Test your Hands-on exercises in the training server in advance to make sure ever
 
 The Live Demo Step-by-Step is organized into 3 parts:
 
+- [**Trainer’s Guide to Interpretation**](#trainers-guide-to-interpretation)
+- [What is this guide?](#what-is-this-guide)
+- [Learning objectives for this curriculum](#learning-objectives-for-this-curriculum)
+- [Time needed for this curriculum](#time-needed-for-this-curriculum)
+- [Background on this topic/module](#background-on-this-topicmodule)
+- [Preparations](#preparations)
+- [Presentation (PPT) on Data to Action Framework](#presentation-ppt-on-data-to-action-framework)
+- [Exercise on Data to Action Framework](#exercise-on-data-to-action-framework)
 - [Live Demo Step-by-Step](#live-demo-step-by-step)
   - [Part 1 - How to plug a Data-to-Action framework into a DHIS2 visualization](#part-1---how-to-plug-a-data-to-action-framework-into-a-dhis2-visualization)
   - [Part 2 - How to retrieve a Data-to-Action framework from a dashboard](#part-2---how-to-retrieve-a-data-to-action-framework-from-a-dashboard)
   - [Part 3 - Subscribing / Interpretations](#part-3---subscribing--interpretations)
     - [Login as a different user and write an interpretation.](#login-as-a-different-user-and-write-an-interpretation)
-    - [](#)
     - [Interpreting through dashboard items](#interpreting-through-dashboard-items)
-    - [](#-1)
+    - [](#)
 - [Hands-on Exercises](#hands-on-exercises)
 
 
@@ -94,20 +101,20 @@ Show participants how to plug a Data-to-Action framework into a DHIS2 visualizat
 * Scroll down to “HIV - ART retention rate (12 months)”
 * Open the favourite item in Maps app by 
 
-![](images/interpretation/image3.png)
+![](Images/interpretation/image3.png)
 
 
 * Once opened in Maps application, it should look like below. Take a moment to understand the map. Focus on legend.
 
-![](images/interpretation/image6.png)
+![](Images/interpretation/image6.png)
 
 * Click on ‘Interpretations’ button on top right corner to write a description for the map
 
-![](images/interpretation/image11.png)
+![](Images/interpretation/image11.png)
 
 * You will see that currently no description is available
 
-![](images/interpretation/image10.png)
+![](Images/interpretation/image10.png)
 
 
 * Let’s formulate a description based on Data to Action framework
@@ -165,9 +172,9 @@ Check whether any side-effects of ART reported leading to lack of compliance
 
 * Click on ‘Save As’ from Favorite menu and paste the above text under description.
 * 
-![](images/interpretation/image12.png)
+![](Images/interpretation/image12.png)
 
-![](images/interpretation/image16.png)
+![](Images/interpretation/image16.png)
 
 ## Part 2 - How to retrieve a Data-to-Action framework from a dashboard
 
@@ -176,15 +183,15 @@ Check whether any side-effects of ART reported leading to lack of compliance
 
 Go to HIV National Dashboard.
 
-![](images/interpretation/image18.png)
+![](Images/interpretation/image18.png)
 
 * Scroll down till you find HIV – ART Retention Rate (12 months). Find the show details and button within the item “ART Retention Rate (12 months)”. Click on it.
 
-![](images/interpretation/image15.png)
+![](Images/interpretation/image15.png)
 
 * Select “Show more” to show the full description
 
-![](images/interpretation/image8.png)
+![](Images/interpretation/image8.png)
 
 
 ## Part 3 - Subscribing / Interpretations
@@ -192,12 +199,12 @@ Go to HIV National Dashboard.
 * Let’s open the HIV Retention Rate (12 months) in Maps App.
 * Click on “Interpretations” on top right corner
 
-![](images/interpretation/image14.png)
+![](Images/interpretation/image14.png)
 
 
 * Click on Bell Like ‘Subscribe’ icon. This will enable you to receive notifications every time someone comments on an interpretation. This is an effective way of tracking progress on feedbacks received on an indicator of interest.
 
-![](images/interpretation/image13.png)    
+![](Images/interpretation/image13.png)    
 
 
 ### Login as a different user and write an interpretation.
@@ -209,12 +216,12 @@ Add an interpretation
 * In Maps App/Data Visualizer/Pivot Table within the interpretations pane
     * Click on the box where interpretations are present
 
-![](images/interpretation/image2.png)
+![](Images/interpretation/image2.png)
 
 
 * You can save your comment. Once done you should be able to see the interpretation. This will provide you more options to interact with the comment including Like, Reply and Share. If you are the owner or having adequate permissions you can delete the comment as well.
 
-![](images/interpretation/image1.png)
+![](Images/interpretation/image1.png)
 
 
 **NOTE: **Interpretations are tied to  how the output looked when the interpretation was written. We do this by selecting the “view” button on the interpretation. This is to ensure the interpretation will always properly align with what the user is seeing when they made the interpretation. There is a ‘view in maps app’ button which will open the interpretation in maps app as how it was at the time of making the interpretation. 
@@ -224,29 +231,29 @@ Add an interpretation
 * Open HIV National dashboard and scroll down to “**HIV - ART retention rate (12 months)**” 
 * Click on the ‘Show interpretation and details’ button
 
-![](images/interpretation/image15.png)
+![](Images/interpretation/image15.png)
 
 * Scroll down and observe that previous comment made in Maps Apps is present.
 
-![](images/interpretation/image1.png)
+![](Images/interpretation/image1.png)
 
 * We can also tag a user in the system responsible to attend to the interpretation in the comment itself. To do that start typing with ‘@’. This will list out the users/user groups in system who we can tag to the comment. 
 
-![](images/interpretation/image5.png)  
+![](Images/interpretation/image5.png)  
 
-![](images/interpretation/image7.png)  
+![](Images/interpretation/image7.png)  
 
 ### 
 Log back in as the original user who subscribed to the item.
 
 * Scroll all the way to top of dashboard. You should be able to see the interpretations icon at the top as highlighted in red below
 
-![](images/interpretation/image9.png)
+![](Images/interpretation/image9.png)
 
 * Along with the icon it will also display how many pending interpretation notifications are awaiting you. This number is calculated from all interpretations that you have subscribed to or you have engaged (user tagging/commenting etc).
 * Click on interpretations icon. This will open the interpretations app as shown above.
 
-![](images/interpretation/image4.png)
+![](Images/interpretation/image4.png)
 
 * This will provide you an overview and a quick access to all interpretations that you have subscribed to or engaged. You can easily comment on each of interpretation by scrolling down.’
 * In addition, the left side pane will summarise top 5 interpretations, top 5 authors and top 5 commentators
