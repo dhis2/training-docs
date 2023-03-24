@@ -85,7 +85,7 @@ The Live Demo Step-by-Step is organized into 3 parts:
   - [Part 3 - Subscribing / Interpretations](#part-3---subscribing--interpretations)
     - [Login as a different user and write an interpretation.](#login-as-a-different-user-and-write-an-interpretation)
     - [Interpreting through dashboard items](#interpreting-through-dashboard-items)
-    - [](#)
+    - [Log back in as the original user who subscribed to the item.](#log-back-in-as-the-original-user-who-subscribed-to-the-item)
 - [Hands-on Exercises](#hands-on-exercises)
 
 
@@ -243,8 +243,7 @@ Add an interpretation
 
 ![](Images/interpretation/image7.png)  
 
-### 
-Log back in as the original user who subscribed to the item.
+### Log back in as the original user who subscribed to the item.
 
 * Scroll all the way to top of dashboard. You should be able to see the interpretations icon at the top as highlighted in red below
 

@@ -188,8 +188,7 @@ Add an interpretation
 
 ![](Images/interpretation/image7.png)  
 
-### 
-Log back in as the original user who subscribed to the item.
+### Log back in as the original user who subscribed to the item.
 
 * Scroll all the way to top of dashboard. You should be able to see the interpretations icon at the top as highlighted in red below
 
