@@ -287,6 +287,7 @@ You can also output org unit distribution via chart options; we can see that it 
 ## Part 6 - Resources
 
 From the reports app, access the “Resource” module
+
 ![](Images/reportsapp/image4.png)
 
 OR
