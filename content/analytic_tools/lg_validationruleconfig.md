@@ -59,7 +59,7 @@ Thes rules can be run directly in data entry - recommended if measuring internal
     - [Create a Validation Rule Group](#create-a-validation-rule-group-1)
     - [Test the rule in validation rule analysis within the Data Quality App](#test-the-rule-in-validation-rule-analysis-within-the-data-quality-app-1)
     - [End Activity 2](#end-activity-2)
-  - [Activity 3 - Create a validation rule #3 using the DPT-HepB-Hib 2 threshold](#activity-3---create-a-validation-rule-3-using-the-dpt-hepb-hib-2-threshold)
+  - [\[OPTIONAL\] Activity 3 - Create a validation rule #3 using the DPT-HepB-Hib 2 threshold](#optional-activity-3---create-a-validation-rule-3-using-the-dpt-hepb-hib-2-threshold)
       - [Note: A Predictor is used to calculate the threshold value; this will not be covered in this academy](#note-a-predictor-is-used-to-calculate-the-threshold-value-this-will-not-be-covered-in-this-academy)
     - [Create the validation rule \[DPT-HepB-Hib 2 administered \<= DPT-HepB-Hib 2 dose threshold \]](#create-the-validation-rule-dpt-hepb-hib-2-administered--dpt-hepb-hib-2-dose-threshold-)
       - [Open the Left Side Expression](#open-the-left-side-expression)
@@ -299,7 +299,7 @@ Did it work for you?
 ### End Activity 2
 
 
-## Activity 3 - Create a validation rule #3 using the DPT-HepB-Hib 2 threshold
+## [OPTIONAL] Activity 3 - Create a validation rule #3 using the DPT-HepB-Hib 2 threshold
 
 ***Note: this is an optional exercise and may not be covered by your instructor. You can perform this exercise if you want to have additional practice outside of the academy timeframe.***
 

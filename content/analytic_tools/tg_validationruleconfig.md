@@ -10,7 +10,9 @@ This guide is a support document for the trainers of “Configuring Validation R
 
 * Part 1 - Create a logical rule [simple]
 * Part 2 - Create a logical rule [using stock]
-* Part 3 - Create a rule using a threshold
+* [OPTIONAL] Part 3 - Create a rule using a threshold
+
+Part 3 of this guide is an extra example that you will likely be unable to cover with the time frame of the session, and it is therefore marked as an optional session both in this guide as well as the learner's guide. 
 
 This guide will help the trainer prepare for the live demo session.The “Live Demo step by step with guidance” section has a detailed walkthrough of all the steps to demonstrate with explanations and screenshots that should be easy to follow. Use that when preparing for the live demo session. The guide follows the parts as identified on the agenda. Please review the agenda as well. You will get a better idea of the time you need when you work through the demo for each part on the agenda.
 
@@ -28,9 +30,9 @@ There is also a Quick Guide which lists the steps very briefly and this is meant
 
 # Time needed for this session
 
-Live demo: 3 demos, ~ 30 mins each
+Live demo: 2 demos, ~ 25 mins each
 
-Hands-on exercises: 3 exercises, ~ 30 mins each
+Hands-on exercises: 2 exercises, ~ 20 mins each
 
 
 # Preparations
@@ -72,7 +74,7 @@ The second exercise involves sending notifications. Make sure all the participan
     - [Create a Validation Rule Group](#create-a-validation-rule-group-1)
     - [Test the rule in validation rule analysis within the Data Quality App](#test-the-rule-in-validation-rule-analysis-within-the-data-quality-app-1)
     - [STOP Part 2 - Perform Exercise 2](#stop-part-2---perform-exercise-2)
-  - [Part 3 - Create a validation rule #3 using the DPT-HepB-Hib 2 threshold](#part-3---create-a-validation-rule-3-using-the-dpt-hepb-hib-2-threshold)
+  - [\[OPTIONAL\] Part 3 - Create a validation rule #3 using the DPT-HepB-Hib 2 threshold](#optional-part-3---create-a-validation-rule-3-using-the-dpt-hepb-hib-2-threshold)
       - [Note: A Predictor is used to calculate the threshold value](#note-a-predictor-is-used-to-calculate-the-threshold-value)
       - [Select the data element tab and create a data element](#select-the-data-element-tab-and-create-a-data-element)
       - [Click add button under predictor tab and create a predictor](#click-add-button-under-predictor-tab-and-create-a-predictor)
@@ -320,7 +322,7 @@ Did it work for you?
 ### STOP Part 2 - Perform Exercise 2
 
 
-## Part 3 - Create a validation rule #3 using the DPT-HepB-Hib 2 threshold
+## [OPTIONAL] Part 3 - Create a validation rule #3 using the DPT-HepB-Hib 2 threshold
 
   **You can skip Part 3 if needed due to time contraints (the first 2 examples along with the participants following along will likely be enough for the 1.5 hours session). If you do end up skipping Part 3, you can note that this is avaialable as an example in the learner's guide.**
 
