@@ -301,7 +301,9 @@ Did it work for you?
 
 ## Activity 3 - Create a validation rule #3 using the DPT-HepB-Hib 2 threshold
 
-In this example, a rule will be created in which we compare an entered value to a calculated threshold. The steps to create the rule are very similar to the previous example.
+***Note: this is an optional exercise and may not be covered by your instructor. You can perform this exercise if you want to have additional practice outside of the academy timeframe.***
+
+In this example, a rule will be created in which we compare an entered value to a calculated threshold. The steps to create the rule are very similar to the other examples.
 
 
 #### Note: A Predictor is used to calculate the threshold value; this will not be covered in this academy

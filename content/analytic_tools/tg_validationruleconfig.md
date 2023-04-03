@@ -207,9 +207,6 @@ Did it work for you?
 
 ## Part 2 - Create Validation Rule #2
 
-  **Example 2: You can skip Part 2 if needed. This might be information that indivudals do not need and may end up taking to much time. If you do end up skipping Part 2, note that you should not direct learner's to Exercise 2 within the learner's guide.**
-
-
 ### Review the data entry page and decide on a logical validation rule to create
 
 We can use the following dataset at the **Facility **level
@@ -226,8 +223,8 @@ Total used= **(Starting balance + Received)**- **(VVM + Frozen + Expired + Broke
 
 Navigate to the maintenance application in DHIS2 and select the “Validation” tab 
 
-![](images/vrconfig/image5.png)
-![](images/vrconfig/image12.png)
+![](Images/vrconfig/image5.png)
+![](Images/vrconfig/image12.png)
 
 
 Create a new rule by selecting the “+” icon underneath validation rule
@@ -324,6 +321,8 @@ Did it work for you?
 
 
 ## Part 3 - Create a validation rule #3 using the DPT-HepB-Hib 2 threshold
+
+  **You can skip Part 3 if needed due to time contraints (the first 2 examples along with the participants following along will likely be enough for the 1.5 hours session). If you do end up skipping Part 3, you can note that this is avaialable as an example in the learner's guide.**
 
 In this example, a rule will be created in which we compare an entered value to a calculated threshold. The steps to create the rule are very similar to the previous example.
 
