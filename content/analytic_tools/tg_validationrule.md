@@ -66,8 +66,8 @@ The second exercise involves sending notifications. Make sure all the participan
     - [Review the rules in data entry](#review-the-rules-in-data-entry)
   - [Part 2 - Run a validation rule in validation rule analysis](#part-2---run-a-validation-rule-in-validation-rule-analysis)
     - [Review the validation details](#review-the-validation-details)
-      - [Example 2: More Complicated with mathematical operations.](#example-2-more-complicated-with-mathematical-operations)
   - [Part 3 - Additional Example with mathematical operators](#part-3---additional-example-with-mathematical-operators)
+    - [Example 2: More Complicated with mathematical operations.](#example-2-more-complicated-with-mathematical-operations)
     - [Review the rules in data entry](#review-the-rules-in-data-entry-1)
     - [Run Validation Analysis](#run-validation-analysis)
     - [Review the validation details](#review-the-validation-details-1)
@@ -86,9 +86,7 @@ The second exercise involves sending notifications. Make sure all the participan
 
 ## Part 1 - Run a validation rule in data entry
 
-You can start this session after explaining the concepts up to slide 7 here:
-
-[https://docs.google.com/presentation/d/14RBj02GxjTGSWHPnMtE23za-kc5gcMsVG-dpPukhNXw/edit?usp=sharing](https://docs.google.com/presentation/d/14RBj02GxjTGSWHPnMtE23za-kc5gcMsVG-dpPukhNXw/edit?usp=sharing) 
+You can start this session after explaining the concepts up to slide 7 [here](https://docs.google.com/presentation/d/14RBj02GxjTGSWHPnMtE23za-kc5gcMsVG-dpPukhNXw/edit?usp=sharing).
 
 We will run a validation rule in both data entry and data analysis. 
 
@@ -137,7 +135,7 @@ We can update this to each cell respectively as shown in the image respectively 
 ![](Images/vrrules/image39.png)
 
 
-It should now pass as the number of HIV tests positive is now less than the HIV tests performed in this period (April 2021).
+It should now pass as the number of HIV tests positive is now less than the HIV tests performed in this period.
 
 
 ## Part 2 - Run a validation rule in validation rule analysis
@@ -170,7 +168,9 @@ Therefore, HIV tests positive (1199) > Total HIV tests performed (296), not less
 
 We can see how this view will be useful in reviewing the violations for multiple org units at once, as we can also see all the component parts of the violation. This can allow us to potentially identify exactly which value is incorrect. 
 
-#### Example 2: More Complicated with mathematical operations. 
+## Part 3 - Additional Example with mathematical operators
+
+### Example 2: More Complicated with mathematical operations. 
 
 Select the following in data entry:
 
@@ -181,8 +181,6 @@ First, review the data entry page briefly. We will start by running logical rule
 Run the validation rules as you did before. 
 
 ![](Images/vrrules/image8.png)
-
-## Part 3 - Additional Example with mathematical operators
 
 ### Review the rules in data entry
 
@@ -225,13 +223,13 @@ The validation details show all of the data elements that are part of the valida
 1. The total DPT doses = 177+1+154+3+138= 473
 2. Total used and wasted = 2872-2406 = 466
 
-Therefore, DPT doses (473) > Total used and wasted (466), not less than or equal to the number used and wasted, hence the identification of a violation. 
+Therefore, DPT doses (473) > Total used and wasted (466), not less than or equal to the number used and wasted, hence the identification of a violation. If we altered our starting balance to be higher basd on our assumption, then we could remove this violation.
 
 We can see how this view will be useful in reviewing the violations for multiple org units at once, as we can also see all the component parts of the violation. This can allow us to potentially identify exactly which value is incorrect. 
 
 ### Back to Slide 8 in presentation
 
-[https://docs.google.com/presentation/d/14RBj02GxjTGSWHPnMtE23za-kc5gcMsVG-dpPukhNXw/edit?usp=sharing](https://docs.google.com/presentation/d/14RBj02GxjTGSWHPnMtE23za-kc5gcMsVG-dpPukhNXw/edit?usp=sharing) 
+[Presentation](https://docs.google.com/presentation/d/14RBj02GxjTGSWHPnMtE23za-kc5gcMsVG-dpPukhNXw/edit?usp=sharing)
 
 
 **STOP - Perform exercises 1, 2 and 3**
@@ -258,7 +256,7 @@ Note that it runs both the logical rules, which we have already reviewed, as wel
 
 ### Back to Slide 15 in the presentation 
 
-[https://docs.google.com/presentation/d/14RBj02GxjTGSWHPnMtE23za-kc5gcMsVG-dpPukhNXw/edit?usp=sharing](https://docs.google.com/presentation/d/14RBj02GxjTGSWHPnMtE23za-kc5gcMsVG-dpPukhNXw/edit?usp=sharing) 
+[Presentation](https://docs.google.com/presentation/d/14RBj02GxjTGSWHPnMtE23za-kc5gcMsVG-dpPukhNXw/edit?usp=sharing)
 
 
 ## Part 5 - Run the “Immunisation thresholds” validation rules in validation rule analysis
