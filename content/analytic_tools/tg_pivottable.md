@@ -24,7 +24,7 @@ This guide will help the trainer prepare for the live demo session.The “Live D
 
 Live demo: 1.5 hours
 
-Hands-on exercises: 1.5 hours
+Hands-on exercises: 2 hours
 
 Assignment : 1 hour
 
