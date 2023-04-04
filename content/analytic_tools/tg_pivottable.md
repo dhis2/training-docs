@@ -87,7 +87,7 @@ Make sure the resolution is OK for zooming in the Data visualizer with layout an
       - [Share Saved Tables](#share-saved-tables)
     - [Part-7 Working with Legends, Drilling Down](#part-7-working-with-legends-drilling-down)
       - [Legends](#legends)
-      - [**Drill Down**](#drill-down)
+      - [Drill Down](#drill-down)
     - [Part 8 - Freeze rows/columns](#part-8---freeze-rowscolumns)
     - [Part 9 - Last Value Aggregation Type](#part-9---last-value-aggregation-type)
       - [Last Value Aggregation Type](#last-value-aggregation-type)
@@ -488,7 +488,7 @@ The updated table:
 
 You can sort the table before proceeding. After you sort it, we can see districts with low coverage are both sorted on the bottom of the list and have the dark red color associated with it. As the districts increase in coverage, their spot on the list increases and the color associated with the data value is also changing in line with the definitions of our legend. These types of tables are easier to interpret as there are multiple visual cues (the order, the color, the data value itself) that allows us to understand what the table itself is representing.
 
-#### **Drill Down**
+#### Drill Down
 
 * Left click on a cell of Bird District to bring up the drill down/up function. Refer to the screenshot below.
   
