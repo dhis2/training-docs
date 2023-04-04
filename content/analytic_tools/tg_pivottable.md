@@ -1,12 +1,12 @@
 # **Trainer’s Guide to Pivot Tables**
 
-# What is this guide?
+## What is this guide?
 
 This guide is a support document for the trainers on “Pivot tables”. This session follows the standard academy training approach with 1) a live demo session where the trainer demonstrates and explains the features in DHIS2, and 2) a hands-on session with exercises where participants get to practice the same features. Demos are separated into several small sessions to allow for adequate interactivity during the session.
 
 This guide will help the trainer prepare for the live demo session.The “Live Demo step by step with guidance” section has a detailed walkthrough of all the steps to demonstrate with explanations and screenshots that should be easy to follow. Use that when preparing for the live demo session.
 
-# Learning objectives for this session
+## Learning objectives for this session
 
 1. Describe what a pivot table is
 2. Demonstrate how to: 
@@ -20,7 +20,7 @@ This guide will help the trainer prepare for the live demo session.The “Live D
 6. Demonstrate how to add descriptions and set up sharing of saved items
 
 
-# Time needed for this session
+## Time needed for this session
 
 Live demo: 1.5 hours
 
@@ -28,7 +28,7 @@ Hands-on exercises: 1.5 hours
 
 Assignment : 1 hour
 
-# Background on this topic/module
+## Background on this topic/module
 
 The Pivot Table module is a dynamic tool where you can perform data manipulations and visualizations in a tabular format. It is inspired by the Excel Pivot Tables and has some of the same dynamic features, but being a web-based tool it can’t replicate all the features of Excel. 
 
@@ -40,7 +40,7 @@ This **should not** be the user’s first time interacting with pivot tables as 
 
 The first component of the demo will be a bit of a review for anyone who has taken the online aggregate fundamentals course. Walk through this part slowly and explain every step in detail. Allow users to ask questions (this interrupts the flow of the demo, so contain this to the portion you are working on) but move on so you can complete the demo in its entirety.
 
-# Best practices, tips & tricks
+## Best practices, tips & tricks
 
 1. Hide empty rows/columns is a very useful Pivot Table option when analyzing data across many org units or periods with gaps in the data.
 2. Sort your table quickly by clicking on the sort symbol inside the column header cells
@@ -48,7 +48,7 @@ The first component of the demo will be a bit of a review for anyone who has tak
 4. You can add color legends to your table (coloring of cells based on their values) under Options. Multiple legends can now be assigned within the same table and are created in the “Legends” portion of the maintenance app. 
 
 
-# Preparations
+## Preparations
 
 Go through the Live demo step by step guide a few times before doing the actual demo for participants.
 
@@ -56,38 +56,36 @@ Make sure your user account is the same or similar to the participants’ traini
 
 Make sure the resolution is OK for zooming in the Data visualizer with layout and options pop up boxes. Setting the zoom to 125% is generally good practice at 1080p and above resolutions.
 
-# Quick Access Guide
+## Quick Access Guide
 
 - [**Trainer’s Guide to Pivot Tables**](#trainers-guide-to-pivot-tables)
-- [What is this guide?](#what-is-this-guide)
-- [Learning objectives for this session](#learning-objectives-for-this-session)
-- [Time needed for this session](#time-needed-for-this-session)
-- [Background on this topic/module](#background-on-this-topicmodule)
-- [Best practices, tips \& tricks](#best-practices-tips--tricks)
-- [Preparations](#preparations)
-- [Quick Access Guide](#quick-access-guide)
-- [Step-by-Step Demo](#step-by-step-demo)
-    - [**Part 1**- **Access the Data Visualizer App and Modify the Dimensions after opening a saved item**](#part-1--access-the-data-visualizer-app-and-modify-the-dimensions-after-opening-a-saved-item)
+  - [What is this guide?](#what-is-this-guide)
+  - [Learning objectives for this session](#learning-objectives-for-this-session)
+  - [Time needed for this session](#time-needed-for-this-session)
+  - [Background on this topic/module](#background-on-this-topicmodule)
+  - [Best practices, tips \& tricks](#best-practices-tips--tricks)
+  - [Preparations](#preparations)
+  - [Quick Access Guide](#quick-access-guide)
+  - [Step-by-Step Demo](#step-by-step-demo)
+    - [Part 1- Access the Data Visualizer App and Modify the Dimensions after opening a saved item](#part-1--access-the-data-visualizer-app-and-modify-the-dimensions-after-opening-a-saved-item)
       - [Review the table](#review-the-table)
       - [Modify the Data](#modify-the-data)
       - [Review the Periods](#review-the-periods)
       - [Review Organisation Units](#review-organisation-units)
     - [Part 2 - Table Layout, Options, Sorting and Saving](#part-2---table-layout-options-sorting-and-saving)
       - [Table Options](#table-options)
-      - [Sorting](#sorting)
-      - [Saving](#saving)
-    - [\*\*Part 3 - **Disaggregations / Group Sets**](#part-3---disaggregations--group-sets)
+    - [Part 3 - Disaggregations / Group Sets](#part-3---disaggregations--group-sets)
       - [Add in the sex dimension](#add-in-the-sex-dimension)
       - [Add in PHC, Dispensary and Health Centre from the Type dimension](#add-in-phc-dispensary-and-health-centre-from-the-type-dimension)
     - [Part 4 - Additional Table Options](#part-4---additional-table-options)
       - [**Row/Column Totals/Subtotals**](#rowcolumn-totalssubtotals)
-      - [**Show Hierarchy**](#show-hierarchy)
+      - [Show Hierarchy](#show-hierarchy)
     - [Part 5 - Download Data](#part-5---download-data)
     - [Part 6 - Demonstrate Number Type, Measure Criteria, Sharing](#part-6---demonstrate-number-type-measure-criteria-sharing)
       - [Number Type](#number-type)
       - [Filtering the Table](#filtering-the-table)
-      - [**Share** Favorites](#share-favorites)
-    - [**Part-7** Working with Legends, Drilling Down](#part-7-working-with-legends-drilling-down)
+      - [Share Saved Tables](#share-saved-tables)
+    - [Part-7 Working with Legends, Drilling Down](#part-7-working-with-legends-drilling-down)
       - [Legends](#legends)
       - [**Drill Down**](#drill-down)
     - [Part 8 - Freeze rows/columns](#part-8---freeze-rowscolumns)
@@ -95,10 +93,10 @@ Make sure the resolution is OK for zooming in the Data visualizer with layout an
       - [Last Value Aggregation Type](#last-value-aggregation-type)
 
 
-# Step-by-Step Demo
+## Step-by-Step Demo
 
 
-### **Part 1**- **Access the Data Visualizer App and Modify the Dimensions after opening a saved item**
+### Part 1- Access the Data Visualizer App and Modify the Dimensions after opening a saved item
 
 Go to Apps -> Data Visualizer
 
@@ -119,28 +117,21 @@ Now focus on the left side of the screen where we configure the output. This is 
 
 Explain each dimension; data, periods and organisation units.
 
-
-|                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                  Understanding DHIS2 data dimensions                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                  	|
-|:---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------:	|
-| When selecting what data to add to a TABLE, at minimum you need to make selections in terms of “what”, “where” and “when” the data is describing. <br>
-
-“What” described indicators (calculated by formulas), data elements (raw data as collected in the data entry forms) or reporting rates. Both are organised as groups, so know your groups to quickly find what you are looking for.<br>
-
-“Where” is found under Organisation Units, that is the location hierarchy from global to country and finally to sites, with all the intermediary levels in between. Know your orgunit levels to quickly navigate to the correct locations.<br>
-
-“When” is found under “Periods”. There you can specify what periodicity or time you want to visualise data for. Periods are organised by Period Types (“frequency groups”), so to find “January 2022” you must look under Period type “Monthly”. “January-March 2022” is found under “Quarterly”, “2022” is found under “Yearly”.<br>
-
-
-In addition to these “core dimensions” there are quite a few additional dimension providing more granularity to the “what” dimension, e.g. the age, sex and test results dimensions.  	|
+|*Understanding DHIS2 data dimensions*|
+|---|
+|When selecting what data to add to a TABLE, at minimum you need to make selections in terms of “what”, “where” and “when” the data is describing. 
+“What” described indicators (calculated by formulas), data elements (raw data as collected in the data entry forms) or reporting rates. Both are organised as groups, so know your groups to quickly find what you are looking for.
+“Where” is found under Organisation Units, that is the location hierarchy from global to country and finally to sites, with all the intermediary levels in between. Know your orgunit levels to quickly navigate to the correct locations.
+“When” is found under “Periods”. There you can specify what periodicity or time you want to visualise data for. Periods are organised by Period Types (“frequency groups”), so to find “January 2022” you must look under Period type “Monthly”. “January-March 2022” is found under “Quarterly”, “2022” is found under “Yearly”.
+In addition to these “core dimensions” there are quite a few additional dimension providing more granularity to the “what” dimension, e.g. the age, sex and test results dimensions.|
 
 #### Modify the Data
+
 Demonstrate that it is possible to select data from data elements, indicators or data sets
 
 ![](Images/pivottable/image54.png)
 
-In current selection both data elements and indicators are selected.
-
-Relate the data elements and indicators to the session regarding Metadata (where you discussed how outputs link to metadata configuration). Ask them to identify each selected item in this example as a data element or an indicator.
+In the current selection both data elements and indicators are selected.
 
 Demonstrate how to select data elements/indicators. You can do this by removing one of the selected items and adding it back into the table.
 
@@ -159,7 +150,7 @@ Explain the different fixed period type selection that is available and demonstr
 
 ![](Images/pivottable/image25.png)
 
-Next explain what relative periods are. These periods are relative to today’s date. They will constantly update as time goes forward and therefore are often a good choice for favorites. For example, if you are in 2021 and choose “Last Year” as the relative period, 2020 will be selected. In 2022, this will automatically shift to 2021. Over time, you will not have to edit each of the items you have saved as the selection of its data will constantly change.
+Next explain what relative periods are. These periods are relative to today’s date. They will constantly update as time goes forward and therefore are often a good choice for favorites. For example, if you are in 2023and choose “Last Year” as the relative period, 2022 will be selected. In 2022, this will automatically shift to 2021. Over time, you will not have to edit each of the items you have saved as the selection of its data will constantly change.
 
 ![](Images/pivottable/image1.png)
 
@@ -179,7 +170,9 @@ Explain the different selection modes for orgunits:
 
 2)	Select levels
 
-3)	Select groups  
+3)	Select groups
+
+***Select organisation units***
 
 This is the default way of selecting orgunits, simply select the units in the hierarchy that you want to use in the output. By default the “root” or top level unit is selected in the hierarchy. For most users this will be the Trainingland unit or a country unit in the real production environment. If you just want the country totals simply leave the top most unit (in this case Trainingland) selected. The org unit hierarchy supports multiple selections, just select the org units that you want to include in your output.
 
@@ -187,7 +180,7 @@ This is the default way of selecting orgunits, simply select the units in the hi
 
 This is the most flexible way of selecting org units as any combination of selected units is allowed, mixing units from different levels etc. You can **update **the table to see how this affects the output.
 
-**<span style="text-decoration:underline;">Select levels</span>** 
+***Select Levels***
 
 The ‘Select levels’ mode may be faster and more convenient when selecting all units at the same level. You can select a level by using the dropdown select available within the organisation unit pop up menu. 
 
@@ -195,16 +188,17 @@ Select District as the level (in the drop-down box) and make sure Trainingland i
 
 ![](Images/pivottable/image78.png)
 
-You can go ahead and **update **the table in order to see the effect this has on the table.
+You can go ahead and **update** the table in order to see the effect this has on the table.
 
-**<span style="text-decoration:underline;">Select Groups</span>**
+***Select groups***
 
 ‘Select groups’ is the third way of selecting orgunits. Org Units can be grouped in as many orgunit groups as you like, and these groups can then be used as a filter to select all units of a particular type or another common set of characteristics. For example, this could be a hospital group for all hospital units or a public group for all public health facilities. There are several org unit groups available in Trainingland, which have grouped similar facilities together for analysis as shown below.
 
 ![](Images/pivottable/image34.png)
 
-Select the “Public” organisation unit group with Trainingland selected and **update**the table. DHIS2 will select all of the Public facilities within Trainingland.
+Select the “Public” organisation unit group with Trainingland selected and **update** the table. DHIS2 will select all of the Public facilities within Trainingland.
 
+***STOP - Perform Exercise 1***
 
 ### Part 2 - Table Layout, Options, Sorting and Saving
 
@@ -226,7 +220,7 @@ The updated table will look something like this (you may see different periods d
 
 ![](Images/pivottable/image51.png)
 
-Explain that now Data and Periods are both appearing as columns.
+Explain that both the data and periods are both appearing as columns.
 
 #### Table Options
 
@@ -254,13 +248,13 @@ Click on options. Explain each option as you use it.
 
 ![](Images/pivottable/image13.png)
 
-#### Sorting
+***Sorting***
 
 Click on the column header for one of the months to show how you can sort the table.
 
 ![](Images/pivottable/image39.png)
 
-#### Saving
+***Saving***
 
 Now, let’s save the table!
 
@@ -268,14 +262,18 @@ Please use the convention (Username - Program: What - Where - When; for example 
 
 ![](Images/pivottable/image75.png)
 
-### **Part 3 - **Disaggregations / Group Sets**
+***STOP - Perform Exercise 2***
 
-Demonstrate the additional dimensions present in the pivot table for this instance. This is closely tied to how DHIS2 is configured and will be different for every implementation.
+### Part 3 - Disaggregations / Group Sets
+
+Demonstrate the additional dimensions present in the pivot table for this instance. This is closely tied to how DHIS2 is configured and will be different for every implementation. We will do this by altering the saved item "HIV - HIV testing performance by sub-orgunits." Make sure that this is open when starting this section.
 
 ![](Images/pivottable/image7.png)
 
 
-Note that there is a mix of categories (data disaggregation), organisation unit group sets and data element group sets. Unfortunately there are no clear icons that differentiate them. There are however green dots besides the name of some of these dimensions. This means the selected data item will be compatible with those data dimensions at minimum. It does have some difficulty identifying categories correctly; however does work correctly with org unit groups. We will focus on using categories and organisation unit group sets to analyze our data in this example.
+> Note that there is a mix of categories (data disaggregations), organisation unit group sets and data element group sets. Unfortunately there are no clear icons that differentiate them. There are however green dots besides the name of some of these dimensions. This means the selected data item will be compatible with those data dimensions at minimum. It does have some difficulty identifying categories correctly; however does work correctly with org unit groups. We will focus on using categories and organisation unit group sets to analyze our data in this example.
+
+![](Images/pivottable/new_pivot.png)
 
 #### Add in the sex dimension
 
@@ -285,17 +283,18 @@ Note that this requires being familiar with the disaggregation that is linked to
 
 Let’s update the table with the following criteria.
 
-Data: HIV tests performed
-
-Periods: Last 5 years
-
-organisation unit: Bird District, Level: facility
-
-Table options : Hide empty columns, show row totals, show column totals
+- Data: HIV tests performed
+- Periods: Last 5 years
+- Organisation unit: Bird District, Level: facility
+- Table options : Hide empty columns, show row totals, show column totals
 
 Add the sex disaggregation as an additional dimension.
 
 ![](Images/pivottable/image56.png)
+
+Ensure that the layout looks like this.
+
+![](Images/pivottable/pivot3_layout.png)
 
 Click on update. Demonstrate the output. Explain the table that is displayed.
 
@@ -309,27 +308,31 @@ Alter the table layout as follows.
 
 ![](Images/pivottable/image68.png)
 
-Ensure the “Hide empty rows” option is selected
+Ensure the “Hide empty rows” and "Hide "empty columns" option is selected
+
+![](Images/pivottable/hide_empty_rows_columns.png)
 
 Update the table
 
 ![](Images/pivottable/image19.png)
 
+***STOP - Perform Exercise 3***
+
 ### Part 4 - Additional Table Options
 
 #### **Row/Column Totals/Subtotals**
 
-Check show column subtotals in options within the “Data” tab and explain the usefulness here.
+Check show column subtotals, column totals and row totls in the options within the “Data” tab and explain the usefulness here.
 
 ![](Images/pivottable/image71.png)
 
-Click **Update **and you should see the table like below.
+Click **Update** and you should see the table like below.
 
 ![](Images/pivottable/image79.png)
 
-See for each facility type you will have subtotals available down the column. This shows you, by sex, the total number of HIV tests performed within a particular period for that facility type. 
+For each facility type you will have subtotals available. This shows you, by sex, the total number of HIV tests performed within a particular period for that facility type. 
 
-#### **Show Hierarchy**
+#### Show Hierarchy
 
 Sometimes it is worthwhile to have the entire hierarchy displayed in the table rather than displaying just the name of the facility. This may become useful when you are demonstrating outputs at regional or national level where the audience may not be familiar with facility names.
 
@@ -352,6 +355,8 @@ Select Download and choose a format that you want to download the data in.
 Plain data source is useful as it can be used to further analyze the data using statistical software such as SPSS, STATA or R. You can also open it in Excel and use pivot tables etc. to further review the data
 
 ![](Images/pivottable/image49.png)
+
+***STOP - Perform Exercise 4 and 5***
 
 ### Part 6 - Demonstrate Number Type, Measure Criteria, Sharing
 
@@ -380,7 +385,6 @@ It is sometimes essential to filter data visualized in a pivot table based on a 
 
 * Open up the previously saved favorite item ‘yourusername_HIV - HIV tests performed - Public Facilities - Last 6 months’.
   
-
 ![](Images/pivottable/image31.png)
 
 * Click on the options button, followed by the “Limit values” tab. Let’s define criteria to visualize only values between 500 and 4000.
@@ -396,9 +400,9 @@ The table should show you monthly values from only between 500 and 4000
 
 ![](Images/pivottable/image44.png)
 
-#### **Share** Favorites
+#### Share Saved Tables
 
-Favorites designed in Pivot Tables can be shared with users/user groups.
+Saved Tables designed in Pivot Tables can be shared with users/user groups.
 
 Explain in sufficient detail what is meant by sharing in the system and that this concept is associated with all other analytics tools.
 
@@ -414,25 +418,33 @@ Share the table with the user group “HIV access.” Provide them with “Can v
 
 ![](Images/pivottable/image50.png)
 
-### **Part-7** Working with Legends, Drilling Down
+***STOP - Perform Exercise 6***
+
+### Part-7 Working with Legends, Drilling Down
 
 #### Legends
 
 Legends provide a colorful visualization to tables intended to provide a quick and meaningful understanding of the table.
 
-Create a new pivot table with following criteria.
+Create a new table by selecting File - New. 
 
-Data: Coverage indicators (BCG, DPT-HepB-Hib3, OPV3)
+![](Images/pivottable/new_pivot.png)
 
-Period: last year
+Ensure that pivot table is selected as the output type.
 
-Org Unit: Trainingland by district
+![](Images/pivottable/pivot_output_type.png)
+
+Create the table with following criteria.
+
+- Data: Coverage indicators (BCG, DPT-HepB-Hib3, OPV3)
+- Period: Last year
+- Org Unit: Trainingland by district
 
 ![](Images/pivottable/image54.png)
 ![](Images/pivottable/image2.png)
 ![](Images/pivottable/image78.png)
 
-Layout should be as follows
+The layout should be as follows
 
 ![](Images/pivottable/image61.png)
 
@@ -492,6 +504,8 @@ How can you interpret the above table?
 
 We can observe that many facilities are having issues with their immunization coverage indicators, contributing to the low district totals observed in the previous table. Parrot district hospital does not have any data values and is therefore not contributing to the district total. 
 
+***STOP - Perform Exercise 7***
+
 ### Part 8 - Freeze rows/columns
 
 When you have large amounts of data, it may be useful to lock the first row and column similar to excel.
@@ -532,7 +546,7 @@ In pivot tables, let us apply this across the last 12 months. Here I would want 
 1. We set the data element to aggregate using the last value type in maintenance
 2. We can modify the way the data element aggregates in the pivot table options. This can be useful to move between aggregation methods for a particular data element depending on the output you require.
 
-Let us look at an example by creating a new pivot table/
+Let us look at an example by creating a new pivot table
 
 * Data: HIV - PLHIV currently on ART (Data Element within the **HIV **group)
 * Periods: Last 12 months
@@ -542,9 +556,11 @@ Let us look at an example by creating a new pivot table/
 
 The data element PLHIV currently on ART is currently set to aggregate using the “average (sum in org unit hierarchy)” function in maintenance. This causes the average of the values from the last 12 months to be displayed in this particular table. 
 
+![](Images/pivottable/image10.png)
+
 If we change this to aggregate via last value, it will select the last value that was entered during that 12 month period that has been filtered and place it in the output of the table. To aggregate values this way, open table options and set the aggregation type to “last value” within the “Data” tab. 
 
-![](Images/pivottable/image10.png)
+![](Images/pivottable/last_value.png)
 
 Note that you can set your value to aggregate any way you would like here if you want to modify the output using the default method of aggregating the data element and we are using last value to demonstrate this feature.
 
@@ -554,3 +570,4 @@ Select **Update** to update the table and review the returned result
 
 ![](Images/pivottable/image74.png)
 
+***STOP - Perform Exercises 8 and 9***
