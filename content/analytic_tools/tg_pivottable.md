@@ -78,7 +78,7 @@ Make sure the resolution is OK for zooming in the Data visualizer with layout an
       - [Add in the sex dimension](#add-in-the-sex-dimension)
       - [Add in PHC, Dispensary and Health Centre from the Type dimension](#add-in-phc-dispensary-and-health-centre-from-the-type-dimension)
     - [Part 4 - Additional Table Options](#part-4---additional-table-options)
-      - [**Row/Column Totals/Subtotals**](#rowcolumn-totalssubtotals)
+      - [Row/Column Totals/Subtotals](#rowcolumn-totalssubtotals)
       - [Show Hierarchy](#show-hierarchy)
     - [Part 5 - Download Data](#part-5---download-data)
     - [Part 6 - Demonstrate Number Type, Measure Criteria, Sharing](#part-6---demonstrate-number-type-measure-criteria-sharing)
@@ -320,7 +320,7 @@ Update the table
 
 ### Part 4 - Additional Table Options
 
-#### **Row/Column Totals/Subtotals**
+#### Row/Column Totals/Subtotals
 
 Check show column subtotals, column totals and row totls in the options within the “Data” tab and explain the usefulness here.
 
