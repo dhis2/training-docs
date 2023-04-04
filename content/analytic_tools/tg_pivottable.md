@@ -85,7 +85,7 @@ Make sure the resolution is OK for zooming in the Data visualizer with layout an
       - [Number Type](#number-type)
       - [Filtering the Table](#filtering-the-table)
       - [Share Saved Tables](#share-saved-tables)
-    - [Part-7 Working with Legends, Drilling Down](#part-7-working-with-legends-drilling-down)
+    - [Part 7 - Working with Legends, Drilling Down](#part-7---working-with-legends-drilling-down)
       - [Legends](#legends)
       - [Drill Down](#drill-down)
     - [Part 8 - Freeze rows/columns](#part-8---freeze-rowscolumns)
@@ -420,7 +420,7 @@ Share the table with the user group “HIV access.” Provide them with “Can v
 
 ***STOP - Perform Exercise 6***
 
-### Part-7 Working with Legends, Drilling Down
+### Part 7 - Working with Legends, Drilling Down
 
 #### Legends
 
