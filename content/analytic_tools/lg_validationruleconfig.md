@@ -40,7 +40,7 @@ Thes rules can be run directly in data entry - recommended if measuring internal
 - [Background on this topic/module](#background-on-this-topicmodule)
 - [Table of Contents/Quick Guide](#table-of-contentsquick-guide)
 - [Live Demo Step-by-Step](#live-demo-step-by-step)
-  - [Activity 1 - Create a Validation Rule for HIV](#activity-1---create-a-validation-rule-for-hiv)
+  - [Exercise 1 - Create a Validation Rule for HIV](#exercise-1---create-a-validation-rule-for-hiv)
     - [Review the data entry page and decide on a logical validation rule to create](#review-the-data-entry-page-and-decide-on-a-logical-validation-rule-to-create)
     - [Create the validation rule HIV tests positive \<= HIV tests performed](#create-the-validation-rule-hiv-tests-positive--hiv-tests-performed)
       - [Open and explain the Left Side Expression](#open-and-explain-the-left-side-expression)
@@ -48,7 +48,7 @@ Thes rules can be run directly in data entry - recommended if measuring internal
       - [Open the Right Side Expression](#open-the-right-side-expression)
     - [Create a Validation Rule Group](#create-a-validation-rule-group)
     - [Test the rule in validation rule analysis within the Data Quality App](#test-the-rule-in-validation-rule-analysis-within-the-data-quality-app)
-    - [End Activity 1](#end-activity-1)
+    - [End Exercise 1](#end-exercise-1)
   - [Activity 2 - Create Validation Rule #2 for stock](#activity-2---create-validation-rule-2-for-stock)
     - [Review the data entry page and decide on a logical validation rule to create](#review-the-data-entry-page-and-decide-on-a-logical-validation-rule-to-create-1)
     - [Create the validation rule DPT-HepB-Hib doses given \<= Total Used DPT-HepB-Hip doses](#create-the-validation-rule-dpt-hepb-hib-doses-given--total-used-dpt-hepb-hip-doses)
@@ -74,10 +74,9 @@ Thes rules can be run directly in data entry - recommended if measuring internal
 # Live Demo Step-by-Step
 
 
-## Activity 1 - Create a Validation Rule for HIV
+## Exercise 1 - Create a Validation Rule for HIV
 
 **Example 1 from HIV Monthly Form**
-
 
 ### Review the data entry page and decide on a logical validation rule to create
 
@@ -94,19 +93,16 @@ Let’s create a rule in which HIV tests positive are less than or equal to HIV 
 Navigate to the maintenance application in DHIS2 and select the “Validation” tab 
 
 ![](Images/vrconfig/image5.png)
+
 ![](Images/vrconfig/image12.png)
-
-
 
 Create a new rule by selecting the “+” icon underneath validation rule
 
 ![](Images/vrconfig/image4.png)
 
-
 Review the fields that will be used to describe the rule. Use your initials to create the rule. **[Note: this is only for practice purposes, you would not use initials in a real life scenario]**
 
 ![](Images/vrconfig/image1.png)
-
 
 Here is the description and instruction
 
@@ -114,20 +110,17 @@ HIV tests positive should be less than or the same as HIV tests performed, if no
 
 Describe the importance and period type as it relates to the validation rule before proceeding.
 
-
 #### Open and explain the Left Side Expression
 
 Open the left side expression and explain what you are intending to do. The rule you are creating is total HIV tests positive between male and female hence for the left side, select the (HIV tests positive Male + HIV tests positive Female)
 
 ![](Images/vrconfig/image11.png)
 
-
-**Note:**
-
-It is recommended to use the disaggregated data elements instead of the total data element as shown in the figure above e.g. HIV tests positive Male + HIV tests positive Female. This is because during validation rule analysis, when looking at the details, if the total data element was selected the details will be empty and you will not be able to drill down to identify where the problem originates from.
+>**Note:**
+>
+>It is recommended to use the disaggregated data elements instead of the total data element as shown in the figure above e.g. HIV tests positive Male + HIV tests positive Female. This is because during validation rule analysis, when looking at the details, if the total data element was selected the details will be empty and you will not be able to drill down to identify where the problem originates from.
 
 Select “Save” once the left side has been selected.
-
 
 #### Select the Operator
 
@@ -154,7 +147,7 @@ Go to Maintenance> Validation> Validation Group
 
 ![](Images/vrconfig/image16.png)
 
-Click the add button and fill in the details of the validation group
+Click the add button and fill in the details of the validation group. Use your initials to create the validation rule group.
 
 ![](Images/vrconfig/image17.png)
 
@@ -173,7 +166,7 @@ Select “Run validation”
 
 Select the following inputs:
 
-* **Date : January 1 2021 - April 30 , 2021**
+* **Date : January 1 2023 - April 1 , 2023**
 * **Rule Group : The group you have just made**
 * **Parent Organisation unit : Animal Region**
 
@@ -186,7 +179,7 @@ You should see the below violations
 Did it work for you?
 
 
-### End Activity 1
+### End Exercise 1
 
 
 ## Activity 2 - Create Validation Rule #2 for stock
@@ -285,7 +278,7 @@ Select “Run validation”
 
 Select the following inputs:
 
-* **Date : April 1 2021 - April 30 , 2021**
+* **Date : January 1, 2023 - April 1, 2023**
 * **Rule Group : The group you have just made**
 * **Parent Organisation unit : Dog District**
 
@@ -311,8 +304,8 @@ In this example, a rule will be created in which we compare an entered value to 
 
 ### Create the validation rule [DPT-HepB-Hib 2 administered &lt;= DPT-HepB-Hib 2 dose threshold ]
 
-    Review and understand the fields that will be used to create the rule. 
-    As mentioned above the data element used for the threshold is a computed variable generated from a predictor, a concept that is not covered in this academy. It has already been configured and available within the list of data elements; in practice you would also need to make this yourself if not already available.
+>Review and understand the fields that will be used to create the rule. 
+As mentioned above the data element used for the threshold is a computed variable generated from a predictor, a concept that is not covered in this academy. It has already been configured and available within the list of data elements; in practice you would also need to make this yourself if not already available.
 
 Use your initials to create the rule.
 
@@ -362,14 +355,12 @@ Select “Run validation”
 
 Select the following inputs:
 
-* **Date : January 1 2021 - April 30, 2021**
+* **Date : January 1 2023 - April 1, 2023**
 * **Rule Group : The group you have just made**
 * **Parent Organisation unit : Dog District**
 * 
-![](Images/vrconfig/image19.png)
-
+![](Images/vrconfig/image21.png)
 
 You should see the violations. Does it work for you?
-![](Images/vrconfig/image3.png)
 
 ### End Activity 3

@@ -143,7 +143,7 @@ Open the left side expression and explain what you are intending to do. The rule
 ![](Images/vrconfig/image11.png)
 
 
-     **Note:**It is recommended to use the disaggregated data elements instead of the total data element as shown in the figure above e.g. HIV tests positive Male + HIV tests positive Female. This is because during validation rule analysis, when looking at the details, if the total data element was selected the details will be empty and you will not be able to drill down to identify where the problem originates from.
+> ***Note:*** It is recommended to use the disaggregated data elements instead of the total data element as shown in the figure above e.g. HIV tests positive Male + HIV tests positive Female. This is because during validation rule analysis, when looking at the details, if the total data element was selected the details will be empty and you will not be able to drill down to identify where the problem originates from.
 
 Select “Save” once the left side has been selected.
 
@@ -173,12 +173,12 @@ Go to Maintenance> Validation> Validation Group
 ![](Images/vrconfig/image16.png)
 
 
-Click the add button and fill in the details of the validation group
+Click the add button and fill in the details of the validation group. Use your initials when creating the validation rule group
 
 ![](Images/vrconfig/image17.png)
 
 
-Place the validation rule you have created into the group and select “Save”
+Place the validation rule you have created into the group and select “Save.” 
 
 ### Test the rule in validation rule analysis within the Data Quality App
 
@@ -193,7 +193,7 @@ Select “Run validation”
 Select the following inputs:
 
 
-* **Date : January 1 2021 - April 30 , 2021**
+* **Date : January 1 2023 - April 1 , 2023**
 * **Rule Group : The group you have just made**
 * **Parent Organisation unit : Animal Region**
 
@@ -286,7 +286,7 @@ Go to Maintenance> Validation> Validation Group
 ![](Images/vrconfig/image16.png)
 
 
-Click the add button and fill in the details of the validation group
+Click the add button and fill in the details of the validation group. Use your initials when giving the group a name.
 
 ![](Images/vrconfig/image33.png)
 
@@ -307,7 +307,7 @@ Select “Run validation”
 
 Select the following inputs:
 
-* **Date : April 1 2021 - April 30 , 2021**
+* **Date : January 1 2023 - April 1 , 2023**
 * **Rule Group : The group you have just made**
 * **Parent Organisation unit : Dog District**
 
@@ -331,7 +331,7 @@ In this example, a rule will be created in which we compare an entered value to 
 
 #### Note: A Predictor is used to calculate the threshold value
 
-**NB: This section is for the trainer to understand where the threshold value is coming from. This trainer should not necessarily show the learner how to make a predictor unless they feel there is enough time.**
+**NB: This section is for the trainer to understand where the threshold value is coming from. The trainer should not show the learner how to make a predictor unless they feel there is enough time.**
 
 First, we create the data element.
 
@@ -416,7 +416,7 @@ Select “Run validation”
 Select the following inputs:
 
 
-* **Date : January 1 2021 - April 30, 2021**
+* **Date : January 1 2023 - April 1, 2023**
 * **Rule Group : The group you have just made**
 * **Parent Organisation unit : Dog District**
 
