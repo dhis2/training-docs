@@ -67,7 +67,7 @@ Make sure the resolution is OK for zooming in the Data visualizer with layout an
   - [Preparations](#preparations)
   - [Quick Access Guide](#quick-access-guide)
   - [Step-by-Step Demo](#step-by-step-demo)
-    - [Part 1- Access the Data Visualizer App and Modify the Dimensions after opening a saved item](#part-1--access-the-data-visualizer-app-and-modify-the-dimensions-after-opening-a-saved-item)
+    - [Part 1 - Access the Data Visualizer App and Modify the Dimensions after opening a saved item](#part-1---access-the-data-visualizer-app-and-modify-the-dimensions-after-opening-a-saved-item)
       - [Review the table](#review-the-table)
       - [Modify the Data](#modify-the-data)
       - [Review the Periods](#review-the-periods)
@@ -96,7 +96,7 @@ Make sure the resolution is OK for zooming in the Data visualizer with layout an
 ## Step-by-Step Demo
 
 
-### Part 1- Access the Data Visualizer App and Modify the Dimensions after opening a saved item
+### Part 1 - Access the Data Visualizer App and Modify the Dimensions after opening a saved item
 
 Go to Apps -> Data Visualizer
 
