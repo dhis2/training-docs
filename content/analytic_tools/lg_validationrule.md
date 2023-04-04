@@ -37,21 +37,19 @@ Hands-on activities: 4 activities, ~ 15 mins each
 - [Hands On Activities](#hands-on-activities)
   - [Exercise 1 - Review validation rules in data entry](#exercise-1---review-validation-rules-in-data-entry)
     - [Review the rules in data entry](#review-the-rules-in-data-entry)
-  - [Activity 2 - Run a validation rule in validation rule analysis](#activity-2---run-a-validation-rule-in-validation-rule-analysis)
+  - [Exercise 2 - Run a validation rule in validation rule analysis](#exercise-2---run-a-validation-rule-in-validation-rule-analysis)
     - [Review the validation details](#review-the-validation-details)
-  - [Activity 3 - Examples with mathematical operations](#activity-3---examples-with-mathematical-operations)
+  - [Exercise 3 - Examples with mathematical operations](#exercise-3---examples-with-mathematical-operations)
     - [Review the rules in data entry](#review-the-rules-in-data-entry-1)
     - [Run Validation Analysis](#run-validation-analysis)
     - [Review the validation details](#review-the-validation-details-1)
-  - [Activity 4 - Run the validation rule using a threshold in data entry](#activity-4---run-the-validation-rule-using-a-threshold-in-data-entry)
-  - [Activity 5 - Run the “Immunisation thresholds” validation rules in validation rule analysis](#activity-5---run-the-immunisation-thresholds-validation-rules-in-validation-rule-analysis)
+  - [Exercise 4 - Run the validation rule using a threshold in data entry](#exercise-4---run-the-validation-rule-using-a-threshold-in-data-entry)
+  - [Exercise 5 - Run the “Immunisation thresholds” validation rules in validation rule analysis](#exercise-5---run-the-immunisation-thresholds-validation-rules-in-validation-rule-analysis)
     - [Check the messages app](#check-the-messages-app)
 
 
 
 # Hands On Activities
-
-  
 
 ## Exercise 1 - Review validation rules in data entry
 
@@ -101,7 +99,7 @@ We can update this to each cell respectively as shown in the image respectively 
 
 It should now pass as the number of HIV tests positive is now less than the HIV tests performed in this period.
 
-## Activity 2 - Run a validation rule in validation rule analysis
+## Exercise 2 - Run a validation rule in validation rule analysis
 
 In order to run validation rule analysis, go to the data quality app and select “Run validation”
 
@@ -130,7 +128,7 @@ Therefore, HIV tests positive (1199) > Total HIV tests performed (296), not less
 We can see how this view will be useful in reviewing the violations for multiple org units at once, as we can also see all the component parts of the violation. This can allow us to potentially identify exactly which value is incorrect. 
 
 
-## Activity 3 - Examples with mathematical operations 
+## Exercise 3 - Examples with mathematical operations 
 
 Select the following in data entry:
 
@@ -187,8 +185,7 @@ Therefore, DPT doses (473) > Total used and wasted (466), not less than or equal
 
 We can see how this view will be useful in reviewing the violations for multiple org units at once, as we can also see all the component parts of the violation. This can allow us to potentially identify exactly which value is incorrect. 
 
-
-## Activity 4 - Run the validation rule using a threshold in data entry
+## Exercise 4 - Run the validation rule using a threshold in data entry
 
 **_This should be done after presenting slide 14 in the presentation._**
 
@@ -202,7 +199,7 @@ Run the validation rule and review the results
 
 Note that it runs both the logical rules, which we have already reviewed, as well as the rules that check consistency using outliers that have been generated via the predictor function in this case. These rules can run using outliers that have been imported into the system as well if required.
 
-## Activity 5 - Run the “Immunisation thresholds” validation rules in validation rule analysis
+## Exercise 5 - Run the “Immunisation thresholds” validation rules in validation rule analysis
 
 Perform this after finishing the presentation.
 
