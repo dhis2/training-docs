@@ -11,22 +11,21 @@ This guide will help the trainer prepare for the live demo session.The “Live D
 1. Describe what a pivot table is
 2. Demonstrate how to: 
     1. Modify pivot table dimensions
-    2. Create tables in the Pivot Table app
+    2. Create tables in the Data Visualizer app
     3. Use Pivot Table Options and Pivot Table Layout
     4. Add in categories and org unit groups as disaggregations
-3. Explain how different number types can be used
-4. Demonstrate how to apply legends to pivot tables
-5. Explain how to add descriptions and set up sharing for saved items
-6. Demonstrate how to add descriptions and set up sharing of saved items
+3. Download pivot table data
+4. Explain how different number types can be used
+5. Explain how to set up sharing for saved items
+6. Demonstrate how to apply legends to pivot tables
+7. Demonstrate how to freeze rows and columns
 
 
 ## Time needed for this session
 
-Live demo: 1.5 hours
-
-Hands-on exercises: 2 hours
-
-Assignment : 1 hour
+- Live demo: 1.5 hours
+- Hands-on exercises: 2 hours
+- Assignment : 1 hour
 
 ## Background on this topic/module
 
@@ -46,7 +45,6 @@ The first component of the demo will be a bit of a review for anyone who has tak
 2. Sort your table quickly by clicking on the sort symbol inside the column header cells
 3. You must always save your table as a favorite before you can add it to your dashboard or share it with colleagues
 4. You can add color legends to your table (coloring of cells based on their values) under Options. Multiple legends can now be assigned within the same table and are created in the “Legends” portion of the maintenance app. 
-
 
 ## Preparations
 
@@ -166,11 +164,9 @@ Let’s uncheck user sub-units to provide a clearer view on options available fo
 
 Explain the different selection modes for orgunits:
 
-1)	Select organisation units
-
-2)	Select levels
-
-3)	Select groups
+1. Select organisation units
+2. Select levels
+3. Select groups
 
 ***Select organisation units***
 
@@ -424,7 +420,7 @@ Share the table with the user group “HIV access.” Provide them with “Can v
 
 #### Legends
 
-Legends provide a colorful visualization to tables intended to provide a quick and meaningful understanding of the table.
+Legends provide a colorful visualization to tables, allowing for a quick and meaningful understanding of the table.
 
 Create a new table by selecting File - New. 
 
