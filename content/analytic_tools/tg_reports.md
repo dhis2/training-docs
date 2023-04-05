@@ -1,6 +1,6 @@
 # Trainer’s Guide to Reports
 
-# What is this guide?
+## What is this guide?
 
 This guide is a support document for the trainers of “Reports”. This session is divided into 2 parts. There is 45 minutes available overall for demoing and Q&A, and 45 mins devoted to exercises.
 
@@ -8,7 +8,7 @@ This guide will help the trainer prepare for the live demo session.The “Live D
 
 There is also a Quick Guide which lists the steps very briefly and this is meant as a lookup guide or “cheatsheet” WHILE doing the demo, to help the trainer remember all the steps and the flow of the demo.
 
-# Learning objectives for this session
+## Learning objectives for this session
 
 1. Understand how to create charts in the Data Visualizer app
 2. Understand how to create data visualizer favourites and use these in Dashboards
@@ -16,13 +16,13 @@ There is also a Quick Guide which lists the steps very briefly and this is meant
 4. Discuss the appropriateness of various charts based on the data that you wish to display
 
 
-# Time needed for this session
+## Time needed for this session
 
 Live demo: 2 demos, ~ 20 mins each
 
 Hands-on exercises: 2 exercises, ~ 20 mins each
 
-# Preparations
+## Preparations
 
 Go through the Live demo step by step guide a few times before doing the actual demo for participants.
 
@@ -33,17 +33,17 @@ The session has been divided into 5 parts. Each part has a set of objectives ass
 https://docs.google.com/presentation/d/1LFkyCi3AJ5G6PwKUbtYOUFaAMnl7K59KOI70sgof8-s/edit?usp=sharing
 
 
-# Table of Contents/Quick Guide
+## Table of Contents/Quick Guide
 
 
 
 - [Trainer’s Guide to Reports](#trainers-guide-to-reports)
-- [What is this guide?](#what-is-this-guide)
-- [Learning objectives for this session](#learning-objectives-for-this-session)
-- [Time needed for this session](#time-needed-for-this-session)
-- [Preparations](#preparations)
-- [Table of Contents/Quick Guide](#table-of-contentsquick-guide)
-- [Live Demo Step-by-Step](#live-demo-step-by-step)
+  - [What is this guide?](#what-is-this-guide)
+  - [Learning objectives for this session](#learning-objectives-for-this-session)
+  - [Time needed for this session](#time-needed-for-this-session)
+  - [Preparations](#preparations)
+  - [Table of Contents/Quick Guide](#table-of-contentsquick-guide)
+  - [Live Demo Step-by-Step](#live-demo-step-by-step)
   - [Part 1 - Data Set Report](#part-1---data-set-report)
     - [Access the reports app](#access-the-reports-app)
     - [Review the reports app](#review-the-reports-app)
@@ -51,11 +51,10 @@ https://docs.google.com/presentation/d/1LFkyCi3AJ5G6PwKUbtYOUFaAMnl7K59KOI70sgof
     - [Run the data set report](#run-the-data-set-report)
     - [Review the data set report](#review-the-data-set-report)
     - [Review download options](#review-download-options)
-    - [STOP  - Perform Exercise 1 (creating a data set report)](#stop----perform-exercise-1-creating-a-data-set-report)
   - [Part 2 - Run a data set report within an orgunit group](#part-2---run-a-data-set-report-within-an-orgunit-group)
     - [Select an orgunit group in addition to the other inputs for the report](#select-an-orgunit-group-in-addition-to-the-other-inputs-for-the-report)
     - [Review the data set report](#review-the-data-set-report-1)
-    - [STOP  - Perform Exercise 2 (creating a data set report using an org unit group)](#stop----perform-exercise-2-creating-a-data-set-report-using-an-org-unit-group)
+    - [STOP  - Perform Exercise 1 and 2](#stop----perform-exercise-1-and-2)
   - [Part 3 - Reporting Rate Summary](#part-3---reporting-rate-summary)
     - [Select the Reporting Rate Summary module from within the reports app](#select-the-reporting-rate-summary-module-from-within-the-reports-app)
     - [Explain reporting rate summary](#explain-reporting-rate-summary)
@@ -76,9 +75,9 @@ https://docs.google.com/presentation/d/1LFkyCi3AJ5G6PwKUbtYOUFaAMnl7K59KOI70sgof
     - [Run the report again by selecting “Get Chart”](#run-the-report-again-by-selecting-get-chart)
     - [STOP  - Perform Exercise 5 (creating an org unit distribution report)](#stop----perform-exercise-5-creating-an-org-unit-distribution-report)
   - [Part 6 - Resources](#part-6---resources)
-- [Session END](#session-end)
+  - [Session END](#session-end)
 
-# Live Demo Step-by-Step
+## Live Demo Step-by-Step
 
 ## Part 1 - Data Set Report
 
@@ -128,9 +127,6 @@ You are able to download the data set report as either an excel or PDF file
 ![](Images/reportsapp/image24.png)
 
 
-### STOP  - Perform Exercise 1 (creating a data set report)
-
-
 ## Part 2 - Run a data set report within an orgunit group
 
 Create another data set report. This time select the “Show more options” button to show available org unit group sets.
@@ -157,7 +153,7 @@ The data set report is the same as before, however now it has filtered out the a
 
 ![](Images/reportsapp/image10.png)
 
-### STOP  - Perform Exercise 2 (creating a data set report using an org unit group)
+### STOP  - Perform Exercise 1 and 2
 
 ## Part 3 - Reporting Rate Summary
 
@@ -205,7 +201,6 @@ You are able to download the data set report as either an excel or PDF file
 
 ### STOP  - Perform Exercise 3 (creating a reporting rate summary)
 
-
 ## Part 4 - Reporting Rates in Other Tools
 
 The reporting rate summary is a very user-friendly tool; however one critical disadvantage of the reporting summary is that only one period can be viewed at a time. In addition, the report rate summary does not respect the organisation unit “closing date;” this may cause a problem if you have permanently closed a facility but the data set you are reviewing is still assigned to that facility. 
@@ -238,11 +233,9 @@ Select Update to review the chart. Another advantage when using these apps is th
 
 ### Select the “Org Unit Distribution report” module from within the reports app
 
-
 ![](Images/reportsapp/image13.png)
 
 OR
-
 
 ![](Images/reportsapp/image23.png)
 
@@ -294,11 +287,12 @@ OR
 
 ![](Images/reportsapp/image22.png)
 
-From here we can manage various resources. Add a new resource
+From here we can manage various resources. Add a new resource (make sure you have a file on hand to upload)
 
 ![](Images/reportsapp/image2.png)
+
 ![](Images/reportsapp/image8.png)
 
 These resources can be accessed within this resources app, or you can place them directly on the dashboard for easy access.
 
-# Session END
+## Session END

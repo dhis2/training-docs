@@ -1,10 +1,10 @@
 # Learner’s Guide to Reports
 
-# What is this guide?
+## What is this guide?
 
 This guide contains all exercises and detailed steps to perform them related to the use of the reports app for the Analytics Tools Level 1 academy. Please perform each of the exercises when prompted to by your instructors.
 
-# Learning objectives for this session
+## Learning objectives for this session
 
 1. Create a data set report
 2. Create a reporting rate summary
@@ -12,20 +12,20 @@ This guide contains all exercises and detailed steps to perform them related to 
 4. Create an organisation unit distribution report
 5. Describe how resources can be uploaded
 
-# Time needed for this session
+## Time needed for this session
 
 Live demo: 2 demos, ~ 20 mins each
 
 Hands-on exercises: 5 exercises, 5-15 mins each
 
-# Table of Contents/Quick Guide
+## Table of Contents/Quick Guide
 
 - [Learner’s Guide to Reports](#learners-guide-to-reports)
-- [What is this guide?](#what-is-this-guide)
-- [Learning objectives for this session](#learning-objectives-for-this-session)
-- [Time needed for this session](#time-needed-for-this-session)
-- [Table of Contents/Quick Guide](#table-of-contentsquick-guide)
-- [Exercises](#exercises)
+  - [What is this guide?](#what-is-this-guide)
+  - [Learning objectives for this session](#learning-objectives-for-this-session)
+  - [Time needed for this session](#time-needed-for-this-session)
+  - [Table of Contents/Quick Guide](#table-of-contentsquick-guide)
+  - [Exercises](#exercises)
   - [Exercise 1 - Data Set Report](#exercise-1---data-set-report)
     - [Access the reports app](#access-the-reports-app)
     - [Review the reports app](#review-the-reports-app)
@@ -53,7 +53,7 @@ Hands-on exercises: 5 exercises, 5-15 mins each
     - [Review download options](#review-download-options-2)
     - [Run the report again by selecting “Get Chart”](#run-the-report-again-by-selecting-get-chart)
 
-# Exercises
+## Exercises
 
 ## Exercise 1 - Data Set Report
 
