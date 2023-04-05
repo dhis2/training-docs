@@ -1,6 +1,6 @@
-# **Trainer’s Guide to Interpretation**
+# Trainer’s Guide to Interpretation
 
-# What is this guide?
+## What is this guide?
 
 This guide is a support document for the trainers of “Interpretations” Session. This curriculum follows the standard academy training approach and includes four sessions:
 
@@ -9,13 +9,13 @@ This guide is a support document for the trainers of “Interpretations” Sessi
 3. Live Demo Step-by-Step session is a live demo session where the trainer demonstrates and explains the features in DHIS2 and it has a detailed walkthrough of all the steps to demonstrate with explanations and screenshots that should be easy to follow. Use that when preparing for the live demo session,
 4. Hands-on exercise on interpretations on how to enter the interpretation in DHIS2 and share it with other users,
 
-# Learning objectives for this curriculum
+## Learning objectives for this curriculum
 
 * Practice how to develop and upload Data-to-Action frameworks in DHIS2 visualizations
 * How to write interpretations in DHIS2 visualizations
 * How to share and subscribe to interpretations
 
-# Time needed for this curriculum
+## Time needed for this curriculum
 
 Data-to-Action framework presentation: 15 minutes
 
@@ -25,7 +25,7 @@ Live demo: 20 minutes
 
 Hands-on exercises: 15 minutes
 
-# Background on this topic/module
+## Background on this topic/module
 
 The Data-to-Action (D2A) framework is a set of supporting information that should accompany each DHIS2 visualization to help the user to understand:
 
@@ -36,7 +36,7 @@ The Data-to-Action (D2A) framework is a set of supporting information that shoul
 
 The D2A framework allows users to strengthen use of program data and makes it easier to engage with data. The D2A framework highlights data users’ information and data visualization needs, furthermore, the expected actions to be taken based on benchmarked performance. The D2A framework is uploaded into the Details panel of a DHIS2 visualization, so that it provides more context to the DHIS2 visualization and prompts users to think critically of the data they are looking at.
 
-# Preparations
+## Preparations
 
 Make sure your user account is the same or similar to the participants’ training accounts so that you and the participants have access to the same visualizations.
 
@@ -51,12 +51,12 @@ Make sure the resolution on the projector is OK for zooming in Interpretations f
 Test your Hands-on exercises in the training server in advance to make sure everything works well. 
 
 
-# Presentation (PPT) on Data to Action Framework
+## Presentation (PPT) on Data to Action Framework
 
 * Start with the Data to Action Presentation.
 * Explain why the context is needed to interpret the data.
 
-# Exercise on Data to Action Framework
+## Exercise on Data to Action Framework
 
 * The exercise is available in a PPT “Exercise-Data to Action Framework””
 * Do this as a individual exercise
@@ -67,33 +67,33 @@ Test your Hands-on exercises in the training server in advance to make sure ever
 * A representative from the group will present the framework they designed to all other groups at the end of 15 mins
 * Facilitators are supposed to give feedback to what is presented
 
-# Live Demo Step-by-Step
+## Live Demo Step-by-Step
 
 The Live Demo Step-by-Step is organized into 3 parts:
 
-- [**Trainer’s Guide to Interpretation**](#trainers-guide-to-interpretation)
-- [What is this guide?](#what-is-this-guide)
-- [Learning objectives for this curriculum](#learning-objectives-for-this-curriculum)
-- [Time needed for this curriculum](#time-needed-for-this-curriculum)
-- [Background on this topic/module](#background-on-this-topicmodule)
-- [Preparations](#preparations)
-- [Presentation (PPT) on Data to Action Framework](#presentation-ppt-on-data-to-action-framework)
-- [Exercise on Data to Action Framework](#exercise-on-data-to-action-framework)
-- [Live Demo Step-by-Step](#live-demo-step-by-step)
-  - [Part 1 - How to plug a Data-to-Action framework into a DHIS2 visualization](#part-1---how-to-plug-a-data-to-action-framework-into-a-dhis2-visualization)
-  - [Part 2 - How to retrieve a Data-to-Action framework from a dashboard](#part-2---how-to-retrieve-a-data-to-action-framework-from-a-dashboard)
-  - [Part 3 - Subscribing / Interpretations](#part-3---subscribing--interpretations)
-    - [Login as a different user and write an interpretation.](#login-as-a-different-user-and-write-an-interpretation)
-    - [Interpreting through dashboard items](#interpreting-through-dashboard-items)
-    - [Log back in as the original user who subscribed to the item.](#log-back-in-as-the-original-user-who-subscribed-to-the-item)
-- [Hands-on Exercises](#hands-on-exercises)
+- [Trainer’s Guide to Interpretation](#trainers-guide-to-interpretation)
+  - [What is this guide?](#what-is-this-guide)
+  - [Learning objectives for this curriculum](#learning-objectives-for-this-curriculum)
+  - [Time needed for this curriculum](#time-needed-for-this-curriculum)
+  - [Background on this topic/module](#background-on-this-topicmodule)
+  - [Preparations](#preparations)
+  - [Presentation (PPT) on Data to Action Framework](#presentation-ppt-on-data-to-action-framework)
+  - [Exercise on Data to Action Framework](#exercise-on-data-to-action-framework)
+  - [Live Demo Step-by-Step](#live-demo-step-by-step)
+    - [Part 1 - How to plug a Data-to-Action framework into a DHIS2 visualization](#part-1---how-to-plug-a-data-to-action-framework-into-a-dhis2-visualization)
+    - [Part 2 - How to retrieve a Data-to-Action framework from a dashboard](#part-2---how-to-retrieve-a-data-to-action-framework-from-a-dashboard)
+    - [Part 3 - Subscribing / Interpretations](#part-3---subscribing--interpretations)
+      - [Login as a different user and write an interpretation.](#login-as-a-different-user-and-write-an-interpretation)
+      - [Interpreting through dashboard items](#interpreting-through-dashboard-items)
+      - [Log back in as the original user who subscribed to the item.](#log-back-in-as-the-original-user-who-subscribed-to-the-item)
+  - [Hands-on Exercises](#hands-on-exercises)
 
 
 Make sure you are logged in with your own user account for the live demo. 
 
 At the end of this session there is also a [Quick Guide](#heading=h.44sinio) which lists the steps very briefly and this is meant as a lookup guide or “cheatsheet” WHILE doing the demo, to help the trainer remember all the steps and the flow of the demo.
 
-## Part 1 - How to plug a Data-to-Action framework into a DHIS2 visualization
+### Part 1 - How to plug a Data-to-Action framework into a DHIS2 visualization
 
 Show participants how to plug a Data-to-Action framework into a DHIS2 visualization. 
 
@@ -176,7 +176,7 @@ Check whether any side-effects of ART reported leading to lack of compliance
 
 ![](Images/interpretation/image16.png)
 
-## Part 2 - How to retrieve a Data-to-Action framework from a dashboard
+### Part 2 - How to retrieve a Data-to-Action framework from a dashboard
 
 
 * Show participants how to retrieve a Data-to-Action framework from a dashboard. 
@@ -194,7 +194,7 @@ Go to HIV National Dashboard.
 ![](Images/interpretation/image8.png)
 
 
-## Part 3 - Subscribing / Interpretations
+### Part 3 - Subscribing / Interpretations
 
 * Let’s open the HIV Retention Rate (12 months) in Maps App.
 * Click on “Interpretations” on top right corner
@@ -207,7 +207,7 @@ Go to HIV National Dashboard.
 ![](Images/interpretation/image13.png)    
 
 
-### Login as a different user and write an interpretation.
+#### Login as a different user and write an interpretation.
 
 Add an interpretation
 
@@ -226,7 +226,7 @@ Add an interpretation
 
 **NOTE: **Interpretations are tied to  how the output looked when the interpretation was written. We do this by selecting the “view” button on the interpretation. This is to ensure the interpretation will always properly align with what the user is seeing when they made the interpretation. There is a ‘view in maps app’ button which will open the interpretation in maps app as how it was at the time of making the interpretation. 
 
-### Interpreting through dashboard items
+#### Interpreting through dashboard items
 
 * Open HIV National dashboard and scroll down to “**HIV - ART retention rate (12 months)**” 
 * Click on the ‘Show interpretation and details’ button
@@ -243,7 +243,7 @@ Add an interpretation
 
 ![](Images/interpretation/image7.png)  
 
-### Log back in as the original user who subscribed to the item.
+#### Log back in as the original user who subscribed to the item.
 
 * Scroll all the way to top of dashboard. You should be able to see the interpretations icon at the top as highlighted in red below
 
@@ -257,6 +257,6 @@ Add an interpretation
 * This will provide you an overview and a quick access to all interpretations that you have subscribed to or engaged. You can easily comment on each of interpretation by scrolling down.’
 * In addition, the left side pane will summarise top 5 interpretations, top 5 authors and top 5 commentators
 
-# Hands-on Exercises
+## Hands-on Exercises
 
 Please refer to “Interpretations Exercise 2”
