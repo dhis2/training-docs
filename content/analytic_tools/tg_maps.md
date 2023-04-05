@@ -1,6 +1,6 @@
 # Trainer’s Guide to Maps
 
-# What is this guide?
+## What is this guide?
 
 This guide is a support document for the session “Maps.” This session follows the standard academy training approach with 1) a live demo session where the trainer demonstrates and explains the features in DHIS2, and 2) a hands-on session with exercises where participants get to practice the same features.
 
@@ -8,7 +8,7 @@ This guide will help the trainer prepare for the live demo session.The “Live D
 
 There is also a Quick Guide which lists the steps very briefly and this is meant as a lookup guide or “cheat sheet” WHILE doing the demo, to help the trainer remember all the steps and the flow of the demo.
 
-# Learning objectives for this session
+## Learning objectives for this session
 
 1. Describe how maps can be used in DHIS2
 2. Demonstrate how to:
@@ -20,27 +20,27 @@ There is also a Quick Guide which lists the steps very briefly and this is meant
     6. Review the map data table
     7. Create split view, timeline and bubble maps
 
-# Time needed for this session
+## Time needed for this session
 
-Live demo:~ 1.5 hours
+Live demo: 1.5 hours
 
 Hands-on exercises: 1.5 hours
 
-1-graded assignment : ~ 1 hour
+1-graded assignment : 1.5 hours
 
-# Background on this topic/module
+## Background on this topic/module
 
 The Maps app allows you to do thematic mapping of areas and points, view facilities based on classifications, and visualize catchment areas for each facility. You can define custom legend sets and link them to indicators.
 
 Maps is a great tool to understand the geographical distribution of data. The Maps tool integrates seamlessly with the Data Visualiser and Maps tools. You can at any time choose to visualise your map as a chart or table, and switch back to map view again.
 
 
-# Best practices, tips & tricks
+## Best practices, tips & tricks
 
 1. Try not to put many overlapping layers on a map that will be difficult to interpret
 2. Use different color schemes when displaying multiple layers on a map
 
-# Preparations
+## Preparations
 
 Go through the Live demo step by step a few times before doing the actual demo for participants.
 
@@ -50,10 +50,10 @@ It’s a good idea to open (and then close) all maps in this demo right before t
 
 The session has been divided into 3 parts. Each part has a set of objectives associated with it. Start each part of this session by showing the objectives of the session located here:
 
-[https://docs.google.com/presentation/d/1XZv-gnrDUrRex0xfBWLAD8S7e_i01yw2TA-6eeX4z6k/edit?usp=sharing](https://docs.google.com/presentation/d/1XZv-gnrDUrRex0xfBWLAD8S7e_i01yw2TA-6eeX4z6k/edit?usp=sharing) 
+[Presentation Link](https://docs.google.com/presentation/d/1faPVBlSeH_o5oErCdfswYXqS08oDLwCr_uhpeSX27fE/edit?usp=sharing)
 
 
-# Introduction to Maps app
+## Introduction to GIS principles
 
 The Maps App was introduced in release 2.29 and serves as a replacement of the GIS App offering a more intutive and user friendly interface. 
 
@@ -67,103 +67,96 @@ The DHIS2 maps app supports multiple “layers”. You can think of a GIS layer 
 
 ![](Images/maps/image71.png)
 
-# Table of Contents/Quick Guide
-
-
+## Table of Contents/Quick Guide
 
 - [Trainer’s Guide to Maps](#trainers-guide-to-maps)
-- [What is this guide?](#what-is-this-guide)
-- [Learning objectives for this session](#learning-objectives-for-this-session)
-- [Time needed for this session](#time-needed-for-this-session)
-- [Background on this topic/module](#background-on-this-topicmodule)
-- [Best practices, tips \& tricks](#best-practices-tips--tricks)
-- [Preparations](#preparations)
-- [Introduction to Maps app](#introduction-to-maps-app)
-- [Table of Contents/Quick Guide](#table-of-contentsquick-guide)
-- [Live Demo Step-by-Step](#live-demo-step-by-step)
-  - [Part 1 - Maps interface and data dimensions](#part-1---maps-interface-and-data-dimensions)
-    - [Introduce the Maps Interface](#introduce-the-maps-interface)
-    - [Open a saved map - TB - Notified TB cases (new and relapse, all forms) - last quarter](#open-a-saved-map---tb---notified-tb-cases-new-and-relapse-all-forms---last-quarter)
-    - [Edit the layer to review the layer selection options](#edit-the-layer-to-review-the-layer-selection-options)
-    - [Review the data selection](#review-the-data-selection)
-    - [Review the period selection](#review-the-period-selection)
-    - [Review the org unit selection](#review-the-org-unit-selection)
-    - [End Part 1 - Perform Exercise 1](#end-part-1---perform-exercise-1)
-  - [Part 2.1 - Working with Layers](#part-21---working-with-layers)
-    - [Make a new map](#make-a-new-map)
-    - [Cycle through the basemaps (need online connectivity to perform this)](#cycle-through-the-basemaps-need-online-connectivity-to-perform-this)
-    - [Explain the “add layer” button](#explain-the-add-layer-button)
-    - [Add a organisation unit layer at the District level](#add-a-organisation-unit-layer-at-the-district-level)
-    - [Add in a Thematic Layer](#add-in-a-thematic-layer)
-    - [Click on Add layer to view the map](#click-on-add-layer-to-view-the-map)
-    - [Explain how equal counts has separated the values and interpret the map](#explain-how-equal-counts-has-separated-the-values-and-interpret-the-map)
-    - [Change to equal intervals](#change-to-equal-intervals)
-    - [Save the map](#save-the-map)
-    - [End Part 2.1 - Perform Exercise](#end-part-21---perform-exercise)
-  - [Part 2.2 - Facility Layers \& Filter](#part-22---facility-layers--filter)
-    - [Add in the Facility Layer to the map you saved previously](#add-in-the-facility-layer-to-the-map-you-saved-previously)
-    - [Update to see the map with the facilities (zoom in a bit if required)](#update-to-see-the-map-with-the-facilities-zoom-in-a-bit-if-required)
-    - [Edit the low/high color size of the thematic layer and update so the data values are more visible](#edit-the-lowhigh-color-size-of-the-thematic-layer-and-update-so-the-data-values-are-more-visible)
-    - [Remove the facility layer from the map](#remove-the-facility-layer-from-the-map)
-    - [Re-set the low/high color size](#re-set-the-lowhigh-color-size)
-    - [Add in a filter](#add-in-a-filter)
-    - [End Part 2.2 - Perform Exercise](#end-part-22---perform-exercise)
-  - [Part 2.3 - Add in a Second Thematic Layer to the map you just saved.](#part-23---add-in-a-second-thematic-layer-to-the-map-you-just-saved)
-    - [Update the Map](#update-the-map)
-    - [Save the map](#save-the-map-1)
-    - [Save as a favorite](#save-as-a-favorite)
-    - [Discuss the Map](#discuss-the-map)
-    - [End Part 2.3 - Perform Exercise](#end-part-23---perform-exercise)
-  - [Part 2.4 - Legends](#part-24---legends)
-    - [Demo pre-defined legends (clear the map before proceeding)](#demo-pre-defined-legends-clear-the-map-before-proceeding)
-    - [Create a Map for BCG Coverage using the automatic legend](#create-a-map-for-bcg-coverage-using-the-automatic-legend)
-    - [Discuss the map](#discuss-the-map-1)
-    - [End Part 2.4 - Perform Exercise](#end-part-24---perform-exercise)
-  - [Part 3.1 - Drilling Down](#part-31---drilling-down)
-    - [Open the map “EPI - BCG Coverage by district - last year”](#open-the-map-epi---bcg-coverage-by-district---last-year)
-    - [Drill down on a red district](#drill-down-on-a-red-district)
-    - [Drill up one level](#drill-up-one-level)
-    - [End Part 3.1](#end-part-31)
-  - [Part 3.2 - Data Table and Download](#part-32---data-table-and-download)
-    - [Load the map “HIV - HIV tests performed by facility - last 6 months”](#load-the-map-hiv---hiv-tests-performed-by-facility---last-6-months)
-    - [Review the data table](#review-the-data-table)
-    - [Filter data using the table](#filter-data-using-the-table)
-    - [Download the map](#download-the-map)
-    - [Download the map data (use the play.dhis2.org server)](#download-the-map-data-use-the-playdhis2org-server)
-    - [Open the data file in qGIS (or another GIS software)](#open-the-data-file-in-qgis-or-another-gis-software)
-    - [End Part 3.2 - Perform Exercise 3.1 and 3.2](#end-part-32---perform-exercise-31-and-32)
-  - [Part 4 - Split View and Timeline Maps](#part-4---split-view-and-timeline-maps)
-    - [Create a map using split map view](#create-a-map-using-split-map-view)
+  - [What is this guide?](#what-is-this-guide)
+  - [Learning objectives for this session](#learning-objectives-for-this-session)
+  - [Time needed for this session](#time-needed-for-this-session)
+  - [Background on this topic/module](#background-on-this-topicmodule)
+  - [Best practices, tips \& tricks](#best-practices-tips--tricks)
+  - [Preparations](#preparations)
+  - [Introduction to GIS principles](#introduction-to-gis-principles)
+  - [Table of Contents/Quick Guide](#table-of-contentsquick-guide)
+  - [Live Demo Step-by-Step](#live-demo-step-by-step)
+    - [Part 1 - Maps interface and data dimensions](#part-1---maps-interface-and-data-dimensions)
+      - [Introduce the Maps Interface](#introduce-the-maps-interface)
+      - [Open a saved map - TB - Notified TB cases (new and relapse, all forms) - last quarter](#open-a-saved-map---tb---notified-tb-cases-new-and-relapse-all-forms---last-quarter)
+      - [Edit the layer to review the layer selection options](#edit-the-layer-to-review-the-layer-selection-options)
+      - [Review the data selection](#review-the-data-selection)
+      - [Review the period selection](#review-the-period-selection)
+      - [Review the org unit selection](#review-the-org-unit-selection)
+      - [End Part 1 - Perform Exercise 1](#end-part-1---perform-exercise-1)
+    - [Part 2.1 - Working with Layers](#part-21---working-with-layers)
+      - [Make a new map](#make-a-new-map)
+      - [Cycle through the basemaps (need online connectivity to perform this)](#cycle-through-the-basemaps-need-online-connectivity-to-perform-this)
+      - [Explain the “add layer” button](#explain-the-add-layer-button)
+      - [Add a organisation unit layer at the District level](#add-a-organisation-unit-layer-at-the-district-level)
+      - [Add in a Thematic Layer](#add-in-a-thematic-layer)
+      - [Click on Add layer to view the map](#click-on-add-layer-to-view-the-map)
+      - [Explain how equal counts has separated the values and interpret the map](#explain-how-equal-counts-has-separated-the-values-and-interpret-the-map)
+      - [Change to equal intervals](#change-to-equal-intervals)
+      - [Save the map](#save-the-map)
+      - [End Part 2.1 - Perform Exercise](#end-part-21---perform-exercise)
+    - [Part 2.2 - Facility Layers \& Filter](#part-22---facility-layers--filter)
+      - [Add in the Facility Layer to the map you saved previously](#add-in-the-facility-layer-to-the-map-you-saved-previously)
+      - [Update to see the map with the facilities (zoom in a bit if required)](#update-to-see-the-map-with-the-facilities-zoom-in-a-bit-if-required)
+      - [Edit the low/high color size of the thematic layer and update so the data values are more visible](#edit-the-lowhigh-color-size-of-the-thematic-layer-and-update-so-the-data-values-are-more-visible)
+      - [Remove the facility layer from the map](#remove-the-facility-layer-from-the-map)
+      - [Re-set the low/high color size](#re-set-the-lowhigh-color-size)
+      - [Add in a filter](#add-in-a-filter)
+      - [End Part 2.2 - Perform Exercise](#end-part-22---perform-exercise)
+    - [Part 2.3 - Add in a Second Thematic Layer to the map you just saved.](#part-23---add-in-a-second-thematic-layer-to-the-map-you-just-saved)
+      - [Update the Map](#update-the-map)
+      - [Save the map](#save-the-map-1)
+      - [Save as a favorite](#save-as-a-favorite)
+      - [Discuss the Map](#discuss-the-map)
+      - [End Part 2.3 - Perform Exercise](#end-part-23---perform-exercise)
+    - [Part 2.4 - Legends](#part-24---legends)
+      - [Demo pre-defined legends (clear the map before proceeding)](#demo-pre-defined-legends-clear-the-map-before-proceeding)
+      - [Create a Map for BCG Coverage using the automatic legend](#create-a-map-for-bcg-coverage-using-the-automatic-legend)
+      - [Discuss the map](#discuss-the-map-1)
+      - [End Part 2.4 - Perform Exercise](#end-part-24---perform-exercise)
+    - [Part 3.1 - Drilling Down](#part-31---drilling-down)
+      - [Open the map “EPI - BCG Coverage by district - last year”](#open-the-map-epi---bcg-coverage-by-district---last-year)
+      - [Drill down on a red district](#drill-down-on-a-red-district)
+      - [Drill up one level](#drill-up-one-level)
+      - [End Part 3.1](#end-part-31)
+    - [Part 3.2 - Data Table and Download](#part-32---data-table-and-download)
+      - [Load the map “HIV - HIV tests performed by facility - last 6 months”](#load-the-map-hiv---hiv-tests-performed-by-facility---last-6-months)
+      - [Review the data table](#review-the-data-table)
+      - [Filter data using the table](#filter-data-using-the-table)
+      - [Download the map](#download-the-map)
+      - [Download the map data (use the play.dhis2.org server)](#download-the-map-data-use-the-playdhis2org-server)
+      - [Open the data file in qGIS (or another GIS software)](#open-the-data-file-in-qgis-or-another-gis-software)
+      - [End Part 3.2 - Perform Exercise 3.1 and 3.2](#end-part-32---perform-exercise-31-and-32)
+    - [Part 4 - Split View and Timeline Maps](#part-4---split-view-and-timeline-maps)
+      - [Create a map using split map view](#create-a-map-using-split-map-view)
     - [Add in a Thematic Layer](#add-in-a-thematic-layer-1)
-    - [Data:](#data)
-    - [Period:](#period)
-    - [Org Units](#org-units)
-    - [Review the style tab](#review-the-style-tab)
-    - [Update the layer and review the map](#update-the-layer-and-review-the-map)
-    - [Modify this to timeline view](#modify-this-to-timeline-view)
-    - [Update the layer](#update-the-layer)
-    - [End Part 4 - Perform Exercise](#end-part-4---perform-exercise)
-  - [Part 5 - Bubble Maps](#part-5---bubble-maps)
-    - [Review Bubble Maps](#review-bubble-maps)
-    - [Add a org unit layer before the thematic layer](#add-a-org-unit-layer-before-the-thematic-layer)
-    - [Add in a Thematic Layer](#add-in-a-thematic-layer-2)
-    - [Data:](#data-1)
-    - [Period:](#period-1)
-    - [Update the layer](#update-the-layer-1)
-    - [End Part 5 - Perform Exercise](#end-part-5---perform-exercise)
+      - [Review the style tab](#review-the-style-tab)
+      - [Update the layer and review the map](#update-the-layer-and-review-the-map)
+      - [Modify this to timeline view](#modify-this-to-timeline-view)
+      - [Update the layer](#update-the-layer)
+      - [End Part 4 - Perform Exercise](#end-part-4---perform-exercise)
+    - [Part 5 - Bubble Maps](#part-5---bubble-maps)
+      - [Review Bubble Maps](#review-bubble-maps)
+      - [Add a org unit layer before the thematic layer](#add-a-org-unit-layer-before-the-thematic-layer)
+      - [Add in a Thematic Layer](#add-in-a-thematic-layer-2)
+      - [Update the layer](#update-the-layer-1)
+      - [End Part 5 - Perform Exercise](#end-part-5---perform-exercise)
 
-# Live Demo Step-by-Step
+## Live Demo Step-by-Step
 
-## Part 1 - Maps interface and data dimensions
+### Part 1 - Maps interface and data dimensions
 
-### Introduce the Maps Interface
+#### Introduce the Maps Interface
 
 Review Slide 3 in the maps presentation: 
 
 [https://docs.google.com/presentation/d/1yRW8qRlJRZPewb7LsFAt73k8nbTj1wvfbV6mzrJUqqo/edit?usp=sharing](https://docs.google.com/presentation/d/1yRW8qRlJRZPewb7LsFAt73k8nbTj1wvfbV6mzrJUqqo/edit?usp=sharing) 
 
 
-### Open a saved map - TB - Notified TB cases (new and relapse, all forms) - last quarter
+#### Open a saved map - TB - Notified TB cases (new and relapse, all forms) - last quarter
 
 After the map is open, we can review the maps interface. 
 
@@ -183,17 +176,17 @@ The map title is the title of the saved map. By default, no title is generated f
 
 This is the actual map that has been created as a result of the inputs we have selected. We will discuss how a map can be created next.
 
-### Edit the layer to review the layer selection options
+#### Edit the layer to review the layer selection options
 
 Click on the edit button to edit the layer. Here we can describe each element of the layer selection with options already pre-filled. We can see that all the selections for data, period and org units have been grouped together. These are not selected in individual menus as is the case with data visualizer and pivot table. 
 
-### Review the data selection
+#### Review the data selection
 
 First, we see our data selection. We can see in this case one indicator has already been selected. Maps use the concept of layers to add data. There can only be one data item selected in each layer. We will make a map with multiple layers later in the session. 
 
 ![](Images/maps/image29.png)
 
-### Review the period selection
+#### Review the period selection
 
 Next we have the period. We can see that this is a bit different when compared to other apps. We have to first select the period type we are working with, which will then alter which periods we can select from. Within a map layer, we can only select one period type and one period as we are only working with displaying one data item at a time. You can alter the period type and period than update the layer to demonstrate this to the participants. 
 
@@ -204,7 +197,7 @@ Next we have the period. We can see that this is a bit different when compared t
 
 ![](Images/maps/image20.png)
 
-### Review the org unit selection
+#### Review the org unit selection
 
 The org unit selection decides what geography will be filled in and categorized with the data we have selected. We can individually select org units; however levels, groups or user org units are going to be used in most cases. This interface is slightly different than the one used in data visualizer however has similar design elements so should be familiar to the participants.
 
@@ -214,27 +207,27 @@ You can alter the org unit selection to show participants the effect this has on
 
 ![](Images/maps/image32.png)
 
-### End Part 1 - Perform Exercise 1
+#### End Part 1 - Perform Exercise 1
 
-## Part 2.1 - Working with Layers
+### Part 2.1 - Working with Layers
 
-### Make a new map
+#### Make a new map
 
 Clear the map by going to File -> New. This will give us a fresh canvas in which we can make a new map. 
 
-### Cycle through the basemaps (need online connectivity to perform this)
+#### Cycle through the basemaps (need online connectivity to perform this)
 
 Basemaps provide the background layer for any map we create. By default, there are 6 basemaps within DHIS2 (OSM Light, OSM Detailed, Bing Road, Bing Dark, Bing Aerial, Bing Aerial Labels [Bing maps replaces google maps in 2.34]).  Note that users can also import/add their own layers as external layers. This could be for example more complex satellite imagery of their country or additional background layers for example. 
 
 ![](Images/maps/image70.png)
 
-### Explain the “add layer” button
+#### Explain the “add layer” button
 
 When we select add layer, all of the different layers we can add to the map are displayed. Go through and explain these different layers. Google Earth Engine layers are not set up by default so will not be shown (this requires some additional setup that you can review in the [documentation](https://docs.dhis2.org/en/topics/tutorials/google-earth-engine-sign-up.html)). 
 
 ![](Images/maps/image18.png)
 
-### Add a organisation unit layer at the District level
+#### Add a organisation unit layer at the District level
 
 Select boundary layer and go through the process of adding this to the map.
 
@@ -242,15 +235,17 @@ Select boundary layer and go through the process of adding this to the map.
 
 ![](Images/maps/image38.png)
 
-### Add in a Thematic Layer
+#### Add in a Thematic Layer
 
-**Value Type: Data Element**
-**Data Element Group: HIV**
-**Data Element: HIV tests performed**
-**Period Type: Relative**
-**Period: Last six-month**
-**Display Periods: Single (aggregate) [Note: we will explain time and split view later on]**
-**Organisation units: Facility**
+- Value Type: Data Element
+- Data Element Group: HIV
+- Data Element: HIV tests performed
+- Period Type: Relative
+- Period: Last six-month
+- Display Periods: Single (aggregate) [Note: we will explain time and split view later on]
+- Organisation units: Facility
+
+**Data**
 
 ![](Images/maps/image59.png)
 
@@ -281,23 +276,22 @@ It is a good idea to explain the different options available in the Thematic Lay
 
 ![](Images/maps/image40.png)
 
-### Click on Add layer to view the map
+#### Click on Add layer to view the map
 
 ![](Images/maps/image49.png)
 
-### Explain how equal counts has separated the values and interpret the map
+#### Explain how equal counts has separated the values and interpret the map
 
 * Equal count will try and distribute the data values equally along the # of classes that are made (ie, I have 100 org units and 4 classes, each class will contain 25 values).
 * Equal intervals will try and distribute the range of values equally. If I have data that ranges from 0-20000 and I select 5 classes, the data range for the legend will be separated by values of 4000.
-* You can use this presentation to walk through counts and intervals in a bit more detail: 
-    * [https://docs.google.com/presentation/d/1KsUQVyN05cY3WlCTpFnzDbAjhLYXSOssGoUbT4LGgXw/edit?usp=sharing](https://docs.google.com/presentation/d/1KsUQVyN05cY3WlCTpFnzDbAjhLYXSOssGoUbT4LGgXw/edit?usp=sharing) 
+* You can use this [presentation](https://docs.google.com/presentation/d/1SQful88v7EJFN7C8z3q1WN0frttcde5lWpzaz75OCag/edit?usp=sharing) to walk through counts and intervals in a bit more detail
   
 
 ![](Images/maps/image68.png)
 
 See how the legend has separated the values.  It tries to maintain an equal number of facilities across the five classes that are available within this legend. This may not be suitable depending on how you want to interpret the map. 
 
-### Change to equal intervals
+#### Change to equal intervals
 
 ![](Images/maps/image65.png)
 
@@ -311,17 +305,17 @@ Here we can see the interval between each class is consistent
 
 As we are dealing with raw data values in this example, equal intervals seems to be more appropriate to measure the difference in the **scale** of the number of tests being performed in each facility. Those areas that are darker in color have performed a significantly greater number of HIV tests compared to those which are lighter in color. Previously (in the equal count legend) this disparity was not as well defined due to how the items were grouped. 
 
-### Save the map 
+#### Save the map 
 
 File - Save. Provide a name and save the map. Use your initials when saving the map.
 
 ![](Images/maps/image61.png)
 
-### End Part 2.1 - Perform Exercise
+#### End Part 2.1 - Perform Exercise
 
-## Part 2.2 - Facility Layers & Filter
+### Part 2.2 - Facility Layers & Filter
 
-### Add in the Facility Layer to the map you saved previously
+#### Add in the Facility Layer to the map you saved previously
 
 **Add layer -> Facilities**
 
@@ -335,11 +329,11 @@ File - Save. Provide a name and save the map. Use your initials when saving the 
 
 ![](Images/maps/image43.png)
 
-### Update to see the map with the facilities (zoom in a bit if required)
+#### Update to see the map with the facilities (zoom in a bit if required)
 
 ![](Images/maps/image9.png)
 
-### Edit the low/high color size of the thematic layer and update so the data values are more visible
+#### Edit the low/high color size of the thematic layer and update so the data values are more visible
 
 Explain how you can change the size of the circles using the style tab. Note that the size functionality only affects point style data, not polygon data used for a thematic layer for a district for example.
 
@@ -347,17 +341,17 @@ Explain how you can change the size of the circles using the style tab. Note tha
 
 ![](Images/maps/image42.png)
 
-### Remove the facility layer from the map
+#### Remove the facility layer from the map
 
 You can use the hide layer button first to hide the layer if you want to temporarily disable a layer. After you hide the layer, you can use the options button to remove the layer entirely from the map. 
 
 ![](Images/maps/image10.png)
 
-### Re-set the low/high color size
+#### Re-set the low/high color size
 
 ![](Images/maps/image64.png)
 
-### Add in a filter
+#### Add in a filter
 
 Edit the thematic layer and navigate to the filter tab. The filter tab allows you to filter what is displayed on the map using any of the available data dimensions you have configured in your system. As an example, we can filter out the map so it only shows tests performed on females.
 
@@ -369,11 +363,11 @@ Then Select “Sex” as the dimension and “female” as the item
 
 ![](Images/maps/image76.png)
 
-**Update your layer. You should see new data being displayed! Save the map before proceeding.**
+**Update your layer**. You should see new data being displayed! Save the map before proceeding.
 
-### End Part 2.2 - Perform Exercise
+#### End Part 2.2 - Perform Exercise
 
-## Part 2.3 - Add in a Second Thematic Layer to the map you just saved.
+### Part 2.3 - Add in a Second Thematic Layer to the map you just saved.
 
 Layers can be added and rearranged as required in the maps app. Consideration of the order in which layers are added is not too important as they can be dragged/dropped as required in the proper order.
 
@@ -383,19 +377,15 @@ We will compare the number of HIV tests performed with the number of positives t
 
 ![](Images/maps/image75.png)
 
-**Value Type: Data Element**
+- Value Type: Data Element
+- Data Element Group: HIV
+- Data Element: HIV tests positive
+- Period Type: Relative
+- Period: Last six-month
+- Organisation units: District
+- Filter: Female cases
 
-**Data Element Group: HIV**
-
-**Data Element: HIV tests positive**
-
-**Period Type: Relative**
-
-**Period: Last six-month**
-
-**Organisation units: District**
-
-**Filter: Female cases**
+**Data**
 
 ![](Images/maps/image30.png)
 
@@ -407,7 +397,7 @@ We will compare the number of HIV tests performed with the number of positives t
 
 ![](Images/maps/image16.png)
 
-**Filter **
+**Filter**
 
 Add a filter to show only female positives
 
@@ -419,7 +409,7 @@ Make sure to select a color scale that will contrast appropriately with the colo
 
 ![](Images/maps/image44.png)
 
-### Update the Map
+#### Update the Map
 
 Note that the map now has both layers and data displayed, but the second layer has been superimposed on top of the first layer.
 
@@ -430,19 +420,19 @@ To change the layer order simply drag and drop the layers so the facility layer 
 
 ![](Images/maps/image14.png)
 
-### Save the map
+#### Save the map
 
 Use File - > Save as in this example so you don’t save over the previous map. If you use save it will just save over the previous map you have made and not create a new favourite.
 
 ![](Images/maps/image61.png)
 
-### Save as a favorite
+#### Save as a favorite
 
 Use File - > Save as in this example so you don’t save over the previous map. If you use save it will just save over the previous map you have made and not create a new favourite.
 
 ![](Images/maps/image61.png)
 
-### Discuss the Map
+#### Discuss the Map
 
 There seems to be a fairly straightforward correlation, in that the more tests that were performed the more HIV positives there are. We can see this by examining the colors as well as the scale and frequency of the circles. 
 
@@ -466,33 +456,28 @@ The map as a whole gives us a good idea of the geographical location of HIV burd
 
 ![](Images/maps/image45.png)
 
+#### End Part 2.3 - Perform Exercise
 
-### End Part 2.3 - Perform Exercise
+### Part 2.4 - Legends
 
-## Part 2.4 - Legends
-
-### Demo pre-defined legends (clear the map before proceeding)
+#### Demo pre-defined legends (clear the map before proceeding)
 
 Legends allow you to define your own range of values and colors to apply to the data that you are displaying on the map. 
 
 Legends work best when you understand the range of values for your data. Without this, it will be difficult to define ranges that will provide meaningful representations of your data. You should always review the data itself in one of the tools to understand how it is broken up in order to create meaningful ranges for your legends. We will do that in this demo.
 
+#### Create a Map for BCG Coverage using the automatic legend
 
-### Create a Map for BCG Coverage using the automatic legend
+Add layer - > Thematic Layer
 
-**Add layer - > Thematic Layer**
+- Value Type: Indicator
+- Indicator Group: Immunization - coverages
+- Indicator: EPI - BCG Coverage (%)
+- Period Type: Relative
+- Period: Last Year
+- Organisation units: District
 
-**Value Type: Indicator**
-
-**Indicator Group: Immunization - coverages**
-
-**Indicator: EPI - BCG Coverage (%)**
-
-**Period Type: Relative**
-
-**Period: Last Year**
-
-**Organisation units: District**
+**Data**
 
 ![](Images/maps/image57.png)
 
@@ -516,7 +501,7 @@ In order to see how this was applied, go to the style tab for the layer.
 In this case, we can see that “predefined” has been selected as the legend type, and the legend select is “EPI Coverage.” This legend is associated with this indicator so that is why the custom legend is applied automatically.
 
 
-### Discuss the map
+#### Discuss the map
 
 The custom legends allows those district with low coverage to really pop out using the red colour, while those districts with high coverage are shown with green. There is also less arbitrary cut-offs for each class within the legend as the legend has been defined by the user. 
 
@@ -530,13 +515,13 @@ You may also want to add in the District labels. Edit the thematic layer and add
 
 Now it is very easy to identify those districts that are performing well vs. those that are not. Bird District, for example, requires immediate intervention and can perhaps learn from Cat, Dog and Vegetable District which are on or above target [target being 80%]. It would be useful to investigate what is occurring at the facility level as well in this case to dig a bit deeper and understand what the factors are that are contributing to this low rate in Bird District. 
 
-### End Part 2.4 - Perform Exercise
+#### End Part 2.4 - Perform Exercise
 
-## Part 3.1 - Drilling Down
+### Part 3.1 - Drilling Down
 
-### Open the map “EPI - BCG Coverage by district - last year”
+#### Open the map “EPI - BCG Coverage by district - last year”
 
-### Drill down on a red district
+#### Drill down on a red district
 
 Drill down on one of the red districts
 
@@ -546,20 +531,20 @@ There is varying performance within this district at the facility level. Focusin
 
 ![](Images/maps/image21.png)
 
-### Drill up one level
+#### Drill up one level
 
 Right click on a facility, then drill up
 
 ![](Images/maps/image13.png)
 
 
-### End Part 3.1
+#### End Part 3.1
 
-## Part 3.2 - Data Table and Download
+### Part 3.2 - Data Table and Download
 
-### Load the map “HIV - HIV tests performed by facility - last 6 months”
+#### Load the map “HIV - HIV tests performed by facility - last 6 months”
 
-### Review the data table
+#### Review the data table
 
 Select options for the layer followed by data table.
 
@@ -567,8 +552,7 @@ Select options for the layer followed by data table.
 
 The data table shows all of the underlying data related to the map layer that has been produced based on the data item which you have selected. In this case, we are working with an indicator, and we can see that the data table displays all of the values for this indicator, the legend it belongs to as well as all of the relevant organisation unit information. 
 
-
-### Filter data using the table
+#### Filter data using the table
 
 Not only can we use the data table to review the underlying data, we can also use it to filter data, both on the table itself as well as the map. 
 
@@ -584,7 +568,7 @@ After we add in the filter we can see that the map is altered. We can select the
 
 ![](Images/maps/image67.png)
 
-### Download the map
+#### Download the map
 
 The first download option we will highlight is the “Download” button next to the file menu. 
 
@@ -602,9 +586,9 @@ When I open the image, we can see a clear image of my map has been downloaded to
 
 ![](Images/maps/image63.png)
 
-### Download the map data (use the play.dhis2.org server)
+#### Download the map data (use the play.dhis2.org server)
 
-**NB: No exercise associated with this session in case users are not familiar with other GIS applications; this demo is <span style="text-decoration:underline;">optional.</span> Use the play server, as the Trainingland geography looks very odd when used in an actual GIS app as a result of being made up.**
+> NB: There is no exercise associated with downloading the map data in case users are not familiar with other GIS applications; this demo is ***optional***. Use the play server, as the Trainingland geography looks very odd when used in an actual GIS app as a result of the geographhy being made up.
 
 Going back to the maps app, let us discuss one final feature, the “Download data” button. This allows us to download the map data so we can use the data generated by the map in another tool. In this example, I will download the data and open it is a vector layer in qGIS. 
 
@@ -618,7 +602,7 @@ It will provide you with a prompt, indicating how I can potentially use this dow
 
 ![](Images/maps/image5.png)
 
-### Open the data file in qGIS (or another GIS software)
+#### Open the data file in qGIS (or another GIS software)
 
 Using QGIS as an example I can add the downloaded data as a layer within this application. 
 
@@ -635,13 +619,13 @@ I can see that the values associated with those chiefdoms have been downloaded a
 We can use qGIS (or another GIS application of your choice) in order to add the correct symbology to the map if we wanted to, as well as perform more advanced spatial analysis than would be possible in DHIS2. Note that we can bring in multiple layers, so each thematic layer created in DHIS2 could be added to the external GIS app if required.
 
 
-### End Part 3.2 - Perform Exercise 3.1 and 3.2
+#### End Part 3.2 - Perform Exercise 3.1 and 3.2
 
 
-## Part 4 - Split View and Timeline Maps
+### Part 4 - Split View and Timeline Maps
 
 
-### Create a map using split map view
+#### Create a map using split map view
 
 We can create a map using split view, as this will allow us to create and compare a map over multiple time periods.
 
@@ -658,19 +642,19 @@ To continue, clear the map by going to File -> New so the map area is cleared.
 
 Let’s create the map we just showed.
 
-* **Value Type: Indicator**
-* **Indicator Group: Immunization - coverages**
-* **Indicator: EPI - BCG Coverage**
-* **Period Type: Relative**
-* **Period: Last 12 months**
-* **Display Period: Split map views**
-* **Organisation units: District level**
+* Value Type: Indicator
+* Indicator Group: Immunization - coverages
+* Indicator: EPI - BCG Coverage
+* Period Type: Relative
+* Period: Last 12 months
+* Display Period: Split map views
+* Organisation units: District level
 
-### Data:
+**Data:**
 
 ![](Images/maps/image74.png)
 
-### Period:
+**Period:**
 
 When selecting the period, if working with **_relative periods_** we can use either a timeline or split view in order to show data over multiple periods.
 
@@ -682,23 +666,22 @@ When selecting the period, if working with **_relative periods_** we can use eit
 
 We will start by selecting split map views for this first example.
 
-### Org Units
+**Org Units**
 
 Select District as the org unit
 ![](Images/maps/image53.png)
 
-### Review the style tab
+#### Review the style tab
 
 It will apply the legend associated with the indicator.
 
 ![](Images/maps/image79.png)
 
-
-### Update the layer and review the map
+#### Update the layer and review the map
 
 ![](Images/maps/image56.png)
 
-### Modify this to timeline view
+#### Modify this to timeline view
 
 We can also present this as a timeline view
 
@@ -706,23 +689,20 @@ Edit the layer and go to the period. Here we can select timeline
 
 ![](Images/maps/image27.png)
 
-### Update the layer
+#### Update the layer
 
 ![](Images/maps/image11.png)
 
 
 In the map view, you will see a timeline underneath the map representing the relative period that you have selected. The map that you see is representing the highlighted period in the timeline. You can play the timeline map by hitting the play button at the bottom of the timeline. Click on the play button to view the timeline map.
 
+#### End Part 4 - Perform Exercise
 
-### End Part 4 - Perform Exercise
+### Part 5 - Bubble Maps
 
+#### Review Bubble Maps
 
-## Part 5 - Bubble Maps
-
-
-### Review Bubble Maps
-
-Bubble maps are a new map feature which has been intruded from DHIS 2.35. You can open the map “MAL - Malaria cases positive - last year” to show an example of a bubble map.
+Bubble maps are a new map feature which has been introduced from DHIS 2.35. You can open the map “MAL - Malaria cases positive - this year" to show an example of a bubble map.
 
 ![](Images/maps/image41.png)
 
@@ -731,52 +711,43 @@ You can Talk about the difference between Choropleth et Bubble map.
 * Choropleth will assign a color to each org unit shape according to the data value. This is the recommended technique if the data is normalised (per capita).
 * Bubble map will show data values as proportional circles. Use this technique if the data is not normalised (absolute numbers). The circles are placed in the center of each org unit.
 
-Please click on the link to get more details: [https://docs.dhis2.org/2.35/en/dhis2_user_manual_en/using-the-maps-app.html](https://docs.dhis2.org/2.35/en/dhis2_user_manual_en/using-the-maps-app.html)
+Please click on the [link](https://docs.dhis2.org/en/use/user-guides/dhis-core-version-238/analysing-data/maps.html) to get more details
 
-And [https://www.youtube.com/watch?v=lWJM6k4RxWQ](https://www.youtube.com/watch?v=lWJM6k4RxWQ)
+There is also a video on this map type [https://www.youtube.com/watch?v=lWJM6k4RxWQ](https://www.youtube.com/watch?v=lWJM6k4RxWQ)
 
-
-### Add a org unit layer before the thematic layer
+#### Add a org unit layer before the thematic layer
 
 Clear the map by selecting File - > New 
 
 ![](Images/maps/image16.png)
 
+#### Add in a Thematic Layer
 
-### Add in a Thematic Layer
+- Value Type: Indicator
+- Indicator Group: Malaria
+- Indicator:  MAL - Malaria cases positives microscopy
+- Period Type: Relative
+- Period: Last year
+- Organisation units: District level
+- Style: Bubble Map → Automatic color legend
 
-**Value Type: Indicator**
-
-**Indicator Group: Malaria**
-
-**Indicator:  MAL - Malaria cases positives microscopy**
-
-**Period Type: Relative**
-
-**Period: Last year**
-
-**Organisation units: District level**
-
-**Style: Bubble Map → Automatic color legend**
-
-### Data:
+**Data:**
 
 ![](Images/maps/image37.png)
 
-### Period:
+**Period:**
 
 ![](Images/maps/image1.png)
 
-**_Organisation units:_**
+**Organisation units:**
 
 ![](Images/maps/image31.png)
 
-
-**_Style :_**
+**Style :**
 
 ![](Images/maps/image28.png)
 
-### Update the layer
+#### Update the layer
 
 
 ![](Images/maps/image55.png)
@@ -784,4 +755,4 @@ Clear the map by selecting File - > New
 
 In the map view, you will see a thematic map that represents each org unit as a single point/bubble. The size and the color of the bubble proportional to the value of that org unit compared to the range or legend. This is a popular way to visualize cases and other disease maps where hotspots need to be easily identifiable.
 
-### End Part 5 - Perform Exercise
+#### End Part 5 - Perform Exercise
