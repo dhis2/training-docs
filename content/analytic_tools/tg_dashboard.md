@@ -1,6 +1,6 @@
 # Trainer’s Guide to Dashboards
 
-# What is this guide?
+## What is this guide?
 
 This guide is a support document for the trainers of “Dashboards”. This session is divided into 2 parts. There is 1 hour and 15 minutes overall for demoing and Q&A, and 1.5 hours devoted to exercises.
 
@@ -9,7 +9,7 @@ This guide will help the trainer prepare for the live demo session.The “Live D
 Refer to the table of contents as this lists the steps very briefly and can be used as a lookup guide or “cheatsheet” while doing the demo, to help the trainer remember all the steps and the flow of the demo.
 
 
-# Learning objectives for this session
+## Learning objectives for this session
 
 1. Navigate the dashboard
 2. Demonstrate how to create and manage a dashboard
@@ -17,7 +17,7 @@ Refer to the table of contents as this lists the steps very briefly and can be u
 4. Describe the concept of user org units as it applies to saved items in more detail
 5. Describe how to share dashboards, with an emphasis on how user org units can supplement sharing
 
-# Time needed for this session
+## Time needed for this session
 
 Live demo: 3 demos,~ 15 minutes each
 
@@ -25,7 +25,7 @@ Hands-on exercises: 3 exercises, ~ 15 minutes each
 
 Assignment : ~ 20 mins
 
-# Preparations
+## Preparations
 
 Ensure there is an email configuration working
 
@@ -37,15 +37,15 @@ Alter the admin account to use your email, and ensure that the user and system s
 
 You can try to send yourself a test email to ensure it is.
 
-# Table of Contents/Quick Guide
+## Table of Contents/Quick Guide
 
 - [Trainer’s Guide to Dashboards](#trainers-guide-to-dashboards)
-- [What is this guide?](#what-is-this-guide)
-- [Learning objectives for this session](#learning-objectives-for-this-session)
-- [Time needed for this session](#time-needed-for-this-session)
-- [Preparations](#preparations)
-- [Table of Contents/Quick Guide](#table-of-contentsquick-guide)
-- [Live Demo Step-by-Step](#live-demo-step-by-step)
+  - [What is this guide?](#what-is-this-guide)
+  - [Learning objectives for this session](#learning-objectives-for-this-session)
+  - [Time needed for this session](#time-needed-for-this-session)
+  - [Preparations](#preparations)
+  - [Table of Contents/Quick Guide](#table-of-contentsquick-guide)
+  - [Live Demo Step-by-Step](#live-demo-step-by-step)
   - [Part 1 - Using Dashboards](#part-1---using-dashboards)
     - [Explain the dashboard interface](#explain-the-dashboard-interface)
     - [Use the filter](#use-the-filter)
@@ -57,13 +57,11 @@ You can try to send yourself a test email to ensure it is.
   - [Part 2 - Creating Dashboards](#part-2---creating-dashboards)
     - [Create a new dashboard](#create-a-new-dashboard)
     - [Discuss the filter settings](#discuss-the-filter-settings)
-    - [End Part 2 - Perform Activity](#end-part-2---perform-activity)
   - [Part 3 - Re-Using Dashboards Across Many Users](#part-3---re-using-dashboards-across-many-users)
     - [Review user org units](#review-user-org-units)
     - [Discuss sharing](#discuss-sharing)
     - [Login as Cat District Manager](#login-as-cat-district-manager)
     - [Login as Staple District Manager](#login-as-staple-district-manager)
-    - [End Part 3 - Perform Activity](#end-part-3---perform-activity)
   - [Part 4 - Push Analysis \[skip\]](#part-4---push-analysis-skip)
     - [Push analysis - review the dashboard you will send](#push-analysis---review-the-dashboard-you-will-send)
     - [Access Push Analysis](#access-push-analysis)
@@ -76,7 +74,7 @@ You can try to send yourself a test email to ensure it is.
     - [Send the analysis to your email](#send-the-analysis-to-your-email-1)
     - [Check your email](#check-your-email)
 
-# Live Demo Step-by-Step
+## Live Demo Step-by-Step
 
 ## Part 1 - Using Dashboards
 
@@ -136,7 +134,6 @@ You can also add interpretations directly on the dashboard. When making these in
 
 ![](Images/dashboards/image56.png)
 
-
 ### Review the interactivity of dashboard items
 
 Dashboard items are meant to be interactive. This is true of charts, maps, and tables. De-select the male disaggregation on the chart HIV - HIV cascade by gender - last 12 months chart. This will cause those items to disappear. You can add it back in before proceeding. Hovering over items in the chart will also show a small description of the chart item.
@@ -164,7 +161,6 @@ Or to a table
 
 ![](Images/dashboards/image24.png)
 
-
 ### Printing Dashboards
 
 From version 2.35 onwards DHIS2 supports printing of dashboards. 
@@ -182,7 +178,6 @@ In the sub-menu that appears we have 2 options.
 
 Once you click on either of the options above, a print preview window will open. The following points are recommended for best print results.
 
-
 * Use Chrome or Edge web browser
 * Wait for all dashboard items to load before printing
 * Use A4 landscape paper size and default margin settings in the browser print dialog
@@ -190,7 +185,6 @@ Once you click on either of the options above, a print preview window will open.
 You will see a preview of the dashboard
 
 ![](Images/dashboards/image33.png)
-
 
 Once all the dashboard items are finished loading, click on the ‘Print’ button on the right top corner.
 
@@ -222,13 +216,13 @@ If you no longer want the dashboard stored offline, you can turn this off via th
 
 ![](Images/dashboards/image3.png)
 
+***STOP - Perform Exercise 1***
+
 ## Part 2 - Creating Dashboards
 
 ### Create a new dashboard
 
-Review slide 6-8 in the presentation:
-
-[https://docs.google.com/presentation/d/1kqmd7smIGEUmQ3_Z37kmC96MFfsM_eS-N09NMj0guo8/edit?usp=sharing](https://docs.google.com/presentation/d/1kqmd7smIGEUmQ3_Z37kmC96MFfsM_eS-N09NMj0guo8/edit?usp=sharing) 
+Review slide 6-8 in the [presentation](https://docs.google.com/presentation/d/1To8d9xKT-tl2HhI6koagGnr-0pfw6HAVkzB8_t4eHqU/edit?usp=sharing)
 
 This will discuss adding new items to the dashboard. These are meant as reference only. They can be shared with the group, but go through the process of actually creating a new dashboard using a demo.
 
@@ -259,7 +253,7 @@ When you are done, select “Save changes” to save the dashboard
 
 ![](Images/dashboards/image2.png)
 
-### End Part 2 - Perform Activity
+***STOP - Perform Exercise 2***
 
 ## Part 3 - Re-Using Dashboards Across Many Users
 
@@ -283,9 +277,7 @@ If you go back to the dashboard you can see this in the various outputs that are
 
 ### Discuss sharing
 
-Refer to slide 9 in the presentation
-
-[https://docs.google.com/presentation/d/1kqmd7smIGEUmQ3_Z37kmC96MFfsM_eS-N09NMj0guo8/edit?usp=sharing](https://docs.google.com/presentation/d/1kqmd7smIGEUmQ3_Z37kmC96MFfsM_eS-N09NMj0guo8/edit?usp=sharing) 
+Refer to slide 9 in the [presentation](https://docs.google.com/presentation/d/1To8d9xKT-tl2HhI6koagGnr-0pfw6HAVkzB8_t4eHqU/edit?usp=sharing)
 
 We have tried to create this dashboard so it can be re-used multiple times. In using user org units, the data a user sees should be dependent on the org units they are assigned. This allows you to make one dashboard that can be shared to many users at once, with all of these different users seeing different outputs. 
 
@@ -338,9 +330,11 @@ This is also true of the HIV national dashboard.
 
 ![](Images/dashboards/image35.png)
 
-### End Part 3 - Perform Activity
+***STOP - Perform Exercise 3***
 
 ## Part 4 - Push Analysis [skip]
+
+>This feature is not currently working as intended. Please skip this feature for now.
 
 ### Push analysis - review the dashboard you will send
 

@@ -1,10 +1,10 @@
 # Learner’s Guide to Dashboards
 
-# What is this guide?
+## What is this guide?
 
 This guide contains all exercises and detailed steps to perform them related to the use of dashboards for the Analytics Tools Level 1 academy. Please perform each of the exercises when prompted to by your instructors.
 
-# Learning objectives for this session
+## Learning objectives for this session
 
 1. Describe how to navigate the dashboard
 2. Demonstrate how to create and manage a dashboard
@@ -13,7 +13,7 @@ This guide contains all exercises and detailed steps to perform them related to 
 5. Describe how to share dashboards, with an emphasis on how user org units can supplement sharing
 
 
-# Time needed for this session
+## Time needed for this session
 
 Live demo: 3 demos,~ 15 minutes each
 
@@ -21,14 +21,14 @@ Hands-on exercises: 3 exercises, ~ 15 minutes each
 
 Assignment : ~ 20 mins
 
-# Table of Contents/Quick Guide
+## Table of Contents/Quick Guide
 
 - [Learner’s Guide to Dashboards](#learners-guide-to-dashboards)
-- [What is this guide?](#what-is-this-guide)
-- [Learning objectives for this session](#learning-objectives-for-this-session)
-- [Time needed for this session](#time-needed-for-this-session)
-- [Table of Contents/Quick Guide](#table-of-contentsquick-guide)
-- [Exercises](#exercises)
+  - [What is this guide?](#what-is-this-guide)
+  - [Learning objectives for this session](#learning-objectives-for-this-session)
+  - [Time needed for this session](#time-needed-for-this-session)
+  - [Table of Contents/Quick Guide](#table-of-contentsquick-guide)
+  - [Exercises](#exercises)
   - [Exercise 1 - Using Dashboards](#exercise-1---using-dashboards)
     - [Use the filter](#use-the-filter)
     - [Discuss how descriptions and interpretations are added to the dashboard](#discuss-how-descriptions-and-interpretations-are-added-to-the-dashboard)
@@ -36,19 +36,16 @@ Assignment : ~ 20 mins
     - [Printing Dashboards](#printing-dashboards)
     - [Accessing Dashboards from a Mobile Device](#accessing-dashboards-from-a-mobile-device)
     - [Making dashboards available offline](#making-dashboards-available-offline)
-    - [End Exercise 1](#end-exercise-1)
   - [Exercise 2 - Creating Dashboards](#exercise-2---creating-dashboards)
     - [Create a new dashboard](#create-a-new-dashboard)
     - [Discuss the filter settings](#discuss-the-filter-settings)
-    - [End Exercise 2](#end-exercise-2)
   - [Exercise 3 - Re-Using Dashboards Across Many Users](#exercise-3---re-using-dashboards-across-many-users)
     - [Review user org units](#review-user-org-units)
     - [Review sharing](#review-sharing)
     - [Login as Cat District Manager](#login-as-cat-district-manager)
     - [Login as Staple District Manager](#login-as-staple-district-manager)
-    - [End Exercise 3](#end-exercise-3)
 
-# Exercises
+## Exercises
 
 ## Exercise 1 - Using Dashboards
 
@@ -202,7 +199,7 @@ If you no longer want the dashboard stored offline, you can turn this off via th
 
 ![](Images/dashboards/image3.png)
 
-### End Exercise 1
+***End Exercise 1***
 
 ## Exercise 2 - Creating Dashboards
 
@@ -230,11 +227,9 @@ Note that there are now some additional options for managing the dashboard filte
 
 ![](Images/dashboards/image31.png)
 
-
 From here, you can select which filters you want to include in the dashboard. This can help in reducing confusion as you can ensure that only filters that will work with the dashboard are included and can limit the options for the end-user based on the information you want them to see.
 
 ![](Images/dashboards/image19.png)
-
 
 These changes get applied to the “Add filter” button after you have saved the changes for the dashboard you are working on.
 
@@ -244,7 +239,7 @@ When you are done, select “Save changes” to save the dashboard
 
 ![](Images/dashboards/image2.png)
 
-### End Exercise 2
+***End Exercise 2***
 
 ## Exercise 3 - Re-Using Dashboards Across Many Users
 
@@ -266,7 +261,6 @@ Review the organisation unit selection. In the example of the chart, the selecti
 
 If you go back to the dashboard you can see this in the various outputs that are present; note that user organisation units have been selected for all of these outputs. You may want to discuss a couple of examples to reinforce this point.
 
-
 ### Review sharing
 
 Refer to slide 9 in the presentation
@@ -285,7 +279,6 @@ Before you add users/groups to the sharing settings for the dashboard, you can a
 
 * Can edit and view: Can both alter/edit the dashboard (rename, add/remove items, delete dashboard) as well as view the dashboard
 * Can view: Can view the dashboard but can not make any changes.
-
 
 ![](Images/dashboards/image47.png)
 
@@ -323,4 +316,4 @@ This is also true of the HIV national dashboard.
 
 ![](Images/dashboards/image35.png)
 
-### End Exercise 3
+***End Exercise 3***
