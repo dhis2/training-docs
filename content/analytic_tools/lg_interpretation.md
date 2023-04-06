@@ -1,27 +1,16 @@
 # Learners Guide to Interpretations
 
-# What is this guide?
+## What is this guide?
 
 This guide contains detailed information on the steps associated with performing each of the learning objectives associated with the interpretations session. This is not meant to be the session exercise, rather an overview of the features demonstrated in this session.
 
-
-# Learning objectives for this curriculum
+## Learning objectives for this curriculum
 
 * Create and upload Data-to-Action frameworks in DHIS2 visualizations
 * Demonstrate how to write interpretations in DHIS2 visualizations
 * Demonstrate how to share and subscribe to interpretations
 
-# Time needed for this curriculum
-
-Data-to-Action framework presentation: 15 minutes
-
-Hands-on exercise and discussion: 40 minutes
-
-Live demo: 20 minutes
-
-Hands-on exercises: 15 minutes
-
-# Background on this topic/module
+## Background on this topic/module
 
 The Data-to-Action (D2A) framework is a set of supporting information that should accompany each DHIS2 visualization to help the user to understand:
 
@@ -32,38 +21,22 @@ The Data-to-Action (D2A) framework is a set of supporting information that shoul
 
 The D2A framework allows users to strengthen use of program data and makes it easier to engage with data. The D2A framework highlights data users’ information and data visualization needs, furthermore, the expected actions to be taken based on benchmarked performance. The D2A framework is uploaded into the Details panel of a DHIS2 visualization, so that it provides more context to the DHIS2 visualization and prompts users to think critically of the data they are looking at.
 
-# Preparations
-
-Make sure your user account is the same or similar to the participants’ training accounts so that you and the participants have access to the same visualizations.
-
-Print out copies of the [Data-to-Action framework template](https://docs.google.com/presentation/d/1n1DKPGmS3qvC13N3oi76i5c_67Q67ElsdpyUozEHFb0/edit#slide=id.g3d33e1d3db_0_18) for all participants for the first Hands-on exercise. - for on-site
-
-Make available [Data-to-Action framework template](https://docs.google.com/presentation/d/1n1DKPGmS3qvC13N3oi76i5c_67Q67ElsdpyUozEHFb0/edit#slide=id.g3d33e1d3db_0_18) in LMS for the online participants
-
-Go through the Live demo step by step guide a few times before doing the actual demo for participants.
-
-Make sure the resolution on the projector is OK for zooming in Interpretations feature in the right hand panel of the Visualizer app.
-
-Test your Hands-on exercises in the training server in advance to make sure everything works well. 
-
-# Demonstration Reference
-
+## Demonstration Reference
 
 ## Part 1 - How to plug a Data-to-Action framework into a DHIS2 visualization
 
-
-* Open HIV National dashboard.
-* Scroll down to “HIV - ART retention rate (12 months)”
-* Open the favourite item in Maps app by 
+* Open the HIV National dashboard.
+* Scroll down to the map “HIV - ART retention rate (12 months)”
+* Open the item in Maps app by selecting the menu button followed by open in maps app
 
 ![](Images/interpretation/image3.png)
 
 * Once opened in Maps application, it should look like below. Take a moment to understand the map. Focus on legend.
 
-
 ![](Images/interpretation/image6.png)
 
 It looks like except for Dessert & Sweet districts, all other districts are having ART retention rates <90%
+
 * Click on ‘Interpretations’ button on top right corner to write a description for the map
 
 ![](Images/interpretation/image11.png)
@@ -72,10 +45,10 @@ It looks like except for Dessert & Sweet districts, all other districts are havi
 
 ![](Images/interpretation/image10.png)
 
-
 * Let’s formulate a description based on Data to Action framework
-* Write the D2A framework. Explain that the Rich Text support for all apps in Details pane is not fully implemented yet. In order for words to render in bold and italics, we need to use html. Copy and paste the following text into the Details panel and replace the text in blue with relevant text according to the visualization. Make sure you skip a row between each line.
+* Write the D2A framework. We can use rich text to format bold and italic text. In order for words to render in bold and italics, we need to use html. Copy and paste the following text into the Details panel and replace the text in blue with relevant text according to the visualization. Make sure you skip a row between each line.
 
+```
 *Indicators* : Insert name of indicator here
 
 *Objective* : Insert objective of having the indicator as well as the performance
@@ -85,6 +58,7 @@ target/benchmark
 *Data source* : Insert data source here
 
 *Action that follows* :
+
 _If insert benchmark here is met_ :
 
 Insert action for when target is met
@@ -120,6 +94,7 @@ Check whether there has been under-reporting
 Check whether facility staff has conducted awareness and education programmes on HIV
 
 Check whether any side-effects of ART reported leading to lack of compliance
+```
 
 * Click on ‘Rename’ from the menu and paste the above text under description.
   

@@ -40,9 +40,9 @@ The D2A framework allows users to strengthen use of program data and makes it ea
 
 Make sure your user account is the same or similar to the participants’ training accounts so that you and the participants have access to the same visualizations.
 
-Print out copies of the [Data-to-Action framework template](https://docs.google.com/presentation/d/1n1DKPGmS3qvC13N3oi76i5c_67Q67ElsdpyUozEHFb0/edit#slide=id.g3d33e1d3db_0_18) for all participants for the first Hands-on exercise. - for on-site
+Print out copies of the [Data-to-Action framework template - Slide 3 of the presentation](https://docs.google.com/presentation/d/1Cn3Kc_wJk9uLkmDHDwUzXT-WcEpyk7cpSddrPutqoAI/edit?usp=sharing) for all participants for the first Hands-on exercise.
 
-Make available [Data-to-Action framework template](https://docs.google.com/presentation/d/1n1DKPGmS3qvC13N3oi76i5c_67Q67ElsdpyUozEHFb0/edit#slide=id.g3d33e1d3db_0_18) in LMS for the online participants
+Make available [Data-to-Action framework template](https://docs.google.com/presentation/d/1Cn3Kc_wJk9uLkmDHDwUzXT-WcEpyk7cpSddrPutqoAI/edit?usp=sharing) in LMS for the online participants
 
 Go through the Live demo step by step guide a few times before doing the actual demo for participants.
 
@@ -53,14 +53,14 @@ Test your Hands-on exercises in the training server in advance to make sure ever
 
 ## Presentation (PPT) on Data to Action Framework
 
-* Start with the Data to Action Presentation.
+* Start with the [Data to Action Presentation](https://docs.google.com/presentation/d/1cbEGsmi7j0_lgs6UiYBkIcH2BBEnyxWKcot69N3g-7k/edit?usp=sharing).
 * Explain why the context is needed to interpret the data.
 
 ## Exercise on Data to Action Framework
 
-* The exercise is available in a PPT “Exercise-Data to Action Framework””
-* Do this as a individual exercise
-* Ask the individual to select one saved item available in the system
+* The exercise is available in a PPT “[Exercise-Data to Action Framework](https://docs.google.com/presentation/d/1Cn3Kc_wJk9uLkmDHDwUzXT-WcEpyk7cpSddrPutqoAI/edit?usp=share_link)”
+* Do this as a group exercise
+* Ask the group to select one saved item available in the system
 * They will be given 30 minutes to discuss the favorite item and design the data to the action framework. 
 * They can fill in the presentation together
 * Give them 4 minutes to decide initially which item they will be designing the framework on and inform the facilitators. This is done to avoid multiple groups selecting the same favourite item
@@ -120,6 +120,7 @@ Show participants how to plug a Data-to-Action framework into a DHIS2 visualizat
 * Let’s formulate a description based on Data to Action framework
 * Write the D2A framework. Explain that the Rich Text support for all apps in Details pane is not fully implemented yet. In order for words to render in bold and italics, we need to use html. Copy and paste the following text into the Details panel and replace the text in blue with relevant text according to the visualization. Make sure you skip a row between each line.
 
+```
 *Indicators* : Insert name of indicator here
 
 *Objective* : Insert objective of having the indicator as well as the performance
@@ -161,6 +162,7 @@ _If % of ART retention rate after 12 months >90 percent_ :
 Sustain the efforts.
 
 _If % of ART retention rate after 12 months &lt;90 percent_ :
+```
 
 Investigate whether there been shortage of ART at facilities
 
@@ -259,4 +261,4 @@ Add an interpretation
 
 ## Hands-on Exercises
 
-Please refer to “Interpretations Exercise 2”
+Please refer to “[Interpretations Exercise 2](https://docs.google.com/document/d/11bOMHQ8BZp_mUCue6a0c-ZIRpVMgGKiLMalwe1SlanQ/edit?usp=share_link)”
