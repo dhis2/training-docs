@@ -1,15 +1,15 @@
 # Learner’s Guide to Validation Rules (Config)
 
 
-### PERFORM THIS EXERCISE ON THE CONFIGURATION SYSTEM
+***PERFORM THIS EXERCISE ON THE CONFIGURATION SYSTEM***
 
 
-# What is this guide?
+## What is this guide?
 
 This guide contains 3 exercises and detailed steps to perform them related to the use of configuring validation rules for the Analytics Tools Level 1 academy. Please perform each of the exercises when prompted by your instructors.
 
 
-# Learning objectives for this session
+## Learning objectives for this session
 
 
 1. Define a validation rule after reviewing a data set
@@ -17,29 +17,27 @@ This guide contains 3 exercises and detailed steps to perform them related to th
 3. Create a validation rule measuring against a generated threshold
 
 
-# Time needed for this session
+## Time needed for this session
 
 Live demo: 3 demos, ~ 30 mins each
 
 Hands-on exercises: 3 exercises, ~ 30 mins each
 
 
-# Background on this topic/module
+## Background on this topic/module
 
 Validation rules are an excellent tool that can be used to measure a number of consistency measures within a DHIS2 system. As an example, they can be used to manage internal consistency by comparing two or more data items collected during the same process (for example, 2 malaria data items collected at the same time) as well as measuring external consistency by measuring values collected using different mechanisms (for example, data collected via a DHIS2 dataset along with data imported into DHIS2 from a survey).
 
 Thes rules can be run directly in data entry - recommended if measuring internal consistency - as well as through a batch operation called validation analysis. In this session, you will review how to configure these rules in DHIS2.
 
-# Table of Contents/Quick Guide
+## Table of Contents/Quick Guide
 
 - [Learner’s Guide to Validation Rules (Config)](#learners-guide-to-validation-rules-config)
-    - [PERFORM THIS EXERCISE ON THE CONFIGURATION SYSTEM](#perform-this-exercise-on-the-configuration-system)
-- [What is this guide?](#what-is-this-guide)
-- [Learning objectives for this session](#learning-objectives-for-this-session)
-- [Time needed for this session](#time-needed-for-this-session)
-- [Background on this topic/module](#background-on-this-topicmodule)
-- [Table of Contents/Quick Guide](#table-of-contentsquick-guide)
-- [Live Demo Step-by-Step](#live-demo-step-by-step)
+  - [What is this guide?](#what-is-this-guide)
+  - [Learning objectives for this session](#learning-objectives-for-this-session)
+  - [Time needed for this session](#time-needed-for-this-session)
+  - [Background on this topic/module](#background-on-this-topicmodule)
+  - [Table of Contents/Quick Guide](#table-of-contentsquick-guide)
   - [Exercise 1 - Create a Validation Rule for HIV](#exercise-1---create-a-validation-rule-for-hiv)
     - [Review the data entry page and decide on a logical validation rule to create](#review-the-data-entry-page-and-decide-on-a-logical-validation-rule-to-create)
     - [Create the validation rule HIV tests positive \<= HIV tests performed](#create-the-validation-rule-hiv-tests-positive--hiv-tests-performed)
@@ -69,9 +67,6 @@ Thes rules can be run directly in data entry - recommended if measuring internal
     - [Create a Validation Rule Group](#create-a-validation-rule-group-2)
     - [Test the validation rule in validation analysis within the Data Quality app](#test-the-validation-rule-in-validation-analysis-within-the-data-quality-app)
     - [End Activity 3](#end-activity-3)
-
-
-# Live Demo Step-by-Step
 
 
 ## Exercise 1 - Create a Validation Rule for HIV
