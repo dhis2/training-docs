@@ -1,12 +1,12 @@
 # Learner’s Guide to Validation Rules (Use)
 
 
-# What is this guide?
+## What is this guide?
 
 This guide contains all exercises and detailed steps to perform them related to the use of validation rules session for the Analytics Tools Level 1 academy. Please perform each of the exercises when prompted by your instructors.
 
 
-# Learning objectives for this session
+## Learning objectives for this session
 
 
 
@@ -19,22 +19,21 @@ This guide contains all exercises and detailed steps to perform them related to 
 7. Execute validation rule analysis using validation rules with defined thresholds
 
 
-# Time needed for this session
+## Time needed for this session
 
 Live demo: 4 demos/presentations, ~ 20 mins each
 
 Hands-on activities: 4 activities, ~ 15 mins each
 
 
-# Table of Contents/Quick Guide
+## Table of Contents/Quick Guide
 
 
 - [Learner’s Guide to Validation Rules (Use)](#learners-guide-to-validation-rules-use)
-- [What is this guide?](#what-is-this-guide)
-- [Learning objectives for this session](#learning-objectives-for-this-session)
-- [Time needed for this session](#time-needed-for-this-session)
-- [Table of Contents/Quick Guide](#table-of-contentsquick-guide)
-- [Hands On Activities](#hands-on-activities)
+  - [What is this guide?](#what-is-this-guide)
+  - [Learning objectives for this session](#learning-objectives-for-this-session)
+  - [Time needed for this session](#time-needed-for-this-session)
+  - [Table of Contents/Quick Guide](#table-of-contentsquick-guide)
   - [Exercise 1 - Review validation rules in data entry](#exercise-1---review-validation-rules-in-data-entry)
     - [Review the rules in data entry](#review-the-rules-in-data-entry)
   - [Exercise 2 - Run a validation rule in validation rule analysis](#exercise-2---run-a-validation-rule-in-validation-rule-analysis)
@@ -47,9 +46,6 @@ Hands-on activities: 4 activities, ~ 15 mins each
   - [Exercise 5 - Run the “Immunisation thresholds” validation rules in validation rule analysis](#exercise-5---run-the-immunisation-thresholds-validation-rules-in-validation-rule-analysis)
     - [Check the messages app](#check-the-messages-app)
 
-
-
-# Hands On Activities
 
 ## Exercise 1 - Review validation rules in data entry
 
