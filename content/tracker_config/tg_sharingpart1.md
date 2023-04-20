@@ -1,18 +1,20 @@
 # **Trainer’s guide to Sharing**
 
-**What is this guide?**
+## **What is this guide?**
 
-This guide is a support document for DHIS2 Academy trainers for the session “User roles and sharing.” This session follows the standard Academy training approach with 1) a live demo session where the trainer demonstrate and explain the sharing concept and 2) a hands-­on session with exercises where participants get to modify sharing settings.
+This guide is a support document for DHIS2 Academy trainers for the session “User roles and sharing.” This session follows the standard Academy training approach with 
+1. a live demo session where the trainer demonstrate and explain the sharing concept and
+2. a hands-­on session with exercises where participants get to modify sharing settings.
 
 This guide will help the trainer​ prepare​​ for the live demo session. The “Live Demo step by step” section has a detailed walkthrough of all the steps to demonstrate with explanations and screenshots that should be easy to follow. Use that when preparing for the live demo session.
 
 There is also a Quick Guide which lists the steps very briefly and this is meant as a lookup guide or “cheatsheet” WHILE doing the demo, to help the trainer remember all the steps and the flow of the demo.
 
-**Background**
+## **Background**
 
 Sharing can be used in order to provide granular access to meta-data and data as of 2.29. This is a new concept and is an important consideration to define for any tracker implementation. This session should accompany the sharing and user roles presentation that is available here. 
 
-**Preparation**
+## **Preparation**
 
 Everything in Trainingland has been configured already for you to use in this demo. Just follow the guide using the accounts listed and everything should work as intended. Use the **MAIN** trainingland instance with data, **DO NOT** use the customization instance as this is not configured there.
 
@@ -38,11 +40,9 @@ Everything in Trainingland has been configured already for you to use in this de
 
 For each of these users explain the different level of sharing authorities they have and what this allows them to do in relation to the ANC program.
 
-
 ## **Live Demo step by step**
 
 In this demo you will be logging in as 3 different users in order to show that you can configure users to have different levels of access to tracker programs and program stages. 
-
 
 ### Step 1 - Log in as the case registration user
 
@@ -97,6 +97,8 @@ You will, however, see the new case that the other user has registered. You can 
 
 They can also interact with the data elements as they have the ability to edit the data.
 
+![](Images/sharing1/image6.png)
+
 ### Step 3 - Login as the ANC Manager
 
 Login as an ANC manager. This user has access to view and all the data within all program stages. They can not edit any of the stages or register new expectant women however.
@@ -107,7 +109,7 @@ Password: District1#
 
 This user has access to the same apps as the ANC staff member. They will likely have the same user roles assigned to them, but this can be confirmed later on. Go to tracker capture and find the same person you have been working on in the other examples. This person can not register cases, similar to the ANC staff member. When you go to the dashboard for the patient you were working with, you will see the ANC manager can see the data for the program stages, but can not edit any of the data.
 
-![](Images/sharing1/image6.png)
+![](Images/sharing1/image14.png)
 
 Similarly, if they try to add an event, they will see an error.
 
