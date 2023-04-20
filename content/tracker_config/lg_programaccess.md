@@ -4,24 +4,22 @@
 
 **_Perform Exercise 3 with the “CONFIGURATION” system_**
 
-
 ## What is this guide?
 
 This guide contains all ungraded exercises and detailed steps to perform them related to program access levels for the Tracker Config Level 1 academy. Please perform each of the exercises when prompted to by your instructors
 
 ## Learning objectives for this session
 
-
 * Describe what program access levels are
 * Describe the 4 types of program access level available in DHIS2
 * Apply program access levels to your own tracker programs
 
-## Exercise 1
+### Exercise 1
 
 **_Perform this exercise within the “DEMO” system._**
 
 
-### Part 1 - Register a new TEI
+#### Part 1 - Register a new TEI
 
 Log in as a user who has access to register an tracked entity within the entire organisation unit. Select **_Parrot District Hospital_** and proceed to register an individual in the <span style="text-decoration:underline;">TB Treatment card program</span>.
 
@@ -29,17 +27,15 @@ Log in as a user who has access to register an tracked entity within the entire 
 
 After registration, quickly fill in some of the first stage data.
 
-
 ![](Images/programacess/image10.png)
 
-**_<span style="text-decoration:underline;">Take note of the details of the person that you registered!</span>_**
+**_Take note of the details of the person that you registered!_**
 
-### Part 2 - Find this TEI by breaking the glass
+#### Part 2 - Find this TEI by breaking the glass
 
 Log out and log back in again as a user with the following details:
 
 Username : breakglass
-
 Password : District1#
 
 After logging in, clear your cache and go to tracker capture.
@@ -81,11 +77,11 @@ You can see this individual can enter data for a new stage, as it is attached to
 
 ![](Images/programacess/image8.png)
 
-## Exercise 2
+### Exercise 2
 
 **_Perform this exercise within the “DEMO” system._**
 
-### Part 3 - Review Open Access
+#### Part 3 - Review Open Access
 
 Log out and log back in again as a user with the following details:
 
@@ -115,7 +111,7 @@ If I select the record, it will just open however. No reason needs to be entered
 Note: The behaviour for the audited level of access is the exact same, except an additional log entry will be automatically created when this record is accessed. The user will not have to enter any additional details though.
 ```
 
-### Part 4 -  Review Closed Access
+#### Part 4 -  Review Closed Access
 
 You should still be logged in as 
 
@@ -142,9 +138,9 @@ If I try to open this record, I will not be able to. Instead I will receive the 
 
 This is because this program is configured with the CLOSED level of access.
 
-## Exercise 3
+### Exercise 3
 
-### Part 5 - Modify the access level of your program
+#### Part 5 - Modify the access level of your program
 
 **_Perform this exercise within the “CUSTOMIZE” system._**
 
@@ -156,7 +152,7 @@ Navigate to your Antenatal Care program (the one you created as part of the assi
 
 This is where we configure the access level of the program. This then needs to be combined with a user’s data capture scope to dictate the behaviour that we observe in tracker capture. 
 
-### Modify the sharing settings of your program
+**Modify the sharing settings of your program**
 
 **_Share your program and program stages_** with the user group “access levels”
 
@@ -166,7 +162,7 @@ Data : can capture and view
 
 ![](Images/programacess/image11.png)
 
-### Ensure you have someone registered in your ANC program
+**Ensure you have someone registered in your ANC program**
 
 Make sure that someone is registered in the ANC program that you have made.
 
@@ -174,7 +170,7 @@ Make sure that someone is registered in the ANC program that you have made.
 
 If there is no one registered, then register a new person into your program. **_You can register them anywhere EXCEPT for the org units within Vegetable District._**
 
-### Review the “acess_levels” user in the users app
+**Review the “acess_levels” user in the users app**
 
 **NOTE : DO NOT MODIFY THIS USER! Just review the users details**
 
@@ -210,7 +206,7 @@ Keep in mind, the user still needs sharing settings applied to their user that a
 
 ![](Images/programacess/image15.png)
 
-### Login as  the “acess_levels” user in and search for a TEI in your ANC program
+**Login as  the “acess_levels” user in and search for a TEI in your ANC program**
 
 Login to the CUSTOMIZE system using
 

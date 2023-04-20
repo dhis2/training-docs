@@ -1,6 +1,6 @@
 # **Learner’s guide to Sharing - Part 2**
 
-## Perform these exercises in the “DEMO” system.
+**Perform these exercises in the “DEMO” system.**
 
 ## **What is this guide?**
 
@@ -33,9 +33,9 @@ Sharing generally works within the intersection of these 3 concepts in DHIS2:
 
 We can traditionally think of user groups as defining how outputs are shared (dashboards, tables, maps, etc.) but we can also use both meta-data and data level sharing to restrict what a user has access to in quite a bit of detail.
 
-## **Exercise 1**
+### **Exercise 1**
 
-### 1.1 - User Groups
+#### 1.1 - User Groups
 
 We have covered user roles, now we can discuss user groups in a bit more detail. Navigate to the user groups part of the application. There are 3 user groups we can focus on here as related to the ANC program:
 
@@ -61,7 +61,7 @@ We assign these user groups to our user in order to apply the correct sharing se
 This allows us to use these user groups to assign sharing permissions to any user assigned to the group.  
 
 
-### 1.2 - Data Level Sharing
+#### 1.2 - Data Level Sharing
 
 Go to “Tracked Entity Type” and open the sharing dialog for the tracked entity type of “Person”
 
@@ -77,16 +77,16 @@ We can see that all 3 user groups we have discussed have some sharing settings a
 
 **METADATA** sharing determines if a person can edit (for example, updating its name or changing another parameter, note that they would need the proper user authorities/user role assigned to them on top of this sharing setting) and view an object or only view the object (see the object in various apps). 
 
-**DATA **level sharing takes this one step further and determines, in specific detail, what a person can do with the data that is linked to the object.
+**DATA** level sharing takes this one step further and determines, in specific detail, what a person can do with the data that is linked to the object.
 
 
-## **Exercise 2**
+### **Exercise 2**
 
-### Part 2 - Reviewing the configuration
+#### Part 2 - Reviewing the configuration
 
 In order to understand how we have achieved the various levels of access for each of the users demoed in Part 1, we can review each object type and determine what level of sharing settings these users have. Note that this may be in addition to meta-data sharing that has been applied to data elements or other meta-data in the system. This will not be covered in detail at this stage due to time limitations. 
 
-**_Review the sharing settings of the 3 items (tracked entity type, program, program stage) through the maintenance user interface_**for each of the user groups for the Antenatal care program.
+**_Review the sharing settings of the 3 items (tracked entity type, program, program stage) through the maintenance user interface_** for each of the user groups for the Antenatal care program.
 
 
 Here is an overview of the sharing settings that are applied to these 3 groups
@@ -109,7 +109,7 @@ For all three objects, the meta-data permissions are set to view only for these 
 
 When reviewing the sharing settings for the program and program stages, use the access tab within the program itself from maintenance and go through the user groups for the program and each of the stages. Here you will see differing data sharing settings for the different user groups based on what they can do.
 
-![](Images/sharing2/image2.png)
+![](Images/sharing2/image6.png)
 
 You can once again review the details of these users by logging in with the different user types we reviewed previously, this time comparing them with the data sharing settings configuration to review the effect this has as outlined in the above table. 
 

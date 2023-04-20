@@ -1,6 +1,6 @@
 # **Learner’s guide to Sharing - Part 1**
 
-# Perform these exercises in the “DEMO” instance
+**Perform these exercises in the “DEMO” instance**
 
 ## **What is this guide?**
 
@@ -15,11 +15,11 @@ This guide contains all ungraded exercises and detailed steps to perform them re
 * Describe the concepts of program and program stage sharing
 * Apply program and program stage sharing to your own program
 
-## **Exercise 1**
+### **Exercise 1**
 
 In this exercise you will be logging in as different users in order to show that you can configure users to have different levels of access to tracker programs and program stages. In Exercise 1, we will review the users associated with the ANC program.
 
-### Step 1 - Log in as the case registration user
+#### Step 1 - Log in as the case registration user
 
 Log in as the first user
 
@@ -49,7 +49,7 @@ This user is unable to create any new events. This will result in an error if th
 
 This is controlled via sharing. They have access to view data that is already within a record, so they can look up a person’s record and the information if that is already completed for example in order to reduce duplicate entry, but they can not add any events to the program stages.
 
-### Step 2 - Log in as ANC staff 
+#### Step 2 - Log in as ANC staff 
 
 Login as the ANC staff member. This user has access to view and edit all the data within all program stages. They are not able to register however, as that is handled by another user type.
 
@@ -74,7 +74,7 @@ They can also interact with the data elements as they have the ability to edit t
 ![](Images/sharing1/image6.png)
 
 
-### Step 3 - Login as the ANC Manager
+#### Step 3 - Login as the ANC Manager
 
 Login as an ANC manager. This user has access to view and all the data within all program stages. They can not edit any of the stages or register new expectant women however.
 
@@ -97,12 +97,12 @@ The ability to see the data within these program stages but not edit the program
 Both the ANC manager, ANC staff and case registration user have the same permissions to view this data, though this could be changed via sharing if you did not want this to be the case. The case registration user is limited where they can see this data however, as they do not have access to any analysis apps. They could therefore only see the data in the dashboard or through a person's tracked entity dashboard. This could be changed by assigning them the correct user authorities via a user role.
 ```
 
-## **Exercise 2**
+### **Exercise 2**
 
 In exercise 2, you can review a more common configuration of program and program stage access using the TB program.
 
 
-### Step 4 - Login as the TB Data Entry User
+#### Step 4 - Login as the TB Data Entry User
 
 Login as the TB data entry user. This user has access to register data and enter data for all of the program stages. 
 
@@ -122,7 +122,7 @@ And we can see they can enter data for all of the stages
 
 ![](Images/sharing1/image7.png)
 
-### Step 5 - Login as the TB Data Analysis User
+#### Step 5 - Login as the TB Data Analysis User
 
 Login as the TB analysis user. This user has access to view data for all of the program stages. They also have additional access to analysis apps.
 
@@ -144,7 +144,7 @@ They can however run reports
 
 ![](Images/sharing1/image4.png)
 
-### Step 6 - Login as the TB Admin User
+#### Step 6 - Login as the TB Admin User
 
 Login as the TB admin user. 
 

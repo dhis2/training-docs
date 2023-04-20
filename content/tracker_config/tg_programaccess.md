@@ -4,7 +4,10 @@
 
 **What is this guide?**
 
-This guide is a support document for DHIS2 Academy trainers for the session “Program Access Levels.” This session follows the standard Academy training approach with 1) a live demo session where the trainer demonstrate and explain the program access levels concept and 2) a hands-­on session with exercises where participants get to modify sharing settings.
+This guide is a support document for DHIS2 Academy trainers for the session “Program Access Levels.” This session follows the standard Academy training approach with 
+
+1. a live demo session where the trainer demonstrate and explain the program access levels concept and 
+2. a hands-­on session with exercises where participants get to modify sharing settings.
 
 This guide will help the trainer​ prepare​​ for the live demo session. The “Live Demo step by step” section has a detailed walkthrough of all the steps to demonstrate with explanations and screenshots that should be easy to follow. Use that when preparing for the live demo session.
 
@@ -12,9 +15,9 @@ There is also a Quick Guide which lists the steps very briefly and this is meant
 
 guide or “cheatsheet” WHILE doing the demo, to help the trainer remember all the steps and the flow of the demo.
 
-**Background**
+## Background
 
-**Preparation**
+## Preparation
 
 Everything in Trainingland has been configured already for you to use in this demo. Just follow the guide using the accounts listed and everything should work as intended. Use the **MAIN DEMO** trainingland instance with data, **DO NOT** use the customization instance as this is not configured there.
 
@@ -103,7 +106,7 @@ Start this part of the demo after reaching SLIDE 13 in the [presentation](https:
 
 We can review other levels of program access, open and closed, through use of our different programs. 
 
-### Immunization - Open
+#### Immunization - Open
 
 **_Ensure you are logged in as a user the has access to all orgunits for capture_**
 
@@ -114,7 +117,7 @@ We can review other levels of program access, open and closed, through use of ou
 
 The immunization program is using the “open” program access level, and therefore a user should be able to open this record without any prompt even if outside of their capture scope.
 
-### ANC - Closed
+#### ANC - Closed
 
 Ensure you are logged in as a user the has access to all orgunits for capture
 
