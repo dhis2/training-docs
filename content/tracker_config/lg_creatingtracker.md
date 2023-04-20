@@ -79,7 +79,7 @@ Program Stage 4 - End of Treatment
 | Treatment Outcome   | Text                     | * Cured<br>* Treatment completed<br>* Died<br>* Treatment failure<br>* Loss to follow-up<br>* Not evaluated                                   |
 | Weight (Kg)         | Zero or positive integer | N/A                                                                                                                                           |
 
-## Exercise Overview
+### Exercise Overview
 
 In order to create a multiple-event with registration tracker program, we can follow these general guidelines within DHIS2:
 
@@ -101,7 +101,7 @@ In order to create a multiple-event with registration tracker program, we can fo
     * Assign the Program to Organization unit(s)
 
 
-### Exercise 1 - Explore the tracked entity type
+#### Exercise 1 - Explore the tracked entity type
 
 The first thing we will do is ensure that there is an entity of type “Person” within Trainingland. 
 
@@ -113,7 +113,7 @@ We are tracking a person within the program we are creating, therefore no other 
 
 ![](Images/creatingtrackerprog/image14.png)
 
-### Exercise 2 - Identify and Create Option Sets
+#### Exercise 2 - Identify and Create Option Sets
 
 Let us review which attributes and data elements require options sets (refer to the table in the background section to see the options):
 
@@ -176,7 +176,7 @@ Repeat this process in order to complete theTreatment Outcome option set:
 If necessary, you can repeat the process of adding another option set and individual options until all of the option sets required for the program are present (note this may be mixed with other option sets from other programs). 
 
 
-### Exercise 3 - Identify and create (if not yet created) the attributes that will register the entity in the program
+#### Exercise 3 - Identify and create (if not yet created) the attributes that will register the entity in the program
 
 From the review of the program (and by reviewing the tracker design sheet for the TB program), the following attributes need to be made:
 
@@ -221,7 +221,7 @@ The attribute will be added to the Tracked entity attribute management screen:
 
 Repeat this process for the sex attribute; however make sure you assign the sex option set to the attribute that you create.
 
-### Exercise 4 - Create Data elements with domain type “Tracker”
+#### Exercise 4 - Create Data elements with domain type “Tracker”
 
 This should be a review for you!
 
@@ -279,16 +279,16 @@ Provide the Group with a name (using your initials as a prefix) and assign **_al
 ![](Images/creatingtrackerprog/image12.png)
 
 
-### Exercise 5 - Identify the number of program stages in the program
+#### Exercise 5 - Identify the number of program stages in the program
 
 In this case, we have already identified that there are 4 stages in the program. You can review the various presentations and documentation on the TB program’s design to verify this.
 
-### Exercise 6 - Identify if any of the program stages are repeatable or not
+#### Exercise 6 - Identify if any of the program stages are repeatable or not
 
 In this particular program, the four stages are distinct and should not be repeated. This is because each stage has a different mix of data elements that are reported on. You can refer to any previously presented examples on when a repeatable stage is necessary (for example, ANC visits with the same services, HIV Testing and Counselling with Negative Results; the immunization program). 
 
 
-### Exercise 7 - Create a new tracker program
+#### Exercise 7 - Create a new tracker program
 
 In order to create a new program, navigate to Program from within maintenance
 
@@ -307,7 +307,7 @@ At the top, you will see that, similar to events, a stepwise approach to creatin
 We will follow this approach as we create our program in DHIS2.
 
 
-### Exercise 8 - Fill in the program details page
+#### Exercise 8 - Fill in the program details page
 
 Describe the fields in the program details box area as much as possible. It may also be useful to point to the docs for a more detailed explanation of what each field does. Fill in the mandatory fields, as well as any other fields you may be appropriate within the program details page.
 
@@ -316,7 +316,7 @@ Describe the fields in the program details box area as much as possible. It may 
 ![](Images/creatingtrackerprog/image24.png)
 
 
-### Step 9 - Fill in the enrollment details page
+#### Step 9 - Fill in the enrollment details page
 
 Select the “Enrollment details” from the top bar. Here you may want to refer to the docs again if people are interested in understanding what each fields represents on this page. At minimum, fill in the incident and enrollment date. Clearly define again what these dates are and why they are important.
 
@@ -324,7 +324,7 @@ Select the “Enrollment details” from the top bar. Here you may want to refer
 
 Select “Save” to save the details of the program so far.
 
-### Exercise 10 - Add in the attributes
+#### Exercise 10 - Add in the attributes
 
 You now want to add in the attributes of the program. Select your program from maintenance to open it back up, then select attributes from the top header. You can refer back to the initial form, slide set, excel design doc or other conceptual documentation you have been provided with to identify the attributes belonging to this program. Note that it is important to identify these before actually going into DHIS2. You can add in the following attributes **_(use the registration number and sex attributes that you created)_**
 
@@ -337,7 +337,7 @@ You now want to add in the attributes of the program. Select your program from m
 
 Select Save to save your changes to the program.
 
-### Exercise 11 - Create Program stages, identifying the number of days each stage should be filled in from the start of the program if possible and including the required data elements in the program stages
+#### Exercise 11 - Create Program stages, identifying the number of days each stage should be filled in from the start of the program if possible and including the required data elements in the program stages
 
 From the background information previously discussed, some basic information on scheduling can be obtained. There are stages at diagnosis, 2-3 months and 5 months. The end of treatment stage is dependent on a number of factors. They could end the program prematurely, and thus this stage would be moved in front of the others. In the case that they finish the program, a new TB case would typically reach the end of treatment phase at 6 months while a re-treatment case would reach this phase at 8 months. Due to the variability of the end of treatment stage, schedule only the second and third stages of the program. Therefore, the general outline of the program can be viewed as below:
 
@@ -348,7 +348,7 @@ From the background information previously discussed, some basic information on 
 
 In this exercise, you will create 2 stages to practice making them in DHIS2
 
-### Exercise 11.1 - Create the 1st stage
+#### Exercise 11.1 - Create the 1st stage
 
 In order to add a new program stage, select the “Program stages” button from the top menu. Select the “+” button to add a new program stage
 
@@ -438,7 +438,7 @@ It should look like this when you create it in DHIS2
 
 Select “Add stage” when you have finished, followed by “Save” to make updates to your program.
 
-### Exercise 12 - Assign the Program to Organisation unit(s)
+#### Exercise 12 - Assign the Program to Organisation unit(s)
 
 Select your program from within program maintenance then select “Access” from the top menu and proceed to select the organisation units you wish to assign the program to:
 
@@ -446,7 +446,7 @@ Select your program from within program maintenance then select “Access” fro
 
 After assigning the organisation units you can click on “Save” to save these changes
 
-### Exercise 13 - Assign Sharing to the Program
+#### Exercise 13 - Assign Sharing to the Program
 
 Remember what you've been shown from your previous experience working with events! When you configure an event program you must share the program and program stages. The same applies to a tracker program!
 
