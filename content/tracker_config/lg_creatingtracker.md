@@ -119,9 +119,9 @@ Let us review which attributes and data elements require options sets (refer to 
 
 Attributes:
 
-* Sex (note that male/female options should already be present
+* Sex (note that male/female options should already be present)
 
-Data Elements within Program Stage 1-4 (note that the option sets will be re-used throughout the program):
+Data Elements within Program Stage 1-4 (**note that the option sets will be re-used throughout the program**):
 
 
 * TB Patient Type
@@ -147,7 +147,9 @@ To add a new option set, click on the plus sign in the lower right corner
 
 ![](Images/creatingtrackerprog/image17.png)
 
-Provide the option set a name (mandatory) a code (optional) and value type (mandatory). **_Use your initials as a prefix when creating the option set. _**Click on “Save” to save the option set:
+Provide the option set a name (mandatory) a code (optional) and value type (mandatory).**_Use your initials as a prefix when creating the option set._** 
+
+Click on “Save” to save the option set:
 
 ![](Images/creatingtrackerprog/image33.png)
 
@@ -177,8 +179,6 @@ If necessary, you can repeat the process of adding another option set and indivi
 ### Exercise 3 - Identify and create (if not yet created) the attributes that will register the entity in the program
 
 From the review of the program (and by reviewing the tracker design sheet for the TB program), the following attributes need to be made:
-
-
 
 * Registration Number
 * First Name
@@ -213,7 +213,7 @@ Review and fill in the options for the attribute. Click on “Add” to save the
 
 ![](Images/creatingtrackerprog/image15.png)
 
-![](v/creatingtrackerprog/image19.png)
+![](Images/creatingtrackerprog/image19.png)
 
 The attribute will be added to the Tracked entity attribute management screen:
 
@@ -253,9 +253,7 @@ Let us review the Data Element properties for the TB Patient Type data element
 
 ![](Images/creatingtrackerprog/image42.png)
 
-When making the data elements provide them with a prefix. In this instance, TBTC has been 
-
-used to denote “TB Treatment Card.” 
+When making the data elements provide them with a prefix. In this instance, TBTC has been used to denote “TB Treatment Card.” 
 
 **_Remember to also use your initials as a prefix when creating this data element._**
 
@@ -273,10 +271,13 @@ After you have created the data elements, it is a good idea to create the data e
 
 ![](Images/creatingtrackerprog/image48.png)
 
+![](Images/creatingtrackerprog/image17.png)
 
-Provide the Group with a name (using your initials as a prefix) and assign **_all _**the relevant program DE’s to the data element group (including ones you did not make but are already available for you to use). Click “Save” when finished.
 
-![](Images/creatingtrackerprog/image39.png)
+Provide the Group with a name (using your initials as a prefix) and assign **_all_** the relevant program DE’s to the data element group (including ones you did not make but are already available for you to use). Click “Save” when finished.
+
+![](Images/creatingtrackerprog/image12.png)
+
 
 ### Exercise 5 - Identify the number of program stages in the program
 
@@ -332,7 +333,7 @@ You now want to add in the attributes of the program. Select your program from m
 | Last Name           	| Age           	| Sex        	|
 | Family Address      	| Phone number  	|            	|
 
-![](Images/creatingtrackerprog/image6.png)
+![](Images/creatingtrackerprog/image8.png)
 
 Select Save to save your changes to the program.
 
@@ -349,7 +350,7 @@ In this exercise, you will create 2 stages to practice making them in DHIS2
 
 ### Exercise 11.1 - Create the 1st stage
 
-### In order to add a new program stage, select the “Program stages” button from the top menu. Select the “+” button to add a new program stage
+In order to add a new program stage, select the “Program stages” button from the top menu. Select the “+” button to add a new program stage
 
 ![](Images/creatingtrackerprog/image18.png)
 
@@ -387,7 +388,6 @@ Select your program, navigate back to program stages, and select the program sta
 
 Add in the 5 sections. Click on the ![](Images/creatingtrackerprog/image27.png)
 button to add a new section.  
-
 Enter the title of the section and click on “Add”
 
 ![](Images/creatingtrackerprog/image2.png)
@@ -411,8 +411,7 @@ Create a new stage by selecting the program you have made, going back to program
 
 **The second stage, Continuation 1, will add in some scheduling components to the program details. This is reflected in the “Scheduled days from start” and “Generate events based on enrollment date” options.**
 
-![](Images/creatingtrackerprog/image28.png)
-
+![](Images/creatingtrackerprog/image28.png) 
 ![](Images/creatingtrackerprog/image11.png)
 
 
@@ -481,4 +480,4 @@ Click on “Apply to selected stages.” You will see that the sharing settings 
 
 Select “Save” to save your program updates.
 
-### The program can now be viewed in tracker capture and data entered against the assigned org. units.
+**The program can now be viewed in tracker capture and data entered against the assigned org. units.**
