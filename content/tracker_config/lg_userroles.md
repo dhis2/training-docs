@@ -1,4 +1,4 @@
-## Learner’s Guide to Users Roles
+# Learner’s Guide to Users Roles
 
 ## USE THE CONFIG SYSTEM TO FOLLOW THIS GUIDE
 
@@ -18,7 +18,7 @@ When we create a new user, we must first have in place the relevant user roles t
 
 Let us start this process by reviewing the makeup of a user role.
 
-## Review the user roles management page
+### Review the user roles management page
 
 In order to start the process of creating a user role, navigate to the users app
 
@@ -59,7 +59,7 @@ Note: at the moment there is no comprehensive list of what each of the user auth
 ```
 
 
-## Review the authorities assigned to the tracker data capture user role
+### Review the authorities assigned to the tracker data capture user role
 
 We can review the authorities assigned to this user role in two ways.
 
@@ -108,7 +108,6 @@ Let us review each of the available tracker authorities as they are important fo
 
 A combination of these authorities from tracker, along with authorities from the apps category, is usually what will be needed for the majority of user roles that are assigned to end-users in the system not responsible for any type of system maintenance. 
 
-
 ### Log into the user with this role
 
 In the tracker customization instance, log into the user that has this role assigned to them. Note that there are other components that make up this user role as we have discussed, including user groups, sharing and organisation units; but we will focus on the implications of the user role for now.
@@ -139,7 +138,7 @@ This is all possible via the user role and the authorities we have assigned to i
 
 ## Exercise 2 - Create a new user
 
-## Create a new user and assign it the tracker data entry role
+### Create a new user and assign it the tracker data entry role
 
 Let’s go through the process of creating a new user and assign it the tracker data entry role.
 
@@ -210,7 +209,6 @@ You will see one more heading under Basic Information labeled “Security.” If
 Switch back to email invitation to create account. 
 
 When you have filled in all the details, select “Create user” to send the invitation to the person’s email.
-
 
 ### Sign the user up
 

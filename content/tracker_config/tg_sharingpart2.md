@@ -34,12 +34,12 @@ Everything in Trainingland has been configured already for you to use in this de
 
 1. Introduce the concept of data level sharing
     1. Discuss user groups and how objects can be shared with user groups in DHIS2
-    2. Discuss the new sharing dialog and what each of these options does as it relates to tracked entity types, programs and program stages (use the [presentation](https://docs.google.com/presentation/d/1BwSMoxU8b84Zwz-xwUKswnhgbkg-l8azNJOUrgqh6OU/edit?usp=sharing) to help explain these items)
+    2. Discuss the new sharing dialog and what each of these options does as it relates to tracked entity types, programs and program stages (use the [presentation](https://docs.google.com/presentation/d/1OMBAzWWC_x4ONMcZBI5hAQID0dPNLIn82VpAcpoyDT0/edit#slide=id.g3d012a32e8_0_134) to help explain these items)
 2. Review the sharing configuration of these 3 objects (tracked entity type, program, program stages) in detail, explaining how each of these sharing settings affects what the user can do
 
 ## **Live Demo step by step**
 
-In this demo we will show what sharing settings have been applied to the tracked entity type, program and program stages in order to allow for the different level of access for each of the users for the ANC program shown in [Part 1](https://docs.google.com/document/d/1w4Oufeq41IdTNJ9a0Ofu4JbBnAKvS6nu5SmDMvejw7E/edit?usp=sharing) of the demo. We can refer back to our discussion on user roles to then understand how we combine these concepts to assign the appropriate level of access we require. 
+In this demo we will show what sharing settings have been applied to the tracked entity type, program and program stages in order to allow for the different level of access for each of the users for the ANC program shown in [Part 1](https://docs.google.com/presentation/d/1XWMgqg_7cWxhuYOZRZhlgBvEooEwC0TC5yqqoyHWpu0/edit#slide=id.g3d012a32e8_0_0) of the demo. We can refer back to our discussion on user roles to then understand how we combine these concepts to assign the appropriate level of access we require. 
 
 ### Part 1 - Introduce data level sharing
 
@@ -73,7 +73,6 @@ These 3 user groups contain the same users that were discussed earlier, linked t
 
 Creating a user group is very easy. 
 
-
 1. Select the blue plus sign to add a new group
 2. Assign the group a name (and code if you want)
 3. Save the user group
@@ -86,7 +85,7 @@ This allows us to use these user groups to assign sharing permissions to any use
 
 #### 2.2 - Data Level Sharing
 
-Slides 2-4 explain specific permissions for data level sharing for different tracker specific objects: [https://docs.google.com/presentation/d/1cpYTy_rkAqhVp6zHZqUrcUrb7UCEdOFBwYcTej4tqwA/edit?usp=sharing](https://docs.google.com/presentation/d/1cpYTy_rkAqhVp6zHZqUrcUrb7UCEdOFBwYcTej4tqwA/edit?usp=sharing) 
+Slides 2-4 explain specific permissions for data level sharing for different tracker specific objects: [presentation](https://docs.google.com/presentation/d/1OMBAzWWC_x4ONMcZBI5hAQID0dPNLIn82VpAcpoyDT0/edit#slide=id.g3d012a32e8_0_134) 
 
 Go to “Tracked Entity Type” and open the sharing dialog for the tracked entity type of “Person”
 
@@ -100,7 +99,7 @@ We can see that all 3 user groups we have discussed have some sharing settings a
 
 **METADATA** sharing determines if a person can edit (for example, updating its name or changing another parameter, note that they would need the proper user authorities/user role assigned to them on top of this sharing setting) and view an object or only view the object (see the object in various apps). 
 
-**DATA **level sharing takes this one step further and determines, in specific detail, what a person can do with the data that is linked to the object. You can move over the [presentation](https://docs.google.com/presentation/d/1BwSMoxU8b84Zwz-xwUKswnhgbkg-l8azNJOUrgqh6OU/edit?usp=sharing) in order to explain data level sharing in more detail for each object.
+**DATA** level sharing takes this one step further and determines, in specific detail, what a person can do with the data that is linked to the object. You can move over the [presentation](https://docs.google.com/presentation/d/1OMBAzWWC_x4ONMcZBI5hAQID0dPNLIn82VpAcpoyDT0/edit#slide=id.g3d012a32e8_0_134) in order to explain data level sharing in more detail for each object.
 
 #### STOP - Perform Exercise 1
 
@@ -135,6 +134,7 @@ Here is an overview of the sharing settings that are applied to these 3 groups (
 For all three objects, the meta-data permissions are set to view only for these 3 user groups. This is so these users within these groups can see this meta-data but do not have permission to edit it. The “can edit and view” meta-data sharing setting is often reserved for administrators of the systems, and we can see that is the case here as well. 
 
 When reviewing the sharing settings for the program and program stages, use the access tab within the program itself from maintenance and go through the user groups for the program and each of the stages.
+
 ![](Images/sharing2/image6.png)
 
 

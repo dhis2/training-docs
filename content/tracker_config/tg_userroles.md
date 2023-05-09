@@ -1,20 +1,23 @@
-## Trainer’s Guide to Users Roles
+# Trainer’s Guide to Users Roles
 
-## USE THE CONFIG SYSTEM TO FOLLOW THIS GUIDE
+**_Use the Config system to follow this guide_**
 
-**What is this guide?**
+## **What is this guide?**
 
-This guide is a support document for DHIS2 Academy trainers for the session “User roles.” This session follows the standard Academy training approach with 1) a live demo session where the trainer demonstrate and explain how to create program reminders, and 2) a hands-­on session with exercises where participants get to create program reminders.
+This guide is a support document for DHIS2 Academy trainers for the session “User roles.” This session follows the standard Academy training approach with 
+
+1. a live demo session where the trainer demonstrate and explain how to create program reminders, and 
+2. a hands-­on session with exercises where participants get to create program reminders.
 
 This guide will help the trainer​ prepare​​ for the live demo session. The “Live Demo step by step” section has a detailed walkthrough of all the steps to demonstrate with explanations and screenshots that should be easy to follow. Use that when preparing for the live demo session.
 
 There is also a Quick Guide which lists the steps very briefly and this is meant as a lookup guide or “cheatsheet” WHILE doing the demo, to help the trainer remember all the steps and the flow of the demo.
 
-**Background**
+## **Background**
 
 User roles are a key component of determining how a user can interact with DHIS2. When combined with user groups and sharing, a wide variety of access control can be placed within the system. 
 
-**Preparation**
+## **Preparation**
 
 In order to conduct this session, you need to review the sharing settings of the TB treatment card program. 
 
@@ -49,7 +52,6 @@ STOP - Perform Exercise 1
 
 STOP - Perform Exercise 2
 
-
 6. Create a new user role - tracker data analysis
 7. Assign this user role to the user you have made and test the user
 
@@ -61,7 +63,7 @@ When we create a new user, we must first have in place the relevant user roles t
 
 Let us start this process by reviewing the makeup of a user role.
 
-## Review the user roles management page
+### Review the user roles management page
 
 In order to start the process of creating a user role, navigate to the users app
 
@@ -178,7 +180,7 @@ Or perform a cascaded delete (via the “Delete tracked entity instance and asso
 
 This is all possible via the user role and the authorities we have assigned to it.
 
-### STOP - Perform Exercise 1 in the learner’s guide
+#### STOP - Perform Exercise 1 in the learner’s guide
 
 ## Create a new user and assign it the tracker data entry role
 
@@ -265,7 +267,7 @@ Follow the link and fill in the new details for the user. Select Create once all
 
 This will log you in as the user. You can test the functionality to ensure they have the correct access.
 
-### STOP - Perform Exercise 2 in the learner’s guide
+#### STOP - Perform Exercise 2 in the learner’s guide
 
 ## Create a new user role - tracker data analysis
 
@@ -337,4 +339,4 @@ You can make an event report using some data from this month from the TB treatme
 
 The user we are logged in with has two roles, and these roles give them distinct permissions. By creating roles this way, rather than creating a role for a user type, more flexibility is granted. For example, we could have a number of users that just have access to data analysis, but can not enter any data. Same for data entry; or we can combine existing roles like we have done here.
 
-### STOP - Perform Exercise 3 in the learner’s guide
+#### STOP - Perform Exercise 3 in the learner’s guides
