@@ -79,19 +79,13 @@ In this system, you will only see a couple of user roles. In a live system, you 
 
 Select the tracker data entry role in order to review it. You will see the user role management page is divided into 3 sections.
 
-1.Basic information
-
-2.Metadata authorities
-
-3.Other authorities (this is subdivided into 4 additional sections)
-
-a. App authorities
-
-b. Tracker authorities
-
-c. Import/export authorities
-
-d. System authorities
+1. Basic information
+2. Metadata authorities
+3. Other authorities (this is subdivided into 4 additional sections)
+    1. App authorities
+    2. Tracker authorities
+    3. Import/export authorities
+    4. System authorities
 
 **Basic information :** Includes the name and description of the user role
 
