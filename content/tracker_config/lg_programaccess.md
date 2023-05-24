@@ -14,12 +14,12 @@ This guide contains all ungraded exercises and detailed steps to perform them re
 * Describe the 4 types of program access level available in DHIS2
 * Apply program access levels to your own tracker programs
 
-### Exercise 1
+## Exercise 1
 
 **_Perform this exercise within the “DEMO” system._**
 
 
-#### Part 1 - Register a new TEI
+### Part 1 - Register a new TEI
 
 Log in as a user who has access to register an tracked entity within the entire organisation unit. Select **_Parrot District Hospital_** and proceed to register an individual in the <span style="text-decoration:underline;">TB Treatment card program</span>.
 
@@ -31,7 +31,7 @@ After registration, quickly fill in some of the first stage data.
 
 **_Take note of the details of the person that you registered!_**
 
-#### Part 2 - Find this TEI by breaking the glass
+### Part 2 - Find this TEI by breaking the glass
 
 Log out and log back in again as a user with the following details:
 
@@ -77,11 +77,11 @@ You can see this individual can enter data for a new stage, as it is attached to
 
 ![](Images/programacess/image8.png)
 
-### Exercise 2
+## Exercise 2
 
 **_Perform this exercise within the “DEMO” system._**
 
-#### Part 3 - Review Open Access
+### Part 3 - Review Open Access
 
 Log out and log back in again as a user with the following details:
 
@@ -111,7 +111,7 @@ If I select the record, it will just open however. No reason needs to be entered
 Note: The behaviour for the audited level of access is the exact same, except an additional log entry will be automatically created when this record is accessed. The user will not have to enter any additional details though.
 ```
 
-#### Part 4 -  Review Closed Access
+### Part 4 -  Review Closed Access
 
 You should still be logged in as 
 
@@ -138,9 +138,9 @@ If I try to open this record, I will not be able to. Instead I will receive the 
 
 This is because this program is configured with the CLOSED level of access.
 
-### Exercise 3
+## Exercise 3
 
-#### Part 5 - Modify the access level of your program
+### Part 5 - Modify the access level of your program
 
 **_Perform this exercise within the “CUSTOMIZE” system._**
 
