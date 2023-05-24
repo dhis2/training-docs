@@ -23,7 +23,7 @@ The overall objective of this session is to describe the usage of building and u
 
 ## Exercise 1
 
-## Review a program level notification
+### Review a program level notification
 
 PERFORM THIS EXERCISE in the DEMO system
 
@@ -35,7 +35,7 @@ You should receive an email
 
 ![](Images/programnoti/image19.png)
 
-## Part 2
+#### Part 2
 
 ## Configure the program notification
 
@@ -105,7 +105,7 @@ This will send the message to the e-mail that is entered during enrollment.
 
 Save the reminder by clicking on Done than Save.
 
-## **Test the program notification in tracker capture**
+### **Test the program notification in tracker capture**
 
 Navigate to tracker capture and select an org unit at the facility level as well as the Antenatal Care program. Proceed to register a new mother.
 
@@ -114,11 +114,11 @@ After registration, check the email that you entered. You can show them the prog
 ![](Images/programnoti/image18.png)
 
 
-# **Exercise 3**
+## **Exercise 3**
 
 **_<span style="text-decoration:underline;">PERFORM THIS EXERCISE in CUSTOMIZATION against the ANC program you have created</span>_**
 
-# **Notification 2 : Creating a reminder based on program stage**
+### **Notification 2 : Creating a reminder based on program stage**
 
 Notifications can also be set on within a program stage.
 
