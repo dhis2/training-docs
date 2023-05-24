@@ -35,9 +35,9 @@ You should receive an email
 
 ![](Images/programnoti/image19.png)
 
-#### Part 2
+## Exercise 2
 
-## Configure the program notification
+### Configure the program notification
 
 **_<span style="text-decoration:underline;">PERFORM THIS EXERCISE in CUSTOMIZATION against the ANC program you have created</span>_**
 
@@ -114,7 +114,7 @@ After registration, check the email that you entered. You can show them the prog
 ![](Images/programnoti/image18.png)
 
 
-## **Exercise 3**
+## Exercise 3
 
 **_<span style="text-decoration:underline;">PERFORM THIS EXERCISE in CUSTOMIZATION against the ANC program you have created</span>_**
 

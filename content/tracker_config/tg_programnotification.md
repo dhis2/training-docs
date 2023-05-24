@@ -4,7 +4,9 @@
 
 **What is this guide?**
 
-This guide is a support document for DHIS2 Academy trainers for the session “Program Notifications.” This session follows the standard Academy training approach with 1) a live demo session where the trainer demonstrate and explain how to create program reminders, and 2) a hands-­on session with exercises where participants get to create program reminders.
+This guide is a support document for DHIS2 Academy trainers for the session “Program Notifications.” This session follows the standard Academy training approach with 
+1. a live demo session where the trainer demonstrate and explain how to create program reminders, and 
+2. a hands-­on session with exercises where participants get to create program reminders.
 
 This guide will help the trainer​ prepare​​ for the live demo session. The “Live Demo step by step” section has a detailed walkthrough of all the steps to demonstrate with explanations and screenshots that should be easy to follow. Use that when preparing for the live demo session.
 
@@ -35,12 +37,11 @@ The overall objective of this session is to describe the usage of building and u
     * Understand how template messages populate when notifications are sent
     * Understand the different types of recipients that can be specified to receive notifications
 
-
 ## **Time Requirements**
 
-Live Demo: 30 minutes
+Live Demo: 45 minutes
 
-Hands-on Exercises: 30 minutes
+Hands-on Exercises: 45 minutes
 
 
 ## **Quick Guide**
@@ -63,7 +64,7 @@ In order to create a program reminders, we can follow these general guidelines:
 
 ## Part 1
 
-## Show an example of a program level notification
+### Show an example of a program level notification
 
 NB: The email config needs to be working to show email. This is set up in both  DEMO and CUSTOMIZE for the participant.
 
@@ -79,7 +80,7 @@ You should receive an email
 
 ## Part 2
 
-## Configure the program notification you have shown
+### Configure the program notification you have shown
 
 **_<span style="text-decoration:underline;">(it will already exist in DEMO, so you will need to delete it; than you can recreate it)</span>_**
 
@@ -115,11 +116,7 @@ Specify when to send it
 
 ![](Images/programnoti/image9.png)
 
-
-
-        **NOTE:**
-
-
+**NOTE:**
 
 * Days scheduled allows for specifying the number of days after enrollment or incident date that the message is going to sent
 * Program completion will only send the reminder when the enrollment is completed
@@ -150,7 +147,7 @@ This will send the message to the e-mail that is entered during enrollment.
 
 Save the reminder by clicking on Done than Save.
 
-## **Test the program notification in tracker capture**
+### **Test the program notification in tracker capture**
 
 Navigate to tracker capture and select an org unit at the facility level as well as the Antenatal Care program. Proceed to register a new mother.
 
@@ -158,9 +155,9 @@ After registration, check the email that you entered. You can show them the prog
 
 ![](Images/programnoti/image18.png)
 
-# **Part 3**
+## Part 3
 
-# **Notification 2 : Creating a reminder based on program stage**
+### **Notification 2 : Creating a reminder based on program stage**
 
 Notifications can also be set on within a program stage.
 
@@ -194,15 +191,13 @@ Notifications can also be set on within a program stage.
 
 While not possible to show this reminder being sent, this example is to show participants how to create a schedule based notification when necessary. 
 
+## Part 4
 
-# **Part 4 **
-
-# **Configuring the time when messages should be sent out (Scheduling)**
+### **Configuring the time when messages should be sent out (Scheduling)**
 
 When your scheduled jobs run, all the messages scheduled to be delivered in the next day will be prepared and OUTBOUND (pending sending at the scheduled delivery time)
 
 You will need to set the time when you want the messages delivered to the intended recipients. This is done using a CRON expression. While several preset times are available in DHIS2, you may also want to use your own expression.
-
 
 1. Navigate to the scheduler app
 
