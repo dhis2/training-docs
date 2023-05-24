@@ -6,7 +6,10 @@
 
 ## **What is this guide?**
 
-This guide is a support document for DHIS2 Academy trainers for the session “Program Rules.” This session follows the standard Academy training approach with 1) a live demo session where the trainer demonstrate and explain how to create program rules, and 2) a hands-­on session with exercises where participants get to create program rules.
+This guide is a support document for DHIS2 Academy trainers for the session “Program Rules.” This session follows the standard Academy training approach with 
+
+   1. a live demo session where the trainer demonstrate and explain how to create program rules, and
+   2.  a hands-­on session with exercises where participants get to create program rules.
 
 This guide will help the trainer​ prepare​​ for the live demo session. The “Live Demo step by step” section has a detailed walkthrough of all the steps to demonstrate with explanations and screenshots that should be easy to follow. Use that when preparing for the live demo session.
 
@@ -88,15 +91,16 @@ In order to create a program rule, we can follow these general guidelines:
     2. Refer the the [documentation](https://docs.dhis2.org/en/use/user-guides/dhis-core-version-master/configuring-the-system/programs.html#configure_program_rule) to see many examples of the items that can be used within the expression, as well as examples of expressions
 5. Define the program rules actions
     3. Refer to the [documentation](https://docs.dhis2.org/en/use/user-guides/dhis-core-version-master/configuring-the-system/programs.html#configure_program_rule) for more detail on each individual action
-6. Clear your cache and test the rule!
+6. Clear your cache and test the 
 
-## Rule 1 - In the first example, we will create a program rule for the TB program which hides the “EPTB Site” data element if the TB is not classified as extra-pulmonary.
+
+## **Rule 1 -** In the first example, we will create a program rule for the TB program which hides the “EPTB Site” data element if the TB is not classified as extra-pulmonary.
 
 **You should start this session by presenting ONLY Slides 1-4 here:**
 
-[https://docs.google.com/presentation/d/1-Hz9drTKa8CNvTt15dqdCSMxXD52TEQ04MN0mX2u4Js/edit?usp=sharing](https://docs.google.com/presentation/d/1-Hz9drTKa8CNvTt15dqdCSMxXD52TEQ04MN0mX2u4Js/edit?usp=sharing) 
+(https://docs.google.com/presentation/d/1igu8J5ybDOPHJnxMX6n5Ah2gHhL1Ri54v9lX4ZvZGSA/edit#slide=id.g3bdf14aaf4_0_0)
 
-## Step 1 - Access the Program and attribute app
+### Step 1 - Access the Program and attribute app
 
 **Log into the blank instance and go to Maintenance App**
 
@@ -108,11 +112,11 @@ In order to create a program rule, we can follow these general guidelines:
 
 NOTE: To create a new program rule, you may need to first create Program rule variables
 
-## Step 2 - Create the program rule variable
+### Step 2 - Create the program rule variable
 
 You can explain the concept of a variable using slides 6-7
 
-[https://docs.google.com/presentation/d/1-Hz9drTKa8CNvTt15dqdCSMxXD52TEQ04MN0mX2u4Js/edit?usp=sharing](https://docs.google.com/presentation/d/1-Hz9drTKa8CNvTt15dqdCSMxXD52TEQ04MN0mX2u4Js/edit?usp=sharing) 
+(https://docs.google.com/presentation/d/1igu8J5ybDOPHJnxMX6n5Ah2gHhL1Ri54v9lX4ZvZGSA/edit#slide=id.g3bdf14aaf4_0_0) 
 
 **To create a new program rule variable, you need to first create Program rule variables**
 
@@ -125,7 +129,7 @@ You can explain the concept of a variable using slides 6-7
 
 The majority of the time you will be using “data element in current event” or “Tracked entity attribute” however there are uses for the other fields. We can explain them further in additional examples. 
 
-## Step 3 - Create the program rule
+### Step 3 - Create the program rule
 
 **To create a new program rule, Click on Program rule and Add (the “+” **symbol)**
 
@@ -138,8 +142,7 @@ Do not worry about the priority for now. This will be covered in other trainings
 **Enter the Program rule expression**
 
 You can refer to Slide 8 and 9 on expressions and operators:
-
-[https://docs.google.com/presentation/d/1-Hz9drTKa8CNvTt15dqdCSMxXD52TEQ04MN0mX2u4Js/edit?usp=sharing](https://docs.google.com/presentation/d/1-Hz9drTKa8CNvTt15dqdCSMxXD52TEQ04MN0mX2u4Js/edit?usp=sharing) 
+(https://docs.google.com/presentation/d/1igu8J5ybDOPHJnxMX6n5Ah2gHhL1Ri54v9lX4ZvZGSA/edit#slide=id.g3bdf14aaf4_0_0) 
 
 **Create an expression #{TBDiseaseSite_current} == ''  || #{TBDiseaseSite_current} == 'Pulmonary'**
 
@@ -158,7 +161,7 @@ The full list of actions can be viewed in the [documentation](https://docs.dhis2
 **and click on COMMIT to save. SAVE the program rule before continuing.**
 
 
-## Step 3 -Test the Program Rule
+### Step 3 -Test the Program Rule
 
 You may need to clear your cache or reload in incognito mode so the rule works correctly.
 
@@ -192,14 +195,9 @@ You will get an error message saying that the EPTB Site value was deleted. The l
 
 ![](Images/pr/image12.png)
 
-### STOP - Have the participant’s perform Exercise 1 in the learner’s guide
+#### STOP - Have the participant’s perform Exercise 1 in the learner’s guide
 
-
-## Rule 2 - Create a program rule to hide parity if gravidity is 1 or blank using the ANC program. Instruct the participants to make the rule along with you.
-
-**Gravidity** is defined as the number of times that a woman has been pregnant. 
-
-**Parity** is defined as the number of times that she has given birth to a fetus with a gestational age of 24 weeks or more, regardless of whether the child was born alive or was stillborn.
+## **Rule 2 -** Create a program rule to hide pregnant if Age is less than 18 and Gender is Male using the TB Program
 
 **Access the Programs rules from Maintenance App ⇒ Program**
 
@@ -215,11 +213,16 @@ You will get an error message saying that the EPTB Site value was deleted. The l
 
 ![](Images/pr/image3.png)
 
-**Create the program rule**
+And
 
 ![](Images/pr/image37.png)
 
-In the expression, we are using numbers. There are no quotes needed around the number. We will also hide the value if parity is blank.
+**Create a Program Rule**
+Hide pregnant if sex is less than 18 and sex is Male
+
+Enter the program rule details.
+ 
+In the expression, we are using numbers. There are no quotes needed around the number. We will also hide the pregnant if sex is Male.
 
 ![](Images/pr/image39.png)
 
@@ -227,11 +230,11 @@ In the expression, we are using numbers. There are no quotes needed around the n
 
 Clear the cache if needed, than go to tracker capture to test the rule
 
-Parity should not show when gravidity is blank or 1
+Pregnant should be hidden if age is less than 18 and sex is Male
 
 ![](Images/pr/image34.png)
 
-It should show if it is 2 or higher
+It should show 
 
 ![](Images/pr/image7.png)
 
@@ -269,7 +272,7 @@ In the expression, we combine several principles to create our output by using t
 
 ![](Images/pr/image31.png)
 
-## Test the program rule as before
+**Test the program rule as before**
 
 **Clear your browser cache by using the browser cache cleaner app**
 
@@ -350,7 +353,7 @@ For the action, we will display the value that was collected in the feedback wid
 
 ![](Images/pr/image26.png)
 
-## Create the program rule
+**Create the program rule**
 
 **Provide the Program rule details**
 
@@ -364,7 +367,7 @@ In the expression, we will use a numerical function. You can point the participa
 
 ![](Images/pr/image15.png)
 
-## Test the program rule as before
+**Test the program rule as before**
 
 **Clear your browser cache by using the browser cache cleaner app**
 
