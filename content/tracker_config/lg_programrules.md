@@ -1,12 +1,10 @@
 # **Learner’s guide to Program Rules**
 
-**_PERFORM THESE EXERCISES IN THE CONFIG SYSTEM. USE THE TB and ANTENATAL CARE Programs you have created._**
-
+**_PERFORM THESE EXERCISES IN THE CONFIG SYSTEM. USE THE TB Program you have created._**
 
 ## **What is this guide?**
 
 This guide contains all exercises and detailed steps to perform them related to the configuration of programs for the Tracker Config Level 1 academy. Please perform each of the exercises when prompted by your instructors.
-
 
 ## **Learning objectives for this session**
 
@@ -45,7 +43,7 @@ In order to create a program rule, we can follow these general guidelines:
 
 ## Exercise 1 - In the first example, we will create a program rule for the TB program which hides the “EPTB Site” data element if the TB is not classified as extra-pulmonary.
 
-## Step 1 - Access the Program and attribute app
+### Step 1 - Access the Program and attribute app
 
 **Log into the blank instance and go to Maintenance App **
 
@@ -57,7 +55,7 @@ In order to create a program rule, we can follow these general guidelines:
 
 NOTE: To create a new program rule, you may need to first create Program rule variables
 
-## Step 2 - Create the program rule variable
+### Step 2 - Create the program rule variable
 
 **To create a new program rule variable. You need to first create Program rule variables before creating your rules.**
 
@@ -73,7 +71,7 @@ Use your initials as a prefix when creating the variable to keep the name unique
 The majority of the time you will be using “data element in current event” or “Tracked entity attribute” however there are uses for the other fields. We will explain them further in additional examples. 
 
 
-## Step 3 - Create the program rule
+### Step 3 - Create the program rule
 
 **To create a new program rule, Click on Program rule and Add (the “+” **symbol)**
 
@@ -102,7 +100,7 @@ The full list of actions can be viewed in the [documentation](https://docs.dhis2
 
 **and click on COMMIT to save. SAVE the program rule before continuing.**
 
-## Step 3 -Test the Program Rule
+### Step 3 -Test the Program Rule
 
 You may need to clear your cache or reload in incognito mode so the rule works correctly.
 
@@ -140,47 +138,49 @@ You will get an error message saying that the EPTB Site value was deleted. The l
 
 ![](Images/pr/image12.png)
 
-## Exercise 2 - Create a program rule to hide parity if gravidity is 1 or blank using the ANC program. Instruct the participants to make the rule along with you.
-
-**Gravidity** is defined as the number of times that a woman has been pregnant. 
-
-**Parity **is defined as the number of times that she has given birth to a fetus with a gestational age of 24 weeks or more, regardless of whether the child was born alive or was stillborn.
-
-If she has only been pregnant once (her current pregnancy) she can not have any value for parity.
-
-**_Remember to use your initials as a prefix when creating these objects to keep the names unique._**
+## Exercise 1 - Create a program rule to hide pregnant if Age is less than 18 and Gender is Male using the TB Program
 
 **Access the Programs rules from Maintenance App ⇒ Program**
 
+**Log into the blank instance and go to Maintenance App**
+
 ![](Images/pr/image18.png)
 
-
-Select program rule variable from the left side menu, or select the plus button under the program rule variable heading.
-
-**Add in a new program rule variable**
+**and click on Program**
 
 ![](Images/pr/image2.png)
 
-**Create the program rule**
+**_Remember to use your initials as a prefix when creating these objects to keep the names unique._**
+
+**Add in a new program rule variable**
+
+![](Images/pr/image3.png)
+
+And
 
 ![](Images/pr/image37.png)
 
-In the expression, we are using numbers. There are no quotes needed around the number. We will also hide the value if parity is blank.
+**Create a Program Rule**
+Hide pregnant if sex is less than 18 and sex is Male
+
+Enter the program rule details.
+
+In the expression, we are using numbers. There are no quotes needed around the number. We will also hide the pregnant if sex is Male.
 
 ![](Images/pr/image39.png)
-
 
 **Test the rule with the participants**
 
 Clear the cache if needed, than go to tracker capture to test the rule
 
-Parity should not show when gravidity is blank or 1
+Pregnant should be hidden if age is less than 18 and sex is Male
 
 ![](Images/pr/image34.png)
 
-It should show if it is 2 or higher
+It should show 
 
 ![](Images/pr/image7.png)
+
 
 ## Exercise 3 - Create another program rule for the TB Treatment Card which displays a warning message when Weight is out of range
 
@@ -239,7 +239,7 @@ When the weight is within the range you have defined, or the weight data element
 
 ## Exercise 4 - Create a program rule that shows the TB disease site in the feedback
 
-## Show the disease site in the feedback widget
+**Show the disease site in the feedback widget**
 
 **Access the Programs rules from Maintenance App ⇒ Program**
 
