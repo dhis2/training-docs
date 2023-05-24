@@ -104,7 +104,6 @@ Numerator: TB new cases
 
 Denominator: Population Total
 
-
 ## Exercise 1 - Indicator 1 : EPTB Cases
 
 ### Conceptualize the indicator
@@ -185,8 +184,7 @@ Create a new pivot table with the following details
 * Period : Last year
 * Organisation Unit : Trainingland
 
-
-### Click on update to verify that the values are equal in the indicators. This will provide some validation that the indicator is created correctly.
+Click on update to verify that the values are equal in the indicators. This will provide some validation that the indicator is created correctly.
 
 ![](Images/pi/image21.png)
 
@@ -271,8 +269,7 @@ Create a new pivot table with the following details
 * Period : Last year
 * Organisation Unit : Trainingland
 
-
-### Click on update to verify that the values are equal in the indicators. This will provide some validation that the indicator is created correctly.
+Click on update to verify that the values are equal in the indicators. This will provide some validation that the indicator is created correctly.
 
 
 ![](Images/pi/image34.png)
@@ -358,8 +355,7 @@ Create a new pivot table with the following details
 * Period : Last year
 * Organisation Unit : Trainingland
 
-
-### Click on update to verify that the values are equal in the indicators. This will provide some validation that the indicator is created correctly.
+Click on update to verify that the values are equal in the indicators. This will provide some validation that the indicator is created correctly.
 
 ![](Images/pi/image52.png)
 
@@ -477,8 +473,7 @@ Create a new pivot table with the following details
 * Period : Last year
 * Organisation Unit : Trainingland
 
-
-### Click on update to verify that the values are equal in the indicators. This will provide some validation that the indicator is created correctly.
+Click on update to verify that the values are equal in the indicators. This will provide some validation that the indicator is created correctly.
 
 ![](Images/pi/image50.png)
 
