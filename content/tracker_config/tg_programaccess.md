@@ -16,6 +16,12 @@ There is also a Quick Guide which lists the steps very briefly and this is meant
 guide or “cheatsheet” WHILE doing the demo, to help the trainer remember all the steps and the flow of the demo.
 
 ## Background
+ 
+ In this section we will discuss a security feature (breaking the glass) a quick means when a person does not have access to certain features or part of program to get a quick access when necessary. 
+
+ This means it is possible to override the ownership privelege of the program that was configured witn an access level protected. Any user will be able to temporarily gain access to the program related data, if the user specifies a reason for accessing the tracked entity-program data.
+
+In this demo, we will use both program configuration set as open level access and closed level access. 
 
 ## Preparation
 
