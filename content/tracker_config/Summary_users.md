@@ -1,7 +1,7 @@
 
+# USERS SUMMARY
+
 Users are made of up the following elements
-
-
 
 * User Authorities
     * A permission to perform one or several specific tasks
@@ -18,7 +18,6 @@ Users are made of up the following elements
 ![](Images/userssummary/image1.png)
 
 To create a user role, we must select authorities from 5 different sections
-
 
 1. **Metadata** : the metadata section allows you to assign different permissions to a user role that allow for adding or deleting either public or private metadata objects. For example, you could provide someone access to create and delete public data elements. You will also see an option for external access. This is only available for report type objects, and allows this user role to give access to these reports via outside access (for example, through a web portal). 
 2. **Apps**: the apps section allows you to give access to the various DHIS2 apps that are within your instance. This includes all of the core DHIS2 apps, as well as any custom apps you may have on your own system. Note that this section only gives you access to the app, it does not specify what you can do within the app necessarily.

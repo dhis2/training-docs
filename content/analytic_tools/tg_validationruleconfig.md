@@ -2,10 +2,9 @@
 # Trainer’s Guide to Validation Rules (Config)
 
 
-# What is this guide?
+## What is this guide?
 
 This guide is a support document for the trainers of “Configuring Validation Rules.” This session is divided into 3 parts.
-
 
 
 * Part 1 - Create a logical rule [simple]
@@ -19,23 +18,21 @@ This guide will help the trainer prepare for the live demo session.The “Live D
 There is also a Quick Guide which lists the steps very briefly and this is meant as a lookup guide or “cheatsheet” WHILE doing the demo, to help the trainer remember all the steps and the flow of the demo.
 
 
-# Learning objectives for this session
-
-
+## Learning objectives for this session
 
 1. Define a validation rule after reviewing a data set.
 2. Create a validation rule to measure internal consistency.
 3. Create a validation rule measuring against a generated threshold.
 
 
-# Time needed for this session
+## Time needed for this session
 
 Live demo: 2 demos, ~ 25 mins each
 
 Hands-on exercises: 2 exercises, ~ 20 mins each
 
 
-# Preparations
+## Preparations
 
 Go through the Live demo step by step guide a few times before doing the actual demo for participants.
 
@@ -46,15 +43,15 @@ Make sure the resolution on projector is OK for zooming in Data Visualizations w
 The second exercise involves sending notifications. Make sure all the participants are in a user group, and the user group is assigned as a recipient to the “Rotavirus 2 doses administered &lt;= Rotavirus 2 threshold” validation notification. 
 
 
-# Table of Contents/Quick Guide
+## Table of Contents/Quick Guide
 
 - [Trainer’s Guide to Validation Rules (Config)](#trainers-guide-to-validation-rules-config)
-- [What is this guide?](#what-is-this-guide)
-- [Learning objectives for this session](#learning-objectives-for-this-session)
-- [Time needed for this session](#time-needed-for-this-session)
-- [Preparations](#preparations)
-- [Table of Contents/Quick Guide](#table-of-contentsquick-guide)
-- [Live Demo Step-by-Step](#live-demo-step-by-step)
+  - [What is this guide?](#what-is-this-guide)
+  - [Learning objectives for this session](#learning-objectives-for-this-session)
+  - [Time needed for this session](#time-needed-for-this-session)
+  - [Preparations](#preparations)
+  - [Table of Contents/Quick Guide](#table-of-contentsquick-guide)
+  - [Live Demo Step-by-Step](#live-demo-step-by-step)
   - [Part 1 - Create a Validation Rule](#part-1---create-a-validation-rule)
     - [Review the data entry page and decide on a logical validation rule to create](#review-the-data-entry-page-and-decide-on-a-logical-validation-rule-to-create)
     - [Create the validation rule HIV tests positive \<= HIV tests performed](#create-the-validation-rule-hiv-tests-positive--hiv-tests-performed)
@@ -90,7 +87,7 @@ The second exercise involves sending notifications. Make sure all the participan
 
 
 
-# Live Demo Step-by-Step
+## Live Demo Step-by-Step
 
 
 ## Part 1 - Create a Validation Rule
@@ -121,8 +118,6 @@ Create a new rule by selecting the “+” icon underneath validation rule
 
 ![](Images/vrconfig/image4.png)
 
-
-
 Explain the fields that will be used to describe the rule. Use your initials to create the rule when showing it to participants.
 
 
@@ -142,11 +137,9 @@ Open the left side expression and explain what you are intending to do. The rule
 
 ![](Images/vrconfig/image11.png)
 
-
 > ***Note:*** It is recommended to use the disaggregated data elements instead of the total data element as shown in the figure above e.g. HIV tests positive Male + HIV tests positive Female. This is because during validation rule analysis, when looking at the details, if the total data element was selected the details will be empty and you will not be able to drill down to identify where the problem originates from.
 
 Select “Save” once the left side has been selected.
-
 
 #### Select the Operator
 
@@ -192,7 +185,6 @@ Select “Run validation”
 
 Select the following inputs:
 
-
 * **Date : January 1 2023 - April 1 , 2023**
 * **Rule Group : The group you have just made**
 * **Parent Organisation unit : Animal Region**
@@ -237,7 +229,6 @@ Create a new rule by selecting the “+” icon underneath validation rule
 Explain the fields that will be used to describe the rule. Use your initials to create the rule when showing it to participants.
 
 ![](Images/vrconfig/image8.png)
-
 
 Here is the description and instruction
 

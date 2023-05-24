@@ -3,7 +3,7 @@
 # Trainer’s Guide to Validation Rules (Use)
 
 
-# What is this guide?
+## What is this guide?
 
 This guide is a support document for the trainers of “Reviewing Validation Rules”. This session should take ~ 3 hours between the presentation, demonstration and having the learners perform activities that copy the demo.
 
@@ -12,7 +12,7 @@ This guide will help the trainer prepare for the live demo session.The “Live D
 There is also a Quick Guide which lists the steps very briefly and this is meant as a lookup guide or “cheatsheet” WHILE doing the demo, to help the trainer remember all the steps and the flow of the demo.
 
 
-# Learning objectives for this session
+## Learning objectives for this session
 
 
 
@@ -25,21 +25,21 @@ There is also a Quick Guide which lists the steps very briefly and this is meant
 7. Execute validation rule analysis using validation rules with defined thresholds
 
 
-# Time needed for this session
+## Time needed for this session
 
 Live demo: 5 demos/presentation, ~ 20 mins each
 
 Hands-on activities: 4 activities, ~ 15 mins each
 
 
-# Background on this topic/module
+## Background on this topic/module
 
 Validation rules are an excellent tool that can be used to measure a number of consistency measures within a DHIS2 system. They can be used to manage internal consistency by comparing two or more data items collected during the same process (for example, 2 malaria data items collected at the same time) as well as measuring external consistency by measuring values collected using different mechanisms (for example, data collected via a DHIS2 dataset along with data imported into DHIS2 from a survey).
 
 Thes rules can be run directly in data entry - recommended if measuring internal consistency - as well as through a batch operation called validation analysis. In this session, you will discuss how these rules can be viewed in DHIS2.
 
 
-# Preparations
+## Preparations
 
 Go through the Live demo step by step guide a few times before doing the actual demo for participants. You will be moving back and forth between the demo and this presentation : 
 
@@ -52,16 +52,16 @@ Make sure your user account is the same or similar to the participants’ traini
 The second exercise involves sending notifications. Make sure all the participants are in a user group, and the user group is assigned as a recipient to the “Rotavirus 2 doses administered &lt;= Rotavirus 2 threshold” validation notification. By setting this up, the participants will also be able to receive the notification you are sending out.
 
 
-# Table of Contents/Quick Guide
+## Table of Contents/Quick Guide
 
 - [Trainer’s Guide to Validation Rules (Use)](#trainers-guide-to-validation-rules-use)
-- [What is this guide?](#what-is-this-guide)
-- [Learning objectives for this session](#learning-objectives-for-this-session)
-- [Time needed for this session](#time-needed-for-this-session)
-- [Background on this topic/module](#background-on-this-topicmodule)
-- [Preparations](#preparations)
-- [Table of Contents/Quick Guide](#table-of-contentsquick-guide)
-- [Live Demo Step-by-Step](#live-demo-step-by-step)
+  - [What is this guide?](#what-is-this-guide)
+  - [Learning objectives for this session](#learning-objectives-for-this-session)
+  - [Time needed for this session](#time-needed-for-this-session)
+  - [Background on this topic/module](#background-on-this-topicmodule)
+  - [Preparations](#preparations)
+  - [Table of Contents/Quick Guide](#table-of-contentsquick-guide)
+  - [Live Demo Step-by-Step](#live-demo-step-by-step)
   - [Part 1 - Run a validation rule in data entry](#part-1---run-a-validation-rule-in-data-entry)
     - [Review the rules in data entry](#review-the-rules-in-data-entry)
   - [Part 2 - Run a validation rule in validation rule analysis](#part-2---run-a-validation-rule-in-validation-rule-analysis)
@@ -81,7 +81,7 @@ The second exercise involves sending notifications. Make sure all the participan
    
 
 
-# Live Demo Step-by-Step
+## Live Demo Step-by-Step
 
 
 ## Part 1 - Run a validation rule in data entry

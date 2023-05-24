@@ -1,10 +1,30 @@
-## Learner’s Guide to Users Roles
+# Trainer’s Guide to Users Roles
 
-## USE THE CONFIG SYSTEM TO FOLLOW THIS GUIDE
+**_Use the Config system to follow this guide_**
 
-## What is this guide?
+## **What is this guide?**
 
-This guide contains all ungraded exercises and detailed steps to perform them related to the creation of a tracker program for the Tracker Config Level 1 academy. Please perform each of the exercises when prompted by your instructors within the **CONFIG** system. 
+This guide is a support document for DHIS2 Academy trainers for the session “User roles.” This session follows the standard Academy training approach with 
+
+1. a live demo session where the trainer demonstrate and explain how to create program reminders, and 
+2. a hands-­on session with exercises where participants get to create program reminders.
+
+This guide will help the trainer​ prepare​​ for the live demo session. The “Live Demo step by step” section has a detailed walkthrough of all the steps to demonstrate with explanations and screenshots that should be easy to follow. Use that when preparing for the live demo session.
+
+There is also a Quick Guide which lists the steps very briefly and this is meant as a lookup guide or “cheatsheet” WHILE doing the demo, to help the trainer remember all the steps and the flow of the demo.
+
+## **Background**
+
+User roles are a key component of determining how a user can interact with DHIS2. When combined with user groups and sharing, a wide variety of access control can be placed within the system. 
+
+## **Preparation**
+
+In order to conduct this session, you need to review the sharing settings of the TB treatment card program. 
+
+It should be set to Public: metadata - can view and data - can capture and view for the program and program stages to allow everyone to access the program when they create their users.
+
+Perform this demo with the **CONFIG** instance.
+
 
 ## Learning objectives for this session
 
@@ -12,13 +32,38 @@ This guide contains all ungraded exercises and detailed steps to perform them re
 * Configure these concepts in DHIS2
 * Create a user in DHIS2
 
-## Exercise 1 - Review user roles and their effect on user permissions
+## Time Requirements
+
+Live Demo: 1 hr 15 min
+
+## Quick Guide
+
+1. Review the user role tracker data entry, explain each of the sections within the user-interface when creating or editing a user role
+2. Review the specific authorities for the tracker data entry role
+3. Discuss the tracker authorities in more detail
+4. Log in to a user with the tracker data entry role in the tracker customization instance
+    1. Username : tracker_entry
+    2. Password : District1#
+
+STOP - Perform Exercise 1
+
+
+5. Create a new user and assign it the tracker data entry role. Test the user
+
+STOP - Perform Exercise 2
+
+6. Create a new user role - tracker data analysis
+7. Assign this user role to the user you have made and test the user
+
+STOP - Perform Exercise 3
+
+## Live Demo step by step
 
 When we create a new user, we must first have in place the relevant user roles that will be assigned to the user. It is often also helpful to have the user groups available that a user will be assigned to; though this might come later on. 
 
 Let us start this process by reviewing the makeup of a user role.
 
-## Review the user roles management page
+### Review the user roles management page
 
 In order to start the process of creating a user role, navigate to the users app
 
@@ -42,24 +87,22 @@ Select the tracker data entry role in order to review it. You will see the user 
     3. Import/export authorities
     4. System authorities
 
-4. **Basic information** : Includes the name and description of the user role
+**Basic information :** Includes the name and description of the user role
+
+**Metadata** : the metadata section allows you to assign different permissions to a user role that allow for adding or deleting either public or private metadata objects. For example, you could provide someone access to create and delete public data elements. You will also see an option for external access. This is only available for report type objects, and allows this user role to give access to these reports via outside access (for example, through a web portal).
    
-5. **Metadata** : the metadata section allows you to assign different permissions to a user role that allow for adding or deleting either public or private metadata objects. For example, you could provide someone access to create and delete public data elements. You will also see an option for external access. This is only available for report type objects, and allows this user role to give access to these reports via outside access (for example, through a web portal).
+**Apps**: the apps section allows you to give access to the various DHIS2 apps that are within your instance. This includes all of the core DHIS2 apps, as well as any custom apps you may have on your own system. Note that this section only gives you access to the app, it does** **not specify what you can do within the app necessarily.
     
-6. **Apps**: the apps section allows you to give access to the various DHIS2 apps that are within your instance. This includes all of the core DHIS2 apps, as well as any custom apps you may have on your own system. Note that this section only gives you access to the app, it does not specify what you can do within the app necessarily.
+**Tracker**: tracker authorities have their own specific section as they are unique to the tracker data model. This does include events to some extent as well. This is because items like adding tracked entities or modifying events is unique to this model.
    
-7. **Tracker : **tracker authorities have their own specific section as they are unique to the tracker data model. This does include events to some extent as well. This is because items like adding tracked entities or modifying events is unique to this model.
+**Import - Export** : these authorities are given to a user role that will be dealing with the import/export of metadata, data or both. This is usually only given to a specialized role
    
-8. **Import - Export** : these authorities are given to a user role that will be dealing with the import/export of metadata, data or both. This is usually only given to a specialized role.
-   
-9.  **System**: the system authorities allow a user to run various system level operations within DHIS2. This includes operations like validation rule analysis, predictor, and data approval for example. 
-
-```
-Note: at the moment there is no comprehensive list of what each of the user authorities available here allows the user to do. While some are straightforward, many are not. As a result it can be slightly confusing to determine which authorities to assign a user role. We will try to provide some examples of template user roles that can be used for common tracker operations. When you are unsure about how to define a user role, the community of practice will be a better resource until the documentation is updated.
-```
+**System**: the system authorities allow a user to run various system level operations within DHIS2. This includes operations like validation rule analysis, predictor, and data approval for example. 
 
 
-## Review the authorities assigned to the tracker data capture user role
+    Note: at the moment there is no comprehensive list of what each of the user authorities available here allows the user to do. While some are straightforward, many are not. As a result it can be slightly confusing to determine which authorities to assign a user role. We will try to provide some examples of template user roles that can be used for common tracker operations. When you are unsure about how to define a user role, the community of practice will be a better resource until the documentation is updated.
+
+### Review the authorities assigned to the tracker data capture user role
 
 We can review the authorities assigned to this user role in two ways.
 
@@ -68,12 +111,11 @@ We can review the authorities assigned to this user role in two ways.
 
 ![](Images/userroles/image28.png)
 
-For this user role, we are only using authorities from the apps and tracker sections. When we create user roles, we should be thinking about creating roles that cover a specific function. We can then combine various user roles together to give our user the access they need. This may differ from a common approach of creating a user role for a specific job type (data entry clerk, reproductive health staff) or geographical level (national staff, provincial staff) for example; however such an approach is not recommended. Such an approach does not allow for any variation within those functions as it is not as flexible as creating generic, reusable roles.
+For this user role, we are only using authorities from the apps and tracker sections. When we create user roles, we should be thinking about creating roles that cover a specific function. We can then combine various user roles together to give our user the access they need. This may differ from a common approach of creating a user role for a specific job type (data entry clerk, reproductive health staff) or geographical level (national staff, provincial staff) for example however such an approach is not recommended. Such an approach does not allow for any variation within those functions as it is not as flexible as creating generic, reusable roles.
 
 Let us review the authorities assigned to this role. 
 
 There are only assigned 3 apps as part of this role
-
 
 ![](Images/userroles/image8.png)
 
@@ -87,7 +129,7 @@ The user roles also has several tracker authorities assigned to it
 
 These authorities specify which actions a user can perform as it relates to tracker data. A quick note, if a user can create an event or enrollment, they can also delete it. The delete authorities you see here allow for cascading the deletion (for example, they can delete all the events in an enrollment at once - rather than one by one). 
 
-Let us review each of the available tracker authorities as they are important for tracker user roles (note: they are not applied to the user role we are reviewing)
+Let us review each of the available tracker authorities as they are important for tracker user roles (Note: they are not applied to the user role we are reviewing)
 
 * Administer program dashboard configuration:
     * Allows a user to modify the default tracked entity dashboard layout that users see
@@ -103,6 +145,8 @@ Let us review each of the available tracker authorities as they are important fo
     * Allows a user to incomplete a previously completed event
 * Update tracked entities
     * Allows a user to update an existing tracked entity
+* Tracker importer experimental
+    * 
 * View event analysis
     * Allows a user to view analytics data related to any events
 
@@ -121,7 +165,7 @@ First, go to tracker capture. Select **_Parrot district hospital_** for entering
 
 The user role however allows them to access tracker capture in the first place, and perform specific actions within the program and program stages that have been shared with them. 
 
-We can explore the features of what the user role is allowing by opening an existing record
+For example, if you were to open an existing record
 
 You can incomplete events (via the “Uncomplete events” authority)
 
@@ -131,15 +175,15 @@ Update a TEI (via the “Update tracked entities” authority)
 
 ![](Images/userroles/image5.png)
 
-Or perform a cascaded delete (via the “Delete tracked entity instance and associated enrollments and events” authority). Cancel the deletion of the enrollment by selecting “No.”
+Or perform a cascaded delete (via the “Delete tracked entity instance and associated enrollments and events” authority). Do not delete the enrollment.
 
 ![](Images/userroles/image14.png)
 
 This is all possible via the user role and the authorities we have assigned to it.
 
-## Exercise 2 - Create a new user
+#### STOP - Perform Exercise 1 in the learner’s guide
 
-## Create a new user and assign it the tracker data entry role
+### Create a new user and assign it the tracker data entry role
 
 Let’s go through the process of creating a new user and assign it the tracker data entry role.
 
@@ -152,6 +196,7 @@ When you create a new user you can use 1 of 2 methods
 ![](Images/userroles/image15.png)
 
 1. You can create the account directly with all of the user details
+   
 2. You can send an email invitation to create their account
 
 Option 2 is often better in practice, as it allows for the user to create their own password directly, rather than you having to figure out how to share a password you have made for them, which may or may not get updated by the user.
@@ -207,10 +252,9 @@ You will see one more heading under Basic Information labeled “Security.” If
 
 ![](Images/userroles/image3.png)
 
-Switch back to email invitation to create account. 
+Switch back to “email invitation to create an account.”
 
 When you have filled in all the details, select “Create user” to send the invitation to the person’s email.
-
 
 ### Sign the user up
 
@@ -224,7 +268,9 @@ Follow the link and fill in the new details for the user. Select Create once all
 
 This will log you in as the user. You can test the functionality to ensure they have the correct access.
 
-## Exercise 3 - Create a new user role
+#### STOP - Perform Exercise 2 in the learner’s guide
+
+### Create a new user role - tracker data analysis
 
 Navigate to users and list out the user roles
 
@@ -232,7 +278,7 @@ Navigate to users and list out the user roles
 
 Select the “New” button to add a new user role
 
-Give the user role a name “tracker data analysis” (use your initials as a prefix to the name) and add a description like:
+Give the user role a name “your_initials_tracker data analysis” and add a description like:
 
 Allows a user to access event/tracker data outputs via data visualizer, maps, event reports, event visualizer, dashboard and create public items from within these apps.
 
@@ -242,7 +288,7 @@ Let us now think through the permissions we want this role to grant.
 
 1. They should be able to access the various analysis apps
 2. They should be able to see event data
-3. They should be able to add public reports from the analysis apps
+3. They should be able to add public reports from the analysis apps (ie. charts, maps, tables that can be viewed by other users)
 
 In order to provide a user with these authorities, we actually need to use three sections
 
@@ -250,7 +296,7 @@ In order to provide a user with these authorities, we actually need to use three
 2. Apps, to give access to the analysis apps
 3. Tracker, to give access to the event data
 
-We can start in the apps box and go from there. We can grant them the following authorities
+We can start in the apps section and go from there as it is the most straightforward. We can grant them the following authorities
 
 ![](Images/userroles/image26.png)
 
@@ -260,7 +306,7 @@ To allow them to create public reports, we can modify the following authorities 
 
 ![](Images/userroles/image12.png)
 
-You can see we are just trying to match the apps we granted with the public reports we want them to be able to make.
+You can see we are just matching the apps we granted with the public reports we want them to be able to make.
 
 Lastly, lets add the authorities from the tracker section
 
@@ -274,7 +320,7 @@ We can now save this user role.
 
 ### Assign this user role to the user you previously created
 
-Open the user you previously created and assigned the “tracker data entry” user role to them. Do not change any parameters, just assign them the tracker data analysis user role you just made.
+Open the user you previously created and assigned the “tracker data entry” user role to. Do not change any parameters, just assign them the tracker data analysis user role you just made.
 
 ![](Images/userroles/image21.png)
 
@@ -282,7 +328,7 @@ Save this change.
 
 ### Log in with the user you edited
 
-After logging in, access the apps menu.
+After logging in access the apps menu.
 
 ![](Images/userroles/image24.png)
 
@@ -292,4 +338,6 @@ You can make an event report using some data from this month from the TB treatme
 
 ![](Images/userroles/image6.png)
 
-The user we are logged in with has two roles, and these roles give them distinct permissions. By creating roles this way, rather than creating a role for a user type, more flexibility is granted. For example, we could have a number of users that just have access to data analysis, but can not enter any data for example. Same for data entry; or we can combine existing roles like we have done here.
+The user we are logged in with has two roles, and these roles give them distinct permissions. By creating roles this way, rather than creating a role for a user type, more flexibility is granted. For example, we could have a number of users that just have access to data analysis, but can not enter any data. Same for data entry; or we can combine existing roles like we have done here.
+
+#### STOP - Perform Exercise 3 in the learner’s guides

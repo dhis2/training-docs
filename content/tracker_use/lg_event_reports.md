@@ -163,7 +163,7 @@ Let's review a very simple example
 - Program : COVAC - COVID-19 Vaccination Registration
 - Stage : Vaccination
 - Data : Sex, Vaccine Name
-- Period : This year
+- Period : Last year
 - Org Unit : Country
 
 This is saved as the output "COVAC - Doses by sex." You can either create this report for extra practice or open it to review it.

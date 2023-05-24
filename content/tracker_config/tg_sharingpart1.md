@@ -1,10 +1,22 @@
-# **Learner’s guide to Sharing - Part 1**
-
-# Perform these exercises in the “DEMO” instance
+# **Trainer’s guide to Sharing**
 
 ## **What is this guide?**
 
-This guide contains all ungraded exercises and detailed steps to perform them related to the creation of a tracker program for the Tracker Config Level 1 academy. Please perform each of the exercises when prompted to by your instructors
+This guide is a support document for DHIS2 Academy trainers for the session “User roles and sharing.” This session follows the standard Academy training approach with
+1. a live demo session where the trainer demonstrate and explain the sharing concept and
+2. a hands-­on session with exercises where participants get to modify sharing settings.
+
+This guide will help the trainer​ prepare​​ for the live demo session. The “Live Demo step by step” section has a detailed walkthrough of all the steps to demonstrate with explanations and screenshots that should be easy to follow. Use that when preparing for the live demo session.
+
+There is also a Quick Guide which lists the steps very briefly and this is meant as a lookup guide or “cheatsheet” WHILE doing the demo, to help the trainer remember all the steps and the flow of the demo.
+
+## **Background**
+
+Sharing can be used in order to provide granular access to meta-data and data as of 2.38. This is a new concept and is an important consideration to define for any tracker implementation. This session should accompany the sharing and user roles presentation that is available here. 
+
+## **Preparation**
+
+Everything in Trainingland has been configured already for you to use in this demo. Just follow the guide using the accounts listed and everything should work as intended. Use the **MAIN** trainingland instance with data, **DO NOT** use the customization instance as this is not configured there.
 
 ## **Learning objectives for this session**
 
@@ -15,9 +27,24 @@ This guide contains all ungraded exercises and detailed steps to perform them re
 * Describe the concepts of program and program stage sharing
 * Apply program and program stage sharing to your own program
 
-## **Exercise 1**
+## **Time Requirements**
 
-In this exercise you will be logging in as different users in order to show that you can configure users to have different levels of access to tracker programs and program stages. In Exercise 1, we will review the users associated with the ANC program.
+Live Demo: 1 hr 30 min
+
+## **Quick Guide**
+
+1. Login as the case registration user : casereg/District1#
+2. Login as the ANC staff member : ancstaff/District1#
+3. Login as the ANC manager : ancmanager/District1#
+4. Login as the TB data entry user : tb_entry/District1#
+5. Login as the TB analysis user : tb_analysis/District1#
+6. Login as the TB admin user : tb_admin/District1#
+
+For each of these users explain the different level of sharing authorities they have and what this allows them to do in relation to the ANC program.
+
+## **Live Demo step by step**
+
+In this demo you will be logging in as 3 different users in order to show that you can configure users to have different levels of access to tracker programs and program stages. 
 
 ### Step 1 - Log in as the case registration user
 
@@ -73,7 +100,6 @@ They can also interact with the data elements as they have the ability to edit t
 
 ![](Images/sharing1/image6.png)
 
-
 ### Step 3 - Login as the ANC Manager
 
 Login as an ANC manager. This user has access to view and all the data within all program stages. They can not edit any of the stages or register new expectant women however.
@@ -92,14 +118,11 @@ Similarly, if they try to add an event, they will see an error.
 
 The ability to see the data within these program stages but not edit the program stages is controlled via sharing. The ability to see data is not restricted to only tracker capture; they can also view data in the analysis apps. This must be combined with the authority “View event analytics” to view data within the analysis apps. 
 
-
 ```
 Both the ANC manager, ANC staff and case registration user have the same permissions to view this data, though this could be changed via sharing if you did not want this to be the case. The case registration user is limited where they can see this data however, as they do not have access to any analysis apps. They could therefore only see the data in the dashboard or through a person's tracked entity dashboard. This could be changed by assigning them the correct user authorities via a user role.
 ```
 
-## **Exercise 2**
-
-In exercise 2, you can review a more common configuration of program and program stage access using the TB program.
+#### STOP - Perform Exercise 1 in the learner’s guide
 
 
 ### Step 4 - Login as the TB Data Entry User
@@ -144,6 +167,7 @@ They can however run reports
 
 ![](Images/sharing1/image4.png)
 
+
 ### Step 6 - Login as the TB Admin User
 
 Login as the TB admin user. 
@@ -154,5 +178,6 @@ Password: District1#
 
 This user has access to tracker capture and analysis apps to view records as well as maintenance to edit metadata. It is the only user out of the three that has access to maintenance.
 
-
 ![](Images/sharing1/image1.png)
+
+#### STOP - Perform Exercise 2 in the learner’s guide
