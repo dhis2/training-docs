@@ -2,8 +2,6 @@
 
 **_CREATE THE RULES for TB in CONFIG._**
 
-**_CREATE THE RULES for ANC in DEMO._**
-
 ## **What is this guide?**
 
 This guide is a support document for DHIS2 Academy trainers for the session “Program Rules.” This session follows the standard Academy training approach with 
@@ -221,7 +219,7 @@ And
 Hide pregnant if sex is less than 18 and sex is Male
 
 Enter the program rule details.
- 
+
 In the expression, we are using numbers. There are no quotes needed around the number. We will also hide the pregnant if sex is Male.
 
 ![](Images/pr/image39.png)

@@ -172,7 +172,7 @@ If there is no one registered, then register a new person into your program. **_
 
 **Review the “acess_levels” user in the users app**
 
-**NOTE : DO NOT MODIFY THIS USER! Just review the users details**
+**NOTE : DO NOT MODIFY THIS USER! Just review the users details.**
 
 Navigate to the users app and find the “acces_levels” user.
 

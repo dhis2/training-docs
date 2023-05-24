@@ -2,7 +2,7 @@
 
 ## **What is this guide?**
 
-This guide is a support document for DHIS2 Academy trainers for the session “User roles and sharing.” This session follows the standard Academy training approach with 
+This guide is a support document for DHIS2 Academy trainers for the session “User roles and sharing.” This session follows the standard Academy training approach with
 1. a live demo session where the trainer demonstrate and explain the sharing concept and
 2. a hands-­on session with exercises where participants get to modify sharing settings.
 
@@ -12,7 +12,7 @@ There is also a Quick Guide which lists the steps very briefly and this is meant
 
 ## **Background**
 
-Sharing can be used in order to provide granular access to meta-data and data as of 2.29. This is a new concept and is an important consideration to define for any tracker implementation. This session should accompany the sharing and user roles presentation that is available here. 
+Sharing can be used in order to provide granular access to meta-data and data as of 2.38. This is a new concept and is an important consideration to define for any tracker implementation. This session should accompany the sharing and user roles presentation that is available here. 
 
 ## **Preparation**
 
@@ -28,6 +28,8 @@ Everything in Trainingland has been configured already for you to use in this de
 * Apply program and program stage sharing to your own program
 
 ## **Time Requirements**
+
+Live Demo: 1 hr 30 min
 
 ## **Quick Guide**
 
@@ -61,7 +63,6 @@ Note that this user does not have access to any data analysis apps, only tracker
 Go to tracker capture and select an org unit at the facility level. You will see in this case this user has access to multiple programs as they are responsible for registering patients in all health programs. 
 
 ![](Images/sharing1/image17.png)
-
 
 As this user’s primary role is to register clients, note that the “Register” button exists for this user. Select this button and register a new patient into the Antenatal care program.
 
@@ -121,7 +122,7 @@ The ability to see the data within these program stages but not edit the program
 Both the ANC manager, ANC staff and case registration user have the same permissions to view this data, though this could be changed via sharing if you did not want this to be the case. The case registration user is limited where they can see this data however, as they do not have access to any analysis apps. They could therefore only see the data in the dashboard or through a person's tracked entity dashboard. This could be changed by assigning them the correct user authorities via a user role.
 ```
 
-### STOP - Perform Exercise 1 in the learner’s guide
+#### STOP - Perform Exercise 1 in the learner’s guide
 
 
 ### Step 4 - Login as the TB Data Entry User
@@ -179,4 +180,4 @@ This user has access to tracker capture and analysis apps to view records as wel
 
 ![](Images/sharing1/image1.png)
 
-### STOP - Perform Exercise 2 in the learner’s guide
+#### STOP - Perform Exercise 2 in the learner’s guide

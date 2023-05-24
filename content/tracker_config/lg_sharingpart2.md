@@ -39,7 +39,6 @@ We can traditionally think of user groups as defining how outputs are shared (da
 
 We have covered user roles, now we can discuss user groups in a bit more detail. Navigate to the user groups part of the application. There are 3 user groups we can focus on here as related to the ANC program:
 
-
 1. Clinic Registration
 2. ANC Managers
 3. ANC Staff
