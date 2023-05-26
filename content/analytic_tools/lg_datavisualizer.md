@@ -195,7 +195,7 @@ There are descriptions for each of the items within the interface included in th
 
 #### Create a new line chart
 
-Clear the previous chart by going to File -> New. We will now go through the process of making a chart from scratch. The participants do not need to follow along during this example, so have them close their computer. 
+Clear the previous chart by going to File -> New. We will now go through the process of making a chart from scratch. 
 
 In this example we will create a chart for TB notifications. TB data is typically reported quarterly in an aggregate system, and we want to see if there are any significant changes in the TB notification rate over a significant period of time. 
 
