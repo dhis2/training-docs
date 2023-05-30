@@ -255,7 +255,7 @@ Review the chart “HIV - HIV tests performed by locality” (the values might b
 ![](Images/datavisualizer/image14.png)
 
 
-In this chart, we have the number of HIV tests performed separated by their locality type. This comparison is also using Districts as the comparison in the x-axis. Based on what we know, the category will have to be the organisation units. Clear the chart and go through the process of creating this with everyone.
+In this chart, we have the number of HIV tests performed separated by their locality type. This comparison is also using Districts as the comparison in the x-axis. Based on what we know, the category will have to be the organisation units.
 
 #### Create the chart
 
@@ -457,7 +457,7 @@ In these types of charts, the organisation unit should always be in the filter. 
 
 Data: OPV 3 coverage [Immunization coverages indicator group]
 
-Category : Last 12 months
+Period : Last 12 months
 
 Organisation Unit: Trainingland
 
