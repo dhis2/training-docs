@@ -12,7 +12,7 @@ There is also a Quick Guide which lists the steps very briefly and this is meant
 
 ## **Background**
 
-Sharing can be used in order to provide granular access to meta-data and data as of 2.38. This is a new concept and is an important consideration to define for any tracker implementation. This session should accompany the sharing and user roles presentation that is available here. 
+Sharing can be used in order to provide granular access to meta-data and data as of 2.28. This is a new concept and is an important consideration to define for any tracker implementation. This session should accompany the sharing and user roles presentation that is available here. 
 
 ## **Preparation**
 
