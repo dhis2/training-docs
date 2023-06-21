@@ -129,7 +129,7 @@ The majority of the time you will be using “data element in current event” o
 
 ### Step 3 - Create the program rule
 
-**To create a new program rule, Click on Program rule and Add (the “+” **symbol)**
+**To create a new program rule, Click on Program rule and Add (the “+” **symbol**)**
 
 **Enter Program rule details**
 
