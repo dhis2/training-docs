@@ -114,7 +114,7 @@ We want to COUNT the number of extra-pulmonary TB cases. This is taken from the 
 
 ### Edit the indicator details
 
-Navigate to maintenance -> Indicator-> Program Indicator
+Navigate to Maintenance -> Indicator-> Program Indicator
 
 Select “TB Treatment Card” as the program
 
@@ -181,7 +181,7 @@ Now that you have created the program indicator, it is a good idea to test if it
 Create a new pivot table with the following details
 
 * Data : the program indicator you made, the program indicator “Extra Pulmonary TB”
-* Period : Last year
+* Period : This year
 * Organisation Unit : Trainingland
 
 Click on update to verify that the values are equal in the indicators. This will provide some validation that the indicator is created correctly.
@@ -197,7 +197,6 @@ We want to COUNT the number of New, Pulmonary TB cases
 ![](Images/pi/image32.png)
 
 These values are taken from 2 different data elements, TB Patient Type and TB Disease Site, both with option set values to select from. This means that we will need to consider the codes of these values again. 
-
 
 ### Edit the indicator details
 
@@ -223,7 +222,7 @@ Review the aggregation type, what are we trying to do with this indicator? We wa
 
 Review the analytics type. We only need data from one stage in the program, and this stage is not repeated. In this scenario, the analytics type is EVENT. 
 
-After selecting the analytics type, you will see “Analytics period boundaries.” Leave these all as default, we will not cover them in this academy. You can learn more about them in the [docs](https://docs.dhis2.org/en/use/user-guides/dhis-core-version-master/configuring-the-system/programs.html#about_program_indicators).  
+After selecting the analytics type, you will see “Analytics period boundaries.” Leave these all as default, we will not cover them in this academy. You can learn more about them in the [docs](https://docs.dhis2.org/en/use/user-guides/dhis-core-version-238/configuring-the-system/programs.html#about_program_indicators).  
 
 ![](Images/pi/image13.png)
 
@@ -260,17 +259,15 @@ In order for this indicator to meet our required criteria, the patient has to be
 
 Now that you have created the program indicator, it is a good idea to test if it is functional. You can compare the properly configured indicator with the one you have created to ensure that the value is correct. In order to do this you can navigate to the pivot table app.
 
-
 ### Navigate to the data visualizer app 
 
 Create a new pivot table with the following details
 
 * Data : the program indicator you made, the program indicator “New, Pulmonary TB”
-* Period : Last year
+* Period : This year
 * Organisation Unit : Trainingland
 
 Click on update to verify that the values are equal in the indicators. This will provide some validation that the indicator is created correctly.
-
 
 ![](Images/pi/image34.png)
 
@@ -352,7 +349,7 @@ Now that you have created the program indicator, it is a good idea to test if it
 Create a new pivot table with the following details
 
 * Data : the program indicator you made, the program indicator “Treatment outcome - failure or death”
-* Period : Last year
+* Period : This year
 * Organisation Unit : Trainingland
 
 Click on update to verify that the values are equal in the indicators. This will provide some validation that the indicator is created correctly.
@@ -389,7 +386,7 @@ After we save this, we should be able to verify this indicator in data visualize
 
 ![](Images/pi/image47.png)
 
-## Create Enrollment Type Indicators
+# Create Enrollment Type Indicators
 
 ## Exercise 4 - Indicator 4 : Patients hospitalized the entire treatment
 
@@ -430,7 +427,7 @@ Review the analytics type. Now we need data from more than one stage, so our ana
 In this particular example, we are creating an enrollment indicator which calculates and displays its information. Note that you can also create a program indicator that calculates the number of enrollments that meet certain criteria. This may be useful if, for example, you want to use data elements with option sets from multiple program stages within the same program in order to filter out the number of enrollments in calculating your indicator.
 ```
 
-After selecting the analytics type, you will see “Analytics period boundaries.” Leave these all as default, we will not cover them in this academy. You can learn more about them in the [docs](https://docs.dhis2.org/en/use/user-guides/dhis-core-version-master/configuring-the-system/programs.html#about_program_indicators).  
+After selecting the analytics type, you will see “Analytics period boundaries.” Leave these all as default, we will not cover them in this academy. You can learn more about them in the [docs](https://docs.dhis2.org/en/use/user-guides/dhis-core-version-238/configuring-the-system/programs.html#about_program_indicators).  
 
 
 ![](Images/pi/image53.png)
@@ -470,7 +467,7 @@ Now that you have created the program indicator, it is a good idea to test if it
 Create a new pivot table with the following details
 
 * Data : the program indicator you made, the program indicator “Hospitalized - Initial and Continuation”
-* Period : Last year
+* Period : This year
 * Organisation Unit : Trainingland
 
 Click on update to verify that the values are equal in the indicators. This will provide some validation that the indicator is created correctly.
@@ -539,7 +536,6 @@ Proceed to register a new TEI. Click on Save and continue when the details are e
 
 
 In the tracker dashboard, you will see a space for indicators as well as the timeline data entry. The weight indicator will appear when you the filter meets your criteria that was set earlier 
-
 
 * Culture Result == ‘Negative (0 colonies)’ and 
 * Treatment Outcome == ‘Cured’ or Treatment Outcome == ‘Treatment completed’
