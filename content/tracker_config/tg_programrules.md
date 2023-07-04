@@ -129,7 +129,7 @@ The majority of the time you will be using “data element in current event” o
 
 ### Step 3 - Create the program rule
 
-**To create a new program rule, Click on Program rule and Add (the “+” **symbol)**
+**To create a new program rule, Click on Program rule and Add (the “+” **symbol**)**
 
 **Enter Program rule details**
 
@@ -193,7 +193,7 @@ You will get an error message saying that the EPTB Site value was deleted. The l
 
 ![](Images/pr/image12.png)
 
-#### STOP - Have the participant’s perform Exercise 1 in the learner’s guide
+### STOP - Have the participant’s perform Exercise 1 in the learner’s guide
 
 ## **Rule 2 -** Create a program rule to hide pregnant if Age is less than 18 and Gender is Male using the TB Program
 
@@ -216,7 +216,7 @@ And
 ![](Images/pr/image37.png)
 
 **Create a Program Rule**
-Hide pregnant if sex is less than 18 and sex is Male
+Hide pregnant if age is less than 18 and sex is Male
 
 Enter the program rule details.
 
@@ -238,7 +238,7 @@ It should show
 
 ### STOP - Have the participant’s perform Exercise 2 in the learner’s guide
 
-## Rule 3 - Create another program rule for the TB Treatment Card which displays a warning message when Weight is out of range
+## **Rule 3 -** Create another program rule for the TB Treatment Card which displays a warning message when Weight is out of range
 
 **Access the Programs rules from Maintenance App ⇒ Program**
 

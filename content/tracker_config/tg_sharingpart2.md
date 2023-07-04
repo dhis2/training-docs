@@ -15,7 +15,7 @@ There is also a Quick Guide which lists the steps very briefly and this is meant
 
 ## **Background**
 
-Sharing can be used in order to provide granular access to meta-data and data as of 2.29. This is a new concept and is an important consideration to define for any tracker implementation. This session shows the users how sharing settings can be configured and used in line with tracker programs.
+Sharing can be used in order to provide granular access to meta-data and data as of 2.28. This is a new concept and is an important consideration to define for any tracker implementation. This session shows the users how sharing settings can be configured and used in line with tracker programs.
 
 ## **Preparation**
 
@@ -30,12 +30,16 @@ Everything in Trainingland has been configured already for you to use in this de
 * Describe the concepts of program and program stage sharing
 * Apply program and program stage sharing to your own program
 
+## **Time Requirements**
+
+Live Demo: 1 hr 30 min
+
 ## **Quick Guide**
 
 1. Introduce the concept of data level sharing
     1. Discuss user groups and how objects can be shared with user groups in DHIS2
-    2. Discuss the new sharing dialog and what each of these options does as it relates to tracked entity types, programs and program stages (use the [presentation](https://docs.google.com/presentation/d/1OMBAzWWC_x4ONMcZBI5hAQID0dPNLIn82VpAcpoyDT0/edit#slide=id.g3d012a32e8_0_134) to help explain these items)
-2. Review the sharing configuration of these 3 objects (tracked entity type, program, program stages) in detail, explaining how each of these sharing settings affects what the user can do
+    2. Discuss the new sharing dialog and what each of these options does as it relates to tracked entity types, programs and program stages (use the [presentation](https://docs.google.com/presentation/d/1OMBAzWWC_x4ONMcZBI5hAQID0dPNLIn82VpAcpoyDT0/edit#slide=id.g3d012a32e8_0_0) to help explain these items)
+2. Review the sharing configuration of these 3 objects (tracked entity type, program, program stages) in detail, explaining how each of these sharing settings affects what the user can do.
 
 ## **Live Demo step by step**
 
@@ -101,7 +105,7 @@ We can see that all 3 user groups we have discussed have some sharing settings a
 
 **DATA** level sharing takes this one step further and determines, in specific detail, what a person can do with the data that is linked to the object. You can move over the [presentation](https://docs.google.com/presentation/d/1OMBAzWWC_x4ONMcZBI5hAQID0dPNLIn82VpAcpoyDT0/edit#slide=id.g3d012a32e8_0_134) in order to explain data level sharing in more detail for each object.
 
-#### STOP - Perform Exercise 1
+### STOP - Perform Exercise 1
 
 ### Part 3 - Reviewing the configuration
 
@@ -138,4 +142,4 @@ When reviewing the sharing settings for the program and program stages, use the 
 ![](Images/sharing2/image6.png)
 
 
-#### STOP - Perform Exercise 2
+### STOP - Perform Exercise 2
