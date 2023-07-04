@@ -123,7 +123,7 @@ After the map is open, we can review the maps interface.
 
 ![](Images/maps/image73.png)
 
-Go through and describe these elements to the participants. We will discuss each one in more detail as we proceed through the demo. 
+Review these items. We will discuss each one in more detail as we proceed through the demo. 
 
 **_Legends:_**
 
