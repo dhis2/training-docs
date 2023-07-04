@@ -138,7 +138,7 @@ You will get an error message saying that the EPTB Site value was deleted. The l
 
 ![](Images/pr/image12.png)
 
-## Exercise 1 - Create a program rule to hide pregnant if Age is less than 18 and Gender is Male using the TB Program
+## Exercise 2 - Create a program rule to hide Pregnant if Gender is Male using the TB Program
 
 **Access the Programs rules from Maintenance App ⇒ Program**
 
@@ -154,14 +154,11 @@ You will get an error message saying that the EPTB Site value was deleted. The l
 
 **Add in a new program rule variable**
 
-![](Images/pr/image3.png)
-
-And
-
 ![](Images/pr/image37.png)
 
 **Create a Program Rule**
-Hide pregnant if sex is less than 18 and sex is Male
+
+Hide pregnant if sex is Male
 
 Enter the program rule details.
 

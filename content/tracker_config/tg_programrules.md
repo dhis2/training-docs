@@ -42,9 +42,9 @@ Decide how you would like to run the session. The guide has you alternating betw
 
 STOP - Have the participant’s perform Exercise 1 in the learner’s guide
 
-2. Create a program rule using the ANC program
+2. Create a program rule using the TB Treatment Program
    
-    1. If gravidity is one or less, hide parity
+    1. If sex is Male then hide Pregnant
     2. Test the rule
 
 STOP - Have the participant’s perform Exercise 2 in the learner’s guide
@@ -193,9 +193,9 @@ You will get an error message saying that the EPTB Site value was deleted. The l
 
 ![](Images/pr/image12.png)
 
-#### STOP - Have the participant’s perform Exercise 1 in the learner’s guide
+### STOP - Have the participant’s perform Exercise 1 in the learner’s guide
 
-## **Rule 2 -** Create a program rule to hide pregnant if Age is less than 18 and Gender is Male using the TB Program
+## **Rule 2 -** Create a program rule to hide pregnant if Gender is Male using the TB Program
 
 **Access the Programs rules from Maintenance App ⇒ Program**
 
@@ -209,18 +209,15 @@ You will get an error message saying that the EPTB Site value was deleted. The l
 
 **Add in a new program rule variable**
 
-![](Images/pr/image3.png)
-
-And
-
 ![](Images/pr/image37.png)
 
 **Create a Program Rule**
-Hide pregnant if sex is less than 18 and sex is Male
+
+Hide pregnant if sex is Male
 
 Enter the program rule details.
 
-In the expression, we are using numbers. There are no quotes needed around the number. We will also hide the pregnant if sex is Male.
+In the expression, we are using option from Gender that we have created 
 
 ![](Images/pr/image39.png)
 
@@ -228,7 +225,7 @@ In the expression, we are using numbers. There are no quotes needed around the n
 
 Clear the cache if needed, than go to tracker capture to test the rule
 
-Pregnant should be hidden if age is less than 18 and sex is Male
+Pregnant should be hidden if sex is Male
 
 ![](Images/pr/image34.png)
 
@@ -295,7 +292,7 @@ When the weight is within the range you have defined, or the weight data element
 
 ## Rule 4 - Create a program rule using the TB Treatment Card. 
 
-## Show the disease site in the feedback widget
+Show the disease site in the feedback widget
 
 **Access the Programs rules from Maintenance App ⇒ Program**
 
