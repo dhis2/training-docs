@@ -217,10 +217,10 @@ Now that you have created the program indicator, it is a good idea to test if it
 Create a new pivot table with the following details
 
 * Data : the program indicator you made, the program indicator “Extra Pulmonary TB”
-* Period : Last year
+* Period : This year
 * Organisation Unit : Trainingland
 
-### Click on update to verify that the values are equal in the indicators. This will provide some validation that the indicator is created correctly.
+Click on update to verify that the values are equal in the indicators. This will provide some validation that the indicator is created correctly.
 
 ![](Images/pi/image21.png)
 
@@ -302,7 +302,7 @@ Now that you have created the program indicator, it is a good idea to test if it
 Create a new pivot table with the following details
 
 * Data : the program indicator you made, the program indicator “New, Pulmonary TB”
-* Period : Last year
+* Period : This year
 * Organisation Unit : Trainingland
 
 ### Click on update to verify that the values are equal in the indicators. This will provide some validation that the indicator is created correctly.
@@ -388,10 +388,10 @@ Now that you have created the program indicator, it is a good idea to test if it
 Create a new pivot table with the following details
 
 * Data : the program indicator you made, the program indicator “Treatment outcome - failure or death”
-* Period : Last year
+* Period : This year
 * Organisation Unit : Trainingland
 
-### Click on update to verify that the values are equal in the indicators. This will provide some validation that the indicator is created correctly.
+Click on update to verify that the values are equal in the indicators. This will provide some validation that the indicator is created correctly.
 
 ![](Images/pi/image52.png)
 
@@ -509,12 +509,10 @@ Now that you have created the program indicator, it is a good idea to test if it
 Create a new pivot table with the following details
 
 * Data : the program indicator you made, the program indicator “Hospitalized - Initial and Continuation”
-* Period : Last year
+* Period : This year
 * Organisation Unit : Trainingland
 
-
-### Click on update to verify that the values are equal in the indicators. This will provide some validation that the indicator is created correctly.
-
+Click on update to verify that the values are equal in the indicators. This will provide some validation that the indicator is created correctly.
 
 ![](Images/pi/image50.png)
 
@@ -582,13 +580,12 @@ Proceed to register a new TEI. Click on Save and continue when the details are e
 
 ![](Images/pi/image48.png)
 
-In the tracker dashboard, you will see a space for indicators as well as the timeline data entry. The weight indicator will appear when you the filter meets your criteria that was set earlier 
+In the tracker dashboard, you will see a space for indicators as well as the timeline data entry. The weight indicator will appear when the filter meets your criteria that was set earlier 
 
 * Culture Result == ‘Negative (0 colonies)’ and 
 * Treatment Outcome == ‘Cured’ or Treatment Outcome == ‘Treatment completed’
 
 ![](Images/pi/image6.png)
-
 
 To get started enter a weight value in the **Initial Diagnosis** stage
 
@@ -598,8 +595,9 @@ Than add an event for the end of treatment stage
 
 ![](Images/pi/image54.png)
 
+Enter a weight value, select **negative **as the_ **culture result**_ and select either **Cured** or **Treatment completed** as the **_treatment outcome_**. 
 
-Enter a weight value, select **negative **as the_ **culture result**_ and select either **Cured** or **Treatment completed** as the **_treatment outcome_**. Note to the participants that the weight indicator does not appear unless these criteria are met. 
+**Note to the participants that the weight indicator does not appear unless these criteria are met.** 
 
 ![](Images/pi/image24.png)
 

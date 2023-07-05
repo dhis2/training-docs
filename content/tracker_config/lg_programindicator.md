@@ -181,7 +181,7 @@ Now that you have created the program indicator, it is a good idea to test if it
 Create a new pivot table with the following details
 
 * Data : the program indicator you made, the program indicator “Extra Pulmonary TB”
-* Period : Last year
+* Period : This year
 * Organisation Unit : Trainingland
 
 Click on update to verify that the values are equal in the indicators. This will provide some validation that the indicator is created correctly.
@@ -266,7 +266,7 @@ Now that you have created the program indicator, it is a good idea to test if it
 Create a new pivot table with the following details
 
 * Data : the program indicator you made, the program indicator “New, Pulmonary TB”
-* Period : Last year
+* Period : This year
 * Organisation Unit : Trainingland
 
 Click on update to verify that the values are equal in the indicators. This will provide some validation that the indicator is created correctly.
@@ -352,7 +352,7 @@ Now that you have created the program indicator, it is a good idea to test if it
 Create a new pivot table with the following details
 
 * Data : the program indicator you made, the program indicator “Treatment outcome - failure or death”
-* Period : Last year
+* Period : This year
 * Organisation Unit : Trainingland
 
 Click on update to verify that the values are equal in the indicators. This will provide some validation that the indicator is created correctly.
@@ -470,7 +470,7 @@ Now that you have created the program indicator, it is a good idea to test if it
 Create a new pivot table with the following details
 
 * Data : the program indicator you made, the program indicator “Hospitalized - Initial and Continuation”
-* Period : Last year
+* Period : This year
 * Organisation Unit : Trainingland
 
 Click on update to verify that the values are equal in the indicators. This will provide some validation that the indicator is created correctly.
