@@ -84,32 +84,32 @@ Before starting the demonstration, please keep in mind that the most important t
 
 ### Quick Guide
 
-1) Log in to the system on the Android device
-2) Select the COVID-19 Case-based Surveillance program and go over the interface that appears.
-3) Review the filters options available on this page
-4) Search for a person that already exists (John Doe)
-5) Open their record, see all the events that are present. Review the 4 tabs on the person dashboard
-6) Select “See details” to view the detailed attributes
-7) Go back and select any event associated with the record to show the data that is there
-8) Register a new case (if someone is following along; they should register a UNIQUE PERSON that is different from yours)
-9)  Add a new event to the person’s record
-10) Fill in the details of the form and save the event
-11) Add a new event on the lab request stage, same day from the date first seen. Complete the form and save the event
-12) Add new event in the lab request to show the repeatable stages
-13) Complete the enrollment
-14) Add the relationship, show the contact Registration & follow up
-15) Search for a contact that already exists
-16) Enroll person into other program
-17) Sync the event online. Go to the web interface to verify the data was sent
-18) From the web interface, update the person’s record
-19) Go back to the Android device and show the data has not been synced
-20) Sync the data, than go back to the person’s record to show the new event has been synced
-21) Turn off all wi-fi/data radios on the device. Explain how offline data capture works
-22) Add a new person while offline
-23) Add a new event
-24) Show that the data is being stored solely on the device
-25) Turn on the wi-fi and sync the data
-26) Check it was synced on the device, as well as through the web app
+1. Log in to the system on the Android device
+2. Select the COVID-19 Case-based Surveillance program and go over the interface that appears.
+3. Review the filters options available on this page
+4. Search for a person that already exists (John Doe)
+5. Open their record, see all the events that are present. Review the 4 tabs on the person dashboard
+6. Select “See details” to view the detailed attributes
+7. Go back and select any event associated with the record to show the data that is there
+8. Register a new case (if someone is following along; they should register a UNIQUE PERSON that is different from yours)
+9.  Add a new event to the person’s record
+10. Fill in the details of the form and save the event
+11. Add a new event on the lab request stage, same day from the date first seen. Complete the form and save the event
+12. Add new event in the lab request to show the repeatable stages
+13. Complete the enrollment
+14. Add the relationship, show the contact Registration & follow up
+15. Search for a contact that already exists
+16. Enroll person into other program
+17. Sync the event online. Go to the web interface to verify the data was sent
+18. From the web interface, update the person’s record
+19. Go back to the Android device and show the data has not been synced
+20. Sync the data, than go back to the person’s record to show the new event has been synced
+21. Turn off all wi-fi/data radios on the device. Explain how offline data capture works
+22. Add a new person while offline
+23. Add a new event
+24. Show that the data is being stored solely on the device
+25. Turn on the wi-fi and sync the data
+26. Check it was synced on the device, as well as through the web app
 
 ## Step-by-Step guide
 
