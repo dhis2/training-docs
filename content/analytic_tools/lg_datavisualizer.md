@@ -6,26 +6,26 @@ This guide contains all exercises and detailed steps to perform them related to 
 
 ## Learning objectives for this session
 
-1. Demonstrate how to:
+1. Demonstrate how to
     1. Select data dimensions
     2. Modify the chart layout
     3. Save the chart
     4. Select different chart types
     5. Use the chart options to modify the look of a chart
     6. Download a chart
-2. Create the following chart types:
-    7. Column
-    8. Line
-    9. Stacked Column
-    10. Bar
-    11. Pie
-    12. Radar
-    13. Gauge
-    14. Single Value
-    15. Cumulative Value
-    16. Year over year
-    17. 2-category 
-    18. Combination
+2. Create the following chart types
+    1.  Column
+    1. Line
+    2. Stacked Column
+    3.  Bar
+    4.  Pie
+    5.  Radar
+    6.  Gauge
+    7.  Single Value
+    8.  Cumulative Value
+    9.  Year over year
+    10. 2-category 
+    11. Combination
 
 ## Table of Contents
 
@@ -164,7 +164,7 @@ Now we can more clearly see the effect of the cascade within a given month.
 
 Now we can review the category, series and filter in a bit more detail using this chart as an example. 
 
-Column, Stacked Column, Line and Area charts all have similar properties when discussing the category, series, and filter. These are not given commonly understood names such as x and y-axis as different graph types are affected differently by these options; some chart types simply do not have traditional axes. 
+Column, Stacked Column, Line and Area charts all have similar properties when discussing the category, series, and filter. These are not given commonly understood names such as x and y-axis as different chart types are affected differently by these options; some chart types simply do not have traditional axes. 
 
 ![](Images/datavisualizer/image15.png)
 
@@ -187,7 +187,7 @@ Let’s say we are happy with this chart. As we do not want to overwrite the pre
 
 ![](Images/datavisualizer/image50.png)
 
-In this case you are saving an existing chart so existing properties may appear. You can remove this and have everyone save their own version of this chart. Have them use their initials in the chart name. 
+In this case you are saving an existing chart so existing properties may appear. You can remove this save your own version of this chart. Use your initials in the chart name. 
 
 #### Review the data visualizer interface
 
@@ -228,7 +228,7 @@ The period will appear along our x-axis. This means we should see each quarter a
 
 **Question** what about the filter? 
 
-The indicator values will reflect all of Trainingland, unless we change the organisation unit selection. The filter determines where the data is being pulled from and filters by this selection on th chart directly.
+The indicator values will reflect all of Trainingland, unless we change the organisation unit selection. The filter determines where the data is being pulled from and filters by this selection on the chart directly.
 
 Update the chart.
 
