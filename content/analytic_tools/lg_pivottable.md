@@ -107,7 +107,7 @@ Review of DHIS2 dimensions; data, periods and organization units.
 |*Understanding DHIS2 data dimensions*|
 |---|
 |When selecting what data to add to a TABLE, at minimum you need to make selections in terms of “what”, “where” and “when” the data is describing. 
-“What” described indicators (calculated by formulas), data elements (raw data as collected in the data entry forms) or reporting rates. Both are organised as groups, so know your groups to quickly find what you are looking for.
+“What” describes indicators (calculated by formulas), data elements (raw data as collected in the data entry forms) or reporting rates. Both are organised as groups, so know your groups to quickly find what you are looking for.
 “Where” is found under Organisation Units, that is the location hierarchy from global to country and finally to sites, with all the intermediary levels in between. Know your orgunit levels to quickly navigate to the correct locations.
 “When” is found under “Periods”. There you can specify what periodicity or time you want to visualise data for. Periods are organised by Period Types (“frequency groups”), so to find “January 2022” you must look under Period type “Monthly”. “January-March 2022” is found under “Quarterly”, “2022” is found under “Yearly”.
 In addition to these “core dimensions” there are quite a few additional dimension providing more granularity to the “what” dimension, e.g. the age, sex and test results dimensions.|
@@ -118,7 +118,7 @@ Demonstrate that it is possible to select data from data elements, indicators or
 
 ![](Images/pivottable/image54.png)
 
-In current selection both data elements and indicators are selected.
+In the current selection both data elements and indicators are selected.
 
 Relate the data elements and indicators to the session regarding Metadata (where you discussed how outputs link to metadata configuration). Ask them to identify each selected item in this example as a data element or an indicator.
 
@@ -188,7 +188,7 @@ You can go ahead and **update** the table in order to see the effect this has on
 
 ![](Images/pivottable/image34.png)
 
-Select the “Public” organization unit group with Trainingland selected and **update **the table. DHIS2 will select all of the Public facilities within Trainingland.
+Select the “Public” organization unit group with Trainingland selected and **update** the table. DHIS2 will select all of the Public facilities within Trainingland.
 
 ***End Exercise 1***
 
