@@ -2,15 +2,15 @@
 
 ## What is this guide?
 
-This guide is a support document for DHIS2 Academy trainers for the session "User Roles" This session follows the standard Academy training approach with 
+This guide is a support document for DHIS2 Academy trainers for the session “User Roles” This session follows the standard Academy training approach with
+1. a live demo session where the trainer demonstrate and explain the features, and
 
-1. a live demo session where the trainer demonstrate and explain the features, and 
-   
-2. a hands-­on session with exercises where participants get to practice the same features.
+2. a hands-on session with exercises where participants get to practice the same features.
 
 This guide will help the trainer​ prepare​​ for the live demo session. The “Live Demo step by step” section has a detailed walkthrough of all the steps to demonstrate with explanations and screenshots that should be easy to follow. Use that when preparing for the live demo session.
 
-There is also a Quick Guide which lists the steps very briefly and this is meant as a lookup guide or “cheatsheet” WHILE doing the demo, to help the trainer remember all the steps and the flow of the demo.
+There is also a Quick Guide which lists the steps very briefly and this is meant as a lookup guide or “cheat sheet” WHILE doing the demo, to help the trainer remember all the steps and the flow of the demo.
+
 
 ## Learning objectives for this session
 
@@ -43,11 +43,13 @@ In an in-person setting, the participants may be doing the demo with you at the 
 ## Quick Guide
 
 1. Review the user role aggregate data entry in the user roles app, explain each of the sections within the user-interface when creating or editing a user role
+
 2. Review the specific authorities for the aggregate data capture role
+
 3. Discuss the aggregate authorities in more detail
-4. Log in to a user with the aggregate data capture role in the aggregate customization instance
-Username : malaria_data_entry
-Password : District1#
+
+4. Log in to a user with the aggregate data capture role in the aggregate customization instance Username : malaria_data_entry Password : District1#
+
 
 STOP - Perform Exercise 1
 
