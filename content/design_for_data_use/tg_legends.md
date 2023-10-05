@@ -27,13 +27,9 @@ There is also a Quick Guide which lists the steps very briefly and this is meant
 
 ## Background
 
-
 ## Preparations
 
-
-
 ## Best Practices
-
 
 ## Quick Guide
 
@@ -51,7 +47,7 @@ There is also a Quick Guide which lists the steps very briefly and this is meant
 STOP - Perform Exercise 1
 
 1. Show how to use legends in maps
-   1. From the EMIS - Primary school dashboard, open the map "Gross Enrolment in LBS, this year"
+   1. From the Immunization dashboard, open the map “EPI - BCG Coverage by district - last month”
    2. Discuss the legend
    3. Edit the thematic layer and go to the style panel
    4. Discuss the legend options available in this panel
@@ -62,20 +58,20 @@ STOP - Perform Exercise 1
 STOP - Perform Exercise 2
 
 1. Show how to create legends
-2. Create the legend for gross enrollment. As you are creating the legend, make sure to discuss that legend values must be overlapping along with how DHIS2 treats the start and end values when classifying data
+2. Create the legend for EPI - Coverage. As you are creating the legend, make sure to discuss that legend values must be overlapping along with how DHIS2 treats the start and end values when classifying data
    1. 0-40 (color : red #FA0000)
    2. 40-80 (color : yellow or #FAC027)
    3. 80-120 (color : green or #058304)
    4. 120-1000 (color : gray or #D1CBC1)
-3. Review how to add a legend to a data element or indicator in maintenance
+3. Review how to add a legend to a data element or indicator in maintenance.
 4. Use the legend to produce a chart or map
 - Visualization : Bar Chart/pivot table/thematic map
 - Data Type : Indicator
-- Indicator group : EMIS - Enrolment
-- Indicator : EMIS - Enrolment in primary
+- Indicator group : EPI
+- Indicator : EPI - BCG Coverage(%)
 - Period : This Year
-- Org unit : The Gambia Districts
-- Legend : Predefined legend - yourinitials_Gross Enrolment
+- Org unit : The Lao PDR Districts
+- Legend : Predefined legend - yourinitials_EPI Coverage
 
 STOP - Perform Exercise 3
 
@@ -145,7 +141,7 @@ Modify the options again and update the table (change the style to background co
 
 ![table1-updated3](images/legends/table1-updated3.png)
 
-We can see this is a lot more clear and seperates our data more easily.
+We can see, this is lot more clear and seperates our data more easily.
 
 Note that there are some limitations to using legends in data visualizer, as not all output types support them. 
 
@@ -175,7 +171,8 @@ Your best option to modify the colouring of these items is to use the color set 
 
 ### Show to to use legends in maps
 
-From the EMIS - Primary school dashboard, open the map "Gross Enrolment in LBS, this year"
+“From the Immunization dashboard, open the map “EPI - BCG Coverage by district - last month”
+
 
 ![gross-enrolment-dashboard](images/legends/gross-enrolment-dashboard.png)
 
@@ -185,7 +182,7 @@ Edit the thematic layer and navigate to the style panel
 
 ![map-style](images/legends/map-style.png)
 
-Here we can see the option for "pre-defined color legend" has been selected, along with the legend "EMIS - Gross Enrolment."
+Here we can see the option for “pre-defined color legend” has been selected, along with the legend “EPI coverage.”
 
 In maps, we can also use automatic colour legends if we want to, which will produce a legend based on the parameters we set. Select this option to review it. 
 
@@ -211,7 +208,7 @@ You could update the legend again to review the original map and compare this wi
 
 In order to create a legend navigate to maintenance - > other -> legend
 
-This will display the list of all of the available legends in the system that are shared with your user. Let us recreate the legend for EMIS - Gross Enrolment. As a reminder, this is the legend
+This will display the list of all of the available legends in the system that are shared with your user. Let us recreate the legend for EPI- Coverage. As a reminder, this is the legend.
 
 ![gross-enrolment-legend](images/legends/gross-enrolment-legend.png)
 
@@ -290,7 +287,7 @@ Select save to save your legend.
 
 #### Show how to have pre-defined legends associated with data elements and indicators
 
-Now that we have created a legend, we are able to associate it with data elements and indicators as well as using it analysis. Navigate to maintenance -> indicator and find the indicator "EMIS - Gross Enrolment in primary." If you open it up you will see a legends box where you can add your legend to the indicator. If you do this, the indicator will maintain an association with that legend and automatically be used in analysis when legends are enabled unless other options are selected for it. This process is identical for both data elements and indicators.
+Now that we have created a legend, we are able to associate it with data elements and indicators as well as using it analysis. Navigate to maintenance -> indicator and find the indicator "EPI - BCG Coverage %." If you open it up you will see a legends box where you can add your legend to the indicator. If you do this, the indicator will maintain an association with that legend and automatically be used in analysis when legends are enabled unless other options are selected for it. This process is identical for both data elements and indicators.
 
 ![indicator-legend](images/legends/indicator-legend.png)
 
@@ -300,11 +297,11 @@ You should now be able to apply this legend in maps or visualizer. Select the ap
 
 - Visualization : Bar Chart/pivot table/thematic map
 - Data Type : Indicator
-- Indicator group : EMIS - Enrolment
-- Indicator : EMIS - Enrolment in primary
+- Indicator group : Immunization - coverages
+- Indicator : EPI - BCG Coverage %
 - Period : This Year
-- Org unit : The Gambia Districts
-- Legend : Predefined legend - yourinitials_Gross Enrolment
+- Org unit : Lao PDR Districts
+- Legend : Predefined legend - yourinitials_EPI- Coverage
 
 #### STOP - Perform Exercise 3
 
