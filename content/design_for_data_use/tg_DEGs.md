@@ -28,10 +28,7 @@ There is also a Quick Guide which lists the steps very briefly and this is meant
 
 ## Background
 
-
-
 ## Preparations
-
 
 ## Best Practices
 
@@ -71,25 +68,13 @@ While you can search for data elements and indicators that are not in any group 
 
 Select data element as the data type along with the following inputs
 
-- Data element group : Primary Termly Tool
-- Data element : TT_B_Learner enrollment 6 years
+- Data element group : Immunization
+- Data element : EPI - BCG doses given
 - Aggregation type : by data element
 
 ![maps-data-select-complete](images/degs/maps-data-select-complete.png)
 
-This group is a bit large, with many data items located within it. As a suggestion, we could break this up into smaller groups so we could make it easier to find related data elements.
-
-![maps-data-select-de-list](images/degs/maps-data-select-de-list.png)
-
 Discuss amongst the participants what some possible additonal groupings would be. 
-
-For example:
-- Learner enrolment
-- Learner difficulty
-- Reasons for leaving school
-- Infrastructure (including water, lighting)
-
-Etc.
 
 Before updating the map modify these inputs
 
@@ -97,13 +82,13 @@ Before updating the map modify these inputs
 - This year
 
 **Org units**
-- The Gambia
+- Lao PDR
 
 **Org units**
-- The Gambia Districts
+- Lao PDR Districts
 
 **Filter**
-- School Term = Term 1
+- Age Immunization 1+ year
 
 We can see in this case, while data element groups helps, and is even necessary in the maps map, there is some room for improvement that would help us refine our search parameters.
 
@@ -111,7 +96,7 @@ We can see in this case, while data element groups helps, and is even necessary 
 
 ### Show how to manage DE Groups and DE Group Sets in Maintenance
 
-Let us create a data element group for learner enrolment. 
+Let us create a data element group for Immunization.
 
 Navigate to Maintenance -> Data Element
 
@@ -123,7 +108,7 @@ Creating a data element group is quite easy. Enter in the details for name, shor
 
 ![edit-de-group](images/degs/edit-de-group.png)
 
-We also want to add our data elements to the group. Search for the data elements (in this case using learner enrolment) and assign all the data elements for learner enrolment to this particular group. 
+We also want to add our data elements to the group. Search for the data elements (in this case using EPI) and assign all the data elements for EPI to this particular group. 
 
 ![assign-des-to-group](images/degs/assign-des-to-group.png)
 
