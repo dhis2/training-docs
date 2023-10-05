@@ -2,7 +2,7 @@
 
 ## What is this guide?
 
-This guide is a support document for DHIS2 Academy trainers for the session "Indicators" This session follows the standard Academy training approach with 
+This guide is a support document for DHIS2 Academy trainers for the session "Indicators". This session follows the standard Academy training approach with 
 
 1. a live demo session where the trainer demonstrate and explain the features, and 
    
@@ -28,23 +28,17 @@ There is also a Quick Guide which lists the steps very briefly and this is meant
 
 ## Background
 
-
-
 ## Preparations
 
-
-
 ## Best Practices
-
-
 
 ## Quick Guide
 
 1. Review the indicators presentation
 2. Review the different types of indicators via the analysis apps
-   1. Review the chart "EMIS - Net Enrollment in Primary, this year" in data visualizer
-   2. Review the chart "EPI - Routine coverage (%), this year
-   3. Review the chart BCG coverage (%), this year
+   
+   1. Review the chart "EPI - Routine coverage (%), this year
+   2. Review the chart BCG coverage (%), this year
    4. Create a new chart using indicator groups
       1. Chart Type: Year over year (line)
       2. Data Type : Indicators 
@@ -81,12 +75,6 @@ STOP - Perform Exercise 4
 
 ### Review the different types of indicators via the analysis apps
 
-#### Review the chart "EMIS - Net Enrollment in Primary, this year" in data visualizer.
-
-This indicator consists of the number of total net enrollments of children aged 6-12 divided by the number of total estimated children 6-12. It is further seperated by the attribute category school term. 
-
-![indicator1-chart](images/indicators/indicator1-chart.png)
-
 #### Review the chart "EPI - Routine coverage (%), this year"
 
 This chart shows us coverage rates, but applies the principles of annualisation. Numerators for the indicators on display are taken from data entered in DHIS2 on a monthly basis, however the denominators are yearly population estimates. In this scenario, the numerator is being multipled by a factor of 12 such that the annualised output can be displayed month-to-month. 
@@ -99,7 +87,7 @@ This is annualised as we have discussed, but the numerator for this indicator is
 
 ![indicator2-singlevalue](images/indicators/indicator2-singlevalue.png)
 
-Remember, the immunization data is divided into targets and results (you can review in data entry again if needed); so if we make an indicator and do not include our attribute category in our numerator, the indicator is going to give us a value including the targets + results; which would give us an incorrect value.
+Remember, the immunization data is divided into Donor 1 and Donor 2 (you can review in data entry again if needed); so if we make an indicator and do not include our attribute category in our numerator, the indicator is going to give us a value including the Donor 1 + Donor 2; which would give us an incorrect value.
 
 ![imm-dataset](images/indicators/imm-dataset.png)
 
@@ -146,13 +134,13 @@ You will be provided with a list of 6 modules
 
 Program indicators and program indicator groups are for tracker and will not be covered here.
 
-In this example, let us create an indicator for Net enrolment in primary. The formula for this indicator is Learners enrolled from 6-12 years old/Estimate of children 6-12 years old * 100%.  This information is taken from section B in the termly tool.
+In this example, let us create an indicator for EPI - BCG coverage (%). The formula for this indicator is EPI - BCG doses given <1 year/Live births * 100%. This information is taken from Immunization form section : Vaccine administration children.
 
 ![sectionb-termly](images/indicators/sectionb-termly.png)
 
 #### Create an indicator type
 
-In order to create this indicator, we will need to make sure the factor of 100 is already there. If we navigate to factor, we will see that it is already there so we do not need to create (it is labelled as percentage with a factor of 100).
+In order to create this indicator, we will need to make sure the factor of 100 is already there. If we navigate to factor, we will see that it is already there so we do not need to create (it is labeled as percentage with a factor of 100).
 
 If we needed to create an indicator type, the process is very simple. Select the plus button to create the new indicator type then give it a name and factor. 
 
@@ -160,13 +148,15 @@ If we needed to create an indicator type, the process is very simple. Select the
 
 #### Create a new indicator
 
-Now that we checked (or created) our indicator type, it is time to create our indicator. Navigate to indicator in the maintenance app. This indicator (Net enrolment in primary) is already available but we are going to create it for the sake of demonstration. 
+Now that we checked (or created) our indicator type, it is time to create our indicator. Navigate to the indicator in the maintenance app. This indicator (EPI - BCG Coverage %) is already available but we are going to create it for the sake of demonstration.
 
 Select the plus sign to create the indicator.
 
 Give the indicator a name, short name, code and description. Here is the description
 
-The estimated proportion of new students that have enrolled in a primary school within a given period
+Numerator: BCG doses given <1 yr Usually captured monthly
+
+Denominator: Live births Usually captured annually; alternative denominators may include 'live births' reported routinely from health facilities and/or community sources
 
 Also, use the Percentage indicator type, since we will be multiplying this indicator by a factor of 100.
 
@@ -178,13 +168,13 @@ First the numerator
 
 ![indicator1-numerator](images/indicators/indicator1-numerator.png)
 
-Search for TT_B_Learner enrolment (termly tool section B) and add up the totals from ages 6 years to 12 years.
+Search for BCG doses given < 1 yr
 
 Then the denominator
 
 ![indicator1-denominator](images/indicators/indicator1-denominator.png)
 
-Search for District population, you want children aged 6-12 years. 
+Search for Live Births. 
 
 With this information selected, save the indicator. Note to the participants that you won't be able to use the indicator until the analytics process is run.
 
@@ -195,11 +185,11 @@ With this information selected, save the indicator. Note to the participants tha
 Next, let us create the indicator for BCG Coverage <1 (%). This indicator has a couple unique propoerties
 
 1. It is annualized
-2. It uses an attribute category (Results) in its numerator
+2. It uses an attribute category (Donor 1) in its numerator
 
 The formula for this indicator is 
 
-- Numerator : BCG doses given < 1, Result
+- Numerator : BCG doses given < 1, Donor 1
 - Denominator : Estimated live births
 - Factor/Indicator Type : Percentage (x100)
 
@@ -227,7 +217,7 @@ Do you see an issue with this at ths point in time?
 
 ![indicator2-source](images/indicators/indicator2-source.png)
 
-The immunization data set is seperated into results and targets. If we take the total for this data element without seperating it by these attribute categories, we will get the wrong value. We need to add in the attribute category to our numerator; but there is no option to review the attribute categories whe we are editing the indicator! 
+The immunization data set is seperated into Donor 1 and Donor 2. If we take the total for this data element without seperating it by these attribute categories, we will get the wrong value. We need to add in the attribute category to our numerator; but there is no option to review the attribute categories whe we are editing the indicator! 
 
 We can add this into our formula but it is a bit of a hidden feature. We need to find the id of the attribute category option combination, then we can add it into our indicator. 
 
@@ -247,7 +237,7 @@ You now need to add the attribute category option combination to your numerator 
 
 do this by adding a period after the disaggregate category combination id followed by the ID of the attribute category option combination. 
 
-You will see that the description at the bottom now shows "Results" as it has recognized this ID in your formula.
+You will see that the description at the bottom now shows "Donor 1" as it has recognized this ID in your formula.
 
 Save the numerator.
 
