@@ -31,10 +31,7 @@ There is also a Quick Guide which lists the steps very briefly and this is meant
 
 ## Background
 
-
 ## Preparations
-
-
 
 ## Best Practices
 
@@ -50,25 +47,22 @@ In an in-person setting, the participants may be doing the demo with you at the 
 
 2. Log in as the HIV user and review what they have access to
    1. HIV/District1#
-3. Log in as the EMIS user and review what they have access to
-   1. EMIS/District1#
-4. Log in as the all health programs user and review what they have access to
+
+3. Log in as the all health programs user and review what they have access to
    1. health_admin/District1#
 
 STOP - Perform Exercise 1
 
-7. Review data level sharing in maintenace by discussing user groups
-8. Create a new user group
-9. Review the data sharing for category options
+4. Review data level sharing in maintenance by discussing user groups
+5. Create a new user group
+6. Review the data sharing for category options
 
 STOP - Perform Exercise 2
 
 10. Discuss the default settings when you create a new category options and justify public category options
-11. Review the sharing settings for the EMIS and HIV monthly data sets
+11. Review the sharing settings for HIV monthly data sets
 
 STOP - Perform Exercise 3
-
-
 
 
 ## Live Demo step by step
@@ -85,7 +79,7 @@ Username: hiv
 
 Password: District1#
 
-You can review the apps menu and note that the apps they have access to here are c
+You can review the apps menu.
 
 This user has the ability to enter and analyze HIV data only. This starts from when they log in, as they only have access to the HIV dashboards within the system.
 
@@ -111,38 +105,6 @@ The same is true for the other data types. Here is the example for data elements
 
 ![data-hiv-DEgroup](images/sharing/data-hiv-DEgroup.png)
 
-### Log in as the education user
-
-Log out of the HIV user and log in as the EMIS user
-
-Username: emis
-
-Password: District1#
-
-This user has the ability to enter and analyze EMIS data only. This starts from when they log in, as they only have access to the EMIS dashboard within the system.
-
-Navigate to data entry and access a school. If you try to see a dataset, they will only have access to the Primary Termly Tool. Note they are also only seeing the Gambia hierarchy with the schools inside of it.
-
-![emis-data-entry](images/sharing/emis-data-entry.png)
-
-Navigate to data visualizer
-
-Review the dimensions panel. Only a handful of dimensions, specific to the EMIS user, are available. 
-
-![emis-dimensions](images/sharing/emis-dimensions.png)
-
-Now, open the data panel. With all types selected, scroll through. You will notice the user only has access to data items from shared population items as well as the EMIS data items.
-
-![data-emis-all](images/sharing/data-emis-all.png)
-
-Select indicators as the data type, only the EMIS and population indicator groups are available to this user.
-
-![data-emis-indicatorgroup](images/sharing/data-emis-indicatorgroup.png)
-
-The same is true for the other data types. Here is the example for data elements
-
-![data-emis-DEgroup](images/sharing/data-emis-DEgroup.png)
-
 ### Log in as the all health programs user
 
 The combination of user roles, user groups and sharing allows us to provide a great deal of granularity when we define our users. We can have them only access segmented pieces of the system, along with limited access to the apps within DHIS2; or we can create users with maintenance privileges and access to many data types. Anything in between can also be created.
@@ -150,6 +112,7 @@ The combination of user roles, user groups and sharing allows us to provide a gr
 For the last user, log in with
 
 Username: health_admin
+
 Password: District1#
 
 Right away we can see this user has access to all of the health dashboards.
@@ -195,12 +158,13 @@ We have covered user roles, now we can discuss user groups in a bit more detail.
 
 These 3 user group types contain the same users that were discussed earlier, linked to the various functionality that has already been demoed. We can use these groups to share reports/outputs, data elements, indicators, categories and other meta-data, as well as data which is what we will do in this case.
 
-Creating a user group is very easy. 
+Creating a user group is very easy.
+
 1. Select the blue plus sign to add a new group
 2. Assign the group a name (and code if you want)
 3. Save the user group
 
-We assign these user groups to our user at any time (either during or after creating the user) in order to apply the correct sharing settings to them. If we review the user "EMIS: we can see they are assigned to two EMIS user groups.
+We assign these user groups to our user at any time (either during or after creating the user) in order to apply the correct sharing settings to them. If we review the user "HIV: we can see they are assigned to three HIV user groups.
 
 ![emis-user-groups](images/sharing/emis-user-groups.png)
 
@@ -236,7 +200,7 @@ Go to Category option management and open the sharing dialog for any of the cate
 
 ***Preparation***
 
-Log back in to the two users for HIV and EMIS in different browsers (not just a new tab; it should be either a different incognito window or a different browser altogether). 
+Log back as a user for HIV and Malaria in different browsers (not just a new tab; it should be either a different incognito window or a different browser altogether).
 
 *Log in as the HIV user*
 
@@ -244,17 +208,16 @@ Username: hiv
 
 Password: District1#
 
-*Log in as the EMIS user*
+*Log in as the Malaria user*
 
-Username: emis
+Username: malaria_data_entry
 
 Password: District1#
 
-You should then have three different browser instances running. 
+You should then have two different browser instances running. 
 
-1. As the admin
-2. As the HIV user
-3. As the EMIS user
+1. As the HIV user
+2. As the Malariauser
 
 ![sharing-prep](images/sharing/sharing-prep.png)
 
@@ -262,7 +225,8 @@ You should then have three different browser instances running.
 
 With the prep taken care of, you can then alternate between the explanation and showing what the user can do (similar to demo 1 but now with the maintenance explanation) while showing the sharing settings. This will allow the user to see how certain sharing settings are reflected within DHIS2
 
-Next, go to dataset management and open the sharing dialog for the dataset EMIS - Primary Termly Tool.
+Next, go to dataset management and open the sharing dialog for the HIV Monthly data set.
+
 
 ![termly-sharing](images/sharing/termly-sharing.png)
 
@@ -272,7 +236,7 @@ We can see this dataset is shared with 3 user groups; and there are different sh
 
 You will notice there is only one user group that has they "Can capture and view" setting applied to it's data level sharing. This means that only users part of this user group will be able to enter data within this data set.
 
-You could switch over the the EMIS user in another browser to show the effect these sharing settings have to a user within this user group.
+You could switch over the HIV user in another browser to show the effect these sharing settings have to a user within this user group.
 
 You can also open the sharing settings for the HIV Monthly data set.
 

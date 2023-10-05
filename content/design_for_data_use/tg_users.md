@@ -119,7 +119,7 @@ Let us review the authorities assigned to this role.
 - Data entry app : gives them access to the data entry app
 
 
-There are only assigned 4 apps as part of this role. This means, if they only have this user role, they will only see these 4 apps in the apps menu (along with menu management, which every user sees). 
+There are only 4 apps assigned as part of this role. This means, if they only have this user role, they will only see these 4 apps in the apps menu (along with menu management, which every user sees). 
 
 ![data-entry-apps](images/users/data-entry-apps.png)
 
