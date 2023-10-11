@@ -182,22 +182,22 @@ With this information selected, save the indicator. Note to the participants tha
 
 ### Create an indicator using an attribute
 
-Next, let us create the indicator for BCG Coverage <1 (%). This indicator has a couple unique propoerties
+Next, let us create the indicator for BCG doses given <1 Donor 1 (%). This indicator has a couple unique propoerties
 
-1. It is annualized
+1. It's annualized
 2. It uses an attribute category (Donor 1) in its numerator
 
 The formula for this indicator is 
 
-- Numerator : BCG doses given < 1, Donor 1
-- Denominator : Estimated live births
+- Numerator : BCG doses given < 1 Donor 1
+- Denominator : Total BCG doses
 - Factor/Indicator Type : Percentage (x100)
 
 Navigate back to Maintenance -> Indicator and create a new indicator. 
 
 Give the indicator a name, short name, code and description. Here is the description
 
-The estimated % of children < 1 that have been given a BCG vaccination
+The estimated % of children < 1 Donor 1 that have been given a BCG vaccination
 
 This indicator should be annualized so it can calculate monthly coverages using yearly population totals. Make sure this item is selected.
 
@@ -217,7 +217,7 @@ Do you see an issue with this at ths point in time?
 
 ![indicator2-source](images/indicators/indicator2-source.png)
 
-The immunization data set is seperated into Donor 1 and Donor 2. If we take the total for this data element without seperating it by these attribute categories, we will get the wrong value. We need to add in the attribute category to our numerator; but there is no option to review the attribute categories whe we are editing the indicator! 
+The immunization data set is seperated into Donor 1 and Donor 2. If we take the total for this data element without seperating it by these attribute categories, we will get the wrong value. We need to add in the attribute category to our numerator; but there is no option to review the attribute categories when we are editing the indicator! 
 
 We can add this into our formula but it is a bit of a hidden feature. We need to find the id of the attribute category option combination, then we can add it into our indicator. 
 
@@ -235,7 +235,7 @@ You now need to add the attribute category option combination to your numerator 
 
 ![indicator2-numerator2](images/indicators/indicator2-numerator2.png)
 
-do this by adding a period after the disaggregate category combination id followed by the ID of the attribute category option combination. 
+Do this by adding a period after the disaggregate category combination id followed by the ID of the attribute category option combination. 
 
 You will see that the description at the bottom now shows "Donor 1" as it has recognized this ID in your formula.
 
@@ -245,7 +245,7 @@ Then edit the denominator
 
 ![indicator2-denominator](images/indicators/indicator2-denominator.png)
 
-Search for live births and add this to your denominator. 
+Search for EPI - BCG doses given and add this to your denominator. 
 
 With this information selected, save the indicator. Note to the participants that you won't be able to use the indicator until the analytics process is run.
 
