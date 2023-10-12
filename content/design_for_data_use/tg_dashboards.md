@@ -23,21 +23,17 @@ There is also a Quick Guide which lists the steps very briefly and this is meant
    
 ## Time Requirements
 
-- Live Demo: 
-- Hands-on Exercises: 
-- Assignment: 
+- Live Demo: 30 min
+- Hands-on Exercises: 30 min
+- Assignment: 30 min
 
 ## Background
-
 
 
 ## Preparations
 
 
-
 ## Best Practices
-
-
 
 ## Quick Guide
 
@@ -90,7 +86,7 @@ You can use the search bar to find particular dashboards. You can also expand th
 
 #### Use the filter
 
-Within the dashboard interface, we can decide which level of data we are seeing by using the filter. In the HIV National Dashboard, at the moment, all of the outputs are displaying data for for Lao. Select “Add filter” and “Organisation Unit” to apply an org unit filter. Select a province within the org unit filter and update the dashboard.
+Within the dashboard interface, we can decide which level of data we are seeing by using the filter. In the HIV National Dashboard, at the moment, all of the outputs are displaying data for Lao. Select “Add filter” and “Organisation Unit” to apply an org unit filter. Select a province within the org unit filter and update the dashboard.
 
 ![dashboard-ou-filter](images/dashboards/dashboard-ou-filter.png)
 
@@ -98,7 +94,7 @@ All of the outputs will be updated to use the filter that you have applied. You 
 
 ![filter-applied](images/dashboards/filter-applied.png)
 
-We can add other filters to the dashboard as well. This includes a period or data dimension. This feature is very useful as it filters all of the items on the dashboard at once. For example, you could also add a filter for the period, only viewing the a specific month of data.
+We can add other filters to the dashboard as well. This includes a period or data dimension. This feature is very useful as it filters all of the items on the dashboard at once. For example, you could also add a filter for the period, only viewing the specific month of data.
 
 ![period-filter](images/dashboards/period-filter.png)
 
@@ -177,8 +173,6 @@ In the next window, select the printer you want as the ‘Destination’ and cli
 
 From 2.36, dashboards can be accessed via a mobile device without any additional customization requirements. You can just log in via your mobile device using a mobile browser and the dashboard will adjust its layout to fit the items accordingly. Both portrait and landscape orientations are supported. 
 
-![mobile-dashboards](images/dashboards/mobile-dashboards.jpg)
-
 #### Making dashboards available offline
 
 Dashboard can be made available to work offline. They will be stored in cache. As long as the person does not log out of DHIS2 while online/offline, they will be able to access the offline dashboard. 
@@ -210,7 +204,7 @@ This will discuss adding new items to the dashboard.
 
 To add a new dashboard, click on the “+” sign at the top of the dashboard page.
 
-Outline the steps required in order to add the item to the dashboard. You can use some of existing examples from the termly tool (EMIS) or health use cases.
+Outline the steps required in order to add the item to the dashboard. You can use some of existing examples from health use cases.
 
 ![db-layout](images/dashboards/db-layout.png)
 
@@ -229,6 +223,7 @@ These changes get applied to the “Add filter” button after you have saved th
 ![emis-with-filter](images/dashboards/emis-with-filter.png)
 
 When you are done, select “Save changes” to save the dashboard
+
 ![save-changes](images/dashboards/save-changes.png)
 
 #### STOP - Perform Exercise 2
