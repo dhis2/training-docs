@@ -17,27 +17,20 @@ There is also a Quick Guide which lists the steps very briefly and this is meant
 1. Define the DHIS2 category model
 2. Use categories to disaggregate data in analysis apps
 3. Create category options, categories and category combinations following a standard operating procedure
-4. Verify the creation of category option combinations using the API
-5. Describe the relationship between categories, data dimensions and anlaytics
-6. Apply category combinations to data elements
+4. Describe the relationship between categories, data dimensions and anlaytics
+5. Apply category combinations to data elements
 
 ## Time Requirements
 
-- Live Demo: 
-- Hands-on Exercises: 
-- Assignment: 
+- Live Demo: 30 min
+- Hands-on Exercises: 30 min
+- Assignment: 30 min
 
 ## Background
 
-
-
 ## Preparations
 
-
-
 ## Best Practices
-
-
 
 ## Quick Guide
 
@@ -62,33 +55,26 @@ STOP - Exercise 1
 
 [Link](https://docs.google.com/presentation/d/1243f0aSQATHFFUzZNBNIiH4Hltaor181/edit?usp=share_link&ouid=104677221247573000314&rtpof=true&sd=true) 
 
-1. Show how to manage category options in maintenance
+2. Show how to manage category options in maintenance
    1. Create cat options using your initials for
       1. Sex (male, female) 
       2. Age (0-14, 15+)
 
 STOP - Perform Exercise 2
 
-1. Show how to manage categories in maintenance
+3. Show how to manage categories in maintenance
    1. Create 2 cateogries
       1. Sex (male, female) 
       2. Age (0-14, 15+)
 
 STOP - Perform Exercise 3
 
-1. Show how to manage category combinations in maintenance 
+4. Show how to manage category combinations in maintenance 
    1. Age (0-14, 15+) + Sex
 
 STOP - Perform Exercise 4
 
-1. Check the category option combinations via the API
-
-```
-api/categoryCombos/CZdqpXRkg8Y.csv?fields=categoryOptionCombos[id,name]
-```
-STOP - Perform Exercise 5
-
-1. Review the presentation on additional considerations for categories
+4. Review the presentation on additional considerations for categories
 
 [Link](https://docs.google.com/presentation/d/1j4zONbJx73HwgiFFu8eGgjVUJOG8mJZf80V6IpS_lLE/edit?usp=sharing)
 
@@ -181,7 +167,7 @@ From this screen, the first thing you want to do is search for the category opti
 
 ![cat_option_search_maintenance](images/categories/cat_option_search_maintenance.png)
 
-If I type in "Male" as a category option, I will see that this already exists. Under normal circumstances, you would stop here. Never create a duplicate category option when it already exists. 
+If you type in "Male" as a category option, you will see that this already exists. Under normal circumstances, you would stop here. Never create a duplicate category option when it already exists. 
 
 In this scenario, we want to go through the process of the category model from start to finish; so we will create this category option for demonstration purposes only.
 
@@ -210,7 +196,7 @@ From this screen, the first thing you want to do is search for the category you 
 
 ![cat_option_search_sex_maintenance](images/categories/cat_option_search_sex_maintenance.png)
 
-We will see there are a couple sexes listed already. Under normal circumstances, you would stop here. Never create a duplicate categories when they already exist. 
+We will see there are a couple of category by name sexes listed already. Under normal circumstances, you would stop here. Never create a duplicate categories when they already exist. 
 
 In this scenario, we want to go through the process of the category model from start to finish; so we will create these categories for demonstration purposes only.
 
@@ -257,42 +243,6 @@ Use your initals as a prefix and create the category combination for for Age (0-
 You can discuss the fields as you fill them in. In particular, make sure to review the data dimension type. Leave it as disaggregation but we will come back to attributes in a later session.
 
 #### STOP - Perform Exercise 4
-
-### Check the category option combinations via the API
-
-We have succesfully created our category combination. It is now time to check if the category option combinations have been created. Based on what we made, we should have a total of 4 category option combinations
-
-- 0-14, Male
-- 0-14, Female
-- 15+, Male
-- 15+, Female
-
-To check this, first, get the UID of the category combination that you made
-
-Navigate to maintenance -> Category -> Category combination
-
-Search for your category combination, hit the action button followed by show details
-
-![catcombo-details](images/categories/catcombo-details.png)
-
-You should now be able to obtain the UID
-
-![catcombo-details-id](images/categories/catcombo-details-id.png)
-
-
-Use the following API call in order to check your category option combinations: 
-
-```
-api/categoryCombos/CZdqpXRkg8Y.csv?fields=categoryOptionCombos[id,name]
-```
-
-where "CZdqpXRkg8Y" is the UID of the category option combo; this will allow you to get a CSV file of the category combo with all of the category option combinations.
-
-![catcombo-check](images/categories/catcombo-check.png)
-
-Now that you have verified it has been created correctly, you can use the category combination to disaggregate the data elements, indicators, validation rules, etc. you need to as required!
-
-#### STOP - Perform Exercise 5
 
 ### Review the presentation on additional considerations for categories
 
