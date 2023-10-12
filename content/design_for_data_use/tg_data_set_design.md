@@ -24,16 +24,13 @@ There is also a Quick Guide which lists the steps very briefly and this is meant
 
 ## Time Requirements
 
-- Live Demo: 
-- Hands-on Exercises: 
-- Assignment: 
+- Live Demo: 1 hour 30 min 
+- Hands-on Exercises: 1 hour 30 min
+- Assignment: 1 hour 30 min
 
 ## Background
 
-
 ## Preparations
-
-
 
 ## Best Practices
 
@@ -78,13 +75,35 @@ Thus, all items on the first column from "1st ANC" visit to "Albendazole given" 
 
 ***DELIVERY table***
 
-This table is more tricky as it has a lot of information and you can see that not all the rows have the same columns (one field is greyed out/disabled.). If we start by looking at the first column "Deliveries assisted by" that seems to be one dimension, but only down to the "TBA" row, as the remaining three rows are not related to who assisted the delivery at all. Another dimension is the place of delivery, either In PHU or in Community as stated on the top column headings. These deliveries are further split into the outcome of the delivery, whether it is a live or still birth, which seems to be another dimension. So if we disregard the three bottom rows for a moment there seems to be 3 dimensions here, 1) assisted by, 2) place of delivery, and 3) delivery outcome. The key decision to make is what to use as the data element, the main dimension, the total that you will most often use and want easily available in reports and data analysis.
+This table is more tricky as it has a lot of information and you can see that not all the rows have the same columns (one field is greyed out/disabled.). If we start by looking at the first column "Deliveries assisted by" that seems to be one dimension, but only down to the "TBA" row, as the remaining three rows are not related to who assisted the delivery at all. Another dimension is the place of delivery, either In PHU or in Community as stated on the top column headings. These deliveries are further split into the outcome of the delivery, whether it is a live or still birth, which seems to be another dimension. So if we disregard the three bottom rows for a moment there seems to be 3 dimensions here, 
 
-In this case, the outcome dimension as "Total live births" is a very commonly used value in many indicators (maternal mortality ratio, births attended by skilled health personnel etc.). In this case the "Assisted By" dimension could also have been used without any problem, but the added value of easily getting the total live births information was the decisive point for us. This means that from this table (or sub-table of row 1 to 6) there are only two data elements; "Live births" and "Still births".
+1) assisted by, 
+2) place of delivery, and 
+3) delivery outcome. 
+
+The key decision to make is what to use as the data element, the main dimension, the total that you will most often use and want easily available in reports and data analysis.
+
+In this case, the outcome dimension as "Total live births" is a very commonly used value in many indicators (maternal mortality ratio, births attended by skilled health personnel etc.). In this case the "Assisted By" dimension could also have been used without any problem, but the added value of easily getting the total live births information was the decisive point for us. This means that from this table (or sub-table of row 1 to 6) there are only two data elements; 
+"Live births" and 
+"Still births".
 
 Next, there are two more dimensions, the "PHU/Community" with its two options and a "Births attended by" with options ("MCH Aides", "Midwives", "CHW", "TBA"). These two categories make up the catcombo "Births" which is assigned to the two data elements "Live births" and "Still births". 
 
-Considering the final three rows of the delivery table we can see that "Complicated Deliveries" does not have the assisted by dimension, but has the place and the outcome. "Low birth weight" does not have the assisted by or outcome dimensions. The LLIN given after delivery does not have the place dimension, and is only provided during one possible outcome. Since these three rows do not share catcombos with any other row we decided to represent these fields as so called flat data elements, meaning data elements with no categories at all, and simply adding the additional information from the column headings to the data element name, and therefore ended up with the following data elements with the default (same as none) catcombo; "Complicated deliveries in PHU live birth", "Complicated deliveries in PHU still births", "Complicated deliveries in community live birth", "Complicated deliveries in community still births", "Low birth weight in PHU", "Low birth weight in community", and "LLIN given after delivery".
+Considering the final three rows of the delivery table we can see that "Complicated Deliveries" does not have the assisted by dimension, but has the place and the outcome. "Low birth weight" does not have the assisted by or outcome dimensions. The LLIN given after delivery does not have the place dimension, and is only provided during one possible outcome. Since these three rows do not share catcombos with any other row we decided to represent these fields as so called flat data elements, meaning data elements with no categories at all, and simply adding the additional information from the column headings to the data element name, and therefore ended up with the following data elements with the default (same as none) catcombo; 
+
+"Complicated deliveries in PHU live birth",
+
+"Complicated deliveries in PHU still births", 
+
+"Complicated deliveries in community live birth",
+
+"Complicated deliveries in community still births",
+ 
+"Low birth weight in PHU", 
+  
+"Low birth weight in community", and 
+  
+"LLIN given after delivery".
 
 ***CONCLUSION***
 

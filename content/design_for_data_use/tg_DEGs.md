@@ -22,9 +22,9 @@ There is also a Quick Guide which lists the steps very briefly and this is meant
 
 ## Time Requirements
 
-- Live Demo: 
-- Hands-on Exercises: 
-- Assignment: 
+- Live Demo: 30 min
+- Hands-on Exercises: 30 min
+- Assignment: 30 min
 
 ## Background
 
