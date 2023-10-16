@@ -2,16 +2,13 @@
 
 ## What is this guide?
 
-
-
 ## Learning objectives for this session
 
 1. Define the DHIS2 category model
 2. Use categories to disaggregate data in analysis apps
 3. Create category options, categories and category combinations following a standard operating procedure
-4. Verify the creation of category option combinations using the API
-5. Describe the relationship between categories, data dimensions and anlaytics
-6. Apply category combinations to data elements
+4. Describe the relationship between categories, data dimensions and anlaytics
+5. Apply category combinations to data elements
 
 ### Exercise 1 - Review how categories can be used to visualize data
 
@@ -27,7 +24,7 @@ This chart has one category with three category options being used to disaggrega
 
 They can also support the disaggregation of our data. 
 
-Add the disaggregation "Age (HIV)" to the to the category of the chart and update the chart. 
+Add the disaggregation "Age (HIV)" to the category of the chart and update the chart. 
 
 ![chart1-in-viz-with-age](images/categories/chart1-in-viz-with-age.png)
 
@@ -40,6 +37,7 @@ To create a new chart select File - > New
 Here are the inputs for the chart:
 
 **Chart Type**
+
 - Column
 
 **Data**
@@ -53,7 +51,7 @@ Here are the inputs for the chart:
 - Last 12 months
 
 **Organisation unit**
-- Lao
+- Lao PDR
 
 We now want to add in our categories for our data. In this case, we need to know how the data elements we selected are disaggregated. 
 
@@ -169,7 +167,7 @@ Use your initals as a prefix and create the category combination for for Age (0-
 
 You can discuss the fields as you fill them in. In particular, make sure to review the data dimension type. Leave it as disaggregation but we will come back to attributes in a later session.
 
-## Exercise 5 - Check the category option combinations via the API
+## Exercise 5 - Check the category option combinations 
 
 ***Perform this exercise in the CUSTOMIZATION system***
 
@@ -180,28 +178,13 @@ We have succesfully created our category combination. It is now time to check if
 - 15+, Male
 - 15+, Female
 
-To check this, first, get the UID of the category combination that you made
+To check this,
 
-Navigate to maintenance -> Category -> Category combination
+Navigate to maintenance -> Category -> Category option combination
 
 Search for your category combination, hit the action button followed by show details
 
-![catcombo-details](images/categories/catcombo-details.png)
-
-You should now be able to obtain the UID
-
 ![catcombo-details-id](images/categories/catcombo-details-id.png)
-
-
-Use the following API call in order to check your category option combinations: 
-
-```
-api/categoryCombos/CZdqpXRkg8Y.csv?fields=categoryOptionCombos[id,name]
-```
-
-where "CZdqpXRkg8Y" is the UID of the category option combo; this will allow you to get a CSV file of the category combo with all of the category option combinations. So make sure you replace the example ID here with the ID you find in mainteance.
-
-![catcombo-check](images/categories/catcombo-check.png)
 
 Now that you have verified it has been created correctly, you can use the category combination to disaggregate the data elements, indicators, validation rules, etc. you need to as required!
 

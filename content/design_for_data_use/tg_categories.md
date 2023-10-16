@@ -60,21 +60,23 @@ STOP - Exercise 1
       1. Sex (male, female) 
       2. Age (0-14, 15+)
 
-STOP - Perform Exercise 2
+   STOP - Perform Exercise 2
 
 3. Show how to manage categories in maintenance
    1. Create 2 cateogries
       1. Sex (male, female) 
       2. Age (0-14, 15+)
 
-STOP - Perform Exercise 3
+   STOP - Perform Exercise 3
 
 4. Show how to manage category combinations in maintenance 
    1. Age (0-14, 15+) + Sex
 
-STOP - Perform Exercise 4
+    STOP - Perform Exercise 4
 
-4. Review the presentation on additional considerations for categories
+5. Check the category option combinations
+
+6. Review the presentation on additional considerations for categories
 
 [Link](https://docs.google.com/presentation/d/1j4zONbJx73HwgiFFu8eGgjVUJOG8mJZf80V6IpS_lLE/edit?usp=sharing)
 
@@ -122,7 +124,7 @@ Here are the inputs for the chart:
 - Last 12 months
 
 **Organisation unit**
-- Lao
+- Lao PDR
 
 We now want to add in our categories for our data. In this case, we need to know how the data elements we selected are disaggregated. 
 
@@ -216,7 +218,9 @@ Repeat this process to create the category for Age (0-14/15+). Ensure you use th
 
 #### STOP - Perform Exercise 3
 
-### Show how to manage category combinations in maintenance
+## Show how to manage category combinations in maintenance
+
+***Perform this exercise in the CUSTOMIZATION system***
 
 We want to create one category combination
 
@@ -243,6 +247,23 @@ Use your initals as a prefix and create the category combination for for Age (0-
 You can discuss the fields as you fill them in. In particular, make sure to review the data dimension type. Leave it as disaggregation but we will come back to attributes in a later session.
 
 #### STOP - Perform Exercise 4
+
+## Check the category option combinations 
+
+***Perform this exercise in the CUSTOMIZATION system***
+
+We have succesfully created our category combination. It is now time to check if the category option combinations have been created. Based on what we made, we should have a total of 4 category option combinations
+
+- 0-14, Male
+- 0-14, Female
+- 15+, Male
+- 15+, Female
+
+To check this,
+
+Navigate to maintenance -> Category -> Category option combination
+
+#### STOP - Perform Exercise 5
 
 ### Review the presentation on additional considerations for categories
 
