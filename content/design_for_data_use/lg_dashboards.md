@@ -121,8 +121,6 @@ In the next window, select the printer you want as the ‘Destination’ and cli
 
 From 2.36, dashboards can be accessed via a mobile device without any additional customization requirements. You can just log in via your mobile device using a mobile browser and the dashboard will adjust its layout to fit the items accordingly. Both portrait and landscape orientations are supported. 
 
-![mobile-dashboards](images/dashboards/mobile-dashboards.jpg)
-
 ### Making dashboards available offline
 
 Dashboard can be made available to work offline. They will be stored in cache. As long as the person does not log out of DHIS2 while online/offline, they will be able to access the offline dashboard. 
@@ -149,7 +147,7 @@ Review slide 6-8 in the dashboards presentation as it will discuss the steps ass
 
 To add a new dashboard, click on the “+” sign at the top of the dashboard page.
 
-Add some dashboard items from the termly tool by searching for items with the prefix EMIS
+Add some dashboard items from the Immunization by searching for items with the prefix EPI
 
 ![db-layout](images/dashboards/db-layout.png)
 
@@ -168,6 +166,7 @@ These changes get applied to the “Add filter” button after you have saved th
 ![emis-with-filter](images/dashboards/emis-with-filter.png)
 
 When you are done, select “Save changes” to save the dashboard
+
 ![save-changes](images/dashboards/save-changes.png)
 
 ## Exercise 3 - Re-Using Dashboards Across Many Users
@@ -212,7 +211,7 @@ Before you add users/groups to the sharing settings for the dashboard, you can a
 
 Another import aspect of this is to ensure the items on the dashboard itself have been shared with the user groups you are sharing the dashboard with. If the visualizations (maps, charts, tables) are not shared, then the user may not be able to view the items on the dashboard correctly. Luckily, we can not apply sharing to all items on the dashboard from the dashboard itself by using the "Apply sharing to dashboard visualizations" tab.
 
-[apply-sharing-to-viz](images/dashboards/apply-sharing-to-viz.png)
+![apply-sharing-to-viz](images/dashboards/apply-sharing-to-viz.png)
 
 By combining the concept of sharing with user org units, we can have one dashboard that can be re-used many times. As an example, we do not need to make outputs for every district; we can instead use the user org units  feature combined with sharing to make one set of outputs that different different users can access to see their own data. We can review this concept in more detail. Clear your cache or open a new incognito window to log in as a different user.
 

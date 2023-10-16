@@ -2,7 +2,7 @@
 
 ## What is this guide?
 
-This guide is a support document for DHIS2 Academy trainers for the session "Dashboards" This session follows the standard Academy training approach with 
+This guide is a support document for the trainers for the session "Dashboards" This session follows the standard Academy training approach with 
 
 1. a live demo session where the trainer demonstrate and explain the features, and 
    
@@ -20,7 +20,6 @@ There is also a Quick Guide which lists the steps very briefly and this is meant
 4. Describe the concept of user org units as it applies to saved items in more detail
 5. Describe how to share dashboards, with an emphasis on how user org units can supplement sharing
 
-   
 ## Time Requirements
 
 - Live Demo: 30 min
@@ -29,9 +28,7 @@ There is also a Quick Guide which lists the steps very briefly and this is meant
 
 ## Background
 
-
 ## Preparations
-
 
 ## Best Practices
 
@@ -52,7 +49,7 @@ STOP - Perform Exercise 1
 
 1. Create a new dashboard
 2. Review all of the features that are available when creating a new dashboard (layout, description, adding items, etc.)
-3. Add some of the EMIS items to the dashboard
+3. Add some of the Immunization/HIV items to the dashboard
 4. Discuss the filter settings
 
 STOP - Perform Exercise 2
