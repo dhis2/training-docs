@@ -17,20 +17,17 @@ There is also a Quick Guide which lists the steps very briefly and this is meant
 1. Describe what dataset attributes are
 2. Use attributes in analysis apps
 3. Configure attribute options, attribute categories, attribute category combos in maintenance
-4. Verify the creation of attribute category option combos via the API
+
 
 ## Time Requirements
 
-- Live Demo: 
-- Hands-on Exercises: 
-- Assignment: 
+- Live Demo: 30 min
+- Hands-on Exercises: 30 min
+- Assignment: 30 min
 
 ## Background
 
-
 ## Preparations
-
-
 
 ## Best Practices
 
@@ -43,39 +40,35 @@ In an in-person setting, the participants may be doing the demo with you at the 
 ## Quick Guide
 
 1. Review the presentation Additional Dimensions - Attributes
-2. Review a dataset in data entry that uses the attribute model (immunization or termly tool)
+2. Review a dataset in data entry that uses the attribute model (immunization)
 3. Show how attribute categories can be used to visualize data
-   1. Open the chart "Enrolment by term this and last 3 years" from the EMIS - Primary school dashboard
+   1. Open the chart "EPI - BCG doses given by Donors" from the Immunization dashboard
    2. Create a new chart
       1. Chart type: column
       2. Data:
-         1. Data Type : Indicators 
-         2. Indicator group: Primary Termly Tool
-         3. Indicator Name: PTT_Total Enrolment
-      3. Period: 2020, 2021, 2022
-      4. Org unit: The Gambia
+         1. Data Type : Data Element 
+         2. Data Element group: Immunization
+         3. Data Element Name: BCG doses given
+         4. Attribute: Donors
+      3. Period: This year
+      4. Org unit: Lao
 
 STOP - Perform Exercise 1
 
 1. Show how to manage category options in maintenance
-2. Create the options for results and targets
+2. Create the options for Donor 1 and Donor 2
 
 STOP - Perform Exercise 2
 
 1. Show how to manage categories in maintenance
-2. Create the attribute category results/targets
+2. Create the attribute category Donors
 
 STOP - Perform Exercise 3
 
 1. Show how to manage attribute category combinations in maintenance
-2. Create the attribute category combination results/targets
+2. Create the attribute category combination Donors
 
 STOP - Perform Exercise 4
-
-1. Check the category option combinations via the API
-   1. api/categoryCombos/yourCatComboIDhere.csv?fields=categoryOptionCombos[id,name]
-
-STOP - Perform Exercise 5
 
 1. Review where you apply these attribute category combos when creating a dataset
 
@@ -87,41 +80,35 @@ STOP - Perform Exercise 5
 
 ### Review a dataset in data entry that uses the attribute model
 
-There are two datasets one can view : Immunization and the Primary termly tool. Immunization is located at the facility level in the Lao hierarchy, while the termly tool is located at the school level in the Gambia hierarchy. 
+There is a dataset one can view : Immunization is located at the facility level in the Lao hierarchy.
 
 ![imm-dataset](images/attributes/imm-dataset.png)
-
-![ptt-dataset](images/attributes/ptt-dataset.png)
 
 Select either one (or both) to review in data entry focusing on the use of attribute categories to disaggregate the data set.
 
 ### Show how attribute categories can be used to visualize data
 
-Open the chart "Enrolment by term this and last 3 years" from the EMIS - Primary school dashboard
-
-![chart1-dashboard-terms](images/attributes/chart1-dashboard-terms.png)
+Open the chart "EPI - BCG doses given by Donors" from the Immunization dashboard
 
 ![chart1-dashboard-terms-in-viz](images/attributes/chart1-dashboard-terms-in-viz.png)
 
-This chart has two categories being used to disaggregate the data. The first is our disaggregate category : sex. The second one is our attribute category : school term! We can see term 1, term 2 and term 3. 
+This chart has two categories being used to disaggregate the data. 
+
+Attribute category : Donors! We can see Donor 1, Donor 2.
 
 We can add in additional dimensions as items or filters to our chart. 
 
-As an example, we can select the disaggregate category "Class" and select some classes to filter our data further
+As an example, we can select the disaggregate category "Age" and select some classes to filter our data further
 
 ![class-cat-filter](images/attributes/class-cat-filter.png)
 
-Place the class dimension in the filter and update the data. 
+Place the age dimension in the series and Donors in Filter and update the data. 
 
 ![chart2-with-class](images/attributes/chart2-with-class.png)
 
 You will see this effects the output of the data we are now showing.
 
 Note you can do this for any type of data set disaggregated using attribute categories.
-
-If you open the chart "EPI - BCG Doses Given, last 12 months" you will be able to see this applied to other data types as well.
-
-![bcg-targets-results](images/attributes/bcg-targets-results.png)
 
 #### Create a new chart
 
@@ -134,26 +121,26 @@ Here are the inputs for the chart:
 
 **Data**
 - Data Type : Indicators 
-- Indicator group: Primary Termly Tool
-- Indicator Name: PTT_Total Enrolment
+- Indicator group: Immunization
+- Indicator Name: EPI - BCG doses given
 
 ![chart3_data](images/attributes/chart3-data.png)
 
 **Period**
-- 2020, 2021, 2022
+- 2021, 2022, 2023
 
 ![chart3-period](images/attributes/chart3-period.png)
 
 **Organisation unit**
-- The Gambia
+- Lao PDR
 
-We now want to add in the sex and school term data dimensions to the chart. We can note now that the attribute category "School term" is not treated differently from any other available data dimension when we look at the side panel. There is no distinction to seperate it from other categories or org unit group sets either as the attribute category dimension can be used the same as the other ones that are available. As long as the data we are reviewing is disaggregated according to said dimension, it can be used to disaggregate and filter our data.
+We now want to add in the Donor and Age data dimensions to the chart. We can note now that the attribute category "Donor" is not treated differently from any other available data dimension when we look at the side panel. There is no distinction to seperate it from other categories or org unit group sets either as the attribute category dimension can be used the same as the other ones that are available. As long as the data we are reviewing is disaggregated according to said dimension, it can be used to disaggregate and filter our data.
 
-Add in the categories for school term
+Add in the categories for Donor
 
 ![school-term-selection](images/attributes/school-term-selection.png)
 
-and sex
+and Age (Immunization)
 
 ![sex-cat-selection](images/categories/sex-cat-selection.png)
 
@@ -167,7 +154,7 @@ You will see the disaggregations (categories) have now been applied.
 
 ### Show how to manage category options in maintenance
 
-In our example, let us create the category options that we had used to disaggregate our Immuniuzation data set. This consists only of Targets and Results. 
+In our example, let us create the category options that we had used to disaggregate our Immunization data set. This consists only of Donor 1 and Donor 2. 
 
 Navigate to maintenance -> Category -> Category Option
 
@@ -175,19 +162,19 @@ From this screen, the first thing you want to do is search for the category opti
 
 ![cat-option-search-result](images/attributes/cat-option-search-result.png)
 
-If I type in "Results" as a category option, I will see that this already exists. Under normal circumstances, you would stop here. Never create a duplicate category option when it already exists. 
+If I type in "Donor" as a category option, I will see that this already exists. Under normal circumstances, you would stop here. Never create a duplicate category option when it already exists. 
 
 In this scenario, we want to go through the process of the attribute category model from start to finish; so we will create this category option for demonstration purposes only.
 
 Create a new category option by selecting the plus icon.
 
-Use your initals as a prefix and create the category option Results
+Use your initals as a prefix and create the category option Donor 1
 
 ![cat-option-results](images/attributes/cat-option-results.png)
 
 You can discuss the fields as you fill them in. Save the category option when you are finished.
 
-Repeat this process to create the category options for Targets.
+Repeat this process to create the category options for Donor 2.
 
 So far, nothing is actually different then when we create disaggregate category options.
 
@@ -197,7 +184,7 @@ So far, nothing is actually different then when we create disaggregate category 
 
 We want to create one category
 
-- Targets/Results
+- Donors
 
 Navigate to maintenance -> Category -> Category
 
@@ -205,13 +192,13 @@ From this screen, the first thing you want to do is search for the category you 
 
 ![cat-search-results](images/attributes/cat-search-results.png)
 
-We will see Results/Targets listed already. Under normal circumstances, you would stop here. Never create a duplicate categories when they already exist. 
+We will see Donors listed already. Under normal circumstances, you would stop here. Never create a duplicate categories when they already exist. 
 
 In this scenario, we want to go through the process of the attribute category model from start to finish; so we will create these attribute categories for demonstration purposes only.
 
 Create a new category by selecting the plus icon.
 
-Use your initals as a prefix and create the category for Targets/Results. Make sure you use the category options that you have created (intials_results, initials_target) 
+Use your initals as a prefix and create the category for Donors. Make sure you use the category options that you have created (intials_Donors) 
 
 ![category-targets-results](images/attributes/category-targets-results.png)
 
@@ -229,7 +216,7 @@ Ensure you use the category options that you made with your initials to create t
 
 We want to create one attribute category combination
 
-- Targets/Results
+- Donors
 
 Navigate to maintenance -> Category -> Category combination
 
@@ -243,7 +230,7 @@ In this scenario, we want to go through the process of the attribute category mo
 
 Create a new category combination by selecting the plus icon.
 
-Use your initals as a prefix and create the category combination for for Targets/Results. Make sure you use the categories that you have created (initials_targets/results)
+Use your initals as a prefix and create the category combination for for Donors. Make sure you use the categories that you have created (initials_Donors)
 
 ![catcombo-result-target](images/attributes/catcombo-result-target.png)
 
@@ -251,35 +238,21 @@ You can discuss the fields as you fill them in. In particular, make sure to revi
 
 #### STOP - Perform Exercise 4
 
-### Check the category option combinations via the API
+### Check the category option combinations 
 
-We have succesfully created our category combination. It is now time to check if the category option combinations have been created. Based on what we made, we should have a total of 4 category option combinations
+We have succesfully created our category combination. It is now time to check if the category option combinations have been created. Based on what we made, we should have a total of 2 category option combinations
 
-- Targets
-- Results
+- Donor 1
+- Donor 2
 
-To check this, first, get the UID of the category combination that you made
+To check this,
 
-Navigate to maintenance -> Category -> Category combination
+Navigate to maintenance -> Category -> Category option combination
 
 Search for your category combination, hit the action button followed by show details
 
 ![catcombo-details](images/attributes/catcombo-details.png)
 
-You should now be able to obtain the UID
-
-![catcombo-details-id](images/categories/catcombo-details-id.png)
-
-
-Use the following API call in order to check your category option combinations: 
-
-```
-api/categoryCombos/CZdqpXRkg8Y.csv?fields=categoryOptionCombos[id,name]
-```
-
-where "CZdqpXRkg8Y" is the UID of the category option combo; this will allow you to get a CSV file of the category combo with all of the category option combinations.
-
-![catcombo-check](images/attributes/catcombo-check.png)
 
 Now that you have verified it has been created correctly, you can use the attribute category combination to disaggregate the data sets that you need.
 
@@ -289,9 +262,7 @@ Now that you have verified it has been created correctly, you can use the attrib
 
 ### Review where you apply these attribute category combos when creating a dataset
 
-Navigate to Maintenance -> Data Set and list the data sets. Search for either the EMIS primary termly tool or the immunization data set. 
-
-![ptt-catcombo](images/attributes/PTT-attribute-catcombo.png)
+Navigate to Maintenance -> Data Set and list the data sets. Search for the immunization data set. 
 
 ![imm-catcombo](images/attributes/imm-attribute-catcombo.png)
 

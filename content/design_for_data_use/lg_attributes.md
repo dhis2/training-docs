@@ -17,31 +17,31 @@ This guide contains all exercises and detailed steps to perform them related to 
 
 ### Review a dataset in data entry that uses the attribute model
 
-There are two datasets one can view : Immunization and the Primary termly tool. Immunization is located at the facility level in the Lao hierarchy, while the termly tool is located at the school level in the Gambia hierarchy. 
+Dataset you can view : Immunization. 
+Immunization is located at the facility level in the Lao hierarchy.
 
 ![imm-dataset](images/attributes/imm-dataset.png)
 
-![ptt-dataset](images/attributes/ptt-dataset.png)
 
-Select either one (or both) to review in data entry focusing on the use of attribute categories to disaggregate the data set.
+Select to review in data entry focusing on the use of attribute categories to disaggregate the data set.
 
 ### Review how attribute categories can be used to visualize data
 
-Open the chart "Enrolment by term this and last 3 years" from the EMIS - Primary school dashboard
-
-![chart1-dashboard-terms](images/attributes/chart1-dashboard-terms.png)
+Open the chart "EPI - BCG doses given by Donors" from the Immunization dashboard
 
 ![chart1-dashboard-terms-in-viz](images/attributes/chart1-dashboard-terms-in-viz.png)
 
-This chart has two categories being used to disaggregate the data. The first is our disaggregate category : sex. The second one is our attribute category : school term! We can see term 1, term 2 and term 3. 
+This chart has two categories being used to disaggregate the data. 
+
+Attribute category : Donors! We can see Donor 1, Donor 2.
 
 We can add in additional dimensions as items or filters to our chart. 
 
-As an example, we can select the disaggregate category "Class" and select some classes to filter our data further
+As an example, we can select the disaggregate category "Age" and select some classes to filter our data further
 
 ![class-cat-filter](images/attributes/class-cat-filter.png)
 
-Place the class dimension in the filter and update the data. 
+Place the age dimension in the series and Donors in Filter and update the data.
 
 ![chart2-with-class](images/attributes/chart2-with-class.png)
 
@@ -49,9 +49,6 @@ You will see this effects the output of the data we are now showing.
 
 Note you can do this for any type of data set disaggregated using attribute categories.
 
-If you open the chart "EPI - BCG Doses Given, last 12 months" you will be able to see this applied to other data types as well.
-
-![bcg-targets-results](images/attributes/bcg-targets-results.png)
 
 ## Create a new chart
 
