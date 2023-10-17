@@ -51,38 +51,6 @@ The same is true for the other data types. Here is the example for data elements
 
 ![data-hiv-DEgroup](images/sharing/data-hiv-DEgroup.png)
 
-### Log in as the education user
-
-Log out of the HIV user and log in as the EMIS user
-
-Username: emis
-
-Password: District1#
-
-This user has the ability to enter and analyze EMIS data only. This starts from when they log in, as they only have access to the EMIS dashboard within the system.
-
-Navigate to data entry and access a school. If you try to see a dataset, they will only have access to the Primary Termly Tool. Note they are also only seeing the Gambia hierarchy with the schools inside of it.
-
-![emis-data-entry](images/sharing/emis-data-entry.png)
-
-Navigate to data visualizer
-
-Review the dimensions panel. Only a handful of dimensions, specific to the EMIS user, are available. 
-
-![emis-dimensions](images/sharing/emis-dimensions.png)
-
-Now, open the data panel. With all types selected, scroll through. You will notice the user only has access to data items from shared population items as well as the EMIS data items.
-
-![data-emis-all](images/sharing/data-emis-all.png)
-
-Select indicators as the data type, only the EMIS and population indicator groups are available to this user.
-
-![data-emis-indicatorgroup](images/sharing/data-emis-indicatorgroup.png)
-
-The same is true for the other data types. Here is the example for data elements
-
-![data-emis-DEgroup](images/sharing/data-emis-DEgroup.png)
-
 ### Log in as the all health programs user
 
 The combination of user roles, user groups and sharing allows us to provide a great deal of granularity when we define our users. We can have them only access segmented pieces of the system, along with limited access to the apps within DHIS2; or we can create users with maintenance privileges and access to many data types. Anything in between can also be created.
@@ -90,6 +58,7 @@ The combination of user roles, user groups and sharing allows us to provide a gr
 For the last user, log in with
 
 Username: health_admin
+
 Password: District1#
 
 Right away we can see this user has access to all of the health dashboards.
@@ -144,7 +113,7 @@ Creating a user group is very easy.
 2. Assign the group a name (and code if you want)
 3. Save the user group
 
-We assign these user groups to our user at any time (either during or after creating the user) in order to apply the correct sharing settings to them. If we review the user "EMIS: we can see they are assigned to two EMIS user groups.
+We assign these user groups to our user at any time (either during or after creating the user) in order to apply the correct sharing settings to them. If we review the user "HIV: we can see they are assigned to three HIV user group
 
 ![emis-user-groups](images/sharing/emis-user-groups.png)
 
@@ -177,24 +146,6 @@ Go to Category option management and open the sharing dialog for any of the cate
 >In this case, keeping category options public with the sharing settigns displayed on screen is recommended so that users and administrators are able to re-use them freely. By making them public, any program can use them to make category combinations; and any admin will be able to log in and check for duplicates before creating new ones!
 
 ### Data Sets
-
-#### EMIS
- 
- Go to dataset management and open the sharing dialog for the dataset EMIS - Primary Termly Tool.
-
-![termly-sharing](images/sharing/termly-sharing.png)
-
-We can see this dataset is shared with 3 user groups; and there are different sharing settings applied to each of these user groups.
-
-![termly-datacapture-sharing](images/sharing/termly-datacapture-sharing.png)
-
-You will notice there is only one user group that has they "Can capture and view" setting applied to it's data level sharing. This means that only users part of this user group will be able to enter data within this data set.
-
-You could switch over the the EMIS user in another browser to review the effect these sharing settings have to a user within this user group.
-
-Username : emis
-
-Password : District1#
 
 #### HIV
 
