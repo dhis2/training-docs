@@ -174,7 +174,7 @@ Then the denominator
 
 ![indicator1-denominator](images/indicators/indicator1-denominator.png)
 
-Search for Live Births. 
+Search for GEN - PopulationLive Births. 
 
 With this information selected, save the indicator. Note to the participants that you won't be able to use the indicator until the analytics process is run.
 

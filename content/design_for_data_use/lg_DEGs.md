@@ -30,36 +30,24 @@ While you can search for data elements and indicators that are not in any group 
 
 Select data element as the data type along with the following inputs
 
-- Data element group : Primary Termly Tool
-- Data element : TT_B_Learner enrollment 6 years
+- Data element group : Immunization
+- Data element : EPI - BCG doses given
 - Aggregation type : by data element
 
 ![maps-data-select-complete](images/degs/maps-data-select-complete.png)
 
-This group is a bit large, with many data items located within it. As a suggestion, we could break this up into smaller groups so we could make it easier to find related data elements.
-
-![maps-data-select-de-list](images/degs/maps-data-select-de-list.png)
-
 Discuss amongst the participants what some possible additonal groupings would be. 
 
-For example:
-- Learner enrolment
-- Learner difficulty
-- Reasons for leaving school
-- Infrastructure (including water, lighting)
-
-Etc.
-
-Before updating the map modify these inputs
+Update the Map
 
 **Period**
 - This year
 
 **Org units**
-- The Gambia Districts
+- Lao PDR
 
 **Filter**
-- School Term = Term 1
+- Age Immunization 1+ year
 
 We can see in this case, while data element groups helps, and is even necessary in the maps map, there is some room for improvement that would help us refine our search parameters.
 
@@ -69,7 +57,7 @@ We can see in this case, while data element groups helps, and is even necessary 
 
 ***Perform this exercise in the CUSTOMIZATION system***
 
-Let us create a data element group for learner enrolment. 
+Let us create a data element group for Immunization.
 
 Navigate to Maintenance -> Data Element
 
