@@ -13,9 +13,9 @@ This guide contains all exercises and detailed steps to perform them related to 
 
 ## Time Requirements
 
-- Live Demo: 
-- Hands-on Exercises: 
-- Assignment: 
+- Live Demo: 30 min
+- Hands-on Exercises: 30 min
+- Assignment: 30 min
 
 ## Exercise 1 - Review how to use legends in data visualizer
 
@@ -29,7 +29,7 @@ This chart has a couple interesting properties. We can see there are two data it
 
 We also see that there is a legend panel to the right of the chart. This allows us to more quickly interpret what the colours on the chart are identifying.
 
-Navigate to optionss -> legend in order to review the legends panel
+Navigate to options -> legend in order to review the legends panel
 
 ![chart1-options](images/legends/chart1-options.png)
 
@@ -105,21 +105,21 @@ Your best option to modify the colouring of these items is to use the color set 
 
 ![color-set](images/legends/color-set.png)
 
-## Exercise 2 - Review to to use legends in maps
+## Exercise 2 - Review to use legends in maps
 
 ***Perform this exercise in the DEMONSTRATION system***
 
-From the EMIS - Primary school dashboard, open the map "Gross Enrolment in LBS, this year"
+“From the Immunization dashboard, open the map “EPI - BCG Coverage by district - last month”
 
 ![gross-enrolment-dashboard](images/legends/gross-enrolment-dashboard.png)
 
 While all thematic maps have a legend applied to it, in this case a custom legend has been used to display the indicator data on this map.
 
-Edit the thematic layer and navigate to the style panel
+Edit the thematic layer and navigate to the style panel.
 
 ![map-style](images/legends/map-style.png)
 
-Here we can see the option for "pre-defined color legend" has been selected, along with the legend "EMIS - Gross Enrolment."
+Here we can see the option for “pre-defined color legend” has been selected, along with the legend “EPI coverage.”
 
 In maps, we can also use automatic colour legends if we want to, which will produce a legend based on the parameters we set. Select this option to review it. 
 
@@ -128,7 +128,6 @@ In maps, we can also use automatic colour legends if we want to, which will prod
 In this case, we can define the number of legend classifications (classes) that we want and select a colour scheme that will be automatically applied to our data.
 
 ![color-select](images/legends/color-select.png)
-
 
 Select a color scheme and update the map to see the effect this has on the map display.
 
@@ -146,7 +145,7 @@ You could update the legend again to review the original map and compare this wi
 
 In order to create a legend navigate to maintenance - > other -> legend
 
-This will display the list of all of the available legends in the system that are shared with your user. Let us recreate the legend for EMIS - Gross Enrolment. As a reminder, this is the legend
+This will display the list of all of the available legends in the system that are shared with your user. Let us recreate the legend for EPI- Coverage. As a reminder, this is the legend.
 
 ![gross-enrolment-legend](images/legends/gross-enrolment-legend.png)
 
@@ -225,7 +224,7 @@ Select save to save your legend.
 
 #### Review how to have pre-defined legends associated with data elements and indicators
 
-Now that we have created a legend, we are able to associate it with data elements and indicators as well as using it analysis. Navigate to maintenance -> indicator and find the indicator "EMIS - Gross Enrolment in primary." If you open it up you will see a legends box where you can add your legend to the indicator. In this case, a legend is already associated with the indicator so no need to add another one. If you do this, the indicator will maintain an association with that legend and that legend will automatically be used in analysis when legends are enabled unless other options are selected for it. This process is identical for both data elements and indicators.
+Now that we have created a legend, we are able to associate it with data elements and indicators as well as using it analysis. Navigate to maintenance -> indicator and find the indicator "EPI - BCG Coverage %." If you open it up you will see a legends box where you can add your legend to the indicator. If you do this, the indicator will maintain an association with that legend and automatically be used in analysis when legends are enabled unless other options are selected for it. This process is identical for both data elements and indicators.
 
 ![indicator-legend](images/legends/indicator-legend.png)
 
@@ -235,9 +234,9 @@ You should now be able to apply this legend in maps or visualizer. Select the ap
 
 - Visualization : Bar Chart/pivot table/thematic map
 - Data Type : Indicator
-- Indicator group : EMIS - Enrolment
-- Indicator : EMIS - Enrolment in primary
+- Indicator group : Immunization - coverages
+- Indicator : EPI - BCG Coverage %
 - Period : This Year
-- Org unit : The Gambia Districts
-- Legend : Predefined legend - yourinitials_Gross Enrolment
+- Org unit : Lao PDR Districts
+- Legend : Predefined legend - yourinitials_EPI- Coverage
 
