@@ -141,8 +141,6 @@ Repeat this process to create the category for Age (0-14/15+). Ensure you use th
 
 ## Exercise 4 - Review how to manage category combinations in maintenance
 
-***Perform this exercise in the CUSTOMIZATION system***
-
 We want to create one category combination
 
 - Age (0-14, 15+) + Sex
