@@ -7,7 +7,9 @@ This guide contains all exercises and detailed steps to perform them related to 
 ## Learning objectives for this session
 
 1. Describe the individual concepts that make up a user
+
 2. Configure these concepts in DHIS2
+
 3. Create a user in DHIS2
 
 ## Exercise 1 - Review user roles and authorities
