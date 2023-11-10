@@ -53,7 +53,7 @@ STOP - Exercise 1
 
 1. Review the presentation "The correct way to create categories"
 
-[Link](https://docs.google.com/presentation/d/1243f0aSQATHFFUzZNBNIiH4Hltaor181/edit?usp=share_link&ouid=104677221247573000314&rtpof=true&sd=true) 
+[Link](https://docs.google.com/presentation/d/1xRmqvfrJry6f1fcKCwp6Qd9Ojiw9FQ7LS0oBPGhOyNU/edit#slide=id.p) 
 
 2. Show how to manage category options in maintenance
    1. Create cat options using your initials for
@@ -78,7 +78,7 @@ STOP - Exercise 1
 
 6. Review the presentation on additional considerations for categories
 
-[Link](https://docs.google.com/presentation/d/1j4zONbJx73HwgiFFu8eGgjVUJOG8mJZf80V6IpS_lLE/edit?usp=sharing)
+[Link](https://docs.google.com/presentation/d/1j4zONbJx73HwgiFFu8eGgjVUJOG8mJZf80V6IpS_lLE/edit#slide=id.p)
 
 ## Live Demo step by step
 

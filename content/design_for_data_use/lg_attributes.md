@@ -9,7 +9,7 @@ This guide contains all exercises and detailed steps to perform them related to 
 1. Describe what dataset attributes are
 2. Use attributes in analysis apps
 3. Configure attribute options, attribute categories, attribute category combos in maintenance
-4. Verify the creation of attribute category option combos via the API
+4. Verify the creation of attribute category option combos via maintenance
 
 ## Exercise 1 - Use attributes to create visualizations
 
@@ -33,7 +33,7 @@ Open the chart "EPI - BCG doses given by Donors" from the Immunization dashboard
 
 This chart has two categories being used to disaggregate the data. 
 
-Attribute category : Donors! We can see Donor 1, Donor 2.
+Attribute category : Donors; We can see Donor 1, Donor 2 on the chart.
 
 We can add in additional dimensions as items or filters to our chart. 
 
@@ -94,27 +94,27 @@ You will see the disaggregations (categories) have now been applied.
 
 ***Perform this exercise in the CUSTOMIZATION system***
 
-In our example, let us create the category options that we had used to disaggregate our Immuniuzation data set. This consists only Donors. 
+In our example, let us create the attribute options that we had used to disaggregate our Immuniuzation data set. This consists only Donors. 
 
 Navigate to maintenance -> Category -> Category Option
 
-From this screen, the first thing you want to do is search for the category option you are creating. 
+From this screen, the first thing you want to do is search for the attribute option you are creating. 
 
 ![cat-option-search-result](images/attributes/cat-option-search-result.png)
 
-If I type in "Donors" as a category option, I will see that this already exists. Under normal circumstances, you would stop here. Never create a duplicate category option when it already exists. 
+If I type in "Donors" as a attribute option, I will see that this already exists. Under normal circumstances, you would stop here. Never create a duplicate attribute option when it already exists. 
 
-In this scenario, we want to go through the process of the attribute category model from start to finish; so we will create this category option for demonstration purposes only.
+In this scenario, we want to go through the process of the attribute category model from start to finish; so we will create this attribute option for demonstration purposes only.
 
-Create a new category option by selecting the plus icon.
+Create a new attribute option by selecting the plus icon.
 
-Use your initals as a prefix and create the category option Donor 1.
+Use your initals as a prefix and create the attribute option Donor 1.
 
 ![cat-option-results](images/attributes/cat-option-results.png)
 
-You can discuss the fields as you fill them in. Save the category option when you are finished.
+You can discuss the fields as you fill them in. Save the attribute option when you are finished.
 
-Repeat this process to create the category options for Donor 2.
+Repeat this process to create the attribute option for Donor 2.
 
 So far, nothing is actually different then when we create disaggregate category options.
 
