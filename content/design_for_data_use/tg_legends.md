@@ -79,8 +79,6 @@ STOP - Perform Exercise 3
 
 ### Review the presentation on legends
 
-![Link]
-
 ### Show how to use legends in data visualizer
 
 Navigate to data visualizer and open the chart "HIV - Test positivity and PLHIV virologically suppressed"
