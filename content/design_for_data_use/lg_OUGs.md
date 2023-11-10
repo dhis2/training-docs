@@ -1,4 +1,4 @@
-x   # Learner's Guide to Organisation Unit Groups and Group Sets
+# Learner's Guide to Organisation Unit Groups and Group Sets
 
 ## What is this guide?
 
