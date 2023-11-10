@@ -251,6 +251,45 @@ With this information selected, save the indicator. Note to the participants tha
 
 #### STOP - Perform Exercise 3
 
+### Working with logical expressions
+
+Create the indicator “MAL - Inpatient cases decline(%).” This is already available but we are going to create it for the sake of practice.
+
+Select the plus sign to create the indicator.
+
+Give the indicator a name, short name, code and description. Here is the description
+
+“Decline in inpatient malaria cases expressed as “cases reported in the previous period minus cases reported in the current period divided by cases reported in the previous period” within a given period”
+
+Also, use the Percentage indicator type, since we will be multiplying this indicator by a factor of 100.
+
+![offset-indicator-details](images/indicators/offset-indicator-details.png)
+
+Scroll down to edit the numerator and denominator of the indicator
+
+First the numerator
+
+The numerator description should be “Inpatient malaria cases previous period - Inpatient malaria cases current period”
+
+![offset-indicator-numerator](images/indicators/offset-indicator-numerator.png)
+
+Search for “MAL - Inpatient malaria cases”, select the total without the category option Combinations, click the .periodOffset( and append to the data element expression with a factor of -1. This will be the expression for “Inpatient malaria cases previous period”. 
+
+Add a minus sign after the expression and again search for “MAL - Inpatient malaria cases”, select the total without the category option Combinations, don’t add the periodOffset
+
+Then the denominator
+
+The denominator description should be “Inpatient malaria cases previous period”
+
+![offset-indicator-denominator](images/indicators/offset-indicator-denominator.png)
+
+
+Search for “MAL - Inpatient malaria cases”, select the total without the category option Combinations, click the .periodOffset and append to the data element expression with a factor of -1. This will be the expression for “Inpatient malaria cases previous period”. 
+
+With this information selected, save the indicator. Note that you won't be able to use the indicator until the analytics process is run.
+
+#### STOP - Perform Exercise 4
+
 ### Review the process of creating indicator groups
 
 Navigate to Maintenance -> Indicator -> Indicator group
@@ -268,4 +307,6 @@ In the background, off screen, run analytics.
 
 Then you can go to data visualizer or maps and test the indicators you have created.
 
-#### STOP - Perform Exercise 4
+#### STOP - Perform Exercise 5
+
+

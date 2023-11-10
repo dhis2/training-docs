@@ -285,5 +285,4 @@ You will see it is displaying the country name of Lao in all of the visualizatio
 
 This is due to the use of relative org units. You will also notice they only see the malaria dashboards; this is a result of sharing these dashboards and having this user being apart of the malaria access user group. You will see they can view the dashboards, but they can not edit them.
 
-
 #### STOP - Perform Exercise 3
