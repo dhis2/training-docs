@@ -146,7 +146,7 @@ The sharing settings themselves
 
 We can traditionally think of user groups as defining how outputs are shared (dashboards, tables, maps, etc.) but we can also use both meta-data and data level sharing to restrict what a user has access to in quite a bit of detail.
 
-2.1 - User Groups
+#### User Groups
 
 We have covered user roles, now we can discuss user groups in a bit more detail. Navigate to the user groups part of the application. You will see a number of user groups available here; and they typically follow the same pattern
 
