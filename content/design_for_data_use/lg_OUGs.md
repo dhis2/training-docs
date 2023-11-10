@@ -102,7 +102,7 @@ And update the visualization
 
 From these examples, we can see there is a lot of flexibility introduced by using org unit groups and group sets in data analysis; and having them configured correctly will prove very useful.
 
-## Exercise 2 - Manage OU Groups and OU Group Sets in Maintenance
+## Exercise 2 - Manage OU Groups in Maintenance
 
 ***Perform this exercise in the CUSTOMIZATION system***
 
@@ -116,79 +116,12 @@ When you go to filter organisation units by name type in "HC."
 
 ![create_oug_maintenance](images/ougs/create_oug_maintenance.png)
 
+After you have filtered out your organisation units, you need to select them manually by selecting the checkbox next to the orgunit name to add them to your group. This can take some time so for exercise purposes you may only select a couple and proceed to ***Save*** the org unit group.
 
-## Exercise 3 - Create org unit groups via maintenance
+![ou_selection](images/ougs/ou_selection.png)
 
-***Perform this exercise in the CUSTOMIZATION system***
 
-Lets create our org unit group. We are going to do this because, while we can import the org unit group seperately, it is a bit easier to have created the org unit group already before importing org units to it. Sometimes, a combination of using the maintenace app plus advanced operations can be helpful, as is the case here. 
-
-Navigate to maintenance -> organisation unit and create a new organisation unit group. 
-
-This time, create a group for all health centres using your initials as a prefix; however do not select any org units for the group yet. Save this group when you are done.
-
-![ou-empty](images/ougs/oug-empty.png)
-
-### Review the format of the orgunit group import file
-
-Adding org units to an org unit group via a csv file is very simple. We just need a csv file with two columns:
-
-- Column 1 : The ID of the org unit group you are importing to
-- Column 2 : The ID of the org unit you are adding to the org unit group
-
-Thats it! It will look something like this (you can retrieve examples files via the google drive for this academy)
-
-![ou-oug-import](images/ougs/ou-oug-import.png)
-
-See how the ID in the first column is repeated? That is because all the org units in column 2 are being imported to the same org unit group.
-
-Open up Excel/Libreoffice/etc. to start creating the import file. It can look like this to start
-
-![blank-import](images/ougs/blank-import.png)
-
-Go to the csv file of the HC org units you downloaded and copy all of the IDs you have retrieved into the second column. Paste this into the csv file you have created for importing the org unit groups.
-
-![csv-second-column](images/ougs/csv-second-column.png)
-
-Retrieve the ID of the org unit group by selecting the org unit group you made in maintenance and selecting show details.
-
-![oug-id-retrieval](images/ougs/oug-id-retrieval.png) 
-
-A small box will appear where you can see the ID of the org unit group you have selected.
-
-![oug-details](images/ougs/oug-details.png)
-
-Copy this ID and place it into the first column of your spreadsheet and fill in the remaining cells within the column.
-
-![csv-first-column](images/ougs/csv-first-column.png)
-
-Make sure you save the file as a csv using the UTF-8 format.
-
-## Exercise 4 - Import the org unit groups into DHIS2 via the Import/Export app
-
-***Perform this exercise in the CUSTOMIZATION system***
-
-We can now import this file into DHIS2. Navigate to the import-export app then select metadata import from the side menu
-
-![metadata-import](images/ougs/metadata-import.png)
-
-Upload the file you have made by selecting "Upload file" and finding the file you have made. Then make the following changes
-
-![metadata-import-settings](images/ougs/metadata-import-settings.png)
-
-Make sure to provide a brief explanation as you select these options.
-
-Perform a dry run and make sure everything looks ok.
-
-If it does, import the file by selecting "start import." It should look like this if its all ok
-
-![import-complete](images/ougs/import-complete.png)
-
-Navigate to your org unit group set in maintenance and open it up. You should see that the org units have been assigned to the group
-
-![oug-final-check](images/ougs/oug-final-check.png)
-
-## Exercise 5 - Create the OU group sets via maintenance
+## Exercise 3 - Create org unit group sets via maintenance
 
 ***Perform this exercise in the CUSTOMIZATION system***
 
@@ -200,9 +133,9 @@ Add in the following groups, using the health centre group you created rather th
 
 ![OUGS-config](images/ougs/OUGS-config.png)
 
-Explain the fields as you create this org unit group. Save it when you are finished. 
+Save it when you are finished. 
 
-## Exercise 6 - Use the created groups in visualizer
+## Exercise 4 - Use the created groups in visualizer
 
 **Chart type**
 - Stacked column
