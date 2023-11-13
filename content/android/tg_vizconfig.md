@@ -8,10 +8,10 @@ This guide is a support document for DHIS2 Academy trainers for the session "Vis
    
 2. a hands-­on session with exercises where participants get to practice the same features.
 
-This guide will help the trainer​ prepare​​ for the live demo session. The “Live Demo step by
-step” section has a detailed walkthrough of all the steps to demonstrate with
-explanations and screenshots that should be easy to follow. Use that when preparing for
-the live demo session.
+There are two thematic areas for the demos in this sesssion and the guide is divided into these sections accordingly:
+
+1. Demonstration : A demo of the features discussed in the presentation
+2. Configuration : A walk through of how these features are configured
 
 There is also a Quick Guide which lists the steps very briefly and this is meant as a lookup
 guide or “cheatsheet” WHILE doing the demo, to help the trainer remember all the steps
@@ -73,4 +73,141 @@ Some participant's may not have been able to install the app by themselves. In t
 ## Quick Guide
 
 
-## Live Demo step by step
+## Demo Part 1 - Demonstrate
+
+### System Settings
+
+The color and flag of the app can be set by accessing the system settings
+
+![sytem_settings_icon](images/vizconfig/system_settings_icon.png)
+
+From here, navigate to the appearance tab where you can modify the style and flag of your system.
+
+![appearance](images/vizconfig/system_settings.png)
+
+If you modify these settings they will be reflected in the android application.
+
+### Icons in the Android app
+
+When you first log in, you will see that there are icons and styling applied to android app
+
+![android_icons](images/vizconfig/android_icons.jpg)
+
+### Displaying Rendering Types
+
+In order to display various options for rendering types, we will edit an existing child in the immunization program.
+
+Select the immunization program.
+
+Note that the colour of this program changes to blue, becasue the program specific color has been set to blue.
+
+You could further demo this by changing over to another dataset or program.
+
+Blue colour for Immunization
+
+![blue_immunization](images/vizconfig/blue_immunization.jpg)
+
+Purple colour for Child Nutrition Tracker
+
+![purple_NUT](images/vizconfig/purple_NUT.jpg)
+
+#### QR Reader
+
+We can first start with the QR code reader.
+
+The Local ID is set to scan QR codes
+
+Select the QR code button next to the local ID
+
+![qr_read_icon](images/vizconfig/qr_read_icon.png)
+
+You can scan the following QR code to find an existing record (Jane Thompson)
+
+![qrcode](images/vizconfig/qr_code.png)
+
+Scan the code, it will populate the LOCAL ID field. You can then search for the person
+
+![qr_code_scan](images/vizconfig/qr_code_scan.png)
+
+The results will show their record because you are using a unique ID
+
+![search_results](images/vizconfig/search_results.png)
+
+#### Date Picker
+
+Open the record and edit their details
+
+![edit_details](images/vizconfig/edit_details.png)
+
+Select the field "date first seen"
+
+Here you can demo the different date pickers by selecting "change calendar view"
+
+![calendar](images/vizconfig/calendar_view.png)
+
+#### Option set rendering
+
+If you select the "Attributes - Child" section you will be able to demonstrate examples of different option set rendering types. In addition to the default setting, you will be able to see examples of both
+
+horizontal radio buttons
+
+![horizontal_radio](images/vizconfig/horizontal_radio.png)
+
+and vertical radio buttons
+
+![vertical_radio](images/vizconfig/vertical_radio.png)
+
+#### Images
+
+If you can continue scrolling, you will see placeholders in which you can add an image.
+
+You can proceed to add an image (a good idea is to download some type of randomized icon or image to use rather then show your own photos from your phone) and display the signature fields.
+
+![adding_image](images/vizconfig/adding_image.png)
+
+## Demo part 2 - Configuration
+
+### Program Icon and Colour
+
+### QR Codes
+
+In order to configure fields to read QR or bar codes, we have to start with the value type assigned to our TEA or DE.
+
+TEAs or DEs must be set the the value type of "TEXT" or you will not be able to assign them a render type of QR or Bar code in your program
+
+![localID_valueType](images/vizconfig/localID_valueType.png)
+
+If you check the Local ID TEA value type it will be set to text.
+
+Next, we have to navigate to our tracker program in maintenance. The example we are using is a TEA, so select the Immunization program and navigate to the "Attributes" section of the program. Here we can see the list of attributes assigned to the along with the render type for both mobile and desktop. 
+
+![mobile_rendering](images/vizconfig/mobile_rendering.png)
+
+Local ID is the first field and you can see the rendering type is set to Qr code. You can select the dropdown to see other options that are available here. These options apply to any data value that is text.
+
+### Option Sets
+
+There are two tracked entity attributes that also have option sets, Sex and Attendant at birth.
+
+These two TEAs with option sets have been set to render within this screen as well. 
+
+![option_set_rendering](images/vizconfig/option_set_rendering.png)
+
+There are a number of options here. When selected from this screen, or for a data element within a program stage, they will render accordingly on the android device.
+
+The default setting for an option set is a dropdown list.
+
+### Images
+
+You can set pictures via the TEA or DE value type.
+
+![picture](images/vizconfig/picture.png)
+
+This will allow you to upload images via either android or web.
+
+
+
+
+
+
+
