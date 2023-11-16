@@ -49,7 +49,7 @@ Assignment : ~ 20 mins
 
 ## Exercise 1 - Using Dashboards
 
-We can use the “HIV national” dashboard to explain the dashboard interface. Participants will be familiar with the dashboard by now as this was discussed in the initial overview demo and they have seen it every time they log in at this stage, so you may not need to spend a lot of time here. 
+We can use the “HIV national” dashboard to explain the dashboard interface. 
 
 ![](Images/dashboards/image35.png)
 
