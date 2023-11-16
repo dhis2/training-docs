@@ -160,3 +160,4 @@ If we re-examine the birth detailsstage and open the "Place" section, we will se
 
 ![viz_conf_updated](images/vizentry/viz_conf_updated.png)
 
+### STOP - Perform Exercise 2

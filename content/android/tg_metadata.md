@@ -8,11 +8,12 @@ This guide is a support document for DHIS2 Academy trainers for the session "Met
 
 - Describe the aggregate nutrition dataset
 - Decribe the immunization tracker programs
+- Describe an example android user
 - Identify where to find further information on both of these items
 
 ## Time Requirements
 
-20 minutes
+60 minutes
 
 ## Preparations
 
@@ -38,6 +39,7 @@ Password:
 
 1. Review the nutrition data set in the data entry app
 2. Review the immunization tracker program in tracker capture
+3. Review an example android user (username: android1)
 
 ## Live Demo step by step
 
@@ -112,4 +114,22 @@ After about 10 weeks, the general sense of how the program is configured should 
 ![imm_4theventfilled](images/metadata/imm_4thevent_filled.png)
 
 Ask the participants if they understand or want any clarifications regarding how the program works as you are going through this demo. They need a general understanding as they will be making interacting with and making alterations to this program over the next several days.
+
+### Discuss the user configuration
+
+For users within android, it is import we set up some constraints in order to the user to be able to use the app effectively. In particular, this applies to the organisation units that are assigned to the user. 
+
+
+Navigate to users and open up the user "android1." Scroll down to their org unit access. Let us start with their data capture access. Here you can see they only have access to one district consisting of 4 facilities. This means that any data that eventually gets stored on the device will related to these facitilies only. This reduces the amount of data that needs to be stored on the device and will improve performance significantly during syncing operations and general navigation.
+
+![data_capture](images/metadata/data_capture.png)
+
+If we scroll down to their data output org units, we can see the same principle has been applied here. The reasoning behind this is similar. Analytics can be produced offline directly using data stored on the android device. We limit the org units to those necessary for the person reviewing this information as it adds an extra constraint when creating this local database for storing and producing analytical outputs offline.
+
+![data_output](images/metadata/data_output.png)
+
+The search org units tell a different story however. Here, the user has access to the entire country. This is so that, when they are online, they can search for any potential person that they may need to interact it. This could include a person who shows up at their clinic after receiving services from another district. We would want this user to be able to find this person when searching for them and not register a duplicate, which is why they can search the entire country.
+
+![search](images/metadata/search.png)
+
 
