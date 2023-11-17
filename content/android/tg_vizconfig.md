@@ -43,7 +43,7 @@ https://github.com/dhis2/dhis2-android-capture-app/releases
 
 This will be denoted by “training” at the end of the APK file.
 
-![trainingapk](images/training_apk.png)
+![trainingapk](images/general/training_apk.png)
 
 ### Projecting your Android Device
 
@@ -55,6 +55,16 @@ https://community.dhis2.org/t/how-to-clone-your-android-screen-useful-for-presen
 
 Scrcpy is another tool that can also be used and is platform agnostic:
 https://github.com/Genymobile/scrcpy
+
+Make sure that your device has developer options enabled before attempting to use scrcpy
+
+![developer_options](images/general/dev_options.png)
+
+After developer options is enabled, enable usb debugging from within the developer options menu.
+
+![usb_debug](images/general/usb_debug.png)
+
+More information on enabling this is available [here](https://developer.android.com/studio/debug/dev-options)
 
 ### User Account
 
@@ -167,7 +177,17 @@ You can proceed to add an image (a good idea is to download some type of randomi
 
 ## Demo part 2 - Configuration
 
-### Program Icon and Colour
+### Data Sets and Programs Icons and Colours
+
+You are able to configure the icons and colours of data sets and programs within the maintenance app. 
+
+For datasets you can do this in dataset maintenance.
+
+![dataset_icon_colour](images/vizconfig/dataset_icon_colour.png)
+
+For programs you can do this within the "Program details" tab of program maintenance
+
+![program_icon_colour](images/vizconfig/program_icon_colour.png)
 
 ### QR Codes
 
@@ -184,6 +204,8 @@ Next, we have to navigate to our tracker program in maintenance. The example we 
 ![mobile_rendering](images/vizconfig/mobile_rendering.png)
 
 Local ID is the first field and you can see the rendering type is set to Qr code. You can select the dropdown to see other options that are available here. These options apply to any data value that is text.
+
+If you wanted to do this for a data element, you can do this within the "Assign data elements" section within a program stage.
 
 ### Option Sets
 

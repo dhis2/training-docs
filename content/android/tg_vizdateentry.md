@@ -43,7 +43,7 @@ https://github.com/dhis2/dhis2-android-capture-app/releases
 
 This will be denoted by “training” at the end of the APK file.
 
-![trainingapk](images/training_apk.png)
+![trainingapk](images/general/training_apk.png)
 
 ### Projecting your Android Device
 
@@ -55,6 +55,16 @@ https://community.dhis2.org/t/how-to-clone-your-android-screen-useful-for-presen
 
 Scrcpy is another tool that can also be used and is platform agnostic:
 https://github.com/Genymobile/scrcpy
+
+Make sure that your device has developer options enabled before attempting to use scrcpy
+
+![developer_options](images/general/dev_options.png)
+
+After developer options is enabled, enable usb debugging from within the developer options menu.
+
+![usb_debug](images/general/usb_debug.png)
+
+More information on enabling this is available [here](https://developer.android.com/studio/debug/dev-options)
 
 ### User Account
 
@@ -139,6 +149,30 @@ There is no color currently selected for this icon. We could also select a color
 When this is done, Save the changes made to the option.
 
 You can then Save the option set.
+
+### Review the program stage setup
+
+Navigate to program maintenance and open the immunization program. From here, select the "Birth Details" stage from the Program stages tab
+
+![birth_details_stage](images/vizentry/birth_details_stage.png)
+
+Navigate down to the "Create data entry form" section of the program stage
+
+![create_form](images/vizentry/data_entry.png)
+
+Find the "Place of birth" section for this form. 
+
+![place_of_birth_section](images/vizentry/place_of_birth_section.png)
+
+We can see it has one data element for place of birth. This data element is using the place of birth option set that we have just edited. 
+
+Select the pencil icon in order to edit this section
+
+![edit_program_section](images/vizentry/edit_program_section.png)
+
+We can see that the mobile render type is set to "Matrix." This will render this options in quadrants as per our table within the presentation for this session. 
+
+### Sync and review changes on the device
 
 To see this update reflected on the device, we need to sync our configuration
 
