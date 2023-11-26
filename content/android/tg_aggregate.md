@@ -1,4 +1,3 @@
-
 # Trainer's Guide on Data Sets and Validation Rule
 
 ## What is this guide?

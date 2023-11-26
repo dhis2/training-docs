@@ -39,7 +39,7 @@ Password:
 
 1. Review the nutrition data set in the data entry app
 2. Review the immunization tracker program in tracker capture
-3. Review an example android user (username: android1)
+3. Review an example android user (username: android)
 
 ## Live Demo step by step
 
@@ -68,8 +68,6 @@ That being said, some small changes or additions can be made to make it more vis
 > NB: When you are registering a person, select the date they are first seen as ~ 2 years back. Their date of birth and the date of the first event can all be the same as the date they are first seen. This will allow you to demonstrate the various program rules associated with the vaccination sechedule. 
 
 ![imm-reg](images/metadata/imm_registration.png)
-
-Note that there are 2 fields, Child Photo and Parent Signature, that are not really meant for use on the web. These will be explained further when showing the program on an android device.
 
 Enter the details of a person and register them. Ensure their DOB is the same as the date they are first seen (~ 2 years back) 
 
@@ -120,7 +118,7 @@ Ask the participants if they understand or want any clarifications regarding how
 For users within android, it is import we set up some constraints in order to the user to be able to use the app effectively. In particular, this applies to the organisation units that are assigned to the user. 
 
 
-Navigate to users and open up the user "android1." Scroll down to their org unit access. Let us start with their data capture access. Here you can see they only have access to one district consisting of 4 facilities. This means that any data that eventually gets stored on the device will related to these facitilies only. This reduces the amount of data that needs to be stored on the device and will improve performance significantly during syncing operations and general navigation.
+Navigate to users and open up the user "android." Scroll down to their org unit access. Let us start with their data capture access. Here you can see they only have access to one district consisting of 4 facilities. This means that any data that eventually gets stored on the device will related to these facitilies only. This reduces the amount of data that needs to be stored on the device and will improve performance significantly during syncing operations and general navigation.
 
 ![data_capture](images/metadata/data_capture.png)
 
