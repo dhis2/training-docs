@@ -88,9 +88,9 @@ Some participants may not have been able to install the app by themselves. In th
 
 ### Home Page:
 
-* Log in the DHIS2 Android App as per the instructions given in previous session
-* Once you Log - in Home Page can be seen.
-* Briefly explain to the participants about the user access rights and visibility of the program and data sets on the home page (this has already been discussed in previous session).
+* Log in to the DHIS2 Android App
+* Once you Log - in the Home Page can be seen.
+* Briefly explain to the participants about the user access rights and visibility of the program and data sets on the home page (this has already been discussed in a previous session).
 
 ![login1](images/exploreandroid/images/homescreen2.png)
 
@@ -99,21 +99,23 @@ Some participants may not have been able to install the app by themselves. In th
   ![](images/datasets/image2.png)
 
 
-* The first page that appears is the list of all month where data has been entered
+* The first page that appears is the list of months where data has been entered. In this system, the last 10 months of data are downloaded at any one time. This is a system setting; it will be discussed how to conifigure this later on. 
 
    ![](images/datasets/image9.png)
 
+The icons by the dataset refer to if its been completed or now. Green checkmarks indicate it has been completed, while blue pencil icons indicate it has not yet been completed.
+
 ### Data Entry
 
-* To start entering data for a new period,Click on the + icon in the extreme down right side corner.
+* To start entering data for a new period, Click on the + icon in the lower right side corner.
 
    ![](images/datasets/image10.png)
 
-* This will show a below screen 
+* This will show the below screen 
 
    ![](images/datasets/image31.png)
 
-* Click on the Report Period and Select the month and year for new data to be entered for a new period.
+* Select an orgunit a d Report Period to enter data into.
 
    ![](images/datasets/image24.png)
 
@@ -121,7 +123,7 @@ Some participants may not have been able to install the app by themselves. In th
 
    ![](images/datasets/image17.png)
 
-* The data form will open and all the sections of the forms will be rendered as tabs.
+* The form will open and all the sections of the forms will be rendered as tabs.
 
    _NOTE: While entering data the new text input dialog opens an input field above the keyboard which shows the Data Element name, and category options of the field being selected, ensuring the user does not lose context when navigating the tables._
 
@@ -136,7 +138,7 @@ The overview tab contains the following details:
 
 * Data set name
 * Last Update
-* Open/Close Status
+* Open/Completed Status
 * Period
 * Org Unit
 * Category option combo
@@ -146,7 +148,7 @@ The overview tab contains the following details:
 
 ### Saving a Data Set
 
-Now to save the data you can click on the SAVE button and the trainer can tell participants that if everything looks good the app will let you SAVE the data.
+Now to save the data you can click on the SAVE button in the lower right corner.
 
 ![](images/datasets/image20.png)
 
@@ -154,7 +156,9 @@ Now to save the data you can click on the SAVE button and the trainer can tell p
 
 ![](images/datasets/image12.png)
 
-### STOP Perform Eercise 1
+>Note: By default your data will not be synced, it will only be stored locally on the android device. This is indicated by the circular arrows that you see next to the dataset/period combo you just saved. In this configuration, the data is set to be synced every 24 hours. This is defined in the android settings web app. You can also manually sync the data. Sync will be discussed later on in this demonstration.
+
+### STOP - Perform Exercise 1
 
 ## Part 2 - Validation rules 
 
@@ -162,7 +166,7 @@ Now to save the data you can click on the SAVE button and the trainer can tell p
 
 NOTE: To explain validation rules the trainers need to add some data values which will give some validation errors.
 
-Before this lets understand how we have designed a validation rule in the web application.So only if the validation rule passes it will let you save the data set.
+Before this lets understand how we have designed a validation rule in the web application, and how a data set can be configured to save only if the validation rule passes. 
 
 Let's take one example :
 
@@ -172,7 +176,8 @@ Let's take one example :
 
 Now to get the error on the above validation rule follow the below steps:
 
-* Go to Nutrition Data set and Click on tab “Iron Supplement (IFA)”
+* Go to the Nutrition Data set and Click on the tab “Iron Supplement (IFA)”
+  
 Add Values for 
 
 * ANC 1st Contact HB Screening = 5
@@ -180,35 +185,29 @@ Add Values for
 
 ![](images/datasets/image18.png)
 
+Now try to save the dataset and run validation rules on the device.
+
 * An error dialog will appear once you try to save and the dataset will not be marked as complete. The description and instructions of the validation rule will be displayed to help the user identify the error.
 
 ![](images/datasets/image4.png)
 
-**_NOTE: On a dataset that does not have a setup "Complete allowed only if validation passes". When clicking on the save button; if the data set has validation rules associated with it, then the app will ask the user to run the validation rules._**
+**_NOTE: When completing a dataset, there is an option "Complete allowed only if validation passes". In this scenario, the validation rules will be run even if the user says "No" to the prompt "Do you want to check data quality." In this case, the validation rules must all pass in order to save the dataset._**
 
-For this Exercise ask Participants to use a different validation error.
-
-"NUT - ANC contact during which pregnant women received any breastfeeding counselling Vs ANC contacts"
-
-VALIDATION: ANC contact during which pregnant women received any breastfeeding counselling should be less than or equal to ANC Contacts
-
-### STOP Perform Eercise 2
+### STOP - Perform Exercise 2
 
 ## Part 3 - Offline and Data Sync
 
-**Before performing this demo trainers need to turn off the internet connection.**
+**Before performing this demo trainers need to turn off the internet connection. After they turn off the internet, log out of the account.**
 
 ![](images/datasets/image29.png)
 
-**Follow the instructions for Data Entry similar to Part 1.**
+### Log back in to the DHIS2 Android App 
 
-### Log in the DHIS2 Android App 
-
-**NOTE : After a successful login the user should be able to perform an offline login only (only available for the last combination of URL/Username). Offline usage gives the possibility of using the application without any type of connectivity. All data will still be stored and the user can perform a synchronization once the connection is established or available.**
+**NOTE : After a successful login the user should be able to perform an offline login only (only available for the last combination of URL/Username). Offline usage gives the possibility of using the application without any type of connectivity. All data will still be stored on the device and the user can perform a synchronization once the connection is established or available.**
 
 ![](images/datasets/image28.png)
 
-* Home Page can be seen.
+* The Home Page can be seen.
 
    ![](images/datasets/image7.png)
 
@@ -235,7 +234,7 @@ VALIDATION: ANC contact during which pregnant women received any breastfeeding c
 
 * Click Save
 
-Now once you go back to the list you will see a gray icon next to May 2023.
+Now once you go back to the list you will see a gray icon next to the dataset/period combo you just added.
 
 ![](images/datasets/image8.png)
 
@@ -253,16 +252,16 @@ This shows that data is stored locally on this device.
 ![](images/datasets/image9.png)
 
 
-### STOP Perform Exercise 3
+### STOP - Perform Exercise 3
 
-## Part 4 - Re- open Data Set
+## Part 4 - Re-open a Completed Data Set
 
-Once the data is saved you can re-open the data set, only if the user has access.
+Once the data is saved you can re-open the data set, if the user has access.
 
 Please follow the steps to re-open the data set.
 
-* Click on the completed form which you want to edit or re-open 
-* In this case Select - Nov 2023 Data Set
+* Click on the completed data set which you want to edit or re-open 
+* In this case Select a dataset with a green check mark next to it (as that is a completed data set)
 
 ![](images/datasets/image16.png)
 
@@ -274,7 +273,7 @@ Please follow the steps to re-open the data set.
 
 ![](images/datasets/image26.png)
 
-## Pert 5 - New Features in DHIS2 Android Version 2.8.2
+## Part 5 - New Features in DHIS2 Android Version 2.8.2
 
 ### Resizing Column and Headers
 
@@ -286,6 +285,6 @@ If the column have multiple headers, the resizing will be available only for the
 
 ![](images/datasets/image23.png)
 
-### STOP Perform Exercise 4
+### STOP Perform Exercise 5
 
 
