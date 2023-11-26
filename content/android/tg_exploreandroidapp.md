@@ -60,9 +60,9 @@ More information on enabling this is available. [Click Here](https://developer.a
 
 Ensure that there is a user account assigned to a lower level set of org units at the facility level within Lao PDR that you can use prior to performing this session. If the participants are following along, ensure that there are user accounts for them to use as well assigned to lower level organization units. The demo user account is:
 
-Username: android1
+Username: android
 
-Password: District1#
+Password: Android123!
 
 ## Participants
 

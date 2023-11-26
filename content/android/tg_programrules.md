@@ -45,7 +45,7 @@ More information about Program Rules can be found in the [documentation](https:/
 
 ## Preparations
 
-Go through the Live demo step by step guide a few times before doing the actual demo for participants so you understand the full process of the session.Make sure your two user accounts (server administration and Android users) are the same or similar to the participants’ accounts so that you don’t show more features, dimension options or forms than what they can see when doing the exercises.In terms of logistics make sure the resolution on the projector is OK for zooming.
+Go through the Live demo step by step guide a few times before doing the actual demo for participants so you understand the full process of the session.Make sure your two user accounts (DHIS2 Web administration and Android users) are the same or similar to the participants’ accounts so that you don’t show more features, dimension options or forms than what they can see when doing the exercises.In terms of logistics make sure the resolution on the projector is OK for zooming.
 
 Create an account with the same level of access as the users you are demonstrating to (ie. if they can only search and enter within one facility, have your user have the same authority). If it is the procedure to enter this data from a paper form, it will be useful to have a copy of the form they would normally use as reference filled in. This can just be a form that you have filled in yourself for example. If they are entering data in real-time, then this is not required but you should prepare the details of an example case that you can follow in your examples.
 
@@ -82,15 +82,15 @@ More information on enabling this is available. [Click Here](https://developer.a
 
 ## User Account
 
-Ensure that there is a user account assigned to a lower level set of org units at the facility level within Trainingland that you can use prior to performing this session. If the participants are following along, ensure that there are user accounts for them to use as well assigned to lower level organization units. The demo user account is:
+Ensure that there is a user account assigned to a lower level set of org units at the facility level within Lao PDR that you can use prior to performing this session. If the participants are following along, ensure that there are user accounts for them to use as well assigned to lower level organization units. The demo user account is:
 
-Username: android1
+Username: android0
 
 Password: District1#
 
 ## Participants
 
-Send the instructions to the participants on how to install the Android app prior to the session if they have not yet done so. The instructions can be found [Click Here](https://docs.google.com/document/d/1SUUUdmPSDycFtdB9yUMq8ZWiWf8gNOu5xvtNj4_V63U/edit#heading=h.lswxgahoi1m2).
+Send the instructions to the participants on how to install the Android app prior to the session if they have not yet done. The instructions can be found [Click Here](https://docs.google.com/document/d/1SUUUdmPSDycFtdB9yUMq8ZWiWf8gNOu5xvtNj4_V63U/edit#heading=h.lswxgahoi1m2).
 
 Some participants may not have been able to install the app by themselves. In that scenario, you may need to walk them through how to do this via google play.
 
@@ -98,19 +98,13 @@ Some participants may not have been able to install the app by themselves. In th
 
 ## Part 0 : Program Rule review
 
-(Here a brief explanation of what program rules are, an analogy can be used)
-
-(Explain how PR can be used to improve the quality of the data or to help data collectors while doing their job, etc)
-
-List a couple of examples
-
-Explain that we will break the explanation into two steps, first creating a program rule in the server and then seeing how the Android application uses this program rule to improve the data collection.
+Program rules gives functionality to configure dynamic behavior in the programs in DHIS2 that are implemented on the paper forms through skip logic, warnings and patterns as well as auto filling some fields.
 
 ## Part 1: Program Rules on Android
 
 ## Part 2: Program Rule Configuration in Maintenance
 
-1. Connect to the server with the Administrator account and go to Maintenance > Program
+1. Connect to the DHIS2 web instnace with the Administrator account and go to Maintenance > Program
 2. Explain the left menu and how this session focuses on
     1. Program rule
     2. Program rule variables
