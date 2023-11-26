@@ -19,10 +19,6 @@ NOTE : THIS GUIDE IS FOR TRAINERS TO GET AN OVER ALL VIEW OF THE ANDROID FEATURE
 
 ## Time Requirements
 
-Demo 45 min
-
-Questions 15 min
-
 ## Preparations
 
 Go through the Live demo step by step guide a few times before doing the actual demo for participants so you understand the full process of the session.Make sure your two user accounts (server administration and Android users) are the same or similar to the participants’ accounts so that you don’t show more features, dimension options or forms than what they can see when doing the exercises.In terms of logistics make sure the resolution on the projector is OK for zooming.
@@ -60,10 +56,9 @@ After developer options is enabled, enable usb debugging from within the develop
 
 More information on enabling this is available. [Click Here](https://developer.android.com/studio/debug/dev-options)
 
-
 ## User Account
 
-Ensure that there is a user account assigned to a lower level set of org units at the facility level within Trainingland that you can use prior to performing this session. If the participants are following along, ensure that there are user accounts for them to use as well assigned to lower level organization units. The demo user account is:
+Ensure that there is a user account assigned to a lower level set of org units at the facility level within Lao PDR that you can use prior to performing this session. If the participants are following along, ensure that there are user accounts for them to use as well assigned to lower level organization units. The demo user account is:
 
 Username: android1
 
@@ -77,12 +72,18 @@ Some participants may not have been able to install the app by themselves. In th
 
 ## Quick Guide
 
-## Demo Part 1 - Demonstrate
+1. Log in the Android device
+2. Show them how you can create multiple users accounts by clicking on the Manage user account.
+3. Show them how to move to other apps in your phone without deleting the local data by using Blocking session feature
+4. 
 
-### Login:
+
+
+## Part 1
+
+### Log - in
 
 There are two ways to access the application:
-
 
 1. Manual: The user must have a corresponding URL of the server and enter username and password.
 2. QR: The user can use a QR code instead of typing the URL but username and password must be entered manually.

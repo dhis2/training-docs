@@ -17,9 +17,7 @@ The overall objective of this session is to demonstrate how to use
 
 1. Features in android devices for the aggregate data entry.
 
-2. Navigation bar in aggregate data entry screen
-
-3. Validation rules and its importance 
+2. Validation rules and its importance
 
 
 ## Time Requirements
@@ -63,7 +61,7 @@ More information on enabling this is available. [Click Here](https://developer.a
 
 ## User Account
 
-Ensure that there is a user account assigned to a lower level set of org units at the facility level within Trainingland that you can use prior to performing this session. If the participants are following along, ensure that there are user accounts for them to use as well assigned to lower level organization units. The demo user account is:
+Ensure that there is a user account assigned to a lower level set of org units at the facility level within Lao PDR that you can use prior to performing this session. If the participants are following along, ensure that there are user accounts for them to use as well assigned to lower level organization units. The demo user account is:
 
 Username: android1
 
@@ -76,6 +74,13 @@ Send the instructions to the participants on how to install the Android app prio
 Some participants may not have been able to install the app by themselves. In that scenario, you may need to walk them through how to do this via google play.
 
 ## Quick Guide
+
+1. Log in Android device
+2. Explain the Home page access rights as per the sharing settings that is configured in the web
+3. Demo the steps for Data Entry for Nutrition program 
+4. Explain Navigation Bar
+5. Save the data
+6. Exaplin the im
 
 ## Part 1 - Navigation and Saving a Data Set
 
@@ -147,7 +152,7 @@ Now to save the data you can click on the SAVE button and the trainer can tell p
 
 ![](images/datasets/image12.png)
 
-STOP EXERCISE 1
+### STOP Perform Eercise 1
 
 ## Part 2 - Validation rules 
 
@@ -173,15 +178,19 @@ Add Values for
 
 ![](images/datasets/image18.png)
 
-
 * An error dialog will appear once you try to save and the dataset will not be marked as complete. The description and instructions of the validation rule will be displayed to help the user identify the error.
 
 ![](images/datasets/image4.png)
 
-
 **_NOTE: On a dataset that does not have a setup "Complete allowed only if validation passes". When clicking on the save button; if the data set has validation rules associated with it, then the app will ask the user to run the validation rules._**
 
-STOP EXERCISE 2
+For this Exercise ask Participants to use a different validation error.
+
+"NUT - ANC contact during which pregnant women received any breastfeeding counselling Vs ANC contacts"
+
+VALIDATION: ANC contact during which pregnant women received any breastfeeding counselling should be less than or equal to ANC Contacts
+
+### STOP Perform Eercise 2
 
 ## Part 3 - Offline and Data Sync
 
@@ -242,7 +251,7 @@ This shows that data is stored locally on this device.
 ![](images/datasets/image9.png)
 
 
-STOP : PERFORM EXERCISE 3
+### STOP Perform Exercise 3
 
 ## Part 4 - Re- open Data Set
 
@@ -263,7 +272,9 @@ Please follow the steps to re-open the data set.
 
 ![](images/datasets/image26.png)
 
-**New Features Demo:**
+## Pert 5 - New Features in DHIS2 Android Version 2.8.2
+
+### Resizing Column and Headers
 
 Users are now allowed to resize the row headers and columns in datasets, making it easier to view and work with larger tables.
 
@@ -273,6 +284,6 @@ If the column have multiple headers, the resizing will be available only for the
 
 ![](images/datasets/image23.png)
 
-STOP Exercise 4
+### STOP Perform Exercise 4
 
 
