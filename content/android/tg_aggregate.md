@@ -63,9 +63,8 @@ More information on enabling this is available. [Click Here](https://developer.a
 
 Ensure that there is a user account assigned to a lower level set of org units at the facility level within Lao PDR that you can use prior to performing this session. If the participants are following along, ensure that there are user accounts for them to use as well assigned to lower level organization units. The demo user account is:
 
-Username: android1
-
-Password: District1#
+Username: android
+Password: Android123!
 
 ## Participants
 
@@ -80,7 +79,10 @@ Some participants may not have been able to install the app by themselves. In th
 3. Demo the steps for Data Entry for Nutrition program 
 4. Explain Navigation Bar
 5. Save the data
-6. Exaplin the im
+6. Go to Validation rules configured in web instance
+7. Show how the validation works in android device and how to 
+
+
 
 ## Part 1 - Navigation and Saving a Data Set
 
@@ -90,8 +92,7 @@ Some participants may not have been able to install the app by themselves. In th
 * Once you Log - in Home Page can be seen.
 * Briefly explain to the participants about the user access rights and visibility of the program and data sets on the home page.(This is alredy been discussed in previous session)
 
-   ![](images/datasets/image5.png)
-
+![login1](images/exploreandroid/images/homescreen2.png)
 * Now click on the “NUT - Nutrition facility monthly” 
 
   ![](images/datasets/image2.png)
