@@ -75,12 +75,14 @@ Some participants may not have been able to install the app by themselves. In th
 
 ## Quick Guide
 
-1. Log in Android device
-2. Explain the Home page access rights as per the sharing settings that is configured in the web
-3. Demo the steps for Data Entry for Nutrition program 
-4. Explain Navigation Bar
+1. Log in to the Android device
+2. Explain the Home page access rights and how the sharing settings are being used to show what programs and datasets are available
+3. Demo the steps for Data Entry for the Nutrition program 
+4. Explain the Navigation Bar
 5. Save the data
-6. Exaplin the im
+6. Explain the validation rules and messages
+7. Explain offline data entry and sync
+8. 
 
 ## Part 1 - Navigation and Saving a Data Set
 
@@ -88,7 +90,7 @@ Some participants may not have been able to install the app by themselves. In th
 
 * Log in the DHIS2 Android App as per the instructions given in previous session
 * Once you Log - in Home Page can be seen.
-* Briefly explain to the participants about the user access rights and visibility of the program and data sets on the home page.(This is alredy been discussed in previous session)
+* Briefly explain to the participants about the user access rights and visibility of the program and data sets on the home page (this has already been discussed in previous session).
 
    ![](images/datasets/image5.png)
 
