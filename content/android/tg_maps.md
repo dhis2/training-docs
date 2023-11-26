@@ -1,5 +1,5 @@
 
-# Trainer’s Guide for Geo-Spatial Considerations in Android
+# Trainer’s Guide for Maps in Android
 
 
 ## What is this guide?

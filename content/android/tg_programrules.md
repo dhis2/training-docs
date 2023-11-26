@@ -106,7 +106,9 @@ List a couple of examples
 
 Explain that we will break the explanation into two steps, first creating a program rule in the server and then seeing how the Android application uses this program rule to improve the data collection.
 
-## Part 1: Server configuration
+## Part 1: Program Rules on Android
+
+## Part 2: Program Rule Configuration in Maintenance
 
 1. Connect to the server with the Administrator account and go to Maintenance > Program
 2. Explain the left menu and how this session focuses on
