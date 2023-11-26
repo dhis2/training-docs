@@ -1,5 +1,5 @@
 
-# **Trainers Guide : Explore the Android App**
+# Trainers Guide : Explore the Android App
 
 ## What is this guide?
 
