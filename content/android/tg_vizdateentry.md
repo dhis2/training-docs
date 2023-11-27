@@ -85,7 +85,7 @@ Some participant's may not have been able to install the app by themselves. In t
 
 ## Demo Part 1 - Demonstrate
 
-In order to demonstrate visual data entry, you can search for the case that was reviewed previously, Jane Thompson, or register a new record. 
+In order to demonstrate visual data entry, you can search for the case that was reviewed previously, Jane Thompson (Child # 1024), or register a new record. 
 
 After you have accessed an existing or new child, add an event to the birth details stage. The date of the event can be the same as their date of birth.
 
