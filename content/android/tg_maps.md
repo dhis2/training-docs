@@ -1,10 +1,9 @@
 
 # Trainer’s Guide for Maps in Android
 
-
 ## What is this guide?
 
-This guide is a support document for DHIS2 Android Academy trainers for the session "Geo-Spatial Considerations". The session follows the standard Academy training approach with
+This guide is a support document for DHIS2 Android Academy trainers for the session "Maps in Android." The session follows the standard Academy training approach with
 
 1. A live demo session where the trainer demonstrates and explains the features of the topic
 2. A hands-on session with exercises where participants get to practice the explained features.
@@ -12,8 +11,8 @@ This guide is a support document for DHIS2 Android Academy trainers for the sess
 ## Learning objectives for this session
 
 1. Describe how maps can be used in DHIS2 Android Device
-2. Demonstrate how to : Navigate the maps in Android Device
-3. How to use the different map layers
+2. Demonstrate how to collect and display tracked entity and program stage coordinates
+3. Demonstrate how to toggle additional options within maps on an Android device
 
 ## Preparations
 
@@ -31,8 +30,7 @@ Make sure that you have the app made for training purposes otherwise you will no
 
 ![trainingapk](images/general/training_apk.png)
 
-
-# Projecting your Android Device
+## Projecting your Android Device
 
 The instructor will have to decide on which method they would like to use to mirror the android app on their computer screen. They will also have to set up a user account (if it doesn’t exist already) that is assigned to the same org unit as the program they are demonstrating.
 
@@ -66,8 +64,7 @@ Send the instructions to the participants on how to install the Android app prio
 
 Some participants may not have been able to install the app by themselves. In that scenario, you may need to walk them through how to do this via google play.
 
-**IMPORTANT NOTE : Make sure Location is enabled in your mobile device and also participants while performing the demo.**
-
+**IMPORTANT NOTE : Make sure location services are enabled in both yours and the participants mobile device while performing the demo.**
 
 ## Background:
 
@@ -85,38 +82,39 @@ There are two types of coordinates:
 
 Also if TEI has a profile image,the map will display it.
 
-## Demo Part 1 
+## Part 1 - Enrollment Coordinates 
 
 In this session our main objective is to understand how to add coordinates in the tracked Entity Instance using the Immunization program and the Program Stage coordinate.
 
 ### TEI coordinates
 
-You can Capture the TEI coordinates in the registration form of the Immunization program.To get this feature we need to enable this feature in the TET feature type.(For this it has already been configured for Immunization program)
+You can Capture the TEI coordinates in the registration form of the Immunization program. To get this feature we need to enable this feature in the tracked enity type (TET) feature type (for this demo it has already been configured for Immunization program).
 
-Now let's start with the first TEI coordinate (that represents the child home) “ Coordinates of the Child”
+Now let's start with the first TEI coordinate (that represents the child's home) “Coordinates of the Child”
 
 Before understanding how its captured in the android device lets see how this is configured in the web interface.
 
-### Server Configuration
+#### Web Configuration
 
-* Connect to the server with the Administrator account and go to Maintenance > Program
-* Go to Tracked entity type &lt; In this case we will select Child 
-* And the Feature type as **Point.**
+* Connect to the instance with the Administrator account and go to Maintenance > Program
+* Go to Tracked entity type and select Child 
+* Review the feature type. It is **Point** in this case. Polygons are used in cases in which you need a boundary of some kind, for example when defining a malaria focus area.
 
 
 ![](images/geospatial/image10.png)
 
 ![](images/geospatial/image15.png)
 
-* Open Immunization program
-* Either Search for a tracked entity and Open Child Details or Create a New Registration.
+#### Switch back the to the Android device
+
+* Open the Immunization program
+* Either Search for an existing child and select "Open Child Details" or create a new child.
 
 ![](images/geospatial/image2.png)
 ![](images/geospatial/image1.png)
 ![](images/geospatial/image13.png)
 
-* Add all details for Enrollment Data
-* Enter coordinates for the child
+* Review the coordinates field for the child. This is where we can assign the childs home location.
 
 ![](images/geospatial/image9.png)
 
@@ -125,24 +123,24 @@ To do this you have two options
 ![](images/geospatial/image12.png)
 
 
-The First option will select the exact latitude and longitude of the phone
+1. The First option will select the exact latitude and longitude based on your current location.
 
-The Second option will open the map where you can select the location of your choice and Save it.
+2. The Second option will open the map where you can select the location of your choice and Save it.
 
 ![](images/geospatial/image5.png)
 
 
-STOP : Perform Exercise 1
+#### STOP - Perform Exercise 1
 
-## Demo Part 2
+## Part 2 - Program Stage Coordinates
 
 ### Capturing a Program Stage Coordinate
 
-This is again configured while designing the program.In this case we have set a Immunization stage in Immunization program and we have used Feature type as Point while configuring the program stage.
+This is also configured while designing the program. In this case we have set a Immunization stage in the Immunization program and we have used Feature type as Point while configuring the program stage.
 
-### Server Configuration:
+### Web Configuration:
 
-* Connect to the server with the Administrator account and go to Maintenance > Program
+* Connect to the web with the Administrator account and go to Maintenance > Program
 * Immunization Program and Program Stages
 * Select Immunization Program
 * Select Feature type as point
@@ -152,14 +150,14 @@ This is again configured while designing the program.In this case we have set a 
 
 ### Capturing Program Stage coordinates in Android
 
-* Open Immunization program
+* Open the Immunization program
 * Either Search for a tracked entity or Create a New Registration.
 
 ![](images/geospatial/image2.png)
 ![](images/geospatial/image1.png)
 
 
-* Open Immunization Stage
+* Open the Immunization Stage
 * Click on Add New 
 
 ![](images/geospatial/image7.png)
@@ -168,13 +166,12 @@ This is again configured while designing the program.In this case we have set a 
 
 ![](images/geospatial/image8.png)
 
-
 * The First option will select the exact latitude and longitude of the device
-* The Second option will open the map where you can select the location of your choice and Save it.
+* The Second option will open the map where you can select the location of your choice and Save it
 
-STOP: Perform Exercise 2
+#### STOP - Perform Exercise 2
 
-## Demo Part 3
+## Part 3 - Mapping Relationships for a Program
 
 ### Relationships in Maps
 
@@ -182,9 +179,9 @@ A relationship is considered data in DHIS2 and is based on a Relationship Type, 
 
 In this case we have configured a Relationship type “Siblings” which is bidirectional.
 
-### Server configuration:
+### Online configuration:
 
-* Connect to the server with the Administrator account and go to Maintenance > Program
+* Connect to the web with the Administrator account and go to Maintenance > Program
 * Relationship type
 * You can observe the Siblings Relationship already created.
 
@@ -196,33 +193,37 @@ _Note : We will talk in detail about this in Relationship session_
 
 In tracker programs, the user can see relationships on a map by tapping the map icon on the relationships tab.
 
+Search for the person with the Child Number 1024 (Jane Thompson)
+
 * An arrow is shown on the direction of the relationship.
 * For bidirectional relationships, the arrow points both sides.
 * Each relationship type displays a different color.
 * If one or both TEIs have a polygon as coordinate, the line goes from (and to) the nearest point in the polygon of both TEIs.
 
-To show this feature open any TEI and open Map and Click on the Icon below the Search Bar.
+To show this feature, select the map icon from the event page line list screen for the immunuzation program. 
 
-Select Siblings and Apply.
+![select_maps](images/geospatial/select_maps.png)
 
-![](images/geospatial/image11.png)
+This will show all of your TEIs on the screen.
+
+To show the relationships, select the menu button from within the maps interface then select Siblings and Apply.
+
 ![](images/geospatial/image14.png)
 
+Once applied you will see bidirectional arrows from both TEI as the Relationship type is bidirectional.
 
-You will see bidirectional arrows from both TEI as the Relationship type is bidirectional.
+![](images/geospatial/image11.png)
 
-![](images/geospatial/image3.png)
+#### STOP - Perform Exercise 3
 
-STOP : Perform Exercise 3
-
-## Demo Part 4
+## Part 4 - Changing the map layer options
 
 ### Map Layers
 
-When displaying maps there are different layers that can be displayed by clicking on the specific button on the upper right corner. The user can select one or more layers to be displayed. Both coordinate and polygon types will be displayed. The layers are dependant on the type of program as explained below:
+When displaying maps from the event line list or within a specific TEI, there are different layers that can be displayed by clicking on the settings button on the upper right corner. The user can select one or more layers to be displayed. Both coordinate and polygon types will be displayed. The layers are dependant on the type and configuration of program as explained below:
 
+* Map layers: you can select the base layer used in your map
 * Show events (For programs without registration)
-* Satellite view
 * **TEI coordinates** (By default in programs with registration)
 * Enrollment Coordinates (Only for programs with registration)
 * **Program Stage coordinates** (Only for programs with registration)
@@ -231,7 +232,10 @@ When displaying maps there are different layers that can be displayed by clickin
 * Tracked Entity Attributes (Coordinates Value Type - Only for programs with registration)
 * Data Elements (Coordinates Value Type)
 
-
 ![](images/geospatial/image6.png)
 
 ![](images/geospatial/image16.png)
+
+You can toggle some of these layers to see the effect this has on the map.
+
+#### STOP - Perform Exercise 4
