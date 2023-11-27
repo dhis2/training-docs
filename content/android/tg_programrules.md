@@ -91,10 +91,10 @@ Some participants may not have been able to install the app by themselves. In th
 
 ## Quick Guide
 
-1. Show how the program rule function in Android device.
-2. Go to Maintenance App in DHIS2 web app and show the program rule configuartion.
-3. Show how to sync the configuration
-4. Go to the tracker program, show the program rule with error and warning if the values are not entered in the set range.
+1. Show how program rules function on an Android device.
+2. Go to Maintenance App in DHIS2 web app and create a program rule
+3. Show how to sync the metadata configuration after creating a new program rule
+4. Go to the tracker program, show the program rule with the error message if the values are not entered in the set range
 
 ## Part 1: Program Rules on Android
 
@@ -143,7 +143,7 @@ In this session we will focus on how we have configured the above program rule i
    1. Select the Immunization program. *Explain that every student should be performing this on their own program.* 
    2. Choose the name of the variable, in this case we will be using "temperature"
    3. _Explain that we don't mark the "Use code for option set" as this variable is a numerical one and it does not apply on our case_
-   4. Select "Data element in current event" on the _Source type(*)_field
+   4. Select "Data element in current event" on the ***Source type*** field
    5. Select the data element "Temperature" from the dropdown list.
    6. Save the program rule variable when you are done.
 
@@ -178,7 +178,7 @@ d. Enter the define program rule actions tab
 
 e. Optional: show the participants how this program rule is triggered on the web interface.
 
-### STOP : Perform Exercise 1
+### STOP - Perform Exercise 1
 
 ## Part 3: Program rule review in Andriod 
 
