@@ -96,24 +96,60 @@ Some participants may not have been able to install the app by themselves. In th
 
 ## Quick Guide
 
-## Part 0 : Program Rule review
-
-Program rules gives functionality to configure dynamic behavior in the programs in DHIS2 that are implemented on the paper forms through skip logic, warnings and patterns as well as auto filling some fields.
+1. Show how the program rule function in Android device.
+2. Go to Maintenance App in DHIS2 web app and show the program rule configuartion.
+3. Show how to sync the configuration
+4. Go to the tracker program, show the program rule with error and warning if the values are not entered in the set range.
 
 ## Part 1: Program Rules on Android
 
+In this session we will first see how the program rule function in DHIS2 Android App.
+
+For this you need to go to the DHIS2 Android App
+
+* Log in into the device
+* Click on the tracker program (Immunization program)
+* Immunization working list dashboard will appear
+* Click on any enrolled child (in this case lets click on the Child Number 3710)
+
+![](images/programrules/workinglistscreen.png)
+
+* This will open the TEI Dashboard
+
+![](images/programrules/childdetailscreen2.png)
+
+* Click on the Immunization stage and open an event
+
+![](images/programrules/childdetailscreen.png)
+
+* This will open an event.In the General Information there is no data for Temperature 
+
+![](images/programrules/tempscreen.png)
+
+* Add a Temperature value = 38 
+* This will give you an ERROR " Vaccination should not be given to the child till fever subsides"
+
+![](images/programrules/temperror.png)
+
 ## Part 2: Program Rule Configuration in Maintenance
 
-1. Connect to the DHIS2 web instnace with the Administrator account and go to Maintenance > Program
+In this session we will focus on how we have configured the above program in DHIS2 web interface.
+
+1. Connect to the DHIS2 web instance with the Administrator account and go to Maintenance > Program
+
 2. Explain the left menu and how this session focuses on
     1. Program rule
+
     2. Program rule variables
+
 3. Open the program rule variable menu in order to create a new variable (by clicking on the (+) button on the bottom right corner). _Explain that we are creating a program rule variable that will be used in the program rule defined in the next step._
     1. Select the Immunization program. _Explain that every student should be performing this on their own program and that in case that the program has several stages a new item will appear underneath_
     2. Select the Immunization. _Explain how this is a limitation on the scope as explained in the program rule review process._
-    3. Choose the name of the variable, in this case we will be using "Temperature"
+    3. Choose the name of the variable, in this case we will be using "temp"
     4. _Explain that we don't mark the "Use code for option set" as this variable is a numerical one and it does not apply on our case_
-    5. Select "Data element in current event" on the _Source type(*) _field
+    5. Select "Data element in current event" on the _Source type(*)_field
+    6. Select the data element from the dropdown.
+
 4. Open the program rule menu in order to create a new program rule
 
     a. Select the Program defined for the training. _Explain that every student should be performing this on their own program_
@@ -126,7 +162,8 @@ Program rules gives functionality to configure dynamic behavior in the programs 
     
     c. Enter the program rule expression form
 
-    1. Define the condition as temperature > 37. _Explain that the condition needs to be something which is true or false, that the box underneath can help and that there are some differences between web and Android that are listed in the documentation.[Click Here](https://docs.dhis2.org/en/full/use/dhis2-android-app.html#capture_app_pr)_
+    1. Define the condition as #{temp}>37. 
+    _Explain that the condition needs to be something which is true or false, that the box underneath can help and that there are some differences between web and Android that are listed in the documentation.[Click Here](https://docs.dhis2.org/en/full/use/dhis2-android-app.html#capture_app_pr)_
 
 d. Enter the program rule actions form
 
@@ -142,34 +179,14 @@ d. Enter the program rule actions form
 
 6. Click on commit to create the program rule action
 
-e. Review quickly the three forms filled so participants are aware of the steps performed once more.
+e. Optional: show the participants how this program rule is triggered on the web interface.
 
-f. Save the program rule
+### STOP : Perform Exercise 1
 
-g. Show the participants how the program rule has been created. _Explain that with this program rule we could edit (by just clicking on it) or perform other actions with the three dots. And how the clone action might be useful when creating several program rules._
+## Part 2: Program rule review in Andriod 
 
-h. Optional: show the participants how this program rule is triggered on the web interface.
-
-Go to Tracker capture and select the facility and select Immunization Program 
-
-![](images/programrules/image3.png)
-
-Open the any record
-Open any event for Immunization program.
-Enter the value in temperature greater than 37.
-
-![](images/programrules/image6.png)
-
-You will see the following error 
-
-![](images/programrules/image7.png)
-
-STOP : Perform Exercise
-
-## Part 2: Android data entry
-
-1. Log in with the Android user on the device.
-2. If the user is not connecting for the first time, perform a metadata synchronisation to retrieve the changes made on the server by going to the menu (up left) > Settings > Sync configuration > Sync configuration now. 
+1. Log in into the Android device.
+2. If the user is not connecting for the first time, perform a **metadata synchronisation** to retrieve the changes made on the server by going to the Menu (up left) > Settings > Sync configuration > Sync configuration now. 
 _Explain how this retrieves the latest metadata updates from the server_
 
 ![](images/programrules/image2.png)
@@ -177,9 +194,9 @@ _Explain how this retrieves the latest metadata updates from the server_
 ![](images/programrules/image4.png)
 ![](images/programrules/image1.png)
 
-3. Go to the program and perform the steps
+3. Go to the Immunization program and check if the rule is working by following the same steps as PART 1
 
-STOP : Perform Exercise
+STOP : Perform Exercise 2
 
 ## Assignment
 
