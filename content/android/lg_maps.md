@@ -10,7 +10,46 @@ This guide contains all exercises and detailed steps to perform them related to 
 2. Demonstrate how to collect and display tracked entity and program stage coordinates
 3. Demonstrate how to toggle additional options within maps on an Android device
 
-## Exercise 1 - Enrollment Coordinates 
+## Part 1 - Interface Review and Showing enrollments on a map
+
+- Open the immunization program from the android home screen
+- Select the map icon within the event line list page for this program
+
+![open_maps](images/geospatial/open_maps.png)
+
+This will display all of the enrollments stored on device withi coordinates. In this case, we can see coordinates are spread out a bit. Let us zoom in on Lao
+
+![lao_tei](images/geospatial/lao_TEIs.png)
+
+What we are seeing here is the location of children with a coordinate within the immunization program. Note it is only showing those TEIs that have been synced with the android device and have been enrolled in org units that this specific user has access to.
+
+From this page, we can filter out various individuals and also select individuals so we can see their details.
+
+If I select one of the TEIs on display, I can see their details. I can expand these details by selecting the arrow button beside their details.
+
+![expand_info](images/geospatial/expand_info.png)
+
+By selecting th arrow button on this screen, you can open the location of this person within the mapping app of your choice. This could be useful if you want to perform some type of follow up with this individual
+
+![open_in_maps](images/geospatial/open_in_maps.png)
+
+From this page, you can also modify some of the options in the map by selecting the menu button
+
+![menu](images/geospatial/menu.png)
+
+From this menu you can change the map background layer and make other adjustments. These will be discussed more later on in this session.
+
+Additionally, you can also search for specific TEIs on the map by using the search icon.
+
+![search_icon](images/geospatial/search_icon.png)
+
+Let us search for the child with the Child Number : 8212. These will display their location along with their details which you can expand to review further.
+
+![search_results](images/geospatial/search_results.png)
+
+#### STOP - End Exercise 1
+
+## Exercise 2 - Enrollment Coordinates 
 
 In this session our main objective is to understand how to add coordinates in the tracked Entity Instance using the Immunization program and the Program Stage coordinate.
 
@@ -54,10 +93,9 @@ To do this you have two options
 
 ![](images/geospatial/image5.png)
 
+#### STOP - End Exercise 2
 
-#### STOP - End Exercise 1
-
-## Exercise 2 - Program Stage Coordinates
+## Exercise 3 - Program Stage Coordinates
 
 ### Capturing a Program Stage Coordinate
 
@@ -92,9 +130,9 @@ This is also configured while designing the program. In this case we have set an
 * The First option will select the exact latitude and longitude of the device
 * The Second option will open the map where you can select the location of your choice and Save it
 
-#### STOP - End Exercise 2
+#### STOP - End Exercise 3
 
-## Exercise 3 - Mapping Relationships for a Program
+## Exercise 4 - Mapping Relationships for a Program
 
 ### Relationships in Maps
 
@@ -137,9 +175,9 @@ Once applied you will see bidirectional arrows from both TEI as the Relationship
 
 ![](images/geospatial/image11.png)
 
-#### STOP - End Exercise 3
+#### STOP - End Exercise 4
 
-## Exercise 4 - Changing the map layer options
+## Exercise 5 - Changing the map layer options
 
 ### Map Layers
 
@@ -161,4 +199,4 @@ When displaying maps from the event line list or within a specific TEI, there ar
 
 You can toggle some of these layers to see the effect this has on the map.
 
-#### STOP - End Exercise 4
+#### STOP - End Exercise 5
