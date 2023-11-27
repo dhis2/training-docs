@@ -1,12 +1,9 @@
 
-# Trainer’s Guide for Intro to Tracker Data Entry
+# Learner's Guide for Intro to Tracker Data Entry
 
 ## What is this guide?
 
-This guide is a support document for DHIS2 Android Academy trainers for the session "Intro to Tracker Data Entry". The session follows the standard Academy training approach with
-
-1. A live demo session where the trainer demonstrates and explains the features of the topic
-2. A hands-on session with exercises where participants get to practice the explained features.
+This guide contains all exercises and detailed steps to perform them related to the review of ***Aggregate Data Entry*** for the Android Level 1 academy. Please perform each of the exercises when prompted to by your instructors
 
 ## Learning objectives for this session
 
@@ -16,89 +13,7 @@ This guide is a support document for DHIS2 Android Academy trainers for the sess
 4. Demonstrate how to add and edit program stage/event data on Android
 5. Describe additional features that are available from within the TEI dashboard and Android homescreen
 
-## Preparations
-
-Go through the Live demo step by step guide a few times before doing the actual demo for participants so you understand the full process of the session.Make sure your two user accounts (server administration and Android users) are the same or similar to the participants’ accounts so that you don’t show more features, dimension options or forms than what they can see when doing the exercises.In terms of logistics make sure the resolution on the projector is OK for zooming.
-
-Create an account with the same level of access as the users you are demonstrating to (ie. if they can only search and enter within one facility, have your user have the same authority). If it is the procedure to enter this data from a paper form, it will be useful to have a copy of the form they would normally use as reference filled in. This can just be a form that you have filled in yourself for example. If they are entering data in real-time, then this is not required but you should prepare the details of an example case that you can follow in your examples.
-
-For the exercises and small activities during the demo, fill out a couple extra forms that the participants can use to register their own cases. Your training DB should have some existing cases filled in to help support the working list filter, relationships and searching functionality. If demonstrating the working lists functionality, you will need to have a subset of the events you have created and assigned to a user where you can show this functionality.
-
-## Android Application (APK) File
-
-Make sure that you have the app made for training purposes otherwise you will not be able to cast your screen:
-
-[https://github.com/dhis2/dhis2-android-capture-app/releases](https://github.com/dhis2/dhis2-android-capture-app/releases)
-
-![trainingapk](images/general/training_apk.png)
-
-## Projecting your Android Device
-
-The instructor will have to decide on which method they would like to use to mirror the android app on their computer screen. They will also have to set up a user account (if it doesn’t exist already) that is assigned to the same org unit as the program they are demonstrating.
-
-Please review this CoP post for details on options you may use to mirror your android device:
-
-[https://community.dhis2.org/t/how-to-clone-your-android-screen-useful-for-presentations-debugging-etc/38077](https://community.dhis2.org/t/how-to-clone-your-android-screen-useful-for-presentations-debugging-etc/38077)
-
-Scrcpy is another tool that can also be used and is platform agnostic: [https://github.com/Genymobile/scrcpy](https://github.com/Genymobile/scrcpy)
-
-Make sure that your device has developer options enabled before attempting to use scrcpy
-
-![developer_options](images/general/dev_options.png)
-
-After developer options is enabled, enable usb debugging from within the developer options menu
-
-![usb_debug](images/general/usb_debug.png)
-
-More information on enabling this is available. [Click Here](https://developer.android.com/studio/debug/dev-options)
-
-## User Account
-
-Ensure that there is a user account assigned to a lower level set of org units at the facility level within Trainingland that you can use prior to performing this session. If the participants are following along, ensure that there are user accounts for them to use as well assigned to lower level organization units. The demo user account is:
-
-Username: android1
-
-Password: District1#
-
-## Participants
-
-Send the instructions to the participants on how to install the Android app prior to the session if they have not yet done so. The instructions can be found [Click Here](https://docs.google.com/document/d/1SUUUdmPSDycFtdB9yUMq8ZWiWf8gNOu5xvtNj4_V63U/edit#heading=h.lswxgahoi1m2).
-
-Some participants may not have been able to install the app by themselves. In that scenario, you may need to walk them through how to do this via google play.
-
-## Time needed for this session
-
-Live demo: 45 min
-Hands-on exercises: 45 min
-
-## Quick Guide
-
-1. Log in and explain the home page
-2. Register a New TEI by searching and creating a new one
-3. Enter in the additional attribute information for the person you are registering
-
-STOP - Perform Exercise 1
-
-4. Add a new stage for birth details - review the interface and enter data into this stage. Save the data
-5. (Optional) Add new stages for immunization - review the interface and enter data into this stage. Save the data.
-
-STOP - Perform Exercise 2
-
-6. Review the field completion %
-7. Review the section navigation
-8. Review error messages for mandatory fields or via a program rule
-9. Review the notes page
-10. Review the map carousel
-11. Review the relationships widget
-12. Share a TEI
-13. Complete an Enrolment
-14. View the program enrolment widget
-15. Delete a TEI and its enrolments
-16. Switch between the events timeline grouping events by stage
-
-STOP - See if there are any questions
-
-## PART 1: Navigation of the program
+## Exercise 1: Navigation of the program
 
 ### Log-in, Home Page and Event Listing
 
@@ -113,11 +28,11 @@ STOP - See if there are any questions
 
   ![](images/tracker/image8.png)
 
-- Explain the ”Bottom Navigation Bar” (The bottom navigation bar allows switching the visualization mode of the program if the event or tracker program have been defined with coordinates). We will discuss this in detail in another session.
+- Review the ”Bottom Navigation Bar” (The bottom navigation bar allows switching the visualization mode of the program if the event or tracker program have been defined with coordinates). We will discuss this in detail in another session.
 
    ![](images/tracker/image5.png)      
 
-## PART 2: Registration
+**Registration**
 
 The first step is to SEARCH the TEI based on the searchable attributes to make sure that the child does not exist in the system prior to registering a brand new child. 
 
@@ -141,9 +56,9 @@ The first step is to SEARCH the TEI based on the searchable attributes to make s
 
    ![](images/tracker/image3.png)
 
-#### STOP - Perform Exercise 1
+#### STOP - Complete Exercise 1
 
-## Part 3 - Data Entry
+## Exercise 2 - Data Entry
 
 ### Entering Data in the Stages
 
@@ -179,9 +94,9 @@ Two options are given to the user:
 
 ![](images/tracker/image10.png)
 
-> Note: For further demonstration, you can also add events to the immunization stage and enter data within those events.
+> Note: For further practice, you can also add events to the immunization stage and enter data within those events.
 
-### STOP - Perform Exercise 2
+### STOP - Complete Exercise 2
 
 ## Other Features in the event form:
 
@@ -208,7 +123,6 @@ The app will list the name of the mandatory fields missing or the field which is
 It is possible to add notes to events in single event programs and program stage events. Notes are available in a new tab at the data entry form.
 
 ![](images/tracker/image15.png)
-
 
 ### Map Carousel
 
@@ -245,7 +159,7 @@ To simplify and personalize the user experience, the user interface actions offe
 
 ### Relationships
 
-THe relationships tab will be visible if the program relationships are not configured (In this case it has been configured to add a relationship of a sibling)
+The relationships tab will be visible if the program relationships are not configured (In this case it has been configured to add a relationship of a sibling)
 
 ![](images/tracker/image14.png)
 
@@ -267,5 +181,3 @@ Delete TEI's & Enrollments : To delete a TEI or an enrollment, select the desire
 * F_TEI_CASCADE_DELETE
 
 Group view of Program stages in TEI Dashboard : The TEI Dashboard offers the possibility to change the list of events from the chronological view to a stage grouping view. The stage grouping view will group and collapse the events per program stage. Each program stage group can be expanded by the user and the events will be displayed chronologically.
-
-#### STOP : Ask the participants if they have any questions
