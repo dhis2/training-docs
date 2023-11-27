@@ -32,7 +32,7 @@ Make sure that you have the app made for training purposes otherwise you will no
 ![trainingapk](images/general/training_apk.png)
 
 
-# Projecting your Android Device
+## Projecting your Android Device
 
 The instructor will have to decide on which method they would like to use to mirror the android app on their computer screen. They will also have to set up a user account (if it doesn’t exist already) that is assigned to the same org unit as the program they are demonstrating.
 
@@ -68,18 +68,17 @@ Some participants may not have been able to install the app by themselves. In th
 
 ## Time needed for this session
 
-Live demo: 
-Hands-on exercises: 
+Live demo: 45 min
+Hands-on exercises: 45 min
 
 ## Quick Guide
 
-## PART 1: Navigation to the program
+## PART 1: Navigation of the program
 
-### Log -in ,Home Page and Event Listing
-
+### Log-in, Home Page and Event Listing
 
 1. Log-in to the android application
-2. Review the organization unit and program assigned.
+2. Review the organization unit and program assigneds to you
 3. Briefly describe the functionalities of the home screen
 
    ![](images/tracker/image21.png)
@@ -89,13 +88,13 @@ Hands-on exercises:
 
   ![](images/tracker/image8.png)
 
-6. Explain the feature ”Bottom Navigation Bar”( The bottom navigation bar allows switching the visualization mode of the program if the event or tracker program have been defined with coordinates). We will discuss this in detail in the next session.
+- Explain the ”Bottom Navigation Bar” (The bottom navigation bar allows switching the visualization mode of the program if the event or tracker program have been defined with coordinates). We will discuss this in detail in another session.
 
    ![](images/tracker/image5.png)      
 
-## PART 2: Registration:
+## PART 2: Registration
 
-The first step is to SEARCH the TEI based on the searchable attributes to make sure that the entity does not exist in the system prior to registering a brand new entity.(in this case child)
+The first step is to SEARCH the TEI based on the searchable attributes to make sure that the child does not exist in the system prior to registering a brand new child. 
 
 ![](images/tracker/image18.png)
     
@@ -105,9 +104,9 @@ The first step is to SEARCH the TEI based on the searchable attributes to make s
  
    ![](images/tracker/image7.png)
 
-2. In the Android app you need to select the organisation unit (in this case user has access only to one health facility so this will be auto-filled as CH Mahosot) and the reporting date or the Registration date (in this case Date first seen)
+2. In the Android app you need to select the organisation unit and the reporting date or the registration date (in this case Date first seen)
 
-3. Trainers can now demo the enrolment data page that has been configured: followed by the attributes - child section.(Briefly describe the sections)
+3. Next demo the enrolment data page that has been configured: followed by the attributes - child section.(Briefly describe the sections)
 
 4. Explain that you can capture child coordinates(In android app it will automatically capture the coordinates based on the location of the device when selecting the coordinate icon) But this will be talked in detail in future session.
   
@@ -117,17 +116,17 @@ The first step is to SEARCH the TEI based on the searchable attributes to make s
 
    ![](images/tracker/image3.png)
 
-STOP: Perform Exercise 1
+#### STOP - Perform Exercise 1
 
 ## Part 3 - Data Entry
 
-### Entering Data in Stage
+### Entering Data in the Stages
 
 STAGE 1: Birth Details
 
-* To create a new event, the user needs to tap on the plus + icon on the stage card and Add New. 
+* To create a new event, the user needs to tap on the plus + icon beside the stage card follwed by "Add New" 
 
-_Note: This icon is always visible unless the stage is non-repeatable and already created.When the user taps on the button, that program stage will unfold showing to the user all the already existing events of that particular program stage._
+> Note: This icon is always visible unless the stage is non-repeatable and already created. When the user taps on the button, that program stage will unfold showing to the user all the already existing events of that particular program stage.
 
 ![](images/tracker/image6.png)
 
