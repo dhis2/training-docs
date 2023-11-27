@@ -1,9 +1,9 @@
 
-# Trainer’s Guide for Individual Level Data
+# Trainer’s Guide for Intro to Tracker Data Entry
 
 ## What is this guide?
 
-This guide is a support document for DHIS2 Android Academy trainers for the session "Individual level data". The session follows the standard Academy training approach with
+This guide is a support document for DHIS2 Android Academy trainers for the session "Intro to Tracker Data Entry". The session follows the standard Academy training approach with
 
 1. A live demo session where the trainer demonstrates and explains the features of the topic
 2. A hands-on session with exercises where participants get to practice the explained features.
@@ -30,7 +30,6 @@ Make sure that you have the app made for training purposes otherwise you will no
 [https://github.com/dhis2/dhis2-android-capture-app/releases](https://github.com/dhis2/dhis2-android-capture-app/releases)
 
 ![trainingapk](images/general/training_apk.png)
-
 
 ## Projecting your Android Device
 
@@ -72,6 +71,31 @@ Live demo: 45 min
 Hands-on exercises: 45 min
 
 ## Quick Guide
+
+1. Log in and explain the home page
+2. Register a New TEI by searching and creating a new one
+3. Enter in the additional attribute information for the person you are registering
+
+STOP - Perform Exercise 1
+
+4. Add a new stage for birth details - review the interface and enter data into this stage. Save the data
+5. (Optional) Add new stages for immunization - review the interface and enter data into this stage. Save the data.
+
+STOP - Perform Exercise 2
+
+6. Review the field completion %
+7. Review the section navigation
+8. Review error messages for mandatory fields or via a program rule
+9. Review the notes page
+10. Review the map carousel
+11. Review the relationships widget
+12. Share a TEI
+13. Complete an Enrolment
+14. View the program enrolment widget
+15. Delete a TEI and its enrolments
+16. Switch between the events timeline grouping events by stage
+
+STOP - See if there are any questions
 
 ## PART 1: Navigation of the program
 
@@ -134,7 +158,7 @@ STAGE 1: Birth Details
 
    ![](images/tracker/image4.png) 
 
-* You will see the Birth Details Stage: Here you can show how data entry fields are grouped in different sections:Details,Type,Place,Mode.
+* You will see the Birth Details Stage: Here you can show how data entry fields are grouped in different sections: Details,Type,Place,Mode. This is based on the configuation for your program stage data entry form. Enter data for the stage to proceed.
 
 ![](images/tracker/image20.png)
 
@@ -154,9 +178,9 @@ Two options are given to the user:
 
 ![](images/tracker/image10.png)
 
-**_NOTE:The “+” icon is always visible unless the stage is non-repeatable and already created.(In this program Birth Details is a non-repeatable stage so the + icon is not visible)_**
+> Note: For further demonstration, you can also add events to the immunization stage and enter data within those events.
 
-STOP: Perform Exercise 2
+### STOP - Perform Exercise 2
 
 ## Other Features in the event form:
 
@@ -187,7 +211,7 @@ It is possible to add notes to events in single event programs and program stage
 
 ### Map Carousel
 
-On the map view of the program, a carousel of cards is displayed, one for each enrolled TEI (Tracker programs) or Event (Event programs).
+On the map view of the program (you have to select this map view from the event line listing of the program), a carousel of cards is displayed, one for each enrolled TEI (Tracker programs) or Event (Event programs). Chances are dots will appear all over the place in case people have added events based on their own location. If you zoom in on Lao however, you will see many TEIs that can be viewed.
 
 * TEI cards on the carousel follow the same design as the TEI list view.
 * When scrolling horizontally the carousel, the map zooms into the selected coordinates. If the coordinate field is empty a message is shown instead.
@@ -218,19 +242,13 @@ To simplify and personalize the user experience, the user interface actions offe
 
 ![](images/tracker/image10.png)
 
-### Relationship
+### Relationships
 
-Relationships tab will be visible if the program relationships are not configured (In this case it has been configured to add a relationship of a sibling)
+THe relationships tab will be visible if the program relationships are not configured (In this case it has been configured to add a relationship of a sibling)
 
 ![](images/tracker/image14.png)
-   
-### Analysis
 
-The DHIS2 Android App can now render analytics that have been created in the Data Visualizer app in DHIS2. Analytics to be displayed require to be configured using the Android Settings WebApp where administrators will be able to decide the charts and tables to be displayed for end users.
-
-![](images/tracker/image11.png)
-
-### Additional feature
+### Additional features
 
 In the TEI Dashboard click on the three dots in the upper right corner and explain the following functionalities
 
@@ -242,12 +260,11 @@ Complete/Deactivate Enrollment : To complete or deactivate an enrollment, click 
 
 TEI enrollment history and new enrollment (Program Enrollment) : Users can see the complete historical records of the TEI. Clicking on the upper right corner menu, select "Program Enrollments". A list of "Active enrollments" will be displayed, followed by a list of "Past enrollments" (completed or canceled), followed by the programs in which the TEI could be enrolled. Users can also return to the "TEI Dashboard" without any program' by selecting "All enrollments".
 
-Delete TEI's & Enrollments : To delete a TEI or an enrollment, select the desired option in the three dots menu of TEI dashboard. Local TEI or Enrollment will be deleted from the database. Records that has been previously synced with the server will be marked for deletion if the user has the following authorities:
+Delete TEI's & Enrollments : To delete a TEI or an enrollment, select the desired option in the three dots menu of TEI dashboard. Local TEI or Enrollments will be deleted from the database. Records that has been previously synced with the server will be marked for deletion if the user has the following authorities:
 
 * F_ENROLLMENT_CASCADE_DELETE
 * F_TEI_CASCADE_DELETE
 
-
 Group view of Program stages in TEI Dashboard : The TEI Dashboard offers the possibility to change the list of events from the chronological view to a stage grouping view. The stage grouping view will group and collapse the events per program stage. Each program stage group can be expanded by the user and the events will be displayed chronologically.
 
-STOP : Ask the participants if they have any questions
+#### STOP : Ask the participants if they have any questions
