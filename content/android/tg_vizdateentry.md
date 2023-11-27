@@ -85,7 +85,7 @@ Some participant's may not have been able to install the app by themselves. In t
 
 ## Demo Part 1 - Demonstrate
 
-In order to demonstrate visual data entry, you can search for the case that was reviewed previously, Jane Thompson (Child # 1024), or register a new record. 
+In order to demonstrate visual data entry, you can search for the case Jane Thompson (Child # 1024), or register a new record. 
 
 After you have accessed an existing or new child, add an event to the birth details stage. The date of the event can be the same as their date of birth.
 
@@ -106,7 +106,7 @@ You can expand each of the 4 sections in order to demonstrate how these differen
 
 ![mode_layout](images/vizentry/mode_layout.png)
 
-### STOP - Perform Exercise 1
+#### STOP - Perform Exercise 1
 
 ## Demo Part 2 - Configure
 

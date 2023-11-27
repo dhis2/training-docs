@@ -35,8 +35,7 @@ Make sure that you have the app made for training purposes otherwise you will no
 
 ![trainingapk](images/general/training_apk.png)
 
-
-# Projecting your Android Device
+## Projecting your Android Device
 
 The instructor will have to decide on which method they would like to use to mirror the android app on their computer screen. They will also have to set up a user account (if it doesn’t exist already) that is assigned to the same org unit as the program they are demonstrating.
 

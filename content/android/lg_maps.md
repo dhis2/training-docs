@@ -10,7 +10,7 @@ This guide contains all exercises and detailed steps to perform them related to 
 2. Demonstrate how to collect and display tracked entity and program stage coordinates
 3. Demonstrate how to toggle additional options within maps on an Android device
 
-## Part 1 - Interface Review and Showing enrollments on a map
+## Exercise 1 - Interface Review and Showing enrollments on a map
 
 - Open the immunization program from the android home screen
 - Select the map icon within the event line list page for this program
