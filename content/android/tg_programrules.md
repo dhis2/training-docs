@@ -198,4 +198,3 @@ _Explain how this retrieves the latest metadata updates from the server_
 ## Assignment
 
 After you have completed all of the demos and they have finished the exercises, have them complete the graded assignment in moodle for this session.
-
