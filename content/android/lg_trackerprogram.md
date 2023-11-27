@@ -3,7 +3,7 @@
 
 ## What is this guide?
 
-This guide contains all exercises and detailed steps to perform them related to the review of ***Aggregate Data Entry*** for the Android Level 1 academy. Please perform each of the exercises when prompted to by your instructors
+This guide contains all exercises and detailed steps to perform them related to the review of ***Tracker Data Entry*** for the Android Level 1 academy. Please perform each of the exercises when prompted to by your instructors
 
 ## Learning objectives for this session
 
