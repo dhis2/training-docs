@@ -29,7 +29,7 @@ If I select one of the TEIs on display, I can see their details. I can expand th
 
 ![expand_info](images/geospatial/expand_info.png)
 
-By selecting th arrow button on this screen, you can open the location of this person within the mapping app of your choice. This could be useful if you want to perform some type of follow up with this individual
+By selecting the arrow button on this screen, you can open the location of this person within the mapping app of your choice. This could be useful if you want to perform some type of follow up with this individual
 
 ![open_in_maps](images/geospatial/open_in_maps.png)
 

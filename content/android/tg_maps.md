@@ -108,7 +108,7 @@ If I select one of the TEIs on display, I can see their details. I can expand th
 
 ![expand_info](images/geospatial/expand_info.png)
 
-By selecting th arrow button on this screen, you can open the location of this person within the mapping app of your choice. This could be useful if you want to perform some type of follow up with this individual
+By selecting the arrow button on this screen, you can open the location of this person within the mapping app of your choice. This could be useful if you want to perform some type of follow up with this individual
 
 ![open_in_maps](images/geospatial/open_in_maps.png)
 
@@ -134,7 +134,7 @@ In this session our main objective is to understand how to add coordinates in th
 
 ### TEI coordinates
 
-You can Capture the TEI coordinates in the registration form of the Immunization program. To get this feature we need to enable this feature in the tracked enity type (TET) feature type (for this demo it has already been configured for Immunization program).
+You can Capture the TEI coordinates in the registration form of the Immunization program. To get this feature we need to enable this feature in the tracked enity type (TET) feature type (for this demo it has already been configured for the Immunization program).
 
 Now let's start with the first TEI coordinate (that represents the child's home) “Coordinates of the Child”
 
