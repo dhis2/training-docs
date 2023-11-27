@@ -68,14 +68,15 @@ Password: Android123!
 
 Send the instructions to the participants on how to install the Android app prior to the session if they have not yet done so. The instructions can be found [Click Here](https://docs.google.com/document/d/1SUUUdmPSDycFtdB9yUMq8ZWiWf8gNOu5xvtNj4_V63U/edit#heading=h.lswxgahoi1m2).
 
-Some participants may not have been able to install the app by themselves. In that scenario, you may need to walk them through how to do this via google play.
+Some participants may not have been able to install the app by themselves.Please guide them thorugh the steps.
 
 ## Quick Guide
 
-1. Log in the Android device
+1. Log in into the Android device
 2. Show them how you can create multiple users accounts by clicking on the Manage user account.
 3. Show them how to move to other apps in your phone without deleting the local data by using Blocking session feature
-4. 
+4. Explain Home screen
+5.
 
 
 
@@ -129,11 +130,12 @@ In the below screen you will see all the programs which users have access to.
 
 STOP 
 
-## DEMO PART 2 - DEMONSTRATE
+## PART 2
 
 ### Settings
 
-1. To Go to Settings and Click
+1. To Go to Settings.
+2. Click the Menu Button next to Home
 
 ![login1](images/exploreandroid/images/settings1.png)
 
@@ -159,18 +161,16 @@ STOP
 
      NOTE: This feature enables implementation administrators to manage and control the version of the Android app from the DHIS2 user web interface, making it easier to manage app updates and ensure compatibility with the DHIS2 system. Managers will be able to upload the desired version and users will get a prompt message to update when they are not in the last updated version. The management of versions is made through a new Web App.
 
-STOP 
 
-## DEMO PART 3 - DEMONSTRATE
+## PART 3
 
 ### Sync Information
 
-**Login Sync** :
+**Login Sync**
 
 During the metadata download, the app will remain in the splash screen and will open the home screen once the metadata is in the device.
 
 In the home screen, the app will inform with a loading spinner on each program when the data is downloading. After the sync process finishes, the app will display one of the two possible icons:
-
 
 * A green checkmark if the program downloads data successfully and without errors (the icon will disappear after three seconds) or,
 * A gray arrow if there is an error during the sync process and the total or partial data isn't downloaded
@@ -208,16 +208,13 @@ When there is no Internet connection (either via WiFi or Mobile Data) but there 
 
 _NOTE: Trainers can mention this feature as NO SMS gateway has been set-up._
 
-STOP
-
-
-## DEMO PART 4 - DEMONSTRATE
+## PART 4
 
 ### Filter:
 
 A filter can be applied in all listing screens (Home, Event listing, TEI search and DataSets) which narrows down the data displayed. The filters available are: period, org. unit, sync state, event status, category option combination and "assigned to me".
 
-Click on the Filter Icon at Home Page
+Click on the Filter Menu buttion next to Refresh button at the Homescreen
 
 ![login1](images/exploreandroid/images/homescreen2.png)
 
@@ -355,7 +352,9 @@ For this trainers can show the Immunization Program and Open any record and then
 
 STOP
 
-## DEMO PART 5 - DEMONSTRATE NEW FEATURES 2.8
+## PART 5
+
+New Features in latest version
 
 ### Error Navigation
 
