@@ -19,7 +19,11 @@ and the flow of the demo.
 
 ## Learning objectives for this session
 
-
+1. Configure the flag and colour for a DHIS2 instance
+2. Demonstrate how to apply colours and icons to data sets and programs
+3. Demonstrate how to configure metadata to read QR codes
+4. Demonstrate how to configure option sets to display using different rendering types
+5. Demonstrate how to configure images
 
 ## Time Requirements
 
@@ -70,9 +74,9 @@ More information on enabling this is available [here](https://developer.android.
 
 Ensure that there is a user account assigned to a lower level set of org units at the facility level within the database that you can use prior to performing this session. If the participants are following along, ensure that there are user accounts for them to use as well assigned to lower level organization units. The demo user account is in the academy database is:
 
-Username: android1
+Username: android
 
-Password: District1#
+Password: Android123!
 
 ### Participants
 
@@ -82,8 +86,30 @@ Some participant's may not have been able to install the app by themselves. In t
 
 ## Quick Guide
 
+1. Review the styling applied to the Home Screen (icons and colours) when first logging in to the android app
+2. Review how to set the DHIS2 color via the DHIS2 system settings
+3. Review different programs in the android app to see that different colouring is applied to them
+4. Use the Local ID attribute within the immunization program to demonstrate the use of the QR reader functionality
+5. Demonstrate the different options available for the date picker
+6. Show examples of vertical and horizontal option set rendering
+7. Demonstrate the use of images on android
+
+STOP - Perform Exercise 1
+
+8. Review how to configure data sets and programs icons and colours
+9. Review how to configure QR codes
+10. Review how to configure different rendering types for option sets
+11. Review how to set up images
+
+STOP - Perform the ungraded exercise on visual configuration
 
 ## Demo Part 1 - Demonstrate
+
+### Icons in the Android app
+
+When you first log in, you will see that there are icons and styling applied to android app
+
+![android_icons](images/vizconfig/android_icons.jpg)
 
 ### System Settings
 
@@ -97,19 +123,15 @@ From here, navigate to the appearance tab where you can modify the style and fla
 
 If you modify these settings they will be reflected in the android application.
 
-### Icons in the Android app
+### Android Rendering Options
 
-When you first log in, you will see that there are icons and styling applied to android app
+#### Program Colours
 
-![android_icons](images/vizconfig/android_icons.jpg)
-
-### Displaying Rendering Types
-
-In order to display various options for rendering types, we will edit an existing child in the immunization program.
+In order to display various options for program colours, we will edit an existing child in the immunization program.
 
 Select the immunization program.
 
-Note that the colour of this program changes to blue, becasue the program specific color has been set to blue.
+Note that the colour of this program changes to blue, because the program specific color has been set to blue.
 
 You could further demo this by changing over to another dataset or program.
 
@@ -123,7 +145,7 @@ Purple colour for Child Nutrition Tracker
 
 #### QR Reader
 
-We can first start with the QR code reader.
+We can review the QR code reader functionality by trying to search for a child in the immunization program.
 
 The Local ID is set to scan QR codes
 
@@ -145,7 +167,7 @@ The results will show their record because you are using a unique ID
 
 #### Date Picker
 
-Open the record and edit their details
+Open the record and edit their details by selecting "Open Child Details"
 
 ![edit_details](images/vizconfig/edit_details.png)
 
@@ -169,11 +191,13 @@ and vertical radio buttons
 
 #### Images
 
-If you can continue scrolling, you will see placeholders in which you can add an image.
+If you can continue scrolling, you will see a placeholder in which you can add an image.
 
 You can proceed to add an image (a good idea is to download some type of randomized icon or image to use rather then show your own photos from your phone) and display the signature fields.
 
 ![adding_image](images/vizconfig/adding_image.png)
+
+#### STOP - Perform Exercise 1
 
 ## Demo part 2 - Configuration
 
@@ -227,9 +251,6 @@ You can set pictures via the TEA or DE value type.
 
 This will allow you to upload images via either android or web.
 
+#### STOP - Perform the [ungraded exercise](https://docs.google.com/presentation/d/1U_4fikGYaY4oAgbwZ1zpfqJNjBkDrEqQfnr71kO22L8/edit?usp=drive_link) for visual configuration
 
-
-
-
-
-
+After the ungraded exercise, note that there is also a graded exercise in Moodle.

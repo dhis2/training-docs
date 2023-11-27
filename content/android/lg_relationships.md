@@ -164,6 +164,11 @@ You can set up constraints to control the program in which relationships can be 
    3. Decide what will be seen when the relationship is being created in the user interface
    4. Add to and from constraints if needed
 5. Save the relationship
+6. Change the public sharings settings
+   1. Metadata : can view only
+   2. Data : Can capture and view
+
+![relationship_sharing](images/relationships/relationship_sharing.png)
 
 As long as the relationship is shared correctly, it should be available from within the android app. You will need to sync your metadata after creating the relationship type in order to see it on the device.
 
