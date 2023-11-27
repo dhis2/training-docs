@@ -82,6 +82,13 @@ There are two types of coordinates:
 
 Also if TEI has a profile image,the map will display it.
 
+## Quick Guide
+
+1. Review the enrollment coordinate within a single TEI during registration
+2. Review the program stage coordinates within the immunization stage
+3. Show how to map relationships from the program event line list page
+4. Review the different map layer options that are available via the maps settings on the android device
+
 ## Part 1 - Enrollment Coordinates 
 
 In this session our main objective is to understand how to add coordinates in the tracked Entity Instance using the Immunization program and the Program Stage coordinate.
