@@ -122,7 +122,7 @@ Additionally, you can also search for specific TEIs on the map by using the sear
 
 ![search_icon](images/geospatial/search_icon.png)
 
-Let us search for the child with the Child Number : 8212. These will display their location along with their details which you can expand to review further.
+Let us search for the child with the Child Number : 8212. This will display their location along with their details which you can expand to review further.
 
 ![search_results](images/geospatial/search_results.png)
 
