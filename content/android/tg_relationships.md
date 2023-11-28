@@ -86,12 +86,22 @@ Some participant's may not have been able to install the app by themselves. In t
 
 1. Create a new relationship by searching via the TET
 2. Create a new relationship by using the event line list within a single program
+
+STOP - Exercise 1
+
 3. Review how to interact with existing relationships
 4. Show how to map relationships for a single TEI
 5. Review the map settings
+
+STOP - Exercise 2
+
 6. Review how the TET is configured to capture coordinates
 7. Review how the TET is configured to allow for different search parameters
 8. Create a relationship type in DHIS2 and sync with android
+
+STOP - Exercise 3
+
+Graded Assignment
 
 ## Demo Part 1 - Demonstrate
 

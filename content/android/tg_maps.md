@@ -287,3 +287,7 @@ When displaying maps from the event line list or within a specific TEI, there ar
 You can toggle some of these layers to see the effect this has on the map.
 
 #### STOP - Perform Exercise 5
+
+## Assignment
+
+After they have completed all of the exercises, have them perform the assignment in moodle.
