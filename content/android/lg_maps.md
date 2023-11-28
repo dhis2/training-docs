@@ -55,6 +55,8 @@ In this session our main objective is to understand how to add coordinates in th
 
 ### TEI coordinates
 
+***This is for your information***
+
 You can Capture the TEI coordinates in the registration form of the Immunization program. To get this feature we need to enable this feature in the tracked enity type (TET) feature type (for this demo it has already been configured for Immunization program).
 
 Now let's start with the first TEI coordinate (that represents the child's home) “Coordinates of the Child”
@@ -72,7 +74,7 @@ These coordinates are configured via the tracked entity type.
 #### Switch back the to the Android device
 
 * Open the Immunization program
-* Either Search for an existing child and select "Open Child Details" or create a new child.
+* ***Either Search for an existing child and select "Open Child Details" or create a new child.***
 
 ![](images/geospatial/image2.png)
 ![](images/geospatial/image1.png)
