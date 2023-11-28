@@ -157,26 +157,26 @@ In this session we will focus on how we have configured the above program rule i
     2. Choose the decscription of the program rule. _Explain that in this training they could leave it blank if they want but that it is important to define descriptions that are explicit enough to facilitate the maintenance of the config at later stages._
     3. Leave the priority blank in this case. _Explain how this is important in case that several program rules are run and that the priority remain as 1 > 2  > … > 9 > (empty)_
     
-    c. Select the program rule expression tab
+   c. Select the program rule expression tab
 
-    4. Define the condition as temperature >37. 
+   1. Define the condition as temperature >37. 
     _Explain that the condition needs to be something which is true or false, that the box underneath can help and that there are some differences between web and Android that are listed in the documentation.[Click Here](https://docs.dhis2.org/en/full/use/dhis2-android-app.html#capture_app_pr)_
 
-d. Enter the define program rule actions tab
+   d. Enter the define program rule actions tab
 
-1. Create a new program rule action by clicking on the (+) button. _Explain that a program rule can trigger multiple program rule actions_
+   1. Create a new program rule action by clicking on the (+) button. _Explain that a program rule can trigger multiple program rule actions_
 
-2. Define the action as "Show error". _Explain that these actions are the list of possible actions but are not covered here and that students can go to the documentation. Also explain that some might be not supported in Android as listed in the documentation.[Click Here](https://docs.dhis2.org/en/full/use/dhis2-android-app.html#capture_app_pr)_
+   2. Define the action as "Show error". _Explain that these actions are the list of possible actions but are not covered here and that students can go to the documentation. Also explain that some might be not supported in Android as listed in the documentation.[Click Here](https://docs.dhis2.org/en/full/use/dhis2-android-app.html#capture_app_pr)_
 
-3. Choose the Temperature data element from the drop down "Data element to display error next to". _Explain that some actions (show warming, show error, etc) will require an element where the information should be displayed. In this case we select the data element which triggered the error but could also be an attribute or a widget (for some cases)._
+   3. Choose the Temperature data element from the drop down "Data element to display error next to". _Explain that some actions (show warming, show error, etc) will require an element where the information should be displayed. In this case we select the data element which triggered the error but could also be an attribute or a widget (for some cases)._
 
-4. Add **"Vaccination should not be given to the child until the fever subsides. The temperature is currently**" in the static text._ Explain that this is a text that is displayed static and usually comes with other text defined below._
+   4. Add **"Vaccination should not be given to the child until the fever subsides. The temperature is currently**" in the static text._ Explain that this is a text that is displayed static and usually comes with other text defined below._
 
-5. Add the variable Temperature to the "Expression to evaluate and display after static text". This will display the actual value of the program rule variable that you have selected after the static text message.
+   5. Add the variable Temperature to the "Expression to evaluate and display after static text". This will display the actual value of the program rule variable that you have selected after the static text message.
 
-6. Click on commit to create the program rule action
+   6. Click on commit to create the program rule action
 
-e. Optional: show the participants how this program rule is triggered on the web interface.
+   e. Optional: show the participants how this program rule is triggered on the web interface.
 
 ### STOP - Perform Exercise 1
 
