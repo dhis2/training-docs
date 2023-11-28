@@ -255,7 +255,7 @@ You can set up constraints to control the program in which relationships can be 
 
 As long as the relationship is shared correctly, it should be available from within the android app. You will need to sync your metadata after creating the relationship type in order to see it on the device.
 
-#### STOP - Exercise 2
+#### STOP - Exercise 3
 
 
 
