@@ -19,9 +19,14 @@ and the flow of the demo.
 
 ## Learning objectives for this session
 
-
+1. Describe how visual configuration can be used to display icons and colours for data elements and option sets
+2. Demonstrate how to configure Option Sets for visual data entry
+3. Demonstrate how to configure Program Stages for visual data entry
 
 ## Time Requirements
+
+Demo: 45 mins
+Ungraded Exercises: 45 mins
 
 ## Background
 
@@ -194,4 +199,4 @@ If we re-examine the birth detailsstage and open the "Place" section, we will se
 
 ![viz_conf_updated](images/vizentry/viz_conf_updated.png)
 
-### STOP - Perform Exercise 2
+### STOP - Perform the [ungraded exercise](https://docs.google.com/presentation/d/1Y8cUD6W4OEF3JerVYxiuPMQNFXMPfk52KIOLOjveQTU/edit?usp=drive_link)
