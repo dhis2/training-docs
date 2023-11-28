@@ -1,4 +1,4 @@
-# Learner's Guide for Relationships
+# Learner's Guide for Visual Configuration
 
 ## What is this guide?
 
@@ -9,8 +9,7 @@ This guide contains all exercises and detailed steps to perform them related to 
 1. Configure the flag and colour for a DHIS2 instance
 2. Demonstrate how to apply colours and icons to data sets and programs
 3. Demonstrate how to configure metadata to read QR codes
-4. Demonstrate how to configure option sets to display using different rendering types
-5. Demonstrate how to configure images
+4. Demonstrate how to configure images
 
 ## Exercise 1
 

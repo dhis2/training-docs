@@ -1,10 +1,8 @@
-
 # Trainer’s Guide on Android Settings Web App Part-1
 
 ## What is this guide?
 
 This guide is a support document for DHIS2 Android Academy trainers for the session "Android Settings Web App". The session follows the standard Academy training approach with
-
 
 * A live demo session where the trainer demonstrates and explains the features of the topic
 * A hands-on session with exercises where participants get to practice the explained features.
@@ -20,25 +18,24 @@ This guide is a support document for DHIS2 Android Academy trainers for the sess
 Live demo: 45 min
 Hands-on exercises: 15 min
 
-
 ## Background
 
 The Android Settings Web App
 
-1. allows admins to configure synchronization parameters for the DHIS2 Android App, 
-2. encrypt the local database of the Android devices, 
-3. customize the appearance of Programs, Data sets, and Home screen, and add TEI Analytics items. 
+1. Allows admins to configure synchronization parameters for the DHIS2 Android App, 
+2. Can encrypt the local database of an Android device
+3. Can customize the appearance of Programs, Data sets, the Home screen, and add TEI Analytics items. 
 
 The configuration parameters defined within this web app will overwrite the settings of all Android devices using the DHIS2 Android Capture App.
 
-**_NOTE: In the version of the Web App (2.3), if the DHIS2 version is equal to or higher than 2.40, only users with "M_androidsettingsapp" or "ALL" authority can define those parameters in the configuration. Other users accessing the web app can see the value of the parameters but cannot edit them._**
+**_NOTE: In the version of the Web App (2.3), if the DHIS2 version is greater then or equal to (>=) 2.40, only users with the "M_androidsettingsapp" or "ALL" authority can define these parameters in the configuration. Other users accessing the web app can see the value of the parameters but cannot edit them._**
 
-## Part 1: Installation of Android Setting Web App
+## Part 1: Installation of the Android Setting Web App
 
 To use the Android Settings Web App you need to first install the app by going to DHIS2 web interface
 
-* Go to Search Bar and Search for &lt; App Management 
-* Go to Custom Apps
+* Go to Search Bar and Search for the App Management app
+* Go to the app hub
 * Click on Android Settings
 * Install the Android Settings App
 
@@ -48,7 +45,7 @@ To use the Android Settings Web App you need to first install the app by going t
 
 Trainers can briefly discuss the user roles. For more information about user roles. ([Click Here](https://docs.dhis2.org/en/use/user-guides/dhis-core-version-240/configuring-the-system/users-roles-and-groups.html?h=user+2.40#mgt_userrole))
 
-Please note that in this version of the web app, only users with 'ALL' authority or the one with Android Settings app are able to define those parameters in the configuration.With All authority you can also edit, create or delete the all settings (general, synchronization, appearance and analytics).
+Please note that in this version of the web app, only users with the 'ALL' authority or the one with Android Settings app are able to define those parameters in the configuration.With All authority you can also edit, create or delete the all settings (general, synchronization, appearance and analytics).
 
 So to make sure your users have this role, you can go to Users > User group and in this you can select the app authorities as android settings app.
 
@@ -199,7 +196,6 @@ The first part is for global settings that apply to all data sets an android use
 
 In this section you can disable Sync Status from Global Settings and Perform the same steps as above to see the changes in the Android device.
 
-
 ### Specific settings
 
 To add a specific setting:
@@ -207,10 +203,8 @@ To add a specific setting:
 * Click on _Add a Data set Settings_. A dialog box will pop up with a dropdown with a list of data sets.
 * Click on a data set, and a list of options to enable or disable filters will be displayed.
 
-
 ![](images/androidsettingswebapp/image12.png)
 
 ![](images/androidsettingswebapp/image8.png)
-
 
 ### STOP : Perform Exercise 4

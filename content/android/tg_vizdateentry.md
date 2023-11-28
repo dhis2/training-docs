@@ -87,6 +87,15 @@ Some participant's may not have been able to install the app by themselves. In t
 
 ## Quick Guide
 
+1. Demonstrate visual data entry on an android device
+
+STOP - Exercise 1
+
+2. Configure the visual data entry by:
+   1. Reviewing the option set color and icons
+   2. Changing the program stage section rendering
+   3. Sync these changes to the device
+
 
 ## Demo Part 1 - Demonstrate
 
