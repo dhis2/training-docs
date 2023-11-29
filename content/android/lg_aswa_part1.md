@@ -1,11 +1,8 @@
-# Trainer’s Guide on Android Settings Web App Part-1
+# Learner's Guide for the Android Settings Web App (ASWA)
 
 ## What is this guide?
 
-This guide is a support document for DHIS2 Android Academy trainers for the session "Android Settings Web App". The session follows the standard Academy training approach with
-
-* A live demo session where the trainer demonstrates and explains the features of the topic
-* A hands-on session with exercises where participants get to practice the explained features.
+This guide contains all exercises and detailed steps to perform them related to the review of ***The Android Settings Web App (ASWA)*** for the Android Level 1 academy. Please perform each of the exercises when prompted to by your instructors
 
 ## Learning objectives for this session
 
@@ -13,22 +10,7 @@ This guide is a support document for DHIS2 Android Academy trainers for the sess
 * Describe how to navigate through the Android Settings Web App
 * Demonstrate how to alter the appearance of the programs and data sets using the the Android Settings Web App
 
-## Time needed for this session
-
-Live demo: 45 min
-Hands-on exercises: 15 min
-
-## Background
-
-The Android Settings Web App
-
-1. Allows admins to configure synchronization parameters for the DHIS2 Android App, 
-2. Can encrypt the local database of an Android device
-3. Can customize the appearance of Programs, Data sets, the Home screen, and add TEI Analytics items. 
-
-The configuration parameters defined within this web app will overwrite the settings of all Android devices using the DHIS2 Android Capture App.
-
-## Part 1: Installation of the Android Setting Web App
+## Exercise 1: Installation of the Android Setting Web App
 
 To use the Android Settings Web App you need to first install the app by going to DHIS2 web interface
 
@@ -39,55 +21,9 @@ To use the Android Settings Web App you need to first install the app by going t
 
 ![](images/androidsettingswebapp/image14.png)
 
-### Users roles to use the App
+### STOP : End Exercise 1 
 
-Trainers can briefly discuss the user roles. For more information about user roles. ([Click Here](https://docs.dhis2.org/en/use/user-guides/dhis-core-version-240/configuring-the-system/users-roles-and-groups.html?h=user+2.40#mgt_userrole))
-
-There is a specific authority for the android settings web app that can be found in "Other Authorities." This gives a person access to both view the app and edit settings within the app.
-
-So to make sure your users have this role, you can go to Users > User Roles, find the app in the "Other authority" section and assign the authority to the user role.
-
-![](images/androidsettingswebapp/image1.png)
-
-### STOP : Perform Exercise 1 - Install the Android Settings Web App
-
-## Part 2: Android Settings App Overview
-
-_Note: In this session trainers will give an overview of each section and will do a detailed session on Appearance._
-
-* Open the DHIS2 web interface
-* In the apps menu, search for Android Settings.
-* Select the App and you will see the Home Screen for Android Settings Web App as shown below:
-
-![](images/androidsettingswebapp/image3.png)
-
-### General Settings:
-
-* General: Defines generic parameters like SMS gateway number and TEI reserved values
-
-### Synchronization:
-
-* Global: It offers additional parameters to control metadata/data synchronization.
-* Programs:This section controls the program data synchronization parameters. It has a section to define global or default parameters to be used in the synchronization of all programs.
-* Datasets: Define synchronization parameters for data sets
-* User sync test: Check how much data a user downloads when syncing
-
-### Analytics:
-
-* TEI: Manage TEI analytics for tracker programs
-* Home: Manage visualizations to be shown in home screen
-* Program: Manage visualizations for programs
-* Data set: Manage visualizations for data sets
-
-### Appearance:
-
-These settings give control over the appearance of the data entry and list forms.
-
-* Homescreen
-* Programs
-* Data sets
-
-## Part 3: Home Screen Settings in Appearance Section
+## Exercise 2: ASWA Home Screen Settings in the Appearance Section
 
 This section allows the admin user to enable or disable the option to show the filters related to Date, Organisation Unit, Sync Status, and Assigned to me on the Home screen.
 
@@ -104,9 +40,9 @@ In the current setup you can see all of the options are enabled.
 
   ![](images/androidsettingswebapp/image5.png)
 
-### STOP : Perform Exercise 2 
+### STOP : End Exercise 2 
 
-## PART 4: Program Settings in Appearance Section
+## Exercise 3: Program Settings in Appearance Section
 
 The Program appearance section allows you to hide/show features within the program according to the configuration needs. These changes can happen globally, applying to ALL the programs or can alternatively be applied to a SPECIFIC program.
 
@@ -118,7 +54,7 @@ TEI referrals: This allows you to switch off/on the TEI referral option.
 
 Collapse sections in form: The Current behavior lets the sections collapse and expand in an accordion style. This option overrides the behavior by keeping all the sections of the form (registration and events) open and removing the "next" button in each section.
 
-For this session Trainers can
+For this session you can
 
 * Disable “Show percentage (%) complete in Program toolbar”
 * Go to Android Device to check the changes. 
@@ -128,8 +64,6 @@ For this session Trainers can
     ![](images/androidsettingswebapp/image7.png)
 
 ### For Program specific settings
-
-Trainers can explain that this section allows the admin user to customize features such as filters, completion percentage, mandatory search, referrals, TEI headers and referral options. Each section is explained below.
 
 To add a program specific setting:
 
@@ -146,18 +80,13 @@ TEI without searching: Offer online and offline search, as well as allowing the 
 
 TEI Header (**New 2.3.1**): Assign a specific attribute or expression that will be displayed as a header in TEI cards.
 
-To add a TEI Header:
-
-* Select a Program Indicator
-* An expression related to the program indicator will be displayed
-
-    **_Note:A notice box will be displayed if the selected program lacks expressions related to program indicators that are valid for Android._**
+**_Note:A notice box will be displayed if the selected program lacks expressions related to program indicators that are valid for Android._**
 
 If any specific settings have been saved, a table will summarize the particular configuration per program, and the options to edit or delete these settings.
 
 ![](images/androidsettingswebapp/image2.png)
 
-For this exercise the trainers can,
+For this exercise you can,
 
 * Go to the Immunization Program
 * Enable “Allow the user to create a TEI without searching”
@@ -170,11 +99,12 @@ To test this you need to log back into your android device and Sync your configu
 
 * Go to the Immunization program and you should be able to to create a TEI without searching
 
-### STOP : Perform Exercise 3
+### STOP : End Exercise 3
 
-## PART 4: Data Set Settings in Appearance Section
+## Exercise 4: ASWA Data Set Settings in Appearance Section
 
-Customize filter and sorting options available for data sets. 
+The data set settings allow you to customize filter and sorting options available for data sets. 
+
 * Settings can apply to all data sets a mobile user has access to. 
 * Settings specific to individual data sets can also be applied.
 
@@ -199,4 +129,4 @@ To add a specific setting:
 
 ![](images/androidsettingswebapp/image8.png)
 
-### STOP : Perform Exercise 4
+### STOP : End Exercise 4
