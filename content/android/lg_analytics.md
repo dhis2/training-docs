@@ -21,14 +21,15 @@ In this exercise you will know how the automatically generated TEI analytics wor
 
 3. Create 3 events for the stage "Immunization". Try to fill out all the fields in the form with meaningful values. They will be used in the next exercises as well.
 
-// Some guidance about meaningful values
+//TODO 
 
 4. Once you have 3 events, open the Analytics tab for this Child.
 
-// Image
+![automatic1](images/analytics/automatic1.png)
 
 5. Explore the automatically generated visualizations.
 
+![automatic2](images/analytics/automatic2.png)
 
 #### STOP - End Exercise 1
 
@@ -41,7 +42,9 @@ In this exercise you will create a custom TEI analytic table to show the evaluat
    
 2. Navigate to Analytics > TEI and click on "Add TEI Analytics".
 
-3. Fill in the information for the TEI analytics:
+![tei_table1](images/analytics/tei_table1.png)
+
+3. Fill out the form with the information for the TEI analytics:
     - Program: the program assigned to your user.
     - Program stage: the "Immunization" program stage (the only one in the list as it only shows repeatable stages).
     - Analytics chart title: choose a title for your table.
@@ -52,11 +55,17 @@ In this exercise you will create a custom TEI analytic table to show the evaluat
 
 4. Click on "Add TEI analytics".
 
+![tei_table2](images/analytics/tei_table2.png)
+
 5. Click on "Save" (**it is important to Save your work**).
 
 6. In your Android app, go to Settings and Sync configuration.
 
-7. Once it is finished, go to an existing TEI in your program ("[User XX] Immunization") and explore the TEI analytics.
+![tei_table3](images/analytics/tei_table3.png)
+
+7. Once it is finished, go to an existing TEI in your program ("[User XX] Immunization") and explore the TEI analytics. Notice that automatic analytics are gone.
+
+![tei_table4](images/analytics/tei_table4.png)
 
 #### STOP - End Exercise 2
 
@@ -68,7 +77,7 @@ In this exercise you will create a chart with the WHO nutrition background. This
 
 2. Navigate to Analytics > TEI and click on "Add TEI Analytics".
 
-3. Fill in the information for the TEI analytics:
+3. Fill out the form with the information for the TEI analytics:
     - Program: the program assigned to your user.
     - Program stage: the "Immunization" program stage (the only one in the list as it only shows repeatable stages).
     - Analytics chart title: choose a title for your table.
@@ -89,8 +98,58 @@ In this exercise you will create a chart with the WHO nutrition background. This
 
 7. Once it is finished, go to an existing TEI in your program ("[User XX] Immunization") and explore the TEI analytics.
 
-#### STOP - End Exercise 3
-
-## Exercise 4 - 
+![who1](images/analytics/who1.png)
 
 #### STOP - End Exercise 3
+
+## Exercise 4 - Explore dataset visualizations
+
+In this exercise you will explore the visualizations assigned to the datasets and the information they display.
+
+1. Open the Android app using your android user and go to the Data Set "NUT - Nutrition facility (monthly)".
+
+2. Click on the analytics tab at the bottom menu.
+
+![explore_dataset1](images/analytics/explore_dataset1.png)
+
+3. Explore the analytics charts displayed. 
+
+4. Change the chart type by clicking on the three dots in the top-right corner. For example, change the chart type to table.
+
+![explore_dataset2](images/analytics/explore_dataset2.png)
+
+5. Modify the period to filter the data of the last 3 months. Check how the chart changes the values
+
+![explore_dataset3](images/analytics/explore_dataset3.png)
+
+#### STOP - End Exercise 4
+
+## Exercise 5 - Assign a DataSet visualization
+
+In this exercise you will assign an existing visualization to the DataSet analytics. **Important:** this exercise must be done once per instance, which means all of you in the same table must cooperate and do the exercise together only once.
+
+1. Open the Android Settings Web App.
+
+2. Navigate to Analytics > Data set and click on "Add Data set visualization".
+
+![dataset1](images/analytics/dataset1.png)
+
+3. Fill out the form with the information for the new data set visualization:
+    - Dataset: NUT - Nutrition facility (monthly)
+    - Visualization item: ANC Contact in facility
+    - Use a visualization group
+    - Create a new visualization group: ANC Contact
+
+![dataset2](images/analytics/dataset2.png)
+
+4. Click on "Add Data set visualization".
+
+5. Click on "Save" (**it is important to Save your work**).
+
+6. In your Android app, go to Settings and Sync configuration.
+
+7. Once it is finished, go to "NUT - Nutrition facility (monthly)" and check the newly added chart.
+
+![dataset3](images/analytics/dataset3.png)
+
+#### STOP - End Exercise 5
