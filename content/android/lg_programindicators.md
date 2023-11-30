@@ -6,9 +6,8 @@ This guide contains all exercises and detailed steps to perform them related to 
 
 ## Learning objectives for this session
 
-1. Describe how maps can be used in DHIS2 Android Device
-2. Demonstrate how to collect and display tracked entity and program stage coordinates
-3. Demonstrate how to toggle additional options within maps on an Android device
+1. Demonstrate how to configure program indicators based on a single person
+2. Demonstrate how to display messages from a program in the indicators panel based on a single record
 
 ## Exercise 1 - Configuration - Program Indicators - Change in weight
 

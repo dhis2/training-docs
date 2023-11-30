@@ -18,7 +18,8 @@ and the flow of the demo.
 
 ## Learning objectives for this session
 
-
+1. Demonstrate how to configure program indicators based on a single person
+2. Demonstrate how to display messages from a program in the indicators panel based on a single record
 
 ## Preparations
 
