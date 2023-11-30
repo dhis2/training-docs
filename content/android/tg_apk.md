@@ -54,11 +54,11 @@ Follow the steps below to upload an Android app version:
 ![](images/apk/uploadversion.png)
 
 So in this case we want to upgrade a new version 
-2.9.0
+2.9
 
 So, for this we will follow the below steps:
 
-* So in **Version** we will add latest vesrion i.e. 2.9.0
+* So in **Version** we will add latest vesrion i.e. 2.9
 * You need to add a **Minimum Android version** that the app should support which is 5.0.2
 * In the **Recommended Android vesrion** we will add 8.0
 * In **Download URL** - you can go to the 
