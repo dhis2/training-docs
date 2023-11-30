@@ -96,6 +96,8 @@ STOP - Exercise 1
    2. Changing the program stage section rendering
    3. Sync these changes to the device
 
+STOP - Ungraded Exercise 2
+
 
 ## Demo Part 1 - Demonstrate
 
