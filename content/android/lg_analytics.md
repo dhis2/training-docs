@@ -17,13 +17,9 @@ In this exercise you will know how the automatically generated TEI analytics wor
 
 1. Open the Android app using your android user and go to your program (called "[User XX] Immunization").
 
-2. Register a new Child.
+2. Try to search an existing Child whose Local ID is AX6789UserXX. If the Child does not exist, open another existing Child and create 2 Immunization events with values for, at least, weight, height and temperature.
 
-3. Create 3 events for the stage "Immunization". Try to fill out all the fields in the form with meaningful values. They will be used in the next exercises as well.
-
-//TODO 
-
-4. Once you have 3 events, open the Analytics tab for this Child.
+4. Then, open the Analytics tab for this Child.
 
 ![automatic1](images/analytics/automatic1.png)
 
@@ -34,7 +30,7 @@ In this exercise you will know how the automatically generated TEI analytics wor
 #### STOP - End Exercise 1
 
 
-## Exercise 2 - Configure a table to show the evolution of temperature values
+## Exercise 2 - Configure a table to show the evolution of weight values
 
 In this exercise you will create a custom TEI analytic table to show the evaluation of the particular data element. This exercise requires using the Android Settings Web App, please remember to take turns to modify it.
 
@@ -51,7 +47,7 @@ In this exercise you will create a custom TEI analytic table to show the evaluat
     - Visualization Type: pivot table.
     - Period type: daily.
     - Element type: data element.
-    - Element: Temperature.
+    - Element: Weight (in kg).
 
 4. Click on "Add TEI analytics".
 
@@ -153,3 +149,36 @@ In this exercise you will assign an existing visualization to the DataSet analyt
 ![dataset3](images/analytics/dataset3.png)
 
 #### STOP - End Exercise 5
+
+## (Optional) Exercise 6 - Create a visualization and assign it to Home
+
+In this exercise you will create a new visualization and assign it to your offline analytics.
+
+1. Go to Data Visualizer app and create a new Visualization will the following parameters:
+    - Data Element: NUT - Antental contact in facility
+    - Organisation Unit: User organisation unit
+    - Period: last 12 months
+
+2. Save the visualization including your user name so it can be easily identified, something such as "[User XX] ANC Contacts in facility".
+
+![visualization1](images/analytics/visualization1.png)
+
+3. Change the sharing settings of the visualization to Public.
+
+![visualization2](images/analytics/visualization2.png)
+
+![visualization3](images/analytics/visualization3.png)
+
+4. Go the Android Settings Web App and click on Analytics > Home. Then, click on "Add Home Visualization".
+
+![visualization4](images/analytics/visualization4.png)
+
+5. From here, the process is very similar to adding a DataSet analytics. Select your recently created visualization and add it to the home. **Important:** take turns to do these changes in the Android Settings Web app.
+
+6. Go to your Android App and synchronize your configuration.
+
+7. In the home screen, verify that the Analytics tab is displayed. If you cannot see the Analytics tab after sync, try closing the app and opening it again. It might happen that the home screen doesn't refresh immediately.
+
+![visualization5](images/analytics/visualization5.png)
+
+#### STOP - End Exercise 6
