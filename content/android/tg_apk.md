@@ -84,12 +84,6 @@ To remove an Android App version:
 
 ![](images/apk/deleteversion.png)
 
-### Using Mobile device
-
-This Web App can also be manipulated from a mobile device. To use it, open DHIS2 in the browser from a mobile or tablet device.
-
-The mobile version allows the administrator user to upload and download app versions.
-
 
 
 
