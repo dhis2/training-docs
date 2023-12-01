@@ -1,4 +1,4 @@
-# Trainer’s Guide on APK Distribution Web App
+# Learner's Guide on APK Distribution Web App
 
 ## What is this guide?
 
