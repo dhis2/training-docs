@@ -215,7 +215,7 @@ Create the map using the tracked entity layer with the following inputs:
   - Relationship type : Has Been in Contact with
 - Period :
   - Program/Enrollment date
-  - Start/ End Date : January 1, 2022 - September 30, 2022
+  - Start/ End Date : January 1, 2024 - July 31, 2024
 - Org Units : CHW Mitthaphap
 - Style : leave as default
 

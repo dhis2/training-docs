@@ -28,7 +28,7 @@ There is also a Quick Guide which lists the steps very briefly and this is meant
 
 ## Background
 
-Program Indicators offer a flexible way of interacting with tracker data and allow for a number of advanced functionality as it relates to aggregating or summarizing individual tracker data. This session will focus on how program indicators can be used in data visualizer, maps and event reports to both display information related to a single tracked entity as well as summarize data for many tracked entities based on the org unit and period you are working with. 
+Program Indicators offer a flexible way of interacting with tracker data and allow for a number, of advanced functionality as it relates to aggregating or summarizing individual tracker data. This session will focus on how program indicators can be used in data visualizer, maps and event reports to both display information related to a single tracked entity as well as summarize data for many tracked entities based on the org unit and period you are working with. 
 
 ## Preparations
 

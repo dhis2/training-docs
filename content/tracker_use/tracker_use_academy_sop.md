@@ -49,7 +49,7 @@ To complete the academy, participant's must have an overall grade of 70% between
 
 We recommend that the exam be completed during the live session, but there will be circumstances when a learner is unable to attend due to extenuating circumstances. In that scenario, we recommend that the exam is opened during a scheduled period in which an instructor can be present.
 
-The deadline for graded assignments will be the **Friday** after the academy has been completed. This should give the participant's ample opportunity to complete all of the graded assignments.
+The deadline for graded assignments will be the **Thursday** after the academy has been completed. This should give the participant's ample opportunity to complete all of the graded assignments.
 
 For this course, the certificate will be generated automatically once the participant has completed all of the graded assignments and the exam; however an instructor will have to release them to the participant. Release the certificate to all of your participant's at the same time. Note that if they did not achieve the overall grade of 70%, they will not receive the certificate of completion.
 

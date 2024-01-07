@@ -1,4 +1,4 @@
-# Trainer’s Guide to Event Reports (Pivot) amd Line Listing
+# Trainer’s Guide to Event Reports (Pivot) and Line Listing
 
 ## What is this guide?
 
@@ -26,7 +26,9 @@ The overall objective of this session is to use the DHIS2 Line Listing app to re
 ## Time Requirements
 
 Live Demo: 4 demos, 10 minutes each
+
 Hands-on Exercises: 4 exercises, 10 minutes each
+
 Assignment: 
 
 ## Background

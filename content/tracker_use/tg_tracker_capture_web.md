@@ -14,7 +14,6 @@ This guide will help the trainer​ prepare​​ for the live demo session. The
 
 There is also a Quick Guide which lists the steps very briefly and this is meant as a lookup guide or “cheat sheet” WHILE doing the demo, to help the trainer remember all the steps and the flow of the demo.
 
-
 ## Learning objectives for this session
 
 The overall objective of this session is to use the DHIS2 tracker capture app. Detailed objectives include:
@@ -76,7 +75,8 @@ Go over the Vaccine Registry Program used in this tracker program to demonstrate
 
 3. **Register a TEI** : You can start with a duplicate record that already exists (Sharon) in order to show the process of identifying duplicates. In this case, since she already exists there is no need to register her. You can go to her tracker dashboard instead to review her completed events.
 
-4. Now search for a person that is not registered in the system. Proceed to register them.  **Note** that it will bring in the attributes filled during the search over to the registration page so you do not need to fill in these details again.
+4. Now search for a person that is not registered in the system. Proceed to register them.  
+**Note** that it will bring in the attributes filled during the search over to the registration page so you do not need to fill in these details again.
 
 5. Ensuring that the date chosen for the vaccine of the person being registered in the system  for the vaccine.
 
@@ -315,7 +315,7 @@ This is permission based, so not everyone will have the authority to perform thi
 
 1. **Data Entry** - This is for doing data entry using either default or custom forms. Depending on program definition, in particular program stages, events will be displayed in a timely fashion. Clicking on any of them displays the corresponding data entry. If a stage needs a new event, a plus icon is displayed for new event creation. To proceed with data entry, it is mandatory to have an event date. Once an event date is specified it is not possible to change the due date. The assumption is that by specifying the event date, the event has already taken place. If the event hasn't occurred yet, it is possible to change the due date - this is effectively doing nothing but rescheduling. The buttons at the bottom help to change the status of a selected event. Another key feature from this widget is the addition of multiple notes for an event. Normally data recording is through data elements, however there are cases where it is necessary to record additional information or comments. This is where the notes section comes handy. However, an interesting feature here is - it is not possible to delete a note. The idea is that notes are more like log books. Both skip-logic and validation error/warning messages are supported during data entry.
 2. **Enrollment** - This helps to enroll the TEI for the selected program. If an active enrollment already exists, the widget automatically displays it with some details about it. The widget also helps to do some operations on the selected enrollment - for example complete / cancel or a possibility to mark the enrollment for followup. The later one helps for example to deal with high-risk cases during case follow-up. A link to history is also provided if the TEI has historical enrollment.
-3. **Feedback **- In this widget you can place summary information about the TEI for review. For example if the person has allergies or you want to display information on which vaccines they have received until now you can place this information here based on what has been entered in the program
+3. **Feedback**- In this widget you can place summary information about the TEI for review. For example if the person has allergies or you want to display information on which vaccines they have received until now you can place this information here based on what has been entered in the program
 4. **Indicators** - Any indicator defined for the selected program will have its value calculated and displayed under this widget.
 5. **Messaging**: With messaging, you can send an SMS to the phone number that was registered directly from the dashboard
 6. **Notes** - This is the same as event notes. The difference between the two is that, here notes are attached not to events but to enrollments. This helps to record some notes based on enrollment - for example why is an enrollment terminated or what is the overall observation of the TEI throughout the enrollment. In addition, if the tracked entity has registered a phone number, messaging will be available here. 
