@@ -1,6 +1,8 @@
 # Tracker Data Model - Session Summary
 
-This document is a summary of the DHIS2 tracker use academy session "Tracker Data Model." You can download the accompanying presentation [here](insert link).
+This document is a summary of the DHIS2 tracker use academy session "Tracker Data Model." 
+You can download the accompanying presentation 
+(https://docs.google.com/presentation/d/1P9SLf6DFT_j129Z9Z87y_dS1YbpvTa9vG59QUuzJhHs/edit#slide=id.g3cd68278fc_0_226)
 
 ## Data Model Terminology
 

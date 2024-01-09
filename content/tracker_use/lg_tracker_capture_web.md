@@ -1,6 +1,5 @@
 # Learners Guide to Tracker Capture
 
-
 ## **What is this guide?**
 
 This guide contains ungraded exercises and detailed steps to perform them related to the tracker capture use session for the Tracker Use Level 1 academy. 
@@ -18,7 +17,6 @@ The overall objective of this session is to use the DHIS2 tracker capture app. D
 
 ## Exercise 1
 
-
 ### Review the tracker capture interface
 
 Steps to open a tracker capture app:
@@ -27,7 +25,7 @@ Steps to open a tracker capture app:
 
     ![image31.png](resources/images/tracker_capture_web/image31.png "image_tooltip")
   
-2. Find and select the site (organisation unit) in the org unit hierarchy.The ''COVAC - COVID - 19 Vaccine Registry tracker program'' is linked to any Organization Unit at the health facility level and above. CHW Mahosot has some example cases already entered. Click on the ‘+’ symbol to expand the hierarchy in the desired branch. For example, to find “CHW Mahosot”, expand Lao PDR, then 01 Vientiane Capital, then 0001 CH Mahosot and finally CHW Mahosot. Click on the site name to select it. When selected the org unit’s name will change color to orange.
+2. Find and select the site (organisation unit) in the org unit hierarchy.The **''COVAC - COVID - 19 Vaccine Registry tracker program''** is linked to any Organization Unit at the health facility level and above. CHW Mahosot has some example cases already entered. Click on the ‘+’ symbol to expand the hierarchy in the desired branch. For example, to find “CHW Mahosot”, expand Lao PDR, then 01 Vientiane Capital, then 0001 CH Mahosot and finally CHW Mahosot. Click on the site name to select it. When selected the org unit’s name will change color to orange.
 
     ![image15.png](resources/images/tracker_capture_web/image15.png "image_tooltip")
 
