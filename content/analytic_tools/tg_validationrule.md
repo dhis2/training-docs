@@ -1,7 +1,4 @@
-
-
 # Trainer’s Guide to Validation Rules (Use)
-
 
 ## What is this guide?
 
@@ -13,8 +10,6 @@ There is also a Quick Guide which lists the steps very briefly and this is meant
 
 
 ## Learning objectives for this session
-
-
 
 1. Understand some of the key principles associated with data quality
 2. Define what a validation rules in DHIS2 is
@@ -80,9 +75,7 @@ The second exercise involves sending notifications. Make sure all the participan
     - [End Session](#end-session)
    
 
-
 ## Live Demo Step-by-Step
-
 
 ## Part 1 - Run a validation rule in data entry
 
@@ -144,21 +137,17 @@ In order to run validation rule analysis, go to the data quality app and select 
 
 ![](Images/vrrules/image38.png)
 
-
-Select Animal Region and run the HIV validation rules rules from January - April 2023
+Select Animal Region and run the HIV validation rules rules from January - April 2024
 
 ![vranalysis](Images/vrrules/vranalysis1.png)
 
-
 Once you have selected the inputs select “Validate”
-
 
 ![](Images/vrrules/vrviolation.png)
 
-
 ### Review the validation details
 
-There is only validation violation in Cardinal Hospital in March 2023. Select the details button of one of the violations so you can see in more detail what the issue is.
+There is only validation violation in Cardinal Hospital in March 2024. Select the details button of one of the violations so you can see in more detail what the issue is.
 
 ![](Images/vrrules/image13.png)
 

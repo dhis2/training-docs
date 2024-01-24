@@ -1,8 +1,8 @@
-# Trainer’s Guide to Event Reports (Pivot) and Line Listing
+# Trainer’s Guide to Line Listing
 
 ## What is this guide?
 
-This guide is a support document for DHIS2 Academy trainers for the session “Event Reports and Line Listing.” This session follows the standard Academy training approach with
+This guide is a support document for DHIS2 Academy trainers for the session “Line Listing.” This session follows the standard Academy training approach with
 
 1. a live demo session where the trainer demonstrate and explain the features, and 
    
@@ -57,21 +57,28 @@ In an in-person setting, the participants may be doing the demo with you at the 
 
 ## Live Demo step by step
 
-### Review the events reports interface
+### Review the Line List interface
 
-![interface](resources/images/event_reports/interface.png)
+![interface](resources/images/linelist/interface1.png)
+
+In the Line Listing app, you currently only have one type of selection which is Line list unlike eventr reports where you can have aggregate outputs.
 
 *NB: We will be using the line listing app to make line lists in this session. Therefore, we will only be using the "Pivot" table style in event reports to produce aggregate outputs. 
 
-#### Periods in Event Reports
+#### Input 
 
-In event reports, Periods can be selected as either Fixed or relative periods (same as aggregate) or with specific start/end dates (specific to event/tracker data)
+In Line List , Input can be selected as either 
+* Event (see individual event data from an event program or a tracker program stage)
+* Enrollment periods (see data from multiple stages in a tracker program)
 
-![period_type](resources/images/event_reports/period_type.png)
+![interface2](resources/images/linelist/interface2.png)
 
-If choosing the start/end dates than you can select exact dates to filter events based on the report date that was entered during event or tracker capture.
+### Program dimensions
 
-![start_end_date](resources/images/event_reports/start_end_dates.png)
+In the Line Listing app, all the dimensions related to a tracker or an event program are present in the program dimension component.
+
+![interfacepd](resources/images/linelist/interfacepd.png)
+
 
 ### Create an aggregate/pivot table event report using COVID-19 vaccination
 

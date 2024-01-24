@@ -45,6 +45,8 @@ The second exercise involves sending notifications. Make sure all the participan
 
 ## Table of Contents/Quick Guide
 
+
+
 - [Trainer’s Guide to Validation Rules (Config)](#trainers-guide-to-validation-rules-config)
   - [What is this guide?](#what-is-this-guide)
   - [Learning objectives for this session](#learning-objectives-for-this-session)
@@ -89,11 +91,9 @@ The second exercise involves sending notifications. Make sure all the participan
 
 ## Live Demo Step-by-Step
 
-
 ## Part 1 - Create a Validation Rule
 
 **Example 1 from HIV Monthly Form**
-
 
 ### Review the data entry page and decide on a logical validation rule to create
 
@@ -185,7 +185,7 @@ Select “Run validation”
 
 Select the following inputs:
 
-* **Date : January 1 2023 - April 1 , 2023**
+* **Date : January 1 2024 - April 1 , 2024**
 * **Rule Group : The group you have just made**
 * **Parent Organisation unit : Animal Region**
 
@@ -210,10 +210,10 @@ We can use the following dataset at the **Facility **level
 Let’s create a rule in which DPT-HepB-Hib doses given are less than or equal to Total DPT-HepB-Hib doses used and wasted.
 
 **Note:**
-Total used= **(Starting balance + Received)**- **(VVM + Frozen + Expired + Broken + Missing + Ending balance)**
+Total used and wasted = **(Starting balance + Received)** - **(VVM + Frozen + Expired + Broken + Missing + Ending balance)**
 
 
-### Create the validation rule DPT-HepB-Hib doses given &lt;= Total Used DPT-HepB-Hip doses
+### Create the validation rule DPT-HepB-Hib doses given &lt;= Total Used and wasted DPT-HepB-Hip doses
 
 Navigate to the maintenance application in DHIS2 and select the “Validation” tab 
 
@@ -232,7 +232,7 @@ Explain the fields that will be used to describe the rule. Use your initials to 
 
 Here is the description and instruction
 
-DPT-HepB-Hib doses given should be less than or the same as total DPT-HepB-Hib doses used and
+DPT-HepB-Hib doses given should be less than or the same as total DPT-HepB-Hib doses used and wasted
 
 DPT-HepB-Hib doses given should be less than or the same as total DPT-HepB-Hib doses used if not make follow ups to respective facility
 
@@ -289,20 +289,18 @@ Navigate to the Data Quality app
 
 ![](Images/vrconfig/image10.png)
 
-
 Select “Run validation”
-
 
 ![](Images/vrconfig/image2.png)
 
 
 Select the following inputs:
 
-* **Date : January 1 2023 - April 1 , 2023**
+* **Date : January 1 2024 - April 1 2024**
 * **Rule Group : The group you have just made**
 * **Parent Organisation unit : Dog District**
 
-![](Images/vrconfig/image21.png)
+![](Images/vrconfig/image34.png)
 
 You should see the below violations
 
@@ -315,7 +313,7 @@ Did it work for you?
 
 ## [OPTIONAL] Part 3 - Create a validation rule #3 using the DPT-HepB-Hib 2 threshold
 
-  **You can skip Part 3 if needed due to time contraints (the first 2 examples along with the participants following along will likely be enough for the 1.5 hours session). If you do end up skipping Part 3, you can note that this is avaialable as an example in the learner's guide.**
+  **You can skip Part 3 if needed due to time contraints (the first 2 examples along with the participants following along will likely be enough for the 1.5 hours session). If you do end up skipping Part 3, you can note that this is available as an example in the learner's guide.**
 
 In this example, a rule will be created in which we compare an entered value to a calculated threshold. The steps to create the rule are very similar to the previous example.
 
@@ -331,7 +329,6 @@ Navigate to the maintenance application in DHIS2.
 ![](Images/vrconfig/image5.png)
 
 #### Select the data element tab and create a data element
-
 
 ![](Images/vrconfig/image18.png)
 
@@ -349,7 +346,7 @@ Click Generate and insert a formula that will be used to calculate the threshold
 
 ![](Images/vrconfig/image22.png)
 
-### After inserting the formula click submit and save. You must run the predictor to generate the threshold values for comparison before proceeding.
+After inserting the formula click submit and save. You must run the predictor to generate the threshold values for comparison before proceeding.
 
 Go back to the validation tab under maintenance and;
 
@@ -407,7 +404,7 @@ Select “Run validation”
 Select the following inputs:
 
 
-* **Date : January 1 2023 - April 1, 2023**
+* **Date : January 1 2024 - April 1, 2024**
 * **Rule Group : The group you have just made**
 * **Parent Organisation unit : Dog District**
 
