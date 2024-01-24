@@ -191,7 +191,7 @@ In order to run validation rule analysis, go to the data quality app and select 
 
 ![](Images/vrrules/image38.png)
 
-Run the validaiton analysis if Dessert District from January - March 2023 using the "Immunisation validation rules" group. 
+Run the validaiton analysis if Dessert District from January - March 2024 using the "Immunisation validation rules" group. 
 
 ![](Images/vrrules/vranalysis2.png)
 
@@ -256,13 +256,11 @@ In Validation Rule Analysis, select:
 
 
 * Org Unit: Animal Region
-* Period: January 1 - March 31 2023
+* Period: January 1 - March 31 2024
 * Validation Rule Group : Immunisation thresholds
 * Ensure the send notifications option is selected
 
 ![](Images/vrrules/vranalysis3.png)
-
-
 
 We will run the rules and also send the notifications for any identified violations. Select validate to proceed.
 
