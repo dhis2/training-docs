@@ -8,7 +8,6 @@ This guide will help the trainer prepare for the live demo session.The “Live D
 
 There is also a Quick Guide which lists the steps very briefly and this is meant as a lookup guide or “cheatsheet” WHILE doing the demo, to help the trainer remember all the steps and the flow of the demo.
 
-
 ## Learning objectives for this session
 
 1. Understand some of the key principles associated with data quality
@@ -19,20 +18,17 @@ There is also a Quick Guide which lists the steps very briefly and this is meant
 6. Describe how validation rules can be compared against calculated thresholds
 7. Execute validation rule analysis using validation rules with defined thresholds
 
-
 ## Time needed for this session
 
 Live demo: 5 demos/presentation, ~ 20 mins each
 
 Hands-on activities: 4 activities, ~ 15 mins each
 
-
 ## Background on this topic/module
 
 Validation rules are an excellent tool that can be used to measure a number of consistency measures within a DHIS2 system. They can be used to manage internal consistency by comparing two or more data items collected during the same process (for example, 2 malaria data items collected at the same time) as well as measuring external consistency by measuring values collected using different mechanisms (for example, data collected via a DHIS2 dataset along with data imported into DHIS2 from a survey).
 
 Thes rules can be run directly in data entry - recommended if measuring internal consistency - as well as through a batch operation called validation analysis. In this session, you will discuss how these rules can be viewed in DHIS2.
-
 
 ## Preparations
 
@@ -107,7 +103,6 @@ To get the validation rules to trigger, make sure you update the values so that 
 
 After reviewing these concepts and altering the data within data entry, run the validation rule(s)
 
-
 ![](Images/vrrules/image12.png)
 
 ### Review the rules in data entry
@@ -116,7 +111,6 @@ After you run the rules, review them with the participants. This will help you t
 
 The first and second values are being taken from the sex section HIV tests performed and HIV tests positive categorized by gender/sex (Female and Male).
 
-
 ![](Images/vrrules/image35.png)
 
 
@@ -124,12 +118,9 @@ Reviewing our data, this means that one of these values must be incorrect. We ma
 
 We can update this to each cell respectively as shown in the image respectively and Run the validation again.  
 
-
 ![](Images/vrrules/image39.png)
 
-
 It should now pass as the number of HIV tests positive is now less than the HIV tests performed in this period.
-
 
 ## Part 2 - Run a validation rule in validation rule analysis
 
@@ -201,7 +192,7 @@ Once you have selected the inputs select “Validate”
 
 ### Review the validation details
 
-You should see a number of violations during this period. Select the details button of one of the violations so you can see in more detail what the issue is. This example is Cake Hospital Gateway PHC in February 2023.
+You should see a number of violations during this period. Select the details button of one of the violations so you can see in more detail what the issue is. This example is Cake Hospital Gateway PHC in January 2024.
 
 ![](Images/vrrules/image2.png)
 
@@ -209,10 +200,10 @@ You should see a number of violations during this period. Select the details but
 The validation details show all of the data elements that are part of the validation rule along with their values. In this example, the total number of DPT doses given should be &lt;= the total used and wasted.
 
 
-1. The total DPT doses = 177+1+154+3+138= 473
-2. Total used and wasted = 2872-2406 = 466
+1. The total DPT doses = 198+3+175+4+161+1= 542
+2. Total used and wasted = 3410-(2872+4)= 534
 
-Therefore, DPT doses (473) > Total used and wasted (466), not less than or equal to the number used and wasted, hence the identification of a violation. If we altered our starting balance to be higher basd on our assumption, then we could remove this violation.
+Therefore, DPT doses (542) > Total used and wasted (534), not less than or equal to the number used and wasted, hence the identification of a violation. If we altered our starting balance to be higher basd on our assumption, then we could remove this violation.
 
 We can see how this view will be useful in reviewing the violations for multiple org units at once, as we can also see all the component parts of the violation. This can allow us to potentially identify exactly which value is incorrect. 
 
@@ -220,40 +211,31 @@ We can see how this view will be useful in reviewing the violations for multiple
 
 [Presentation](https://docs.google.com/presentation/d/14RBj02GxjTGSWHPnMtE23za-kc5gcMsVG-dpPukhNXw/edit?usp=sharing)
 
-
 **STOP - Perform exercises 1, 2 and 3**
 
-
 ## Part 4 - Run the validation rule using a threshold in data entry
-
 
 **_This should be done after presenting slide 14 in the presentation._**
 
 Select the following in data entry
 
-
 ![](Images/vrrules/image19.png)
-
 
 Run the validation rule and review the results
 
 ![](Images/vrrules/vrviolation3.png)
 
-
 Note that it runs both the logical rules, which we have already reviewed, as well as the rules that check consistency using outliers that have been generated via the predictor function in this case. These rules can run using outliers that have been imported into the system as well if required.
-
 
 ### Back to Slide 15 in the presentation 
 
 [Presentation](https://docs.google.com/presentation/d/14RBj02GxjTGSWHPnMtE23za-kc5gcMsVG-dpPukhNXw/edit?usp=sharing)
-
 
 ## Part 5 - Run the “Immunisation thresholds” validation rules in validation rule analysis
 
 Perform this after finishing the presentation.
 
 In Validation Rule Analysis, select:
-
 
 * Org Unit: Animal Region
 * Period: January 1 - March 31 2024
@@ -268,7 +250,6 @@ We will run the rules and also send the notifications for any identified violati
 
 
 As we sent the notification out, we will also receive this via the messages app and potentially e-mail as well if this has been configured. 
-
 
 ### Check the messages app
 

@@ -2,7 +2,10 @@
 
 ## What is this guide?
 
-This guide is a support document for the trainers on “Pivot tables”. This session follows the standard academy training approach with 1) a live demo session where the trainer demonstrates and explains the features in DHIS2, and 2) a hands-on session with exercises where participants get to practice the same features. Demos are separated into several small sessions to allow for adequate interactivity during the session.
+This guide is a support document for the trainers on “Pivot tables”. This session follows the standard academy training approach with 
+
+1) a live demo session where the trainer demonstrates and explains the features in DHIS2, and 
+2) a hands-on session with exercises where participants get to practice the same features. Demos are separated into several small sessions to allow for adequate interactivity during the session.
 
 This guide will help the trainer prepare for the live demo session.The “Live Demo step by step with guidance” section has a detailed walkthrough of all the steps to demonstrate with explanations and screenshots that should be easy to follow. Use that when preparing for the live demo session.
 
@@ -120,7 +123,7 @@ Explain each dimension; data, periods and organisation units.
 |When selecting what data to add to a TABLE, at minimum you need to make selections in terms of “what”, “where” and “when” the data is describing. 
 “What” described indicators (calculated by formulas), data elements (raw data as collected in the data entry forms) or reporting rates. Both are organised as groups, so know your groups to quickly find what you are looking for.
 “Where” is found under Organisation Units, that is the location hierarchy from global to country and finally to sites, with all the intermediary levels in between. Know your orgunit levels to quickly navigate to the correct locations.
-“When” is found under “Periods”. There you can specify what periodicity or time you want to visualise data for. Periods are organised by Period Types (“frequency groups”), so to find “January 2022” you must look under Period type “Monthly”. “January-March 2022” is found under “Quarterly”, “2022” is found under “Yearly”.
+“When” is found under “Periods”. There you can specify what periodicity or time you want to visualise data for. Periods are organised by Period Types (“frequency groups”), so to find “January 2024” you must look under Period type “Monthly”. “January-March 2024” is found under “Quarterly”, “2024” is found under “Yearly”.
 In addition to these “core dimensions” there are quite a few additional dimension providing more granularity to the “what” dimension, e.g. the age, sex and test results dimensions.|
 
 #### Modify the Data
@@ -148,7 +151,7 @@ Explain the different fixed period type selection that is available and demonstr
 
 ![](Images/pivottable/image25.png)
 
-Next explain what relative periods are. These periods are relative to today’s date. They will constantly update as time goes forward and therefore are often a good choice for favorites. For example, if you are in 2023and choose “Last Year” as the relative period, 2022 will be selected. In 2022, this will automatically shift to 2021. Over time, you will not have to edit each of the items you have saved as the selection of its data will constantly change.
+Next explain what relative periods are. These periods are relative to today’s date. They will constantly update as time goes forward and therefore are often a good choice for favorites. For example, if you are in 2024 and choose “Last Year” as the relative period, 2023 will be selected. In 2023, this will automatically shift to 2022. Over time, you will not have to edit each of the items you have saved as the selection of its data will constantly change.
 
 ![](Images/pivottable/image1.png)
 
@@ -334,7 +337,7 @@ Sometimes it is worthwhile to have the entire hierarchy displayed in the table r
 
 Click on options, navigate to the “Style” tab and select show hierarchy
 
-![](Images/pivottable/image35.png)
+![](Images/pivottable/image81.png)
 
 Click **update**. This will give you the following output.
 
@@ -387,12 +390,12 @@ It is sometimes essential to filter data visualized in a pivot table based on a 
 
 ![](Images/pivottable/image36.png)
 
-* Click ‘update’ and you will see the table below which only shows values >= 500 and &lt;=4000.
+* Click ‘update’ and you will see the table below which only shows values >= 30 and &lt;=100.
 * Change the options to “Hide empty rows” within the “Data” tab to clean up the table
 
 !![](Images/pivottable/image47.png)
 
-The table should show you monthly values from only between 500 and 4000
+The table should show you monthly values from only between 30 and 100
 
 ![](Images/pivottable/image44.png)
 
@@ -525,17 +528,17 @@ Proceed to scroll left/right and up/down you will note these headers are now loc
 
 #### Last Value Aggregation Type
 
-The last value aggregation type is a special value type which takes the last value that has been entered at a specific level and displays it within the analysis apps. This is useful if, for example, you are entering a number which represents the current number of people on treatment from period to period. For example, in November 2020 you could have 100 people on treatment, in December 2020 you could have 87. If you want to know the amount of people currently on treatment within the year, you are looking for the value of 87. By default, DHIS2 would have aggregated these values (87+100+values for other months in 2020); however this is not what we want, we only want the most recent value that has been entered. 
+The last value aggregation type is a special value type which takes the last value that has been entered at a specific level and displays it within the analysis apps. This is useful if, for example, you are entering a number which represents the current number of people on treatment from period to period. For example, in November 2023 you could have 100 people on treatment, in December 2023 you could have 87. If you want to know the amount of people currently on treatment within the year, you are looking for the value of 87. By default, DHIS2 would have aggregated these values (87+100+values for other months in 2023); however this is not what we want, we only want the most recent value that has been entered. 
 
 As an example, let us review our data entry page for HIV
 
 ![](Images/pivottable/image27.png)
 
-Here, PLHIV currently on ART in February 2021 is 721+1036 =1757
+Here, PLHIV currently on ART in January 2024 is 735+1077 = 1812
 
-In March 2021, this changes to 690+1034 = 1724
+In February 2024 , this changes to 721 + 1036 = 1757
 
-If I were interested in the number of PLHIV currently on ART for MARCH, I would want the value only from March, I would not want the sum of January + February + March.
+If I were interested in the number of PLHIV currently on ART for FEBRUARY, I would want the value only from February , I would not want the sum of January + February
 
 In pivot tables, let us apply this across the last 12 months. Here I would want the most recent value that has been entered for PLHIV currently on ART and not a sum of the last 12 months. We can do this in 2 ways:
 
@@ -548,7 +551,7 @@ Let us look at an example by creating a new pivot table
 * Periods: Last 12 months
 * Organisation Units: Health Centre Group in Animal Region
 
-![](Images/pivottable/image30.png)
+![](Images/pivottable/image82.png)
 
 The data element PLHIV currently on ART is currently set to aggregate using the “average (sum in org unit hierarchy)” function in maintenance. This causes the average of the values from the last 12 months to be displayed in this particular table. 
 

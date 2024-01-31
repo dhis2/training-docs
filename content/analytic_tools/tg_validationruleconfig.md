@@ -1,7 +1,6 @@
 
 # Trainer’s Guide to Validation Rules (Config)
 
-
 ## What is this guide?
 
 This guide is a support document for the trainers of “Configuring Validation Rules.” This session is divided into 3 parts.
@@ -17,20 +16,17 @@ This guide will help the trainer prepare for the live demo session.The “Live D
 
 There is also a Quick Guide which lists the steps very briefly and this is meant as a lookup guide or “cheatsheet” WHILE doing the demo, to help the trainer remember all the steps and the flow of the demo.
 
-
 ## Learning objectives for this session
 
 1. Define a validation rule after reviewing a data set.
 2. Create a validation rule to measure internal consistency.
 3. Create a validation rule measuring against a generated threshold.
 
-
 ## Time needed for this session
 
 Live demo: 2 demos, ~ 25 mins each
 
 Hands-on exercises: 2 exercises, ~ 20 mins each
-
 
 ## Preparations
 
@@ -42,10 +38,7 @@ Make sure the resolution on projector is OK for zooming in Data Visualizations w
 
 The second exercise involves sending notifications. Make sure all the participants are in a user group, and the user group is assigned as a recipient to the “Rotavirus 2 doses administered &lt;= Rotavirus 2 threshold” validation notification. 
 
-
 ## Table of Contents/Quick Guide
-
-
 
 - [Trainer’s Guide to Validation Rules (Config)](#trainers-guide-to-validation-rules-config)
   - [What is this guide?](#what-is-this-guide)
@@ -88,7 +81,6 @@ The second exercise involves sending notifications. Make sure all the participan
     - [STOP Part 3 - Perform Exercise 3](#stop-part-3---perform-exercise-3)
 
 
-
 ## Live Demo Step-by-Step
 
 ## Part 1 - Create a Validation Rule
@@ -102,7 +94,6 @@ We can use the following HIV dataset at the **Facility** level
 ![](Images/vrconfig/image14.png)
 
 Let’s create a rule in which HIV tests positive are less than or equal to HIV tests performed
-
 
 ### Create the validation rule HIV tests positive &lt;= HIV tests performed
 
@@ -246,7 +237,7 @@ Open the left side expression and explain what you are intending to do. The rule
 
 Add a description to the left side and explain the ID that is shown.
 
-![](Images/vrconfig/image15.png)
+![](Images/vrconfig/image35.png)
 
 Select “Save” once the left side has been selected.
 
@@ -310,15 +301,13 @@ Did it work for you?
 
 ### STOP Part 2 - Perform Exercise 2
 
-
 ## [OPTIONAL] Part 3 - Create a validation rule #3 using the DPT-HepB-Hib 2 threshold
 
-  **You can skip Part 3 if needed due to time contraints (the first 2 examples along with the participants following along will likely be enough for the 1.5 hours session). If you do end up skipping Part 3, you can note that this is available as an example in the learner's guide.**
+**You can skip Part 3 if needed due to time contraints (the first 2 examples along with the participants following along will likely be enough for the 1.5 hours session). If you do end up skipping Part 3, you can note that this is available as an example in the learner's guide.**
 
 In this example, a rule will be created in which we compare an entered value to a calculated threshold. The steps to create the rule are very similar to the previous example.
 
-
-#### Note: A Predictor is used to calculate the threshold value
+    Note: A Predictor is used to calculate the threshold value
 
 **NB: This section is for the trainer to understand where the threshold value is coming from. The trainer should not show the learner how to make a predictor unless they feel there is enough time.**
 
@@ -376,9 +365,9 @@ It is “less than or equal to” in this case. Explain why this is.
 
 #### Open the Right Side Expression
 
-Select the data element “EPI - DPT-HepB-Hib 2 doses given threshold” for the left side.
+Select the data element “EPI - DPT-HepB-Hib 2 doses given threshold” for the right side.
 
-![](Images/vrconfig/image6.png)
+![](Images/vrconfig/image36.png)
 
 Click on “Save” when the expression is complete.
 
@@ -396,13 +385,11 @@ Navigate to the data quality app
 
 ![](Images/vrconfig/image10.png)
 
-
 Select “Run validation”
 
 ![](Images/vrconfig/image2.png)
 
 Select the following inputs:
-
 
 * **Date : January 1 2024 - April 1, 2024**
 * **Rule Group : The group you have just made**
