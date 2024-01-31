@@ -173,13 +173,12 @@ Check whether facility staff has conducted awareness and education programmes on
 Check whether any side-effects of ART reported leading to lack of compliance
 
 * Click on ‘Save As’ from Favorite menu and paste the above text under description.
-* 
+
 ![](Images/interpretation/image12.png)
 
 ![](Images/interpretation/image16.png)
 
 ### Part 2 - How to retrieve a Data-to-Action framework from a dashboard
-
 
 * Show participants how to retrieve a Data-to-Action framework from a dashboard. 
 

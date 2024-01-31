@@ -8,7 +8,6 @@ This guide will help the trainer prepare for the live demo session.The “Live D
 
 There is also a Quick Guide which lists the steps very briefly and this is meant as a lookup guide or “cheatsheet” WHILE doing the demo, to help the trainer remember all the steps and the flow of the demo.
 
-
 ## Learning objectives for this session
 
 1. Within data visualizer, demonstrate how to create charts by:
@@ -254,7 +253,7 @@ The series identifies how we display our data together in our selected category.
 
 ![](Images/datavisualizer/image48.png)
 
-Update the period selection to include quarters from 2020 - 2022 and hide the period selection.
+Update the period selection to include quarters from 2021 - 2023 and hide the period selection.
 
 **Question** Period is our category and data is our series. What will we see on the line chart?
 
@@ -265,6 +264,7 @@ The period will appear along our x-axis. This means we should see each quarter a
 The indicator values will reflect all of Trainingland, unless we change the organisation unit selection. The filter determines where the data is being pulled from and filters by this selection on th chart directly.
 
 Update the chart.
+
 ![](Images/datavisualizer/image5.png)
 
 We can see the effect our various selections have had on the chart output. The periods are along the x-axis. These **_categorise_** our data, which is our series. We see a value for each series item we have selected within the categorisation. In this case, this means we see a value for each indicator we have selected within the period displayed along the x-axis. 
@@ -401,7 +401,7 @@ You can download the chart as an image or PDF file. It is likely not necessary t
 
 Open the following chart:
 
-EPI - DPT Coverage - last year
+  EPI - DPT Coverage - last year
 
 ![](Images/datavisualizer/image22.png)
 
@@ -587,13 +587,13 @@ Open the following chart - BCG Coverage YoY - 3 Year Comparison
 
 ![](Images/datavisualizer/image81.png)
 
-This is a year-over-year chart, a new chart type introduced in DHIS 2.31. A year over year chart can be used to more easily compare data over time from multiple periods. These type of charts allow you to select two period types and compare the data within them. In this example, we are displaying data for BCG coverage for all 12 months within a year for 2020, 2021 and 2022. Here we can easily identify improvements in coverage from month to month between the different years.
+This is a year-over-year chart, a new chart type introduced in DHIS 2.31. A year over year chart can be used to more easily compare data over time from multiple periods. These type of charts allow you to select two period types and compare the data within them. In this example, we are displaying data for BCG coverage for all 12 months within a year for 2021, 2022 and 2023. Here we can easily identify improvements in coverage from month to month between the different years.
 
-#### Switch to the favorite: BCG Coverage by month - BCG Coverage by month - 2020 - 2022
+#### Switch to the favorite: BCG Coverage by month - BCG Coverage by month - 2021 - 2023
 
 ![](Images/datavisualizer/image62.png)
 
-If we compare this with a regular line chart, we are still able to identify these differences but it is not nearly as intuitive. If we want to see the difference in coverage between January 2020, January 2021 and January 2022 we will have refer back to each point on the chart. 
+If we compare this with a regular line chart, we are still able to identify these differences but it is not nearly as intuitive. If we want to see the difference in coverage between January 2021, January 2022 and January 2023 we will have refer back to each point on the chart. 
 
 #### Switch back to the year-over-year chart: BCG Coverage YoY - 3 Year Comparison
 
@@ -623,11 +623,11 @@ You will notice that the selections in the categories are all relative periods, 
 
 #### Explain the interface - Series 
 
-The series determines for which years you will be displaying data for. If I have this year and last year selected, it will display data from 2023 and 2022 respectively. I can also specify years rather than a relative period, for example 2020, 2021 and 2022.
+The series determines for which years you will be displaying data for. If I have this year and last year selected, it will display data from 2023 and 2022 respectively. I can also specify years rather than a relative period, for example 2021, 2022 and 2023.
 
 ![](Images/datavisualizer/image75.png)
 
-With these two options selected I am now creating a chart which will display data from January - December (due to the category selection) along the x-axis. And with 2020, 2021 and 2022 selected as my series, data values from these 3 years will be displayed by month on the year over year chart.
+With these two options selected I am now creating a chart which will display data from January - December (due to the category selection) along the x-axis. And with 2021, 2022 and 2023 selected as my series, data values from these 3 years will be displayed by month on the year over year chart.
 
 ![](Images/datavisualizer/image81.png)
 
@@ -656,7 +656,6 @@ We could quickly change the category to “Quarters per year” in order to show
 ![](Images/datavisualizer/image37.png)
 
 This type of chart is much more intuitive in reviewing variances in data from year-to-year and we look forward to receiving feedback on how these chart types are being used in practice. 
-
 
 #### End Part 8 - Perform Activity
 
@@ -702,7 +701,7 @@ Now you will see the chart using 2-categories. As discussed, this follows our or
 
 ![](Images/datavisualizer/image1.png)
 
-#### Swap the order of the period and locality in the category and change to an area chart
+Swap the order of the period and locality in the category and change to an area chart
 
 A line chart or bar chart would also be appropriate to display this data.
 
@@ -727,7 +726,7 @@ Create a column chart with the following inputs:
 * Data 
     * EPI - BCG doses given [DE group : Immunization Vaccinations]
     * EPI - BCG Coverage (%) [Indicator group : Immunization - coverages]
-* Period : Months in 2022
+* Period : Months in 2023
 * Org unit : Trainingland
 
 Update the chart. We can see the different scales of the two data values negatively affect the output of the chart and make it difficult to relate the values to one another.
@@ -845,7 +844,6 @@ The model for this data is very narrow (ie, most values are closely clustered to
 When reviewing this type of chart, you therefore must review the relationship between the two items being compared and also compare the values to the cluster that falls within the boundaries of the outlier model. In this case, either ANC 1 or ANC 4 values could be incorrect (if we decrease the ANC 1 values OR increase the ANC 4 values, this facility will likely fit in the model accordingly); or this could just be an anomaly having a different ratio between ANC1 and ANC4 higher than the interquartile range threshold of 1.5 that has been defined (ie. these values are correct and do not need to be modified). As it is such a high outlier as compared to the rest of the data however (given its distance from the outlier boundary and that is outside the 1% y-value line) it does warrant investigation to determine if these values are correct within this facility. 
 
 #### End Part 11  - Perform Activity
-
 
 ### Part 12 - Review
 
