@@ -102,7 +102,7 @@ In order to run validation rule analysis, go to the data quality app and select 
 ![](Images/vrrules/image38.png)
 
 
-Select Animal Region and run the HIV validation rules rules from January - April 2023
+Select Animal Region and run the HIV validation rules rules from January - April 2024
 
 ![vranalysis](Images/vrrules/vranalysis1.png)
 
@@ -113,7 +113,7 @@ Once you have selected the inputs select “Validate”
 
 ### Review the validation details
 
-There is only validation violation in Cardinal Hospital in March 2023. Select the details button of one of the violations so you can see in more detail what the issue is.
+There is only validation violation in Cardinal Hospital in March 2024. Select the details button of one of the violations so you can see in more detail what the issue is.
 
 ![](Images/vrrules/image13.png)
 
@@ -156,7 +156,7 @@ In order to run validation rule analysis, go to the data quality app and select 
 
 ![](Images/vrrules/image38.png)
 
-Run the validaiton analysis if Dessert District from January - March 2023 using the "Immunisation validation rules" group. 
+Run the validaiton analysis if Dessert District from January - March 2024 using the "Immunisation validation rules" group. 
 
 ![](Images/vrrules/vranalysis2.png)
 
@@ -166,7 +166,7 @@ Once you have selected the inputs select “Validate”
 
 ### Review the validation details
 
-You should see a number of violations during this period. Select the details button of one of the violations so you can see in more detail what the issue is. This example is Cake Hospital Gateway PHC in February 2023.
+You should see a number of violations during this period. Select the details button of one of the violations so you can see in more detail what the issue is. This example is Cake Hospital Gateway PHC in January 2024.
 
 ![](Images/vrrules/image2.png)
 
@@ -202,7 +202,7 @@ Perform this after finishing the presentation.
 In Validation Rule Analysis, select:
 
 * Org Unit: Animal Region
-* Period: January 1 - March 31 2023
+* Period: January 1 - March 31 2024
 * Validation Rule Group : Immunisation thresholds
 * Ensure the send notifications option is selected
 

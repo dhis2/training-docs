@@ -109,7 +109,7 @@ Review of DHIS2 dimensions; data, periods and organization units.
 |When selecting what data to add to a TABLE, at minimum you need to make selections in terms of “what”, “where” and “when” the data is describing. 
 “What” describes indicators (calculated by formulas), data elements (raw data as collected in the data entry forms) or reporting rates. Both are organised as groups, so know your groups to quickly find what you are looking for.
 “Where” is found under Organisation Units, that is the location hierarchy from global to country and finally to sites, with all the intermediary levels in between. Know your orgunit levels to quickly navigate to the correct locations.
-“When” is found under “Periods”. There you can specify what periodicity or time you want to visualise data for. Periods are organised by Period Types (“frequency groups”), so to find “January 2022” you must look under Period type “Monthly”. “January-March 2022” is found under “Quarterly”, “2022” is found under “Yearly”.
+“When” is found under “Periods”. There you can specify what periodicity or time you want to visualise data for. Periods are organised by Period Types (“frequency groups”), so to find “January 2023” you must look under Period type “Monthly”. “January-March 2023” is found under “Quarterly”, “2023” is found under “Yearly”.
 In addition to these “core dimensions” there are quite a few additional dimension providing more granularity to the “what” dimension, e.g. the age, sex and test results dimensions.|
 
 ### Modify the Data
@@ -140,7 +140,7 @@ Start with the fixed period selection.
 ![](Images/pivottable/image25.png)
 
 
-Next, review what relative periods are. These periods are relative to today’s date. They will constantly update as time goes forward and therefore are often a good choice for favorites. For example, if you are in 2021 and choose “Last Year” as the relative period, 2020 will be selected. In 2022, this will automatically shift to 2021. Over time, you will not have to edit each of the items you have saved as the selection of its data will constantly change.
+Next, review what relative periods are. These periods are relative to today’s date. They will constantly update as time goes forward and therefore are often a good choice for favorites. For example, if you are in 2024 and choose “Last Year” as the relative period, 2023 will be selected. In 2023, this will automatically shift to 2022. Over time, you will not have to edit each of the items you have saved as the selection of its data will constantly change.
 
 ![](Images/pivottable/image1.png)
 
@@ -371,17 +371,17 @@ It is sometimes useful to filter data visualized in a pivot table based on a val
 
 ![](Images/pivottable/image31.png)
 
-* Click on the options button, followed by the “Limit values” tab. Let’s define criteria to visualize only values between 500 and 4000.
+* Click on the options button, followed by the “Limit values” tab. Let’s define criteria to visualize only values between 30 and 100.
 
 ![](Images/pivottable/image36.png)
 
 
-* Click ‘update’ and you will see the table below which only shows values >= 500 and &lt;=4000. 
+* Click ‘update’ and you will see the table below which only shows values >= 30 and &lt;=100. 
 * Change the options to “Hide empty rows” within the “Data” tab to clean up the table
 
 ![](Images/pivottable/image47.png)
 
-The table should show you monthly values from only between 500 and 4000
+The table should show you monthly values from only between 30 and 100
 
 ![](Images/pivottable/image44.png)
 
@@ -513,11 +513,11 @@ As an example, let us review our data entry page for HIV
 
 ![](Images/pivottable/image27.png)
 
-Here, PLHIV currently on ART in February 2021 is 721+1036 =1757
+Here, PLHIV currently on ART in January 2024 is 735+1077 = 1812
 
-In March 2021, this changes to 690+1034 = 1724
+In February 2024 , this changes to 721 + 1036 = 1757
 
-If I were interested in the number of PLHIV currently on ART for MARCH, I would want the value only from March, I would not want the sum of January + February + March.
+If I were interested in the number of PLHIV currently on ART for FEBRUARY, I would want the value only from February, I would not want the sum of January + February + March.
 
 In pivot tables, let us apply this across the last 12 months. Here I would want the most recent value that has been entered for PLHIV currently on ART and not a sum of the last 12 months. We can do this in 2 ways:
 
