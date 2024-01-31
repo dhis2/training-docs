@@ -219,7 +219,7 @@ The series identifies how we display our data together in our selected category.
 
 ![](Images/datavisualizer/image48.png)
 
-Update the period selection to include quarters from 2020 - 2022 and hide the period selection.
+Update the period selection to include quarters from 2021 - 2023 and hide the period selection.
 
 **Question** Period is our category and data is our series.
 What will we see on the line chart?
@@ -550,11 +550,11 @@ Additionally, we can see, as of the last month, the total number of new ART pati
 
 This is a year-over-year chart, a new chart type introduced in DHIS 2.31. A year over year chart can be used to more easily compare data over time from multiple periods. These type of charts allow you to select two period types and compare the data within them. In this example, we are displaying data for BCG coverage for all 12 months within a year for 2020, 2021 and 2022. Here we can easily identify improvements in coverage from month to month between the different years.
 
-#### Switch to the favorite: BCG Coverage by month - BCG Coverage by month - 2020 - 2022
+#### Switch to the favorite: BCG Coverage by month - BCG Coverage by month - 2021 - 2023
 
 ![](Images/datavisualizer/image62.png)
 
-If we compare this with a regular line chart, we are still able to identify these differences but it is not nearly as intuitive. If we want to see the difference in coverage between January 2020, January 2021 and January 2022 we will have refer back to each point on the chart. 
+If we compare this with a regular line chart, we are still able to identify these differences but it is not nearly as intuitive. If we want to see the difference in coverage between January 2021, January 2022 and January 2023 we will have refer back to each point on the chart. 
 
 #### Switch back to the year-over-year chart: BCG Coverage YoY - 3 Year Comparison
 
@@ -586,11 +586,11 @@ You will notice that the selections in the categories are all relative periods, 
 
 #### Explain the interface - Series 
 
-The series determines for which years you will be displaying data for. If I have this year and last year selected, it will display data from 2021 and 2020 respectively. I can also specify years rather than a relative period, for example 2020, 2021 and 2022.
+The series determines for which years you will be displaying data for. If I have this year and last year selected, it will display data from 2021 and 2020 respectively. I can also specify years rather than a relative period, for example 2021, 2022 and 2023.
 
 ![](Images/datavisualizer/image75.png)
 
-With these two options selected I am now creating a chart which will display data from January - December (due to the category selection) along the x-axis. And with 2020, 2021 and 2022 selected as my series, data values from these 3 years will be displayed by month on the year over year chart.
+With these two options selected I am now creating a chart which will display data from January - December (due to the category selection) along the x-axis. And with 2021, 2022 and 2023 selected as my series, data values from these 3 years will be displayed by month on the year over year chart.
 
 ![](Images/datavisualizer/image81.png)
 
