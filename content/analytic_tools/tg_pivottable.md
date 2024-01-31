@@ -386,7 +386,7 @@ It is sometimes essential to filter data visualized in a pivot table based on a 
   
 ![](Images/pivottable/image31.png)
 
-* Click on the options button, followed by the “Limit values” tab. Let’s define criteria to visualize only values between 500 and 4000.
+* Click on the options button, followed by the “Limit values” tab. Let’s define criteria to visualize only values between 30 and 100.
 
 ![](Images/pivottable/image36.png)
 

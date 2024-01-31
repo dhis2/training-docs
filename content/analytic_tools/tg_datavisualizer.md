@@ -143,7 +143,7 @@ Open the following chart
 
 ![](Images/datavisualizer/image46.png)
 
-**Chart name: HIV - HIV Cascade**
+**Chart name : HIV - HIV Cascade**
 
 ![](Images/datavisualizer/image45.png)
 

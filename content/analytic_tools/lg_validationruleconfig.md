@@ -161,7 +161,7 @@ Select “Run validation”
 
 Select the following inputs:
 
-* **Date : January 1 2023 - April 1 , 2023**
+* **Date : January 1 2024 - April 1 , 2024**
 * **Rule Group : The group you have just made**
 * **Parent Organisation unit : Animal Region**
 
@@ -173,9 +173,7 @@ You should see the below violations
 
 Did it work for you?
 
-
 ### End Exercise 1
-
 
 ## Activity 2 - Create Validation Rule #2 for stock
 
@@ -273,7 +271,7 @@ Select “Run validation”
 
 Select the following inputs:
 
-* **Date : January 1, 2023 - April 1, 2023**
+* **Date : January 1, 2024 - April 1, 2024**
 * **Rule Group : The group you have just made**
 * **Parent Organisation unit : Dog District**
 
@@ -325,7 +323,7 @@ It is “less than or equal to” in this case. Explain why this is.
 
 Select the data element “EPI - DPT-HepB-Hib 2 doses given threshold” for the right side.
 
-![](Images/vrconfig/image6.png)
+![](Images/vrconfig/image36.png)
 
 Click on “Save” when the expression is complete.
 
@@ -350,7 +348,7 @@ Select “Run validation”
 
 Select the following inputs:
 
-* **Date : January 1 2023 - April 1, 2023**
+* **Date : January 1 2024 - April 1, 2024**
 * **Rule Group : The group you have just made**
 * **Parent Organisation unit : Dog District**
 * 
