@@ -45,6 +45,7 @@ When you are done log back in as the original user.
 ![](Images/analyticsdemo/image20.png)    
 
 10. Now look at the map “HIV-ART retention rate (12 months) by user and sub-org units.” Toggle between a chart and a map. Point out that each gives you a different perspective to look at the data. On the chart layout ask, “What district has the highest ART retention rate?” – > Sweet District
+
 ![](Images/analyticsdemo/image5.png) 
 
 11.  Open the “HIV-HIV testing performance by sub-org units” pivot table by selecting the open in data visualizer app button. 
@@ -53,21 +54,27 @@ When you are done log back in as the original user.
 ## **Pivot Table**
 
 1. In the HIV-HIV testing performance by org unit pivot table. 
-2. Turn on the column totals 
-![](Images/analyticsdemo/image15.png) 
+
+2. Turn on the column totals
+
+   ![](Images/analyticsdemo/image15.png) 
 
 3. Modify the org units to show facilities.
-![](Images/analyticsdemo/image11.png) 
+
+   ![](Images/analyticsdemo/image11.png) 
 
 4. Apply the legend “HIV Test Positivity Rate” and point out that now we have made a simple scorecard.
-![](Images/analyticsdemo/image19.png) 
+
+   ![](Images/analyticsdemo/image19.png) 
 ![](Images/analyticsdemo/image24.png) 
 
 5. Sort by positivity rate and notice that there are several facilities with no values. Ask, “Does this mean that they have not reported or they have reported zero.” – Could be both, but in this case it means they have not reported and it is because they are hospitals and do not report on this indicator.
-![](Images/analyticsdemo/image29.png) 
+
+   ![](Images/analyticsdemo/image29.png) 
 
 6. Hide the empty rows since they are not needed
-![](Images/analyticsdemo/image14.png) 
+
+   ![](Images/analyticsdemo/image14.png) 
 ![](Images/analyticsdemo/image18.png) 
 
 7. Save the table 
@@ -76,7 +83,7 @@ When you are done log back in as the original user.
 
 1. Navigate back to the HIV District (SNU2) dashboard 
 2. Open the HIV – 2<sup>nd</sup> and 3<sup>rd</sup> 90s Chart by clicking the open in data visualizer.
-![](Images/analyticsdemo/image9.png)  
+![](Images/analyticsdemo/image33.png)  
 
 
 3. Point out that all indicators are performing below the target.
@@ -102,11 +109,13 @@ When you are done log back in as the original user.
 9. Ask again, “Is the trend improving” – some are improving (only slightly) while others are not. 
 10. Say, “For better trend analysis we will do a year on year chart for HIV-Ratio of new on ART to newly diagnosed (%)”
 11. Remove all indicators except “HIV-Ratio of new on ART to newly diagnosed (%)” from “Data” dimension
-12. Change the chart to year over year (line) and select 2021, 2020 and 2019 in the series 
-![](Images/analyticsdemo/image27.png)   
+12. Change the chart to year over year (line) and select 2021, 2022 and 2023 in the series
+
+    ![](Images/analyticsdemo/image27.png)   
 
 13. Ask again “Is the trend improving” – slightly, but not significant 
 14.  Save the chart as “HIV-Ratio of new on ART to newly diagnosed (%) Year over Year”
+
      1. While saving add the following description in accordance with the data-to-action framework
 
         **Description:** This chart shows the indicator “HIV-Ratio of new on ART to newly diagnosed (%)”. This is the proportion of patients that are new to ART to those newly diagnosed over the three previous years. The numerator is New on ART and the denominator is Newly Diagnosed. These both come from the monthly HIV data set captured at facility level. 
@@ -119,7 +128,8 @@ When you are done log back in as the original user.
 16. Add a new interpretations: 
     1. @admin_district please conduct BNA in accordance with WHO/UNICEF guidelines at the next national review meeting.
 17. Download the chart as a png. Point out that it is very easy to download the chart and print it out or put it in a report or presentation
-![](Images/analyticsdemo/image7.png) 
+
+    ![](Images/analyticsdemo/image7.png) 
     
 18.  Go back to the dashboard. 
 
@@ -138,12 +148,11 @@ When you are done log back in as the original user.
 
 5. Drill down to dog district and zoom into the map so that all facilities are clearly visible 
 6. Now ask, “What facility is performing the worse?” – Bulldog Health Center
-![](Images/analyticsdemo/image6.png) 
+
+   ![](Images/analyticsdemo/image6.png) 
 
 7. Make the point that you can download maps to be presented at meetings or put into reports
 8. Choose to download and move around the legend placement so that it does not cover and facilities. 
 ![](Images/analyticsdemo/image12.png) 
-
-
 
 End of demo
