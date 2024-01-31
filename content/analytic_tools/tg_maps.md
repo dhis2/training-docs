@@ -2,7 +2,9 @@
 
 ## What is this guide?
 
-This guide is a support document for the session “Maps.” This session follows the standard academy training approach with 1) a live demo session where the trainer demonstrates and explains the features in DHIS2, and 2) a hands-on session with exercises where participants get to practice the same features.
+This guide is a support document for the session “Maps.” This session follows the standard academy training approach with 
+1) a live demo session where the trainer demonstrates and explains the features in DHIS2, and 
+2) a hands-on session with exercises where participants get to practice the same features.
 
 This guide will help the trainer prepare for the live demo session.The “Live Demo step by step with guidance” section has a detailed walkthrough of all the steps to demonstrate with explanations and screenshots that should be easy to follow. Use that when preparing for the live demo session.
 
@@ -154,7 +156,6 @@ The DHIS2 maps app supports multiple “layers”. You can think of a GIS layer 
 Review Slide 3 in the maps presentation: 
 
 [https://docs.google.com/presentation/d/1yRW8qRlJRZPewb7LsFAt73k8nbTj1wvfbV6mzrJUqqo/edit?usp=sharing](https://docs.google.com/presentation/d/1yRW8qRlJRZPewb7LsFAt73k8nbTj1wvfbV6mzrJUqqo/edit?usp=sharing) 
-
 
 #### Open a saved map - TB - Notified TB cases (new and relapse, all forms) - last quarter
 
@@ -509,9 +510,15 @@ You may also want to add in the District labels. Edit the thematic layer and add
 
 ![](Images/maps/image78.png)
 
+or if you want to add the District labels with the value you can also choose that.
+
+![](Images/maps/image80.png)
+
 **Update the layer**
 
 ![](Images/maps/image60.png)
+
+![](Images/maps/image81.png)
 
 Now it is very easy to identify those districts that are performing well vs. those that are not. Bird District, for example, requires immediate intervention and can perhaps learn from Cat, Dog and Vegetable District which are on or above target [target being 80%]. It would be useful to investigate what is occurring at the facility level as well in this case to dig a bit deeper and understand what the factors are that are contributing to this low rate in Bird District. 
 
@@ -635,7 +642,6 @@ You can open up this saved map to show an example of what a split view map looks
 
 ![](Images/maps/image56.png)
 
-
 To continue, clear the map by going to File -> New so the map area is cleared.
 
 ### Add in a Thematic Layer
@@ -711,9 +717,9 @@ You can Talk about the difference between Choropleth et Bubble map.
 * Choropleth will assign a color to each org unit shape according to the data value. This is the recommended technique if the data is normalised (per capita).
 * Bubble map will show data values as proportional circles. Use this technique if the data is not normalised (absolute numbers). The circles are placed in the center of each org unit.
 
-Please click on the [link](https://docs.dhis2.org/en/use/user-guides/dhis-core-version-238/analysing-data/maps.html) to get more details
+Please click on the [link](https://docs.dhis2.org/en/use/user-guides/dhis-core-version-240/analysing-data/maps.html) to get more details
 
-There is also a video on this map type [https://www.youtube.com/watch?v=lWJM6k4RxWQ](https://www.youtube.com/watch?v=lWJM6k4RxWQ)
+There is also a video on this map type which is for 2.35 version (you can see this for your understanding) [https://www.youtube.com/watch?v=lWJM6k4RxWQ](https://www.youtube.com/watch?v=lWJM6k4RxWQ)
 
 #### Add a org unit layer before the thematic layer
 
