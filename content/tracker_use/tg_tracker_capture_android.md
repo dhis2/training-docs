@@ -165,7 +165,7 @@ You will see all the events associated with the case within the case-base survei
 
 ![image-20211001131642236](resources/images/tracker_capture_android/cbs_brianna_record.png)
 
-These tabs from left to right represent:
+These tabs at the bottom screen from left to right represent:
 
 1. Details : it is the page you are on by default when opening the record and shows the TEI info as well as the details of the stages and events
 2. The indicators widget
@@ -174,9 +174,11 @@ These tabs from left to right represent:
 
 Navigate back to the details tabs
 
-You can use the “See details" button within this tab to show (and edit if access allows) all of the attribute information related to the individual. Go back and review the event list after reviewing the person's details.
+You can use the “Edit Person" button within this tab to show (and edit if access allows) all of the attribute information related to the individual. Go back and review the event list after reviewing the person's details.
 
-![image-20211001131729368](resources/images/tracker_capture_android/cbs_brianna_details.png)	
+![image-20211001131729368](resources/images/tracker_capture_android/editperson.png)	
+![](resources/images/tracker_capture_android/editpersonpage.png)	
+
 
 Select the first stage followed by the event within it. Navigate through the various sections to show that the data within the stage has been entered and can be reviewed or updated on the device.
 
@@ -209,10 +211,10 @@ etc.
 
 Enter some details and try to search for the individual. You should get a message that your record could not be found. 
 
-![image-20211001132003078](resources/images/tracker_capture_android/image-20211001132003078.png)	
+![image-20211001132003078](resources/images/tracker_capture_android/createnew.png)
 
 
-Click on create new button and select an org unit in which to register the case into. Select Accept once you have select the org unit.
+Click on create new button and select an org unit in which to register the case into. Select Done once you have select the org unit.
 
 ![enrollment_OU](resources/images/tracker_capture_android/select_enrollment_OU.png)
 
@@ -222,13 +224,14 @@ After selecting the org unit, select the registration date. Select Accept once y
 
 You will then be prompted to enter the remaining attribute information of the person you are registering.
 
-![image-20211001132209804](resources/images/tracker_capture_android/image-20211001132209804.png)	
+![image-20211001132209804](resources/images/tracker_capture_android/attributeinform.png)	
 
 Fill in this information then select the disk icon in order to save the person's details and enroll them into the program.
 
 You will then be prompted to enter the initial details of the 1st stage. Confirm the date of consultation and select "Update."
 
 ![image-20211001132232685](resources/images/tracker_capture_android/image-20211001132232685.png)	
+![image2](resources/images/tracker_capture_android/image2.png)	
 
 Then you must fill the information for first event.
 
@@ -338,7 +341,7 @@ This will then take you to the attribute details. You will see it carries over t
 
 Once you have filled/updated these details, save the person by using the disk icon. This should take you to their dashboard in vaccination registry program.
 
-Go back to the search page for the COVID-19 Case-based surveillance program and you will find your person that you initially enrolled into the Case-based surveillance program now also has an enrollment in the Vaccination program (you will see the small vaccine icon on the list).
+Go back to the search page for the COVID-19 Case-based surveillance program and you will find your person that you initially enrolled into the Case-based surveillance program now also has an enrollment in the Vaccination program.
 
 ![image-20211001133256308](resources/images/tracker_capture_android/image-20211001133256308.png)
 
@@ -360,8 +363,9 @@ Go back to the home page and sync your data using one of the sync status icons.
 
 ![sync_home_page](resources/images/tracker_capture_android/sync_home_page.png)
 
-By doing this from the home page, you are able to sync many updated records at once. When the sync is complete you will receive a verification
+By doing this from the home page, you are able to sync many updated records at once. When the sync is in process it will show in the screen
 
+![](resources/images/tracker_capture_android/image3.png)
 ![sync_complete](resources/images/tracker_capture_android/sync_complete.png)
 
 Show the person in the web by going to the org unit you registered them to. There attributes and events should all be synced online.
@@ -396,7 +400,7 @@ As you have no network connection the data will not sync.
 
 Go ahead and turn on the wi-fi, than sync the data.
 
-Check the record and it should be green, showing it was sent.
+Check the record and it should sync the data with syncing 
 
 ![image-20211001133928956](resources/images/tracker_capture_android/image-20211001133928956.png)
 

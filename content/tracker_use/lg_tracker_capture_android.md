@@ -102,7 +102,7 @@ Enter your details (your first name and surname) and try to search for yourself.
 ![image-20211001132003078](resources/images/tracker_capture_android/image-20211001132003078.png)	
 
 
-Click on the plus sign than select an org unit in which to register the case into. Select Accept once you have select the org unit.
+Click on the plus sign than select an org unit in which to register the case into. Select Done once you have select the org unit.
 
 ![enrollment_OU](resources/images/tracker_capture_android/select_enrollment_OU.png)
 
@@ -119,6 +119,7 @@ Fill in this information then select the disk icon in order to save the person's
 You will then be prompted to enter the initial details of the 1st stage. Confirm the date of consultation and select "Update."
 
 ![image-20211001132232685](resources/images/tracker_capture_android/image-20211001132232685.png)	
+![image2](resources/images/tracker_capture_android/image2.png)
 
 Then you must fill the information for first event.
 
@@ -155,7 +156,7 @@ It will display the program stage, the data of the request and the org unit.
 
 ![image-20211001132552559](resources/images/tracker_capture_android/image-20211001132552559.png)	
 
-Alter the date of lab request if you need to and select "next" to proceed.
+Alter the date of lab request if you need to and select "Accept" to proceed.
 
 ![image-20211001132623615](resources/images/tracker_capture_android/image-20211001132623615.png)	
 
