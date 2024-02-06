@@ -61,7 +61,7 @@ In an in-person setting, the participants may be doing the demo with you at the 
 
 ![interface](resources/images/linelist/interface1.png)
 
-In the Line Listing app, you currently only have one type of selection which is Line list unlike eventr reports where you can have aggregate outputs.
+In the Line Listing app, you currently only have one type of selection which is Line list unlike event reports where you can have aggregate outputs.
 
 *NB: We will be using the line listing app to make line lists in this session. Therefore, we will only be using the "Pivot" table style in event reports to produce aggregate outputs. 
 
@@ -71,91 +71,174 @@ In Line List , Input can be selected as either
 * Event (see individual event data from an event program or a tracker program stage)
 * Enrollment periods (see data from multiple stages in a tracker program)
 
+If you have selected the **Event**, then for tracker programs you need to select the program stage to get all the data elements, attributes for that particular stage. To be able to select data from multiple stages you need to select "Enrollment" as the input type.
+
+If you select **Enrollment** in the Input tab then all data elements associated with the program will be available from different stages within the program for the purpose of cross stage selection of data elements. Each data element will act as a dimension.
+
+
 ![interface2](resources/images/linelist/interface2.png)
 
 ### Program dimensions
 
 In the Line Listing app, all the dimensions related to a tracker or an event program are present in the program dimension component.
 
+The line list will always be based on event or tracker programs and you can do analysis on a range of dimensions. For programs with category combinations, you can use program categories and category option group sets as dimensions.
+
+Select program: All the event and tracker programs will be visible in the drop down.
+
 ![interfacepd](resources/images/linelist/interfacepd.png)
 
+If you want to filter the data, by data elements, program attribute, program indicators, category, category option group set you can do so by clicking on the dropdown option.
 
-### Create an aggregate/pivot table event report using COVID-19 vaccination
+There are multiple ways to add data elements to the layout. They can be added by hovering over the dimension and clicking the plus icon or by dragging and dropping a dimension straight to the layout area.
 
-Open the table "COVID_CBS - Confirmed cases by Age & Sex." This the table that you will create. You can explain the layout to the participants before continuing. This should be a review as this type of table is covered in the events fundamentals online course.
+Under Global Dimension:
+You can select the data when it was 
+* Last updated on
+* Created by
+* last updated by
 
-Clear your inputs by going to Favorites -> New.
+## Create a line list program using Input : Event
 
-Create an aggregate event report. You can use the following data items as an example:
+In this exercise we will create a line list using a COVID -19 Surveillance Case Based program.
 
-- Table Style : Pivot, Output Type : Event
-- Program : COVID-19 Case Based Surveillance
-- Stage : Stage 3 - Lab Results
-- Data : Lab Test Result (select Positive as the filter), Age (apply the Age COVID-19 Legend), Sex
-- Period : This year
-- Org Unit : Country
+You can open the existing line list "Patient Line List - Temp Evalulation/Travel History
+"
 
-The table should look like this after updating:
+Clear the input by going to File <New
 
-![table1_pivot](resources/images/event_reports/table1_pivot_cbs.png)
+In this case we will be using
 
-The layout can should like this
+**Input** : Event 
 
-![table1_pivot_layout](resources/images/event_reports/table1_pivot_cbs_layout.png)
+>Note: If creating outputs of event type, then we can see the data from all events within a single program stage we are working with.
 
-You should modify some of the options, for example hiding empty rows to hide the age groups with no data, and update the table to see the effect this has
+Select Program : COVID - 19 Case-based Surveillance Program
+Select Stage: Stage 1- Clinical examination and diagnosis
 
-![table1_pivot_options](resources/images/event_reports/table1_pivot_cbs_options.png)
+**Program Dimension**: For this we will select the following program dimensions
+First Name
+Date of Birth
+Country of Residence
+Local Case ID
+Temperature
+Travel 14 days prior to onset of any symptom
 
-Note that you can modify the way data that is collected through tracker (and event) programs is aggregated. You can demonstrate this by changing the legend for the Age attribute to Age (COVAC) and updating the table.
+Select OU: CHW Mahosot
 
-![age_selection](resources/images/event_reports/table1_pivot_cbs_ageselection.png)
+Date of Consultation: Last month
 
-![table1_alternate](resources/images/event_reports/table1_pivot_cbs_alternate_age.png)
+Your Dimension should be assigned to columns and organization unit to filter.
 
-You will see all the totals are the same; however the disaggregation of the data is different.
+![](resources/images/linelist/singlestagevent.png)
 
-This should be a review of concepts from the event fundamentals; however if there are questions you can explain this concept a bit more by referring to the examples you will have on screen.
+You will see the line list for a single stage.
 
-### Other features as a refresher
+Click on update
 
-You can also show them how to save the report using the favorites menu
+![](resources/images/linelist/linelist1.png)
 
-![ev_save](resources/images/event_visualizer/ev_save_menu.png) 
 
-and download the report
+STOP! Have them perform Exercise 1 in the learner's guide
 
-![ev_download](resources/images/event_visualizer/ev_download_menu.png)
+### Create a line list program using Input : Enrollment
 
-#### STOP! Have them perform *Exercise 1* in the learner's guide.
+For this you can open the already existing linelist "Patient line list (enrollment)"
 
-### Compare aggregate/pivot table event and enrollment reports using a repeatable stage
 
-The main new concept in preparing pivot table event reports will be comparing event vs. enrollment type tables. 
+Follow the steps to create above Line list for enrollment type :
 
-Let's review an example with the following inputs
+1. Click on Input and Select Enrollement
+![](resources/images/linelist/enroll1.png)
 
-- Table Style : Pivot, Output Type : Event
-- Program : COVAC - COVID-19 Vaccination Registration
-- Stage : Vaccination
-- Data : Sex, Vaccine Name
-- Period : This year
-- Org Unit : Country
+2. Choose Program: COVID-19 Case based Surveillance
+![](resources/images/linelist/enroll2.png)
 
-This is saved as the output "COVAC - Doses by sex." *You can open this table instead of re-creating it*.
+3. Go to Program Dimension 
 
-Duplicate your tab and open the existing event report "COVAC - Registrations by sex." 
+To evaluate the across the stage we will select the following data dimensions:
 
-This report has all of the same data input selections but is using "Enrollment" as the output type instead of event.
+Stage 1 : Clinical examination and diagnosis
+* Admission date
+* Sign and symptoms cough , 
+* fever, 
+* shortness of breath
+* Temperature
+* Travel 14 days prior to onset
 
-What happens when we compare these two outputs?
+Stage 2: Lab Request
+* Date Specimen collected
+* Date Specimen sent to laboratory
+* Type of test
+* Type of Specimen
 
-![table6_comparison](resources/images/event_reports/table6_pivot_comparison_covac.png)
+Stage 3: Lab Results
+* Date of Test Result
+* Lab test Result
+* Type of Test
+* Type of Specimen
 
-The output "COVAC - Doses by sex" is useful in understanding how many actual vaccinations have been given, because the vaccination program consists of a program stage that is repeatable. This report is using "event" as the output type, meaning it will count or display data for all events in one program stage.
+4. Select OU : CHW Mahosot
 
-This is not so useful however if we want to identify the number of unique individuals that are currently in the vaccination program. The output "COVAC - Registrations by sex" shows this as it is only counting the number of enrollments based on the "Enrollment" output type that has been selected.
+5. Case Registration Date: This Month and Last Month
 
-> In summary, the "event" output type always shows data for all events within a single program stage, while the "enrollment" output type will count unique registrations and will only use data from the most recent event in its output.
 
-#### STOP! Have them perform *Exercise 2* in the learner's guide.
+![](resources/images/linelist/enroll3.png)
+
+Click on Update 
+
+![](resources/images/linelist/enroll4.png)
+
+STOP! Have them perform Exercise 2 in the learner's guide 
+
+
+### Create a line list program using Input : Oldest events and Recent events
+
+Kindly follow the steps to create above line list
+
+1. Click on the **Input** - Select“Enrollment”.
+
+2. Select **Program** :“COVID -19 Case-based Surveillance”.
+
+   ![](resources/images/linelist/enroll5.png)
+
+3. Go to **Program Dimension** and Select Data Element from Stage 2 - 
+*Lab request which is REPEATABLE in each event.*
+
+   ![](resources/images/linelist/enroll6.png)
+
+4. Click on the Data Element “Lab Test Reason” and the window will open up , where you will be able to see the Repeated event tab.
+
+   ![](resources/images/linelist/enroll7.png)
+
+5. Select contact of case
+
+   ![](resources/images/linelist/enroll8.png)
+
+6. To Select the number of times the most recent event and the oldest event : Click on Repeated Events and select value for newest and oldest.
+\
+In this case we are selecting
+Most recent events : 2
+Oldest events : 1
+
+   ![](resources/images/linelist/enroll9.png)
+
+7. Select OU: LAO
+8. Select Case Registration Date: Last 3 months 
+
+   ![](resources/images/linelist/enroll10.png)
+
+9. Click on update
+
+   ![](resources/images/linelist/enroll11.png)
+ 
+
+STOP! Have them perform Exercise 3 in the learner's guide
+
+
+
+
+
+
+
+
