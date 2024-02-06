@@ -53,7 +53,7 @@ https://github.com/dhis2/dhis2-android-capture-app/releases
 
 This will be denoted by “training” at the end of the APK file.
 
-![image-20211001125252307](resources/images/tracker_capture_android/image-20211001125252307.png)
+![](resources/images/tracker_capture_android/image1.png)
 
 ### Projecting your Android Device
 
@@ -120,19 +120,19 @@ The android app will display the map screen in event or tracker programs that co
 
 To access the demo map open the COVID-19 Contact Registration & Follow-up program. At the bottom you’ll see the navigation bar. Select the map icon to access the map (note, in order to use this feature, your program needs to be collecting the coordinate during registration).
 
-![open_map](resources/images/android_analysis/image5.png)
+![open_map](resources/images/android_analysis/image2.png)
 
 #### Cycle through the carousel
 
 After opening the map icon, you will see TEI details at the bottom of the screen. This is referred to as the map carousel. You can scroll through all of the individuals registered in this program by scrolling horizontally the carousel.  The map will zoom into the selected coordinates. If there are no coordinates shen a message will be shown. Each card in the carousel displays the tracked entity attributes marked as ‘Display in list’ when you configure your program. Click on the arrow to expand the card information. 
 
-![map_carousel](resources/images/android_analysis/image2.png)
+![](resources/images/android_analysis/image5.png)
 
 If the TEI contains an image as an attribute you will also see the picture instead of the Person icon. 
 
 Click on the card to open the TEI dashboard
 
-![select_card](resources/images/android_analysis/image6.png) ![tei_dashboard](resources/images/android_analysis/image7.png)
+![select_card](resources/images/android_analysis/image5.png) ![tei_dashboard](resources/images/android_analysis/image7.png)
 
 #### Navigate to the TEIs location (than switch back to the original maps display)
 
@@ -194,13 +194,14 @@ Open the COVID-19 Case-based surveillance program and search for “Matthew Make
 Click on the Analytics menu in the TEIs navigation bar and explain that the Total Number of Tests indicator counts all the events where the “Lab Test Result” data element has value. The charts feature still needs a little bit of work. You can see underneath it will start by showing the number of tests on the enrollment date, followed by the chart for events. The chart on enrollment date can be disregarded and will be worked on by the Android team.
 
 ![tei_analytics_cbs](resources/images/android_analysis/image14.png)
+
 NOTE: The Android App does not support customized boundaries for PI.
 
 ### Review program feedback within the COVAC - COVID-19 Vaccination Registry Program
 
 Switch over to the COVAC -COVID-19 Vaccination Registry Program and search for the TEI “Melissa Ortiz.” Select the analytics tab after opening this record. You can also show other information in the analytics tab. This will include feedback or other information that has been configured to show on the tracker dashboard. 
 
-![tei_analytics_covac](resources/images/android_analysis/image13.png) ![tei_analytics_covac](resources/images/android_analysis/image15.png) 
+![tei_analytics_covac](resources/images/android_analysis/image15.png) 
 
 
 #### STOP! Have them perform *Exercise 3* in the learner’s guide.
