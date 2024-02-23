@@ -66,7 +66,7 @@ In an in-person setting, the participants may be doing the demo with you at the 
    - Period : This year
    - Org Unit : Country
 
-3. Review the Line List interface
+3. Open the list listing app and review the line list interface
 
 4. Review the line list in Event Reports
 
@@ -183,6 +183,8 @@ If choosing the start/end dates than you can select exact dates to filter events
 
 Open the table "COVID_CBS - Confirmed cases by Age & Sex." This the table that you will create. You can explain the layout to the participants before continuing.
 
+> Event reports is currently the only app where you can make on the fly pivot tables using event/tracker data. This is not yet available in the line listing app, so the event reports and the line listing app need to be used in parrallel currently for the best results.
+
 Clear your inputs by going to Favorites -> New.
 
 Create an aggregate event report. You can use the following data items as an example:
@@ -198,10 +200,17 @@ The table should look like this after updating:
 
 ![table1_pivot](resources/images/event_reports/table1_pivot_cbs.png)
 
-The layout can should like this
+This is not exactly the table we want. We can make some adjustments to modify it.
+
+Start with the layout. The layout can should like this
 
 ![table1_pivot_layout](resources/images/event_reports/table1_pivot_cbs_layout.png)
 
+Next, hide any empty rows using the table options.
+
+![hide_empty_rows](resources/images/event_reports/hide_empty_rows.png)
+
+Now you should see the the table following the layout we've intended.
 
 Note that you can modify the way data that is collected through tracker (and event) programs is aggregated. You can demonstrate this by changing the legend for the Age attribute to Age (COVAC) and updating the table.
 
@@ -209,73 +218,23 @@ Note that you can modify the way data that is collected through tracker (and eve
 
 ![table1_alternate](resources/images/event_reports/table1_pivot_cbs_alternate_age.png)
 
-You will see all the totals are the same; however the disaggregation of the data is different.
+You will see all the totals are the same; however the disaggregation of the data is different as the data has been seperated by new categorizations.
 
 This should be a review of concepts from the event fundamentals; however if there are questions you can explain this concept a bit more by referring to the examples you will have on screen.
 
-### Review the Line List interface
+#### STOP - Perform Exercise 1
 
-![interface](resources/images/linelist/interface1.png)
+### Review the line list functionality in Event Reports
 
-In the Line Listing app, you currently only have one type of selection which is Line list unlike event reports where you can have aggregate outputs.
+> The line listing functions in event reports have been replaced by the **line listing app**. We will utilize this app, but to compare features for those who are familiar with event reports we will just do a quick review of how line lists work in event reports. If you feel this is not needed, you can go ahead and skip this section.
 
-*NB: We will be using the line listing app to make line lists in this session. Therefore, we will only be using the "Pivot" table style in event reports to produce aggregate outputs. 
-
-#### Input 
-
-In Line List , Input can be selected as either
-
-* Event (see individual event data from an event program or a tracker program stage)
-
-* Enrollment periods (see data from multiple stages in a tracker program)
-
-If you have selected the **Event**, then for tracker programs you need to select the program stage to get all the data elements, attributes for that particular stage. 
-
-To be able to select data from multiple stages you need to select "Enrollment" as the input type.
-
-If you select **Enrollment** in the Input tab then all data elements associated with the program will be available from different stages within the program for the purpose of cross stage selection of data elements. Each data element will act as a dimension.
-
-![interface2](resources/images/linelist/interface2.png)
-
-#### Program dimensions
-
-In the Line Listing app, all the dimensions related to a tracker or an event program are present in the program dimension component.
-
-The line list will always be based on event or tracker programs and you can do analysis on a range of dimensions. For programs with category combinations, you can use program categories and category option group sets as dimensions.
-
-Select program: All the event and tracker programs will be visible in the drop down.
-
-![interfacepd](resources/images/linelist/interfacepd.png)
-
-If you want to filter the data, by data elements, program attribute, program indicators, category, category option group set you can do so by clicking on the dropdown option.
-
-There are multiple ways to add data elements to the layout. They can be added by hovering over the dimension and clicking the plus icon or by dragging and dropping a dimension straight to the layout area.
-
-The **organisation unit** dialog is flexible, offering essentially three ways of selecting organisation units:
-
-**Event Status**
-Filters data based on the event status:  Active, Completed, Scheduled.
-
-**Program Status**
-Filters data based on the event status:  Active, Complete, Cancelled.
-
-**Global Dimension**
-You can select the data when it was 
-* Last updated on
-* Created by
-* last updated by
-
-Before you start creating a patient line list using line list app,you will first review the same in event reports app and try to understand the difference between the two apps.
-
-### Review the line list in Event Reports
-
-Open the table "COVAC - 1st Dose by Sex and Vaccine Type (List)." in the Event Report App
+Open the table "COVAC - 1st Dose by Sex and Vaccine Type (List)" in the Event Report App in order to review the final output.
 
 Clear your inputs by going to Favorites -> New.
 
 Create a new report by going to Favorites -> New and select the following details
 
-- Table Style : Line, Output Type : Event
+- Table Style : Line list, Output Type : Event
 - Program : COVAC - COVID-19 Vaccination Registry
 - Stage : Vaccination
 - Data
@@ -309,13 +268,98 @@ You can also show them how to save the report using the favorites menu
 
 ![ev_save](resources/images/event_visualizer/ev_save_menu.png) 
 
-and download the report (note to trainer : downloads are not currently working do not show this for now)
+and download the list
 
 ![ev_download](resources/images/event_visualizer/ev_download_menu.png)
 
-### Create a line list using COVID-19 Surveillance Case Based program in Line List App
+#### STOP - Perform Exercise 2
 
-In this exercise we will create a line list using a COVID -19 Surveillance Case Based program.
+### In the Line List app, review the Line List interface
+
+Have the line listing app open in another tab or window.
+
+![interface](resources/images/linelist/interface1.png)
+
+In the Line Listing app, you can currently only make line lists. Aggregated pivot tables can not be made here unlike in the event reports app. The line listing app introduces many new features for creating line lists however, and is the recommended app for making these lists.
+
+> NB: We will be using the line listing app to make line lists for the remainder of this session. We will only be using the "Pivot" table style in event reports to produce aggregate outputs. This is our suggested approach in live implementations as well. 
+
+#### Input 
+
+In the line list app, the input can be selected as either
+
+* Event (see individual event data from an event program or within tracker program stages)
+
+* Enrollment (see data from multiple stages in a tracker program)
+
+If you have selected **Event**, then for tracker programs you need to select the program followed by the program stage to get all the data elements and attributes associated with that particular stage. 
+
+To be able to select data from multiple stages you need to select "Enrollment" as the input type.
+
+If you select **Enrollment** in the Input tab then all of the data elements associated with the program will be available from the different stages within the program for the purpose of cross stage selection of data elements. You are also able to access the program attributes using the enrollment type input.
+
+![interface2](resources/images/linelist/interface2.png)
+
+> To summarize, use event when you are only interested in data from one particular event in a program. Use enrollment when you want to review event data from multiple stages together.
+
+#### Program dimensions
+
+In the Line Listing app, all of the dimensions related to a tracker or an event program are present in the program dimension tab.
+
+The line list will always be based on event or tracker programs and you can perform analysis on a range of dimensions. For programs with attribute combinations (these are programs that are disaggregate by an attribute of some kind), you can use program categories and category option group sets as dimensions.
+
+Lets review the program dimensions tab.
+
+![interfacepd](resources/images/linelist/interfacepd.png)
+
+Underneath the ***Program Dimensions*** heading we have the following:
+
+The **organisation unit** dialog is flexible, offering essentially three ways of selecting organisation units:
+
+1. By user org unit
+2. By selecting org units directly
+3. By using Org unit groups
+
+**Event Status**
+Filters data based on the event status:  Active, Completed, Scheduled.
+
+**Program Status**
+Filters data based on the event status:  Active, Complete, Cancelled.
+
+**Program Dates**
+After the program status, we will be able to select the enrollment and event dates depending on the input type we have selected. When the input is selected as enrollment, you will only be able to select the enrollment data here. When the input is event, you can select both the enrollment and event dates to be displayed.
+
+**Global Dimension**
+
+This is located on the left side panel.
+
+![global_dimensions](resources/images/linelist/global_dimensions.png)
+
+You can select the inputs for when the event or enrollment was
+* Last updated on
+* Created by
+* last updated by
+
+This will depend on if you selected event or enrollment as the input type.
+
+In the ***Program data dimensions*** section we can modify the data we want to select.
+
+In the type drowpdown selector, you can filter by various parameters including:
+* all types, which just shows everything
+* data elements
+* program attributes
+* category
+* category option group set
+
+These last 2 only apply to programs that are using an attribute of some kind to dissaggregate the program.
+
+There are multiple ways to add data dimensions to the layout. They can be added by hovering over the dimension and clicking the plus icon or by dragging and dropping a dimension straight to the layout area.
+
+![add_dimension](resources/images/linelist/add_dimension.png)
+
+### Create a line list using COVID-19 Surveillance Case Based program in the Line List App
+
+In this demo we will create a line list using a COVID -19 Surveillance Case Based program.
 
 You can open the existing line list "Patient Line List - Temp Evalulation/Travel History"
 
@@ -483,6 +527,37 @@ Now as we know that Stage 2 is a repeatable event,so to get the data for data el
 
 #### STOP! Have them perform *Exercise 3*.
 
+### Compare aggregate/pivot table event and enrollment reports using a repeatable stage
+
+The same concepts that we applied to line lists are applicable to the data when it is aggregated. So, when event is selected as the output type it will count the number of events, including repeated events within a stage.
+
+Let's review a very simple example with the following inputs
+
+- Table Style : Pivot, Output Type : Event
+- Program : COVAC - COVID-19 Vaccination Registration
+- Stage : Vaccination
+- Data : Sex, Vaccine Name
+- Period : This year
+- Org Unit : Country
+
+This is saved as the output "COVAC - Doses by sex." You can open this table instead of re-creating it.
+
+Duplicate your tab and open the event report "COVAC - Registrations by sex." 
+
+This report has all of the same data input selections but is using "Enrollment" as the output type instead of event.
+
+What happens when we compare these two outputs?
+
+![table6_comparison](resources/images/event_reports/table6_pivot_comparison_covac.png)
+
+The output "COVAC - Doses by sex" is useful in understanding how many actual vaccinations have been given, because the vaccination program consists of a program stage that is repeatable. This report is using "event" as the output type, meaning it will count or display data for all events in one program stage.
+
+This is not so useful however if we want to identify the number of unique individuals that are currently in the vaccination program. The output "COVAC - Registrations by sex" shows this as it is only counting the number of enrollments based on the "Enrollment" output type that has been selected.
+
+> In summary, the "event" output type always shows data for all events within a single program stage, while the "enrollment" output type will count unique registrations and will only use data from the most recent event in its output.
+
+#### STOP! Have them perform *Exercise 3* in the learner's guide.
+
 ### Create a line list enrollment report using multiple stages from the COVID-19 surveillance program
 
 Enrollment type reports have one last function that is very useful in addition to counting or displaying unique registrations. This is the ability of these reports to display data from multiple stages. Note that this can only be done for line list type reports, as having data from different stages is currently not built in to the pivot table style event report. This can be done using program indicators instead and will be discussed in the program indicator analysis session.
@@ -539,3 +614,5 @@ Review the recap slide with them at the end of the session before they perform t
 ## Assignment
 
 After you have completed all demos and they have finished the exercises, have them complete the graded assignment for this session. If you find you are running out of time, assign the graded assignment to them and ask them to complete it outside of the live scheduled session.
+
+[def]: hide_emp
