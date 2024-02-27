@@ -382,11 +382,11 @@ In this case we will be using
   - Temperature
   - Travel 14 days prior to onset of any symptom
 
-- Select OU: CHW Mahosot
+- Select OU: CHW Mahosot (Lao PDR - Vientiane Capital - CH Mahosot - CHW Mahosot)
 
 - Date of Consultation: Last month
 
-All Dimension should be assigned to columns and organization unit to filter.
+All Dimension should be assigned to the columns and the organisation unit assigned to the filter.
 
 ![](resources/images/linelist/singlestagevent.png)
 
@@ -396,13 +396,13 @@ You will see the list from a single stage.
 
 ![](resources/images/linelist/linelist1.png)
 
-#### STOP! Have them perform Exercise 1.
+#### STOP! Have them perform Exercise 3.
 
 ### Create a list type event report for a repeatable stage using the COVID-19 surveillance program
 
 Before you create this report, open up a record from tracker capture that has repeated event data. The example used here has the following details that you can use to search for the person's record:
 
-- Org Unit : CHW Mahosot
+- Org Unit : CHW Mahosot CHW Mahosot (Lao PDR - Vientiane Capital - CH Mahosot - CHW Mahosot)
 - Program : COVID-19 Case-based surveillance
 - Local Case ID : ID-5353942, First Name : Angela, Last Name : Campbell, Sex : Female
 
@@ -412,7 +412,7 @@ Open up this record and navigate to the "Lab Request" stage within this program.
 
 Open up the different events within this stage and review the data that is there. The data will not be the same for each of these events making them easy to compare.
 
-Keep tracker capture open on this record and open event reports in a new tab in case you need to refer to this record again.
+Keep tracker capture open on this record and open ***line listing*** in a new tab in case you need to refer to this record again.
 
 We will now proceed to explain the how event and enrollment type reports handle this repeatable stage data.
 
@@ -422,7 +422,6 @@ Clear your inputs by going to Favorites -> New.
 
 Create an event report with the following inputs:
 
-- Table : Line List
 - Input : Event
 - Program : COVID-19 Case-based Surveillance, Stage : Lab Request
 - Program Dimension :
@@ -436,7 +435,7 @@ Create an event report with the following inputs:
 - Org Unit : CHW Mahosot
 
 
-To make sure you get a specific record you need to Select Local Case ID and select the following ID to be used as a filter, as shown in the screenshot.
+To make sure you get a specific record you need to Select Local Case ID and enter the ID (ID-5353942) to be used as a filter, as shown in the screenshot.
 
 ![](resources/images/linelist/image3.png)
 
@@ -462,11 +461,9 @@ In summary, when running an event report with repeatable data using "event" as t
 
 As a reminder, here are the selections to make
 
-- Table : Line List
 - Input : Enrollment
 - Program : COVID-19 Case-based Surveillance
-- Program Dimensions : Select Type: All Types
-- Data :
+- Program Dimensions :
   - Local Case ID
   - First Name
   - Surname
@@ -482,9 +479,9 @@ This is saved as "COVID_CBS - Lab Request Summary (Enrollment)Line list" in DHIS
 
 When we make this update, the number of records shown changes. ***This occurs because enrollment type reports only use the most recent event within a program stage for their output***. 
 
-> Now there is an **enhanced feature** in the Line list app, with the help of which you can define the most recent events and the oldest events you want in the output.
+> Note: there is an **enhanced feature** in the Line list app, with the help of which you can define the most recent events and the oldest events you want in the output.
 
-#### STOP! Have them perform *Exercise 2*.
+#### STOP! Have them perform *Exercise 5*.
 
 ###  Update the report with most recent events and oldest events using the Input type as Enrollment
 
@@ -506,7 +503,7 @@ As a reminder, here are the selections to make
 
 This is saved as "COVID_CBS - Lab Request Summary (Enrollment)Line list" in DHIS 2 for reference.
 
-Now as we know that Stage 2 is a repeatable event,so to get the data for data element for oldest 2 and most recent 2 visits.
+Now as we know that Stage 2 is a repeatable event, so to get the data for data element for oldest 2 and most recent 2 visits.
 
 - Click on data element "Lab Test Reason" and a window will pop-up showing a tab for **Repeated events**
 
@@ -525,7 +522,9 @@ Now as we know that Stage 2 is a repeatable event,so to get the data for data el
   ![](resources/images/linelist/image3.png)
   ![](resources/images/linelist/image9.png)
 
-#### STOP! Have them perform *Exercise 3*.
+The advantage of this output is that we can have information from repeated events on a single line. This is different then when using the event input type, which lists repeated events on seperate lines.
+
+#### STOP! Have them perform *Exercise 6*.
 
 ### Compare aggregate/pivot table event and enrollment reports using a repeatable stage
 
@@ -556,9 +555,9 @@ This is not so useful however if we want to identify the number of unique indivi
 
 > In summary, the "event" output type always shows data for all events within a single program stage, while the "enrollment" output type will count unique registrations and will only use data from the most recent event in its output.
 
-#### STOP! Have them perform *Exercise 3* in the learner's guide.
+#### STOP! Have them perform *Exercise 7* in the learner's guide.
 
-### Create a line list enrollment report using multiple stages from the COVID-19 surveillance program
+### Create a line list enrollment report using multiple stages from the COVID-19 surveillance program in the line listing app
 
 Enrollment type reports have one last function that is very useful in addition to counting or displaying unique registrations. This is the ability of these reports to display data from multiple stages. Note that this can only be done for line list type reports, as having data from different stages is currently not built in to the pivot table style event report. This can be done using program indicators instead and will be discussed in the program indicator analysis session.
 
@@ -605,7 +604,7 @@ Also, note the date. Each of these events that we have selected data from has di
 
 > Note : We can not create a pivot table enrollment report using data from multiple stages.
 
-#### Have them perform *Exercise 4* 
+#### Have them perform *Exercise 8* 
 
 ## Recap
 
