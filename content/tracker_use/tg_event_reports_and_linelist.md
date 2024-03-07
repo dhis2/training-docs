@@ -559,13 +559,13 @@ This is not so useful however if we want to identify the number of unique indivi
 
 ### Create a line list enrollment report using multiple stages from the COVID-19 surveillance program in the line listing app
 
-Enrollment type reports have one last function that is very useful in addition to counting or displaying unique registrations. This is the ability of these reports to display data from multiple stages. Note that this can only be done for line list type reports, as having data from different stages is currently not built in to the pivot table style event report. This can be done using program indicators instead and will be discussed in the program indicator analysis session.
+Enrollment type reports have one last function that is very useful in addition to counting or displaying unique registrations. This is the ability of these reports to display data from multiple stages. 
 
-When creating these reports, keep in mind the scenarios we went through previously and remember that ***the enrollment output type only uses data from the most recent event.***
+When creating these reports, keep in mind the scenarios we went through previously and remember that ***the enrollment output type only uses data from the most recent event; unless specified when using repeated events.***
 
 So, using our COVID-19 case-based surveillance program as an example, where lab test and lab result are repeated stages, if we show data from these stages together, it will only show the data from the most recent entry from within either of these stages.
 
-Open the table "COVID_CBS - Enrollment Summary Line List." This the table that you will create. You can explain the layout to the participants before continuing.
+Open the table "COVID_CBS - Enrollment Summary Line List." This the table that you will create. You can explain the layout to the participants before continuin, including where the data is coming from in this line list.
 
 Clear your inputs by going to File -> New.
 
