@@ -56,108 +56,124 @@ In an in-person setting, the participants may be doing the demo with you at the 
 
 ## Quick Guide
 
-1. Review the event reports interface.
+1. Review the events reports interface
 
-2. Create an aggregate/pivot table event report using COVID-19 vaccination in Event Report App with the following details:
-   - Table Style : Pivot, Output Type : Event
-   - Program : COVID-19 Case Based Surveillance
-   - Stage : Stage 3 - Lab Results
-   - Data : Lab Test Result (select Positive as the filter), Age (apply the Age COVID-19 Legend), Sex
-   - Period : This year
-   - Org Unit : Country
+Create an aggregate/pivot table using COVID-19 vaccination in Event Report App
+- Table Style : Pivot, Output Type : Event
+- Program : COVID-19 Case Based Surveillance
+- Stage : Stage 3 - Lab Results
+- Data : Lab Test Result (select Positive as the filter), Age (apply the Age COVID-19 Legend), Sex
+- Period : This year
+- Org Unit : Country
 
-3. Open the list listing app and review the line list interface
+STOP - Perform Exercise 1
 
-4. Review the line list in Event Reports
+2. Create a line list in event reports
+- Table Style : Line list, Output Type : Event
+- Program : COVAC - COVID-19 Vaccination Registry
+- Stage : Vaccination
+- Data
+  - First Name, Surname, National ID, Sex
+  - Vaccine Name
+  - Dose Number (Filter by 1st dose)
+- Period : This year
+- Org Unit : Country
 
-   - Table Style : Line, Output Type : Event
-   - Program : COVAC - COVID-19 Vaccination Registry
-   - Stage : Vaccination
-   - Data
-     - First Name, Surname, National ID, Sex
-     - Vaccine Name
-     - Dose Number (Filter by 1st dose)
-   - Period : This year
-   - Org Unit : Country
+Demo how to download the table, save the table
 
+STOP - Perform Exercise 2
 
-5. Create a line list using COVID-19 Surveillance Case Based program in Line List App
+3. In the Line List app, review the Line List interface with the table "COVID_CBS - Patients with Symptoms" open 
+  
+- Add a data element
+- Modify the org units
+- Modify the period
 
-   - Input : Event 
-   - Select Program : COVID - 19 Case-based Surveillance Program
-   - Select Program Stage: Stage 1- Clinical examination and diagnosis
-   - Program Dimension : For this we will select the following program dimensions
-     - First Name
-     - Date of Birth
-     - Country of Residence
-     - Local Case ID
-     - Temperature
-     - Travel 14 days prior to onset of any symptom
+Create a line list using COVID-19 Surveillance Case Based program in the Line List App
 
-   - Select OU: CHW Mahosot
-   - Date of Consultation (Period): Last month
+- Input : Event
 
-   STOP! Have them perform Exercise 1
+- **Program Dimension**:
+  - First Name
+  - Date of Birth
+  - Country of Residence
+  - Local Case ID
+  - Temperature
+  - Travel 14 days prior to onset of any symptom
+- Org Unit: Vientiane Capital (Lao PDR - Vientiane Capital)
+- Date of Consultation: Last month
 
-6. Create a list type event report for a repeatable stage using the COVID-19 surveillance program
+STOP - Perform Exercise 3
 
-   - Table : Line List
-   - Input : Event
-   - Program : COVID-19 Case-based Surveillance, Stage : Lab Request
-   - Program Dimension :
-     - Local Case ID : ID-5353942
-     - First Name
-     - Surname
-     - Lab Test Reason
-     - Type of test
-     - Type of specimen
-   - Case Registration Date : This Year
-   - Org Unit : CHW Mahosot
+4. Create a list type event report for a repeatable stage using the COVID-19 surveillance program
 
-   STOP! Have them perform Exercise 2
+- Input : Event
+- Program : COVID-19 Case-based Surveillance, Stage : Lab Request
+- Program Dimension :
+  - Local Case ID : ID-5353942
+  - First Name
+  - Surname
+  - Lab Test Reason
+  - Type of test
+  - Type of specimen
+- Case Registration Date : This Year
+- Org Unit : CHW Mahosot
 
-7. Update the report with most recent events and oldest events using the Input type as Enrollment
+- Update the report using enrollment as the output type to compare and explain the differences in whats shown
 
-   - Table : Line List
-   - Input : Event
-   - Program : COVID-19 Case-based Surveillance, Stage : Lab Request
-   - Program Dimension :
-     - Local Case ID : ID-5353942
-     - First Name
-     - Surname
-     - Lab Test Reason
-     - Type of test
-     - Type of specimen
-   - Case Registration Date : This Year
-   - Org Unit : CHW Mahosot
+STOP - Perform Exercise 4
 
-   STOP! Have them perform Exercise 3
+5. Update the report with the most recent events and oldest events using the Input type as Enrollment
 
-8. Create a line list enrollment report using multiple stages from the COVID-19 surveillance program
-   - Table : Line List
-   - Input : Enrollment
-   - Program : COVID-19 Case-based Surveillance
-   - Program Dimensions - 
-     - Program attribute
-       - First Name,
-       - Surname,
-       - Sex 
-     - Data Element Stage 1 - Clinical Exam
-       - Underlying condition
-       - Signs/symptoms present
-     - Data Element Stage 3 - Lab Results
-       - Type of Test
-       - Lab Result
-     - Data Element Stage 4 - Health Outcome
-       - Health Outcome
-   - Case Registration Date (Period) : This Year
-   - Org Unit : Country
+- Table : Line List
+- Input : Enrollment
+- Program : COVID-19 Case-based Surveillance
+- Program Dimensions : Select Type: All Types
+- Data :
+  - Local Case ID
+  - First Name
+  - Surname
+  - Lab Test Reason
+  - Type of test from Stage 2
+  - Type of specimen from Stage 2
+- Case Registration Date : This Year
+- Org Unit : CHW Mahosot
 
-   STOP! Have them perform Exercise 4
+For the DE "Lab Test Reason" add in the oldest 2 and 2 most recent events
 
-9. Review the recap slide
+STOP - Perform Exercise 5
 
-10. Have them perform the assignment
+6. Compare aggregate/pivot table event and enrollment reports using a repeatable stage in event reports
+- Open the tables "COVAC - Doses by sex" and "COVAC - Registrations by sex" in two seperate tabs
+- Explain what the difference is between event and enrollment aggregation
+
+STOP - Perform Exercise 6
+
+7. Create a line list enrollment report using multiple stages from the COVID-19 surveillance program in the line listing app
+
+- Input : Enrollment
+- Program : COVID-19 Case-based Surveillance
+- Program Dimensions - 
+  - Program attribute
+    - First Name
+    - Surname
+    - Sex
+  - Data Element Stage 1 - Clinical Exam
+    - Underlying condition
+     - Signs/symptoms present
+  - Data Element Stage 3 - Lab Results
+    - Type of Test
+    - Lab Test Result
+  - Data Element Stage 4 - Health Outcome
+    - Health Outcome
+- Case Registration Date (Period) : This Year
+- Org Unit : Country
+
+STOP - Perform Exercise 7
+
+8. Review the recap slide
+
+9.  Have them perform the assignment
 
 Once they have completed all of the ungraded exercises, they should then complete the graded assignment
 
@@ -179,9 +195,9 @@ If choosing the start/end dates than you can select exact dates to filter events
 
 ![start_end_date](resources/images/event_reports/start_end_dates.png)
 
-### Create an aggregate/pivot table event report using COVID-19 vaccination in Event Report App
+### Create an aggregate/pivot table using COVID-19 vaccination in Event Report App
 
-Open the table "COVID_CBS - Confirmed cases by Age & Sex." This the table that you will create. You can explain the layout to the participants before continuing.
+Open the table "COVID_CBS - Confirmed cases by Age & Sex." This the table that you will create. You can explain the layout to the participants - including the table style, output type, data, periods and org units, before proceeding.
 
 > Event reports is currently the only app where you can make on the fly pivot tables using event/tracker data. This is not yet available in the line listing app, so the event reports and the line listing app need to be used in parrallel currently for the best results.
 
@@ -220,17 +236,15 @@ Note that you can modify the way data that is collected through tracker (and eve
 
 You will see all the totals are the same; however the disaggregation of the data is different as the data has been seperated by new categorizations.
 
-This should be a review of concepts from the event fundamentals; however if there are questions you can explain this concept a bit more by referring to the examples you will have on screen.
+This should be a review of concepts from the event fundamentals course; however if there are questions you can explain this concept a bit more by referring to the examples you will have on screen.
 
 #### STOP - Perform Exercise 1
 
 ### Review the line list functionality in Event Reports
 
-> The line listing functions in event reports have been replaced by the **line listing app**. We will utilize this app, but to compare features for those who are familiar with event reports we will just do a quick review of how line lists work in event reports. If you feel this is not needed, you can go ahead and skip this section.
+> The line listing functions in event reports have been replaced by the **line listing app**. We will utilize the line listing app to create line lists for the remainder of the session after this example, but to compare features for those who are familiar with event reports we will just do a quick review of how line lists work in event reports. If you feel this is not needed, you can go ahead and skip this section.
 
 Open the table "COVAC - 1st Dose by Sex and Vaccine Type (List)" in the Event Report App in order to review the final output.
-
-Clear your inputs by going to Favorites -> New.
 
 Create a new report by going to Favorites -> New and select the following details
 
@@ -405,7 +419,7 @@ You can see how it affects the table outputs.
 
 ### Create a line list using COVID-19 Surveillance Case Based program in the Line List App
 
-In this demo we will create a line list using a COVID -19 Surveillance Case Based program.
+In this demo we will create a line list using the COVID -19 Surveillance Case Based program.
 
 You can open the existing line list "Patient Line List - Temp Evalulation/Travel History"
 
@@ -417,10 +431,10 @@ In this case we will be using
 
 >Note: If creating outputs of event type, then we can see the data from all events within a single program stage.
 
-- Select Program : COVID - 19 Case-based Surveillance Program
-- Select Program Stage: Stage 1- Clinical examination and diagnosis
+- Program : COVID - 19 Case-based Surveillance Program
+- Program Stage: Stage 1- Clinical examination and diagnosis
 
-- **Program Dimension**: For this we will select the following program dimensions
+- **Program Dimension**: We will select the following program dimensions
   - First Name
   - Date of Birth
   - Country of Residence
@@ -428,7 +442,7 @@ In this case we will be using
   - Temperature
   - Travel 14 days prior to onset of any symptom
 
-- Select OU: CHW Mahosot (Lao PDR - Vientiane Capital - CH Mahosot - CHW Mahosot)
+- Select OU: Vientiane Capital (Lao PDR - Vientiane Capital)
 
 - Date of Consultation: Last month
 
@@ -438,7 +452,7 @@ All Dimension should be assigned to the columns and the organisation unit assign
 
 - Click on update.
 
-You will see the list from a single stage.
+You will see the list, which is taking data from a single stage in the program you have selected.
 
 ![](resources/images/linelist/linelist1.png)
 
@@ -495,7 +509,7 @@ The table should look like this
 
 ![](resources/images/linelist/image2.png)
 
-> Now you can explain how the event type report selection affects our output. When we are creating reports and use "event" as the input type, ALL of the events from within a program stage will be output on our report. There is a limitation here in that we can only pull all of our event data from within one program stage, and as a result there are not really "linked" together as they are separate lines within our report.
+> Now you can explain how the event type report selection affects our output. When we are creating reports and use "event" as the input type, ALL of the events from within a program stage will be output on our report. There is a limitation here in that we can only pull all of our event data from within one program stage, and as a result they are not really "linked" together as they are separate lines within our report.
 
 We can further demonstrate this concept by showing more repeated event data. ***Modify the output so you are not filtering by any local case ID and update the report.*** Try sorting the data by surname. Scroll through the report; you should see several repeated events displayed on this report.
 
@@ -519,7 +533,7 @@ As a reminder, here are the selections to make
 - Case Registration Date : This Year
 - Org Unit : CHW Mahosot
 
-This is saved as "COVID_CBS - Lab Request Summary (Enrollment)Line list" in DHIS 2 for reference.
+This is saved as "COVID_CBS - Lab Request Summary (Enrollment)Line list" in DHIS2 for reference.
 
 ![](resources/images/linelist/image5.png)
 
@@ -527,7 +541,7 @@ When we make this update, the number of records shown changes. ***This occurs be
 
 > Note: there is an **enhanced feature** in the Line list app, with the help of which you can define the most recent events and the oldest events you want in the output.
 
-#### STOP! Have them perform *Exercise 5*.
+#### STOP! Have them perform *Exercise 4*.
 
 ###  Update the report with most recent events and oldest events using the Input type as Enrollment
 
@@ -555,7 +569,7 @@ Now as we know that Stage 2 is a repeatable event, so to get the data for data e
 
   ![](resources/images/linelist/image6.png)
 
-- Select Most Recent events - 2 and Oldest events - 2 and Update
+- Select Most Recent events: 2 and Oldest events: 2 and Update
 
   ![](resources/images/linelist/image7.png)
 
@@ -570,7 +584,7 @@ Now as we know that Stage 2 is a repeatable event, so to get the data for data e
 
 The advantage of this output is that we can have information from repeated events on a single line. This is different then when using the event input type, which lists repeated events on seperate lines.
 
-#### STOP! Have them perform *Exercise 6*.
+#### STOP! Have them perform *Exercise 5*.
 
 ### Compare aggregate/pivot table event and enrollment reports using a repeatable stage
 
@@ -601,56 +615,61 @@ This is not so useful however if we want to identify the number of unique indivi
 
 > In summary, the "event" output type always shows data for all events within a single program stage, while the "enrollment" output type will count unique registrations and will only use data from the most recent event in its output.
 
-#### STOP! Have them perform *Exercise 7* in the learner's guide.
+#### STOP! Have them perform *Exercise 6* in the learner's guide.
 
 ### Create a line list enrollment report using multiple stages from the COVID-19 surveillance program in the line listing app
 
-Enrollment type reports have one last function that is very useful in addition to counting or displaying unique registrations. This is the ability of these reports to display data from multiple stages. 
+Enrollment type reports have one last function that is very useful in addition to counting or displaying unique registrations and displaying repeated data on one line. This is the ability of these reports to display data from multiple stages. 
 
 When creating these reports, keep in mind the scenarios we went through previously and remember that ***the enrollment output type only uses data from the most recent event; unless specified when using repeated events.***
 
-So, using our COVID-19 case-based surveillance program as an example, where lab test and lab result are repeated stages, if we show data from these stages together, it will only show the data from the most recent entry from within either of these stages.
+So, using our COVID-19 case-based surveillance program as an example, where lab test and lab result are repeated stages, if we show data from these stages together, it will only show the data from the most recent entry from within either of these stages by default (we can change this by using the "repeated events" option).
 
-Open the table "COVID_CBS - Enrollment Summary Line List." This the table that you will create. You can explain the layout to the participants before continuin, including where the data is coming from in this line list.
+Open the table "COVID_CBS - Enrollment Summary Line List." This is the table that you will create. You can explain the layout to the participants before continuing, including where the data is coming from in this line list.
 
 Clear your inputs by going to File -> New.
 
 Create an event report with the following inputs:
 
-- Table : Line List
 - Input : Enrollment
 - Program : COVID-19 Case-based Surveillance
 - Program Dimensions - 
   - Program attribute
-    - First Name,
-    - Surname,
-    - Sex 
+    - First Name
+    - Surname
+    - Sex
   - Data Element Stage 1 - Clinical Exam
     - Underlying condition
      - Signs/symptoms present
   - Data Element Stage 3 - Lab Results
     - Type of Test
-    - Lab Result
+    - Lab Test Result
   - Data Element Stage 4 - Health Outcome
     - Health Outcome
 - Case Registration Date (Period) : This Year
 - Org Unit : Country
 
-The table should like this
+When selecting your data elements using the enrollment input type and if a data element belongs to more then one stage, the stage will be listed when selecting the data element.
+
+![](resources/images/linelist/multiple_stage_de.png)
+
+While this allows you to display these data elements on the same list, you must ensure you are selecting the data element from the right stage when making your reports.
+
+The table should like this after updating.
 
 ![](resources/images/linelist/image10.png)
 
 What can we take away from this table?
 
-We can clearly see that the data from each stage is being shown based on the data items that have been selected, but we must keep in mind that data from *Stage 3 - lab results* will be the most recent event data only. To get data for oldest events and recent event comparison you can perform the same steps as shown in the preivious exercise.
+We can clearly see that the data from each stage is being shown based on the data items that have been selected, but we must keep in mind that data from *Stage 3 - lab results* will be the most recent event data only. To get data for oldest events and recent event comparison you can perform the same steps as shown in the previous exercise; as you are able to combine showing data from multiple stages with showing data from repeated events using the enrollment input type.
 
 If you are dealing with programs that do not have any repeatable events, then you will not need to worry about what the most recent event is when reviewing your information (as each program stage will only have 1 event).
 
-Also, note the date. Each of these events that we have selected data from has different dates, but they are not displayed here. Instead we see the date of registration. These are the dates that are collecting during the registration/enrollment process; whereas reports with "event" as their output will display the dates of the particular event within a stage. We are not able to show these event type reports together as a summary using data from different stages however as we are able to when we run an enrollment type report.
+Also, note the date. Each of these events that we have selected data from has different dates, but they are not displayed here. Instead we see the date of registration. This is the date that is collected during the registration/enrollment process; whereas reports with "event" as their output will display the dates of the particular event within a stage. We are not able to show these event type reports together as a summary using data from different stages however as we are able to when we run an enrollment type report.
 
 > Note : We can not create a pivot table enrollment report using data from multiple stages.
 
-#### Have them perform *Exercise 8* 
+#### STOP - Have them perform *Exercise 7* 
 
 ## Recap
 
@@ -659,5 +678,3 @@ Review the recap slide with them at the end of the session before they perform t
 ## Assignment
 
 After you have completed all demos and they have finished the exercises, have them complete the graded assignment for this session. If you find you are running out of time, assign the graded assignment to them and ask them to complete it outside of the live scheduled session.
-
-[def]: hide_emp
