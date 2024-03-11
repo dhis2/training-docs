@@ -276,7 +276,7 @@ and download the list
 
 ### In the Line List app, review the Line List interface
 
-Have the line listing app open in another tab or window.
+Have the line listing app open in another tab or window with the table "COVID_CBS - Patients with Symptoms" open
 
 ![interface](resources/images/linelist/interface1.png)
 
@@ -329,7 +329,7 @@ Filters data based on the event status:  Active, Complete, Cancelled.
 **Program Dates**
 After the program status, we will be able to select the enrollment and event dates depending on the input type we have selected. When the input is selected as enrollment, you will only be able to select the enrollment data here. When the input is event, you can select both the enrollment and event dates to be displayed.
 
-**Global Dimension**
+**Global Dimensions**
 
 This is located on the left side panel.
 
@@ -356,6 +356,52 @@ These last 2 only apply to programs that are using an attribute of some kind to 
 There are multiple ways to add data dimensions to the layout. They can be added by hovering over the dimension and clicking the plus icon or by dragging and dropping a dimension straight to the layout area.
 
 ![add_dimension](resources/images/linelist/add_dimension.png)
+
+#### Add a data element
+
+Lets add a data element to this table.
+
+From the program dimensions tab, filter out the type to data elements. Search or find the data element "Shortness of breath." Either select the plus sign or drag the data element to the columns section above the table.
+
+![add_de](resources/images/linelist/add_de.png)
+
+Update the table and you should see it added to your columns on the table.
+
+#### Filter a data element option
+
+To add a filter to a data element, select the data element either before or after it has been added. Select signs/symptoms present.
+
+![add_filter](resources/images/linelist/add_filter.png)
+
+This will open a dialog box. Select the items you want to include in your filter and move them over by either double clicking or using the arrow buttons.
+
+![filter_options](resources/images/linelist/filter_options.png)
+
+Select the Yes option and update the table.You will now only see patients that have signs/symptoms present in the table.
+
+#### Change the org unit
+
+To change the organisation unit, select the organisation unit option from the program dimesions tab.
+
+![change_ou](resources/images/linelist/change_ou.png)
+
+You can select org units, relative org units levels and groups the same as in event reports.
+
+![ou_select](resources/images/linelist/ou_select.png)
+
+Change the org unit and update the line list to see its effect. 
+
+#### Change the period
+
+The period of data being shown is dependent on the type of input you have selected along with the dates associated with the program you have selected as discussed previously.
+
+In the program dimensions tab, in this case you will see the enrollment and event date as event is the input type selected.
+
+If you select the date of consultation and modify it.
+
+![change_date](resources/images/linelist/change_date.png)
+
+You can see how it affects the table outputs.
 
 ### Create a line list using COVID-19 Surveillance Case Based program in the Line List App
 
