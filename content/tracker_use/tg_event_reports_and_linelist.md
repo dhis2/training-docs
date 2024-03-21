@@ -664,7 +664,7 @@ We can clearly see that the data from each stage is being shown based on the dat
 
 If you are dealing with programs that do not have any repeatable events, then you will not need to worry about what the most recent event is when reviewing your information (as each program stage will only have 1 event).
 
-Also, note the date. Each of these events that we have selected data from has different dates, but they are not displayed here. Instead we see the date of registration. This is the date that is collected during the registration/enrollment process; whereas reports with "event" as their output will display the dates of the particular event within a stage. We are not able to show these event type reports together as a summary using data from different stages however as we are able to when we run an enrollment type report.
+Also, note the date. Each of these events that we have selected data from potentially has different dates, but they are not displayed here. Instead we see the date of registration. This is the date that is collected during the registration/enrollment process. Since we must use enrollment as the input type when selecting data from multiple stages, only dates associated with the enrollment can be used to filter our data.
 
 > Note : We can not create a pivot table enrollment report using data from multiple stages.
 
