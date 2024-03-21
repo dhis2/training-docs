@@ -343,22 +343,9 @@ Filters data based on the event status:  Active, Complete, Cancelled.
 **Program Dates**
 After the program status, we will be able to select the enrollment and event dates depending on the input type we have selected. When the input is selected as enrollment, you will only be able to select the enrollment data here. When the input is event, you can select both the enrollment and event dates to be displayed.
 
-**Global Dimensions**
-
-This is located on the left side panel.
-
-![global_dimensions](resources/images/linelist/global_dimensions.png)
-
-You can select the inputs for when the event or enrollment was
-* Last updated on
-* Created by
-* last updated by
-
-This will depend on if you selected event or enrollment as the input type.
-
 In the ***Program data dimensions*** section we can modify the data we want to select.
 
-In the type drowpdown selector, you can filter by various parameters including:
+In the type dropdown selector, you can filter by various parameters including:
 * all types, which just shows everything
 * data elements
 * program attributes
@@ -416,6 +403,19 @@ If you select the date of consultation and modify it.
 ![change_date](resources/images/linelist/change_date.png)
 
 You can see how it affects the table outputs.
+
+### Global Dimensions
+
+This is located on the left side panel.
+
+![global_dimensions](resources/images/linelist/global_dimensions.png)
+
+You can select the inputs for when the event or enrollment was
+* Last updated on
+* Created by
+* last updated by
+
+This will depend on if you selected event or enrollment as the input type.
 
 ### Create a line list using COVID-19 Surveillance Case Based program in the Line List App
 
@@ -638,9 +638,8 @@ Create an event report with the following inputs:
     - First Name
     - Surname
     - Sex
-  - Data Element Stage 1 - Clinical Exam
-    - Underlying condition
-     - Signs/symptoms present
+  - Data Element Stage 2 - Lab Request
+    - Lab Test Reason
   - Data Element Stage 3 - Lab Results
     - Type of Test
     - Lab Test Result
