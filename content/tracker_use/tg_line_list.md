@@ -235,10 +235,57 @@ Oldest events : 1
 
 STOP! Have them perform Exercise 3 in the learner's guide
 
+### Create a line list program using legends
+
+Kindly follow the steps to create above line list
+
+1. Click on the **Input** - Select “Event”.
+
+2. Select **Program** :“COVID -19 Case-based Surveillance”.
+
+3. Select **Stage** : "Stage 1-Clinical examination and diagnosis"
+
+![](resources/images/linelist/legendimage1.png)
+
+4. Select Attributes:
+     
+     * Local case ID
+     * First Name
+     * Date of Birth
+     * Country of residence
+
+5. Select Data Elements:
+
+     * Temperature
+     * Travel days prior to onset
+
+![](resources/images/linelist/legendimage2.png)
 
 
+6. Select Date of Consultation : Last month
+
+7. Select OU : CHW Mahosot
+
+8. Select Options > Go to Legend 
+
+   * Enable use a legend for table cell colors
+   * Legend style: Legend changes backgroung colour
+   * Legend type: Choose a single legend for the entire visualization
+   * Legend : Select pre-defined legend set "Fever"
+
+![](resources/images/linelist/legendimage3.png)
+
+![](resources/images/linelist/legendimage4.png)
+
+8. Click Update
+
+![](resources/images/linelist/legendimage5.png)
+
+(In this you will observe the red cell in the cases where temperature is more than 38 degree celcius)
+
+You can also see the legend key is you select show legend key on the side bar.
+
+![](resources/images/linelist/legendimage6.png)
 
 
-
-
-
+STOP! Have them perform Exercise 4 in the learner's guide
