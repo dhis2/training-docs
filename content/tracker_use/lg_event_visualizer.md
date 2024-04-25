@@ -2,7 +2,7 @@
 
 ## What is this guide?
 
-This guide contains all exercises and detailed steps to perform them related to the use of event visualizer for the Tracker Use Level 1 academy. Please perform each of the exercises when prompted to by your instructors.
+This guide contains all exercises and detailed steps to perform them related to the use of event visualizer for the Tracker Use Level 1 academy. Please perform each of the exercises when prompted to by your instructors. This has now been updated.
 
 ## Learning objectives for this session
 
