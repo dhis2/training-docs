@@ -2,7 +2,9 @@
 
 ## **What is this guide?**
 
-This guide is a support document for DHIS2 Academy trainers for the session “Conceptual Design for tracker program.” This session follows the standard Academy training approach with 1) a participants reviewing provided registers and forms and 2) preparing presentation slides and documents to present.
+This guide is a support document for DHIS2 Academy trainers for the session “Conceptual Design for tracker program.” This session follows the standard Academy training approach with 
+1) a participants reviewing provided registers and forms and 
+2) preparing presentation slides and documents to present.
 
 This guide will help the trainer​ prepare​​ for the discussions and presentation by participants.
 

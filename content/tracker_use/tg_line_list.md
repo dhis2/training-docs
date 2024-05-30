@@ -59,7 +59,7 @@ In an in-person setting, the participants may be doing the demo with you at the 
 
 ### Review the Line List interface
 
-![interface](resources/images/linelist/interface1.png)
+![interface](resources/images/linelist/interfacenew1.png)
 
 In the Line Listing app, you currently only have one type of selection which is Line list unlike event reports where you can have aggregate outputs.
 
@@ -76,7 +76,7 @@ If you have selected the **Event**, then for tracker programs you need to select
 If you select **Enrollment** in the Input tab then all data elements associated with the program will be available from different stages within the program for the purpose of cross stage selection of data elements. Each data element will act as a dimension.
 
 
-![interface2](resources/images/linelist/interface2.png)
+![interface2](resources/images/linelist/interfacenew2.png)
 
 ### Program dimensions
 
@@ -86,21 +86,22 @@ The line list will always be based on event or tracker programs and you can do a
 
 Select program: All the event and tracker programs will be visible in the drop down.
 
-![interfacepd](resources/images/linelist/interfacepd.png)
+![interfacepd](resources/images/linelist/interfacepd1.png)
 
 If you want to filter the data, by data elements, program attribute, program indicators, category, category option group set you can do so by clicking on the dropdown option.
 
 There are multiple ways to add data elements to the layout. They can be added by hovering over the dimension and clicking the plus icon or by dragging and dropping a dimension straight to the layout area.
 
 Under Global Dimension:
+
 You can select the data when it was 
 * Last updated on
 * Created by
-* last updated by
+* Last updated by
 
 ## Create a line list program using Input : Event
 
-In this exercise we will create a line list using a COVID -19 Surveillance Case Based program.
+In this exercise we will create a line list using a Malaria case notification , investigation and response.
 
 You can open the existing line list "Patient Line List - Temp Evalulation/Travel History
 "
@@ -113,30 +114,33 @@ In this case we will be using
 
 >Note: If creating outputs of event type, then we can see the data from all events within a single program stage we are working with.
 
-Select Program : COVID - 19 Case-based Surveillance Program
-Select Stage: Stage 1- Clinical examination and diagnosis
+Select Program : Malaria case notification , investigation and response
+Select Stage: Diagnosis and treatment
 
 **Program Dimension**: For this we will select the following program dimensions
-First Name
-Date of Birth
-Country of Residence
-Local Case ID
-Temperature
-Travel 14 days prior to onset of any symptom
 
-Select OU: CHW Mahosot
+- Given Name
+- Family Name
+- Date of Birth
+- Address
+- Local Case ID
+- Temperature
+- Recent travel within the country
+- Recent travel outside the country
 
-Date of Consultation: Last month
+Select OU: 01 Vientiane Capital
+
+Date of Consultation: Last 3 months
 
 Your Dimension should be assigned to columns and organization unit to filter.
 
-![](resources/images/linelist/singlestagevent.png)
+![](resources/images/linelist/tempsingleev1.png)
 
 You will see the line list for a single stage.
 
 Click on update
 
-![](resources/images/linelist/linelist1.png)
+![](resources/images/linelist/tempsingleev.png)
 
 
 STOP! Have them perform Exercise 1 in the learner's guide
@@ -145,92 +149,87 @@ STOP! Have them perform Exercise 1 in the learner's guide
 
 For this you can open the already existing linelist "Patient line list (enrollment)"
 
-
 Follow the steps to create above Line list for enrollment type :
 
 1. Click on Input and Select Enrollement
 ![](resources/images/linelist/enroll1.png)
 
-2. Choose Program: COVID-19 Case based Surveillance
-![](resources/images/linelist/enroll2.png)
+2. Choose Program: Case based Surveillance
+![](resources/images/linelist/enrollnew1.png)
 
 3. Go to Program Dimension 
 
 To evaluate the across the stage we will select the following data dimensions:
 
-Stage 1 : Clinical examination and diagnosis
-* Admission date
+Stage 1 : Diagnostic and clinical information
+* Date of Admission
 * Sign and symptoms cough , 
 * fever, 
-* shortness of breath
-* Temperature
-* Travel 14 days prior to onset
+* Difficulty in breathing
+* Temperature at admission
 
 Stage 2: Lab Request
 * Date Specimen collected
 * Date Specimen sent to laboratory
-* Type of test
 * Type of Specimen
 
 Stage 3: Lab Results
-* Date of Test Result
-* Lab test Result
-* Type of Test
+* PCR Date
+* PCR test Result 
 * Type of Specimen
 
-4. Select OU : CHW Mahosot
+4. Select OU : Lao PDR, Facility - Level 3
 
-5. Case Registration Date: This Month and Last Month
+5. Case Notification Date: This Month and Last 3 Month
 
-
-![](resources/images/linelist/enroll3.png)
+![](resources/images/linelist/enrollnew3.png)
 
 Click on Update 
 
-![](resources/images/linelist/enroll4.png)
+![](resources/images/linelist/enrollnew4.png)
 
 STOP! Have them perform Exercise 2 in the learner's guide 
-
 
 ### Create a line list program using Input : Oldest events and Recent events
 
 Kindly follow the steps to create above line list
 
-1. Click on the **Input** - Select“Enrollment”.
+1. Click on the **Input** - Select “Enrollment”.
 
-2. Select **Program** :“COVID -19 Case-based Surveillance”.
+2. Select **Program** :“Electronic Immunization registry”.
 
-   ![](resources/images/linelist/enroll5.png)
+   ![](resources/images/linelist/enrollnew5.png)
 
-3. Go to **Program Dimension** and Select Data Element from Stage 2 - 
-*Lab request which is REPEATABLE in each event.*
+3. Go to **Program Dimension** and Select Data Element from Stage - 
+*Immunization which is REPEATABLE in each event.*
 
-   ![](resources/images/linelist/enroll6.png)
+   ![](resources/images/linelist/enrollnew6.png)
 
-4. Click on the Data Element “Lab Test Reason” and the window will open up , where you will be able to see the Repeated event tab.
+4. Click on the Data Element “Diagnosed with HIV and severe immunodeficiency , where you will be able to see the Repeated event tab.
 
-   ![](resources/images/linelist/enroll7.png)
+   
 
-5. Select contact of case
+5. Select Yes HIV+,not on ART
 
-   ![](resources/images/linelist/enroll8.png)
+   ![](resources/images/linelist/enrollnew8.png)
 
 6. To Select the number of times the most recent event and the oldest event : Click on Repeated Events and select value for newest and oldest.
-\
-In this case we are selecting
+
+   In this case we are selecting
 Most recent events : 2
 Oldest events : 1
 
-   ![](resources/images/linelist/enroll9.png)
+   ![](resources/images/linelist/enrollnew9.png)
 
 7. Select OU: LAO
-8. Select Case Registration Date: Last 3 months 
 
-   ![](resources/images/linelist/enroll10.png)
+8. Date of Registration: Last 12 months 
+
+   ![](resources/images/linelist/enrollnew10.png)
 
 9. Click on update
 
-   ![](resources/images/linelist/enroll11.png)
+   ![](resources/images/linelist/enrollnew11.png)
  
 
 STOP! Have them perform Exercise 3 in the learner's guide
@@ -241,30 +240,29 @@ Kindly follow the steps to create above line list
 
 1. Click on the **Input** - Select “Event”.
 
-2. Select **Program** :“COVID -19 Case-based Surveillance”.
+2. Select **Program** :“Case-based Surveillance”.
 
-3. Select **Stage** : "Stage 1-Clinical examination and diagnosis"
+3. Select **Stage** : "Diagnostic and Clinical Information"
 
-![](resources/images/linelist/legendimage1.png)
+![](resources/images/linelist/legendimagenew1.png)
 
 4. Select Attributes:
      
-     * Local case ID
-     * First Name
+     * System case ID
+     * Given Name
      * Date of Birth
-     * Country of residence
+     * Home Address 
 
 5. Select Data Elements:
 
-     * Temperature
-     * Travel days prior to onset
+     * Temperature at Admission
+     * Travel days outside districr before onset of Rash
 
-![](resources/images/linelist/legendimage2.png)
+![](resources/images/linelist/legendimagenew2.png)
 
+6. Select Date of notification : Last 3 month
 
-6. Select Date of Consultation : Last month
-
-7. Select OU : CHW Mahosot
+7. Select OU : 0001 CH Mahosot
 
 8. Select Options > Go to Legend 
 

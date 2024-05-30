@@ -10,8 +10,7 @@ This guide is a support document for DHIS2 Academy trainers for the session “E
 
 This guide will help the trainer​ prepare​​ for the live demo session. The “Live Demo step by step” section has a  detailed walkthrough of all the steps to demonstrate with explanations and screenshots that should be easy to follow. Use that when preparing for the live demo session.
 
-There is also a Quick Guide which lists the steps very briefly and this is meant as a lookup
-guide or “cheatsheet” WHILE doing the demo, to help the trainer remember all the steps
+There is also a Quick Guide which lists the steps very briefly and this is meant as a lookup guide or “cheatsheet” WHILE doing the demo, to help the trainer remember all the steps
 and the flow of the demo.
 
 ## Learning objectives for this session
@@ -58,11 +57,12 @@ In an in-person setting, the participants may be doing the demo with you at the 
 
 1. Review the events reports interface
 
-Create an aggregate/pivot table using COVID-19 vaccination in Event Report App
+Create an aggregate/pivot table using Electronic Immunization registry in Event Report App
 - Table Style : Pivot, Output Type : Event
-- Program : COVID-19 Case Based Surveillance
-- Stage : Stage 3 - Lab Results
-- Data : Lab Test Result (select Positive as the filter), Age (apply the Age COVID-19 Legend), Sex
+- Program : Electronic Immunization Registry
+- Stage : Stage - Immunization
+- Data : Diagnoised with HIV and severe Immuno deficiency
+- Age (apply the Age COVID-19 Legend), Sex
 - Period : This year
 - Org Unit : Country
 
@@ -195,9 +195,9 @@ If choosing the start/end dates than you can select exact dates to filter events
 
 ![start_end_date](resources/images/event_reports/start_end_dates.png)
 
-### Create an aggregate/pivot table using COVID-19 vaccination in Event Report App
+### Create an aggregate/pivot table using Malaria Case notification in Event Report App
 
-Open the table "COVID_CBS - Confirmed cases by Age & Sex." This the table that you will create. You can explain the layout to the participants - including the table style, output type, data, periods and org units, before proceeding.
+Open the table "MALARIA_CS - Final Malaria Classification by Age & Sex." This the table that you will create. You can explain the layout to the participants - including the table style, output type, data, periods and org units, before proceeding.
 
 > Event reports is currently the only app where you can make on the fly pivot tables using event/tracker data. This is not yet available in the line listing app, so the event reports and the line listing app need to be used in parrallel currently for the best results.
 
@@ -206,9 +206,9 @@ Clear your inputs by going to Favorites -> New.
 Create an aggregate event report. You can use the following data items as an example:
 
 - Table Style : Pivot, Output Type : Event
-- Program : COVID-19 Case Based Surveillance
-- Stage : Stage 3 - Lab Results
-- Data : Lab Test Result (select Positive as the filter), Age (apply the Age COVID-19 Legend), Sex
+- Program : Malaria Case Notification program
+- Stage : Stage  - Case Outcome
+- Data : Malaria Final Classification (select Positive as the filter), Age (apply the Age COVID-19 Legend), Sex
 - Period : This year
 - Org Unit : Country
 

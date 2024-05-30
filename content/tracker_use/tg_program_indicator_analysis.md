@@ -127,9 +127,9 @@ STOP! Have them perform *Exercise 3* in the learner's guide.
 
 ## Live Demo step by step
 
-### Create a pivot table in data visualizer using an enrollment program indicator from the COVID-19 Vaccination Registry program
+### Create a pivot table in data visualizer using an enrollment program indicator from the Malaria case notification,investigation and response
 
-Open the table "COVAC - Underlying Conditions, last 6 months." This is the table that you will create. You can explain the layout to the participants before continuing.
+Open the table "MAL-CS- Pregnant, last 6 months." This is the table that you will create. You can explain the layout to the participants before continuing.
 
 Clear your inputs by going to Favorites -> New.
 
@@ -138,7 +138,7 @@ In the first example, you will create a simple pivot table using a single progra
  - Visualization Type : Pivot Table
  - Data 
    - Data Type : Program Indicator
-   - Program : COVID-19 Vaccination Registry program
+   - Program : Malaria
    - Program Indicator : Underlying conditions
  - Period : Last 6 months
  - Org Unit : All Level 2 OUs

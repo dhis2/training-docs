@@ -1,4 +1,4 @@
-# Trainer's Guide to Tracker Use Cases (Webinar)
+# Trainer's Guide to Tracker Use Cases (Web)
 
 ## What is this guide?
 

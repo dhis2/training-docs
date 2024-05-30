@@ -23,14 +23,14 @@ Create a pivot table using a single program indicator in data visualizer. It wil
    - Data Type : Program Indicator
    - Program : COVID-19 Vaccination Registry program
    - Program Indicator : Underlying conditions
- - Period : Last 6 months
+ - Period : This month and Last month
  - Org Unit : All Level 2 OUs
 
 The layout can look like this
 
 ![table1_layout](resources/images/program_indicators/table1_layout.png)
 
-The table is saved as "COVAC - Underlying Conditions, last 6 months" as reference.
+The table is saved as "COVAC - Underlying Conditions, this month and last month" as reference.
 
 ![underlying_conditions](resources/images/program_indicators/PI_underlying_conditions.png)
 
