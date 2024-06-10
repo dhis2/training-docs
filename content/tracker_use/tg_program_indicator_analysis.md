@@ -129,7 +129,8 @@ STOP! Have them perform *Exercise 3* in the learner's guide.
 
 ### Create a pivot table in data visualizer using an enrollment program indicator from the Malaria case notification,investigation and response
 
-Open the table "MAL-CS- Pregnant, last 6 months." This is the table that you will create. You can explain the layout to the participants before continuing.
+Open the table "CBS - Measles/Rubella # specimens collected
+, last 6 months." This is the table that you will create. You can explain the layout to the participants before continuing.
 
 Clear your inputs by going to Favorites -> New.
 
@@ -138,8 +139,8 @@ In the first example, you will create a simple pivot table using a single progra
  - Visualization Type : Pivot Table
  - Data 
    - Data Type : Program Indicator
-   - Program : Malaria
-   - Program Indicator : Underlying conditions
+   - Program : Case based Surveillance
+   - Program Indicator : CBS - Measles/Rubella # specimens collected
  - Period : Last 6 months
  - Org Unit : All Level 2 OUs
 
@@ -149,27 +150,28 @@ The layout can look like this
 
 The table should look like this (the months shown may differ as its relative to the current date)
 
-![underlying_conditions](resources/images/program_indicators/PI_underlying_conditions.png)
+![underlying_conditions](resources/images/program_indicators/table1new.png)
 
-This is an enrollment type program indicator that is pulling its information from the data element "COVAC - Underlying conditions." 
+This is an enrollment type program indicator that is pulling its information from the attribute "Specimens collected." 
 
-![underlying_conditions_source](resources/images/program_indicators/PI_underlying_conditions_source.png)
+![underlying_conditions_source](resources/images/program_indicators/table2new.png)
 
-Enrollment is being used for this program indicator so it does not double or triple count the number of individuals with an underlying condition (remember, this program consists of a single repeated stage).
+Enrollment is being used for this program indicator so it does not double or triple count the number of individuals with specimens collected (remember, this program consists of a single repeated stage).
 
-You can quickly compare the two reports by duplicating your current tab followed by opening the saved table "COVAC - Underlying Conditions (event), last 6 months."
+You can quickly compare the two reports by duplicating your current tab followed by opening the saved table "CBS - Measles/Rubella # specimens collected
+, last 6 months."
 
-![event_vs_enrollment_underlying](resources/images/program_indicators/PI_underlying_conditions_event_vs_enrollment.png)
+![event_vs_enrollment_underlying](resources/images/program_indicators/table3new.png)
 
-You will see the event based indicator reports higher values as it is counting the underlying condition variable for every event; this does not make sense in this scenario if you want to know the total number of unique people with an underlying condition.
+You will see the event based indicator reports higher values as it is counting the specimens collected variable for every event; this does not make sense in this scenario if you want to know the total number of unique people with specimens collected for Measles/Rubella.
 
 Note that you are able to create this same output in event reports using an enrollment pivot table. So far, we have not addressed any gap but are just showing that it is possible to pull filtered tracker data into data visualizer.
 
-### Create a chart using event indicators from different program stages from the COVID-19 Case-based Surveillance Program
+### Create a chart using event indicators from different program stages from the Case-based Surveillance Program
 
 One gap that we can address however is creating a pivot table, chart or map using data from different program stages. We can do this in data visualizer for any of the available visualizations using either event or enrollment type program indicators and is not something we could achieve in either event reports or event visualizer.
 
-Open the chart "COVID_CBS - Symptoms and health outcome, this year." This is the chart that you will create. You can explain the layout to the participants before continuing.
+Open the chart "CBS - Measles Symptoms and Final classification, this year." This is the chart that you will create. You can explain the layout to the participants before continuing.
 
 Clear your inputs by going to Favorites -> New.
 
@@ -178,11 +180,11 @@ In this example, we will create a line chart with the following inputs:
  - Visualization Type : Line Chart
  - Data 
    - Data Type : Program Indicator
-   - Program : COVID-19 Case-based Surveillance Program
+   - Program :Case-based Surveillance Program
    - Program Indicators : 
-     - COVID-19 Symptoms present
-     - COVID-19 Symptoms present - death
-     - COVID-19 Symptoms present - recovered
+     - CBS - Measles/Rubella (Case) Symptoms Present
+     - CBS - Measles/Rubella Cases confirmed to be measles by lab
+     -  by lab
  - Period : This Year
  - Org Unit : All Level 2 OUs
 
@@ -192,13 +194,13 @@ In order to create this chart, ensure your layout looks like this:
 
 The chart should look like this
 
-![chart2](resources/images/program_indicators/COVID_CBS_chart2.png)
+![chart2](resources/images/program_indicators/cbsnew1.png)
 
-This chart uses enrollment indicators, including combining data from Stage 1 (Clinical exam and diagnosis), where it gets the data on whether or not a person has symptoms, and Stage 4 (Health Outcome), where it gets the information on whether or not the person died or recovered. It is not possible to create this type of output using event visualizer (you can not pull data from multiple stages using event visualizer). 
+This chart uses enrollment indicators, including combining data from Stage(Diagnostic and Clinical Information), where it gets the data on whether or not a person has symptoms, and Stage (laboratory Result), where it gets the information on whether or not the person is a confirmed Measles or Rubella case . It is not possible to create this type of output using event visualizer (you can not pull data from multiple stages using event visualizer). 
 
 You can covert this chart to a pivot table so they can see that you can also create a pivot table using data from multiple stages, an option not possible in event visualizer/reports.
 
-![table2](resources/images/program_indicators/COVID_CBS_table2.png)
+![table2](resources/images/program_indicators/cbsnew2.png)
 
 Lastly, you can open this table as a map to show you can now use the thematic layer. The thematic layer opens up a number of additional options when working with your data (we will go over an example where we create a map from scratch using a program indicator in the thematic layer during the next part of this session).
 
@@ -206,11 +208,11 @@ Do this by selecting "Open as Map" from the visualization selection.
 
 ![table2_conversion](resources/images/program_indicators/convert_table2_map.png)
 
-When you open this as a map, you will have to select one of the data items used in the chart/table as your primary layer (you can select all 3 but since they are all displaying data at the same OU level, you will in effect only see data from the top layer). Select one of the enrollment indicators (death or recovered) using data from multiple stages to demonstrate that this type of data can be mapped.
+When you open this as a map, you will have to select one of the data items used in the chart/table as your primary layer (you can select all 3 but since they are all displaying data at the same OU level, you will in effect only see data from the top layer). Select one of the enrollment indicators (measles confirmed or Rubella confirmed) using data from multiple stages to demonstrate that this type of data can be mapped.
 
-![map2_select_data](resources/images/program_indicators/map2_select_data.png)
+![map2_select_data](resources/images/program_indicators/cbsnew3.png)
 
-![map2](resources/images/program_indicators/map2.png)
+![map2](resources/images/program_indicators/cbsnew4.png)
 
 #### STOP! Have them perform *Exercise 1* in the learner's guide.
 
@@ -220,7 +222,7 @@ In the maps session, we had discussed how we can use the event and TEI layer to 
 
 Through the use of program indicators however we are able to extend maps functionality with tracker data significantly as we can use the thematic layer to its full potential. This includes creating split view and timeline maps and using the available style options (such as creating choropleth and bubble maps) that are not available when using the event and TEI layer as examples.
 
-Open the map "COVID_CBS - Suspected cases, last 6 months." This is the map that you will create. You can explain the layout to the participants before continuing.
+Open the map "CBS - Meningitis (Suspected cases), last 6 months." This is the map that you will create. You can explain the layout to the participants before continuing.
 
 Clear your inputs by going to Favorites -> New.
 
@@ -229,8 +231,8 @@ Create a map using the thematic layer with the following inputs:
 - Layer Type : Thematic 
 - Data:
   - Item Type : Program Indicators
-  - Program : COVID-19 Case-Based Surveillance
-  - Program Indicator : COVID-19 Suspected Cases
+  - Program : Case-Based Surveillance
+  - Program Indicator : CBS - Meningitis (Suspected cases)
   - Leave the aggregation type as default
 - Period:
   - Period Type : Relative
@@ -242,25 +244,25 @@ Create a map using the thematic layer with the following inputs:
 
 **Data Tab**
 
-![map5_data](resources/images/program_indicators/map5_data_tab.png)
+![map5_data](resources/images/program_indicators/mapnew1.png)
 
 **Period Tab**
 
-![map5_period](resources/images/program_indicators/map5_period_tab.png)
+![map5_period](resources/images/program_indicators/mapnew2.png)
 
 **Org Units Tab**
 
-![map5_OU](resources/images/program_indicators/map5_ou_tab.png)
+![map5_OU](resources/images/program_indicators/mapnew3.png)
 
 **Style Tab**
 
-![map5_style](resources/images/program_indicators/map5_style.png)
+![map5_style](resources/images/program_indicators/mapnew4.png)
 
 The map should look like this (note that the months displayed may be different as the period is relative to the current date)
 
-![map5](resources/images/program_indicators/map5.png)
+![map5](resources/images/program_indicators/mapnew5.png)
 
-You can play back the timeline map. You will see over time the monthly values are increasing in line with the COVID-19 situation occurring globally (the map is showing the total number per month, not the cumulative number; cumulative can be shown however the indicator needs to be configured differently).
+You can play back the timeline map. You will see over time the monthly values are increasing or decreasing (the map is showing the total number per month, not the cumulative number; cumulative can be shown however the indicator needs to be configured differently).
 
 #### STOP! Have them perform *Exercise 2* in the learner's guide.
 

@@ -197,7 +197,7 @@ If choosing the start/end dates than you can select exact dates to filter events
 
 ### Create an aggregate/pivot table using Malaria Case notification in Event Report App
 
-Open the table "MALARIA_CS - Final Malaria Classification by Age & Sex." This the table that you will create. You can explain the layout to the participants - including the table style, output type, data, periods and org units, before proceeding.
+Open the table "MALARIA_CS - Final Malaria Classification by Age & Sex." This is the table that you will create. You can explain the layout to the participants - including the table style, output type, data, periods and org units, before proceeding.
 
 > Event reports is currently the only app where you can make on the fly pivot tables using event/tracker data. This is not yet available in the line listing app, so the event reports and the line listing app need to be used in parrallel currently for the best results.
 
@@ -208,19 +208,19 @@ Create an aggregate event report. You can use the following data items as an exa
 - Table Style : Pivot, Output Type : Event
 - Program : Malaria Case Notification program
 - Stage : Stage  - Case Outcome
-- Data : Malaria Final Classification (select Positive as the filter), Age (apply the Age COVID-19 Legend), Sex
+- Data : Malaria Final Classification (select Indigenious (local) as the filter), Age , Sex
 - Period : This year
 - Org Unit : Country
 
 The table should look like this after updating:
 
-![table1_pivot](resources/images/event_reports/table1_pivot_cbs.png)
+![table1_pivot](resources/images/event_reports/pivotnew1.png)
 
 This is not exactly the table we want. We can make some adjustments to modify it.
 
 Start with the layout. The layout can should like this
 
-![table1_pivot_layout](resources/images/event_reports/table1_pivot_cbs_layout.png)
+![table1_pivot_layout](resources/images/event_reports/pivotnew2.png)
 
 Next, hide any empty rows using the table options.
 
@@ -230,9 +230,9 @@ Now you should see the the table following the layout we've intended.
 
 Note that you can modify the way data that is collected through tracker (and event) programs is aggregated. You can demonstrate this by changing the legend for the Age attribute to Age (COVAC) and updating the table.
 
-![age_selection](resources/images/event_reports/table1_pivot_cbs_ageselection.png)
+![age_selection](resources/images/event_reports/pivotnew3.png)
 
-![table1_alternate](resources/images/event_reports/table1_pivot_cbs_alternate_age.png)
+![table1_alternate](resources/images/event_reports/pivotnew4.png)
 
 You will see all the totals are the same; however the disaggregation of the data is different as the data has been seperated by new categorizations.
 

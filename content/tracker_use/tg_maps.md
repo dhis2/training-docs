@@ -2,7 +2,7 @@
 
 ## What is this guide?
 
-This guide is a support document for DHIS2 Academy trainers for the session “Event Visualizer.” This session follows the standard Academy training approach with 
+This guide is a support document for DHIS2 Academy trainers for the session “Maps.” This session follows the standard Academy training approach with 
 
 1. a live demo session where the trainer demonstrate and explain the features, and 
    
