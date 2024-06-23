@@ -149,34 +149,36 @@ STOP! Have them perform Exercise 1 in the learner's guide
 
 For this you can open the already existing linelist "Patient line list (enrollment)"
 
-Follow the steps to create above Line list for enrollment type :
+Follow the steps to create above Line list for enrollment type 
 
 1. Click on Input and Select Enrollement
-![](resources/images/linelist/enroll1.png)
+
+   ![](resources/images/linelist/enroll1.png)
 
 2. Choose Program: Case based Surveillance
-![](resources/images/linelist/enrollnew1.png)
+
+   ![](resources/images/linelist/enrollnew1.png)
 
 3. Go to Program Dimension 
 
-To evaluate the across the stage we will select the following data dimensions:
+   To evaluate the across the stage we will select the following data dimensions:
 
-Stage 1 : Diagnostic and clinical information
-* Date of Admission
-* Sign and symptoms cough , 
-* fever, 
-* Difficulty in breathing
-* Temperature at admission
+   Stage 1 : Diagnostic and clinical information
+   * Date of Admission
+   * Sign and symptoms cough ,
+   * fever, 
+   * Difficulty in breathing
+   * Temperature at admission
 
-Stage 2: Lab Request
-* Date Specimen collected
-* Date Specimen sent to laboratory
-* Type of Specimen
+   Stage 2: Lab Request
+   * Date Specimen collected
+   * Date Specimen sent to laboratory
+   * Type of Specimen
 
-Stage 3: Lab Results
-* PCR Date
-* PCR test Result 
-* Type of Specimen
+   Stage 3: Lab Results
+   * PCR Date
+   * PCR test Result 
+   * Type of Specimen
 
 4. Select OU : Lao PDR, Facility - Level 3
 
@@ -256,7 +258,7 @@ Kindly follow the steps to create above line list
 5. Select Data Elements:
 
      * Temperature at Admission
-     * Travel days outside districr before onset of Rash
+     * Travel days outside district before onset of Rash
 
 ![](resources/images/linelist/legendimagenew2.png)
 

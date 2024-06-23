@@ -20,7 +20,6 @@ There is also a Quick Guide which lists the steps very briefly and this is meant
    1. The event layer
    2. The tracked entity layer
 
-
 ## Time Requirements
 
 - Live Demo: 2 demos, 15 minutes each
@@ -96,25 +95,25 @@ In an in-person setting, the participants may be doing the demo with you at the 
 
 To start this demonstration, let us discuss where we get the co-ordinates that are used on the TEI and event layer in regards to tracker data.
 
-Go to capture and select any Level 4 OU (facility) along with the COVID-19 Case-based surveillance program. You will see a list of TEIs after making this selection
+Go to capture and select any Level 4 OU (facility) along with the Contact tracing program. You will see a list of TEIs after making this selection
 
-![tei_list](resources/images/maps/capture_tei_list.png)
+![tei_list](resources/images/maps/mapnew1.png)
 
 Proceed to register a new person into this program
 
-![new_registration](resources/images/maps/new_registration.png)
+![new_registration](resources/images/maps/mapnew2.png)
 
 In this page, you will notice the co-ordinate field present. This co-ordinate field is for the tracked entity and can be used by the tracked entity layer within the maps app.
 
-![registration_coordinate](resources/images/maps/registration_coordinate.png)
+![registration_coordinate](resources/images/maps/mapnew3.png)
 
 On android, you are able to capture the co-ordinate using your location; while on the web you must enter or select it from the map.
 
-Cancel the registration and open up one of the existing records within your org unit; this will take you to their TE dashboard in tracker capture.
+Cancel the registration and open up one of the existing records in Contact tracing Program your org unit; this will take you to their TE dashboard in tracker capture.
 
-Review Stage 1, 3 and 4. Each of these stages will have a field called "Event point"
+Review Stage Initial contact. Each of these stages will have a field called "Event point"
 
-![event_coordinate](resources/images/maps/event_coordinate.png)
+![event_coordinate](resources/images/maps/mapnew4.png)
 
 This is the co-ordinate field that is used to display data within the event layer and is captured in the same way as the registration co-ordinate (on android, you are able to capture the co-ordinate using your location; while on the web you must enter it or select it from the map).
 
@@ -122,9 +121,9 @@ This is the co-ordinate field that is used to display data within the event laye
 
 As a review, you can create a map using the event layer. The process is exactly the same as when working with an event. 
 
-We can create a map using data from the COVID-19 Case-Based Surveillance Program for lab confirmed cases. 
+We can create a map using data from the Case-Based Surveillance Program for Measles confirmed cases by lab. 
 
-Open the map "COVID_CBS - Lab confirmed cases, this year, by home location." This the map that you will create. You can explain the layout to the participants before continuing.
+Open the map "CBS - Lab confirmed cases, this year, by home location." This the map that you will create. You can explain the layout to the participants before continuing.
 
 Clear your inputs by going to File -> New.
 
@@ -141,10 +140,10 @@ Create the map using the event layer with the following inputs:
 - Period : This Year
 - Org Units : User org units 2x below
 - Filter :
-  - Data item : Lab Test Result = Positive
+  - Data item : CBS IgM Measles
 - Style :
   - Group events
-  - Style by data element : Sex
+  - Style by data element : Years
 
 The map should look like this
 
