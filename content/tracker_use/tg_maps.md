@@ -55,37 +55,43 @@ In an in-person setting, the participants may be doing the demo with you at the 
 1. Review how tracker co-ordinates are captured during both registration and within an event
 2. Create a map using the event layer
    1. Create the map with the following inputs
-      - Layer Type : Event
-      - Data:
-        - Program : COVID-19 Case-base Surveillance
-        - Stage : Stage 3 - Lab Results
-        - Coordinate field : Event Location
-        - Event status : all
-      - Period : This Year
-      - Org Units : User org units 2x below
-      - Filter :
-        - Data item : Lab Test Result = Positive
-      - Style :
-        - Group events
-        - Style by data element : Sex
-   2. Note that dealing with event or tracker data when using the event layer is exactly the same
+   - Layer Type : Boundary
+   - Level 3
+   - Layer Type : Event (CBS Location)
+   - Data:
+     - Program : Case-based Surveillance
+     - Stage : Stage 1 - Diagnostic & Clinical Information
+     - Coordinate field : CBS Location
+     - Event status : all
+   - Period : This Year
+   - Org Units : User org units 2x below
+   - Filter :
+   - Data item : CBS Fever
+   - Style :
+   - Group events
+     - GEN - Sex
+     
+     Note that dealing with event or tracker data when using the event layer is exactly the same
+
 3. Create a map using the TEI layer with relationships
-   1. Create the map with the following inputs
-      - Layer 1 Type : Boundary Layer - Vientiane Capital
-      - Layer 2 Type : Tracked Entity
-      - Data:
-        - Tracked Entity Type : Person
-        - Program : COVID-19 Case-base Surveillance
-        - Program status : all
-      - Relationships : 
-        - Display tracked entity relationships = yes
-        - Relationship type : Has Been in Contact with
-      - Period :
-        - Program/Enrollment date
-        - Start/ End Date : Oct 16, 2020 - Oct 16, 2021
-      - Org Units : CHW Mitthaphap
-      - Style : leave as default
-   2. Discuss the limitations of this layer in its current state (no relationships across other programs, can't just collect the co-ordinate during registration and combine this with data within one of the events)
+
+   - Layer 1 Type : Boundary Layer - LAO PDR
+   - Layer 2 Type : Tracked Entity
+   - Data:
+     - Tracked Entity Type : Person
+     - Program : Case-base Surveillance
+     - Program status : all
+   - Relationships : 
+   - Display tracked entity relationships = yes
+   - Relationship type : Has Been in Contact with
+   - Period :
+   - Program/Enrollment date
+   - Start/ End Date : January 1, 2023 - June 30, 2024
+   - Org Units : 0001 CH Mahosot
+   - Style : leave as default
+   
+   Discuss the limitations of this layer in its current state (no relationships across other programs, can't just collect the co-ordinate during registration and combine this with data within one of the events)
+   
 4. Review the recap slide
 5. Have them perform the assignment
 
@@ -203,7 +209,7 @@ Clear your inputs by going to File -> New.
 
 Create the map using the tracked entity layer with the following inputs:
 
-- Layer 1 Type : Boundary Layer - 01 Vientiane capital
+- Layer 1 Type : Boundary Layer - LAO PDR
 - Layer 2 Type : Tracked Entity
 - Data:
   - Tracked Entity Type : Person
@@ -214,19 +220,18 @@ Create the map using the tracked entity layer with the following inputs:
   - Relationship type : Has Been in Contact with
 - Period :
   - Program/Enrollment date
-  - Start/ End Date : January 1, 2023 - July 31, 2024
+  - Start/ End Date : January 1, 2023 - June 30, 2024
 - Org Units : 0001 CH Mahosot
 - Style : leave as default
 
-
 The map should look like this
 
-![map2](resources/images/maps/map2.png)
+![map2](resources/images/maps/contactsnew.png)
 
 **Boundary Layer**
 
 
-![map2_boundary](resources/images/maps/map2_boundary.png)
+![map2_boundary](resources/images/maps/mapnew5.png)
 
 ---
 
@@ -234,11 +239,11 @@ The map should look like this
 
 **Data Tab**
 
-![map2_data](resources/images/maps/map2_data.png)
+![map2_data](resources/images/maps/map2_datanew.png)
 
 **Relationships Tab**
 
-![map2_relationships](resources/images/maps/map2_relationships.png)
+![map2_relationships](resources/images/maps/map2_relationshipsnew.png)
 
 Explain the relationships tab in a bit more detail as you are configuring this part of the map. This allows you to show relationships between tracked entities, but has a large warning message as it is still in development.
 
@@ -246,15 +251,15 @@ One of the main drawbacks when using the relationship layer is that it only allo
 
 **Period Tab**
 
-![map2_period](resources/images/maps/map2_period.png)
+![map2_period](resources/images/maps/map2_periodnew.png)
 
 **Org Units Tab**
 
-![map2_OUs](resources/images/maps/map2_OUs.png)
+![map2_OUs](resources/images/maps/map2_OUsnew.png)
 
 **Style Tab**
 
-![map2_style](resources/images/maps/map2_style.png)
+![map2_style](resources/images/maps/map2_stylenew.png)
 
 Explain the style tab in a bit more detail as you are reviewing it. You can see here you can select the colour of tracked entity, its related entities and the line used to represent the relationship. This allows you to customize the output of these relationship outputs slightly when creating the map layer.
 

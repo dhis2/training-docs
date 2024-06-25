@@ -118,27 +118,31 @@ The android app will display the map screen in event or tracker programs that co
 
 #### Open the map
 
-To access the demo map open the Contact tracing program. At the bottom you’ll see the navigation bar. Select the map icon to access the map (note, in order to use this feature, your program needs to be collecting the coordinate during registration).
+To access the demo map open the Case based Surveillance program. At the bottom you’ll see the navigation bar. Select the map icon to access the map (note, in order to use this feature, your program needs to be collecting the coordinate during registration).
 
-![open_map](resources/images/android_analysis/image2.png)
+![open_map](resources/images/android_analysis/cbsmap.png)
 
 #### Cycle through the carousel
 
-After opening the map icon, you will see TEI details at the bottom of the screen. This is referred to as the map carousel. You can scroll through all of the individuals registered in this program by scrolling horizontally the carousel.  The map will zoom into the selected coordinates. If there are no coordinates shen a message will be shown. Each card in the carousel displays the tracked entity attributes marked as ‘Display in list’ when you configure your program. Click on the arrow to expand the card information. 
+After opening the map icon, you will see TEI details at the bottom of the screen. This is referred to as the map carousel. You can scroll through all of the individuals registered in this program by scrolling horizontally the carousel.  The map will zoom into the selected coordinates. If there are no coordinates then a message will be shown. Each card in the carousel displays the tracked entity attributes marked as ‘Display in list’ when you configure your program. Click on the arrow to expand the card information. 
 
-![](resources/images/android_analysis/image5.png)
+![](resources/images/android_analysis/mapopen.png)
 
 If the TEI contains an image as an attribute you will also see the picture instead of the Person icon. 
 
 Click on the card to open the TEI dashboard
 
-![select_card](resources/images/android_analysis/image5.png) ![tei_dashboard](resources/images/android_analysis/image7.png)
+![](resources/images/android_analysis/mapopentei.png) 
+
+![](resources/images/android_analysis/mapteidash.png)
 
 #### Navigate to the TEIs location (than switch back to the original maps display)
 
 From the TEI dashboard, select back. This will take you back to the map. If the TEI or event has coordinates then a navigation icon will be displayed at the top right corner of the card. When you click it, your device will ask to select an app to open the location (if you have multiple maps apps, if not it will use the default one). This will take you to the location in the maps app you have selected.
 
-![navigate_to_location](resources/images/android_analysis/image4.png) ![tei_location](resources/images/android_analysis/image16.png)
+![navigate_to_location](resources/images/android_analysis/cbsmap2.png) 
+
+![tei_location](resources/images/android_analysis/cbsmap3.png)
 
 #### Change the map layers to show the heatmap and use the satellite **view**
 
@@ -146,17 +150,19 @@ Go back to the maps information by selecting back on your device. By clicking th
 
 Map layers you will see here include (depending on the configuration of the program): TEI coordinates, enrollment coordinates, Individual stage coordinates,  relationships, heatmap, tracked entity attributes of coordinate type, and data elements of coordinate type.
 
-In the COVID-19 Contact Registration & Follow-up program the app offers the TEI and Enrollment coordinate. Select the satellite view and the heatmap to show how the map changes, click on the “Apply” button to the changes.
+In the Case based surveillance program the app offers the TEI and Enrollment coordinate. Select the satellite view and the heatmap to show how the map changes, click on the “Apply” button to the changes.
 
-![map_view](resources/images/android_analysis/image1.png) ![select_heatmap](resources/images/android_analysis/image10.png) ![view_heatmap](resources/images/android_analysis/image12.png)
+![map_view](resources/images/android_analysis/mapopen3.png) 
+
+![map_view](resources/images/android_analysis/mapopenheatlayer.png) 
 
 #### Navigate to your location
 
 If the user grants location permissions to the App, the map will show the current location represented as a blue color dot. The maps in the DHIS2 Android Capture App now include the possibility to center the map on the user location.
 
-![user_location](resources/images/android_analysis/image9.png)
+![user_location](resources/images/android_analysis/cbsmap4.png)
 
-#### STOP! Have them perform *Exercise 1* in the learner's guide.
+#### STOP! Have them perform Exercise 1 
 
 ### Review data element evolution charts within the COVID-19 contact registration & follow-up program
 
