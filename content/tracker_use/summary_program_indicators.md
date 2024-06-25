@@ -1,11 +1,14 @@
 # Program Indicators - Session Summary
 
-- A program indicator is derived from individual level event or tracker data
-- We can use program indicators in data visualizer, maps and event reports by selecting them as a data item
-- There are two types of program indicators:
+A program indicator is derived from individual level event or tracker data
+We can use program indicators in data visualizer, maps and event reports by selecting them as a data item
+
+There are two types of program indicators:
+
   - Event : will perform an operation based on all of the events within a single program stage
   - Enrollment : Uses data from the most recent event; can combine data from multiple program stages
-- Program indicators can function on two levels:
+
+Program indicators can function on two levels:
   - Showing data for one event/tracked entity instance
   - Showing summary data (counts, sums, averages, etc.) for all of the events/tracked entity instances within a specified org unit/period
 

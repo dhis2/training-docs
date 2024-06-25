@@ -53,7 +53,7 @@ https://github.com/dhis2/dhis2-android-capture-app/releases
 
 This will be denoted by “training” at the end of the APK file.
 
-![](resources/images/tracker_capture_android/image1.png)
+![](resources/images/tracker_capture_android/image1new.png)
 
 ### Projecting your Android Device
 
@@ -106,7 +106,7 @@ Some participant's may not have been able to install the app by themselves. In t
 
 Before starting, login to the android app using your training instance.
 
-### Review the maps display within the COVID-19 contact registration & follow-up program
+### Review the maps display within the contact tracing program
 
 The android app will display the map screen in event or tracker programs that contain one or more of the following elements:
 
@@ -118,7 +118,7 @@ The android app will display the map screen in event or tracker programs that co
 
 #### Open the map
 
-To access the demo map open the COVID-19 Contact Registration & Follow-up program. At the bottom you’ll see the navigation bar. Select the map icon to access the map (note, in order to use this feature, your program needs to be collecting the coordinate during registration).
+To access the demo map open the Contact tracing program. At the bottom you’ll see the navigation bar. Select the map icon to access the map (note, in order to use this feature, your program needs to be collecting the coordinate during registration).
 
 ![open_map](resources/images/android_analysis/image2.png)
 

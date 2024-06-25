@@ -121,9 +121,9 @@ This is the co-ordinate field that is used to display data within the event laye
 
 As a review, you can create a map using the event layer. The process is exactly the same as when working with an event. 
 
-We can create a map using data from the Case-Based Surveillance Program for Measles confirmed cases by lab. 
+We can create a map using data from the Case-Based Surveillance Program for Fever cases from Diagnostic and Clinical information
 
-Open the map "CBS - Lab confirmed cases, this year, by home location." This the map that you will create. You can explain the layout to the participants before continuing.
+Open the map "CBS - Fever cases, this year, by home location." This the map that you will create. You can explain the layout to the participants before continuing.
 
 Clear your inputs by going to File -> New.
 
@@ -131,27 +131,27 @@ Create the map using the event layer with the following inputs:
 
 - Layer Type : Boundary
   - Level 3
-- Layer Type : Event 
+- Layer Type : Event (CBS Location)
 - Data:
-  - Program : COVID-19 Case-base Surveillance
-  - Stage : Stage 3 - Lab Results
-  - Coordinate field : Event Location
+  - Program : Case-based Surveillance
+  - Stage : Stage 1 - Diagnostic & Clinical Information
+  - Coordinate field : CBS Location
   - Event status : all
 - Period : This Year
 - Org Units : User org units 2x below
 - Filter :
-  - Data item : CBS IgM Measles
+  - Data item : CBS Fever
 - Style :
   - Group events
-  - Style by data element : Years
+  - GEN - Sex
 
 The map should look like this
 
-![map1](resources/images/maps/map1.png)
+![map1](resources/images/maps/map1new.png)
 
 **Data Tab**
 
-![map1_data](resources/images/maps/map1_data.png)
+![map1_data](resources/images/maps/map1_datanew.png)
 
 **Period Tab**
 
@@ -159,19 +159,19 @@ The map should look like this
 
 **Org Units Tab**
 
-![map1_OUs](resources/images/maps/map1_OUs.png)
+![map1_OUs](resources/images/maps/map1_OUsnew.png)
 
 **Filter Tab**
 
-![map1_filter](resources/images/maps/map1_filter.png)
+![map1_filter](resources/images/maps/map1_filternew.png)
 
 **Style Tab**
 
-![map1_style](resources/images/maps/map1_style.png)
+![map1_style](resources/images/maps/map1_stylenew.png)
 
 As the events are grouped together, and you have chosen to style them by sex, we see the doughnut charts when we are zoomed out. As you zoom in however you will start to see the individual locations of each of these events. Select an event to see the details. 
 
-![map1_zoomed](resources/images/maps/map1_zoomed.png)
+![map1_zoomed](resources/images/maps/map1_zoomednew.png)
 
 As we can see, using this layer is the same whether we are using event or tracker data. As with our other analyses, we do have to keep in mind that the event layer will be displaying all the events within a program on this map; so in the case of repeated event data you can have multiple events on the map representing each of these events.
 
@@ -183,7 +183,7 @@ Go to the file menu and select the "Save" option
 
 Give the map a name and a description and select "Save"
 
-![map1_save_dialog](resources/images/maps/map1_save_dialog.png)
+![map1_save_dialog](resources/images/maps/map1_save_dialognew.png)
 
 #### Review how to download a map
 
@@ -191,31 +191,31 @@ Select the download option from within the app. This will open up a new dialog. 
 
 ![map1_download](resources/images/maps/map1_download.png)
 
-#### STOP! Have them perform *Exercise 1* in the learner's guide.
+#### STOP! Have them perform Exercise 1
 
 ### Create a map using the TEI layer with relationships
 
-We will now create a map using data from the COVID-19 Case-Based Surveillance Program where we will display relationships on the map.
+We will now create a map using data from the Case-Based Surveillance Program where we will display relationships on the map.
 
-Open the map "COVID_CBS - Cases and Contacts." This is the map that you will create. It is showing a person along with their relationships. In the context of this program, it means it is displaying index cases along with their contacts. The red circle in the map is the index case (or where the relationship was initiated from) and the black circles are the contacts.
+Open the map "CBS - Cases and Contacts." This is the map that you will create. It is showing a person along with their relationships. In the context of this program, it means it is displaying index cases along with their contacts. The red circle in the map is the index case (or where the relationship was initiated from) and the black circles are the contacts.
 
 Clear your inputs by going to File -> New.
 
 Create the map using the tracked entity layer with the following inputs:
 
-- Layer 1 Type : Boundary Layer - Vientiane Capital
+- Layer 1 Type : Boundary Layer - 01 Vientiane capital
 - Layer 2 Type : Tracked Entity
 - Data:
   - Tracked Entity Type : Person
-  - Program : COVID-19 Case-base Surveillance
+  - Program : Case-base Surveillance
   - Program status : all
 - Relationships : 
   - Display tracked entity relationships = yes
   - Relationship type : Has Been in Contact with
 - Period :
   - Program/Enrollment date
-  - Start/ End Date : January 1, 2024 - July 31, 2024
-- Org Units : CHW Mitthaphap
+  - Start/ End Date : January 1, 2023 - July 31, 2024
+- Org Units : 0001 CH Mahosot
 - Style : leave as default
 
 
