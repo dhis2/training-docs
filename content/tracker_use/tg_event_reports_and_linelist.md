@@ -57,25 +57,25 @@ In an in-person setting, the participants may be doing the demo with you at the 
 
 1. Review the events reports interface
 
-Create an aggregate/pivot table using Electronic Immunization registry in Event Report App
-- Table Style : Pivot, Output Type : Event
-- Program : Electronic Immunization Registry
-- Stage : Stage - Immunization
-- Data : Diagnoised with HIV and severe Immuno deficiency
-- Age (apply the Age COVID-19 Legend), Sex
-- Period : This year
-- Org Unit : Country
+Create an aggregate/pivot table using Malaria Case Notification program in Event Report App
+   - Table Style : Pivot, Output Type : Event
+   - Program : Malaria Case Notification program
+   - Stage : Stage  - Case Outcome
+   - Data : Malaria Final Classification (select Indigenious (local) as the filter), Age , Sex
+   - Period : This year
+   - Org Unit : Country
 
 STOP - Perform Exercise 1
 
 2. Create a line list in event reports
+
 - Table Style : Line list, Output Type : Event
-- Program : COVAC - COVID-19 Vaccination Registry
+- Program : Electronic Immunization Registry
 - Stage : Vaccination
 - Data
-  - First Name, Surname, National ID, Sex
-  - Vaccine Name
-  - Dose Number (Filter by 1st dose)
+  - Given Name, Family Name,Unique System Identifier, Sex
+  - Vaccine Name - BCG 0.05 mL
+  - Sex - Filter (Male)
 - Period : This year
 - Org Unit : Country
 
@@ -83,97 +83,107 @@ Demo how to download the table, save the table
 
 STOP - Perform Exercise 2
 
-3. In the Line List app, review the Line List interface with the table "COVID_CBS - Patients with Symptoms" open 
+3. In the Line List app, review the Line List interface with the table "Patient Line List - Temp Evalulation/Travel History" open 
   
 - Add a data element
 - Modify the org units
 - Modify the period
 
-Create a line list using COVID-19 Surveillance Case Based program in the Line List App
+Create a line list using **Malaria case notification program** in the Line List App
 
-- Input : Event
+Select Program : Malaria case notification , investigation and response
+Select Stage: Diagnosis and treatment
 
-- **Program Dimension**:
-  - First Name
-  - Date of Birth
-  - Country of Residence
-  - Local Case ID
-  - Temperature
-  - Travel 14 days prior to onset of any symptom
-- Org Unit: Vientiane Capital (Lao PDR - Vientiane Capital)
-- Date of Consultation: Last month
+**Input** : Event  : Event
+
+**Program Dimension**: For this we will select the following program dimensions
+
+- Given Name
+- Family Name
+- Date of Birth
+- Address
+- Local Case ID
+- Temperature
+- Recent travel within the country
+- Recent travel outside the country
+
+Select OU: 01 Vientiane Capital
+
+Date of Consultation: Last 3 months
 
 STOP - Perform Exercise 3
 
-4. Create a list type event report for a repeatable stage using the COVID-19 surveillance program
+4. Create a list type event report for a repeatable stage using the Electronic immunization registry program
 
+Open the table "EIR - HIV Summary (Event)"
+Clear your inputs by going to Favorites -> New.
+
+Create an event report with the following inputs:
 - Input : Event
-- Program : COVID-19 Case-based Surveillance, Stage : Lab Request
+- Program : Electronic Immunization registry, Stage : Immunization
 - Program Dimension :
-  - Local Case ID : ID-5353942
-  - First Name
-  - Surname
-  - Lab Test Reason
-  - Type of test
-  - Type of specimen
-- Case Registration Date : This Year
-- Org Unit : CHW Mahosot
+  * EPI Number : EPI_12581
+  * Given Name
+  * Family name
+  * Diagnosed with HIV and severe immunodeficiency
 
-- Update the report using enrollment as the output type to compare and explain the differences in whats shown
+Update the report using enrollment as the output type to compare and explain the differences in whats shown
 
 STOP - Perform Exercise 4
 
 5. Update the report with the most recent events and oldest events using the Input type as Enrollment
 
-- Table : Line List
 - Input : Enrollment
-- Program : COVID-19 Case-based Surveillance
-- Program Dimensions : Select Type: All Types
-- Data :
-  - Local Case ID
-  - First Name
-  - Surname
-  - Lab Test Reason
-  - Type of test from Stage 2
-  - Type of specimen from Stage 2
-- Case Registration Date : This Year
-- Org Unit : CHW Mahosot
+- Program : Electronic Immunization registry, Stage : Immunization
+- Program Dimension :
+  * EPI Number
+  * Given Name
+  * Family name
+  * Diagnosed with HIV and severe immunodeficiency
 
-For the DE "Lab Test Reason" add in the oldest 2 and 2 most recent events
+- Registration Date : This Year
+- Org Unit : 0001 CH Mahosot
+
+For the DE "Diagnosed with HIV and severe immunodeficiency" add in the oldest 2 and 2 most recent events
 
 STOP - Perform Exercise 5
 
-6. Compare aggregate/pivot table event and enrollment reports using a repeatable stage in event reports
-- Open the tables "COVAC - Doses by sex" and "COVAC - Registrations by sex" in two seperate tabs
-- Explain what the difference is between event and enrollment aggregation
+6. Create a line list with legends 
+
+**Input**  Event
+
+**Program** Case-based Surveillance
+
+**Stage** Diagnostic and Clinical Information
+
+Select Attributes:
+     
+   - System case ID
+   - Given Name
+   - Date of Birth
+   - Home Address 
+
+Select Data Elements:
+
+   - Temperature at Admission
+   - Travel days outside district before onset of Rash
+
+Date of notification : Last 3 month
+
+OU : 0001 CH Mahosot
+
+Select Options > Go to Legend 
+
+   - Enable use a legend for table cell colors
+   - Legend style: Legend changes backgroung colour
+   - Legend type: Choose a single legend for the entire visualization
+   - Legend : Select pre-defined legend set "Fever"
 
 STOP - Perform Exercise 6
 
-7. Create a line list enrollment report using multiple stages from the COVID-19 surveillance program in the line listing app
+7. Review the recap slide
 
-- Input : Enrollment
-- Program : COVID-19 Case-based Surveillance
-- Program Dimensions - 
-  - Program attribute
-    - First Name
-    - Surname
-    - Sex
-  - Data Element Stage 1 - Clinical Exam
-    - Underlying condition
-     - Signs/symptoms present
-  - Data Element Stage 3 - Lab Results
-    - Type of Test
-    - Lab Test Result
-  - Data Element Stage 4 - Health Outcome
-    - Health Outcome
-- Case Registration Date (Period) : This Year
-- Org Unit : Country
-
-STOP - Perform Exercise 7
-
-8. Review the recap slide
-
-9.  Have them perform the assignment
+8.  Have them perform the assignment
 
 Once they have completed all of the ungraded exercises, they should then complete the graded assignment
 
@@ -254,7 +264,10 @@ Create a new report by going to Favorites -> New and select the following detail
 - Program : Electronic Immunization Registry
 - Stage : Vaccination
 - Data
-  - Given Name, Family Name,Unique System Identifier, Sex
+  - Given Name, 
+  - Family Name,
+  - Unique System Identifier, 
+  - Sex
   - Vaccine Name - BCG 0.05 mL
   - Sex - Filter (Male)
 - Period : This year
@@ -471,7 +484,10 @@ Before you create this report, open up a record from tracker capture that has re
 
 - Org Unit : 0001 CH Mahosot (Lao PDR - Vientiane Capital - 0101 Chanthabouli)
 - Program : Electronic Immunization Registry
-- Unique System Identifier (EPI) : EPI_12581, First Name :Brent, Last Name : Hicks, Sex : Male
+- Unique System Identifier (EPI) : EPI_12581
+- First Name :Brent, 
+- Last Name : Hicks, 
+- Sex : Male
 
 Open up this record and navigate to the "Immunization" stage within this program. Here you will see that there is more then one event within this program stage. Over the next several demonstrations, we will discuss the difference of event vs. enrollment report types and how repeated stage data is affected by this selection.
 
@@ -632,35 +648,39 @@ Click on Update
 
 ### Create a line list program using legends
 
-Kindly follow the steps to create above line list
+Legends are used to create visual representations of data, such as color-coded maps or charts, to help interpret the data more easily. When it comes to creating legends in a line list app within DHIS2, the process involves the following steps
 
-1. Click on the **Input** - Select “Event”.
+    Define Legend sets - Before using legends in a line list, you need to define legend sets. Legend sets categorize data into different ranges with corresponding colors.
 
-2. Select **Program** :“Case-based Surveillance”.
+Using legends in line list,kindly follow the below steps to create line list
 
-3. Select **Stage** : "Diagnostic and Clinical Information"
+**Input** - Select “Event”.
+
+**Program** :“Case-based Surveillance”.
+
+**Stage** : "Diagnostic and Clinical Information"
 
 ![](resources/images/linelist/legendimagenew1.png)
 
-4. Select Attributes:
+ Select Attributes:
      
-     * System case ID
-     * Given Name
-     * Date of Birth
-     * Home Address 
+* System case ID
+* Given Name
+* Date of Birth
+* Home Address 
 
-5. Select Data Elements:
+ Select Data Elements:
 
-     * Temperature at Admission
-     * Travel days outside district before onset of Rash
+ * Temperature at Admission
+* Travel days outside district before onset of Rash
 
 ![](resources/images/linelist/legendimagenew2.png)
 
-6. Select Date of notification : Last 3 month
+**Date of notification** Last 3 month
 
-7. Select OU : 0001 CH Mahosot
+**Organization unit** 0001 CH Mahosot
 
-8. Select Options > Go to Legend 
+**Options** > Go to Legend 
 
    * Enable use a legend for table cell colors
    * Legend style: Legend changes backgroung colour
@@ -671,7 +691,7 @@ Kindly follow the steps to create above line list
 
 ![](resources/images/linelist/legendimage4.png)
 
-8. Click Update
+ Click on Update to see the below table
 
 ![](resources/images/linelist/legendimage5.png)
 
