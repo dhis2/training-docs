@@ -1,4 +1,4 @@
-# Trainer’s guide to Capture App & Analysis Fundamentals (Web-Based)
+# Trainer’s guide to Capture App (Web-Based)
 
 ## What is this guide?
 
