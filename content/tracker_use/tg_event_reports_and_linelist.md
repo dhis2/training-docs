@@ -57,7 +57,8 @@ In an in-person setting, the participants may be doing the demo with you at the 
 
 1. Review the events reports interface
 
-Create an aggregate/pivot table using Malaria Case Notification program in Event Report App
+   Create an aggregate/pivot table using Malaria Case Notification program in Event Report App
+
    - Table Style : Pivot, Output Type : Event
    - Program : Malaria Case Notification program
    - Stage : Stage  - Case Outcome
@@ -65,23 +66,23 @@ Create an aggregate/pivot table using Malaria Case Notification program in Event
    - Period : This year
    - Org Unit : Country
 
-STOP - Perform Exercise 1
+   STOP - Perform Exercise 1
 
 2. Create a line list in event reports
 
-- Table Style : Line list, Output Type : Event
-- Program : Electronic Immunization Registry
-- Stage : Vaccination
-- Data
-  - Given Name, Family Name,Unique System Identifier, Sex
-  - Vaccine Name - BCG 0.05 mL
-  - Sex - Filter (Male)
-- Period : This year
-- Org Unit : Country
+   - Table Style : Line list, Output Type : Event
+   - Program : Electronic Immunization Registry
+   - Stage : Vaccination
+   - Data
+     - Given Name, Family Name,Unique System Identifier, Sex
+     - Vaccine Name - BCG 0.05 mL
+     - Sex - Filter (Male)- 
+   - Period : This year
+   - Org Unit : Country
 
-Demo how to download the table, save the table
+    Demo how to download the table, save the table
 
-STOP - Perform Exercise 2
+   STOP - Perform Exercise 2
 
 3. In the Line List app, review the Line List interface with the table "Patient Line List - Temp Evalulation/Travel History" open 
   

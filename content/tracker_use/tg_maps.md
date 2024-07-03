@@ -127,7 +127,7 @@ This is the co-ordinate field that is used to display data within the event laye
 
 As a review, you can create a map using the event layer. The process is exactly the same as when working with an event. 
 
-We can create a map using data from the Case-Based Surveillance Program for Fever cases from Diagnostic and Clinical information
+We can create a map using data from the Case based surveillance Program for Fever cases from Diagnostic and clinical information
 
 Open the map "CBS - Fever cases, this year, by home location." This the map that you will create. You can explain the layout to the participants before continuing.
 
@@ -140,13 +140,13 @@ Create the map using the event layer with the following inputs:
 - Layer Type : Event (CBS Location)
 - Data:
   - Program : Case-based Surveillance
-  - Stage : Stage 1 - Diagnostic & Clinical Information
+  - Stage : Stage 1 - Diagnostic and clinical information
   - Coordinate field : CBS Location
   - Event status : all
 - Period : This Year
 - Org Units : User org units 2x below
 - Filter :
-  - Data item : CBS Fever
+  - Data item : Exposure type
 - Style :
   - Group events
   - GEN - Sex
