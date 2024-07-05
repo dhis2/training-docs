@@ -1,4 +1,4 @@
-# Trainer’s Guide to Tracker Capture (Android)
+# Trainer’s Guide to Capture (Android)
 
 ## What is this guide?
 
@@ -56,7 +56,7 @@ https://github.com/dhis2/dhis2-android-capture-app/releases
 
 This will be denoted by “training” at the end of the APK file.
 
-![image-20211001125252307](resources/images/tracker_capture_android/image-20211001125252307.png)
+![](resources/images/tracker_capture_android/apk_install.png)
 
 ### Projecting your Android Device
 
@@ -89,7 +89,7 @@ Before starting the demonstration, please keep in mind that the most important t
 1. Log in to the system on the Android device
 2. Select the Case-based Surveillance program and go over the interface that appears.
 3. Review the filters options available on this page
-4. Search for a person that already exists (Theo Flury)
+4. Search for a person that already exists (BAB114160, Theo Flury)
 5. Open their record, see all the events that are present. Review the tabs on the person dashboard
 6. Select “See details” to view the detailed attributes
 7. Go back and select any event associated with the record to show the data that is there
@@ -161,7 +161,7 @@ Open this record by selecting it.
 
 ![cbs_search_result](resources/images/tracker_capture_android/cbs_search_resultnew.png)
 
-You will see all the events associated with the case within the case-base surveillance program, starting with the most recent event. 
+You will see all the events associated with the case within the case-base surveillance program, starting with the most recent event in each program stage. 
 
  There are 4 tabs at the bottom when you open the record. You can discuss what each tab is and how it relates to what would normally be seen on tracker capture (web). 
 
@@ -174,7 +174,7 @@ These tabs at the bottom screen from left to right represent:
 3. The relationships widget
 4. The notes widget
 
-Navigate back to the details tabs
+Navigate back to the details tab
 
 You can use the “Edit Person" button within this tab to show (and edit if access allows) all of the attribute information related to the individual. Go back and review the event list after reviewing the person's details.
 
@@ -182,12 +182,13 @@ You can use the “Edit Person" button within this tab to show (and edit if acce
 
 ![](resources/images/tracker_capture_android/editpersonpage.new.png)	
 
+Exit this page by using the arrow in the top left corner of the screen.
 
-Select the first stage followed by the event within it. Navigate through the various sections to show that the data within the stage has been entered and can be reviewed or updated on the device.
+Select the first stage "Diagnostic & Clinical Information" followed by the event within it. Navigate through the various sections to show that the data within the stage has been entered and can be reviewed or updated on the device.
 
 ![image-20211001131843454](resources/images/tracker_capture_android/cbs_stage1new.png)	
 
-Exit the record to proceed.
+Exit the event to proceed.
 
 #### STOP! Have them perform Exercise 1
 
