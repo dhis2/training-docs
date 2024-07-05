@@ -320,33 +320,56 @@ The dashboard starts with the following items:
 
 ### Part 4 : Data Entry Steps
 
-- To start entering data you need to select a stage and click on **"Add New Event"** for a stage.
+- To start entering data you need to select a stage and click on **"New Event"** for a stage. Events can also be automatically generated upon enrollment, which is the case in our example program.
 
-- Select the Date and fill out the data. When you see dataelements you will only see the two are three vacines as per the suggested age.This is a result of using program rules which have been defined to allow for these to be hidden upon the appropriate selection of another data element value. 
-- When you have entered some data, click on “Complete.”
+- In cases where the event is automatically generated you can select the event in order to start entering data into the program stage.
 
+ ![](resources/images/capture/new_event.png)
 
-  ![](resources/images/capture/newevent1.png)
+- Select the Date and fill out the data. 
 
-  ![](resources/images/capture/dataentry.png)
+ ![](resources/images/capture/complete_event.png)
 
+ 1. Select a report date
+ 2. Fill in the data for the event
+ 3. Complete the event
+ 4. Select save
 
-A prompt will ask you if you are sure you want to create a new event.
+  ![](resources/images/capture/saved_event.png)
 
-![](resources/images/capture/newevent.png)
+After saving the event, you will see a summary of the event you have saved. From here, you can select "Back to all stages and events" in order to proceed.
 
-Also it will show you warnings based on the data value entered in the form.
+Note that the option to add a new birth details event is now greyed out. This is because this is a non-repeatable program stage, meaning it can only have one event within the stage.
 
-After you complete , you can schedule another event. 
+If an event is not automatically created, then you will have to make a new event. This is the case in the "Immunization" program stage. Select "New Immunization event" to create a new event for this stage.
 
-- Click on Schedule tab and this will automatically schedule a new event based on the next dose date suggested through program rule on the basis of duration and type of dose. Click on "Schedule" if you are ok with the date as suggested or else you can schedule the date.
+![](resources/images/capture/create_event.png)
 
-   ![](resources/images/capture/schedule.png)
+From here, we follow the same steps as before to fill in information for the event. 
 
-- This will be seen under the "Stage and events" in the main TEI dashboard where you can see the scheduled event on the **top of the list**. This is all to take advantage of the program rules that are in place to allow for different vaccines to appear based on the schedule defined previously. 
+![](resources/images/capture/imm_event.png)
 
-  ![](resources/images/capture/schedule1.png)
+Note that you only see the vaccines that are given at birth in this initial event. This is a result of program rules that have implemented a vaccination schedule based on the child's date of birth.
 
+As the immunization stage is repeatable (a person will attend multiple vaccination events over time) We can schedule the next vaccination visit by selecting "schedule an event" from the tracker dashboard.
+
+![](resources/images/capture/schedule_event.png)
+
+It will give you a suggested date based on the program configuration; however you can change this if needed. As the next routine dose is typically 6 weeks after birth, select a date 6 weeks or beyond the date of birth. Select "Schedule" to schedule the event. This will take you back to the tracker dashboard, where you will see the event listed along with the expected visit date.
+
+![](resources/images/capture/next_event.png)
+
+If you quickly open this event up and select a date 6 weeks from the date of birth, you will now see the next routine doses in the schedule.
+
+![](resources/images/capture/imm_rules.png)
+
+In summary, the data entry process is as follows.
+
+1. Register a new TEI if it doesnt exist
+2. Find an existing TEI if it does exist
+3. Review the stages and events section of the tracker dashboard
+4. Update automatically generated events or add new events as needed
+5. For repeatable stages, events can be scheduled as well as being created as needed
 
 #### Add a Relationship
 
