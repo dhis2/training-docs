@@ -19,11 +19,10 @@ The overall objective of this session is to use the DHIS2 event reports app to r
 
 1. Describe the functions of the event reports app
 2. Explain the difference between event and enrollment type reports
-3. Comparison of line list reports using tracker data in event reports and line list app.
-4. Describe the functions of the line listing app
-5. Design line listing reports using tracker data
-6. Describe the differences between how repeated and non-repeated stage data is displayed
-7. Design line listing reports showing data from multiple tracker program stages
+3. Describe the functions of the line listing app
+4. Design line listing reports using tracker data
+5. Describe the differences between how repeated and non-repeated stage data is displayed
+6. Design line listing reports showing data from multiple tracker program stages
 
 ## Time Requirements
 
@@ -205,11 +204,11 @@ If choosing the start/end dates than you can select exact dates to filter events
 
 ![start_end_date](resources/images/event_reports/start_end_dates.png)
 
-### Create an aggregate/pivot table using Malaria Case notification in Event Report App
+### Create an aggregate/pivot table using the Malaria Case notification program in the Event Report App
 
 Open the table "MALARIA_CS - Final Malaria Classification by Age & Sex." This is the table that you will create. You can explain the layout to the participants - including the table style, output type, data, periods and org units, before proceeding.
 
-> Event reports is currently the only app where you can make on the fly pivot tables using event/tracker data. This is not yet available in the line listing app, so the event reports and the line listing app need to be used in parrallel currently for the best results.
+> Note: Event reports is currently the only app where you can make on the fly pivot tables using event/tracker data. This is not yet available in the line listing app, so the event reports and the line listing app need to be used in parrallel currently for the best results.
 
 Clear your inputs by going to Favorites -> New.
 
@@ -218,7 +217,10 @@ Create an aggregate event report. You can use the following data items as an exa
 - Table Style : Pivot, Output Type : Event
 - Program : Malaria Case Notification program
 - Stage : Stage  - Case Outcome
-- Data : Malaria Final Classification (select Indigenious (local) as the filter), Age , Sex
+- Data : 
+  - Malaria Final Classification (select Indigenious (local) as the filter), 
+  - Age (years), Range Set = MAL-CS-Malaria age group
+  - Sex
 - Period : This year
 - Org Unit : Country
 
@@ -232,13 +234,13 @@ Start with the layout. The layout can should like this
 
 ![table1_pivot_layout](resources/images/event_reports/pivotnew2.png)
 
-Next, hide any empty rows using the table options.
+Next, hide any empty rows and n/a data using the table options.
 
 ![hide_empty_rows](resources/images/event_reports/hide_empty_rows.png)
 
 Now you should see the the table following the layout we've intended.
 
-Note that you can modify the way data that is collected through tracker (and event) programs is aggregated. You can demonstrate this by changing the legend for the Age attribute to Age (COVAC) and updating the table.
+Note that you can modify the way data that is collected through tracker (and event) programs is aggregated. You can demonstrate this by changing the legend for the Age attribute to Age (CBS) and updating the table.
 
 ![age_selection](resources/images/event_reports/pivotnew3.png)
 
@@ -246,13 +248,13 @@ Note that you can modify the way data that is collected through tracker (and eve
 
 You will see all the totals are the same; however the disaggregation of the data is different as the data has been seperated by new categorizations.
 
-This should be a review of concepts from the event fundamentals course; however if there are questions you can explain this concept a bit more by referring to the examples you will have on screen.
+This should be a review of concepts from the event fundamentals course; however if there are questions you can explain this concept a bit more as needed.
 
 #### STOP - Perform Exercise 1
 
 ### Review the line list functionality in Event Reports
 
-> The line listing functions in event reports have been replaced by the **line listing app**. We will utilize the line listing app to create line lists for the remainder of the session after this example, but to compare features for those who are familiar with event reports we will just do a quick review of how line lists work in event reports. If you feel this is not needed, you can go ahead and skip this section.
+> The line listing functions in event reports have been replaced by the **line listing app**. We will utilize the line listing app to create line lists for the remainder of the session after this example, but to compare features for those who are familiar with event reports we will just do a quick review of how line lists work in event reports. If you feel this is not needed, you can skip this section.
 
 In this exercise we will create a line list using an Electronic Immunization Registry.
 
@@ -262,14 +264,13 @@ Create a new report by going to Favorites -> New and select the following detail
 
 - Table Style : Line list, Output Type : Event
 - Program : Electronic Immunization Registry
-- Stage : Vaccination
+- Stage : Immunization
 - Data
   - Given Name, 
   - Family Name,
   - Unique System Identifier, 
   - Sex
-  - Vaccine Name - BCG 0.05 mL
-  - Sex - Filter (Male)
+  - EIR - BCG 0.05 mL
 - Period : This year
 - Org Unit : Country
 
@@ -305,13 +306,15 @@ and download the list
 
 ### In the Line List app, review the Line List interface
 
+> NB: We are using the line listing app version 100.15.1. Newer versions of the line listing app introduce cross program analytics, which have not yet been fully tested against our material. Please ensure you are using this version of the app.
+
 Have the line listing app open in another tab or window with the table "CBS - Patients with Symptoms" open
 
 ![](resources/images/linelist/interfacepdnew.png)
 
 In the Line Listing app, you can currently only make line lists. Aggregated pivot tables can not be made here unlike in the event reports app. The line listing app introduces many new features for creating line lists however, and is the recommended app for making these lists.
 
-> NB: We will be using the line listing app to make line lists for the remainder of this session. We will only be using the "Pivot" table style in event reports to produce aggregate outputs. This is our suggested approach in live implementations as well. 
+> Note: We will be using the line listing app to make line lists for the remainder of this session. We will only be using the "Pivot" table style in event reports to produce aggregate outputs. This is our suggested approach in live implementations as well. 
 
 #### Input 
 
@@ -378,7 +381,7 @@ There are multiple ways to add data dimensions to the layout. They can be added 
 
 Lets add a data element to this table.
 
-From the program dimensions tab, filter out the type to data elements. Search or find the data element "Shortness of breath." Either select the plus sign or drag the data element to the columns section above the table.
+From the program dimensions tab, filter out the type to data elements. Search or find the data element "Other signs/symptoms" Either select the plus sign or drag the data element to the columns section above the table.
 
 ![add_de](resources/images/linelist/add_denew.png)
 
@@ -386,7 +389,7 @@ Update the table and you should see it added to your columns on the table.
 
 #### Filter a data element option
 
-To add a filter to a data element, select the data element either before or after it has been added. Select signs/symptoms present.
+To add a filter to a data element, select the data element either before or after it has been added. Select other signs/symptoms present.
 
 ![add_filter](resources/images/linelist/add_filternew.png)
 
@@ -394,7 +397,7 @@ This will open a dialog box. Select the items you want to include in your filter
 
 ![filter_options](resources/images/linelist/filter_optionsnew.png)
 
-Select the Yes option and update the table.You will now only see patients that have signs/symptoms present in the table.
+Select the Yes option and update the table. You will now only see patients that have signs/symptoms present in the table.
 
 #### Change the org unit
 
@@ -435,12 +438,11 @@ This will depend on if you selected event or enrollment as the input type.
 
 ### Create a line list program using Input : Event
 
-In this exercise we will create a line list using a Malaria case notification , investigation and response.
+In this exercise we will create a line list using the Malaria case notification, investigation and response program.
 
-You can open the existing line list "Patient Line List - Temp Evalulation/Travel History
-"
+You can open the existing line list "MAL CS - Temp Evalulation/Travel History"
 
-Clear the input by going to File <New
+Clear the input by going to File -> New
 
 In this case we will be using
 
@@ -456,23 +458,20 @@ Select Stage: Diagnosis and treatment
 - Given Name
 - Family Name
 - Date of Birth
-- Address
 - Local Case ID
 - Temperature
 - Recent travel within the country
-- Recent travel outside the country
+- Travel outside the country
 
 Select OU: 01 Vientiane Capital
 
-Date of Consultation: Last 3 months
+Enrollment date: Last 3 months
 
-Your Dimension should be assigned to columns and organization unit to filter.
+Your Dimensions should be assigned to the columns and the organisation unit to the filter.
 
 ![](resources/images/linelist/tempsingleev1.png)
 
-You will see the line list for a single stage.
-
-Click on update
+Click on update. You will see the line list for a single stage.
 
 ![](resources/images/linelist/tempsingleev.png)
 
@@ -480,13 +479,13 @@ Click on update
 
 ### Create a list type event report for a repeatable stage using the Electronic Immunization Registry
 
-Before you create this report, open up a record from tracker capture that has repeated event data. The example used here has the following details that you can use to search for the person's record:
+Before you create this report, open up a record from capture that has repeated event data. The example used here has the following details that you can use to search for the person's record:
 
-- Org Unit : 0001 CH Mahosot (Lao PDR - Vientiane Capital - 0101 Chanthabouli)
 - Program : Electronic Immunization Registry
+- Org Unit : 0001 CH Mahosot (Lao PDR - Vientiane Capital - 0101 Chanthabouli)
 - Unique System Identifier (EPI) : EPI_12581
-- First Name :Brent, 
-- Last Name : Hicks, 
+- First Name :Brent 
+- Last Name : Hicks 
 - Sex : Male
 
 Open up this record and navigate to the "Immunization" stage within this program. Here you will see that there is more then one event within this program stage. Over the next several demonstrations, we will discuss the difference of event vs. enrollment report types and how repeated stage data is affected by this selection.
@@ -501,14 +500,14 @@ We will now proceed to explain the how event and enrollment type reports handle 
 
 Open the table "EIR - HIV Summary (Event)" This the table that you will create. You can explain the layout to the participants before continuing.
 
-Clear your inputs by going to Favorites -> New.
+Clear your inputs by going to File -> New.
 
 Create an event report with the following inputs:
 
 - Input : Event
 - Program : Electronic Immunization registry, Stage : Immunization
 - Program Dimension :
-  * EPI Number : EPI_12581
+  * Unique System Identifier (EPI) : EPI_12581
   * Given Name
   * Family name
   * Diagnosed with HIV and severe immunodeficiency
@@ -528,19 +527,19 @@ The table should look like this
 
 > Now you can explain how the event type report selection affects our output. When we are creating reports and use "event" as the input type, ALL of the events from within a program stage will be output on our report. There is a limitation here in that we can only pull all of our event data from within one program stage, and as a result they are not really "linked" together as they are separate lines within our report.
 
-We can further demonstrate this concept by showing more repeated event data. Modify the output so you are not filtering by any EPI ID and update the report. Try sorting the data by surname. Scroll through the report; you should see several repeated events displayed on this report.
+We can further demonstrate this concept by showing more repeated event data. Modify the output so you are not filtering by any Unique System ID and update the report. Try sorting the data by surname. Scroll through the report; you should see several repeated events displayed on this report.
 
    ![](resources/images/linelist/eventreportmultiple.png)
 
 In summary, when running an event report with repeatable data using "event" as the output type, all of the event data from a single program stage will be used in the report!
 
-Update the report using enrollment as the output type
+Update the report using enrollment as the output type.
 As a reminder, here are the selections to make
 
 - Input : Enrollment
 - Program : Electronic Immunization registry, Stage : Immunization
 - Program Dimension :
-  * EPI Number
+  * Unique System Identifier (EPI)
   * Given Name
   * Family name
   * Diagnosed with HIV and severe immunodeficiency
@@ -556,71 +555,85 @@ When we make this update, the number of records shown changes. This occurs becau
 
 >Note: there is an enhanced feature in the Line list app, with the help of which you can define the most recent events and the oldest events you want in the output.
 
-### Create a line list program using Input : Oldest events and Recent events
+#### STOP - Perform Exercise 4
 
-Kindly follow the steps to create above line list
+### Create a line list program using repeated event data linked together
 
-1. Click on the **Input** - Select “Enrollment”.
+In this example, you will be creating the following table (saved as EIR - HIV Immunodeficiency - Linked Repeated Events)
 
-2. Select **Program** :“Electronic Immunization registry”.
+![](resources/images/event_reports/repeated_events_example.png)
+
+In this table, repeated events all appear on one line linked to a single record, rather then in different lines or only showing the most recent event as in our previous examples.
+
+You can explain this before moving on.
+
+Follow these steps to create this line list. (clear the table by going to File-> New to get started.)
+
+1. Click on the **Input** - Select Enrollment
+
+2. Select **Program** : Electronic Immunization registry
 
    ![](resources/images/linelist/enrollnew5.png)
 
-3. Go to **Program Dimension** and Select Data Element from Stage - 
-*Immunization which is REPEATABLE in each event.*
+3. Go to the **Program Dimensions** tab. 
 
-   ![](resources/images/linelist/enrollnew6.png)
+4. Select OU: user org unit
 
-4. Click on the Data Element “Diagnosed with HIV and severe immunodeficiency , where you will be able to see the Repeated event tab.
+5. Date of Registration: Last 12 months 
 
-5. Select Yes HIV+,not on ART
+6. Add in the Family name and Given name. 
+
+7. Select the Data Element "Diagnosed with HIV and severe immunodeficiency," where you will be able to see conditions and Repeated event tabs.
+
+8. Select Yes HIV+,not on ART as your filter in the conditions tab.
 
    ![](resources/images/linelist/enrollnew8.png)
 
-6. To Select the number of times the most recent event and the oldest event : Click on Repeated Events and select value for newest and oldest.
+9. To Select the number of times repeated events to link together : Click on the Repeated Events tab and select the values for the most recent and oldest events
 
-   In this case we are selecting
-Most recent events : 2
-Oldest events : 1
+In this case we are selecting
+- Most recent events : 2
+- Oldest events : 1
 
    ![](resources/images/linelist/enrollnew9.png)
 
-7. Select OU: LAO
+10.  Click on update
 
-8. Date of Registration: Last 12 months 
-
-   ![](resources/images/linelist/enrollnew10.png)
-
-9. Click on update
-
-   ![](resources/images/linelist/enrollnew11.png)
+![](resources/images/event_reports/repeated_events_example.png)
  
 The advantage of this output is that we can have information from repeated events on a single line. This is different then when using the event input type, which lists repeated events on seperate lines.
 
-#### STOP! Have them perform Exercise 4
+#### STOP! Have them perform Exercise 5
 
 ### Create a line list program using Input : Enrollment
 
-For this you can open the already existing linelist "Patient line list (enrollment)"
+You can open the already existing linelist "CBS - Patient Details (Enrollment)" and review this together. This line list takes data from multiple program stages and displays it against the record. Review this and explain prior to creating the new line list.
 
-Follow the steps to create above Line list for enrollment type 
+Follow the steps to create this line list 
 
 1. Click on Input and Select Enrollement
 
    ![](resources/images/linelist/enroll1.png)
 
-2. Choose Program: Case based Surveillance
+2. Choose the Program: Case based Surveillance
 
    ![](resources/images/linelist/enrollnew1.png)
 
-3. Go to Program Dimension 
+Select the program dimensions tab.
 
-   To evaluate the across the stage we will select the following data dimensions:
+3. Select the OU : Lao PDR, Facility - Level 3
+
+4. Date of notification: This Month and Last 3 Month
+
+5. Select your data elements. Note you can filter data between stages by selecting Type = Data Element, then selecting the stage you want to filter from.
+
+   ![](resources/images/linelist/filter_by_stage.png)
+
+To evaluate data across the stages we will select the following data dimensions:
 
    Stage 1 : Diagnostic and clinical information
-   * Date of Admission
-   * Sign and symptoms cough ,
-   * fever, 
+   * Cough
+   * fever
    * Difficulty in breathing
    * Temperature at admission
 
@@ -629,56 +642,54 @@ Follow the steps to create above Line list for enrollment type
    * Date Specimen sent to laboratory
    * Type of Specimen
 
-   Stage 3: Lab Results
-   * PCR Date
-   * PCR test Result 
-   * Type of Specimen
-
-4. Select OU : Lao PDR, Facility - Level 3
-
-5. Case Notification Date: This Month and Last 3 Month
+   Stage 4: Final Classification
+   * Final classification
 
 ![](resources/images/linelist/enrollnew3.png)
 
-Click on Update 
+6. Click on Update 
 
 ![](resources/images/linelist/enrollnew4.png)
 
-#### STOP! Have them perform Exercise 5
+#### STOP! Have them perform Exercise 6
 
 ### Create a line list program using legends
 
-Legends are used to create visual representations of data, such as color-coded maps or charts, to help interpret the data more easily. When it comes to creating legends in a line list app within DHIS2, the process involves the following steps
+> Note: Defining Legend sets - Before using legends in a line list, you need to define the legend sets in maintenance. Legend sets categorize data into different ranges with corresponding colors.
 
-    Define Legend sets - Before using legends in a line list, you need to define legend sets. Legend sets categorize data into different ranges with corresponding colors.
+Legends are used to create visual representations of data, such as color-coded maps or charts, to help interpret the data more easily. 
 
-Using legends in line list,kindly follow the below steps to create line list
+A chart with a line list applied is saved as "". You can review this chart before moving on.
 
-**Input** - Select “Event”.
+Follow these steps to create this line list.
 
-**Program** :“Case-based Surveillance”.
+- **Input** : Event
 
-**Stage** : "Diagnostic and Clinical Information"
+- **Program** : Case-based Surveillance
+
+- **Stage** : Diagnostic and Clinical Information
 
 ![](resources/images/linelist/legendimagenew1.png)
 
- Select Attributes:
+In the program dimensions tab
+
+- **Organization unit** 0001 CH Mahosot
+
+- **Date of notification** Last 3 months
+
+Select the Attributes:
      
-* System case ID
 * Given Name
+* Family Name
 * Date of Birth
-* Home Address 
+* CBS_Clinical Diagnosis
 
  Select Data Elements:
-
- * Temperature at Admission
-* Travel days outside district before onset of Rash
+* Temperature at Admission
 
 ![](resources/images/linelist/legendimagenew2.png)
 
-**Date of notification** Last 3 month
 
-**Organization unit** 0001 CH Mahosot
 
 **Options** > Go to Legend 
 
@@ -701,7 +712,7 @@ You can also see the legend key is you select show legend key on the side bar.
 
 ![](resources/images/linelist/legendimage6.png)
 
-#### STOP! Have them perform Exercise 6
+#### STOP! Have them perform Exercise 7
 
 ## Assignment
 
