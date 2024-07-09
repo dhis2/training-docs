@@ -1,4 +1,4 @@
-# Trainer’s Guide to Tracker Capture (Android)
+# Trainer’s Guide to Capture (Android)
 
 ## What is this guide?
 
@@ -56,7 +56,7 @@ https://github.com/dhis2/dhis2-android-capture-app/releases
 
 This will be denoted by “training” at the end of the APK file.
 
-![image-20211001125252307](resources/images/tracker_capture_android/image-20211001125252307.png)
+![](resources/images/tracker_capture_android/apk_install.png)
 
 ### Projecting your Android Device
 
@@ -89,10 +89,13 @@ Before starting the demonstration, please keep in mind that the most important t
 1. Log in to the system on the Android device
 2. Select the Case-based Surveillance program and go over the interface that appears.
 3. Review the filters options available on this page
-4. Search for a person that already exists (Theo Flury)
+4. Search for a person that already exists (BAB114160, Theo Flury)
 5. Open their record, see all the events that are present. Review the tabs on the person dashboard
 6. Select “See details” to view the detailed attributes
 7. Go back and select any event associated with the record to show the data that is there
+
+STOP - Exercise 1
+
 8. Register a new case (if someone is following along; they should register a UNIQUE PERSON that is different from yours)
 9.  Add a new event to the person’s record
 10. Fill in the details of the form and save the event
@@ -161,7 +164,7 @@ Open this record by selecting it.
 
 ![cbs_search_result](resources/images/tracker_capture_android/cbs_search_resultnew.png)
 
-You will see all the events associated with the case within the case-base surveillance program, starting with the most recent event. 
+You will see all the events associated with the case within the case-base surveillance program, starting with the most recent event in each program stage. 
 
  There are 4 tabs at the bottom when you open the record. You can discuss what each tab is and how it relates to what would normally be seen on tracker capture (web). 
 
@@ -174,7 +177,7 @@ These tabs at the bottom screen from left to right represent:
 3. The relationships widget
 4. The notes widget
 
-Navigate back to the details tabs
+Navigate back to the details tab
 
 You can use the “Edit Person" button within this tab to show (and edit if access allows) all of the attribute information related to the individual. Go back and review the event list after reviewing the person's details.
 
@@ -182,12 +185,13 @@ You can use the “Edit Person" button within this tab to show (and edit if acce
 
 ![](resources/images/tracker_capture_android/editpersonpage.new.png)	
 
+Exit this page by using the arrow in the top left corner of the screen.
 
-Select the first stage followed by the event within it. Navigate through the various sections to show that the data within the stage has been entered and can be reviewed or updated on the device.
+Select the first stage "Diagnostic & Clinical Information" followed by the event within it. Navigate through the various sections to show that the data within the stage has been entered and can be reviewed or updated on the device.
 
 ![image-20211001131843454](resources/images/tracker_capture_android/cbs_stage1new.png)	
 
-Exit the record to proceed.
+Exit the event to proceed.
 
 #### STOP! Have them perform Exercise 1
 
@@ -215,29 +219,30 @@ Enter some details and try to search for the individual. You should get a messag
 
 ![image-20211001132003078](resources/images/tracker_capture_android/cre.png)
 
-Click on create new button and select an org unit in which to register the case into. Select Done once you have select the org unit.
+Click on new person button and select an org unit in which to register the case into. Select Done once you have select the org unit.
 
 ![enrollment_OU](resources/images/tracker_capture_android/select_enrollment_OUnew.png)
 
-After selecting the org unit, select the registration date. Select Accept once you have selected the date.
+After selecting the org unit, select the registration date (date of notification). Select OK once you have selected the date.
 
 ![registration_date](resources/images/tracker_capture_android/registration_datenew.png)
 
-You will then be prompted to enter the remaining attribute information of the person you are registering.
+You can then expand the attributes section by selecting "show fields" under the Attributes - Person heading to fill in the remaining attributes for this person.
 
 ![image-20211001132209804](resources/images/tracker_capture_android/attributeinformnew.png)	
 
 Fill in this information then select the disk icon in order to save the person's details and enroll them into the program.
 
-You will then be prompted to enter the initial details of the 1st stage. Confirm the date of consultation and select "Update."
+From here, you will be taken to the persons tracker dashboard. The event for the Diagnostic and Clinical information will be automatically generated. Select "Enter/skip event" in order to edit the details of this first event within this stage. 
 
-![](resources/images/tracker_capture_android/stage1new.png)	
+![](resources/images/tracker_capture_android/enter_event.png)	
 
-
-Then you must fill the information for first event.
+Then you must fill the information for first event. Start by selecting a date of data entry then:
 
 1. Fill in the details for each section
 2. Expand each section by using the tabs
+
+![](resources/images/tracker_capture_android/stage1new.png)	
 
 ![stage1_details](resources/images/tracker_capture_android/stage1_detailsnew.png)
 
@@ -259,20 +264,15 @@ Once you save the details, you will be taken back to the dashboard on the device
 
 ### Add a new event
 
-Click on the plus button underneath the second stage "Lab request." It will expand and give you some options, which you can explain to the participant.
-
-Select “Add new” to add a new event.
+Click on the plus button beside the second stage "Lab request." This will open up a context menu. Select “Add new” to add a new event.
 
 ![](resources/images/tracker_capture_android/addnewevent.png)		
 
-It will display the program stage, the data of the request and the org unit. 
-
-![](resources/images/tracker_capture_android/addnewevent1.png)	
-
+Select the org unit in which to register the event.
 
 ![](resources/images/tracker_capture_android/addnewevent2.png)
 
-Alter the date of lab request if you need to and select "next" to proceed.The form will load in which you can enter the event details. 
+Alter the date of lab request if you need to and expand the fields under the "Details" section to edit them.
 
 ![](resources/images/tracker_capture_android/addnewevent3.png)
 
