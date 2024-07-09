@@ -24,10 +24,8 @@ and the flow of the demo.
 
 ## Time Requirements
 
-- Live Demo: 2 demos, 15 minutes each
-- Hands-on Exercises: 2 exercises, 10 minutes each
-- Assignment: 
-
+- Live Demo: 3 demos, ~15 minutes each
+- Hands-on Exercises: 3 exercises, ~10 minutes each
 
 ## Background
 
@@ -63,13 +61,31 @@ In an in-person setting, the participants may be doing the demo with you at the 
    - Org Unit : All level 3 OUs
    
    Discuss how this data is being pulled from all the events within the stage, meaning repeated event data will be included. This is not really a concern when using data from a non-repeatable stage.
+
    - Review saving and downloading the chart if needed
 
-3. Review the chart "CBS - Measles Virus Detection - PCR" and discuss the difference between the output type options "Event" and "Tracked entity instance"
+STOP - Exercise 1
 
-4. Review the recap slide
+3. Create a chart using option sets. 
 
-5. Have them perform the assignment
+   - Open the chart "MAL CS - Case Outcome by location."
+   - Program : Malaria case notification, investigation and response
+   - Stage: Case outcome 
+   - Data items : MAL-CS - Outcome of illness
+   - Periods : This Year
+   - Org units : user sub-units
+
+Discuss how this chart is quickly seperating options in an option set.
+
+STOP - Exercise 2
+
+4. Review the chart "CBS - Measles Virus Detection - PCR" and discuss the difference between the output type options "Event" and "Tracked entity instance"
+
+STOP - Exercise 3
+
+5. Review the recap slide
+
+6. Have them perform the assignment
 
 ## Live Demo step by step
 
@@ -87,7 +103,7 @@ If choosing the start/end dates than you can select exact dates to filter events
 
 ![start_end_date](resources/images/event_reports/start_end_dates.png)
 
-### Review and create the chart "EIR - BCG 0.05 ml dose by Location"
+### Review and create the chart "EIR - BCG 0.05 ml dose by Location" (a chart using yes/no data elements)
 
 Open the chart "EIR - BCG 0.05 ml dose by Location" within event visualizer.
 
@@ -157,6 +173,35 @@ and download the chart
 
 #### STOP! Have them perform *Exercise 1* in the learner's guide.
 
+### Create a chart using option sets
+
+Open the chart "MAL CS - Case Outcome by location." This chart is showing malaria case outcomes as a stacked bar chart. While some functions of the event visualizer are not as useful as they could be, the event visualizer is very good at visualizing event data from option sets.
+
+Let us quickly make this chart.
+
+1. Chart Type : Stacked bar chart
+2. Program : Malaria case notification, investigation and response
+3. Stage: Case outcome
+4. Data items : MAL-CS - Outcome of illness
+5. Periods : This Year
+6. Org units : user sub-units
+
+Layout : 
+
+![option_set_chart_layout](resources/images/event_visualizer/option_set_chart_layout.png)
+
+After updating, this should be your final output:
+
+![option_set_chart](resources/images/event_visualizer/option_set_chart.png)
+
+You can quickly modify which options appear on the chart by filtering the data element in the data selection window
+
+![option_set_chart_filter](resources/images/event_visualizer/option_set_filter.png)
+
+You can modify these options and update the chart to see how it affects what data is shown.
+
+#### STOP! Have them perform *Exercise 2* in the learner's guide.
+
 ### Review and modify the chart "CBS - Measles Virus Detection - PCR"
 
 Open the chart "CBS - Measles Virus Detection - PCR" Nothing so unique about this chart; however we can note that it using data from Stage 4 - Lab Results in the surveillance program. This stage is repeatable, and by default we are seeing all of the events in this program stage being displayed on the chart.
@@ -178,11 +223,11 @@ Select the option "Tracked entity instance" and update the chart. You should see
 
 ![chart2_final](resources/images/event_visualizer/evnew5.png)
 
-> Why the different language between event reports and event visualizer regarding the output type? The Enrollment output type in event reports allows you to display information unique to an enrollment, as well as obtain data across an entire enrollment (meaning you can review data from multiple program stages together in the line list; and obtain unique counts via the pivot table). The "Tracked entity instance" output type in event visualizer is much more limiting. It does not allow you to pull data from multiple program stages; it just let's you count the number of unique tracked entities (in this case individual people) that meet the criteria you have set via your filters within a program stage 1 or more times. This can be useful but it is important to identify this distinction.
+> Note: Why the different language between event reports and event visualizer regarding the output type? The Enrollment output type in event reports allows you to display information unique to an enrollment, as well as obtain data across an entire enrollment (meaning you can review data from multiple program stages together in the line list; and obtain unique counts via the pivot table). The "Tracked entity instance" output type in event visualizer is much more limiting. It does not allow you to pull data from multiple program stages; it just let's you count the number of unique tracked entities (in this case individual people) that meet the criteria you have set via your filters within a program stage 1 or more times. This can be useful but it is important to identify this distinction.
 
 In explaining the concept above to the participant's, you can refer back to slide 4 in the presentation. 
 
-#### STOP! Have them perform *Exercise 2* in the learner's guide.
+#### STOP! Have them perform *Exercise 3* in the learner's guide.
 
 ## Recap
 
