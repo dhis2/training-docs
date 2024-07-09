@@ -1,4 +1,4 @@
-# Event Reports - Session Summary
+# Event Reports and Line Listing - Session Summary
 
 The Event Reports app enables analysis of events in two ways:
 1. Pivot table-style analysis with aggregated values of events
@@ -26,41 +26,47 @@ We can only show data from multiple stages using the combination of a line list 
 
 This type of report will summarize **all events** within a ***single*** program stage, including any repeated events within the stage you have selected.
 
-## Creating a line list table event report
+## Creating a line list - events
 
-1. Set your style  - Table Style : Line List, Output Type : Event
-2. Select your program, stage and data
-3. Define the filters for your data
-4. Select your period
-5. Select your org unit
-6. Modify the layout if needed
-7. Update the table to see the output
+1. Select your Input from the inputs tab
+   1. For events, select your program and stage
+2. From program dimensions tab
+   1. Select your org unit
+   2. Select your period
+   3. Select your relevant attributes and data elements
+3. Modify the layout if needed
+4. Update the table to see the output
 
 This type of report will create a line-by-line listing of **all events** that meet your filter criteria within a ***single*** program stage, including any repeated events within the stage you have selected.
 
-## Creating a pivot table enrollment report
-
-1. Set your style  - Table Style : Pivot, Output Type : Enrollment
-2. Select your program, stage and data
-3. Define the filters for your data
-4. Select your period
-5. Select your org unit
-6. Modify the layout if needed
-7. Update the table to see the output
-
-This type of report will summarize the **most recent event** within a ***single*** program stage. It therefore  allows you to make unique counts as it will not count repeated stage data multiple times.
-
 ## Creating a line list enrollment report
 
-1. Set your style  - Table Style : Line List, Output Type : Enrollment
-2. Select your program, stage and data
-   1. If you want to select data from more then one stage, switch stages and select the additional data and filters you want to add per program stage
-3. Select your period
-4. Select your org unit
-5. Modify the layout if needed
-6. Update the table to see the output
+1. Select your Input from the inputs tab
+   1. For enrollments, select your program
+2. From program dimensions tab
+   1. Select your org unit
+   2. Select your period
+   3. Select your relevant attributes and data elements
+      1. Note that you can filter your data elements by program stage when using enrollment as the input type
+3. Modify the layout if needed
+4. Update the table to see the output
 
-This type of report can create a line-by-line listing of the **most recent event** data across ***all*** program stages. 
+This type of report will summarize the **most recent event** within a ***single or multiple*** program stages. 
+
+## Creating a line list enrollment report with repeated events
+
+1. Select your Input from the inputs tab
+   1. For enrollments, select your program
+2. From program dimensions tab
+   1. Select your org unit
+   2. Select your period
+   3. Select your relevant attributes and data elements
+      1. Note that you can filter your data elements by program stage when using enrollment as the input type
+      2. Select a data element and navigate to the repeated events tab. Define the repeated events you want to appear here. You can do this for multiple data elements.
+3. Modify the layout if needed
+4. Update the table to see the output
+
+This type of report can create a line-by-line listing of the ***all*** of the events grouped by TEI across ***all*** of the program stages
 
 ## Saving an event report
 
@@ -69,6 +75,18 @@ This type of report can create a line-by-line listing of the **most recent event
 3. Provide your report with a name and save it
 
 ## Downloading an event report
+
+1. Select the downloads menu
+2. Select the format you want to download the report it
+3. Open the downloaded report by retrieving it from your downloads folder
+
+## Saving a line list
+
+1. Select the File menu
+2. Select "Save"
+3. Provide your report with a name and save it
+
+## Downloading a line list
 
 1. Select the downloads menu
 2. Select the format you want to download the report it
