@@ -74,7 +74,7 @@ In an in-person setting, the participants may be doing the demo with you at the 
    * Convert the chart to a pivot table. Note that this type of table can not be made in event reports.
    * Convert the table to a map. Note that you are now using the thematic layer to display your data, which has different options available compared to the event and TEI layer.
 
-STOP! Have them perform *Exercise 1* in the learner's guide.
+ STOP! Have them perform *Exercise 1* in the learner's guide.
 
 3. Create a map using the thematic layer with the following inputs:
 - Layer Type : Thematic 
@@ -93,7 +93,7 @@ STOP! Have them perform *Exercise 1* in the learner's guide.
 
   Highlight the additional options available when using the thematic layer via program indicators 
 
-STOP! Have them perform *Exercise 2* in the learner's guide.
+ STOP! Have them perform *Exercise 2* in the learner's guide.
 
 4. Create an event report showing the number of relationships by TEI from the Case-based Surveillance Program.
 Create a line list table with the following inputs:
@@ -120,7 +120,7 @@ Create a line list table with the following inputs:
  - Period : This Year
  - Org Unit : Level 3 (District) OUs within Phongsali
 
-STOP! Have them perform *Exercise 3* in the learner's guide.
+ STOP! Have them perform *Exercise 3* in the learner's guide.
 
 6. Review the recap slide
 7. Have them perform the assignment
