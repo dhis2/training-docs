@@ -14,11 +14,12 @@ There is also a Quick Guide which lists the steps very briefly and this is meant
 
 ## Learning objectives for this session
 
-1. Describe what is a program indicator
-2. Describe how program indicators are derived
+1. Describe what a program indicator is
+2. Describe how program indicators are calculated
 3. Describe the difference between event and enrollment program indicators
 4. Understand how program indicators can fill tracker data analysis gaps present in other visualization tools
 5. Create visualizations using program indicators derived from tracker data
+6. Understand the limitations behind using program indicators
 
 ## Time Requirements
 
@@ -57,18 +58,18 @@ In an in-person setting, the participants may be doing the demo with you at the 
    - Program : Malaria case notification,investigation and response
    - Program Indicator : MAL- CS - Cases detected through PCD
  - Period : Last 6 months
- - Org Unit : All Level 2 OUs
+ - Org Unit : User sub-units
 
 2. Create a chart using program indicators from different program stages from Malaria case notification program
  - Visualization Type : Line Chart
  - Data 
    - Data Type : Program Indicator
-   - Program :Malaria case notification program
+   - Program : Malaria case notification program
    - Program Indicators : 
      - MAL-CS- Confirmed malaria cases
      - MAL-CS- Indigenous (Local)
  - Period : This Year
- - Org Unit : All Level 2 OUs
+ - Org Unit : User sub-units
 
    * Explain the visualization and where the data is coming from. Note that this type of chart can not be made in event visualizer.
    * Convert the chart to a pivot table. Note that this type of table can not be made in event reports.
@@ -76,7 +77,7 @@ In an in-person setting, the participants may be doing the demo with you at the 
 
  STOP! Have them perform *Exercise 1* in the learner's guide.
 
-3. Create a map using the thematic layer with the following inputs:
+1. Create a map using the thematic layer with the following inputs:
 - Layer Type : Thematic 
 - Data:
   - Item Type : Program Indicators
@@ -87,7 +88,7 @@ In an in-person setting, the participants may be doing the demo with you at the 
   - Period Type : Relative
   - Period : Last 6 months
   - Display Periods : Timeline
-- Org Units : All Level 2 OUs
+- Org Units : User sub-units
 - Filter : None
 - Style : Bubble Map, Single Color Legend
 
@@ -95,7 +96,7 @@ In an in-person setting, the participants may be doing the demo with you at the 
 
  STOP! Have them perform *Exercise 2* in the learner's guide.
 
-4. Create an event report showing the number of relationships by TEI from the Case-based Surveillance Program.
+4. Create a line list showing the number of relationships by TEI from the Case-based Surveillance Program.
 Create a line list table with the following inputs:
 
    - Input Type : Enrollment
@@ -110,26 +111,29 @@ Create a line list table with the following inputs:
 
    1. Explain the report and the program indicator you have added to this report
    2. Add the program indicator for days between symptoms onset and consultation
+   3. Add a condition for days between symptoms onset and consultation >= 0
 
-5. In data visualizer, create a bar chart showing the average days between onset and consultation across all level 3 OUs within Phongsali
+5. In data visualizer, create a bar chart showing the average days between onset and consultation across all level 3 OUs within Vientiane Capital
  - Visualization Type : Bar Chart
  - Data 
    - Data Type : Program Indicator
    - Program : Case-based Surveillance Program
    - Program Indicator : CBS - Days between onset and consultation
  - Period : This Year
- - Org Unit : Level 3 (District) OUs within Phongsali
+ - Org Unit : Level 3 (District) OUs within Vientiane Capital
+
+Clean the chart by hiding the empty categories using the options menu.
 
  STOP! Have them perform *Exercise 3* in the learner's guide.
 
-6. Review the recap slide
-7. Have them perform the assignment
+1. Review the recap slide
+2. Have them perform the assignment
 
 ## Live Demo step by step
 
-### Create a pivot table in data visualizer using a program indicator from the Malaria case notification,investigation and response
+### Create a pivot table in data visualizer using a program indicator from the Malaria case notification,investigation and response program
 
-Open the table "MAL - CS - Cases detected through PCD Last 6 months" This is the table that you will create. You can explain the layout to the participants before continuing.
+Open the table "MAL - CS - Cases detected through PCD Last 6 months." This is the table that you will create. The data item is a program indicator that is counting the # of malaria cases that meet said criteria. You can explain the layout to the participants before continuing.
 
 Clear your inputs by going to Favorites -> New.
 
@@ -141,7 +145,7 @@ In the first example, you will create a simple pivot table using a single progra
    - Program : Malaria case notification,investigation and response
    - Program Indicator : MAL- CS - Cases detected through PCD
  - Period : Last 6 months
- - Org Unit : All Level 2 OUs
+ - Org Unit : User sub-units
 
 The layout can look like this
 
@@ -151,15 +155,17 @@ The table should look like this (the months shown may differ as its relative to 
 
 ![underlying_conditions](resources/images/program_indicators/table1new.png)
 
-This is a program indicator that is pulling its information from the data element "Detection setting"
-
-An event program indicator is a key component used to measure and track various metrics within event-based programs. Event programs in DHIS2 are used to capture detailed data about individual events, such as patient visits, or any specific occurrences that require tracking.
+This is a program indicator that is pulling its information from the data element "Detection setting." This data element consist of an option set. This program indicator is therefore aggregating the events which meet the criteria for PCD.
 
 ### Create a chart using event indicators from different program stages from the Malaria Case notification program
 
-One gap that we can address however is creating a pivot table, chart or map using data from different program stages. We can do this in data visualizer for any of the available visualizations using either event or enrollment type program indicators and is not something we could achieve in either event reports or event visualizer.
+A gap that we can address when compared to other methods of working with event/tracker data is creating a pivot table, chart or map using aggregated data from different program stages. We can do this in data visualizer for any of the available visualizations using either event or enrollment type program indicators and is not something we could achieve in either event reports or event visualizer (though we can make line lists using data from different program stages in the line listing app).
 
-Open the chart "MAL - Confirmed malaria cases and Confirmed malaria cases classified as indigenous" This is the chart that you will create. You can explain the layout to the participants before continuing.
+Open the chart "MAL - Confirmed malaria cases and Confirmed malaria cases classified as indigenous." This is the chart that you will create. 
+
+This chart is showing data from seperate stages together. The diagnosis is confirmed in Stage 1 of this program, while the classification occurs in Stage 4 of this program.
+
+You can explain this to the participants before continuing.
 
 Clear your inputs by going to Favorites -> New.
 
@@ -167,13 +173,13 @@ In this example, we will create a line chart with the following inputs:
 
  - Visualization Type : Line Chart
  - Data 
-   - Data Type : Program Indicator
-   - Program :Malaria case notification program
+   - Data Type : Program Indicators
+   - Program : Malaria case notification program
    - Program Indicators : 
      - MAL-CS- Confirmed malaria cases
      - MAL-CS- Indigenous (Local)
  - Period : This Year
- - Org Unit : All Level 2 OUs
+ - Org Unit : User sub-units
 
 In order to create this chart, ensure your layout looks like this:
 
@@ -183,10 +189,11 @@ The chart should look like this
 
 ![chart2](resources/images/program_indicators/cbsnew1.png)
 
-This chart uses event indicators, including combining data from Stage(Diagnostic and Treatment), where it gets the data on whether or not a confirmed Malaria case, and Stage (Case outcome), where it gets the information on whether the case is Indigenous (local) . 
+This chart uses event indicators, including combining data from Stage 1 (Diagnostic and Treatment), where it gets the data on whether or not a confirmed Malaria case, and Stage 4(Case outcome), where it gets the information on whether the case is Indigenous (local). 
+
 It is not possible to create this type of output using event visualizer (you can not pull data from multiple stages using event visualizer). 
 
-You can covert this chart to a pivot table so they can see that you can also create a pivot table using data from multiple stages, an option not possible in event visualizer/reports.
+You can convert this chart to a pivot table so they can see that you can also create a pivot table using data from multiple stages, an option not possible in event visualizer/reports.
 
 ![table2](resources/images/program_indicators/cbsnew2.png)
 
@@ -226,7 +233,7 @@ Create a map using the thematic layer with the following inputs:
   - Period Type : Relative
   - Period : Last 6 months
   - Display Periods : Timeline
-- Org Units : All Level 2 OUs
+- Org Units : User sub-units
 - Filter : None
 - Style : Bubble Map, Single Color Legend
 
@@ -256,14 +263,14 @@ You can play back the timeline map. You will see over time the monthly values ar
 
 ### In the line listing app, create a line list, enrollment report showing the number of relationships by TEI from the Case-based Surveillance Program
 
-Program indicators can be used in event reports and event visualizer as well as within data visualizer and maps, depending on how they are defined. This is because one program indicator can work on two levels:
+Program indicators can be used in event reports, line listing and event visualizer as well as within data visualizer and maps, depending on how they are defined. This is because one program indicator can work on two levels:
 
 1. Through creating a summary output for a single TEI
 2. Through creating a summary output for all TEIs within a period/org unit 
 
 We will demonstrate these principles using two program indicators that use "Average" as the aggregation type.
 
-1. Contacts tracing program
+1. Contact tracing program
    1. Summarizes the total number of contacts a single TEI has through the relationships that have been created in tracker capture
    2. Summarizes the average number of contacts for all TEIs based on their enrollment date and the specified period and organisation unit
 2. Case based surveillance - days between onset and consultation
@@ -278,13 +285,13 @@ Create a line list table with the following inputs:
 
 - Input Type : Enrollment
 - Program Dimesions 
-  - Program :Case-based Surveillance
-  - Data
+  - Program : Case-based Surveillance
+  - Program Dimensions
+    - Org Unit : 0001 CH Mahosot
+    - Time Dimension : Date of notification (this year)
     - Attributes : Given name, Family name
     - Data Element: Other Sign/Symptoms
     - Program Indicator: Contacts
-- Org Unit : 0001 CH Mahosot
-- Time Dimension : Date of notification (this is the enrollment date)
 
 Note : here is the location of the org unit in case you are unfamiliar with this hierarchy (01 Vientiane Capital -> 0101 Chanthabouli -> 0001 CH Mahosot)
 
@@ -306,19 +313,27 @@ From the program dimesions tab, add the PI "CBS - Days between onset and consult
 
 ![days_between](resources/images/program_indicators/table3_add_days_btwn.png)
 
+Set the Condition : Days between onset and consultation >= 0
+
+To set the condition select the "Days between onset and consultation" program indicator. From here, you can define the condition.
+
+![condition](resources/images/program_indicators/condition.png)
+
 Update your table.
 
 ![table3_contacts_days_btwn](resources/images/program_indicators/table3_contacts_days_btwn.png)
 
 We now have an additional program indicator which is showing the number of days between each person's onset of symptoms and their initial consultation.
 
-#### Create a bar chart showing the average days between onset and consultation across all level 3 OUs
+#### Create a bar chart showing the average days between onset and consultation across all level 3 OUs in VC
 
 As discussed previously, these types of program indicators can function on two levels. We have reviewed how we can use various types of program indicators at the individual level, now we can use the same program indicator and create a summary output.
 
 We will use data visualizer to demonstrate this.
 
 > Note: Program indicators are available to select within event visualizer but they often do not result in any output. It is best to use data visualizer to create charts when using program indicators.
+
+***Open data visualizer.***
 
 Open the chart "CBS - Average days between symptoms onset and consultation, this year." This the chart that you will create. You can explain the layout to the participants before continuing.
 
@@ -332,7 +347,7 @@ In data visualizer, create a chart with the following inputs:
    - Program : Case-based Surveillance Program
    - Program Indicator : CBS - Days between onset and consultation
  - Period : This Year
- - Org Unit : Level 3 (District) OUs within Phongsali
+ - Org Unit : Level 3 (District) OUs within Vientiane Capital
 
 Note : here is the location of the org unit in case you are unfamiliar with this hierarchy
 
@@ -342,7 +357,13 @@ And here is the layout that should be used for the chart
 
 ![chart4_layout](resources/images/program_indicators/chart4_layout.png)
 
-The chart should look like this
+You can remove the empty categories to clean up the chart.
+
+Go to options -> data -> hide empty categories -> all
+
+![hide_empty_categories](resources/images/program_indicators/hide_empty.png)
+
+The chart should look like this after you update it.
 
 ![chart4](resources/images/program_indicators/chart4.png)
 

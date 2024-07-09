@@ -115,28 +115,30 @@ In this page, you will notice the co-ordinate field present. This co-ordinate fi
 
 On android, you are able to capture the co-ordinate using your location; while on the web you must enter or select it from the map.
 
-Cancel the registration and open up one of the existing records in Contact tracing Program your org unit; this will take you to their TE dashboard in tracker capture.
+Cancel the registration and open up one of the existing records in the Contact tracing Program; this will take you to their TE dashboard in tracker capture.
 
-Review Stage Initial contact. Each of these stages will have a field called "Event point"
+Review the program stage Initial contact. Each of these events will have a field called "Location"
 
 ![event_coordinate](resources/images/maps/mapnew4.png)
 
 This is the co-ordinate field that is used to display data within the event layer and is captured in the same way as the registration co-ordinate (on android, you are able to capture the co-ordinate using your location; while on the web you must enter it or select it from the map).
 
+In cases where it is needed, scripts can be used to transfer the tracked entity coordinate into each event so it does not need to be captured manually each time; however this is highly situational dependent.
+
 ### Create a map using the event layer
 
-As a review, you can create a map using the event layer. The process is exactly the same as when working with an event. 
+As a review, you can create a map using the event layer.
 
-We can create a map using data from the Case based surveillance Program for Fever cases from Diagnostic and clinical information
+We can create a map using data from the Case based surveillance Program for Fever cases from Diagnostic and clinical information.
 
-Open the map "CBS - Fever cases, this year, by home location." This the map that you will create. You can explain the layout to the participants before continuing.
+Open the maps app, then open the map "CBS - Fever cases, this year, by home location." This the map that you will create. You can explain the layout to the participants before continuing.
 
 Clear your inputs by going to File -> New.
 
 Create the map using the event layer with the following inputs:
 
-- Layer Type : Boundary
-  - Level 3
+- Layer Type : Org unit
+  - Level 3 (District)
 - Layer Type : Event (CBS Location)
 - Data:
   - Program : Case-based Surveillance
@@ -144,9 +146,9 @@ Create the map using the event layer with the following inputs:
   - Coordinate field : CBS Location
   - Event status : all
 - Period : This Year
-- Org Units : User org units 2x below
+- Org Units : User sub-x2-units
 - Filter :
-  - Data item : Exposure type
+  - Data item : Fever = Yes
 - Style :
   - Group events
   - GEN - Sex
@@ -209,7 +211,7 @@ Clear your inputs by going to File -> New.
 
 Create the map using the tracked entity layer with the following inputs:
 
-- Layer 1 Type : Boundary Layer - LAO PDR
+- Layer 1 Type : Org Unit - LAO PDR
 - Layer 2 Type : Tracked Entity
 - Data:
   - Tracked Entity Type : Person
