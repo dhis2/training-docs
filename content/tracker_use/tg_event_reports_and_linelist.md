@@ -660,7 +660,7 @@ To evaluate data across the stages we will select the following data dimensions:
 
 Legends are used to create visual representations of data, such as color-coded maps or charts, to help interpret the data more easily. 
 
-A chart with a line list applied is saved as "". You can review this chart before moving on.
+A chart with a line list applied is saved as "CBS - Patients with fever at time of admission". You can review this chart before moving on.
 
 Follow these steps to create this line list.
 
@@ -674,7 +674,7 @@ Follow these steps to create this line list.
 
 In the program dimensions tab
 
-- **Organization unit** 0001 CH Mahosot
+- **Organization unit** 0201 DH Phongsali
 
 - **Date of notification** Last 3 months
 
@@ -689,8 +689,6 @@ Select the Attributes:
 * Temperature at Admission
 
 ![](resources/images/linelist/legendimagenew2.png)
-
-
 
 **Options** > Go to Legend 
 
