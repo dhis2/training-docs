@@ -86,36 +86,65 @@ Before starting the demonstration, please keep in mind that the most important t
 
 ### Quick Guide
 
-1. Log in to the system on the Android device
-2. Select the Case-based Surveillance program and go over the interface that appears.
-3. Review the filters options available on this page
-4. Search for a person that already exists (BAB114160, Theo Flury)
-5. Open their record, see all the events that are present. Review the tabs on the person dashboard
-6. Select “See details” to view the detailed attributes
-7. Go back and select any event associated with the record to show the data that is there
+1. Review the interface 
 
-STOP - Exercise 1
+2. Review the program
+  
+   * Log in to the system on the Android device
+   * Select the Case-based Surveillance program and go over the interface that appears.
+   * Review the filters options available on this page
+   * Search for a person that already exists (BAB114160, Theo Fleury)
+   * Open their record, see all the events that are present. Review the tabs on the person dashboard
+   * Select “See details” to view the detailed attributes
+   * Go back and select any event associated with the record to show the data that is there
 
-8. Register a new case (if someone is following along; they should register a UNIQUE PERSON that is different from yours)
-9.  Add a new event to the person’s record
-10. Fill in the details of the form and save the event
-11. Add a new event on the lab request stage, same day from the date first seen. Complete the form and save the event
-12. Add new event in the lab request to show the repeatable stages
-13. Complete the enrollment
-14. Add the relationship, show the contact tracing 
-15. Search for a contact that already exists
-16. Enroll person into other program
-17. Sync the event online. Go to the web interface to verify the data was sent
-18. From the web interface, update the person’s record
-19. Go back to the Android device and show the data has not been synced
-20. Sync the data, than go back to the person’s record to show the new event has been synced
-21. Turn off all wi-fi/data radios on the device. Explain how offline data capture works
-22. Add a new person while offline
-23. Add a new event
-24. Show that the data is being stored solely on the device
-25. Turn on the wi-fi and sync the data
-26. Check it was synced on the device, as well as through the web app
+   STOP - Exercise 1
 
+3. Register a new person.Register a new case (if someone is following along; they should register a UNIQUE PERSON that is different from yours)
+
+   * Search for a record that does not exist
+   * Click on new person button and select an org unit in which to register the case into
+   * Enter details to Register the person
+   * Enroll them into the program
+   * Enter data for first program stage
+
+   STOP - Exercise 2
+
+4. Add a new event to the person’s record
+
+   * Fill in the details of the form and save the event
+   * Add a new event on the lab request stage, same day from the date first seen. Complete the form and save the event
+   * Add new event in the lab request to show the repeatable stages
+
+
+   STOP - Exercise 3
+
+5.  Add the relationship, show the contact tracing 
+
+6. Complete the enrollment
+
+   STOP - Exercise 4
+
+7. Enroll person into other program
+
+   STOP - Exercise 5
+8. Sync the event online. Go to the web interface to verify the data was sent
+9. From the web interface, update the person’s record
+10. Go back to the Android device and show the data has not been synced
+11. Sync the data, than go back to the person’s record to show the new event has been synced
+
+    STOP - Exercise 6
+
+12. Turn off all wi-fi/data radios on the device. Explain how offline data capture works
+13. Add a new person while offline
+14. Add a new event
+15. Show that the data is being stored solely on the device
+16. Turn on the wi-fi and sync the data
+17. Check it was synced on the device, as well as through the web app
+
+    STOP - Exercise 7
+
+    
 ## Step-by-Step guide
 
 ### Log in to the Android App
