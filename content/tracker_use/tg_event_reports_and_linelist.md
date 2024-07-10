@@ -67,123 +67,123 @@ In an in-person setting, the participants may be doing the demo with you at the 
 
    STOP - Perform Exercise 1
 
-2. Create a line list in event reports
+2. Review the line list functionality in Event Reports
 
-   - Table Style : Line list, Output Type : Event
-   - Program : Electronic Immunization Registry
-   - Stage : Vaccination
-   - Data
-     - Given Name, Family Name,Unique System Identifier, Sex
-     - Vaccine Name - BCG 0.05 mL
-     - Sex - Filter (Male)- 
-   - Period : This year
-   - Org Unit : Country
+- Table Style : Line list, Output Type : Event
+- Program : Electronic Immunization Registry
+- Stage : Immunization
+- Data
+  - Given Name, 
+  - Family Name,
+  - Unique System Identifier, 
+  - Sex
+  - EIR - BCG 0.05 mL
+- Period : This year
+- Org Unit : Country
 
-    Demo how to download the table, save the table
+  Demo how to download the table, save the table
 
-   STOP - Perform Exercise 2
+  STOP - Perform Exercise 2
 
-3. In the Line List app, review the Line List interface with the table "Patient Line List - Temp Evalulation/Travel History" open 
-  
-- Add a data element
-- Modify the org units
-- Modify the period
+3. In the Line List app, review the Line List interface with the table. You can open the existing line list "MAL CS - Temp Evalulation/Travel History"
 
-Create a line list using **Malaria case notification program** in the Line List App
+- Input - Event 
+- Program : Malaria case notification , investigation and response
+- Stage: Diagnosis and treatment
+- Program Dimension: For this we will select the following program dimensions
+    - Given Name
+    - Family Name
+    - Date of Birth
+    - Local Case ID
+    - Temperature
+    - Recent travel within the country
+    - Travel outside the country
+- Period: Last 3 months
+- OU: 01 Vientiane Capital
+    
+    STOP - Perform Exercise 3
 
-Select Program : Malaria case notification , investigation and response
-Select Stage: Diagnosis and treatment
+4. Create a list type event report for a repeatable stage using the Electronic Immunization Registry
 
-**Input** : Event  : Event
-
-**Program Dimension**: For this we will select the following program dimensions
-
-- Given Name
-- Family Name
-- Date of Birth
-- Address
-- Local Case ID
-- Temperature
-- Recent travel within the country
-- Recent travel outside the country
-
-Select OU: 01 Vientiane Capital
-
-Date of Consultation: Last 3 months
-
-STOP - Perform Exercise 3
-
-4. Create a list type event report for a repeatable stage using the Electronic immunization registry program
-
-Open the table "EIR - HIV Summary (Event)"
-Clear your inputs by going to Favorites -> New.
-
-Create an event report with the following inputs:
 - Input : Event
 - Program : Electronic Immunization registry, Stage : Immunization
 - Program Dimension :
-  * EPI Number : EPI_12581
+  * Unique System Identifier (EPI) : EPI_12581
   * Given Name
   * Family name
   * Diagnosed with HIV and severe immunodeficiency
-
-Update the report using enrollment as the output type to compare and explain the differences in whats shown
-
-STOP - Perform Exercise 4
-
-5. Update the report with the most recent events and oldest events using the Input type as Enrollment
-
-- Input : Enrollment
-- Program : Electronic Immunization registry, Stage : Immunization
-- Program Dimension :
-  * EPI Number
-  * Given Name
-  * Family name
-  * Diagnosed with HIV and severe immunodeficiency
-
 - Registration Date : This Year
 - Org Unit : 0001 CH Mahosot
 
-For the DE "Diagnosed with HIV and severe immunodeficiency" add in the oldest 2 and 2 most recent events
+  Update the report using enrollment as the output type to compare and explain the differences in whats shown
 
-STOP - Perform Exercise 5
+  STOP - Perform Exercise 4
 
-6. Create a line list with legends 
+5. Create a line list program using repeated event data linked together
 
-**Input**  Event
 
-**Program** Case-based Surveillance
+- Input - Select Enrollment
+- Program - Electronic Immunization registry
+- Program Dimensions
+  - Family name
+  - Given name
+  - Data Element "Diagnosed with HIV and severe immunodeficiency," where you will be able to see conditions and Repeated event tabs.
+  - Filter - Select Yes HIV+,not on ART as your filter in the conditions tab.
+  - Repeated Events tab - select the values for the most recent and oldest events
+- Period : Date of Registration: Last 12 months
+- OU : user org unit
 
-**Stage** Diagnostic and Clinical Information
+  STOP - Perform Exercise 5
 
-Select Attributes:
-     
-   - System case ID
-   - Given Name
-   - Date of Birth
-   - Home Address 
+6. Create a line list program using Input : Enrollment
 
-Select Data Elements:
+- Input - Enrollement
+- Program: Case based Surveillance
+- Program dimensions
+  - Data elements.To evaluate data across the stages we will select the following data dimensions:
+  - Stage 1 : Diagnostic and clinical information
+    - Cough
+    - Fever
+    - Difficulty in breathing
+    - Temperature at admission
 
-   - Temperature at Admission
-   - Travel days outside district before onset of Rash
+   - Stage 2: Lab Request
+     - Date Specimen collected
+     - Date Specimen sent to laboratory
+     - Type of Specimen
 
-Date of notification : Last 3 month
+   - Stage 4: Final Classification
+     - Final classification
 
-OU : 0001 CH Mahosot
+- OU : Lao PDR, Facility - Level 3
+- Period : Date of notification: This Month and Last 3 Month
 
-Select Options > Go to Legend 
+  STOP - Perform Exercise 6
 
-   - Enable use a legend for table cell colors
-   - Legend style: Legend changes backgroung colour
-   - Legend type: Choose a single legend for the entire visualization
-   - Legend : Select pre-defined legend set "Fever"
+7. Create a line list program using legends
 
-STOP - Perform Exercise 6
+- Input : Event
 
-7. Review the recap slide
+- Program : Case-based Surveillance
 
-8.  Have them perform the assignment
+- Stage : Diagnostic and Clinical Information
+- Program dimensions tab
+  - Select the Attributes:
+    - Given Name
+    - Family Name
+    - Date of Birth
+    - CBS_Clinical Diagnosis
+  - Select Data Elements:
+    - Temperature at Admission
+- Options : Go to Legend 
+- Organization unit : 0201 DH Phongsali
+- Date of notification: Last 3 months
+
+  STOP - Perform Exercise 7
+  
+8. Review the recap slide
+
+9.  Have them perform the assignment
 
 Once they have completed all of the ungraded exercises, they should then complete the graded assignment
 
@@ -570,35 +570,31 @@ You can explain this before moving on.
 
 Follow these steps to create this line list. (clear the table by going to File-> New to get started.)
 
-1. Click on the **Input** - Select Enrollment
-
-2. Select **Program** : Electronic Immunization registry
+- Input - Select Enrollment
+- Program - Electronic Immunization registry
 
    ![](resources/images/linelist/enrollnew5.png)
 
-3. Go to the **Program Dimensions** tab. 
+- Program Dimensions
+  - Family name
+  - Given name
+  - Data Element "Diagnosed with HIV and severe immunodeficiency," where you will be able to see conditions and Repeated event tabs.
+  - Filter - Select Yes HIV+,not on ART as your filter in the conditions tab.
 
-4. Select OU: user org unit
-
-5. Date of Registration: Last 12 months 
-
-6. Add in the Family name and Given name. 
-
-7. Select the Data Element "Diagnosed with HIV and severe immunodeficiency," where you will be able to see conditions and Repeated event tabs.
-
-8. Select Yes HIV+,not on ART as your filter in the conditions tab.
-
-   ![](resources/images/linelist/enrollnew8.png)
-
-9. To Select the number of times repeated events to link together : Click on the Repeated Events tab and select the values for the most recent and oldest events
-
-In this case we are selecting
+  ![](resources/images/linelist/enrollnew8.png)
+  - Click on the Repeated Events tab and select the values for the most recent and oldest events
+  
+ In this case we are selecting
 - Most recent events : 2
 - Oldest events : 1
 
    ![](resources/images/linelist/enrollnew9.png)
 
-10.  Click on update
+- Period : Date of Registration: Last 12 months
+- OU : user org unit
+
+
+Once you Click on update, you will see the below observation.
 
 ![](resources/images/event_reports/repeated_events_example.png)
  
