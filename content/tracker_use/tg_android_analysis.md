@@ -79,26 +79,26 @@ Some participant's may not have been able to install the app by themselves. In t
 
 ## Quick Guide
 
-1. Review the maps display within the COVID-19 contact registration & follow-up program
+1. Review the maps display within the Case Based Surveillance Program
    - Select the program and open the maps tab
    - Cycle through the carousel
    - Select a TEI and navigate to their dashboard
    - Navigate to the TEIs location (than switch back to the original maps display)
    - Change the map layers to show the heatmap and use the satellite view
    - Navigate to your location
-2. Review data element evolution charts within the COVID-19 contact registration & follow-up program
-   - Search for the TEI Carlos Barker
+2. RReview data element evolution charts within the Malaria case notification , investigation and response
+   - Search for the TEI Alakazam Malakazama
    - Navigate to the analytics tab
    - Review and explain the chart that is shown
    - Move between visualization types
    - Explain the filters
-3. Review program indicators within the COVID-19 Case-based surveillance program
-   - Search for the TEI Matthew Maker
-   - Review the events in stage 3
+3. Review program indicators within the Case-based surveillance program
+   - Search for the TEI Theo Fleury
+   - Review the events in Laboratory Result
    - Navigate to the analytics tab
-   - Review and explain the program indicator “Total number of tests”
-4. Review program feedback within the COVAC -COVID-19 Vaccination Registry Program
-   - Search for the TEI Melissa Ortiz
+   - Review and explain the program indicator “Total Lab Results”
+4. Review program feedback within the Electronic Immunization Registry Program
+   - Search for the TEI Maria Smith
    - Navigate to the analytics tab
    - Review and explain the various information that is displayed
 
@@ -106,7 +106,7 @@ Some participant's may not have been able to install the app by themselves. In t
 
 Before starting, login to the android app using your training instance.
 
-### Review the maps display within the contact tracing program
+### Review the maps display within the case based surveillance program
 
 The android app will display the map screen in event or tracker programs that contain one or more of the following elements:
 
@@ -120,7 +120,7 @@ The android app will display the map screen in event or tracker programs that co
 
 To access the demo map open the Case based Surveillance program. At the bottom you’ll see the navigation bar. Select the map icon to access the map (note, in order to use this feature, your program needs to be collecting the coordinate during registration).
 
-![open_map](resources/images/android_analysis/cbsmap.png)
+![](resources/images/android_analysis/cbsmap.png)
 
 #### Cycle through the carousel
 
@@ -140,9 +140,9 @@ Click on the card to open the TEI dashboard
 
 From the TEI dashboard, select back. This will take you back to the map. If the TEI or event has coordinates then a navigation icon will be displayed at the top right corner of the card. When you click it, your device will ask to select an app to open the location (if you have multiple maps apps, if not it will use the default one). This will take you to the location in the maps app you have selected.
 
-![navigate_to_location](resources/images/android_analysis/cbsmap2.png) 
+![](resources/images/android_analysis/cbsmap2.png) 
 
-![tei_location](resources/images/android_analysis/cbsmap3.png)
+![](resources/images/android_analysis/cbsmap3.png)
 
 #### Change the map layers to show the heatmap and use the satellite **view**
 
@@ -152,15 +152,15 @@ Map layers you will see here include (depending on the configuration of the prog
 
 In the Case based surveillance program the app offers the TEI and Enrollment coordinate. Select the satellite view and the heatmap to show how the map changes, click on the “Apply” button to the changes.
 
-![map_view](resources/images/android_analysis/mapopen3.png) 
+![](resources/images/android_analysis/mapopen3.png) 
 
-![map_view](resources/images/android_analysis/mapopenheatlayer.png) 
+![](resources/images/android_analysis/mapopenheatlayer.png) 
 
 #### Navigate to your location
 
 If the user grants location permissions to the App, the map will show the current location represented as a blue color dot. The maps in the DHIS2 Android Capture App now include the possibility to center the map on the user location.
 
-![user_location](resources/images/android_analysis/cbsmap4.png)
+![](resources/images/android_analysis/cbsmap4.png)
 
 #### STOP! Have them perform Exercise 1 
 
@@ -176,15 +176,15 @@ Open the Analytics menu in the TEI dashboard navigation panel and show the chart
 
 The chart here shows the temperature of the person as taken from different repeated events within a program stage. In this example, you are seeing a person’s temperature in degree celcius. 
 
-![de_evolution_chart](resources/images/android_analysis/dedaily.png)
+![](resources/images/android_analysis/dedaily.png)
 
 Explain it is possible to change the visualization to bars, line, table or single value
 
-![change_chart_output](resources/images/android_analysis/diffcharts.png)
+![](resources/images/android_analysis/diffcharts.png)
 
 Filters are also available. Display the menu to see periods and organisation units available as filters.
 
-![chart_filters](resources/images/android_analysis/diffperiod.png)
+![](resources/images/android_analysis/diffperiod.png)
 
 #### STOP! Have them perform *Exercise 2* in the learner’s guide.
 
@@ -194,11 +194,11 @@ You can display any program indicator by enabling the “Display in form” feat
 
 Open the Case-based surveillance program and search for “Theo Fleury”. You can open up "Laboratory Result" to review the Total Lab results
 
-![tei_dashboard](resources/images/android_analysis/tei1.png)
+![](resources/images/android_analysis/tei1.png)
 
 Click on the Analytics menu in the TEIs navigation bar and explain that "Total Lab results" indicator counts all the events where the data element has value.
 
-![tei_analytics_cbs](resources/images/android_analysis/indicators.png)
+![](resources/images/android_analysis/indicators.png)
 
 NOTE: The Android App does not support customized boundaries for PI.
 
@@ -206,7 +206,7 @@ NOTE: The Android App does not support customized boundaries for PI.
 
 Switch over to the Electronic Immunization Registry Program and search for the TEI “Maria Smith” Select the analytics tab after opening this record. You can also show other information in the analytics tab. This will include feedback or other information that has been configured to show on the tracker dashboard. 
 
-![tei_analytics_covac](resources/images/android_analysis/feedback.png) 
+![](resources/images/android_analysis/feedback.png) 
 
 
 #### STOP! Have them perform *Exercise 3* in the learner’s guide.
