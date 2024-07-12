@@ -86,7 +86,7 @@ Some participant's may not have been able to install the app by themselves. In t
    - Navigate to the TEIs location (than switch back to the original maps display)
    - Change the map layers to show the heatmap and use the satellite view
    - Navigate to your location
-2. RReview data element evolution charts within the Malaria case notification , investigation and response
+2. Review data element evolution charts within the Malaria case notification , investigation and response
    - Search for the TEI Alakazam Malakazama
    - Navigate to the analytics tab
    - Review and explain the chart that is shown
