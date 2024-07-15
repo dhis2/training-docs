@@ -76,6 +76,8 @@ When you open this as a map, you will have to select one of the data items used 
 
 ![map2_select_data](resources/images/program_indicators/cbsnew3.png)
 
+![map2_select_data](resources/images/program_indicators/map2.png)
+
 ## Exercise 2
 
 ### Create a map using a program indicator from the Case-Based Surveillance program

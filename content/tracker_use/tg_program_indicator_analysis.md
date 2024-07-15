@@ -207,7 +207,7 @@ When you open this as a map, you will have to select one of the data items used 
 
 ![map2_select_data](resources/images/program_indicators/cbsnew3.png)
 
-![map2](resources/images/program_indicators/cbsnew4.png)
+![map2](resources/images/program_indicators/map2.png)
 
 #### STOP! Have them perform *Exercise 1* in the learner's guide.
 
