@@ -111,7 +111,7 @@ STOP - See if there are any questions
 4. Select the Immunization Program
 5. You will see the list of all entities/child who are enrolled in the specific program that you have selected (This is called as Event listing for event and tracker programs)
 
-  ![](images/tracker/image8.png)
+   ![](images/tracker/image8.png)
 
 - Explain the ”Bottom Navigation Bar” (The bottom navigation bar allows switching the visualization mode of the program if the event or tracker program have been defined with coordinates). We will discuss this in detail in another session.
 
@@ -125,11 +125,15 @@ The first step is to SEARCH the TEI based on the searchable attributes to make s
     
 ![](images/tracker/image9.png)
 
-1. To Register a New Child , Click on Create New
+To Register a New Child :
+
+1. Click on New Child
  
    ![](images/tracker/image7.png)
 
 2. In the Android app you need to select the organisation unit and the reporting date or the registration date (in this case Date first seen)
+
+   ![](images/tracker/image22.png)
 
 3. Next demo the enrolment data page that has been configured: followed by the attributes - child section.(Briefly describe the sections)
 
@@ -155,13 +159,13 @@ STAGE 1: Birth Details
 
 ![](images/tracker/image6.png)
 
-* Click on Event Date and Select Next
+* Enter Event Date
 
    ![](images/tracker/image4.png) 
 
 * You will see the Birth Details Stage: Here you can show how data entry fields are grouped in different sections: Details,Type,Place,Mode. This is based on the configuation for your program stage data entry form. Enter data for the stage to proceed.
 
-![](images/tracker/image20.png)
+  ![](images/tracker/image23.png)
 
 
 _NOTE : Trainers should make sure they get well versed with the program rules in order for them to understand program errors if any._
@@ -170,14 +174,17 @@ _NOTE : Trainers should make sure they get well versed with the program rules in
 
 After tapping on the 'save' button, if the form does not contain any errors, warnings or empty mandatory fields, the app will ask if the user wants to complete the form.
 
+![](images/tracker/image24.png)
+
+
 Two options are given to the user:
 
 * 'Not now': The app saves the form and goes back to the event listing screen (or TEI dashboard for tracker programs). The status of the event will remain open.
 * 'Complete': The app saves the form and goes back to the event listing. The status of the event changes to complete.
 
-![](images/tracker/image12.png)
+  ![](images/tracker/image12.png)
 
-![](images/tracker/image10.png)
+  ![](images/tracker/image10.png)
 
 > Note: For further demonstration, you can also add events to the immunization stage and enter data within those events.
 

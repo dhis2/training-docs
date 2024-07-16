@@ -137,11 +137,11 @@ You could further demo this by changing over to another dataset or program.
 
 Blue colour for Immunization
 
-![blue_immunization](images/vizconfig/blue_immunization.jpg)
+![blue_immunization](images/vizconfig/blue_immunization.png)
 
 Purple colour for Child Nutrition Tracker
 
-![purple_NUT](images/vizconfig/purple_NUT.jpg)
+![](images/vizconfig/purple_NUT.png)
 
 #### QR Reader
 
@@ -167,7 +167,7 @@ The results will show their record because you are using a unique ID
 
 #### Date Picker
 
-Open the record and edit their details by selecting "Open Child Details"
+Open the record and edit their details by selecting "Edit Child" on the top bar.
 
 ![edit_details](images/vizconfig/edit_details.png)
 
