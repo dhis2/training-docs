@@ -33,8 +33,7 @@ Ungraded Exercises: 45 mins
 ## Preparations
 
 Go through the Live demo step by step guide a few times before doing the actual demo for participants.
-Make sure your user account is same or similar to the participants’ training accounts so that you don’t show more features, dimension options or forms than what they can see when doing the exercises.
-Make sure the resolution on projector is OK for zooming
+Make sure your user account is same or similar to the participants training accounts so that you don’t show more features, dimension options or forms than what they can see when doing the exercises. Make sure the resolution on projector is OK for zooming
 
 Create an account with the same level of access as the users you are demonstrating to (ie. if they can only search and enter within one facility, have your user have the same authority). If it is the procedure to enter this data from a paper form, it will be useful to have a copy of the form they would normally use as reference filled in. This can just be a form that you have filled in yourself for example. If they are entering data in real-time, then this is not required but you should prepare the details of an example case that you can follow in your examples.
 
@@ -59,6 +58,7 @@ Please review this CoP post for details on options you may use to mirror your an
 https://community.dhis2.org/t/how-to-clone-your-android-screen-useful-for-presentations-debugging-etc/38077
 
 Scrcpy is another tool that can also be used and is platform agnostic:
+
 https://github.com/Genymobile/scrcpy
 
 Make sure that your device has developer options enabled before attempting to use scrcpy
@@ -89,14 +89,14 @@ Some participant's may not have been able to install the app by themselves. In t
 
 1. Demonstrate visual data entry on an android device
 
-STOP - Exercise 1
+   STOP - Exercise 1
 
 2. Configure the visual data entry by:
    1. Reviewing the option set color and icons
    2. Changing the program stage section rendering
    3. Sync these changes to the device
 
-STOP - Ungraded Exercise 2
+   STOP - Ungraded Exercise 2
 
 
 ## Demo Part 1 - Demonstrate
