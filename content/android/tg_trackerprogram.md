@@ -198,7 +198,7 @@ Trainers can briefly demo the below features and their functionalities:
 
 The percentage of data completed in each event is shown in the top right corner of an event when it is opened after first registration.
 
-![](images/tracker/image17.png)
+![](images/tracker/image25.png)
 
 ### Sections Navigations
 
@@ -266,13 +266,15 @@ Share a TEI : The "Share" button has been removed from the TEI dashboard and the
 
 Complete/Deactivate Enrollment : To complete or deactivate an enrollment, click on three dot menu in the upper right corner and select "Complete" or "Deactivate"
 
-TEI enrollment history and new enrollment (Program Enrollment) : Users can see the complete historical records of the TEI. Clicking on the upper right corner menu, select "Program Enrollments". A list of "Active enrollments" will be displayed, followed by a list of "Past enrollments" (completed or canceled), followed by the programs in which the TEI could be enrolled. Users can also return to the "TEI Dashboard" without any program' by selecting "All enrollments".
+Mark for follow-up : This is to mark the TEI for a follow-up session.
+
+(Program Enrollment) TEI enrollment history and new enrollment  : Users can see the complete historical records of the TEI. Clicking on the upper right corner menu, select "Program Enrollments". A list of "Active enrollments" will be displayed, followed by a list of "Past enrollments" (completed or canceled), followed by the programs in which the TEI could be enrolled. Users can also return to the "TEI Dashboard" without any program' by selecting "All enrollments".
 
 Delete TEI's & Enrollments : To delete a TEI or an enrollment, select the desired option in the three dots menu of TEI dashboard. Local TEI or Enrollments will be deleted from the database. Records that has been previously synced with the server will be marked for deletion if the user has the following authorities:
 
 * F_ENROLLMENT_CASCADE_DELETE
 * F_TEI_CASCADE_DELETE
 
-Group view of Program stages in TEI Dashboard : The TEI Dashboard offers the possibility to change the list of events from the chronological view to a stage grouping view. The stage grouping view will group and collapse the events per program stage. Each program stage group can be expanded by the user and the events will be displayed chronologically.
+Group view of Program stages in TEI Dashboard or Show Events Timeline : The TEI Dashboard offers the possibility to change the list of events from the chronological view to a stage grouping view. The stage grouping view will group and collapse the events per program stage. Each program stage group can be expanded by the user and the events will be displayed chronologically and if you select Show Events timeline it will show all the events as per the events date the data has been entered in each stage or multiple events in one program stage.
 
 #### STOP : Ask the participants if they have any questions
