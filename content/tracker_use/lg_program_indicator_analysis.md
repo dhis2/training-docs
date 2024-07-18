@@ -58,7 +58,7 @@ The chart should look like this
 
 ![chart2](resources/images/program_indicators/cbsnew1.png)
 
-This chart uses event indicators, including combining data from Stage 1 (Diagnostic and Treatment), where it gets the data on whether or not a confirmed Malaria case, and Stage 4(Case outcome), where it gets the information on whether the case is Indigenous (local). 
+This chart uses event type indicators, including combining data from Stage 1 (Diagnostic and Treatment), where it gets the data on whether or not a confirmed Malaria case, and Stage 4(Case outcome), where it gets the information on whether the case is Indigenous (local). 
 
 It is not possible to create this type of output using event visualizer (you can not pull data from multiple stages using event visualizer). 
 

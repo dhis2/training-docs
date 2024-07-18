@@ -19,7 +19,7 @@ The overall objective of this session is to use the DHIS2 event reports app to r
 
 ### Create an aggregate/pivot table using the Malaria Case notification program in the Event Report App
 
-Create an aggregate event report. You can use the following data items as an example:
+Create an aggregate event report using the event reports app. You can use the following data items as an example:
 
 - Table Style : Pivot, Output Type : Event
 - Program : Malaria Case Notification program
@@ -58,6 +58,8 @@ You will see all the totals are the same; however the disaggregation of the data
 ## Exercise 2
 
 ### Create a line list using an Electronic Immunization Registry.
+
+Open the event reports app.
 
 In this exercise we will create a line list using an Electronic Immunization Registry.
 
@@ -99,6 +101,8 @@ Save the line list.
 
 ### Create a line list program using Input : Event
 
+Perform this exercise in the line listing app.
+
 In this exercise we will create a line list using the Malaria case notification, investigation and response program.
 
 In this case we will be using
@@ -131,7 +135,9 @@ Click on update. You will see the line list for a single stage.
 
 ### Create a list type event report for a repeatable stage using the Electronic Immunization Registry
 
-Create an event report with the following inputs:
+Perform this exercise in the line listing app.
+
+Create an line list with the following inputs:
 
 - Input : Event
 - Program : Electronic Immunization registry, Stage : Immunization
@@ -180,6 +186,8 @@ When we make this update, the number of records shown changes. This occurs becau
 
 ### Create a line list program using repeated event data linked together
 
+Perform this exercise in the line listing app.
+
 Follow these steps to create this line list. (clear the table by going to File-> New to get started.)
 
 - Input - Select Enrollment
@@ -212,6 +220,8 @@ Once you Click on update, you will see the below observation.
 ## Exercise 6
 
 ### Create a line list program using Input : Enrollment
+
+Perform this exercise in the line listing app.
 
 Follow the steps to create this line list 
 
@@ -249,6 +259,8 @@ Click on Update
 ![](resources/images/linelist/enrollnew4.png)
 
 ## Exercise 7
+
+Perform this exercise in the line listing app.
 
 ### Create a line list program using legends
 

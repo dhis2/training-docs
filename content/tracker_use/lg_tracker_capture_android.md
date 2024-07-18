@@ -6,7 +6,7 @@ This guide contains all exercises and detailed steps to perform them related to 
 
 ## Learning objectives for this session
 
-1. Explain the Android App
+1. Describe android app functionalities as related to tracker capture
 2. Demonstrate how to install the android app
 3. Demonstrate how tracker data can be captured on Android devices including:
    1. Searching for tracked entities
