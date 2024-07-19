@@ -107,24 +107,21 @@ For this you need to go to the DHIS2 Android App
 * The immunization working list dashboard will appear
 * Click on any enrolled child
 
-![](images/programrules/workinglistscreen.png)
+  ![](images/programrules/workinglistscreen.png)
 
 * This will open the TEI Dashboard
 
-![](images/programrules/childdetailscreen2.png)
+  ![](images/programrules/childdetailscreen2.png)
 
 * Click on the Immunization stage and open an event (or add a new one if there are none that exist)
 
-![](images/programrules/childdetailscreen.png)
+  ![](images/programrules/childdetailscreen.png)
 
 * This will open an event.
-
-![](images/programrules/tempscreen.png)
-
 * Add a Temperature value >= 38 
 * This will give you an ERROR " Vaccination should not be given to the child till fever subsides"
 
-![](images/programrules/temperror.png)
+  ![](images/programrules/temperror.png)
 
 If you modify the value to be <=37, then this message will no longer appear.
 
@@ -186,10 +183,13 @@ In this session we will focus on how we have configured the above program rule i
 2. If the user is not connecting for the first time, perform a **metadata synchronisation** to retrieve the changes made on the server by going to the Menu (up left) > Settings > Sync configuration > Sync configuration now. 
 _Explain how this retrieves the latest metadata updates from the server_
 
-![](images/programrules/image2.png)
-![](images/programrules/image5.png)
-![](images/programrules/image4.png)
-![](images/programrules/image1.png)
+   ![](images/programrules/image2.png)
+
+   ![](images/programrules/image5.png)
+
+   ![](images/programrules/image4.png)
+   
+   ![](images/programrules/image1.png)
 
 3. Go to the Immunization program and check if the rule is working by following the same steps as PART 1
 
