@@ -94,7 +94,7 @@ Also if TEI has a profile image,the map will display it.
 - Open the immunization program from the android home screen
 - Select the map icon within the event line list page for this program
 
-![open_maps](images/geospatial/open_maps.png)
+  ![open_maps](images/geospatial/open_maps.png)
 
 This will display all of the enrollments stored on device withi coordinates. In this case, we can see coordinates are spread out a bit. Let us zoom in on Lao
 
@@ -122,7 +122,7 @@ Additionally, you can also search for specific TEIs on the map by using the sear
 
 ![search_icon](images/geospatial/search_icon.png)
 
-Let us search for the child with the Child Number : 8212. This will display their location along with their details which you can expand to review further.
+Let us search for the child with the Child Number : 8592. This will display their location along with their details which you can expand to review further.
 
 ![search_results](images/geospatial/search_results.png)
 
