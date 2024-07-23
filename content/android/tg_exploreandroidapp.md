@@ -75,12 +75,8 @@ Some participants may not have been able to install the app by themselves.Please
 2. Show them how you can create multiple users accounts by clicking on the Manage user account.
 3. Show them how to move to other apps in your phone without deleting the local data by using Blocking session feature
 4. Explain Home screen
-5.
-
-
 
 ## Part 1
-
 ### Log - in
 
 There are two ways to access the application:
@@ -88,9 +84,9 @@ There are two ways to access the application:
 1. Manual: The user must have a corresponding URL of the server and enter username and password.
 2. QR: The user can use a QR code instead of typing the URL but username and password must be entered manually.
 
-![login1](images/exploreandroid/images/login1.png)
+   ![login1](images/exploreandroid/images/login1.png)
 
-![login2](images/exploreandroid/images/login2.png)
+   ![login2](images/exploreandroid/images/login2.png)
 
 ### Multi-user Account
 
@@ -221,13 +217,13 @@ Click on the Filter Menu buttion next to Refresh button at the Homescreen
 
 Filters can adapt based on the program and data sets:
 
-1. For DataSet : Select NUT - Nutrition facility monthly dataset and then click on the filter icon.You will see filters: 
+1. For Data set : Select NUT - Nutrition facility monthly dataset and then click on the filter icon.You will see filters: 
 
-* Period
-* Org Unit
-* Sync State
+   * Period
+   * Org Unit
+   * Sync State
 
-![login1](images/exploreandroid/images/datasetfilter.png)
+   ![login1](images/exploreandroid/images/datasetfilter.png)
 
 2. Program with registration: Immunization Program
 
@@ -299,7 +295,7 @@ An easy way to differentiate between Data sets , Tracker and Event programs is b
 
 * For data sets, the word 'DataSets' will be shown next to the number of records.
 
-![login1](images/exploreandroid/images/homescreen2.png)
+  ![login1](images/exploreandroid/images/homescreen2.png)
 
 ### Data Sets and Tracker Capture
 

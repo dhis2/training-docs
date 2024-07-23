@@ -147,24 +147,24 @@ Before understanding how its captured in the android device lets see how this is
 * Review the feature type. It is **Point** in this case. Polygons are used in cases in which you need a boundary of some kind, for example when defining a malaria focus area.
 
 
-![](images/geospatial/image10.png)
+  ![](images/geospatial/image10.png)
 
-![](images/geospatial/image15.png)
+  ![](images/geospatial/image15.png)
 
 #### Switch back the to the Android device
 
 * Open the Immunization program
-* Either Search for an existing child and select "Open Child Details" or create a new child.
+* Either Search for an existing child and select "Edit Child" or create a new child.
 
-![](images/geospatial/image2.png)
-![](images/geospatial/image1.png)
-![](images/geospatial/image13.png)
+  ![](images/geospatial/image2.png)
+  ![](images/geospatial/image1.png)
+  ![](images/geospatial/image13.png)
 
 * Review the coordinates field for the child. This is where we can assign the childs home location.
 
-![](images/geospatial/image9.png)
+  ![](images/geospatial/image9.png)
 
-To do this you have two options
+To do this you can click on add location
 
 ![](images/geospatial/image12.png)
 
