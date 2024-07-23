@@ -41,7 +41,7 @@ The icons by the dataset refer to if its been completed or now. Green checkmarks
 
    ![](images/datasets/image31.png)
 
-* Select an orgunit a d Report Period to enter data into.
+* Select an orgunit and Report Period to enter data into.
 
    ![](images/datasets/image24.png)
 
@@ -168,12 +168,12 @@ This shows that data is stored locally on this device.
 * then click on the Gray icon it will ask you - “Do you want to sync the data”
 * Click on Send 
 
-![](images/datasets/image6.png)
-![](images/datasets/image14.png)
+  ![](images/datasets/image6.png)
+  ![](images/datasets/image14.png)
 
 * Now once data is synced to the server you will see the below screen and the gray icon will not be visible.
 
-![](images/datasets/image9.png)
+  ![](images/datasets/image9.png)
 
 ### STOP - End Exercise 3
 
@@ -186,15 +186,15 @@ Please follow the steps to re-open the data set.
 * Click on the completed data set which you want to edit or re-open 
 * In this case Select a dataset with a green check mark next to it (as that is a completed data set)
 
-![](images/datasets/image16.png)
+  ![](images/datasets/image16.png)
 
 * Click on the three dots on the extreme upper right corner
 
-![](images/datasets/image13.png)
+  ![](images/datasets/image13.png)
 
 * Click on re-open a dialog box will appear and Click on “Yes”
 
-![](images/datasets/image26.png)
+  ![](images/datasets/image26.png)
 
 ### STOP - End Exercise 4
 
