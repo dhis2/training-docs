@@ -89,9 +89,7 @@ Before starting the demonstration, please keep in mind that the most important t
 1. Review the interface 
 
 2. Review the program
-  
-   * Log in to the system on the Android device
-   * Select the Case-based Surveillance program and go over the interface that appears.
+dfs
    * Review the filters options available on this page
    * Search for a person that already exists (BAB114160, Theo Fleury)
    * Open their record, see all the events that are present. Review the tabs on the person dashboard
@@ -100,7 +98,7 @@ Before starting the demonstration, please keep in mind that the most important t
 
    STOP - Exercise 1
 
-3. Register a new person.Register a new case (if someone is following along; they should register a UNIQUE PERSON that is different from yours)
+1. Register a new person.Register a new case (if someone is following along; they should register a UNIQUE PERSON that is different from yours)
 
    * Search for a record that does not exist
    * Click on new person button and select an org unit in which to register the case into
@@ -110,7 +108,7 @@ Before starting the demonstration, please keep in mind that the most important t
 
    STOP - Exercise 2
 
-4. Add a new event to the person’s record
+2. Add a new event to the person’s record
 
    * Fill in the details of the form and save the event
    * Add a new event on the lab request stage, same day from the date first seen. Complete the form and save the event

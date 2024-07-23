@@ -1,4 +1,4 @@
-# Trainer’s guide to Capture App (Web-Based)
+# Trainer’s guide to Capture
 
 ## What is this guide?
 
@@ -27,9 +27,9 @@ The overall objective of this session is to use the DHIS2 capture app. Detailed 
 
 ### Time Requirements
 
-Live Demo: 1 hour
+Live Demo: 1.5 hours
 
-Hands-on Exercises: 30 minutes
+Hands-on Exercises: 1.5 hours
 
 ## Background
 
@@ -82,10 +82,12 @@ If the participants are doing the demo with you at the same time, you can take t
    ![](resources/images/capture/selectou.png)
 
 
-The **Electronic Immunization Registry** is linked to any Organization Unit at the health facility level. CH Mahosot has some example cases already entered.
+The **Electronic Immunization Registry** is linked to any Organisation Unit at the health facility level. CH Mahosot has some example cases already entered.
 
-**Note** : Any person that is already registered will be displayed in a tabular fashion, with each row corresponding to a single record.
-
+> **Note** 
+>
+> Any person that is already registered will be displayed in a tabular fashion, with each row corresponding to a single record. You can display this list in program maintenance when you configure your program if needed.
+ 
    ![](resources/images/capture/capturehomepage.png)
 
 **Enrollment status filters:** If a program is selected, the app provides further filtering on the table based on enrollment status. This is displayed in the following order:
@@ -147,7 +149,7 @@ Go to the registration page and see that the ID will be generated. These ID’s 
 
 ### Part 2 : Registration
 
-The capture app now has more support for tracker programs than before. Users will now be able to list and interact with tracked entity instances much in the same way as events, and will have access to searching and registering/enrolling tracked entity instances in the Capture app itself. The navigation between the apps will happen seamlessly. This will allow data entry user to access tracker and event data in the same place, and have a more integrated workflow.
+The capture app now has more support for tracker programs than before. Users will now be able to list and interact with tracked entity instances much in the same way as events, and will have access to searching and registering/enrolling tracked entity instances in the Capture app itself. This will allow data entry user to access tracker and event data in the same place, and have a more integrated workflow.
 
 **Register a TEI into the Electronic Immunization Registry Program** 
 
