@@ -86,12 +86,11 @@ In an in-person setting, the participants may be doing the demo with you at the 
    - Relationships : 
      - Display tracked entity relationships = yes
     - Relationship type : Has Been in Contact with
-  - Period :
-    - Select periods when last updated
-    - Start/ End Date : Decemeber 31, 2023 - Junly 17, 2024
+   - Period :
+     - Program/Enrollment date: the date a tracked entity was registered or enrolled in a program: Decemeber 31, 2023 - July 17, 2024
   - Org Units : 12 Khammouan
     - Selection mode : Selected and all below
-  - Style : Radius in meters = 1000
+  - Style : Radius in meters = 100
 
 Discuss the limitations of this layer in its current state (no relationships across other programs, can't just collect the co-ordinate during registration and combine this with data within one of the events)
    
@@ -225,10 +224,10 @@ Create the map using the tracked entity layer with the following inputs:
   - Relationship type : Has Been in Contact with
 - Period :
   - Select periods when last updated
-  - Start/ End Date : Decemeber 31, 2023 - Junly 17, 2024
+    - the date a tracked entity was registered or enrolled in a program: Decemeber 31, 2023 - July 17, 2024
 - Org Units : 12 Khammouan
 - Selection mode : Selected and all below
-- Style : Radius in meters = 1000
+- Style : Radius in meters = 100
 
 The map should look like this
 
@@ -236,10 +235,7 @@ The map should look like this
 
 **Boundary Layer**
 
-
 ![](resources/images/maps/mapboundarytei.png)
-
----
 
 ***Tracked Entity Layer***
 
