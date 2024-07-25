@@ -4,7 +4,7 @@
 
 This guide is a support document for DHIS2 Academy trainers for the webinar “Tracker Feature Overview.”
 
-This session follows the approach of delivering shorter academy sessions that can be accessed by larger audiences (ie. those attending the academy as well as a general audience interested in tracker). A number of guidelines have been adopted from those available for the DHIS 2 Annual Conference.
+This session follows the approach of delivering shorter academy sessions that can be accessed by larger audiences (ie. those attending the academy as well as a general audience interested in tracker). A number of guidelines have been adopted from those available for the DHIS2 Annual Conference.
 
 ### Time Requirements
 

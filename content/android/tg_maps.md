@@ -94,7 +94,7 @@ Also if TEI has a profile image,the map will display it.
 - Open the immunization program from the android home screen
 - Select the map icon within the event line list page for this program
 
-![open_maps](images/geospatial/open_maps.png)
+  ![open_maps](images/geospatial/open_maps.png)
 
 This will display all of the enrollments stored on device withi coordinates. In this case, we can see coordinates are spread out a bit. Let us zoom in on Lao
 
@@ -122,7 +122,7 @@ Additionally, you can also search for specific TEIs on the map by using the sear
 
 ![search_icon](images/geospatial/search_icon.png)
 
-Let us search for the child with the Child Number : 8212. This will display their location along with their details which you can expand to review further.
+Let us search for the child with the Child Number : 8592. This will display their location along with their details which you can expand to review further.
 
 ![search_results](images/geospatial/search_results.png)
 
@@ -147,33 +147,27 @@ Before understanding how its captured in the android device lets see how this is
 * Review the feature type. It is **Point** in this case. Polygons are used in cases in which you need a boundary of some kind, for example when defining a malaria focus area.
 
 
-![](images/geospatial/image10.png)
+  ![](images/geospatial/image10.png)
 
-![](images/geospatial/image15.png)
+  ![](images/geospatial/image15.png)
 
 #### Switch back the to the Android device
 
 * Open the Immunization program
-* Either Search for an existing child and select "Open Child Details" or create a new child.
+* Either Search for an existing child and select "Edit Child" or create a new child.
 
-![](images/geospatial/image2.png)
-![](images/geospatial/image1.png)
-![](images/geospatial/image13.png)
+  ![](images/geospatial/image2.png)
+  ![](images/geospatial/image1.png)
+  ![](images/geospatial/image13.png)
 
 * Review the coordinates field for the child. This is where we can assign the childs home location.
 
-![](images/geospatial/image9.png)
+  ![](images/geospatial/image9.png)
+To do this you can click on add location
 
-To do this you have two options
-
-![](images/geospatial/image12.png)
-
-
-1. The First option will select the exact latitude and longitude based on your current location.
-
-2. The Second option will open the map where you can select the location of your choice and Save it.
-
-![](images/geospatial/image5.png)
+  This will select the exact latitude and longitude based on your current location.
+  
+  You need to select the location of your choice and then Save it.
 
 #### STOP - Perform Exercise 2
 
@@ -210,8 +204,9 @@ This is also configured while designing the program. In this case we have set a 
 
 ![](images/geospatial/image8.png)
 
-* The First option will select the exact latitude and longitude of the device
-* The Second option will open the map where you can select the location of your choice and Save it
+* Click on Add Location which will select the exact latitude and longitude of the device.
+
+* Select the location of your choice and Save it.
 
 These coordinates can be displayed by selecting the program option within the map on Android.
 

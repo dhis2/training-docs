@@ -75,12 +75,8 @@ Some participants may not have been able to install the app by themselves.Please
 2. Show them how you can create multiple users accounts by clicking on the Manage user account.
 3. Show them how to move to other apps in your phone without deleting the local data by using Blocking session feature
 4. Explain Home screen
-5.
-
-
 
 ## Part 1
-
 ### Log - in
 
 There are two ways to access the application:
@@ -88,9 +84,9 @@ There are two ways to access the application:
 1. Manual: The user must have a corresponding URL of the server and enter username and password.
 2. QR: The user can use a QR code instead of typing the URL but username and password must be entered manually.
 
-![login1](images/exploreandroid/images/login1.png)
+   ![login1](images/exploreandroid/images/login1.png)
 
-![login2](images/exploreandroid/images/login2.png)
+   ![login2](images/exploreandroid/images/login2.png)
 
 ### Multi-user Account
 
@@ -154,11 +150,15 @@ STOP
 
 **Open sync errors log** : The sync error log gives details about the error and is prepared to be shared with admins.
 
+**Export database** : **_This a new feature in version 3.0_** Users are now be able to export the local database and share it with an admin, who will be able to import it for troubleshooting, being able to replicate the exact environment (database, device, configuration). The exported database is encrypted and the administrator will require the user credentials to be able to access the database
+
 **Delete local data** : This action will delete local data without having to log out.
 
 **SMS Settings** : This section allows you to check or edit the parameters related to the sms gateway.
 
      NOTE: This feature enables implementation administrators to manage and control the version of the Android app from the DHIS2 user web interface, making it easier to manage app updates and ensure compatibility with the DHIS2 system. Managers will be able to upload the desired version and users will get a prompt message to update when they are not in the last updated version. The management of versions is made through a new Web App.
+
+**Software Update** : This feature enables implementation administrators to manage and control the version of the Android app from the DHIS2 user web interface, making it easier to manage app updates and ensure compatibility with the DHIS2 system. Managers will be able to upload the desired version and users will get a prompt message to update when they are not in the last updated version. The management of versions is made through a new Web App.
 
 
 ## PART 3
@@ -178,7 +178,6 @@ The user will be able to see how many programs are downloading data, or complete
 
 ![login1](images/exploreandroid/images/homescreen2.png)
 
-
 **Sync Status**
 
 In the application you can see that “Next to each program or data set” an icon will be displayed which allows the user to check sync information. 
@@ -197,7 +196,7 @@ Below are the different sync icons:
 
 ![login1](images/exploreandroid/images/sync2.png)
 
-**Granular Sync** :Users can click on the grey arrows (which means record(s) stored online in the device) to perform a sync. These options are available at top level (programs/dataset) or individually (TEI, events, datavalues).
+**Granular Sync** :Users can click on the sync tab (which means record(s) stored online in the device) to perform a sync. These options are available at top level (programs/dataset) or individually (TEI, events, datavalues).
 
 ![login1](images/exploreandroid/images/granularsync.png)
 
@@ -221,13 +220,13 @@ Click on the Filter Menu buttion next to Refresh button at the Homescreen
 
 Filters can adapt based on the program and data sets:
 
-1. For DataSet : Select NUT - Nutrition facility monthly dataset and then click on the filter icon.You will see filters: 
+1. For Data set : Select NUT - Nutrition facility monthly dataset and then click on the filter icon.You will see filters: 
 
-* Period
-* Org Unit
-* Sync State
+   * Period
+   * Org Unit
+   * Sync State
 
-![login1](images/exploreandroid/images/datasetfilter.png)
+   ![login1](images/exploreandroid/images/datasetfilter.png)
 
 2. Program with registration: Immunization Program
 
@@ -299,7 +298,7 @@ An easy way to differentiate between Data sets , Tracker and Event programs is b
 
 * For data sets, the word 'DataSets' will be shown next to the number of records.
 
-![login1](images/exploreandroid/images/homescreen2.png)
+  ![login1](images/exploreandroid/images/homescreen2.png)
 
 ### Data Sets and Tracker Capture
 
@@ -321,7 +320,7 @@ Trainers can show how - Immunization program and briefly demo the steps involved
 
 * Open Immunization Program
 * Search for the Child 
-* Click on "+" icon 
+* Click on "+ New Child" icon 
 * Register the Child
 * Open Birth Details
 * Enter Data
@@ -355,6 +354,20 @@ STOP
 
 New Features in latest version
 
+### Line list 
+
+The DHIS2 Android App can now render analytics that have been created in the line listing app.Analytics to be displayed require to be configured using the Android Settings WebApp where administrators will be able to decide the tables to be displayed for end users.
+
+To configure analytics open the Android Settings WebApp on your DHIS2 server and follow the steps below:
+- Select Home or Program from the Analytics menu
+- Select the visualization type "Event visualization"
+- Click on the "Add Visualization" button
+- Search by typing the name of the visualization and select it by clicking on it
+- Add an alternative title, otherwise, the app will display the name of the visualization
+- In the app, the users will be able to search by period, Org. unit, or any of the columns added in the Line List.
+
+
+
 ### Error Navigation
 
 The Android App has improved the navigation of sync errors on the user interface. The app will display the sync errors in a simple and clean manner allowing the user to navigate from the home screen to the exact field that is causing the error inside the event or data set.
@@ -371,7 +384,7 @@ The Android App enables users to view long text in fields that are limited in si
 
 ### Rendering Options
 
-In 2.8 version the rendering options have been expanded to include horizontal and vertical radio buttons, checkboxes and toggles for any value type.
+In 2.8 version and above the rendering options have been expanded to include horizontal and vertical radio buttons, checkboxes and toggles for any value type.
 
 ### Working List
 
@@ -385,8 +398,7 @@ From 2.8, the Android App supports the new tracker working lists, allowing users
 
 ### Maps
 
-Trainers can show Maps and  there are different layers that can be displayed by clicking on the specific button on the upper right corner. The user can select one or more layers to be displayed. Both coordinate and polygon types will be displayed. The layers are dependant on the type of program as explained below:
-
+Trainers can show Maps and there are different layers that can be displayed by clicking on the specific button on the upper right corner. The user can select one or more layers to be displayed. Both coordinate and polygon types will be displayed. The layers are dependant on the type of program as explained below:
 
 * Show events (For programs without registration)
 * Satellite view

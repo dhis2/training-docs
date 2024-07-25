@@ -1,12 +1,12 @@
 # Event Reports - Session Summary
 
-The event visualizer app allows you to create charts based on tracked data. It is particularly well suited for visualizing standardized responses (ie. option set information).
+The event visualizer app allows you to create charts based on tracker data. It is particularly well suited for visualizing standardized responses (ie. option set information).
 
 When creating a visualization that uses event as the output type, both event and tracker data are handled the same way as you can only select one program stage to work with within event visualizer. The “enrollment” output type does not work within this app.
 
 There is a “tracked entity instance” output type within event visualizer. This will only work with tracker data (not event data) as it counts the number of unique tracked entity instances that meet given criteria within a single program.
 
-## Create an event visualization
+## Creating an event visualization
 
 1. Select your chart type
 2. Select your program and program stage

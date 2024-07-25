@@ -91,7 +91,7 @@ Some participants may not have been able to install the app by themselves. In th
 * Once you Log - in the Home Page can be seen.
 * Briefly explain to the participants about the user access rights and visibility of the program and data sets on the home page (this has already been discussed in a previous session).
 
-![login1](images/exploreandroid/images/homescreen2.png)
+  ![login1](images/exploreandroid/images/homescreen2.png)
 
 * Now click on the “NUT - Nutrition facility monthly” 
 
@@ -102,7 +102,7 @@ Some participants may not have been able to install the app by themselves. In th
 
    ![](images/datasets/image9.png)
 
-The icons by the dataset refer to if its been completed or now. Green checkmarks indicate it has been completed, while blue pencil icons indicate it has not yet been completed.
+The icons by the dataset refer to if its been completed or now. Green checkmark indicates it has been completed.
 
 ### Data Entry
 
@@ -114,13 +114,13 @@ The icons by the dataset refer to if its been completed or now. Green checkmarks
 
    ![](images/datasets/image31.png)
 
-* Select an orgunit a d Report Period to enter data into.
+* Select an orgunit ad Report Period to enter data into.
 
-   ![](images/datasets/image24.png)
+   ![](images/datasets/image17.png)
 
 * Once you select the period Click on NEXT button
 
-   ![](images/datasets/image17.png)
+   ![](images/datasets/image24.png)
 
 * The form will open and all the sections of the forms will be rendered as tabs.
 
@@ -182,13 +182,13 @@ Add Values for
 * ANC 1st Contact HB Screening = 5
 * ANC 1st Contact Anaemic = 9
 
-![](images/datasets/image18.png)
+  ![](images/datasets/image18.png)
 
 Now try to save the dataset and run validation rules on the device.
 
 * An error dialog will appear once you try to save and the dataset will not be marked as complete. The description and instructions of the validation rule will be displayed to help the user identify the error.
 
-![](images/datasets/image4.png)
+  ![](images/datasets/image4.png)
 
 **_NOTE: When completing a dataset, there is an option "Complete allowed only if validation passes". In this scenario, the validation rules will be run even if the user says "No" to the prompt "Do you want to check data quality." In this case, the validation rules must all pass in order to save the dataset._**
 
@@ -223,13 +223,13 @@ Now try to save the dataset and run validation rules on the device.
 * To start entering data for a new period,Click on the + icon in the extreme right side corner.
 * Click on the Report Period and Select the month and year for new data to be entered for a new period.
 
-![](images/datasets/image19.png)
+  ![](images/datasets/image19.png)
 
 * Once you select the period Click on NEXT button
 * The data form will open.
 * Enter Values
 
-![](images/datasets/image3.png)
+  ![](images/datasets/image3.png)
 
 * Click Save
 
@@ -248,8 +248,7 @@ This shows that data is stored locally on this device.
 
 * Now once data is synced to the server you will see the below screen and the gray icon will not be visible.
 
-![](images/datasets/image9.png)
-
+  ![](images/datasets/image9.png)
 
 ### STOP - Perform Exercise 3
 
@@ -260,19 +259,20 @@ Once the data is saved you can re-open the data set, if the user has access.
 Please follow the steps to re-open the data set.
 
 * Click on the completed data set which you want to edit or re-open 
-* In this case Select a dataset with a green check mark next to it (as that is a completed data set)
 
-![](images/datasets/image16.png)
+* In this case Select a dataset with a green check mark (as that is a completed data set)
+
+  ![](images/datasets/image16.png)
 
 * Click on the three dots on the extreme upper right corner
 
-![](images/datasets/image13.png)
+  ![](images/datasets/image13.png)
 
 * Click on re-open a dialog box will appear and Click on “Yes”
 
-![](images/datasets/image26.png)
+   ![](images/datasets/image26.png)
 
-## Part 5 - New Features in DHIS2 Android Version 2.8.2
+## Part 5 - New Features in DHIS2 Android Version 2.8 and above version
 
 ### Resizing Column and Headers
 

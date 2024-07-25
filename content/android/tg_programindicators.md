@@ -73,10 +73,7 @@ Some participants may not have been able to install the app by themselves. In th
 
 ## Background:
 
-
-
 ## Quick Guide
-
 
 ## Part 1 - Demonstrate
 

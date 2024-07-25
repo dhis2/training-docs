@@ -9,22 +9,21 @@ This guide is a support document for DHIS2 Academy trainers for the session “A
 2. a hands-­on session with exercises where participants get to practice the same features.
 
 This guide will help the trainer​ prepare​​ for the live demo session. The “Live Demo step by
-step” section has a detailed walkthrough of all the steps to demonstrate with
-explanations and screenshots that should be easy to follow. Use that when preparing for
-the live demo session.
+step” section has a detailed walkthrough of all the steps to demonstrate with explanations and screenshots that should be easy to follow. Use that when preparing for the live demo session.
 
-There is also a Quick Guide which lists the steps very briefly and this is meant as a lookup
-guide or “cheatsheet” WHILE doing the demo, to help the trainer remember all the steps
-and the flow of the demo.
+There is also a Quick Guide which lists the steps very briefly and this is meant as a lookup guide or “cheatsheet” WHILE doing the demo, to help the trainer remember all the steps and the flow of the demo.
 
 ## Learning objectives for this session
 
 1. Demonstrate how maps are displayed in the tracker program and the use of the following elements:
+
    1. Carousel
    2. Navigation to location
    3. Map layers
    4. User current location
+
 2. Understand how TEI Analytics work
+
    1. Data element evolution
    2. Program indicators
 
@@ -53,7 +52,7 @@ https://github.com/dhis2/dhis2-android-capture-app/releases
 
 This will be denoted by “training” at the end of the APK file.
 
-![](resources/images/tracker_capture_android/image1.png)
+![](resources/images/tracker_capture_android/image1new.png)
 
 ### Projecting your Android Device
 
@@ -73,32 +72,33 @@ Password: District1#
 
 ### Participants
 
-Send the instructions to the participants on how to install the Android app prior to the session. The instructions can be found [here](https://docs.google.com/document/d/1SUUUdmPSDycFtdB9yUMq8ZWiWf8gNOu5xvtNj4_V63U/edit?usp=sharing).
+Send the instructions to the participants on how to install the Android app prior to the session. The instructions can be found 
+[here](https://docs.google.com/document/d/1SUUUdmPSDycFtdB9yUMq8ZWiWf8gNOu5xvtNj4_V63U/edit?usp=sharing).
 
 Some participant's may not have been able to install the app by themselves. In that scenario, you may need to walk them through how to do this via google play.
 
 ## Quick Guide
 
-1. Review the maps display within the COVID-19 contact registration & follow-up program
+1. Review the maps display within the Case Based Surveillance Program
    - Select the program and open the maps tab
    - Cycle through the carousel
    - Select a TEI and navigate to their dashboard
    - Navigate to the TEIs location (than switch back to the original maps display)
    - Change the map layers to show the heatmap and use the satellite view
    - Navigate to your location
-2. Review data element evolution charts within the COVID-19 contact registration & follow-up program
-   - Search for the TEI Carlos Barker
+2. Review data element evolution charts within the Malaria case notification , investigation and response
+   - Search for the TEI Alakazam Malakazama
    - Navigate to the analytics tab
    - Review and explain the chart that is shown
    - Move between visualization types
    - Explain the filters
-3. Review program indicators within the COVID-19 Case-based surveillance program
-   - Search for the TEI Matthew Maker
-   - Review the events in stage 3
+3. Review program indicators within the Case-based surveillance program
+   - Search for the TEI Theo Fleury
+   - Review the events in Laboratory Result
    - Navigate to the analytics tab
-   - Review and explain the program indicator “Total number of tests”
-4. Review program feedback within the COVAC -COVID-19 Vaccination Registry Program
-   - Search for the TEI Melissa Ortiz
+   - Review and explain the program indicator “Total Lab Results”
+4. Review program feedback within the Electronic Immunization Registry Program
+   - Search for the TEI Maria Smith
    - Navigate to the analytics tab
    - Review and explain the various information that is displayed
 
@@ -106,7 +106,7 @@ Some participant's may not have been able to install the app by themselves. In t
 
 Before starting, login to the android app using your training instance.
 
-### Review the maps display within the COVID-19 contact registration & follow-up program
+### Review the maps display within the case based surveillance program
 
 The android app will display the map screen in event or tracker programs that contain one or more of the following elements:
 
@@ -118,27 +118,31 @@ The android app will display the map screen in event or tracker programs that co
 
 #### Open the map
 
-To access the demo map open the COVID-19 Contact Registration & Follow-up program. At the bottom you’ll see the navigation bar. Select the map icon to access the map (note, in order to use this feature, your program needs to be collecting the coordinate during registration).
+To access the demo map open the Case based Surveillance program. At the bottom you’ll see the navigation bar. Select the map icon to access the map (note, in order to use this feature, your program needs to be collecting the coordinate during registration).
 
-![open_map](resources/images/android_analysis/image2.png)
+![](resources/images/android_analysis/cbsmap.png)
 
 #### Cycle through the carousel
 
-After opening the map icon, you will see TEI details at the bottom of the screen. This is referred to as the map carousel. You can scroll through all of the individuals registered in this program by scrolling horizontally the carousel.  The map will zoom into the selected coordinates. If there are no coordinates shen a message will be shown. Each card in the carousel displays the tracked entity attributes marked as ‘Display in list’ when you configure your program. Click on the arrow to expand the card information. 
+After opening the map icon, you will see TEI details at the bottom of the screen. This is referred to as the map carousel. You can scroll through all of the individuals registered in this program by scrolling horizontally the carousel.  The map will zoom into the selected coordinates. If there are no coordinates then a message will be shown. Each card in the carousel displays the tracked entity attributes marked as ‘Display in list’ when you configure your program. Click on the arrow to expand the card information. 
 
-![](resources/images/android_analysis/image5.png)
+![](resources/images/android_analysis/mapopen.png)
 
 If the TEI contains an image as an attribute you will also see the picture instead of the Person icon. 
 
 Click on the card to open the TEI dashboard
 
-![select_card](resources/images/android_analysis/image5.png) ![tei_dashboard](resources/images/android_analysis/image7.png)
+![](resources/images/android_analysis/mapopentei.png) 
+
+![](resources/images/android_analysis/mapteidash.png)
 
 #### Navigate to the TEIs location (than switch back to the original maps display)
 
 From the TEI dashboard, select back. This will take you back to the map. If the TEI or event has coordinates then a navigation icon will be displayed at the top right corner of the card. When you click it, your device will ask to select an app to open the location (if you have multiple maps apps, if not it will use the default one). This will take you to the location in the maps app you have selected.
 
-![navigate_to_location](resources/images/android_analysis/image4.png) ![tei_location](resources/images/android_analysis/image16.png)
+![](resources/images/android_analysis/cbsmap2.png) 
+
+![](resources/images/android_analysis/cbsmap3.png)
 
 #### Change the map layers to show the heatmap and use the satellite **view**
 
@@ -146,62 +150,63 @@ Go back to the maps information by selecting back on your device. By clicking th
 
 Map layers you will see here include (depending on the configuration of the program): TEI coordinates, enrollment coordinates, Individual stage coordinates,  relationships, heatmap, tracked entity attributes of coordinate type, and data elements of coordinate type.
 
-In the COVID-19 Contact Registration & Follow-up program the app offers the TEI and Enrollment coordinate. Select the satellite view and the heatmap to show how the map changes, click on the “Apply” button to the changes.
+In the Case based surveillance program the app offers the TEI and Enrollment coordinate. Select the satellite view and the heatmap to show how the map changes, click on the “Apply” button to the changes.
 
-![map_view](resources/images/android_analysis/image1.png) ![select_heatmap](resources/images/android_analysis/image10.png) ![view_heatmap](resources/images/android_analysis/image12.png)
+![](resources/images/android_analysis/mapopen3.png) 
+
+![](resources/images/android_analysis/mapopenheatlayer.png) 
 
 #### Navigate to your location
 
 If the user grants location permissions to the App, the map will show the current location represented as a blue color dot. The maps in the DHIS2 Android Capture App now include the possibility to center the map on the user location.
 
-![user_location](resources/images/android_analysis/image9.png)
+![](resources/images/android_analysis/cbsmap4.png)
 
-#### STOP! Have them perform *Exercise 1* in the learner's guide.
+#### STOP! Have them perform Exercise 1 
 
-### Review data element evolution charts within the COVID-19 contact registration & follow-up program
+### Review data element evolution charts within the Malaria case notification , investigation and response.
 
 Exit the maps tab and go back to the list within a program. 
 
 It is possible to display the evolution of data elements over time as charts, values or tables. It is important to explain that this analysis will be available only for numeric value types within a repeatable stage.
 
-Select the COVID-19 Contact Registration & Follow-Up Program and search for the TEI “Carlos Barker”
+Select the Malaria case notification , investigation and response Program and search for the TEI “Alakazam Malakazama”
 
 Open the Analytics menu in the TEI dashboard navigation panel and show the chart.
 
-The chart here shows the weight of the person as taken from different repeated events within a program stage. In this example, you are seeing a person’s weight in kg. The example is not as applicable as it could be for monitoring COVID-19; however this type of output might make more sense in a nutrition or RMNCAH program for example.
+The chart here shows the temperature of the person as taken from different repeated events within a program stage. In this example, you are seeing a person’s temperature in degree celcius. 
 
-![de_evolution_chart](resources/images/android_analysis/image8.png)
+![](resources/images/android_analysis/dedaily.png)
 
 Explain it is possible to change the visualization to bars, line, table or single value
 
-![change_chart_output](resources/images/android_analysis/image11.png)
+![](resources/images/android_analysis/diffcharts.png)
 
 Filters are also available. Display the menu to see periods and organisation units available as filters.
 
-![chart_filters](resources/images/android_analysis/image3.png)
+![](resources/images/android_analysis/diffperiod.png)
 
 #### STOP! Have them perform *Exercise 2* in the learner’s guide.
 
-
-### Review program indicators (within the COVID-19 Case-based surveillance program)
+### Review program indicators (within the Case-based surveillance program)
 
 You can display any program indicator by enabling the “Display in form” feature. All program indicators are listed at the top of the screen. These also would have appeared within tracker capture on the web.
 
-Open the COVID-19 Case-based surveillance program and search for “Matthew Maker.” You can open up stage 3 to review the number of tests performed.
+Open the Case-based surveillance program and search for “Theo Fleury”. You can open up "Laboratory Result" to review the Total Lab results
 
-![tei_dashboard](resources/images/android_analysis/image17.png)
+![](resources/images/android_analysis/tei1.png)
 
-Click on the Analytics menu in the TEIs navigation bar and explain that the Total Number of Tests indicator counts all the events where the “Lab Test Result” data element has value. The charts feature still needs a little bit of work. You can see underneath it will start by showing the number of tests on the enrollment date, followed by the chart for events. The chart on enrollment date can be disregarded and will be worked on by the Android team.
+Click on the Analytics menu in the TEIs navigation bar and explain that "Total Lab results" indicator counts all the events where the data element has value.
 
-![tei_analytics_cbs](resources/images/android_analysis/image14.png)
+![](resources/images/android_analysis/indicators.png)
 
 NOTE: The Android App does not support customized boundaries for PI.
 
-### Review program feedback within the COVAC - COVID-19 Vaccination Registry Program
+### Review program feedback within the Electronic Immunization Registry Program
 
-Switch over to the COVAC -COVID-19 Vaccination Registry Program and search for the TEI “Melissa Ortiz.” Select the analytics tab after opening this record. You can also show other information in the analytics tab. This will include feedback or other information that has been configured to show on the tracker dashboard. 
+Switch over to the Electronic Immunization Registry Program and search for the TEI “Maria Smith” Select the analytics tab after opening this record. You can also show other information in the analytics tab. This will include feedback or other information that has been configured to show on the tracker dashboard. 
 
-![tei_analytics_covac](resources/images/android_analysis/image15.png) 
+![](resources/images/android_analysis/feedback.png) 
 
 
 #### STOP! Have them perform *Exercise 3* in the learner’s guide.

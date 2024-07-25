@@ -13,8 +13,8 @@ Steps to be followed to Open “Tracker capture app”.
 
 ## Registration and Enrollment
 
-1. Click on the Organization unit (in this case the program is assigned at the facility level - **CHW Mahosot**).Once you click the OU it the color will change to orange.
-2. Select the program ,in this case  **COVID-19 (Vaccine Registry and Case-based surveillance)**
+1. Click on the Organization unit (in this case the program is assigned at the facility level - **0001 CH Mahosot**).Once you click the OU ,the color will change to orange.
+2. Select the program ,in this case  **( Case-based surveillance)**
 3. You can now see tracker capture interface with 
 *  Listing of the registered cases
 * Filters, sorting, adding columns, downloading the TEI list
@@ -59,5 +59,6 @@ Steps to be followed to Open “Tracker capture app”.
 8. Enroll the entity in another program.
 9. Search for a TEI with no program using the person TE type. 
 10. Register a TEI with no program, then subsequently enroll them in the immunization program. 
+
     * De-select the Vaccination program so that the program selection field is blank. Select the person TEI type and click on “Register". 
     * Enter the details and Select “Save and continue".

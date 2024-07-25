@@ -100,6 +100,7 @@ In the current setup you can see all of the options are enabled.
 ![remove_assignedtome](images/androidsettingswebapp/remove_assignedtome.png)
   
 * Now Go to the Android App and sync your changes (make sure you go to Settings -> Sync Configuration now, to sync the changes that were done in the Android settings web app)
+
 * Now go to the Home Screen.You will see the below screen with only the Date, Org Unit and Sync options in the filter.
 
   ![](images/androidsettingswebapp/image5.png)

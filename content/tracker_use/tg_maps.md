@@ -2,7 +2,7 @@
 
 ## What is this guide?
 
-This guide is a support document for DHIS2 Academy trainers for the session “Event Visualizer.” This session follows the standard Academy training approach with 
+This guide is a support document for DHIS2 Academy trainers for the session “Maps.” This session follows the standard Academy training approach with 
 
 1. a live demo session where the trainer demonstrate and explain the features, and 
    
@@ -19,7 +19,6 @@ There is also a Quick Guide which lists the steps very briefly and this is meant
 3. Create maps using tracker data within:
    1. The event layer
    2. The tracked entity layer
-
 
 ## Time Requirements
 
@@ -55,38 +54,46 @@ In an in-person setting, the participants may be doing the demo with you at the 
 
 1. Review how tracker co-ordinates are captured during both registration and within an event
 2. Create a map using the event layer
-   1. Create the map with the following inputs
-      - Layer Type : Event
-      - Data:
-        - Program : COVID-19 Case-base Surveillance
-        - Stage : Stage 3 - Lab Results
-        - Coordinate field : Event Location
-        - Event status : all
-      - Period : This Year
-      - Org Units : User org units 2x below
-      - Filter :
-        - Data item : Lab Test Result = Positive
-      - Style :
-        - Group events
-        - Style by data element : Sex
-   2. Note that dealing with event or tracker data when using the event layer is exactly the same
+   
+   Create the map with the following inputs
+
+   - Layer Type : Org unit
+   - Level 3 (District)
+   - Layer Type : Event (CBS Location)
+   - Data:
+     - Program : Case-based Surveillance
+     - Stage : Stage 1 - Diagnostic and clinical information
+     - Coordinate field : CBS Location
+     - Event status : all
+   - Period : This Year
+   - Org Units : User sub-x2-units
+   - Filter :
+     - Data item : Fever = Yes
+   - Style :
+     - Group events
+    - GEN - Sex
+     
+     Note that dealing with event or tracker data when using the event layer is exactly the same
+
 3. Create a map using the TEI layer with relationships
-   1. Create the map with the following inputs
-      - Layer 1 Type : Boundary Layer - Vientiane Capital
-      - Layer 2 Type : Tracked Entity
-      - Data:
-        - Tracked Entity Type : Person
-        - Program : COVID-19 Case-base Surveillance
-        - Program status : all
-      - Relationships : 
-        - Display tracked entity relationships = yes
-        - Relationship type : Has Been in Contact with
-      - Period :
-        - Program/Enrollment date
-        - Start/ End Date : Oct 16, 2020 - Oct 16, 2021
-      - Org Units : CHW Mitthaphap
-      - Style : leave as default
-   2. Discuss the limitations of this layer in its current state (no relationships across other programs, can't just collect the co-ordinate during registration and combine this with data within one of the events)
+
+   - Layer 1 Type : Org Unit - User sub - units
+   - Layer 2 Type : Tracked Entity
+   - Data:
+     - Tracked Entity Type : Person
+     - Program : Case-base Surveillance
+     - Program status : all
+   - Relationships : 
+     - Display tracked entity relationships = yes
+    - Relationship type : Has Been in Contact with
+   - Period :
+     - Program/Enrollment date: the date a tracked entity was registered or enrolled in a program: Decemeber 31, 2023 - July 17, 2024
+  - Org Units : 12 Khammouan
+    - Selection mode : Selected and all below
+  - Style : Radius in meters = 100
+
+Discuss the limitations of this layer in its current state (no relationships across other programs, can't just collect the co-ordinate during registration and combine this with data within one of the events)
+   
 4. Review the recap slide
 5. Have them perform the assignment
 
@@ -96,83 +103,85 @@ In an in-person setting, the participants may be doing the demo with you at the 
 
 To start this demonstration, let us discuss where we get the co-ordinates that are used on the TEI and event layer in regards to tracker data.
 
-Go to capture and select any Level 4 OU (facility) along with the COVID-19 Case-based surveillance program. You will see a list of TEIs after making this selection
+Go to capture and select any Level 4 OU (facility) along with the Contact tracing program. You will see a list of TEIs after making this selection
 
-![tei_list](resources/images/maps/capture_tei_list.png)
+![](resources/images/maps/mapnew1.png)
 
 Proceed to register a new person into this program
 
-![new_registration](resources/images/maps/new_registration.png)
+![](resources/images/maps/mapnew2.png)
 
 In this page, you will notice the co-ordinate field present. This co-ordinate field is for the tracked entity and can be used by the tracked entity layer within the maps app.
 
-![registration_coordinate](resources/images/maps/registration_coordinate.png)
+![](resources/images/maps/mapnew3.png)
 
 On android, you are able to capture the co-ordinate using your location; while on the web you must enter or select it from the map.
 
-Cancel the registration and open up one of the existing records within your org unit; this will take you to their TE dashboard in tracker capture.
+Cancel the registration and open up one of the existing records in the Contact tracing Program; this will take you to their TE dashboard in tracker capture.
 
-Review Stage 1, 3 and 4. Each of these stages will have a field called "Event point"
+Review the program stage Initial contact. Each of these events will have a field called "Location"
 
-![event_coordinate](resources/images/maps/event_coordinate.png)
+![](resources/images/maps/mapnew4.png)
 
 This is the co-ordinate field that is used to display data within the event layer and is captured in the same way as the registration co-ordinate (on android, you are able to capture the co-ordinate using your location; while on the web you must enter it or select it from the map).
 
+In cases where it is needed, scripts can be used to transfer the tracked entity coordinate into each event so it does not need to be captured manually each time; however this is highly situational dependent.
+
 ### Create a map using the event layer
 
-As a review, you can create a map using the event layer. The process is exactly the same as when working with an event. 
+As a review, you can create a map using the event layer.
 
-We can create a map using data from the COVID-19 Case-Based Surveillance Program for lab confirmed cases. 
+We can create a map using data from the Case based surveillance Program for Fever cases from Diagnostic and clinical information.
 
-Open the map "COVID_CBS - Lab confirmed cases, this year, by home location." This the map that you will create. You can explain the layout to the participants before continuing.
+Open the maps app, then open the map "CBS - Fever cases, this year, by home location." This the map that you will create. You can explain the layout to the participants before continuing.
 
 Clear your inputs by going to File -> New.
 
 Create the map using the event layer with the following inputs:
 
-- Layer Type : Boundary
-  - Level 3
-- Layer Type : Event 
+- Layer Type : Org unit
+  - Level 3 (District)
+- Layer Type : Event (CBS Location)
 - Data:
-  - Program : COVID-19 Case-base Surveillance
-  - Stage : Stage 3 - Lab Results
-  - Coordinate field : Event Location
+  - Program : Case-based Surveillance
+  - Stage : Stage 1 - Diagnostic and clinical information
+  - Coordinate field : CBS Location
   - Event status : all
 - Period : This Year
-- Org Units : User org units 2x below
+- Org Units : User sub-x2-units
 - Filter :
-  - Data item : Lab Test Result = Positive
+  - Data item : Fever = Yes
 - Style :
   - Group events
-  - Style by data element : Sex
+  - GEN - Sex
 
 The map should look like this
 
-![map1](resources/images/maps/map1.png)
+![](resources/images/maps/map1new.png)
 
 **Data Tab**
 
-![map1_data](resources/images/maps/map1_data.png)
+![](resources/images/maps/map1_datanew.png)
 
 **Period Tab**
 
-![map1_period](resources/images/maps/map1_period.png)
+![](resources/images/maps/map1_period.png)
 
 **Org Units Tab**
 
-![map1_OUs](resources/images/maps/map1_OUs.png)
+![](resources/images/maps/map1_OUsnew.png)
 
 **Filter Tab**
 
-![map1_filter](resources/images/maps/map1_filter.png)
+![](resources/images/maps/map1_filternew.png)
 
 **Style Tab**
 
-![map1_style](resources/images/maps/map1_style.png)
+![](resources/images/maps/map1_stylenew.png)
 
 As the events are grouped together, and you have chosen to style them by sex, we see the doughnut charts when we are zoomed out. As you zoom in however you will start to see the individual locations of each of these events. Select an event to see the details. 
 
-![map1_zoomed](resources/images/maps/map1_zoomed.png)
+![](resources/images/maps/map1_zoomednew.png)
 
 As we can see, using this layer is the same whether we are using event or tracker data. As with our other analyses, we do have to keep in mind that the event layer will be displaying all the events within a program on this map; so in the case of repeated event data you can have multiple events on the map representing each of these events.
 
@@ -180,66 +189,63 @@ As we can see, using this layer is the same whether we are using event or tracke
 
 Go to the file menu and select the "Save" option
 
-![map1_save](resources/images/maps/map1_save.png)
+![](resources/images/maps/map1_save.png)
 
 Give the map a name and a description and select "Save"
 
-![map1_save_dialog](resources/images/maps/map1_save_dialog.png)
+![](resources/images/maps/map1_save_dialognew.png)
 
 #### Review how to download a map
 
 Select the download option from within the app. This will open up a new dialog. Position your legend where you want it and select "Download" to download the map. This will download a PNG file of the map to your downloads folder.
 
-![map1_download](resources/images/maps/map1_download.png)
+![](resources/images/maps/map1_download.png)
 
-#### STOP! Have them perform *Exercise 1* in the learner's guide.
+#### STOP! Have them perform Exercise 1
 
 ### Create a map using the TEI layer with relationships
 
-We will now create a map using data from the COVID-19 Case-Based Surveillance Program where we will display relationships on the map.
+We will now create a map using data from the Case-Based Surveillance Program where we will display relationships on the map.
 
-Open the map "COVID_CBS - Cases and Contacts." This is the map that you will create. It is showing a person along with their relationships. In the context of this program, it means it is displaying index cases along with their contacts. The red circle in the map is the index case (or where the relationship was initiated from) and the black circles are the contacts.
+Open the map "CBS - Cases and Contacts" This is the map that you will create. It is showing a person along with their relationships. In the context of this program, it means it is displaying index cases along with their contacts. The red circle in the map is the index case (or where the relationship was initiated from) and the black circles are the contacts.
 
 Clear your inputs by going to File -> New.
 
 Create the map using the tracked entity layer with the following inputs:
 
-- Layer 1 Type : Boundary Layer - Vientiane Capital
+- Layer 1 Type : Org Unit - User sub - units
 - Layer 2 Type : Tracked Entity
 - Data:
   - Tracked Entity Type : Person
-  - Program : COVID-19 Case-base Surveillance
+  - Program : Case-base Surveillance
   - Program status : all
 - Relationships : 
   - Display tracked entity relationships = yes
   - Relationship type : Has Been in Contact with
 - Period :
-  - Program/Enrollment date
-  - Start/ End Date : January 1, 2024 - July 31, 2024
-- Org Units : CHW Mitthaphap
-- Style : leave as default
-
+  - Select periods when last updated
+    - the date a tracked entity was registered or enrolled in a program: Decemeber 31, 2023 - July 17, 2024
+- Org Units : 12 Khammouan
+- Selection mode : Selected and all below
+- Style : Radius in meters = 100
 
 The map should look like this
 
-![map2](resources/images/maps/map2.png)
+![](resources/images/maps/contactsnew1.png)
 
 **Boundary Layer**
 
-
-![map2_boundary](resources/images/maps/map2_boundary.png)
-
----
+![](resources/images/maps/mapboundarytei.png)
 
 ***Tracked Entity Layer***
 
 **Data Tab**
 
-![map2_data](resources/images/maps/map2_data.png)
+![](resources/images/maps/mapteidata.png)
 
 **Relationships Tab**
 
-![map2_relationships](resources/images/maps/map2_relationships.png)
+![](resources/images/maps/mapteirelationship.png)
 
 Explain the relationships tab in a bit more detail as you are configuring this part of the map. This allows you to show relationships between tracked entities, but has a large warning message as it is still in development.
 
@@ -247,17 +253,21 @@ One of the main drawbacks when using the relationship layer is that it only allo
 
 **Period Tab**
 
-![map2_period](resources/images/maps/map2_period.png)
+![](resources/images/maps/mapteiperiod.png)
 
 **Org Units Tab**
 
-![map2_OUs](resources/images/maps/map2_OUs.png)
+![](resources/images/maps/mapteiou.png)
 
 **Style Tab**
 
-![map2_style](resources/images/maps/map2_style.png)
+![map2_style](resources/images/maps/mapteistyle.png)
 
-Explain the style tab in a bit more detail as you are reviewing it. You can see here you can select the colour of tracked entity, its related entities and the line used to represent the relationship. This allows you to customize the output of these relationship outputs slightly when creating the map layer.
+Explain the style tab in a bit more detail as you are reviewing it. You can see here you can select the colour of tracked entity, its related entities and the line used to represent the relationship.
+
+The "Buffer" option in the Style tab is used to create a buffer zone around geographical points, lines, or areas (polygons). This buffer zone visually represents a specified distance from the selected geographic feature and can be useful for various analytical purposes.
+
+This allows you to customize the output of these relationship outputs slightly when creating the map layer.
 
 #### Discuss the map output along with limitations of this layer
 
