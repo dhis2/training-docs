@@ -163,17 +163,11 @@ Before understanding how its captured in the android device lets see how this is
 * Review the coordinates field for the child. This is where we can assign the childs home location.
 
   ![](images/geospatial/image9.png)
-
 To do this you can click on add location
 
-![](images/geospatial/image12.png)
-
-
-1. The First option will select the exact latitude and longitude based on your current location.
-
-2. The Second option will open the map where you can select the location of your choice and Save it.
-
-![](images/geospatial/image5.png)
+  This will select the exact latitude and longitude based on your current location.
+  
+  You need to select the location of your choice and then Save it.
 
 #### STOP - Perform Exercise 2
 
@@ -210,8 +204,9 @@ This is also configured while designing the program. In this case we have set a 
 
 ![](images/geospatial/image8.png)
 
-* The First option will select the exact latitude and longitude of the device
-* The Second option will open the map where you can select the location of your choice and Save it
+* Click on Add Location which will select the exact latitude and longitude of the device.
+
+* Select the location of your choice and Save it.
 
 These coordinates can be displayed by selecting the program option within the map on Android.
 
