@@ -106,6 +106,10 @@ Some participant's may not have been able to install the app by themselves. In t
 
 Before starting, login to the android app using your training instance.
 
+Username: android
+
+Password: District1#
+
 ### Review the maps display within the case based surveillance program
 
 The android app will display the map screen in event or tracker programs that contain one or more of the following elements:
@@ -118,13 +122,13 @@ The android app will display the map screen in event or tracker programs that co
 
 #### Open the map
 
-To access the demo map open the Case based Surveillance program. At the bottom you’ll see the navigation bar. Select the map icon to access the map (note, in order to use this feature, your program needs to be collecting the coordinate during registration).
+To access the demo map open the Case based Surveillance program and wait for it to load the list. At the bottom you’ll see the navigation bar. Select the map icon to access the map (note, in order to use this feature, your program needs to be collecting the coordinate during registration).
 
 ![](resources/images/android_analysis/cbsmap.png)
 
 #### Cycle through the carousel
 
-After opening the map icon, you will see TEI details at the bottom of the screen. This is referred to as the map carousel. You can scroll through all of the individuals registered in this program by scrolling horizontally the carousel.  The map will zoom into the selected coordinates. If there are no coordinates then a message will be shown. Each card in the carousel displays the tracked entity attributes marked as ‘Display in list’ when you configure your program. Click on the arrow to expand the card information. 
+After opening the map icon, you will see TEI details at the bottom of the screen. This is referred to as the map carousel. You can scroll through all of the individuals registered in this program by scrolling the carousel horizontally.  The map will zoom into the selected coordinates. If there are no coordinates then a message will be shown. Each card in the carousel displays the tracked entity attributes marked as ‘Display in list’ when you configure your program. Click on the arrow to expand the card information. 
 
 ![](resources/images/android_analysis/mapopen.png)
 
@@ -146,11 +150,11 @@ From the TEI dashboard, select back. This will take you back to the map. If the 
 
 #### Change the map layers to show the heatmap and use the satellite **view**
 
-Go back to the maps information by selecting back on your device. By clicking the first button at the top right corner, a menu will appear displaying all the possible layers.
+Go back to the maps information in DHIS2 by navigating back to the capture app. By selecting the second button at the top right corner of the app, a menu will appear displaying all the possible layers.
 
-Map layers you will see here include (depending on the configuration of the program): TEI coordinates, enrollment coordinates, Individual stage coordinates,  relationships, heatmap, tracked entity attributes of coordinate type, and data elements of coordinate type.
+Map layers you can see here include (depending on the configuration of the program): TEI coordinates, enrollment coordinates, Individual stage coordinates,  relationships, heatmap, tracked entity attributes of coordinate type, and data elements of coordinate type.
 
-In the Case based surveillance program the app offers the TEI and Enrollment coordinate. Select the satellite view and the heatmap to show how the map changes, click on the “Apply” button to the changes.
+In the Case based surveillance program the app offers the TEI and Enrollment coordinate. Change the background layer and the add the heatmap to show how the map changes, click on the “Apply” button to the changes.
 
 ![](resources/images/android_analysis/mapopen3.png) 
 
@@ -158,13 +162,15 @@ In the Case based surveillance program the app offers the TEI and Enrollment coo
 
 #### Navigate to your location
 
-If the user grants location permissions to the App, the map will show the current location represented as a blue color dot. The maps in the DHIS2 Android Capture App now include the possibility to center the map on the user location.
+Navigate to your location by selecting the location icon on the map
+
+If the user grants location permissions to the App, the map will show the current location represented as a blue color dot. The maps in the DHIS2 Android Capture App now include the possibility to center the map on the users location.
 
 ![](resources/images/android_analysis/cbsmap4.png)
 
 #### STOP! Have them perform Exercise 1 
 
-### Review data element evolution charts within the Malaria case notification , investigation and response.
+### Review data element evolution charts within the Malaria case notification , investigation and response program
 
 Exit the maps tab and go back to the list within a program. 
 
@@ -172,9 +178,9 @@ It is possible to display the evolution of data elements over time as charts, va
 
 Select the Malaria case notification , investigation and response Program and search for the TEI “Alakazam Malakazama”
 
-Open the Analytics menu in the TEI dashboard navigation panel and show the chart.
+Open the Analytics menu in the TEI dashboard by selecting the graph icon in the navigation panel to show the chart.
 
-The chart here shows the temperature of the person as taken from different repeated events within a program stage. In this example, you are seeing a person’s temperature in degree celcius. 
+The chart here shows the temperature of the person as taken from different repeated events within a program stage. In this example, you are seeing a person’s temperature in degree celsius. 
 
 ![](resources/images/android_analysis/dedaily.png)
 
@@ -190,17 +196,23 @@ Filters are also available. Display the menu to see periods and organisation uni
 
 ### Review program indicators (within the Case-based surveillance program)
 
-You can display any program indicator by enabling the “Display in form” feature. All program indicators are listed at the top of the screen. These also would have appeared within tracker capture on the web.
+You can display any program indicator by enabling the “Display in form” feature when configuring your indicator. All program indicators are listed at the top of the screen. These also would have appeared within tracker capture on the web.
 
-Open the Case-based surveillance program and search for “Theo Fleury”. You can open up "Laboratory Result" to review the Total Lab results
+Open the Case-based surveillance program and search for 
 
-![](resources/images/android_analysis/tei1.png)
+Given Name : Fleury 
 
-Click on the Analytics menu in the TEIs navigation bar and explain that "Total Lab results" indicator counts all the events where the data element has value.
+Family Name : Theo 
+
+Selecth the Analytics menu in the TEIs navigation bar from their dashboard and explain that "Total Lab results" indicator counts the total number of lab results recorded for this single case. 
 
 ![](resources/images/android_analysis/indicators.png)
 
-NOTE: The Android App does not support customized boundaries for PI.
+Note that you can also set up program indicators to work within an event. You would just select the analytics section from within the event, rather then from the TEI dashboard.
+
+> **NOTE** 
+>
+> The Android App does not support customized boundaries for program indicators.
 
 ### Review program feedback within the Electronic Immunization Registry Program
 
