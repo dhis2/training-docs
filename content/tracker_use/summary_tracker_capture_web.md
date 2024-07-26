@@ -1,30 +1,30 @@
-# Tracker Capture Web - Session Summary
+# Capture - Session Summary
 
-Tracker capture is the primary web application used in DHIS2 for registration and enrollment of tracked entities and capture event data related to them. In addition, the tracked entity dashboard of tracker capture contains multiple widgets that supports adding relationships, providing feedback and displaying program indicators.
+Capture is the primary web application used in DHIS2 for registration and enrollment of tracked entities and capture event data related to them. In addition, the tracked entity dashboard of tracker capture contains multiple widgets that supports adding relationships, providing feedback and displaying program indicators.
 
-It is advisable to open the DHIS2 application in Google Chrome.
+Steps to be followed to Open the Capture app
 
-Steps to be followed to Open “Tracker capture app”.
-
-1. Open the URL in Google chrome.
-2. Enter username and password
-3. Click on the search app button at the upper right corner of the screen
-4. Search or Click on Tracker capture icon
+1. Open the URL in your browser
+2. Enter the username and password
+3. Click on the appes menu in the upper right corner of the screen
+4. Search or Click on the capture icon
 
 ## Registration and Enrollment
 
-1. Click on the Organization unit (in this case the program is assigned at the facility level - **0001 CH Mahosot**).Once you click the OU ,the color will change to orange.
-2. Select the program ,in this case  **( Case-based surveillance)**
-3. You can now see tracker capture interface with 
+1. Select the program
+2. Select an Organisation unit (in this case the program is assigned at the facility level - **0001 CH Mahosot**).
+3. You can now see capture interface with 
 *  Listing of the registered cases
 * Filters, sorting, adding columns, downloading the TEI list
 * System generated UIDs
 1. Register a TEI. 
-* Click on the “Register button”.Enter all demographic details of the person and click on “Save and Continue” to go to the individual dashboard.
-2. Look at the  features of the tracker dashboard including:
+* Select the “Create new" button. It will be slighltly different depending on the tracked entity type. Enter all of the demographic details of the person and click on “Save and Continue” to go to the tracker dashboard.
+1. The tracker dashboards include:
+* Persistent top bar
 * The buttons at the top of the page
 * Widgets and their descriptions
-* Persistent top bar
+
+* 
 
 ## Data Entry
 
