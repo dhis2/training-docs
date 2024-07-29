@@ -63,6 +63,28 @@ If the participants are doing the demo with you at the same time, you can take t
 
 ## Quick Guide
 
+1. Explain the capture interface and options
+   1. Select the EIR (Electronic Immunization Registry) program in capture
+   2. Review the initial working list; modify the working list by selecting filters and adding columns
+2. Register a new case into the EIR program
+3. Review how duplicates are detected during registering. Use these details:
+   - Given Name : Diane
+   - Family Name : Miller
+   - Date of Birth : 2020-06-25
+   - Primary contacts first name : Elizabeth
+   - Primary contacts last name : Hardy
+
+STOP - Perform Exercise 1
+
+4. Search for an existing person. Use the EPI unique ID EPI_62466
+5. Search for an existing person using attributes:
+   1. Given name : Jake
+   2. Last name : Smith
+   3. Sex : Male
+6. Review the options that appear when searching for a person using attributes.
+
+STOP - Perform Exericse 2
+
 ## Live Demo step by step
 
 ### Part 1 - Explain the capture interface and options 
@@ -121,7 +143,7 @@ The filter option will now show only filters for **Birth details** program stage
 
 ![](resources/images/capture/filterstage3.png)
 
-#### **Sort an event list**
+#### Sort an event list
 
 You can sort the list by clicking the arrow down or up in ascending or descending order.
 
@@ -136,7 +158,7 @@ This can be done by clickning on **Save current view**.
 ![](resources/images/capture/saveview.png)
 
 
-#### **Explain the unique system identifier (EPI)**
+#### Explain the unique system identifier (EPI)
 
 System generated ID’s can follow patterns that are defined by the user. This example uses the “"EPI_ + Random Number”
 
@@ -249,7 +271,7 @@ First, you will see the tracked entity attributes that are identified as unique.
 
 Next, in 3, we will see the "search by attributes" option. This allows us to search using any of the other tracked entity attributes that have been configured to allow search in this program. 
 
-Where possible, using a unique identifier will yield the best results when searching. For example, I can enter the EPI unique ID and I will quickly find the person I previously registered.
+Where possible, using a unique identifier will yield the best results when searching. For example, I can enter the EPI unique ID (EPI_62466) and I will quickly find the person I previously registered.
 
 ![](resources/images/capture/unique_search.png)
 
@@ -424,7 +446,7 @@ In the capture app ,Relationships is only supporting Event to Tracked entity rel
 
     ![](resources/images/capture/relationship7.png)
 
-##### Adding a relationship by Creating a new Tracked Entity.
+#### Adding a relationship by Creating a new Tracked Entity.
 
 1. Click on **Create new Tracked Entity Instance**.
 2. You will be presented with a form for registring a new person.You can choose to register this person with or without enrollement to the program
@@ -434,7 +456,7 @@ In the capture app ,Relationships is only supporting Event to Tracked entity rel
 
     ![](resources/images/capture/relationship8.png)
 
-**STOP - Perform Exercise 3**
+#### STOP - Perform Exercise 3
 
 ### Part 6 - Enrolling a person in multiple programs
 
@@ -457,6 +479,14 @@ From the persons tracker dashboard, select the program dropdown then the case-ba
 You will receive a message that they are not enrolled in this program. Select the option to enroll them in the program.
 
 ![](resources/images/capture/not_enrolled.png)
+
+After selecting this button, it will take you to the registration page of the program that you have selected. Any of the tracked entity attributes that you have previously entered and are shared between programs will be automtically populated (ie. you wont need to enter these details again). 
+
+![](resources/images/capture/re_enroll.png)
+
+Fill in any of the missing details and select "Save person" at the bottom of the screen. 
+
+This will take you to the person's tracker dashboard in the new program. The person has now been enrolled into the new program succesfully.
 
 ### Part 7 - Widget Actions
 
@@ -492,6 +522,8 @@ You need to be very mindful of this authority as this will delete the TEI, along
 > If a user does not have this authority, the option to delete a person will be greyed out.
 >
 > ![](resources/images/capture/no_delete.png)
+
+#### STOP - Perform Exercise 4
 
 ### Part 8 - Referrals and Transfers
 
@@ -600,6 +632,10 @@ This indicates the ownership of this person has been transferred to the new org 
 >
 > This also has some affect on data entry/user access. A user that has capture access to the organisation unit that is the current owner of the TEI/Program will have write access to all enrollments for that TEI/Program combination. A user that has search access to the organisation unit that is the current owner will have access to search and find the TEI/Program combination.
 
+#### STOP - Perform Exercise 5
+
+### Review the recap slide
+
 ## Assignment
 
-After you have completed all demos and they have finished the exercises, have them complete the graded assignment for this session. If you find you are running out of time, assign the graded assignment to them and ask them to complete it outside of the live scheduled session.
+After you have completed all demos, they have finished the exercises and you have reviewed the recap slip, have them complete the graded assignment for this session. If you find you are running out of time, assign the graded assignment to them and ask them to complete it outside of the live scheduled session.
