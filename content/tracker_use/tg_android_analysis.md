@@ -220,5 +220,54 @@ Switch over to the Electronic Immunization Registry Program and search for the T
 
 ![](resources/images/android_analysis/feedback.png) 
 
-
 #### STOP! Have them perform *Exercise 3* in the learner’s guide.
+
+### Review program based dashboards
+
+On an android device, you are able to review program dashboards, either on the home screen of android device or within each of the screens of the programs themselves.
+
+You can get started by viewing a dashboard on the home screen. Do this by navigating to the home screen where all of your programs/datasets are listed. From here, select the analytics tab.
+
+![](resources/images/android_analysis/home_dashboard.jpg)
+
+This will take you to the dashboard page. 
+
+These dashboards use locally stored data and already made visualizations (in line listing and data visualizer) in order to populate visualizations on the android device. Since they only use the locally stored data, this means this dashboards are available completely offline.
+
+> **Note:**
+> 
+> Already existing visualizations get added to these dashboards by someone who has the "ALL" authority using the android settings web apps. There are many limitations to the android dashboard that will be covered in an accompanying slide. If you want to see how these dashboards are configured, navigate to the android settings web app and under the analytics section view either the home or program tabs.
+
+In the dashboard page, you will see the avaiable dashboards at the top of the screen. You can switch between them by selecting one at any time.
+
+![](resources/images/android_analysis/select_dashboard.jpg)
+
+These dashboards only support a couple of chart types currently, this includes:
+- Pivot tables
+- Column Charts
+- Line Charts
+- Pie Charts
+- Single Value Charts
+- Line Lists
+
+Let us start by reviewing the malaria case surveillance dashboard. It has both a pivot table as well as column chart on it. Both of these visualizations are reviewing cases by age distribution. The cases being shown are only those cases that are synced to the android device, based on the sync settings and the users assignment of org units.
+
+These charts are interactive. By clicking on the menu icon of each visualization, you are able to modify the type of visualization and add period and org unit filters. 
+
+![](resources/images/android_analysis/chart_menu.jpg)
+
+To switch dashboards, just select the dashboard you want from the top of the menu bar.
+
+Navigate back to the home screen and select the case based surveillance program.
+
+There is also an analytics menu available at the program level, as we can see is the case for this program.
+
+![](resources/images/android_analysis/program_dashboard.jpg)
+
+If we select it, we will be able to view dashboards associated with the program. In this case, the dashboard shown here is the same as what is available on the home screen, but you are able to configure different outputs to use at the program and home level if needed.
+
+At this point, navigate back to slide 3 of the Android analysis presentation to review the limitations of android analysis items. 
+
+When you have completed a review of these points, have them complete the exercise.
+
+#### STOP! Have them perform *Exercise 4* in the learner’s guide.
