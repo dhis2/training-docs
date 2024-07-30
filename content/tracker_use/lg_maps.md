@@ -84,64 +84,64 @@ Select the download option from within the app. This will open up a new dialog. 
 
 ### Create a map using the TEI layer with relationships
 
-We will now create a map using data from the COVID-19 Case-Based Surveillance Program where we will display relationships on the map.
+### Create a map using the TEI layer with relationships
+
+We will now create a map using data from the Case-Based Surveillance Program where we will display relationships on the map.
+
+Clear your inputs by going to File -> New.
 
 Create the map using the tracked entity layer with the following inputs:
 
-- Layer 1 Type : Boundary Layer - Vientiane Capital
+- Layer 1 Type : Org Unit - User sub - units
 - Layer 2 Type : Tracked Entity
 - Data:
   - Tracked Entity Type : Person
-  - Program : COVID-19 Case-base Surveillance
+  - Program : Case-base Surveillance
   - Program status : all
 - Relationships : 
   - Display tracked entity relationships = yes
   - Relationship type : Has Been in Contact with
 - Period :
-  - Program/Enrollment date
-  - Start/ End Date : Oct 16, 2020 - Oct 16, 2021
-- Org Units : CHW Mitthaphap
-- Style : leave as default
+  - Select periods when last updated
+    - the date a tracked entity was registered or enrolled in a program: December 31, 2023 - July 13, 2024
+- Org Units : 12 Khammouan
+- Selection mode : Selected and all below
 
+The map should look like this
 
-The map is saved as "COVID_CBS - Cases and Contacts" for reference.
-
-![map2](resources/images/maps/map2.png)
+![](resources/images/maps/contactsnew1.png)
 
 **Boundary Layer**
 
-
-![map2_boundary](resources/images/maps/map2_boundary.png)
-
----
+![](resources/images/maps/mapboundarytei.png)
 
 ***Tracked Entity Layer***
 
 **Data Tab**
 
-![map2_data](resources/images/maps/map2_data.png)
+![](resources/images/maps/mapteidata.png)
 
 **Relationships Tab**
 
-![map2_relationships](resources/images/maps/map2_relationships.png)
-
-This tab allows you to show relationships between tracked entities, but has a large warning message as it is still in development.
-
-One of the main drawbacks when using the relationship layer is that it only allows you to display relationships within the same program. In our example, we actually have a separate program for registering contacts, but we are not able to display the relationships between the surveillance program and the contacts program; we can only display relationships within the surveillance program (ie. both the cases and contacts must be in this program). Applied more generally, this means that you are only able to display relationships within the same program on the map currently using the tracked entity layer.
+![](resources/images/maps/mapteirelationship.png)
 
 **Period Tab**
 
-![map2_period](resources/images/maps/map2_period.png)
+![](resources/images/maps/mapteiperiod.png)
 
 **Org Units Tab**
 
-![map2_OUs](resources/images/maps/map2_OUs.png)
+![](resources/images/maps/mapteiou.png)
 
 **Style Tab**
 
-![map2_style](resources/images/maps/map2_style.png)
+![map2_style](resources/images/maps/mapteistyle.png)
 
-In the style tab, you can select the colour of the tracked entity, its related entities and the line used to represent the relationship. This allows you to customize the output of these relationship outputs slightly when creating the map layer.
+Explain the style tab in a bit more detail as you are reviewing it. You can see here you can select the colour of tracked entity, its related entities and the line used to represent the relationship.
+
+The "Buffer" option in the Style tab is used to create a buffer zone around geographical points, lines, or areas (polygons). This buffer zone visually represents a specified distance from the selected geographic feature and can be useful for various analytical purposes.
+
+This allows you to customize the output of these relationship outputs slightly when creating the map layer.
 
 #### Review the map output along with limitations of this layer
 

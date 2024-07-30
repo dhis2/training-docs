@@ -224,10 +224,9 @@ Create the map using the tracked entity layer with the following inputs:
   - Relationship type : Has Been in Contact with
 - Period :
   - Select periods when last updated
-    - the date a tracked entity was registered or enrolled in a program: Decemeber 31, 2023 - July 17, 2024
+    - the date a tracked entity was registered or enrolled in a program: January 1, 2024 - July 13, 2024
 - Org Units : 12 Khammouan
 - Selection mode : Selected and all below
-- Style : Radius in meters = 100
 
 The map should look like this
 
@@ -248,8 +247,6 @@ The map should look like this
 ![](resources/images/maps/mapteirelationship.png)
 
 Explain the relationships tab in a bit more detail as you are configuring this part of the map. This allows you to show relationships between tracked entities, but has a large warning message as it is still in development.
-
-One of the main drawbacks when using the relationship layer is that it only allows you to display relationships within the same program. In our example, we actually have a separate program for registering contacts, but we are not able to display the relationships between the surveillance program and the contacts program; we can only display relationships within the surveillance program (ie. both the cases and contacts must be in this program). Applied more generally, this means that you are only able to display relationships within the same program on the map currently using the tracked entity layer.
 
 **Period Tab**
 
