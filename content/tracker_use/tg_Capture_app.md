@@ -83,7 +83,33 @@ STOP - Perform Exercise 1
    3. Sex : Male
 6. Review the options that appear when searching for a person using attributes.
 
-STOP - Perform Exericse 2
+STOP - Perform Exercise 2
+
+8. Enter data into the birth details stage
+9. Explain why you can't create more events in the birth details stage
+10. Create a new event in the immunization stage.
+    1.  Fill in data for the event. Explain the program rules associated with the program as you do so.
+11. Schedule an event in the immunization stage (6 weeks or more from the 1st stage)
+12. Review the event to see how program rules affect which vaccines are available
+13. Add a relationship using the contact tracing program
+    1.  Create a relationship with an existing person
+    2.  Create a relationship by making a new TEI
+
+STOP - Perform Exercise 3
+
+14. Enroll a person from the contact tracing program into the case-based surveillance program
+15. Find the record James Dawson in the ***Case Based Surveillance Program*** using the System Case ID : FIB112660
+16. Review the person profile widget and associated actions.
+
+STOP - Perform Exercise 4
+
+17. Explain the concept of referrals and transfers. 
+    1. Register a new TEI in the surveillance program
+    2. Create a single event in a different location then the one you registed them in
+    3. Create a one-time referral by scheduling an event in a different location
+    4. Transfer the TEI to another org unit
+
+STOP - Perform Exercise 5
 
 ## Live Demo step by step
 
@@ -407,8 +433,6 @@ In summary, the data entry process is as follows.
 ### Part 5 - Add a Relationship
 
 To perform this step we will refer to **Contact tracing program**
-
-In the capture app ,Relationships is only supporting Event to Tracked entity relationships.
 
 1. While you are in an event,Click Add Relationship
 2. Selct the relationship you want to create.

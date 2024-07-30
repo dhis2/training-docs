@@ -6,7 +6,7 @@ This guide contains all exercises and detailed steps to perform them related to 
 
 ## Learning objectives for this session
 
-The overall objective of this session is to use the DHIS2 capture app. Detailed objectives include:
+The overall objective of this session is to learn how to use the DHIS2 capture app to enter tracker data. Detailed objectives include:
 
 * Understand how to select the correct program
 * Understand the layout and options of capture app
@@ -19,7 +19,7 @@ The overall objective of this session is to use the DHIS2 capture app. Detailed 
 
 ### Review the capture interface and options 
 
-In this section we will review program **Electronic Immunization Registry Overview**
+**Electronic Immunization Registry Overview**
 
 1. Open the Capture from the Apps menu
 
@@ -34,10 +34,12 @@ In this section we will review program **Electronic Immunization Registry Overvi
    ![](resources/images/capture/selectou.png)
 
 
-The **Electronic Immunization Registry** is linked to any Organization Unit at the health facility level. CH Mahosot has some example cases already entered.
+The **Electronic Immunization Registry** is linked to any Organisation Unit at the health facility level. CH Mahosot has some example cases already entered.
 
-**Note** : Any person that is already registered will be displayed in a tabular fashion, with each row corresponding to a single record.
-
+> **Note** 
+>
+> Any person that is already registered will be displayed in a tabular fashion, with each row corresponding to a single record. You can display this list in program maintenance when you configure your program if needed.
+ 
    ![](resources/images/capture/capturehomepage.png)
 
 **Enrollment status filters:** If a program is selected, the app provides further filtering on the table based on enrollment status. This is displayed in the following order:
@@ -59,7 +61,7 @@ From here, you can reorganize the order of the program inputs by dragging and dr
 
 #### Filter an event list
 
-**New feature for Filter:** the capture app will let you filter the list by **Program Stage**, as well as other additional fields, by selecing "More filters" as shown in the image below
+**New feature for Filters:** the capture app will let you filter the list by **Program Stage**, as well as other additional fields, by selecing "More filters" as shown in the image below
 
 ![](resources/images/capture/filterstage.png)
 
@@ -71,7 +73,7 @@ The filter option will now show only filters for **Birth details** program stage
 
 ![](resources/images/capture/filterstage3.png)
 
-#### **Sort an event list**
+#### Sort an event list
 
 You can sort the list by clicking the arrow down or up in ascending or descending order.
 
@@ -86,7 +88,7 @@ This can be done by clickning on **Save current view**.
 ![](resources/images/capture/saveview.png)
 
 
-#### **Explain the unique system identifier (EPI)**
+#### Review the unique system identifier (EPI)
 
 System generated ID’s can follow patterns that are defined by the user. This example uses the “"EPI_ + Random Number”
 
@@ -95,7 +97,13 @@ System generated ID’s can follow patterns that are defined by the user. This e
 Go to the registration page and see that the ID will be generated. These ID’s can be a bit dynamic depending on the pattern that is defined to generate them. You can use inputs such as the date (used in this example), org unit codes, etc. The best resource to learn more is here:
 [https://docs.dhis2.org/master/en/user/html/working-with-textpattern.html](https://docs.dhis2.org/master/en/user/html/working-with-textpattern.html)
 
-### Register a TEI into the Electronic Immunization Registry Program
+**After you have explained the interface options, proceed to register a TEI into the program.**
+
+### Registration
+
+The capture app now has more support for tracker programs than before. Users will now be able to list and interact with tracked entity instances much in the same way as events, and will have access to searching and registering/enrolling tracked entity instances in the Capture app itself. This will allow data entry user to access tracker and event data in the same place, and have a more integrated workflow.
+
+**Register a TEI into the Electronic Immunization Registry Program** 
 
 There are two ways of registering a TEI under an organization unit.
 
@@ -103,24 +111,26 @@ There are two ways of registering a TEI under an organization unit.
 
 2. The second options is to register a tracked entity instance with program and enroll it.
 
-In this exercise, we will focus on registering a TEI within a program.
+In this demo, we will focus on registering a TEI within a program.
 
 1. Open the capture app
 2. Select the program "Electronic Immunization Registry"
 3. Select an organisation unit
-4. Select New -> New person in Electronic Immunization Registry
+4. Select Create new person
 
 ![](resources/images/capture/reg2.png)
 
-> Note: The label of this button corresponds to the tracked entity type of the program, which will vary depending on the tracked entity type (ie. in this case we see new person, as person is the TET)
+> **Note**
+>
+> The label of this button corresponds to the tracked entity type of the program, which will vary depending on the tracked entity type (ie. in this case we see new person, as person is the TET)
 
 Now you will be able to see the registration page for the Immunization program
 
    ![](resources/images/capture/regpage2.png)
 
-   It will display different information the way the enrollment page is customized for the program.
+It will display different information depending on the way the enrollment page is customized for the program.
 
-   In this form you have section for enrollment which shows enrollemnt date and then you have profile secction which is to capture demographic information.
+In this form you have section for enrollment which shows the enrollment date and then you have the profile secction which is used to capture demographic information.
 
 5. Review the TEI registration page
 
@@ -143,9 +153,11 @@ Fill in the fields and save the person when you are ready
 The dashboard will show relevant information about the newly created tracked entity instance.
 Both skip-logic and validation error/warning messages are supported during registration.
 
+In later sessions, you will go over the terminology in more detail so just focus on describing the interface and actions for now. 
+
 #### Duplicates during registration
 
-Navigate back to the TEI front page list in capture by closing the person you just registered.
+Navigate back to the TEI front page list in capture by closing the dashboard of the person you just registered.
 
 ![](resources/images/capture/close_enrollment.png)
 
@@ -154,7 +166,8 @@ Proceed to register a new TEI using the same process as before (ensure the progr
 Try to register a person with the following details
 
 - Given Name : Diane
-- Last Name : Miller
+- Family Name : Miller
+- Date of Birth : 2020-06-25
 - Primary contacts first name : Elizabeth
 - Primary contacts last name : Hardy
 
@@ -162,15 +175,19 @@ When you select Save person, you should see the following dialogue.
 
 ![](resources/images/capture/duplicate.png)
 
-It has identified this as a possible duplicate. You have options to view the dashboard, which will take you to this persons dashboard for review, to cancel so you do not register this person, or to save as new, which will overrride the warning and save the TEI.
+It has identified this as a possible duplicate. You have options to:
 
-In real life scenarios, it will be important to implemenet as many procedures as possible to reduce duplicates. This feature can help with reducing duplicates at the sources. We will also discuss how to search for TEIs later on in this session.
+1. View the dashboard, which will take you to this persons dashboard for review
+2. To cancel so you do not register this person
+3. To save this person as a new TEI, which will overrride the warning and save the TEI.
+
+In real life scenarios, it will be important to implemenet as many procedures as possible to reduce duplicates. This feature can help with reducing duplicates at the source. We will also discuss how to search for TEIs later on in this session.
 
 ## Exercise 2
 
 ### Searching
 
-Find the new tracked entity that we had previously registered. 
+Let us now find the new tracked entity that we had previously registered. 
 
 From the main list page in capture, select Search - > Search for a person in Electronic Immunization Registry.
 
@@ -184,7 +201,7 @@ First, you will see the tracked entity attributes that are identified as unique.
 
 Next, in 3, we will see the "search by attributes" option. This allows us to search using any of the other tracked entity attributes that have been configured to allow search in this program. 
 
-Where possible, using a unique identifier will yield the best results when searching. For example, I can enter the EPI unique ID and I will quickly find the person I previously registered.
+Where possible, using a unique identifier will yield the best results when searching. For example, I can enter the EPI unique ID (EPI_62466) and I will quickly find the person I previously registered.
 
 ![](resources/images/capture/unique_search.png)
 
@@ -205,7 +222,7 @@ If I enter these details and select "Search by attributes", I will then by shown
 
 In this example, select "view dashboard" to open the persons tracker dashboard.
    
-### Description of Tracker Dashboard
+### Review the Tracker Dashboard
 
 ![](resources/images/capture/enrollment_dash1.png)
 
@@ -250,7 +267,7 @@ The dashboard starts with the following items:
 
 5. **Feedback** - In this widget you can place summary information about the TEI for review. For example if the person has allergies or you want to display information on which vaccines they have received until now you can place this information here based on what has been entered in the program
 
-6. **Person Profile** - This is to edit TEI's profile or attributes. 
+6. **Person Profile** - This is to edit TEI's profile or attributes. You can also delete the TEI using this widget if the person has the appropirate level of access.
 
 7. **Enrollment** - The enrollment widget shows key details regarding the enrollment. A number of actions can also be completed via this widget related to the enrollment including:
 
@@ -258,7 +275,9 @@ The dashboard starts with the following items:
 - Mark or remove the enrollment for a follow-up.
 - Transfer the enrollment to another organisation unit
 - Delete the enrollment
-- Add coordinates to the enrollment
+- Add coordinates to the enrollment (if the enrollment is configured to capture coordinates)
+
+We will discuss some of the personal profile and enrollment actions later in this session.
 
 ## Exercise 3
 
@@ -315,11 +334,9 @@ In summary, the data entry process is as follows.
 4. Update automatically generated events or add new events as needed
 5. For repeatable stages, events can be scheduled as well as being created as needed
 
-#### Add a Relationship
+### Add a Relationship
 
 To perform this step we will refer to **Contact tracing program**
-
-In the capture app ,Relationships is only supporting Event to Tracked entity relationships.
 
 1. While you are in an event,Click Add Relationship
 2. Selct the relationship you want to create.
@@ -335,7 +352,6 @@ In the capture app ,Relationships is only supporting Event to Tracked entity rel
   * Create new tracked entity instance
 
     ![](resources/images/capture/relationship2.png)
-
 
 #### Adding a relationship by Linking to an existing person.
 
@@ -357,7 +373,7 @@ In the capture app ,Relationships is only supporting Event to Tracked entity rel
 
     ![](resources/images/capture/relationship7.png)
 
-##### Adding a relationship by Creating a new Tracked Entity.
+#### Adding a relationship by Creating a new Tracked Entity.
 
 1. Click on **Create new Tracked Entity Instance**.
 2. You will be presented with a form for registring a new person.You can choose to register this person with or without enrollement to the program
@@ -367,6 +383,178 @@ In the capture app ,Relationships is only supporting Event to Tracked entity rel
 
     ![](resources/images/capture/relationship8.png)
 
+## Exercise 4
 
+### Enrolling a person in multiple programs
 
+Any TEI in the system can be enrolled in multiple programs. This is a function that can be quite useful if you want to track all of the services a single entity has received. In health, as an example, you may want to track all of the health services a single patient has been provided. 
 
+To perform this demo, you can use the contact tracing and case-based surveillance programs, simulating what could happen when a contact becomes a case. 
+
+Start by registering a person in the contact tracing program in any org unit. 
+
+Go into the follow-up visits stage and enter some symptoms for the person, just to indicate they are now a case to be enrolled into the case-based surveillance program. When you are done save the event.
+
+![](resources/images/capture/follow_up.png)
+
+Now let us take this person and enroll them into the case-based surveillance program.
+
+From the persons tracker dashboard, select the program dropdown then the case-based surveillance program.
+
+![](resources/images/capture/select_program.png)
+
+You will receive a message that they are not enrolled in this program. Select the option to enroll them in the program.
+
+![](resources/images/capture/not_enrolled.png)
+
+After selecting this button, it will take you to the registration page of the program that you have selected. Any of the tracked entity attributes that you have previously entered and are shared between programs will be automtically populated (ie. you wont need to enter these details again). 
+
+![](resources/images/capture/re_enroll.png)
+
+Fill in any of the missing details and select "Save person" at the bottom of the screen. 
+
+This will take you to the person's tracker dashboard in the new program. The person has now been enrolled into the new program succesfully.
+
+### Widget Actions
+
+To perform this exercise, find James Dawson in the ***Case Based Surveillance Program*** using the System Case ID : FIB112660
+
+When we open this record, we will be able to see responses for within the widgets of the TEI dashboard. We will see the feedback populated with the initial diagnosis as well as an indicator showing the number of lab results. This person also has a relationship.
+
+Let us focus on two parts of the widget area to explain them further.
+
+1. The person profile.
+2. Enrollment actions.
+
+#### The person profile
+
+In the person profile, you are able to edit the person's attributes. You can do this by selecting "Edit" in this widget. This will bring up their profile where you can edit their attributes.
+
+![](resources/images/capture/edit_person.png)
+
+You can also delete a TEI from this menu by selecting the three dots followed by "Delete"
+
+![](resources/images/capture/delete_tei.png)
+
+You need to be very mindful of this authority as this will delete the TEI, along with all of its enrollments and related events. A warning box will come up if you select this option to confirm you really want to delete it.
+
+![](resources/images/capture/delete_tei_warning.png)
+
+> **Important**
+>
+> You are able to disable permission of users to delete TEIs. You do this through managing user roles. There is an authority specifically meant to control this.
+>
+> ![](resources/images/capture/tracker_authorities.png)
+>
+> If a user does not have this authority, the option to delete a person will be greyed out.
+>
+> ![](resources/images/capture/no_delete.png)
+
+## Exercise 5
+
+### Referrals and Transfers
+
+You can perform referrals/have a single event in a different location as well as perform a permanent transfer in the capture app. How this is done is a bit different when compared to tracker capture. 
+
+Lets start with reviewing a single event in a different location. We can do two operations essentially.
+
+1. We can create an event in a different org unit at the time of data entry
+2. We can schedule an event in a different org unit, similar to the previous referral functionality
+
+#### Single event in a different location
+
+Let us start by crating an event in a different org unit at the time of data entry.
+
+***To do this, start by registering a new person in any org unit in the Case based surveillance program.***
+
+After registering the person, scroll down and review the enrollment widget.
+
+![](resources/images/capture/enrollment_widget.png)
+
+You will see two fields here:
+
+- Started at
+- Owned by
+
+This fields are where the person was initially registered, and where the enrollment is currently owned by. We will come back to this widget later on in this part of the demo.
+
+This program consists of 5 stages
+
+![](resources/images/capture/program_overview.png)
+
+Upon registration, one event is automatically generated in the diagnostic and clinical information stage, ***at the same org unit in which you initiated the registration.***
+
+Other subsequent events can happen in the same org unit or in other org units depending on where services are provided. 
+
+As an example of this, the lab result and/or final classification could occur at a different facility (it seems less likely the lab request and tracking would occur from a different facility in this scenario).
+
+For the sake of demonstration, even though none of the events are filled in or have data, we could enter information on the lab result simulating that this is occuring at another facility.
+
+To start this process, from the persons dashboard, first select the "registering unit" dropdown then select a different facility the the one you enrolled the person in.
+
+![](resources/images/capture/referral1.png)
+
+Next, lets create a new event in the lab results stage. Enter in some details and save the event. You will then be taken back to the persons dashboard.
+
+Review the event. If you compare it with your enrollment widget, you will see the event is located in a diffferent org unit.
+
+![](resources/images/capture/referral2.png)
+
+#### One-time referral
+
+Setting up a single event in a different location at the time of data entry can be useful if this is unexpected (ie. they just show up at a facility to receive service) or a person is not sure where the next event is occurring, but you can also schedule a referral if you know where the next event is going to take place.
+
+Make sure your registering unit is still different then your started/owned by org unit as seen in the enrollment widget.
+
+Then, select "Schedule an event" from the quick actions toolbar in the person's dashboard.
+
+![](resources/images/capture/schedule_referral.png)
+
+From here, you will be able to select the program stage you are scheduling an event for.
+
+![](resources/images/capture/schedule_referral2.png)
+
+Select the final classification stage.
+
+From here, you will be able to schedule the anticipated date of this event. In this example, we are scheduling when the final classification should take place by.
+
+![](resources/images/capture/schedule_referral3.png)
+
+Select the scheduled date, followed by "Schedule" to schedule the event in the facility you have selected.
+
+This will take you back to the person's dashboard. You will now see an event scheduled in the facility you have selected, which is different from the facility they were enrolled into.
+
+![](resources/images/capture/schedule_referral4.png)
+
+#### Transfers
+
+In addition to having a single event in a different location, either by doing this at the time of data entry or scheduling the event, you are able to perform a permanent transfer of a person to an other organisation unit. 
+
+This could be useful if they are no longer receiving any services in the initial organisation unit they were enrolled in for example. 
+
+To perform a permanent transfer, you can take the person you registered into the case based surveillance program.
+
+Navigate down to the enrollment widget and
+
+1. Select enrollment actions
+2. Select transfer
+
+![](resources/images/capture/transfer1.png)
+
+From here, the organisation unit selection panel will appear. You can then select which org unit you want to transfer this person to.
+
+![](resources/images/capture/transfer2.png)
+
+Select transfer when you are ready to transfer the person.
+
+Review the enrollment widget of this person, it should be updated. The "started by" and "owned by" organisation units will now be different.
+
+![](resources/images/capture/transfer3.png)
+
+This indicates the ownership of this person has been transferred to the new org unit.
+
+> **Note**
+>
+> This has some implications on analytics, relating to the ownership organisation unit. Enrollment type analytics will be counting enrollments based on the "owned by" org unit, and enrollments in line lists will be displayed based on the "owned by" org unit as well.
+>
+> This also has some affect on data entry/user access. A user that has capture access to the organisation unit that is the current owner of the TEI/Program will have write access to all enrollments for that TEI/Program combination. A user that has search access to the organisation unit that is the current owner will have access to search and find the TEI/Program combination.
