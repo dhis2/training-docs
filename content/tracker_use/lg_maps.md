@@ -16,51 +16,57 @@ This guide contains all exercises and detailed steps to perform them related to 
 
 ### Create a map using the event layer
 
-Please create a map using data from the COVID-19 Case-Based Surveillance Program for lab confirmed cases.
+As a review, you can create a map using the event layer.
+
+We can create a map using data from the Case based surveillance Program for Fever cases from Diagnostic and clinical information.
+
+Clear your inputs, if any, by going to File -> New.
 
 Create the map using the event layer with the following inputs:
 
-- Layer Type : Event 
+- Layer Type : Org unit
+  - Level 3 (District)
+- Layer Type : Event (CBS Location)
 - Data:
-  - Program : COVID-19 Case-base Surveillance
-  - Stage : Stage 3 - Lab Results
-  - Coordinate field : Event Location
+  - Program : Case-based Surveillance
+  - Stage : Stage 1 - Diagnostic and clinical information
+  - Coordinate field : CBS Location
   - Event status : all
 - Period : This Year
-- Org Units : User org units 2x below
+- Org Units : User sub-x2-units
 - Filter :
-  - Data item : Lab Test Result = Positive
+  - Data item : Fever = Yes
 - Style :
   - Group events
-  - Style by data element : Sex
+  - GEN - Sex
 
-The map is saved as ""COVID_CBS - Lab confirmed cases, this year, by home location" for refence.
+The map should look like this
 
-![map1](resources/images/maps/map1.png)
+![](resources/images/maps/map1new.png)
 
 **Data Tab**
 
-![map1_data](resources/images/maps/map1_data.png)
+![](resources/images/maps/map1_datanew.png)
 
 **Period Tab**
 
-![map1_period](resources/images/maps/map1_period.png)
+![](resources/images/maps/map1_period.png)
 
 **Org Units Tab**
 
-![map1_OUs](resources/images/maps/map1_OUs.png)
+![](resources/images/maps/map1_OUsnew.png)
 
 **Filter Tab**
 
-![map1_filter](resources/images/maps/map1_filter.png)
+![](resources/images/maps/map1_filternew.png)
 
 **Style Tab**
 
-![map1_style](resources/images/maps/map1_style.png)
+![](resources/images/maps/map1_stylenew.png)
 
 As the events are grouped together, and you have chosen to style them by sex, we see the doughnut charts when we are zoomed out. As you zoom in however you will start to see the individual locations of each of these events. Select an event to see the details. 
 
-![map1_zoomed](resources/images/maps/map1_zoomed.png)
+![](resources/images/maps/map1_zoomednew.png)
 
 As we can see, using this layer is the same whether we are using event or tracker data. As with our other analyses, we do have to keep in mind that the event layer will be displaying all the events within a program on this map; so in the case of repeated event data you can have multiple events on the map representing each of these events.
 
@@ -68,17 +74,15 @@ As we can see, using this layer is the same whether we are using event or tracke
 
 Go to the file menu and select the "Save" option
 
-![map1_save](resources/images/maps/map1_save.png)
+![](resources/images/maps/map1_save.png)
 
 Give the map a name and a description and select "Save"
 
-![map1_save_dialog](resources/images/maps/map1_save_dialog.png)
+![](resources/images/maps/map1_save_dialognew.png)
 
 #### Review how to download a map
 
 Select the download option from within the app. This will open up a new dialog. Position your legend where you want it and select "Download" to download the map. This will download a PNG file of the map to your downloads folder.
-
-![map1_download](resources/images/maps/map1_download.png)
 
 ## Exercise 2
 
