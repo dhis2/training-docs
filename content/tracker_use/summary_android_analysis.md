@@ -6,6 +6,7 @@ There are different elements on an Android device we can review as it relates to
 2. Reviewing how repeated stage, numeric data progresses over time
 3. Reviewing the output for program indicators
 4. Reviewing other feedback that has been configured to be displayed within the tracker dashboard
+5. Reviewing home and program specific dashboards
 
 ## Reviewing the location on a map
 
@@ -32,3 +33,10 @@ There are different elements on an Android device we can review as it relates to
 
 - Feedback and other messages can also be reviewed in the analysis tab of a person's tracker dashboard (select a program containing this type of data, open a TEIs record and navigate to the analytics tab).
 - They items that appear here must configured to appear on the tracker dashboard by an administrator, they will not appear automatically.
+
+## Reviewing home and program specific dashboards
+
+- Dashboards can be configured at both the home and program level by a user with the 'ALL' authority. 
+- You can access these dashboards through the analytics tab either in the home screen of the android app or the program screen after accesing a program.
+- These analytics can be grouped together. You can select the dashboard you want to review by scrolling through them and selecting the one you want to review.
+- These use locally synced data, which means they will work completely offline.
