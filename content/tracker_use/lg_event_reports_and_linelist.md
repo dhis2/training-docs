@@ -57,6 +57,35 @@ You will see all the totals are the same; however the disaggregation of the data
 
 ## Exercise 2
 
+### Compare event vs enrollment analytics
+
+Create a table using the following inputs:
+
+- Table Style : Pivot Table, Output Type : Enrollment
+- Program : Electronic Immunization Registry
+- Stage : Immunization
+- Data: GEN - Sex
+- Periods : This year
+- Org Units : Country
+
+The table should look like this
+
+![eir_enrollment](resources/images/event_reports/eir_enrollment_pivot.png)
+
+This table represents the total number of individuals, seperated by sex, that are enrolled in the electronic immunization registry program.
+
+Modify the output type to event and update the table.
+
+![eir_event](resources/images/event_reports/eir_event_pivot.png)
+
+The values change by quite a bit, so why does this occur? 
+
+The event output is counting all of the events in the electronic immunization registry program, seperated by sex, not the enrollments. An enrollment can consist of multiple events. This output would therefore not be very useful if we wanted to count the # of unique individuals that have been vaccinated. In that case, we should use enrollment as our output type. 
+
+The output type is therefore an important consideration when choosing the output type when making a pivot table in event reports, depending on what you want to count.
+
+## Exercise 3
+
 ### Create a line list using an Electronic Immunization Registry.
 
 Open the event reports app.
@@ -97,7 +126,7 @@ You will only see the data which meets this criteria
 
 Save the line list.
 
-## Exercise 3
+## Exercise 4
 
 ### Create a line list program using Input : Event
 
@@ -131,7 +160,7 @@ Click on update. You will see the line list for a single stage.
 
 ![](resources/images/linelist/tempsingleev.png) 
 
-## Exercise 4
+## Exercise 5
 
 ### Create a list type event report for a repeatable stage using the Electronic Immunization Registry
 
@@ -182,7 +211,7 @@ As a reminder, here are the selections to make
 
 When we make this update, the number of records shown changes. This occurs because enrollment type reports only use the most recent event within a program stage for their output.
 
-## Exercise 5
+## Exercise 6
 
 ### Create a line list program using repeated event data linked together
 
@@ -217,7 +246,7 @@ Once you Click on update, you will see the below observation.
 
 ![](resources/images/event_reports/repeated_events_example.png)
  
-## Exercise 6
+## Exercise 7
 
 ### Create a line list program using Input : Enrollment
 
@@ -258,7 +287,7 @@ Click on Update
 
 ![](resources/images/linelist/enrollnew4.png)
 
-## Exercise 7
+## Exercise 8
 
 Perform this exercise in the line listing app.
 

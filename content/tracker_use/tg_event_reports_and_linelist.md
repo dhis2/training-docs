@@ -67,7 +67,20 @@ In an in-person setting, the participants may be doing the demo with you at the 
 
    STOP - Perform Exercise 1
 
-2. Review the line list functionality in Event Reports
+2. Review event vs enrollment outputs in event reports
+
+- Table Style : Pivot Table, Output Type : Enrollment
+- Program : Electronic Immunization Registry
+- Stage : Immunization
+- Data: GEN - Sex
+- Periods : This year
+- Org Units : Country
+
+Review and explain the output. Update the output type to events. Explain the difference between event vs enrollment in relation to this table.
+
+STOP - Perform Exercise 2
+
+1. Review the line list functionality in Event Reports
 
 - Table Style : Line list, Output Type : Event
 - Program : Electronic Immunization Registry
@@ -83,7 +96,7 @@ In an in-person setting, the participants may be doing the demo with you at the 
 
   Demo how to download the table, save the table
 
-  STOP - Perform Exercise 2
+STOP - Perform Exercise 3
 
 3. In the Line List app, review the Line List interface with the table. You can open the existing line list "MAL CS - Temp Evalulation/Travel History"
 
@@ -101,7 +114,7 @@ In an in-person setting, the participants may be doing the demo with you at the 
 - Period: Last 3 months
 - OU: 01 Vientiane Capital
     
-    STOP - Perform Exercise 3
+STOP - Perform Exercise 4
 
 4. Create a list type event report for a repeatable stage using the Electronic Immunization Registry
 
@@ -117,7 +130,7 @@ In an in-person setting, the participants may be doing the demo with you at the 
 
   Update the report using enrollment as the output type to compare and explain the differences in whats shown
 
-  STOP - Perform Exercise 4
+STOP - Perform Exercise 5
 
 5. Create a line list program using repeated event data linked together
 
@@ -133,7 +146,7 @@ In an in-person setting, the participants may be doing the demo with you at the 
 - Period : Date of Registration: Last 12 months
 - OU : user org unit
 
-  STOP - Perform Exercise 5
+STOP - Perform Exercise 6
 
 6. Create a line list program using Input : Enrollment
 
@@ -158,7 +171,7 @@ In an in-person setting, the participants may be doing the demo with you at the 
 - OU : Lao PDR, Facility - Level 3
 - Period : Date of notification: This Month and Last 3 Month
 
-  STOP - Perform Exercise 6
+STOP - Perform Exercise 7
 
 7. Create a line list program using legends
 
@@ -179,7 +192,7 @@ In an in-person setting, the participants may be doing the demo with you at the 
 - Organization unit : 0201 DH Phongsali
 - Date of notification: Last 3 months
 
-  STOP - Perform Exercise 7
+STOP - Perform Exercise 8
   
 8. Review the recap slide
 
@@ -253,11 +266,40 @@ This should be a review of concepts from the event fundamentals course; however 
 
 #### STOP - Perform Exercise 1
 
+### Compare event vs enrollment analytics
+
+Create a table using the following inputs:
+
+- Table Style : Pivot Table, Output Type : Enrollment
+- Program : Electronic Immunization Registry
+- Stage : Immunization
+- Data: GEN - Sex
+- Periods : This year
+- Org Units : Country
+
+The table should look like this
+
+![eir_enrollment](resources/images/event_reports/eir_enrollment_pivot.png)
+
+Review the table with the participants. This table represents the total number of individuals, seperated by sex, that are enrolled in the electronic immunization registry program.
+
+Modify the output type to event and update the table.
+
+![eir_event](resources/images/event_reports/eir_event_pivot.png)
+
+The values change by quite a bit, so why does this occur? 
+
+The event output is counting all of the events in the electronic immunization registry program, seperated by sex, not the enrollments. An enrollment can consist of multiple events. This output would therefore not be very useful if we wanted to count the # of unique individuals that have been vaccinated. In that case, we should use enrollment as our output type. 
+
+The output type is therefore an important consideration when choosing the output type when making a pivot table in event reports, depending on what you want to count.
+
+#### STOP - Perform Exercise 2
+
 ### Review the line list functionality in Event Reports
 
 > The line listing functions in event reports have been replaced by the **line listing app**. We will utilize the line listing app to create line lists for the remainder of the session after this example, but to compare features for those who are familiar with event reports we will just do a quick review of how line lists work in event reports. If you feel this is not needed, you can skip this section.
 
-In this exercise we will create a line list using an Electronic Immunization Registry.
+In this demo we will create a line list using an Electronic Immunization Registry.
 
 Open the table "EPI - BCG Dose by Sex (List)" in the Event Report App in order to review the final output.
 
@@ -303,7 +345,7 @@ and download the list
 
 ![ev_download](resources/images/event_visualizer/ev_download_menu.png)
 
-#### STOP - Perform Exercise 2
+#### STOP - Perform Exercise 3
 
 ### In the Line List app, review the Line List interface
 
@@ -439,7 +481,7 @@ This will depend on if you selected event or enrollment as the input type.
 
 ### Create a line list program using Input : Event
 
-In this exercise we will create a line list using the Malaria case notification, investigation and response program.
+In this demo we will create a line list using the Malaria case notification, investigation and response program.
 
 You can open the existing line list "MAL CS - Temp Evalulation/Travel History"
 
@@ -476,7 +518,7 @@ Click on update. You will see the line list for a single stage.
 
 ![](resources/images/linelist/tempsingleev.png)
 
-#### STOP! Have them perform Exercise 3 
+#### STOP! Have them perform Exercise 4 
 
 ### Create a list type event report for a repeatable stage using the Electronic Immunization Registry
 
@@ -556,7 +598,7 @@ When we make this update, the number of records shown changes. This occurs becau
 
 >Note: there is an enhanced feature in the Line list app, with the help of which you can define the most recent events and the oldest events you want in the output.
 
-#### STOP - Perform Exercise 4
+#### STOP - Perform Exercise 5
 
 ### Create a line list program using repeated event data linked together
 
@@ -600,7 +642,7 @@ Once you Click on update, you will see the below observation.
  
 The advantage of this output is that we can have information from repeated events on a single line. This is different then when using the event input type, which lists repeated events on seperate lines.
 
-#### STOP! Have them perform Exercise 5
+#### STOP! Have them perform Exercise 6
 
 ### Create a line list program using Input : Enrollment
 
@@ -648,7 +690,7 @@ To evaluate data across the stages we will select the following data dimensions:
 
 ![](resources/images/linelist/enrollnew4.png)
 
-#### STOP! Have them perform Exercise 6
+#### STOP! Have them perform Exercise 7
 
 ### Create a line list program using legends
 
@@ -707,7 +749,7 @@ You can also see the legend key is you select show legend key on the side bar.
 
 ![](resources/images/linelist/legendimage6.png)
 
-#### STOP! Have them perform Exercise 7
+#### STOP! Have them perform Exercise 8
 
 ## Assignment
 
