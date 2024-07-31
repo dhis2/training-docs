@@ -650,7 +650,7 @@ You can open the already existing linelist "CBS - Patient Details (Enrollment)" 
 
 Follow the steps to create this line list 
 
-1. Click on Input and Select Enrollement
+1. Click on Input and Select Enrollment
 
    ![](resources/images/linelist/enroll1.png)
 

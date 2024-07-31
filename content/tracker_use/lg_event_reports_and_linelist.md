@@ -254,7 +254,7 @@ Perform this exercise in the line listing app.
 
 Follow the steps to create this line list 
 
-- Input -  Enrollement
+- Input -  Enrollment
 
    ![](resources/images/linelist/enroll1.png)
 
