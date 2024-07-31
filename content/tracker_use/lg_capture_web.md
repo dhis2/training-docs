@@ -8,12 +8,15 @@ This guide contains all exercises and detailed steps to perform them related to 
 
 The overall objective of this session is to learn how to use the DHIS2 capture app to enter tracker data. Detailed objectives include:
 
-* Understand how to select the correct program
-* Understand the layout and options of capture app
-* Understand how to register a TEI
-* Understand how to fill in program stage details
-* Demonstrate how to search for a TEI in capture app
-* Demonstrate how skip-logic can be used in a program
+- Understand how to select the correct program
+- Understand the layout and options of capture
+- Understand how to register a Tracked entity instance (TEI)
+- Understand how to fill in program stage details
+- Demonstrate how to search for a TEI
+- Demonstrate how to create relationships within capture
+- Understand how skip-logic can be used in a tracker program
+- Understand how to enroll a TEI in multiple programs
+- Demonstrate how referrals and transfer work
 
 ## Exercise 1
 
