@@ -352,21 +352,29 @@ STOP
 
 ## PART 5
 
-New Features in latest version
+New Features in latest version 3.0
 
 ### Line list 
 
 The DHIS2 Android App can now render analytics that have been created in the line listing app.Analytics to be displayed require to be configured using the Android Settings WebApp where administrators will be able to decide the tables to be displayed for end users.
 
-To configure analytics open the Android Settings WebApp on your DHIS2 server and follow the steps below:
-- Select Home or Program from the Analytics menu
-- Select the visualization type "Event visualization"
-- Click on the "Add Visualization" button
-- Search by typing the name of the visualization and select it by clicking on it
-- Add an alternative title, otherwise, the app will display the name of the visualization
-- In the app, the users will be able to search by period, Org. unit, or any of the columns added in the Line List.
+![login1](images/exploreandroid/images/linelist.png)
 
+### Database export and import
 
+Users can export an encrypted local database for troubleshooting, allowing admins to import the exact environment. This aids in diagnosing sync issues and ensuring data integrity. Access to the exported database requires credentials for security.
+
+![login1](images/exploreandroid/images/exportdb.png)
+
+### Custom icons
+
+You can now upload custom icons to expand beyond the built-in icon library, which is ideal for non-health-related or specialized icon needs. The DHIS2 Android Capture app displays these icons, which are configured via the DHIS2 Maintenance web app.
+
+_NOTE: This is only functional with DHIS2 version 2.41 and above_
+
+### Support for customized tracker terminology
+
+DHIS2 now allows customizing Tracker terminology like “event” and “enrollment” to replace with terms that are more familiar to end users. Admins can configure it per program via the Maintenance App, and the Android Capture App reflects these custom terms.
 
 ### Error Navigation
 
