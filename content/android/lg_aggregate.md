@@ -58,7 +58,8 @@ The icons by the dataset refer to if its been completed or now. Green checkmarks
 ### Navigation Bar:
 
 The navigation bar can be used to switch between the data entry and the overview screen
-    ![](images/datasets/image21.png)
+
+  ![](images/datasets/image21.png)
    
 The overview tab contains the following details:
 
@@ -70,7 +71,7 @@ The overview tab contains the following details:
 * Category option combo
 * Refresh button (To trigger a granular synchronization)
 
-  ![](images/datasets/image30.png)            
+![](images/datasets/image30.png)            
 
 ### Saving a Data Set
 
@@ -113,7 +114,7 @@ Now try to save the dataset and run the validation rules on the device.
 
 * An error dialog will appear once you try to save and the dataset will not be marked as complete. The description and instructions of the validation rule will be displayed to help the user identify the error.
 
-![](images/datasets/image4.png)
+  ![](images/datasets/image4.png)
 
 **_NOTE: When completing a dataset, there is an option "Complete allowed only if validation passes". In this scenario, the validation rules will be run even if the user says "No" to the prompt "Do you want to check data quality." In this case, the validation rules must all pass in order to save the dataset._**
 
@@ -198,7 +199,7 @@ Please follow the steps to re-open the data set.
 
 ### STOP - End Exercise 4
 
-## Part 5 - New Features in DHIS2 Android Version 2.8.2
+## Part 5 - New Features in DHIS2 Android Version 2.8.2 version and above
 
 ### Resizing Column and Headers
 
