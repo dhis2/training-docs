@@ -75,7 +75,7 @@ The results will show their record because you are using a unique ID
 
 #### Date Picker
 
-Open the record and edit their details by selecting "Open Child Details"
+Open the record and edit their details by selecting "Edit Child"
 
 ![edit_details](images/vizconfig/edit_details.png)
 
