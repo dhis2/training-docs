@@ -26,7 +26,7 @@ This guide contains all exercises and detailed steps to perform them related to 
 4. Select the Immunization Program
 5. You will see the list of all entities/child who are enrolled in the specific program that you have selected (This is called as Event listing for event and tracker programs)
 
-  ![](images/tracker/image8.png)
+   ![](images/tracker/image8.png)
 
 - Review the ”Bottom Navigation Bar” (The bottom navigation bar allows switching the visualization mode of the program if the event or tracker program have been defined with coordinates). We will discuss this in detail in another session.
 
@@ -40,7 +40,7 @@ The first step is to SEARCH the TEI based on the searchable attributes to make s
     
 ![](images/tracker/image9.png)
 
-1. To Register a New Child , Click on Create New
+1. To Register a New Child , Click on + New Child
  
    ![](images/tracker/image7.png)
 
@@ -131,7 +131,7 @@ On the map view of the program (you have to select this map view from the event 
 * TEI cards on the carousel follow the same design as the TEI list view.
 * When scrolling horizontally the carousel, the map zooms into the selected coordinates. If the coordinate field is empty a message is shown instead.
 
-![](images/tracker/image13.png)
+  ![](images/tracker/image13.png)
 
 **TEI Card Design** will display as much information as possible considering the constraints of screen size.
 
@@ -173,11 +173,13 @@ Share a TEI : The "Share" button has been removed from the TEI dashboard and the
 
 Complete/Deactivate Enrollment : To complete or deactivate an enrollment, click on three dot menu in the upper right corner and select "Complete" or "Deactivate"
 
-TEI enrollment history and new enrollment (Program Enrollment) : Users can see the complete historical records of the TEI. Clicking on the upper right corner menu, select "Program Enrollments". A list of "Active enrollments" will be displayed, followed by a list of "Past enrollments" (completed or canceled), followed by the programs in which the TEI could be enrolled. Users can also return to the "TEI Dashboard" without any program' by selecting "All enrollments".
+Mark for follow-up : This is to mark the TEI for a follow-up session.
+
+(Program Enrollment) TEI enrollment history and new enrollment  : Users can see the complete historical records of the TEI. Clicking on the upper right corner menu, select "Program Enrollments". A list of "Active enrollments" will be displayed, followed by a list of "Past enrollments" (completed or canceled), followed by the programs in which the TEI could be enrolled. Users can also return to the "TEI Dashboard" without any program' by selecting "All enrollments".
 
 Delete TEI's & Enrollments : To delete a TEI or an enrollment, select the desired option in the three dots menu of TEI dashboard. Local TEI or Enrollments will be deleted from the database. Records that has been previously synced with the server will be marked for deletion if the user has the following authorities:
 
 * F_ENROLLMENT_CASCADE_DELETE
 * F_TEI_CASCADE_DELETE
 
-Group view of Program stages in TEI Dashboard : The TEI Dashboard offers the possibility to change the list of events from the chronological view to a stage grouping view. The stage grouping view will group and collapse the events per program stage. Each program stage group can be expanded by the user and the events will be displayed chronologically.
+Group view of Program stages in TEI Dashboard or Show Events Timeline : The TEI Dashboard offers the possibility to change the list of events from the chronological view to a stage grouping view. The stage grouping view will group and collapse the events per program stage. Each program stage group can be expanded by the user and the events will be displayed chronologically and if you select Show Events timeline it will show all the events as per the events date the data has been entered in each stage or multiple events in one program stage.
