@@ -33,7 +33,7 @@ In the current setup you can see all of the options are enabled.
 
 * Disable the filter Assigned to me and Save.
 
-![remove_assignedtome](images/androidsettingswebapp/remove_assignedtome.png)
+  ![remove_assignedtome](images/androidsettingswebapp/remove_assignedtome.png)
   
 * Now Go to the Android App and sync your changes (make sure you go to Settings -> Sync Configuration now, to sync the changes that were done in the Android settings web app)
 * Now go to the Home Screen.You will see the below screen with only the Date, Org Unit and Sync options in the filter.
@@ -69,12 +69,12 @@ To add a program specific setting:
 
 * Click on _Add a Program Settings_, and a dialog will appear.
 
-![](images/androidsettingswebapp/image11.png)
+  ![](images/androidsettingswebapp/image11.png)
  
 * Click on the dropdown that will show a list of programs.
 * Clicking on a program will show the different filters to configure.
 
-![](images/androidsettingswebapp/image10.png)
+  ![](images/androidsettingswebapp/image10.png)
 
 TEI without searching: Offer online and offline search, as well as allowing the user to create a TEI without a prior search.
 

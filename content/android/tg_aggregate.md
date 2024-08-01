@@ -38,7 +38,7 @@ Make sure that you have the app made for training purposes otherwise you will no
 ![trainingapk](images/general/training_apk.png)
 
 
-# Projecting your Android Device
+## Projecting your Android Device
 
 The instructor will have to decide on which method they would like to use to mirror the android app on their computer screen. They will also have to set up a user account (if it doesn’t exist already) that is assigned to the same org unit as the program they are demonstrating.
 
@@ -80,13 +80,13 @@ Some participants may not have been able to install the app by themselves. In th
 4. Explain the Navigation Bar
 5. Save the data
 6. Go to Validation rules configured in web instance
-7. Show how the validation works in android device and how to 
+7. Show how the validation works in android device 
 
+## Live Demo
 
+### Part 1 - Navigation and Saving a Data Set
 
-## Part 1 - Navigation and Saving a Data Set
-
-### Home Page:
+#### Home Page:
 
 * Log in to the DHIS2 Android App
 * Once you Log - in the Home Page can be seen.
@@ -105,7 +105,7 @@ Some participants may not have been able to install the app by themselves. In th
 
 The icons by the dataset refer to if its been completed or now. Green checkmark indicates it has been completed.
 
-### Data Entry
+#### Data Entry
 
 * To start entering data for a new period, Click on the + icon in the lower right side corner.
 
@@ -129,7 +129,7 @@ The icons by the dataset refer to if its been completed or now. Green checkmark 
 
    ![](images/datasets/image11.png)
 
-### Navigation Bar:
+#### Navigation Bar:
 
 The navigation bar can be used to switch between the data entry and the overview screen
 
@@ -147,7 +147,7 @@ The overview tab contains the following details:
 
 ![](images/datasets/image30.png)            
 
-### Saving a Data Set
+#### Saving a Data Set
 
 Now to save the data you can click on the SAVE button in the lower right corner.
 
@@ -161,7 +161,7 @@ Now to save the data you can click on the SAVE button in the lower right corner.
 
 ### STOP - Perform Exercise 1
 
-## Part 2 - Validation rules 
+### Part 2 - Validation rules 
 
 **Validation rules and completion of data sets are integrated in the save button actions.**
 
@@ -198,7 +198,7 @@ Now try to save the dataset and run validation rules on the device.
 
 ### STOP - Perform Exercise 2
 
-## Part 3 - Offline and Data Sync
+### Part 3 - Offline and Data Sync
 
 **Before performing this demo trainers need to turn off the internet connection. After they turn off the internet, log out of the account.**
 
@@ -222,7 +222,7 @@ Now try to save the dataset and run validation rules on the device.
 
    ![](images/datasets/image9.png)
 
-### Data Entry
+#### Data Entry
 
 * To start entering data for a new period,Click on the + icon in the extreme right side corner.
 * Click on the Report Period and Select the month and year for new data to be entered for a new period.
@@ -254,9 +254,9 @@ This shows that data is stored locally on this device.
 
   ![](images/datasets/image9.png)
 
-### STOP - Perform Exercise 3
+#### STOP - Perform Exercise 3
 
-## Part 4 - Re-open a Completed Data Set
+### Part 4 - Re-open a Completed Data Set
 
 Once the data is saved you can re-open the data set, if the user has access.
 
@@ -276,7 +276,7 @@ Please follow the steps to re-open the data set.
 
    ![](images/datasets/image26.png)
 
-## Part 5 - New Features in DHIS2 Android Version 2.8 and above version
+### Part 5 - New Features in DHIS2 Android Version 2.8 and above version
 
 ### Resizing Column and Headers
 

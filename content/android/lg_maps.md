@@ -15,7 +15,7 @@ This guide contains all exercises and detailed steps to perform them related to 
 - Open the immunization program from the android home screen
 - Select the map icon within the event line list page for this program
 
-![open_maps](images/geospatial/open_maps.png)
+  ![open_maps](images/geospatial/open_maps.png)
 
 This will display all of the enrollments stored on device withi coordinates. In this case, we can see coordinates are spread out a bit. Let us zoom in on Lao
 
@@ -84,17 +84,6 @@ These coordinates are configured via the tracked entity type.
 
 ![](images/geospatial/image9.png)
 
-To do this you have two options
-
-![](images/geospatial/image12.png)
-
-
-1. The First option will select the exact latitude and longitude based on your current location.
-
-2. The Second option will open the map where you can select the location of your choice and Save it.
-
-![](images/geospatial/image5.png)
-
 #### STOP - End Exercise 2
 
 ## Exercise 3 - Program Stage Coordinates
@@ -129,8 +118,6 @@ This is also configured while designing the program. In this case we have set an
 
 ![](images/geospatial/image8.png)
 
-* The First option will select the exact latitude and longitude of the device
-* The Second option will open the map where you can select the location of your choice and Save it
 
 #### STOP - End Exercise 3
 
