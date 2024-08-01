@@ -13,6 +13,8 @@ This guide contains all exercises and detailed steps to perform them related to 
 
 Let us create the program indicator to display the change in weight for the immunization program.
 
+***Use the account details that allow you to edit metadata for your program***
+
 Navigate to maintenance -> Indicator -> Program Indicator and select the plus sign.
 
 The program indicator tab is seperated into 3 tabs:

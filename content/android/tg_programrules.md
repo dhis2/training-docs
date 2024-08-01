@@ -129,6 +129,10 @@ If you modify the value to be <=37, then this message will no longer appear.
 
 In this session we will focus on how we have configured the above program rule in the DHIS2 web interface.
 
+> **Note:**
+> 
+> This program rule will already exist, so you should consider deleting it, along with the variables if using the same program to demonstrate it.
+
 1. Connect to the DHIS2 web instance with your Administrator account and go to Maintenance -> Program
 
 2. Explain the left menu and how this session focuses on

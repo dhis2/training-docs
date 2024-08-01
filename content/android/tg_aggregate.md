@@ -63,6 +63,7 @@ More information on enabling this is available. [Click Here](https://developer.a
 Ensure that there is a user account assigned to a lower level set of org units at the facility level within Lao PDR that you can use prior to performing this session. If the participants are following along, ensure that there are user accounts for them to use as well assigned to lower level organization units. The demo user account is:
 
 Username: android
+
 Password: Android123!
 
 ## Participants
@@ -131,7 +132,8 @@ The icons by the dataset refer to if its been completed or now. Green checkmark 
 ### Navigation Bar:
 
 The navigation bar can be used to switch between the data entry and the overview screen
-    ![](images/datasets/image21.png)
+
+![](images/datasets/image21.png)
    
 The overview tab contains the following details:
 
@@ -143,7 +145,7 @@ The overview tab contains the following details:
 * Category option combo
 * Refresh button (To trigger a granular synchronization)
 
-  ![](images/datasets/image30.png)            
+![](images/datasets/image30.png)            
 
 ### Saving a Data Set
 
@@ -163,7 +165,9 @@ Now to save the data you can click on the SAVE button in the lower right corner.
 
 **Validation rules and completion of data sets are integrated in the save button actions.**
 
-NOTE: To explain validation rules the trainers need to add some data values which will give some validation errors.
+> **NOTE:** 
+> 
+> To explain validation rules the trainers need to add some data values which will give some validation errors.
 
 Before this lets understand how we have designed a validation rule in the web application, and how a data set can be configured to save only if the validation rule passes. 
 

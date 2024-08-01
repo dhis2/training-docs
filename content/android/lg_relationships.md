@@ -120,6 +120,8 @@ In order to go back to list view from the map, select the list view icon from th
 
 Before we get into managing and creating a new relationship, it is useful to understand how a TE types configuration affects how relationships will function on android.
 
+***Log in via the administrator android account that has been assigned to you***
+
 Navigate to maintenance -> program -> tracked entity type to get to the tracked entity types page and select the "Child" TE type.
 
 There are two main items we want to discuss here
