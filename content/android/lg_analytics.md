@@ -17,18 +17,17 @@ In this exercise you will know how the automatically generated TEI analytics wor
 
 1. Open the Android app using your android user and go to your program (called "[User XX] Immunization").
 
-2. Try to search an existing Child whose Local ID is AX6789UserXX. If the Child does not exist, open another existing Child and create 2 Immunization events with values for, at least, weight, height and temperature.
+2. Try to search an existing Child whose Child Number is 9859. If the Child does not exist, open another existing Child and create 2 Immunization events with values for, at least, weight, height and temperature.
 
 4. Then, open the Analytics tab for this Child.
 
-![automatic1](images/analytics/automatic1.png)
+   ![automatic1](images/analytics/automatic1.png)
 
 5. Explore the automatically generated visualizations.
 
-![automatic2](images/analytics/automatic2.png)
+   ![automatic2](images/analytics/automatic2.png)
 
 #### STOP - End Exercise 1
-
 
 ## Exercise 2 - Configure a table to show the evolution of weight values
 
@@ -38,30 +37,30 @@ In this exercise you will create a custom TEI analytic table to show the evaluat
    
 2. Navigate to Analytics > TEI and click on "Add TEI Analytics".
 
-![tei_table1](images/analytics/tei_table1.png)
+   ![tei_table1](images/analytics/tei_table1.png)
 
 3. Fill out the form with the information for the TEI analytics:
     - Program: the program assigned to your user.
     - Program stage: the "Immunization" program stage (the only one in the list as it only shows repeatable stages).
     - Analytics chart title: choose a title for your table.
-    - Visualization Type: pivot table.
+    - Visualization Type: Line chart.
     - Period type: daily.
     - Element type: data element.
     - Element: Weight (in kg).
 
 4. Click on "Add TEI analytics".
 
-![tei_table2](images/analytics/tei_table2.png)
+   ![tei_table2](images/analytics/tei_table2.png)
 
 5. Click on "Save" (**it is important to Save your work**).
 
 6. In your Android app, go to Settings and Sync configuration.
 
-![tei_table3](images/analytics/tei_table3.png)
+   ![tei_table3](images/analytics/tei_table3.png)
 
 7. Once it is finished, go to an existing TEI in your program ("[User XX] Immunization") and explore the TEI analytics. Notice that automatic analytics are gone.
 
-![tei_table4](images/analytics/tei_table4.png)
+   ![tei_table4](images/analytics/tei_table4.png)
 
 #### STOP - End Exercise 2
 
@@ -94,7 +93,7 @@ In this exercise you will create a chart with the WHO nutrition background. This
 
 7. Once it is finished, go to an existing TEI in your program ("[User XX] Immunization") and explore the TEI analytics.
 
-![who1](images/analytics/who1.png)
+   ![who1](images/analytics/who1.png)
 
 #### STOP - End Exercise 3
 
@@ -106,17 +105,18 @@ In this exercise you will explore the visualizations assigned to the datasets an
 
 2. Click on the analytics tab at the bottom menu.
 
-![explore_dataset1](images/analytics/explore_dataset1.png)
+   ![explore_dataset1](images/analytics/explore_dataset1.png)
 
 3. Explore the analytics charts displayed. 
 
 4. Change the chart type by clicking on the three dots in the top-right corner. For example, change the chart type to table.
 
-![explore_dataset2](images/analytics/explore_dataset2.png)
+   ![explore_dataset2](images/analytics/explore_dataset2.png)
 
 5. Modify the period to filter the data of the last 3 months. Check how the chart changes the values
 
-![explore_dataset3](images/analytics/explore_dataset3.png)
+   ![explore_dataset3](images/analytics/explore_dataset3.png)
+   ![explore_dataset3](images/analytics/explore_dataset4.png)
 
 #### STOP - End Exercise 4
 
@@ -128,7 +128,7 @@ In this exercise you will assign an existing visualization to the DataSet analyt
 
 2. Navigate to Analytics > Data set and click on "Add Data set visualization".
 
-![dataset1](images/analytics/dataset1.png)
+   ![dataset1](images/analytics/dataset1.png)
 
 3. Fill out the form with the information for the new data set visualization:
     - Dataset: NUT - Nutrition facility (monthly)
@@ -136,7 +136,7 @@ In this exercise you will assign an existing visualization to the DataSet analyt
     - Use a visualization group
     - Create a new visualization group: ANC Contact
 
-![dataset2](images/analytics/dataset2.png)
+   ![dataset2](images/analytics/dataset2.png)
 
 4. Click on "Add Data set visualization".
 
@@ -146,7 +146,7 @@ In this exercise you will assign an existing visualization to the DataSet analyt
 
 7. Once it is finished, go to "NUT - Nutrition facility (monthly)" and check the newly added chart.
 
-![dataset3](images/analytics/dataset3.png)
+   ![dataset3](images/analytics/dataset3.png)
 
 #### STOP - End Exercise 5
 

@@ -254,7 +254,7 @@ To show Filters for Tracker Capture Program : Trainers can click on Immunization
 Filters have been added to the TEI dashboard. It is possible to filter the events of a Tracked Entity Instance enrollment per period, organisation unit, sync status, event status, and user assignment.
 
 
-![login1](images/exploreandroid/images/teifilter.png)
+![login1](images/exploreandroid/images/trackerfilter.png)
 
 ### SORTING
 

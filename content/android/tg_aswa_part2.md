@@ -9,9 +9,10 @@ This guide is a support document for DHIS2 Android Academy trainers for the sess
 
 ## Learning objectives for this session
 
-* How to Install the Android Settings Web App
-* How to navigate through the Android Settings Web App
-* Understand different features for the web App
+The overall objective of this session is to demonstrate how to use 
+
+1. Describe how analytics work in the Android app.
+2. Demonstrate how to configure and display analytics in the Android app.
 
 ## Time needed for this session
 
@@ -27,110 +28,179 @@ The Android Settings Web App
 
 The configuration parameters defined within this web app will overwrite the settings of all Android devices using the DHIS2 Android Capture App.
 
-## Part 1: TEI Analytics configuration
+In our first session we have already talked about how to  install the app for "Android settings web app".
 
-TEI Analytics manage Tracked Entity Instance (TEI) analytics for tracker program.
+Lets understand how we can configure and display analytics in android app.
 
-To add analytics (Bar chart, line chart, pivot tableor single value type) for TEI 
+## Part 1: Explore the automatically generated TEI analytics
 
-* Click on Add TEI Analytics
+In this section you will know how the automatically generated TEI analytics work and the information they display.
 
-  ![](images/androidsettingswebapp/teianalytics.png)
+1. Open the Android app using your android user and go to your program (called "[User XX] Immunization").
 
-A window will pop-up,now you need to select,
+2. Try to search an existing Child whose Child Number is 9859. If the Child does not exist, open another existing Child and create 2 Immunization events with values for, at least, weight, height and temperature.
 
-* Select Program , in this case we will select Immunization program.
+4. Then, open the Analytics tab for this Child.
 
-* Select program stage - Immunization
+   ![automatic1](images/analytics/automatic1.png)
 
-* Give name and short name to the analytics chart title: Weight
+5. Explore the automatically generated visualizations.
 
-* Select Visualization type : Line chart
-
-* Select period type : Quarterly
-
-* Select visualization element type : Data Element
-
-* Select Data Element : Weight in (kg)
-
-* Click on Add Analytics
-
-  ![](images/androidsettingswebapp/addteianalytics.png)
-
-This will be listed under TEI Analytics section
-
-![](images/androidsettingswebapp/addteianalytics1.png)
-
-* Now Go to the Android App and sync your changes (make sure you go to Settings -> Sync Configuration now, to sync the changes that were done in the Android settings web app)
-
-* Now go to the Immunization program.
-
-* Select any child,click on the Analytics tab,you will see the below screen with all the analysis you have added for TEI.
-
-  ![](images/androidsettingswebapp/androidtei.png)
+   ![automatic2](images/analytics/automatic2.png)
 
 ### STOP : Perform Exercise 1
 
-## PART 2: Home Analytics configuration
+## Part 2: TEI Analytics configuration
 
-Manage visualization for Home Screen in Android App.
+create a custom TEI analytic table to show the evaluation of the particular data element. This exercise requires using the Android Settings Web App, please remember to take turns to modify it.
 
-* Select Home under Analytics tab
+1. Open the Android Settings Web App.
+   
+2. Navigate to Analytics > TEI and click on "Add TEI Analytics".
 
-* Click on "Add Home Visualization"
+   ![tei_table1](images/analytics/tei_table1.png)
 
-* Select the visualization type from the list
+3. Fill out the form with the information for the TEI analytics:
+    - Program: the program assigned to your user.
+    - Program stage: the "Immunization" program stage (the only one in the list as it only shows repeatable stages).
+    - Analytics chart title: choose a title for your table.
+    - Visualization Type: Line chart.
+    - Period type: daily.
+    - Element type: data element.
+    - Element: Weight (in kg).
 
-_Note: From 2.40 version you can now select two different types of visualization_
+4. Click on "Add TEI analytics".
 
-  1. Event visualization
-  2. Data visualization
+   ![tei_table2](images/analytics/tei_table2.png)
 
-   ![](images/androidsettingswebapp/homeanalytics.png)
+5. Click on "Save" (**it is important to Save your work**).
 
-* Select Visualization type : Data visualization
+6. In your Android app, go to Settings and Sync configuration.
 
-* Select Visualization item : NUT - Growth Monitoring
+   ![tei_table3](images/analytics/tei_table3.png)
 
-  ![](images/androidsettingswebapp/homeviz.png)
+7. Once it is finished, go to an existing TEI in your program ("[User XX] Immunization") and explore the TEI analytics. Notice that automatic analytics are gone.
 
-* Add an alternative title, otherwise, the app will display the name of the visualization.By default, the app will enable the group visualization setting.
-
-* Create a new group: A free text box will pop-up to type the name or
-
-* Select a created group visualization: Choose an option from the list to add the visualization or
-Disable the group visualization by clicking on the checkbox.
-
-* Click on the "Add Home Visualization" button.
-
-* Click on "Save"
-
-  ![](images/androidsettingswebapp/homesave.png)
-
-* Now Go to the Android App and sync your changes (make sure you go to Settings -> Sync Configuration now, to sync the changes that were done in the Android settings web app)
-
-* In the Home Screen, select the analytics tab
-
-  ![](images/androidsettingswebapp/homeanalytics1.png)
-
-* You will see the below screen with all the analysis you have added for Home.
-
-  ![](images/androidsettingswebapp/homeanalytics2.png)
-
-
-
-    NOTE: For each visualization object, the user will be able to filter in the app by:
-
-    1. Period: Daily, Weekly, Monthly, Yearly, This Quarter, Last Quarter, Last 4 Quarters and Quarter this year.
-
-    2. OrgUnit: Select "All" to display all the org units available to the user or "Selection" to specify one or multiple org units.
-
-    Check the sharing settings of the visualization. The android users must have read access in order to download it. Use the “Visualization user test” functionality to test it.
+   ![tei_table4](images/analytics/tei_table4.png)
 
 ### STOP : Perform Exercise 2
 
-You can also perform the similar steps to add visulaization in Program and Datasets in Android settings web app.
-## PART 3: 
+## Part 3: Configure a WHO nutrition chart in TEI Analytics
 
+In this section you will create a chart with the WHO nutrition background. This chart requires some configuration to make the relation between your existing data elements and the information expected by the WHO nutrition chart. Remember to take turns to use the Android Settings Web App.
 
+1. Open the Android Settings Web App.
 
+2. Navigate to Analytics > TEI and click on "Add TEI Analytics".
+
+3. Fill out the form with the information for the TEI analytics:
+    - Program: the program assigned to your user.
+    - Program stage: the "Immunization" program stage (the only one in the list as it only shows repeatable stages).
+    - Analytics chart title: choose a title for your table.
+    - Visualization Type: WHO nutrition
+    - WHO visualization type: Weight for Height
+    - **Important:** there is a bug that makes the chart title to be erased after clicking on "WHO nutrition". Make sure the title is not left blank. 
+    - Gender attribute: Sex
+    - Female title: F
+    - Male title: M
+    - Horizontal (x) axis: DataElement - NUTR - Height/Length (cm) 
+    - Horizontal (y) axis: DataElement - Weight (in kg)
+
+4. Click on "Add TEI analytics".
+
+5. Click on "Save" (**it is important to Save your work**).
+
+6. In your Android app, go to Settings and Sync configuration.
+
+7. Once it is finished, go to an existing TEI in your program ("[User XX] Immunization") and explore the TEI analytics.
+
+![who1](images/analytics/who1.png)
+
+### STOP : Perform Exercise 3
+
+## Part 4: Explore Dataset Analytics
+
+Explore the visualizations assigned to the datasets and the information they display.
+
+1. Open the Android app using your android user and go to the Data Set "NUT - Nutrition facility (monthly)".
+
+2. Click on the analytics tab at the bottom menu.
+
+   ![explore_dataset1](images/analytics/explore_dataset1.png)
+
+3. Explore the analytics charts displayed. 
+
+4. Change the chart type by clicking on the three dots in the top-right corner. For example, change the chart type to table.
+
+   ![explore_dataset2](images/analytics/explore_dataset2.png)
+
+5. Modify the period to filter the data of the last 3 months. Check how the chart changes the values
+
+   ![explore_dataset3](images/analytics/explore_dataset3.png)
+   ![explore_dataset3](images/analytics/explore_dataset4.png)
+
+### STOP : Perform Exercise 4
+
+## Part 5 : Dataset Analytics configuration
+
+In this section you will assign an existing visualization to the DataSet analytics. 
+
+1. Open the Android Settings Web App.
+
+2. Navigate to Analytics > Data set and click on "Add Data set visualization".
+
+   ![dataset1](images/analytics/dataset1.png)
+
+3. Fill out the form with the information for the new data set visualization:
+    - Dataset: NUT - Nutrition facility (monthly)
+    - Visualization item: ANC Contact in facility
+    - Use a visualization group
+    - Create a new visualization group: ANC Contact
+
+   ![dataset2](images/analytics/dataset2.png)
+
+4. Click on "Add Data set visualization".
+
+5. Click on "Save" (**it is important to Save your work**).
+
+6. In your Android app, go to Settings and Sync configuration.
+
+7. Once it is finished, go to "NUT - Nutrition facility (monthly)" and check the newly added chart.
+
+   ![dataset3](images/analytics/dataset3.png)
+
+### STOP : Perform Exercise 5
+
+## Part 6 : Create a visualization and assign it to Home
+
+Create a new visualization and assign it to your offline analytics.
+
+1. Go to Data Visualizer app and create a new Visualization will the following parameters:
+
+    - Data Element: NUT - Antenatal contact in facility
+    - Organisation Unit: User organisation unit
+    - Period: last 12 months
+
+2. Save the visualization including your user name so it can be easily identified, something such as "ANC Contacts in facility".
+
+   ![visualization1](images/analytics/visualization1.png)
+
+3. Change the sharing settings of the visualization to Public.
+
+   ![visualization2](images/analytics/visualization2.png)
+
+   ![visualization3](images/analytics/visualization3.png)
+
+4. Go the Android Settings Web App and click on Analytics > Home. Then, click on "Add Home Visualization".
+
+   ![visualization4](images/analytics/visualization4.png)
+
+5. From here, the process is very similar to adding a DataSet analytics. Select your recently created visualization and add it to the home. **Important:** take turns to do these changes in the Android Settings Web app.
+
+6. Go to your Android App and synchronize your configuration.
+
+7. In the home screen, verify that the Analytics tab is displayed. If you cannot see the Analytics tab after sync, try closing the app and opening it again. It might happen that the home screen doesn't refresh immediately.
+
+   ![visualization5](images/analytics/visualization5.png)
+
+### STOP - End Exercise 6
