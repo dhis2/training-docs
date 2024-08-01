@@ -64,7 +64,7 @@ d. Enter the define program rule actions tab
 
 ## Exercise 2: Program rule review in Andriod 
 
-1. Log in into the Android device.
+1. Log in into the Android device, ***using the android that allows you to access your program***
 2. Perform a **metadata synchronisation** to retrieve the changes made on the web app by going to the Menu (upper left corner) > Settings > Sync configuration > Sync configuration now. 
 _This retrieves the latest metadata updates from the server_
 

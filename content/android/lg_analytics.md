@@ -15,11 +15,11 @@ The overall objective of this session is to demonstrate how to use
 
 In this exercise you will know how the automatically generated TEI analytics work and the information they display.
 
-1. Open the Android app using your android user and go to your program (called "[User XX] Immunization").
+1. Open the Android app using the demo android user (android/Android123!) and go to the Immunization program
 
 2. Try to search an existing Child whose Child Number is 9859. If the Child does not exist, open another existing Child and create 2 Immunization events with values for, at least, weight, height and temperature.
 
-4. Then, open the Analytics tab for this Child.
+3. Then, open the Analytics tab for this Child.
 
    ![automatic1](images/analytics/automatic1.png)
 
@@ -46,7 +46,7 @@ In this exercise you will create a custom TEI analytic table to show the evaluat
     - Visualization Type: Line chart.
     - Period type: daily.
     - Element type: data element.
-    - Element: Weight (in kg).
+    - Element: Temperature.
 
 4. Click on "Add TEI analytics".
 
@@ -58,7 +58,7 @@ In this exercise you will create a custom TEI analytic table to show the evaluat
 
    ![tei_table3](images/analytics/tei_table3.png)
 
-7. Once it is finished, go to an existing TEI in your program ("[User XX] Immunization") and explore the TEI analytics. Notice that automatic analytics are gone.
+7. Once it is finished, register a new TEI. Add at least 2 immunization events and fill in the temperature field. From here, navigate to the analytics tab to see the temperature table being made.
 
    ![tei_table4](images/analytics/tei_table4.png)
 
@@ -101,7 +101,7 @@ In this exercise you will create a chart with the WHO nutrition background. This
 
 In this exercise you will explore the visualizations assigned to the datasets and the information they display.
 
-1. Open the Android app using your android user and go to the Data Set "NUT - Nutrition facility (monthly)".
+1. Open the Android app using the demo android user and go to the Data Set "NUT - Nutrition facility (monthly)".
 
 2. Click on the analytics tab at the bottom menu.
 
