@@ -59,6 +59,10 @@ For this academy, we recommend having 1 dedicated instance for the training team
 
 There are several exercises where the participants will need to make system wide changes to the instance using the android settings web app and APK web distribution app. In addition to this, each participant will need a copy of their own metadata (programs/datasets) in order to work through a number of the exercises and assignments. As a result, we recommend that you create instances at a ratio of 5:1 (5 participants to 1 instance). So if you have 30 participants in your academy, then you should create 6 participant instances. This way, groups of 5 can work on together on any exercise using the android settings web app/apk distribution app. You will also have the cloned metadata distributed across several instances, rather then being all in one instance (however this part is optional -- you could have them perform any type of configuration changes etc. all in the same instance if you prefer.)
 
+> **Important**
+>
+> We suggest that you you deploy one copy of the instance, then follow the instructions in the ***Cloning metadata and accounts*** section BEFORE deploying all of the instances you need. This is so you only need to perform the cloning process once instead of several times.
+
 ### App installation
 
 Make sure that you install both the Android settings web app and the APK web distribution app to your instance. 
@@ -137,7 +141,7 @@ Data element check
 ![](images/academy_setup/clone_program.png)
 
 1. Access program from the left side menu
-2. Select the [COPY] Immunization program
+2. Select the [COPY] Immunization program. This a copy of main Immunization program, but several elements, such as program rules and indicators that the participant needs to configure, have been deleted.
 3. Add in a prefix
 4. Leave the idx at 0-0 (this will just make one account for testing)
 5. Select "Android User" as the user template
@@ -168,5 +172,8 @@ Data element check
 
 ![](images/academy_setup/de_tracker_check.png)
 
+### Finalizing the cloning process
+
+Once you have created your test accounts and verified everything is working as its supposed to, proceed to create the actual number of cloned users/copies of metadata that you need. So for example, if you need 5 total users, you can enter the same parameters, starting the idx at 1 and ending the idx at 4 to create 4 users in addition to the test user/copy of the metadata you have made.
 
 ## Instructing on which accounts to use
