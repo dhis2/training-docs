@@ -12,7 +12,25 @@ The overall objective of this session is to demonstrate how to use
 
 2. Validation rules and its importance
 
+## Account Details
+
+***You can either use the android demo account, or your account to access a data set, in order to complete all of these exercises.***
+
+Demo account
+
+Username: android
+
+Password: Android123!
+
 ## Exercise 1 - Navigation and Saving a Data Set
+
+***You can either use the android demo account, or your account to access a data set.***
+
+Demo account
+
+Username: android
+
+Password: Android123!
 
 ### Home Page:
 

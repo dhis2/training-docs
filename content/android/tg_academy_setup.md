@@ -127,8 +127,46 @@ Dataset check
 
 Data element check
 
-
 ![](images/academy_setup/de_agg_check.png)
+
+### Creating a test acount - Programs
+
+- Have your master instance ready
+- Access the cloning metadata tool app
+
+![](images/academy_setup/clone_program.png)
+
+1. Access program from the left side menu
+2. Select the [COPY] Immunization program
+3. Add in a prefix
+4. Leave the idx at 0-0 (this will just make one account for testing)
+5. Select "Android User" as the user template
+6. Give the user a password
+7. Assign the following roles:
+   1. Analytics (allows access to analytics apps)
+   2. Data Entry - Android (allows them to enter data)
+   3. Metadata (allows them to edit metadata in the maintenance app)
+
+![](images/academy_setup/clone_program2.png)
+
+1. The program dependencies section denotes what is being cloned. Make sure you also clone the data elements and option sets.
+2. The sharing settings shows you what sharing settings will be applied to the new users. This is so the users can edit the new metadata that is created.
+3. Select clone when you are ready to create the account.
+4. When it is finished cloining, all your previous selections will be removed.
+
+Now, check your user, program, etc.
+
+User check:
+
+![](images/academy_setup/program_user.png)
+
+Program check
+
+![](images/academy_setup/program_check.png)
+
+Data element check
+
+![](images/academy_setup/de_tracker_check.png)
 
 
 ## Instructing on which accounts to use

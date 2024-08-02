@@ -15,23 +15,29 @@ The overall objective of this session is to demonstrate how to use
 
 In this exercise you will know how the automatically generated TEI analytics work and the information they display.
 
-1. Open the Android app using the demo android user (android/Android123!) and go to the Immunization program
+1. Open the Android app using your user and go to the Demo Immunization (ie. ***not*** your  program)
 
-2. Try to search an existing Child whose Child Number is 9859. If the Child does not exist, open another existing Child and create 2 Immunization events with values for, at least, weight, height and temperature.
+2. Search an existing Child whose Child Number is 9859.
 
 3. Then, open the Analytics tab for this Child.
 
    ![automatic1](images/analytics/automatic1.png)
 
-5. Explore the automatically generated visualizations.
+4. Explore the automatically generated visualizations.
 
    ![automatic2](images/analytics/automatic2.png)
 
 #### STOP - End Exercise 1
 
-## Exercise 2 - Configure a table to show the evolution of weight values
+## Exercise 2 - Configure a chart to show the evolution of weight values
 
-In this exercise you will create a custom TEI analytic table to show the evaluation of the particular data element. This exercise requires using the Android Settings Web App, please remember to take turns to modify it.
+***This exercise must be performed in groups. You can use the ADMIN account for the system to perform these exercises***
+
+Username : android.admin
+
+Password : District1#
+
+In this exercise you will create a custom TEI analytic table to show the evolution of a particular data element (weight). This exercise requires using the Android Settings Web App, please remember to take turns to modify it.
 
 1. Open the Android Settings Web App.
    
@@ -58,13 +64,19 @@ In this exercise you will create a custom TEI analytic table to show the evaluat
 
    ![tei_table3](images/analytics/tei_table3.png)
 
-7. Once it is finished, register a new TEI. Add at least 2 immunization events and fill in the temperature field. From here, navigate to the analytics tab to see the temperature table being made.
+7. Once it is finished, register a new TEI. Add at least 2 immunization events and fill in the weight and temperature fields. From here, navigate to the analytics tab to see the temperature and weight visualizations being made.
 
    ![tei_table4](images/analytics/tei_table4.png)
 
 #### STOP - End Exercise 2
 
 ## Exercise 3 - Configure a WHO nutrition chart
+
+***This exercise must be performed in groups. You can use the ADMIN account for the system to perform these exercises***
+
+Username : android.admin
+
+Password : District1#
 
 In this exercise you will create a chart with the WHO nutrition background. This chart requires some configuration to make the relation between your existing data elements and the information expected by the WHO nutrition chart. Remember to take turns to use the Android Settings Web App.
 
@@ -91,7 +103,7 @@ In this exercise you will create a chart with the WHO nutrition background. This
 
 6. In your Android app, go to Settings and Sync configuration.
 
-7. Once it is finished, go to an existing TEI in your program ("[User XX] Immunization") and explore the TEI analytics.
+7. Once it is finished, go to an existing TEI in your program and explore the TEI analytics.
 
    ![who1](images/analytics/who1.png)
 
@@ -101,7 +113,7 @@ In this exercise you will create a chart with the WHO nutrition background. This
 
 In this exercise you will explore the visualizations assigned to the datasets and the information they display.
 
-1. Open the Android app using the demo android user and go to the Data Set "NUT - Nutrition facility (monthly)".
+1. ***Open the Android app using android user for datasets*** and go to the Data Set "NUT - Nutrition facility (monthly)".
 
 2. Click on the analytics tab at the bottom menu.
 
@@ -121,6 +133,12 @@ In this exercise you will explore the visualizations assigned to the datasets an
 #### STOP - End Exercise 4
 
 ## Exercise 5 - Assign a DataSet visualization
+
+***This exercise must be performed in groups. You can use the ADMIN account for the system to perform these exercises***
+
+Username : android.admin
+
+Password : District1#
 
 In this exercise you will assign an existing visualization to the DataSet analytics. **Important:** this exercise must be done once per instance, which means all of you in the same table must cooperate and do the exercise together only once.
 
@@ -152,6 +170,12 @@ In this exercise you will assign an existing visualization to the DataSet analyt
 
 ## (Optional) Exercise 6 - Create a visualization and assign it to Home
 
+***This exercise must be performed in groups. You can use the ADMIN account for the system to perform these exercises***
+
+Username : android.admin
+
+Password : District1#
+
 In this exercise you will create a new visualization and assign it to your offline analytics.
 
 1. Go to Data Visualizer app and create a new Visualization will the following parameters:
@@ -174,6 +198,8 @@ In this exercise you will create a new visualization and assign it to your offli
 ![visualization4](images/analytics/visualization4.png)
 
 5. From here, the process is very similar to adding a DataSet analytics. Select your recently created visualization and add it to the home. **Important:** take turns to do these changes in the Android Settings Web app.
+
+***Login in to the android app using your user for datasets***
 
 6. Go to your Android App and synchronize your configuration.
 

@@ -12,6 +12,12 @@ This guide contains all exercises and detailed steps to perform them related to 
 
 ## Exercise 1 - Interface Review and Showing enrollments on a map
 
+***Perform this exercise accessing the DEMO program***
+
+Username: android
+
+Password: Android123!
+
 - Open the immunization program from the android home screen
 - Select the map icon within the event line list page for this program
 
@@ -55,7 +61,7 @@ In this session our main objective is to understand how to add coordinates in th
 
 ### TEI coordinates
 
-***This is for your information***
+***Perform this exercise using the account made to access YOUR PROGRAM***
 
 You can Capture the TEI coordinates in the registration form of the Immunization program. To get this feature we need to enable this feature in the tracked enity type (TET) feature type (for this demo it has already been configured for Immunization program).
 
@@ -94,7 +100,7 @@ This is also configured while designing the program. In this case we have set an
 
 ### Web Configuration:
 
-* Connect to the web with the Administrator account and go to Maintenance > Program
+* Connect to the web with the Administrator account assigned to you that can access YOUR PROGRAM and go to Maintenance > Program
 * Immunization Program and Program Stages
 * Select your Immunization Program based on the user assignment provided to you
 * Select Feature type as point

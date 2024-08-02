@@ -12,6 +12,8 @@ This guide contains all exercises and detailed steps to perform them related to 
 
 ## Exercise 1 - Review visual data entry in Android
 
+***Perform this exercise using the DEMO program***
+
 In order to review visual data entry, you can search for an existing case or register a new record. 
 
 After you have accessed an existing or new child, add or edit the event for the birth details stage. The date of the event can be the same as their date of birth.
@@ -37,6 +39,8 @@ You can expand each of the 4 sections in order to review how these different lay
 
 ## Configuration Guidance
 
+***Perform this exercise using the admin account to access YOUR PROGRAM***
+
 In order to visually configure data elements with option sets, we can follow this procedure:
 
 1. Add icons and colours to each option within an option set
@@ -44,6 +48,8 @@ In order to visually configure data elements with option sets, we can follow thi
 3. Configure the program stages to use either the matrix or sequential layout rendering type
 
 ### Editing option sets
+
+To perform this exercise, use the account assigned to you to access YOUR PROGRAM.
 
 Lets start by editing our option sets.
 
@@ -97,7 +103,7 @@ Select the pencil icon in order to edit this section
 
 ![edit_program_section](images/vizentry/edit_program_section.png)
 
-We can see that the mobile render type is set to "Matrix." This will render this options in quadrants as per our table within the presentation for this session. 
+Set the mobile render type to "Matrix." This will render this options in quadrants as per our table within the presentation for this session. 
 
 ### Sync and review changes on the device
 
@@ -117,6 +123,6 @@ Give the device a moment to sync. You will see a sync status icon in your device
 
 Once this is finished, navigate back to the program to view the change you have made.
 
-If we re-examine the birth detailsstage and open the "Place" section, we will see the home icon has been updated with a new icon and colour scheme.
+If we re-examine the birth details stage and open the "Place" section, we will see the home icon has been updated with a new icon and colour scheme.
 
 ![viz_conf_updated](images/vizentry/viz_conf_updated.png)

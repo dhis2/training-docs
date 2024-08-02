@@ -14,6 +14,8 @@ This guide contains all exercises and detailed steps to perform them related to 
 
 ### Adding relationships via search
 
+***Perform this exercise using the DEMO program***
+
 To start the relationships session, add a new person to the immunization program.
 
 When you are enrolling the new person, make sure you select enrollment coordinates. These will be important later on when you map the relationships.
@@ -74,6 +76,8 @@ If you select a TEI from the list you will be taken back to the relationships pa
 
 ## Exercise 2 - Interacting with relationships
 
+***Perform this exercise using the DEMO program***
+
 From the relationships page, you are able to interact with these TEIs. If you select one of the TEIs
 
 ![TEI_select](images/relationships/TEI_select.png)
@@ -115,6 +119,8 @@ In order to go back to list view from the map, select the list view icon from th
 #### STOP - Complete Exercise 2
 
 ## Exercise 3 - Configuring Relationships
+
+***Perform this exercise using the account made for YOUR PROGRAM***
 
 ### Tracked Entity Type
 

@@ -35,7 +35,7 @@ There are different elements on an Android device we can review as it relates to
 - They items that appear here must configured to appear on the tracker dashboard by an administrator, they will not appear automatically.
 
 ## Reviewing home and program specific dashboards
-
+https://www.trainingmagnetwork.com/
 - Dashboards can be configured at both the home and program level by a user with the 'ALL' authority. 
 - You can access these dashboards through the analytics tab either in the home screen of the android app or the program screen after accesing a program.
 - These analytics can be grouped together. You can select the dashboard you want to review by scrolling through them and selecting the one you want to review.

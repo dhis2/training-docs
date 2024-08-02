@@ -10,6 +10,12 @@ This guide contains all exercises and detailed steps to perform them related to 
 * Describe how to navigate through the Android Settings Web App
 * Demonstrate how to alter the appearance of the programs and data sets using the the Android Settings Web App
 
+***This exercise must be performed in groups. You can use the ADMIN account for the system to perform these exercises***
+
+Username : android.admin
+
+Password : District1#
+
 ## Exercise 1: Installation of the Android Setting Web App
 
 To use the Android Settings Web App you need to first install the app by going to DHIS2 web interface

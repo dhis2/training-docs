@@ -16,7 +16,7 @@ This guide contains all exercises and detailed steps to perform them related to 
 
 In this session we will focus on how we have configured the above program rule in the DHIS2 web interface.
 
-1. Connect to the DHIS2 web instance with your Administrator account and go to Maintenance -> Program
+1. Connect to the DHIS2 web instance with your Administrator account for YOUR PROGRAM and go to Maintenance -> Program
 
 2. Explain the left menu and how this session focuses on
     1. Program rule
@@ -44,13 +44,13 @@ In this session we will focus on how we have configured the above program rule i
     c. Select the program rule expression tab
 
     4. Define the condition as temperature >37. 
-    _Explain that the condition needs to be something which is true or false, that the box underneath can help and that there are some differences between web and Android that are listed in the documentation.[Click Here](https://docs.dhis2.org/en/full/use/dhis2-android-app.html#capture_app_pr)_
+    _Explain that the condition needs to be something which is true or false, that the box underneath can help and that there are some differences between web and Android that are listed in the documentation. [Click Here](https://docs.dhis2.org/en/full/use/dhis2-android-app.html#capture_app_pr)_
 
 d. Enter the define program rule actions tab
 
 1. Create a new program rule action by clicking on the (+) button. _Explain that a program rule can trigger multiple program rule actions_
 
-2. Define the action as "Show error". _Explain that these actions are the list of possible actions but are not covered here and that students can go to the documentation. Also explain that some might be not supported in Android as listed in the documentation.[Click Here](https://docs.dhis2.org/en/full/use/dhis2-android-app.html#capture_app_pr)_
+2. Define the action as "Show error". _Explain that these actions are the list of possible actions but are not covered here and that students can go to the documentation. Also explain that some might be not supported in Android as listed in the documentation. [Click Here](https://docs.dhis2.org/en/full/use/dhis2-android-app.html#capture_app_pr)_
 
 3. Choose the Temperature data element from the drop down "Data element to display error next to". _Explain that some actions (show warming, show error, etc) will require an element where the information should be displayed. In this case we select the data element which triggered the error but could also be an attribute or a widget (for some cases)._
 
@@ -64,7 +64,7 @@ d. Enter the define program rule actions tab
 
 ## Exercise 2: Program rule review in Andriod 
 
-1. Log in into the Android device, ***using the android that allows you to access your program***
+1. Log in into the Android device, ***using the account that allows you to access your program***
 2. Perform a **metadata synchronisation** to retrieve the changes made on the web app by going to the Menu (upper left corner) > Settings > Sync configuration > Sync configuration now. 
 _This retrieves the latest metadata updates from the server_
 

@@ -11,6 +11,12 @@ This guide contains all exercises and detailed steps to perform them related to 
 
 ## Exercise 1: Installation of the APK Distribution Web App
 
+***This exercise must be performed in groups. You can use the ADMIN account for the system to perform these exercises***
+
+Username : android.admin
+
+Password : District1#
+
 To use the APK Distribution Web App you need to first install the app by going to DHIS2 web interface
 
 * Go to Search Bar and Search for the App Management app
@@ -33,6 +39,12 @@ Select "Set defaults and save."
 ### STOP - End Exercise 1
 
 ## Exercise 2: Modifying the app version that is downloaded
+
+***This exercise must be performed in groups. You can use the ADMIN account for the system to perform these exercises***
+
+Username : android.admin
+
+Password : District1#
 
 ### Upload version
 

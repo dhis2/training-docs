@@ -35,21 +35,17 @@ If you modify these settings they will be reflected in the android application.
 
 #### Program Colours
 
+***Use the demo program for this review***
+
 In order to display various options for program colours, we will edit an existing child in the immunization program.
 
 Select the immunization program.
 
 Note that the colour of this program changes to blue, because the program specific color has been set to blue.
 
-You could further demo this by changing over to another dataset or program.
-
 Blue colour for Immunization
 
 ![blue_immunization](images/vizconfig/blue_immunization.jpg)
-
-Purple colour for Child Nutrition Tracker
-
-![purple_NUT](images/vizconfig/purple_NUT.jpg)
 
 #### QR Reader
 
@@ -117,9 +113,13 @@ For datasets you can do this in dataset maintenance.
 
 ![dataset_icon_colour](images/vizconfig/dataset_icon_colour.png)
 
+**You will need to use your dataset account to access datasets in maintenance**
+
 For programs you can do this within the "Program details" tab of program maintenance
 
 ![program_icon_colour](images/vizconfig/program_icon_colour.png)
+
+***You will need to use YOUR PROGRAM account to view your program in maintenance***
 
 ### QR Codes
 
@@ -131,7 +131,7 @@ TEAs or DEs must be set the the value type of "TEXT" or you will not be able to 
 
 If you check the Local ID TEA value type it will be set to text.
 
-Next, we have to navigate to our tracker program in maintenance. The example we are using is a TEA, so select the Immunization program and navigate to the "Attributes" section of the program. Here we can see the list of attributes assigned to the along with the render type for both mobile and desktop. 
+Next, we have to navigate to ***your tracker program*** in maintenance. The example we are using is a TEA, so select the Immunization program assigned to you and navigate to the "Attributes" section of the program. Here we can see the list of attributes assigned to the along with the render type for both mobile and desktop. 
 
 ![mobile_rendering](images/vizconfig/mobile_rendering.png)
 

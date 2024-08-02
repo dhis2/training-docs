@@ -1,4 +1,4 @@
-# Trainer’s Guide on Android Settings Web App Part-2
+# Trainer’s Guide - Offline Analytics
 
 ## What is this guide?
 
@@ -36,15 +36,15 @@ Lets understand how we can configure and display analytics in android app.
 
 In this section you will know how the automatically generated TEI analytics work and the information they display.
 
-1. Open the Android app using your android user and go to your program (called "[User XX] Immunization").
+1. Open the Android app using your android user and go to the demo program (***not*** your program)
 
 2. Try to search an existing Child whose Child Number is 9859. If the Child does not exist, open another existing Child and create 2 Immunization events with values for, at least, weight, height and temperature.
 
-4. Then, open the Analytics tab for this Child.
+3. Then, open the Analytics tab for this Child.
 
    ![automatic1](images/analytics/automatic1.png)
 
-5. Explore the automatically generated visualizations.
+4. Explore the automatically generated visualizations.
 
    ![automatic2](images/analytics/automatic2.png)
 
@@ -52,7 +52,7 @@ In this section you will know how the automatically generated TEI analytics work
 
 ## Part 2: TEI Analytics configuration
 
-create a custom TEI analytic table to show the evaluation of the particular data element. This exercise requires using the Android Settings Web App, please remember to take turns to modify it.
+Create a custom TEI analytic table to show the evaluation of the particular data element. This exercise requires using the Android Settings Web App, please remember to take turns to modify it.
 
 1. Open the Android Settings Web App.
    

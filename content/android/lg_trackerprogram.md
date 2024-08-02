@@ -13,6 +13,16 @@ This guide contains all exercises and detailed steps to perform them related to 
 4. Demonstrate how to add and edit program stage/event data on Android
 5. Describe additional features that are available from within the TEI dashboard and Android homescreen
 
+## Account Details
+
+***You can either use the android demo account, or your account to access a PROGRAM, in order to complete all of these exercises.***
+
+Demo account
+
+Username: android
+
+Password: Android123!
+
 ## Exercise 1: Navigation of the program
 
 ### Log-in, Home Page and Event Listing
