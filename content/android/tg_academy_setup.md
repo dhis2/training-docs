@@ -175,5 +175,3 @@ Data element check
 ### Finalizing the cloning process
 
 Once you have created your test accounts and verified everything is working as its supposed to, proceed to create the actual number of cloned users/copies of metadata that you need. So for example, if you need 5 total users, you can enter the same parameters, starting the idx at 1 and ending the idx at 4 to create 4 users in addition to the test user/copy of the metadata you have made.
-
-## Instructing on which accounts to use
