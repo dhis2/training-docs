@@ -51,7 +51,7 @@ Password : District1#
 Follow the steps below to upload an Android app version:
 
 * Click on Upload new version button.
-* Assign a version number. Be very careful that the version number matches exactly. If you want to use 2.8.2, enter the full numbers. For 2.9, enter 2.9 ONLY!
+* Assign a version number. Be very careful that the version number matches exactly. If you want to use 2.8.2, enter the full numbers. For 3.0 , enter 3.0 ONLY!
 * Choose the minimum and/or recommend Android OS version.
 * Add a URL that contains the APK of the Android app.
 * Click on the "Create app version" button.
@@ -60,11 +60,11 @@ Follow the steps below to upload an Android app version:
 ![](images/apk/uploadversion.png)
 
 So in this case we want to upgrade a to new version -
-2.9
+3.0
 
 So, for this we will follow the below steps:
 
-* In the **Version** we will add latest version - 2.9
+* In the **Version** we will add latest version - 3.0
 * You need to add a **Minimum Android version** that the app should support which is 5.0.2
 * In the **Recommended Android vesrion** we will add 8.0
 * In **Download URL** - you can go use 
@@ -95,8 +95,6 @@ To remove an Android App version:
 Now that you have set a new version of the DHIS2 android app on your device, log back in to your android device. 
 
 You will receive a notification that a software update is available.
-
-![upgrade_notice](images/apk/upgrade_notice.png)
 
 If you select download now, it will download the apk file and you can install it on the device.
 
