@@ -100,8 +100,6 @@ Now that you have set a new version of the DHIS2 android app on your device, log
 
 You will receive a notification that a software update is available.
 
-![upgrade_notice](images/apk/upgrade_notice.png)
-
 If you select download now, it will download the apk file and you can install it on the device.
 
 If you do not receive this notification, you can navigate to the settings page on the android app and select "Software update"
