@@ -132,7 +132,7 @@ When thinking about technolgies to use when delivering our learning solution, th
 
 #### Technology that will help us facilitiate our training
 
-To support learning solutions, a number of tools can be used. This is not an exhaustive list, but may be worth reviewing depending on your needs. Note that these tools are mainly used to facilitate training
+To support learning solutions, a number of tools can be used. This is not an exhaustive list, but may be worth reviewing depending on your needs. 
 
 Communication
 
