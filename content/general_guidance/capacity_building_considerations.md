@@ -146,7 +146,7 @@ Learning Management Systems (LMS)
 - [Moodle*](https://moodle.org/)
 - [OpenEdX](https://open.edx.org/)
 - [Blackboard](https://www.blackboard.com/)
-- [Google classroom](https://edu.google.com/intl/ALL_ca/)
+- [Google classroom*](https://edu.google.com/intl/ALL_ca/)
   
 eLearning authoring tools
 - [iSpring](https://www.ispringsolutions.com/)
