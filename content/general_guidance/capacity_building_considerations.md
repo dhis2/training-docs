@@ -126,6 +126,7 @@ After you have developed this list you will have to develop a training agenda (o
 ### Determine what technologies you will use to deliver your training (Assess Technology Fit)
 
 When thinking about technolgies to use when delivering our learning solution, there are 2 categories we can consider:
+
 1. Technology that will help us facilitiate our training
 2. Technology that is essential for us to meet our learning objective
 
@@ -133,36 +134,45 @@ When thinking about technolgies to use when delivering our learning solution, th
 
 To support learning solutions, a number of tools can be used. This is not an exhaustive list, but may be worth reviewing depending on your needs. Note that these tools are mainly used to facilitate training
 
-1. Communication
-   - [Zoom](https://zoom.us/)
-   - [Slack](https://slack.com/)
-   - [Teams](https://www.microsoft.com/en-ca/microsoft-teams/group-chat-software)
-   - [Gather](https://www.gather.town/)
-2. Learning Management Systems (LMS)
-   - [Moodle*](https://moodle.org/)
-   - [OpenEdX](https://open.edx.org/)
-   - [Blackboard](https://www.blackboard.com/)
-   - [Google classroom](https://edu.google.com/intl/ALL_ca/)
-3. eLearning authoring tools
-   - [iSpring](https://www.ispringsolutions.com/)
-   - [Articulate](https://articulate.com/)
-   - [Adobe Captivate](https://www.adobe.com/ca/products/captivate.html)
-4. Screen Recording
-   - [Open Broadcaster Software*](https://obsproject.com/)
-   - [Camtasia](https://www.techsmith.com/video-editor.html)
-   - [Chrome Autoscroll](https://chrome.google.com/webstore/detail/autoscroll/occjjkgifpmdgodlplnacmkejpdionan?hl=en)
-5. Image Capture/Editing Tools
-   - [Paint.net*](https://www.getpaint.net/)
-   - [Greenshot*](https://getgreenshot.org/)
-   - [Cleanshot X (Mac)]
-   - [Techsmith SnagIt]
-   - [Adobe PhotoShop]
-6. Polling Tools
-   - [Kahoot]
-   - [Mentimeter]
-   - [Google Forms]
+Communication
 
-\* = indicates an open source solution
+- [Zoom](https://zoom.us/)
+- [Slack](https://slack.com/)
+- [Teams](https://www.microsoft.com/en-ca/microsoft-teams/group-chat-software)
+- [Gather](https://www.gather.town/)
+  
+Learning Management Systems (LMS)
+
+- [Moodle*](https://moodle.org/)
+- [OpenEdX](https://open.edx.org/)
+- [Blackboard](https://www.blackboard.com/)
+- [Google classroom](https://edu.google.com/intl/ALL_ca/)
+  
+eLearning authoring tools
+- [iSpring](https://www.ispringsolutions.com/)
+- [Articulate](https://articulate.com/)
+- [Adobe Captivate](https://www.adobe.com/ca/products/captivate.html)
+
+Screen Recording
+- [Open Broadcaster Software*](https://obsproject.com/)
+- [Camtasia](https://www.techsmith.com/video-editor.html)
+- [Chrome Autoscroll](https://chrome.google.com/webstore/detail/autoscroll/occjjkgifpmdgodlplnacmkejpdionan?hl=en)
+
+Image Capture/Editing Tools
+- [Paint.net* (Windows)](https://www.getpaint.net/)
+- [Greenshot*](https://getgreenshot.org/)
+- [ScreentoGif* (Windows)](https://www.screentogif.com/)
+- [Giphy Capture* (Mac)](https://giphy.com/apps/giphycapture)
+- [Cleanshot X* (Mac)](https://cleanshot.com/)
+- [Pinta* (Mac)](https://www.pinta-project.com/)
+- [Techsmith SnagIt](https://www.techsmith.com/snagit)
+
+Polling Tools
+- [Kahoot](https://kahoot.com/)
+- [Mentimeter](https://www.mentimeter.com/app)
+- [Google Forms](https://www.google.ca/forms/about/)
+
+\* = indicates a free solution (or a free version is available)
 
 Any mix of these tools can be used based on your delivery method and material that you are designing. As a general rule, once you select a set of tools to facilitate your delivery method, it is a good idea to try and stick with them as it will become easier over time to work with them. As there is a combination of tools used for facilitation (such as a learning management or communication software) as well as content generation, different tools may be needed depending on where you are in your process. 
 
