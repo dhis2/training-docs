@@ -60,6 +60,7 @@ Note that an outcome from needs analysis is also to determine whether training i
 Learning objectives help us to frame our training and define what we would like to achieve as our training outcomes. This is the start of the design process and can be difficult to keep within a specific scope we require if we have identified gaps we want to address that do not relate to our immediate needs. This is especially true as there may be any number of constraints (time, staff availability, funding, learner capacity, etc.) limiting the amount of training you can offer at any one time. With this in mind, the learning objectives can help us narrow our focus, and also help us identify areas to address with potential training in the future.
 
 It is helpful to think of objectives with 3 predominant areas in mind:
+
 1. The condition (what will they be provided with)
 2. The performance (what will they be expected to do)
 3. The criteria (what is the measure of success)
@@ -286,6 +287,7 @@ Please contact us via the [DHIS 2 community](https://community.dhis2.org/) if yo
 ### Perform the Training
 
 A checklist prior to training a DHIS2 concept:
+
 * We have a clear understanding of the needs of our defined learning group
 * We have well defined learning objectives
 * We have decided what topics we will discuss 
