@@ -159,6 +159,8 @@ Screen Recording
 - [Open Broadcaster Software*](https://obsproject.com/)
 - [Camtasia](https://www.techsmith.com/video-editor.html)
 - [Chrome Autoscroll](https://chrome.google.com/webstore/detail/autoscroll/occjjkgifpmdgodlplnacmkejpdionan?hl=en)
+- [Snipping Tool (Windows)](https://www.microsoft.com/en-us/windows/learning-center/how-to-record-screen-windows-11)
+- [Quicktime (Mac)](https://support.apple.com/en-ca/102618)
 
 Image Capture/Editing Tools
 
@@ -169,6 +171,8 @@ Image Capture/Editing Tools
 - [Cleanshot X* (Mac)](https://cleanshot.com/)
 - [Pinta* (Mac)](https://www.pinta-project.com/)
 - [Techsmith SnagIt](https://www.techsmith.com/snagit)
+- [Snipping Tool (Windows)](https://www.microsoft.com/en-us/windows/learning-center/how-to-record-screen-windows-11)
+- [Quicktime (Mac)](https://support.apple.com/en-ca/102618)
 
 Polling Tools
 
