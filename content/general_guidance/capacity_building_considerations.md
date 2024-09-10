@@ -149,6 +149,7 @@ Learning Management Systems (LMS)
 - [Google classroom*](https://edu.google.com/intl/ALL_ca/)
   
 eLearning authoring tools
+
 - [iSpring](https://www.ispringsolutions.com/)
 - [Articulate](https://articulate.com/)
 - [Adobe Captivate](https://www.adobe.com/ca/products/captivate.html)
@@ -159,6 +160,7 @@ Screen Recording
 - [Chrome Autoscroll](https://chrome.google.com/webstore/detail/autoscroll/occjjkgifpmdgodlplnacmkejpdionan?hl=en)
 
 Image Capture/Editing Tools
+
 - [Paint.net* (Windows)](https://www.getpaint.net/)
 - [Greenshot*](https://getgreenshot.org/)
 - [ScreentoGif* (Windows)](https://www.screentogif.com/)
@@ -168,6 +170,7 @@ Image Capture/Editing Tools
 - [Techsmith SnagIt](https://www.techsmith.com/snagit)
 
 Polling Tools
+
 - [Kahoot](https://kahoot.com/)
 - [Mentimeter](https://www.mentimeter.com/app)
 - [Google Forms](https://www.google.ca/forms/about/)
