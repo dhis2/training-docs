@@ -180,7 +180,7 @@ Polling Tools
 
 Any mix of these tools can be used based on your delivery method and material that you are designing. As a general rule, once you select a set of tools to facilitate your delivery method, it is a good idea to try and stick with them as it will become easier over time to work with them. As there is a combination of tools used for facilitation (such as a learning management or communication software) as well as content generation, different tools may be needed depending on where you are in your process. 
 
-This is important to consider `before` you perform you develop your training content, as different software will have different capabilities that may be able to support you in delivering material in innovative ways. 
+This is important to consider `before` you develop your training content, as different software will have different capabilities that may be able to support you in delivering material in innovative ways. 
 
 #### Technology that is essential for us to meet our learning objective
 
