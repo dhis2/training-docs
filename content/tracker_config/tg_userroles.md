@@ -334,7 +334,7 @@ After logging in access the apps menu.
 
 We can already see an immediate difference here in the apps they can access.
 
-You can make an event report using some data from this month from the TB treatment card program to show they now have access to review the data.
+You can make an event report using some data from the TB treatment card program to show they now have access to review the data.
 
 ![](Images/userroles/image6.png)
 

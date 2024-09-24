@@ -217,7 +217,7 @@ Now that you have created the program indicator, it is a good idea to test if it
 Create a new pivot table with the following details
 
 * Data : the program indicator you made, the program indicator “Extra Pulmonary TB”
-* Period : This year
+* Period : Last year
 * Organisation Unit : Trainingland
 
 Click on update to verify that the values are equal in the indicators. This will provide some validation that the indicator is created correctly.
@@ -302,7 +302,7 @@ Now that you have created the program indicator, it is a good idea to test if it
 Create a new pivot table with the following details
 
 * Data : the program indicator you made, the program indicator “New, Pulmonary TB”
-* Period : This year
+* Period : Last year
 * Organisation Unit : Trainingland
 
 ### Click on update to verify that the values are equal in the indicators. This will provide some validation that the indicator is created correctly.
@@ -388,7 +388,7 @@ Now that you have created the program indicator, it is a good idea to test if it
 Create a new pivot table with the following details
 
 * Data : the program indicator you made, the program indicator “Treatment outcome - failure or death”
-* Period : This year
+* Period : Last year
 * Organisation Unit : Trainingland
 
 Click on update to verify that the values are equal in the indicators. This will provide some validation that the indicator is created correctly.
@@ -509,7 +509,7 @@ Now that you have created the program indicator, it is a good idea to test if it
 Create a new pivot table with the following details
 
 * Data : the program indicator you made, the program indicator “Hospitalized - Initial and Continuation”
-* Period : This year
+* Period : Last year
 * Organisation Unit : Trainingland
 
 Click on update to verify that the values are equal in the indicators. This will provide some validation that the indicator is created correctly.
@@ -688,7 +688,7 @@ Create a pivot table with the inputs:
     1. TB new cases (program indicator from TB treatment card)
     2. Total population (data element)
     3. TB Incidence per 100,000 (the indicator you just made)
-2. Period : Last year
+2. Period : 2022
 3. Org unit : Trainingland
 
 ![](Images/pi/image14.png)

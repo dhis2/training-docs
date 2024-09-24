@@ -48,7 +48,7 @@ Steps to be followed to Open the Capture app
     - Shared attributes will be carried over between programs. Add in any supplemental information and select "Save."
     - You will be taken to the tracker dashboard in the new program and the person is now enrolled.
 
-## Referrals and Transfere
+## Referrals and Transfer
 
 - You can create one-off events at another facility, refer a person to another facility one-time, or transfer a person permanently
   - One-off events at another location : Select a different organisation unit from the "Registering unit" drop down. Create your new event. It will be in the location you have selected.

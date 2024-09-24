@@ -10,9 +10,7 @@ This guide is a support document for DHIS2 Academy trainers for the session “P
 
 This guide will help the trainer​ prepare​​ for the live demo session. The “Live Demo step by step” section has a detailed walkthrough of all the steps to demonstrate with explanations and screenshots that should be easy to follow. Use that when preparing for the live demo session.
 
-There is also a Quick Guide which lists the steps very briefly and this is meant as a lookup
-
-guide or “cheatsheet” WHILE doing the demo, to help the trainer remember all the steps and the flow of the demo.
+There is also a Quick Guide which lists the steps very briefly and this is meant as a lookup guide or “cheatsheet” WHILE doing the demo, to help the trainer remember all the steps and the flow of the demo.
 
 **Background**
 
@@ -201,8 +199,8 @@ You will need to set the time when you want the messages delivered to the intend
 
 1. Navigate to the scheduler app
 
-![](Images/programnoti/image1.png)
+   ![](Images/programnoti/image1.png)
 
-2. Add in the details when you would like these sent out and click on “Add Job” in order to add this to the scheduler
+2. Add in the details when you would like these sent out and click on “New Job” in order to add this to the scheduler
 
-![](Images/programnoti/image16.png)
+   ![](Images/programnoti/image16.png)
