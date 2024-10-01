@@ -641,7 +641,7 @@ Create a pivot table with the inputs:
     1. TB new cases (program indicator from TB treatment card)
     2. Total population (data element)
     3. TB Incidence per 100,000 (the indicator you just made)
-2. Period : 2022
+2. Period : Last year
 3. Org unit : Trainingland
 
 ![](Images/pi/image14.png)
