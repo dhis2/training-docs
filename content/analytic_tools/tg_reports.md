@@ -10,11 +10,9 @@ There is also a Quick Guide which lists the steps very briefly and this is meant
 
 ## Learning objectives for this session
 
-1. Understand how to create charts in the Data Visualizer app
-2. Understand how to create data visualizer favourites and use these in Dashboards
-3. Understand how to download visualizations offline
-4. Discuss the appropriateness of various charts based on the data that you wish to display
-
+1. Understand how to create Reports
+2. How to apply filters parameters and time periods to get custom report outputs
+3. How to export and share reports 
 
 ## Time needed for this session
 
