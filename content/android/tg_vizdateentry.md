@@ -1,8 +1,8 @@
-# Trainer’s Guide to Android Visual Configuration
+# Trainer’s Guide to Visual data entry on an android device
 
 ## What is this guide?
 
-This guide is a support document for DHIS2 Academy trainers for the session "Visual Configuration.” This session follows the standard Academy training approach with
+This guide is a support document for DHIS2 Academy trainers for the session "Visual data entry on an android device.” This session follows the standard Academy training approach with
 
 1. a live demo session where the trainer demonstrate and explain the features, and 
    
@@ -29,6 +29,7 @@ Demo: 45 mins
 Ungraded Exercises: 45 mins
 
 ## Background
+The session demonstrates the process of using and configuring visual data entry within an Android-based data collection system, specifically in the context of managing and customizing program stages.
 
 ## Preparations
 
@@ -105,7 +106,7 @@ In order to demonstrate visual data entry, you can search for the case Jane Thom
 
 After you have accessed an existing or new child, add or edit the event for the birth details stage. The date of the event can be the same as their date of birth.
 
-![add_birth_event](images/vizentry/add_birth_event.png)
+   ![add_birth_event](images/vizentry/add_birth_event.png)
 
 There are 4 sections within this program stage.
 
