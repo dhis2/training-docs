@@ -25,6 +25,8 @@ Admins will be able to upload the desired version and users will get a prompt me
 
 Please note that in this version of the Web App, only users with "ALL" authority are able to define the Android app versions. Other users having access to the web app can see the version history list and download the latest version, but cannot edit them.
 
+Note: Versions may change over time. Please use the most up-to-date version when working on this session. The steps below are provided as an example.
+
 ## Part 1: Installation of the APK Distribution Web App
 
 To use the APK Distribution Web App you need to first install the app by going to DHIS2 web interface
