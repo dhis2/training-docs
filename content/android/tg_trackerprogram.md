@@ -133,6 +133,8 @@ To Register a New Child :
 
 2. In the Android app you need to select the organisation unit and the reporting date or the registration date (in this case Date first seen)
 
+   ![](images/tracker/ouselect.png)
+
    ![](images/tracker/image22.png)
 
 3. Next demo the enrolment data page that has been configured: followed by the attributes - child section.(Briefly describe the sections)
@@ -153,9 +155,9 @@ To Register a New Child :
 
 STAGE 1: Birth Details
 
-* To create a new event, the user needs to tap on the plus + icon beside the stage card follwed by "Add New" 
+* To create a new event, the user needs to tap on the plus + icon beside the stage card follwed by "Enter Event" 
 
-> Note: This icon is always visible unless the stage is non-repeatable and already created. When the user taps on the button, that program stage will unfold showing to the user all the already existing events of that particular program stage.
+> Note: This icon is always visible unless the stage is non-repeatable and already created. When the user taps on the button, that program stage will unfold showing to the user all the already existing events of that particular program stage. you also need to select which Facility are you entering data for
 
 ![](images/tracker/image6.png)
 
@@ -202,7 +204,7 @@ The percentage of data completed in each event is shown in the top right corner 
 
 ### Sections Navigations
 
-The sections can be collapsed for a simpler user experience. Sections in enrollment forms are also supported and are aligned with the design of the event sections.
+Sections in enrollment forms are also supported and are aligned with the design of the event sections.
 
 ### Error messages
 
@@ -258,15 +260,19 @@ THe relationships tab will be visible if the program relationships are not confi
 
 ### Additional features
 
+A revamped of the menus and navigation bar has been made to be more user-friendly and accessible. It includes a cleaner, more modern look that improves readability and usability. These updates are designed to provide a more efficient and enjoyable user experience.
+
 In the TEI Dashboard click on the three dots in the upper right corner and explain the following functionalities
 
 ![](images/tracker/image2.png)
 
-Share a TEI : The "Share" button has been removed from the TEI dashboard and the functionality to share a TEI through QR code has been relocated on the three vertical dot menu, at the top right corner of the screen.
+Refresh this record : Helps in refreshing the record after editing.
 
-Complete/Deactivate Enrollment : To complete or deactivate an enrollment, click on three dot menu in the upper right corner and select "Complete" or "Deactivate"
+Transfer : The transfer button has been moved to a more accessible location within the three dot menu in the TEI Dashboard, ensuring that users can easily find and initiate transfers without unnecessary navigation. New dialogs have also been introduced throughout the transfer process, providing clear, step-by-step guidance, ensuring that users understand each part of the process.
 
 Mark for follow-up : This is to mark the TEI for a follow-up session.
+
+Share a TEI : The "Share" button has been removed from the TEI dashboard and the functionality to share a TEI through QR code has been relocated on the three vertical dot menu, at the top right corner of the screen.
 
 (Program Enrollment) TEI enrollment history and new enrollment  : Users can see the complete historical records of the TEI. Clicking on the upper right corner menu, select "Program Enrollments". A list of "Active enrollments" will be displayed, followed by a list of "Past enrollments" (completed or canceled), followed by the programs in which the TEI could be enrolled. Users can also return to the "TEI Dashboard" without any program' by selecting "All enrollments".
 
@@ -274,6 +280,8 @@ Delete TEI's & Enrollments : To delete a TEI or an enrollment, select the desire
 
 * F_ENROLLMENT_CASCADE_DELETE
 * F_TEI_CASCADE_DELETE
+
+Complete/Deactivate Enrollment : To complete or deactivate an enrollment, click on three dot menu in the upper right corner and select "Complete" or "Deactivate"
 
 Group view of Program stages in TEI Dashboard or Show Events Timeline : The TEI Dashboard offers the possibility to change the list of events from the chronological view to a stage grouping view. The stage grouping view will group and collapse the events per program stage. Each program stage group can be expanded by the user and the events will be displayed chronologically and if you select Show Events timeline it will show all the events as per the events date the data has been entered in each stage or multiple events in one program stage.
 
