@@ -139,7 +139,7 @@ Tap on the child after you have found it
 
 ![find_child](images/relationships/find_child.png)
 
-This will take you back to the relationships list and you will see the child at the top of the list
+This will take you back to the relationships list and you will see the child in the existing relationship window
 
 ![relationships_list](images/relationships/relationships_list.png)
 
