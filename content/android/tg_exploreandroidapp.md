@@ -84,9 +84,13 @@ There are two ways to access the application:
 1. Manual: The user must have a corresponding URL of the server and enter username and password.
 2. QR: The user can use a QR code instead of typing the URL but username and password must be entered manually.
 
+*Note:* You will see the version details on top right corner.
+
    ![login1](images/exploreandroid/images/login1.png)
 
    ![login2](images/exploreandroid/images/login2.png)
+
+   Note: Please add correct QR code for the instance you are using
 
 ### Multi-user Account
 
@@ -221,7 +225,7 @@ Click on the Filter Menu buttion next to Refresh button at the Homescreen
 Filters can adapt based on the program and data sets:
 
 1. For Data set : Select NUT - Nutrition facility monthly dataset and then click on the filter icon.You will see filters: 
-
+                
    * Period
    * Org Unit
    * Sync State

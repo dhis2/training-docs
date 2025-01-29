@@ -157,12 +157,13 @@ Before understanding how its captured in the android device lets see how this is
 * Either Search for an existing child and select "Edit Child" or create a new child.
 
   ![](images/geospatial/image2.png)
-  ![](images/geospatial/image1.png)
+
   ![](images/geospatial/image13.png)
 
 * Review the coordinates field for the child. This is where we can assign the childs home location.
 
   ![](images/geospatial/image9.png)
+
 To do this you can click on add location
 
   This will select the exact latitude and longitude based on your current location.
@@ -192,11 +193,9 @@ This is also configured while designing the program. In this case we have set a 
 * Either Search for a tracked entity or Create a New Registration.
 
 ![](images/geospatial/image2.png)
-![](images/geospatial/image1.png)
-
 
 * Open the Immunization Stage
-* Click on Add New 
+* Click on Enter event
 
 ![](images/geospatial/image7.png)
 
