@@ -40,7 +40,7 @@ Android Release Cycles and Roadmap          | This is just a presentation. |
 
 The DHIS2 version is 2.40 latest patch
 
-The Android version is 3.0 latest patch
+The Android version is 3.1 latest patch
 
 The materials and tools have been tested against these versions, so use other versions at your own risk :smirk:
 
@@ -61,7 +61,7 @@ There are several exercises where the participants will need to make system wide
 
 > **Important**
 >
-> We suggest that you you deploy one copy of the instance, then follow the instructions in the ***Cloning metadata and accounts*** section BEFORE deploying all of the instances you need. This is so you only need to perform the cloning process once instead of several times.
+> We suggest that you deploy one copy of the instance, then follow the instructions in the ***Cloning metadata and accounts*** section BEFORE deploying all of the instances you need. This is so you only need to perform the cloning process once instead of several times.
 
 ### App installation
 
@@ -77,8 +77,7 @@ For this academy, you will need to create 2 accounts and sets of metadata for ea
 
 1. For the datasets
 2. For the programs
-
-We are working on improving the tool in a next release so 1 account will have access to both the programs and datasets, but this is a limitation for now. 
+3. For datasets and programs (Both together if users are same to reduce the time.)
 
 We suggest the following workflow for cloning your datasets and programs.
 
@@ -89,15 +88,19 @@ We suggest the following workflow for cloning your datasets and programs.
 3. Clone 1 test account for your program
    1. Check that everything works for this user that you have made
    2. If it works, create the actual number of accounts/duplicated metadata you need
-4. After you have made all of your cloned accounts and metadata take a backup of this database.
-5. Deploy this database as many times as you need depending on the number of groups you have made for your academy.
-6. Share the log in details of these accounts with each member of the group. They will have duplicated account names in the different groups, but because they are accessing them on different instances it will not matter!
+4. Clone 1 test account for your program and dataset if you know you have the same user account
+   1. Check that everything works for this user that you have made
+   2. If it works, create the actual number of accounts/duplicated metadata you need
+5. After you have made all of your cloned accounts and metadata take a backup of this database.
+6. Deploy this database as many times as you need depending on the number of groups you have made for your academy.
+7. Share the log in details of these accounts with each member of the group. They will have duplicated account names in the different groups, but because they are accessing them on different instances it will not matter!
 
 ### Creating a test acount - Datasets
 
 - Have your master instance ready
 - Access the cloning metadata tool app
 
+**Below are the steps that you will perform separately for cloning dataset and program**
 
 ![](images/academy_setup/clone_data_set.png)
 
@@ -171,6 +174,33 @@ Program check
 Data element check
 
 ![](images/academy_setup/de_tracker_check.png)
+
+### Creating a test account for both dataset and program together
+
+- Have your master instance ready
+- Access the cloning metadata tool app
+
+![](images/academy_setup/clone_program_dataset.png)
+
+1. Access Datset and program from the left side menu
+2. Select the [COPY] Immunization program and NUT - Nutrition facility monthly. This a copy of main Immunization program and Nutrition dataset, but several elements, such as program rules and indicators that the participant needs to configure, have been deleted.
+3. Add in a prefix
+4. Leave the idx at 0-0 (this will just make one account for testing) 
+5. Select "Android User" as the user template
+6. Give the user a password
+7. Assign the following roles:
+   1. Analytics (allows access to analytics apps)
+   2. Data Entry - Android (allows them to enter data)
+   3. Metadata (allows them to edit metadata in the maintenance app)
+
+![](images/academy_setup/clone_program3.png)
+
+1. The program dependencies section denotes what is being cloned. Make sure you also clone the data elements and option sets.
+2. The sharing settings shows you what sharing settings will be applied to the new users. This is so the users can edit the new metadata that is created.
+3. Select clone when you are ready to create the account.
+4. When it is finished cloining, all your previous selections will be removed.
+
+Now, check your user, program, etc.
 
 ### Finalizing the cloning process
 
