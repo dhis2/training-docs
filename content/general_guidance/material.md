@@ -8,7 +8,7 @@ Login to included databases via:
 
 ## Links to Materials
 
-| Course Name                         | Type                     | Last Updated | Materials Link                                                                                                                                             | Database Link |Database Version|
+| Course Name                         | Type                     | Last Updated | Materials Link                                                                                                                                             | Database Link |Version|
 |-------------------------------------|--------------------------|--------------|------------------------------------------------------------------------------------------------------------------------------------------------------------|---------------|----------------|
 | Visualizing Data in DHIS2           | Academy                  | 2025         | [Material Folder](https://drive.google.com/drive/folders/1wMrRWQCS0x0C62G3TuoRJ8tEo0VRr_kH?usp=drive_link)                                                 |[Download](https://academy.downloads.dhis2.org/Databases/2025/analytics_tools_master_238.sql.gz)               |40                |
 | Tracker Data Capture and Analysis   | Academy                  | 2024         | [Session Mapping](https://docs.google.com/spreadsheets/d/15Og9dTTMy7QN4Fg_pInW65-2jWLbMAiH/edit?usp=sharing&ouid=104677221247573000314&rtpof=true&sd=true) |[Download](https://academy.downloads.dhis2.org/Databases/2025/tracker_ca_master.sql.gz)               |40                |
